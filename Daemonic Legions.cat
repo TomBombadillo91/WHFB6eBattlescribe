@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7010-abfa-dde5-6873" name="Daemonic Legions" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7010-abfa-dde5-6873" name="Daemonic Legions" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="37ff-905c-0f6b-9742" name="Mark of Chaos Undivided" hidden="false"/>
     <categoryEntry id="452e-f479-2264-b39d" name="Mark of Tzeentch" hidden="false"/>
@@ -35,29 +35,26 @@
       </profiles>
       <rules>
         <rule id="e26a-df70-6e86-af9c" name="Whispers in the Darkness" hidden="false">
-          <description>All enemies suffer -1 on all attempts to rally. Enemies within 6&quot; of Be&apos;lakor suffer -1 to any Leadership-based tests they take (so an enemy within 6&quot; of Be&apos;lakor suffers -2 to rally!)</description>
+          <description>All enemies suffer -1 on all attempts to rally. Enemies within 6&quot; of Be&apos;lakor suffer -1 to any Leadership-based tests they take (so an enemy within G&quot; of Be&apos;lakor suffers -2 to rally!).</description>
         </rule>
         <rule id="fee8-1cb7-1589-3851" name="Eternal Terror" hidden="false">
-          <description>Be&apos;lakor causes Terror as described on page 81 of the Warhammer rulebook. However, so terrifiying is he that a unit must take a Terror test every time they are charged or wish to charge Be&apos;lakor, or if he is within 6&quot; of them at the start of their turn, even if they have already passed a Terror test earlier in the game.</description>
+          <description>Be&apos;lakor causes terror. However, so terrifying is he that a unit must take a Terror test every time they are charged or wish to charge Be&apos;lakor, or if he is within 6&quot; of them at the start of their turn, even if they have already passed a Terror test earlier in the game.</description>
         </rule>
         <rule id="0d8d-9fe6-7ebb-b26f" name="Night Wards" hidden="false">
-          <description>Any spell directed at Be&apos;lakor will Miscast on the roll of any double (if a spell is cast at him with Irresistible Force it will be cast with Irresistable Force, then the wizard will suffer an immediate Miscast)</description>
+          <description>Any spells directed at Be&apos;lakor will be Miscast on the roll of any double (if a spell is cast at him with Irresistible Force, it will be cast with Irresistible Force, then the wizard will suffer an immediate Miscast).</description>
         </rule>
         <rule id="e18b-befd-258d-4180" name="Shadow-shroud" hidden="false">
-          <description>All enemy shooting aimed at Be&apos;lakor or any unit in his army suffer -1 to hit.</description>
+          <description>All enemy shooting aimed at Be&apos;lakor, or any unit in his army, suffer -1 to hit.</description>
         </rule>
         <rule id="c72e-7d48-e9aa-3498" name="Insurmountable Rage" hidden="false">
-          <description>At the start of each turn, Be&apos;lakor must take a Leadership test - if this is failed then he must charge an enemy if there is one in range that he can see. If there are no valid enemies for him to charge, he must move towards the closest enemy model, stopping 1&quot; away from them if his movement would take him further.</description>
+          <description>At the start of each turn, Belakor must take a Leadership test - if this is failed, then he must charge an enemy if there is one in range that he can see. If there are no valid enemies for him to charge, he must move towards the closest enemy model, stopping 1&quot; away from them if his movement would take him further.
+
+Be&apos;lakor may re-roll all his failed rolls to hit, but must always pursue fleeing enemies that he breaks in combat.</description>
         </rule>
         <rule id="2801-d71e-ea72-effb" name="Master of the Shadows" hidden="false">
           <description>Be&apos;lakor is a Level 4 Wizard. He knows the following spells:
-- Bolt of Dark Light
-- Nightmare
-- Curse of the Dark Master
-- Fog of Death
-- Coils of the Serpent
 
-See Storm of Chaos page 26. for spell details.</description>
+Master of the Shadows Lore</description>
         </rule>
       </rules>
       <infoLinks>
@@ -484,7 +481,13 @@ See Storm of Chaos page 26. for spell details.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4dae-93c8-a5d5-6bee" type="max"/>
           </constraints>
           <rules>
-            <rule id="d676-459a-6bf3-ddcb" name="Greater Icon of Chaos" hidden="false"/>
+            <rule id="d676-459a-6bf3-ddcb" name="Greater Icon of Chaos" hidden="false">
+              <description>The Greater Icon of Chaos is the Daemonic equivalent of an army battle standard. It counts as a banner and it also allows Daemons within 12&quot; to re-roll the dice rolled for their Instability tests if the controlling player wishes. If the player decides to re-roll the Instability test, he must go with the second result, even if it&apos;s worse than the original one, as is normal with re-rolls.
+
+The model carrying the Greater Icon of Chaos can also be given a magic banner: either the banners in the Hordes of Chaos List, a War Banner from the Common Magic Items list or the Flesh Banner from the Beasts of Chaos book. Note that each banner&apos;s limitation still applies (for example, the bearer needs the Mark of Khorne to carry the Banner of Rage).
+
+The Banner of the Gods has a different effect when carried by a Daemonic Herald: the bearer and all friendly units within 6&quot; are under the effect of the rules for hatred against all enemies, even though otherwise Immune to Psychology.</description>
+            </rule>
           </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
@@ -603,6 +606,11 @@ See Storm of Chaos page 26. for spell details.</description>
           </constraints>
           <selectionEntries>
             <selectionEntry id="2cef-5fa8-3c8f-bd6f" name="Banner of the Gods" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="2342-01d0-3611-4ccf" name="Banner of the Gods" hidden="false">
+                  <description>Mark of Chaos Undivided only. All non-Daemonic friendly units within 6&quot; of the banner become Stubborn (even if normally Immune to Psychology).</description>
+                </rule>
+              </rules>
               <categoryLinks>
                 <categoryLink id="0f70-4897-94f4-5ae4" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
               </categoryLinks>
@@ -618,6 +626,11 @@ See Storm of Chaos page 26. for spell details.</description>
                   </conditions>
                 </modifier>
               </modifiers>
+              <rules>
+                <rule id="3c43-ddd3-56d8-ee1d" name="Banner of Rage" hidden="false">
+                  <description>Characters &amp; units with the Mark of Khorne only. The model and any unit they are with may re-roll failed Break tests and will not lose their frenzy if beaten in close combat.</description>
+                </rule>
+              </rules>
               <categoryLinks>
                 <categoryLink id="e11a-0d74-ae3f-bac0" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
               </categoryLinks>
@@ -633,6 +646,11 @@ See Storm of Chaos page 26. for spell details.</description>
                   </conditions>
                 </modifier>
               </modifiers>
+              <rules>
+                <rule id="affb-c437-8d5e-dcf9" name="Plague Banner" hidden="false">
+                  <description>Characters &amp; units with the Mark of Nurgle only. Any enemy model in contact with the banner bearer at the start of the Chaos Magic phase must pass a Toughness test or suffer a wound. Armour saves are not allowed. This banner has no effect on models with the Mark of Nurgle or Clan Pestilens Skaven.</description>
+                </rule>
+              </rules>
               <categoryLinks>
                 <categoryLink id="9bdf-42b2-e72c-0838" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
               </categoryLinks>
@@ -648,6 +666,11 @@ See Storm of Chaos page 26. for spell details.</description>
                   </conditions>
                 </modifier>
               </modifiers>
+              <rules>
+                <rule id="ddba-935a-4db3-893c" name="Blasted Standard" hidden="false">
+                  <description>Characters and units with the Mark of Tzeentch only. Bound Spell. Power level 4. The banner contains the bound Tzeentch spell Yellow Fire of Transformation.</description>
+                </rule>
+              </rules>
               <categoryLinks>
                 <categoryLink id="8760-0269-d955-95c8" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
               </categoryLinks>
@@ -656,6 +679,11 @@ See Storm of Chaos page 26. for spell details.</description>
               </costs>
             </selectionEntry>
             <selectionEntry id="dc1a-ab39-9263-1e17" name="Banner of Wrath" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="c00a-1fb1-b800-3bbc" name="Banner of Wrath" hidden="false">
+                  <description>Bound Spell. Power Level 4. The banner contains a bound magic missile with range 24&quot;, causing D6 Strength 4 hits.</description>
+                </rule>
+              </rules>
               <categoryLinks>
                 <categoryLink id="5b65-37aa-c6c2-1e65" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
               </categoryLinks>
@@ -671,6 +699,11 @@ See Storm of Chaos page 26. for spell details.</description>
                   </conditions>
                 </modifier>
               </modifiers>
+              <rules>
+                <rule id="0248-b67a-b82b-f11b" name="Rapturous Standard" hidden="false">
+                  <description>Characters or units with Mark of Slaanesh only. The model and any unit he is with count as having the Daemonic Gift - Soporific Musk.</description>
+                </rule>
+              </rules>
               <categoryLinks>
                 <categoryLink id="67e7-9182-cce5-12d5" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
               </categoryLinks>
@@ -679,6 +712,11 @@ See Storm of Chaos page 26. for spell details.</description>
               </costs>
             </selectionEntry>
             <selectionEntry id="3bf8-a910-fbea-a064" name="Flesh Banner" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="a2fd-3eaa-5948-b3ce" name="Flesh Banner" hidden="false">
+                  <description>At the end of each of your Magic phases, any enemy unit in base contact with the bearer of the banner suffers D6 Strength 4 hits, distributed as shooting hits.</description>
+                </rule>
+              </rules>
               <categoryLinks>
                 <categoryLink id="626d-c0d4-a010-a830" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
               </categoryLinks>
@@ -809,7 +847,37 @@ See Storm of Chaos page 26. for spell details.</description>
         </modifier>
       </modifiers>
       <rules>
-        <rule id="4e11-47a8-e44f-8f42" name="Spellcasters" hidden="false"/>
+        <rule id="4e11-47a8-e44f-8f42" name="Spellcasters" hidden="false">
+          <description>Horrors can unleash the magical energies of their creator as blasts of power. These count as bound spells. All of the power is generated by the Horror themselves and no Magic dice are used. The casting value of the spell is equal to half the Horrors&apos; current U
+nit Strength (rounding down, to a minimum of 1). The Horrors may cast one of the following spell at the start of their Magic phase:
+
+Fire of Tzeentch
+
+This is a magic missile with a range of 24&quot;. The range and line of sight are worked out from any model in the front rank. It inflicts D6 hits on the target unit. The Strength of the hits depends on the size of the casting unit:
+
+Fires of Tzeentch Chart
+
+Unit Size	Strength of Hits
+1-5	Strength 1
+6-10	Strength 2
+11-15	Strength 3
+16-20	Strength 4
+21+	Strength 5
+
+Coruscation of Energy
+
+The Horrors unleash magical energy across the battlefield in a whirling vortex of power. This spell may be targeted on a single enemy unit within 12&quot; or, if they are in close combat, the Horrors must target one units they are fighting. Every model in the enemy unit suffers a Strength 3 hit.
+
+Uncontrollable Mutation
+
+The Horrors warp theworld around them, turning foes into twisted masses of pulsing flesh and bone before a newly born Horror springs from the corrupted mess. This can only be cast on a single enemy unit in base contact with the Horrors. Roll a D6 for each Horror in contact with the target unit. Each roll of a 6 slays an enemy model outright, with no Armour saves allowed. These hits are distributed among the model of the target unit just like shooting.
+
+The spell can only be cast on roughly man-sized or 
+smallers opponent and so cannot be cast on Ogres, Trolls, chariots, war engines (although the crew may be affected), monsters or character riding monsters etc. N
+ormal cavalry models may be targeted.
+
+Each enemy slain by this spell is turned into a Horror and added to the Horrors&apos; unit.</description>
+        </rule>
       </rules>
       <categoryLinks>
         <categoryLink id="088e-3a76-d0f8-d5de" name="New CategoryLink" hidden="false" targetId="62d3-efc6-6c2c-634e" primary="true"/>
@@ -1166,7 +1234,9 @@ See Storm of Chaos page 26. for spell details.</description>
       </constraints>
       <rules>
         <rule id="616a-e6ce-1c3e-c9c5" name="Flying Cavalry" hidden="false">
-          <description>Flying Cavalry have a Unit Strength of 2, get +1 Armour save for being mounted, and are affected by spells, etc. that affect cavalry.</description>
+          <description>- Flying Cavalry are Unit Strength 2.
+- They receive +1 to their Armour save for being mounted.
+- They are affected by spells, etc, that would affect cavalry.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1354,7 +1424,7 @@ See Storm of Chaos page 26. for spell details.</description>
       </constraints>
       <rules>
         <rule id="d3f5-5295-f9d7-04e1" name="Special attacks" hidden="false">
-          <description>Daemon-beasts have Poisoned Attacks and a random number of Attacks. This is rolled at the start of every Close Combat phase. Roll to hit and wound as normal.</description>
+          <description>Models with this special rule have a random number of Attacks. Roll at the start of every Close Combat phase. Roll to hit and wound as normal.</description>
         </rule>
         <rule id="3e93-cceb-72e2-f256" name="Unit Strength 3" hidden="false"/>
       </rules>
@@ -1536,7 +1606,9 @@ See Storm of Chaos page 26. for spell details.</description>
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="97ae-571f-3ba9-d4d9" type="max"/>
       </constraints>
       <rules>
-        <rule id="0524-ac87-1675-8eea" name="Swarm" hidden="false"/>
+        <rule id="0524-ac87-1675-8eea" name="Swarm" hidden="false">
+          <description>Swarms represent many creature son a single 40mm x 40mm base. The base is treated as a single model with several Wounds and Attacks. A Nurgling base fights at full effect until it has taken 4 wounds, then it is removed. Nurglings cannot be joined by characters. Nurglings are not Unbreakable like other swarms, but follow the normal Daemonic Instability rules.</description>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink id="28e1-ad98-6288-c5af" name="Cloud of Flies" hidden="false" targetId="ee13-4ea7-37a5-af07" type="rule"/>
@@ -1594,7 +1666,9 @@ See Storm of Chaos page 26. for spell details.</description>
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8a37-935c-e443-944c" type="max"/>
       </constraints>
       <rules>
-        <rule id="cb46-1a2f-42af-522e" name="Slashing Attack" hidden="false"/>
+        <rule id="cb46-1a2f-42af-522e" name="Slashing Attack" hidden="false">
+          <description>In any Chaos turn where the Chaos player hasn&apos;t declared a charge with them, Screamers can attack an enemy unit which is not inside a wood or a building by moving over it during the Remaining Moves part of their Movement phase. This inflicts an automatic Strength 3 hit per Screamer and the enemy cannot fight back — these hits count as missile hits and may force a Panic test. A Screamers unit may only use this special attack against one enemy unit per turn, even if they fly over more than one unit in that Movement phase.</description>
+        </rule>
       </rules>
       <categoryLinks>
         <categoryLink id="d85d-967e-4b76-ac22" name="New CategoryLink" hidden="false" targetId="62d3-efc6-6c2c-634e" primary="true"/>
@@ -1736,7 +1810,36 @@ See Storm of Chaos page 26. for spell details.</description>
   </entryLinks>
   <rules>
     <rule id="497d-7201-9745-d97a" name="Daemonic Legions Special Rules" hidden="false"/>
-    <rule id="b451-7bd0-d020-b119" name="Daemonic" hidden="false"/>
+    <rule id="b451-7bd0-d020-b119" name="Daemonic" hidden="false">
+      <description>The following rules apply to all Daemonic creatures. Non-Daemonic models may not join a Daemonic unit, and a Daemonic model may not join a non-Daemonic unit. The only exception to this is a character riding a Daemonic Mount, Steed of Slaanesh, Juggernaut of Khorne or Disc of Tzeentch.
+
+Instability and Break Tests
+
+When daemons lose a round of combat they must take a special Daemonic Instability test instead of a Break test. In multiple combats, each Daemonic unit must test separately. Use the following procedure to take a Daemonic Instability test:
+
+1. Calculate combat resolution as normal.
+2. Roll 2D6 and compare this to the daemons&apos; Leadership value, with no combat resolution modifers. If the roll is higher, the daemons lose their grip on the mortal world and disappear from the battlefield. They count as destroyed.
+3. If the unit does not Instantly disappear, compare the dice roll to their Leadership value, taking into account any modifiers for combat resolution. For each point the unit fails its instability test by, the unit suffers one additional wound. No saves of any kind are allowed against these wounds, including Ward saves, Regeneration, etc. If characters are present in the unit, the controlling player can decide how to allocate wounds between the character&apos;s and the unit.
+4. If a Daemonic unit is wiped out by instability in the first round of combat, the enemy may overrun as normal.
+
+Example**: A unit of Bloodletters loses a combat by 4. The controlling player scores 7 on his 2D6 roll. This is lower than their Leadership of 8, so they don&apos;t disappear totally. However, because combat resolution modifiers count for Daemonic Instability, their Leadership is reduced to 4 for the second part of the test. This means that the Bloodletters have failed the test by 3, as so the unit suffers three wounds.
+
+Immune to Psychology
+
+Daemons are Immune to Psychology.
+
+Fear
+
+Daemons are otherworldly entities that cause fear.
+
+Daemonic Aura
+
+Daemons are not of mortal flesh and have some immunity to mundane weapons. Daemons get a 5+ Ward save. However, this Ward save cannot be used against magical attacks (ie, spells and magic items).
+
+Daemonic Attacks
+
+Being corporeal manifestations of Chaos, Daemons&apos; attacks are magical and can wound ethereal creatures. etc. This includes any special or ranged attacks they may have.</description>
+    </rule>
   </rules>
   <sharedSelectionEntries>
     <selectionEntry id="3ad1-3f2f-6e69-1519" name="Unholy Icon" hidden="false" collective="false" import="true" type="upgrade">
@@ -1746,7 +1849,7 @@ See Storm of Chaos page 26. for spell details.</description>
       </constraints>
       <rules>
         <rule id="37e0-ae98-42f0-9971" name="Unholy Icon" hidden="false">
-          <description>The Unholy Icon is effectively a Daemonic Gift that confers to the unit the same effect as Diabolic Splendour, giving +1 to the Ward save of all the members of the unit, making it 4+ (does not apply to characters joining the unit)</description>
+          <description>In a Daemonic Legion, one unit Standard Bearer can be given an Unholy Icon for the cost of +50 pts. This is effectively a Daemonic Gift that confers to the unit the same effect of Diabolic Splendour, giving +1 to the Ward save of all the members of the unit, making it 4+ (does not apply to characters joining the unit).</description>
         </rule>
       </rules>
       <costs>
@@ -1958,7 +2061,7 @@ See Storm of Chaos page 26. for spell details.</description>
         <rule id="81cf-ca43-cb3d-5ebd" name="Unit Strength 5" hidden="false"/>
         <rule id="87fd-04c4-931c-435f" name="Armour Save (5+)" hidden="false"/>
         <rule id="fb08-8047-7a54-bed1" name="Special attacks" hidden="false">
-          <description>Daemon-beasts have Poisoned Attacks and a random number of Attacks. This is rolled at the start of every Close Combat phase. Roll to hit and wound as normal.</description>
+          <description>Models with this special rule have a random number of Attacks. Roll at the start of every Close Combat phase. Roll to hit and wound as normal.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2687,16 +2790,17 @@ See Storm of Chaos page 26. for spell details.</description>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="1783-01fe-723e-a7f4" name="Aura of Slaanesh" hidden="false"/>
-    <rule id="b9f2-9242-9816-d42a" name="Flames of Tzeentch" hidden="false"/>
+    <rule id="b9f2-9242-9816-d42a" name="Flames of Tzeentch" hidden="false">
+      <description>Each Flamer can fire magical firebolts in the Shooting phase. These are treated as a thrown weapon with a range of 8&quot; and a Strength of 3. Each Flamer fires D6 bolts at the same target — roll to hit with each of them. Their bolts (as well as their close combat attacks) are flaming attacks.</description>
+    </rule>
     <rule id="d02f-b121-ae24-0858" name="Floats" hidden="false">
-      <description></description>
+      <description>Discs of Tzeentch hover above the ground, allowing the Sorcerer to hurl spells over the heads of friend and foe alike. For tine of sight purpose only, a character on a Disc of Tzeentch counts as a Large Target. A Disc moves like a flyer, except that it maximum move is 15&quot; rather than 20&quot;.</description>
     </rule>
     <rule id="ee13-4ea7-37a5-af07" name="Cloud of Flies" hidden="false"/>
     <rule id="4926-ab12-a3b9-dcd2" name="Tongue Attack" hidden="false">
-      <description>Attacks from the Mount count as Poisoned Attacks. In addition, the Mount always strikes first in close combat, even against a charging enemy.
+      <description>If an opponent has the same ability, resolve the strikes in Initiative order - if these are the same, roll a D6 to see who strikes first. Note that this ability only applies to the Mount, not to the Daemonette rider.
 
-If an opponent has the same ability, resolve the strikes in Initiatve order - if these are the same, roll a D6 to see who strikes first.
-Note this ability only applies to the Mount, not to the Daemonette rider.</description>
+&gt; In the Warhammer Chronicles 2004 Official Rules for Mounted Daemonettes, the Swift Steed rule listed the always strikes first rule instead of being listed under Tongue Attack.</description>
     </rule>
     <rule id="20d5-7a1f-932b-42b7" name="Scythed Wheels" hidden="false">
       <description>Chariots with Scythed Wheels deal an additional +1 impact hit.</description>

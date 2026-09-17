@@ -358,16 +358,38 @@ def xml_escape(s):
 # ---------------------------------------------------------------- classifying
 
 def variants(name):
-    """Deterministic rewrites only -- each is named in the report."""
-    n = name.strip()
-    seen = set()
-    for v in (
+    """Deterministic rewrites only -- each is named in the report.
+
+    These exist because the catalogues and the wiki disagree on grammar, not on
+    identity: "Fiend of Slaanesh" vs "Fiends of Slaanesh", "Prayer of Sigmar"
+    vs "Prayers of Sigmar", "Guardian of Sacred Sites" vs "Guardian of the
+    Sacred Sites". Renaming the catalogue for these would be wrong -- its name
+    is legitimate -- so the matcher learns the shapes instead.
+
+    Spelling differences are deliberately NOT handled here. Some are catalogue
+    typos and some are wiki typos (the wiki has "Vitrolic Totem" and "Stone of
+    the Crystal Merex"), and guessing which side is right is a judgement for
+    the maintainer, not a rewrite rule. Those stay in bucket E.
+    """
+    n = re.sub(r"\s+", " ", name.strip())
+    head = n.split(" ", 1)
+
+    cands = [
         re.sub(r"^The\s+", "", n, flags=re.I),
         "The " + n,
         re.sub(r"\s*\([^)]*\)\s*$", "", n),
         n[:-1] if n.endswith("s") else n + "s",
         re.sub(r"s(\s*\([^)]*\))$", r"\1", n),
-    ):
+        # plural on the head noun: "Fiend of Slaanesh" <-> "Fiends of Slaanesh"
+        (head[0] + "s " + head[1]) if len(head) == 2 and not head[0].endswith("s") else n,
+        (head[0][:-1] + " " + head[1]) if len(head) == 2 and head[0].endswith("s") else n,
+        # the article after "of": "Banner of Zenith" <-> "Banner of the Zenith"
+        re.sub(r"\bof the\b", "of", n, flags=re.I),
+        re.sub(r"\bof (?!the\b)", "of the ", n, count=1, flags=re.I),
+    ]
+
+    seen = set()
+    for v in cands:
         v = v.strip()
         if v and v != n and v not in seen:
             seen.add(v)
