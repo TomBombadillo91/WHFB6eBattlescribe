@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7bb5-70b8-0122-944c" name="Wood Elves" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7bb5-70b8-0122-944c" name="Wood Elves" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="4f0e-c683-4011-68a9" name="Magic Bow" hidden="true"/>
     <categoryEntry id="3fee-c6b4-de1c-b33e" name="Magic Arrows" hidden="false"/>
@@ -4018,6 +4018,11 @@ This character benefits from the Forest Spirit special rules (and so may join un
       </constraints>
       <selectionEntries>
         <selectionEntry id="49b7-a7e4-e1f3-4387" name="Lore of Athel Loren" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="634b-b6d2-7175-d488" name="Lore of Athel Loren" hidden="false">
+              <description>The Lore of Athel Loren Lore</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>

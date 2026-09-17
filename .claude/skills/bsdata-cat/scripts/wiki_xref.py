@@ -93,6 +93,13 @@ RULE_SECTIONS = frozenset({
     "spell-lists", "army-lists", "psychology", "close-combat",
 })
 
+# Narrower than RULE_SECTIONS, and used only for entries carrying no category.
+# Those include mundane equipment, and the wiki files Great Weapon, Crossbow and
+# Handgun under "weapons" -- core attacking rules, which this project leaves out.
+# Widening this to RULE_SECTIONS pulled in 249 such entries.
+UNCATEGORISED_OK = frozenset({"magic-item", "magic-items", "spell", "spell-lists",
+                              "special-rules"})
+
 MAGIC_CATS = (
     "magic weapon", "magic armour", "magic banner", "magic standard", "talisman",
     "arcane item", "enchanted item", "magic item", "daemonic gift", "virtue",
@@ -222,7 +229,13 @@ def cat_inventory(path):
         cl = se.find(ns + "categoryLinks")
         cats = [c.get("name", "") for c in (cl if cl is not None else [])]
         is_magic = any(any(m in c.lower() for m in MAGIC_CATS) for c in cats)
-        if se.get("type") == "upgrade" and is_magic:
+        # An upgrade with no categoryLink at all is also a candidate: 57 real
+        # magic items (Gromril Great Helm, Collar of Khorne) carry no category,
+        # so keying purely on category name skipped them. analyse() then drops
+        # any whose match is not rules-bearing, which discards the mundane
+        # shields and mounts this lets through.
+        uncategorised = not cats
+        if se.get("type") == "upgrade" and (is_magic or uncategorised):
             has = any(
                 se.find(ns + x) is not None and len(se.find(ns + x))
                 for x in ("rules", "profiles", "infoLinks")
@@ -514,13 +527,22 @@ def analyse(path, wiki):
         row["same"] = False
         if c["bucket"] in ("A", "B") and c["hits"]:
             wpath = c["hits"][0]["path"]
+            # An uncategorised entry is only a magic item if it resolves to a
+            # page that carries rules. Shields, mounts and unit-size options
+            # come through the same door and must not pick up a unit page.
+            if not it["cats"] and wiki.section(wpath) not in UNCATEGORISED_OK:
+                continue
             try:
                 proposed, flavour = wiki_rules_text(wiki.text(wpath))
             except (KeyError, OSError):
                 proposed, flavour = "", []
+            if not proposed.strip():
+                continue
             row["wiki_path"] = wpath
             row["proposed"] = proposed
             row["flavour"] = flavour
+        elif not it["cats"]:
+            continue          # uncategorised and unmatched: not our business
         rows.append(row)
     return inv, rows
 

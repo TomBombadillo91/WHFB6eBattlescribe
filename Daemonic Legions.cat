@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7010-abfa-dde5-6873" name="Daemonic Legions" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7010-abfa-dde5-6873" name="Daemonic Legions" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="37ff-905c-0f6b-9742" name="Mark of Chaos Undivided" hidden="false"/>
     <categoryEntry id="452e-f479-2264-b39d" name="Mark of Tzeentch" hidden="false"/>
@@ -2386,6 +2386,11 @@ Being corporeal manifestations of Chaos, Daemons&apos; attacks are magical and c
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d79-0f18-f42d-96e9" type="max"/>
           </constraints>
+          <rules>
+            <rule id="40b8-18ac-455c-5371" name="Radiance of Dark Glory" hidden="false">
+              <description>The Daemon and any other Daemon units within 6&quot; suffer one less wound when defeated in combat. For example if a Daemon fails its instability test by 2, then it would only loses one wound.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="40.0"/>
           </costs>
@@ -2401,6 +2406,13 @@ Being corporeal manifestations of Chaos, Daemons&apos; attacks are magical and c
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bce8-d72c-c95f-513c" type="max"/>
           </constraints>
+          <rules>
+            <rule id="92f2-0525-2776-9faa" name="Blade of the Ether" hidden="false">
+              <description>The Daemon wields a hell-forged weapon that exists partly in another dimension, by passing armour.
+
+The Daemons close combat attacks ignore armour saves.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="45.0"/>
           </costs>
@@ -2409,6 +2421,11 @@ Being corporeal manifestations of Chaos, Daemons&apos; attacks are magical and c
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3875-1f1e-6bcc-3c88" type="max"/>
           </constraints>
+          <rules>
+            <rule id="ce04-f731-1393-0f03" name="Soul Hunger" hidden="false">
+              <description>Re-roll missed close combat attacks in the first round of any combat.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
           </costs>
@@ -2417,6 +2434,11 @@ Being corporeal manifestations of Chaos, Daemons&apos; attacks are magical and c
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1da3-59b2-27dd-9fb7" type="max"/>
           </constraints>
+          <rules>
+            <rule id="be60-b971-8d3c-0a7e" name="Spell Breaker" hidden="false">
+              <description>Once per battle the Daemon may dispel one enemy spell, except one which has just been cast with Irresistible Force.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
           </costs>
@@ -2460,6 +2482,11 @@ Being corporeal manifestations of Chaos, Daemons&apos; attacks are magical and c
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fe9-e015-2080-2811" type="max"/>
           </constraints>
+          <rules>
+            <rule id="08e0-c594-88a3-0f50" name="Chaos Disruption" hidden="false">
+              <description>Any shooting at the Daemon or the unit it is with suffers an additional -1 to hit penalty.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="50.0"/>
           </costs>
@@ -2495,6 +2522,13 @@ Being corporeal manifestations of Chaos, Daemons&apos; attacks are magical and c
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92e8-09cf-2600-9bbb" type="max"/>
           </constraints>
+          <rules>
+            <rule id="b69e-9198-fb88-c54c" name="Armour of Khorne" hidden="false">
+              <description>The Daemon wears armour fashioned from materials unknown to mortals.
+
+The Daemon has an armour save of 4+ in addition to its Daemonic Aura.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
           </costs>
@@ -2510,6 +2544,11 @@ Being corporeal manifestations of Chaos, Daemons&apos; attacks are magical and c
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba63-8da0-61b6-55b5" type="max"/>
           </constraints>
+          <rules>
+            <rule id="e7c4-23f3-4c13-7a69" name="Might of Khorne" hidden="false">
+              <description>The Daemon has +1 Strength on its profile.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
           </costs>
@@ -2530,6 +2569,11 @@ Being corporeal manifestations of Chaos, Daemons&apos; attacks are magical and c
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55e3-0c54-cdcb-cfad" type="max"/>
           </constraints>
+          <rules>
+            <rule id="0386-a100-5a86-a875" name="Tzeentch&apos;s Will" hidden="false">
+              <description>The Daemon may re-roll a single D6 once per turn. The re-roll entitle the player to take a single D6 (including one of the dice rolled as part of a 2D6, 3D6, etc) and roll it again. Any D6 can be re-rolled and can potentially cause Irresistible Force or avoid a Miscast. Remember that you cannot re-roll a dice more than once.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="75.0"/>
           </costs>
@@ -2550,6 +2594,13 @@ Being corporeal manifestations of Chaos, Daemons&apos; attacks are magical and c
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2788-dd4c-7dee-44a5" type="max"/>
           </constraints>
+          <rules>
+            <rule id="6f8e-f1cf-ee6d-1c44" name="Spell Destroyer" hidden="false">
+              <description>The Daemon can wrench magical power from its foes using its own Chaos essence to attack the minds of enemy Wizards.
+
+Once per battle, the Daemon may automatically dispel one enemy spell, except one which has just been cast with Irresistible Force. In addition, roll a D6. On a roll of 4+, the enemy Wizard loses knowledge of that spell and may not cast it for the rest of the battle.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="50.0"/>
           </costs>
@@ -2565,6 +2616,11 @@ Being corporeal manifestations of Chaos, Daemons&apos; attacks are magical and c
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5639-1cf8-5bc6-c575" type="max"/>
           </constraints>
+          <rules>
+            <rule id="5bba-082d-2642-9396" name="Master of Sorcery" hidden="false">
+              <description>The Daemon has great magical knowledge and knows one more spell from the Lore of Tzeentch than it is normally allowed.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="15.0"/>
           </costs>
@@ -2580,6 +2636,11 @@ Being corporeal manifestations of Chaos, Daemons&apos; attacks are magical and c
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96e5-3cbe-6e77-a910" type="max"/>
           </constraints>
+          <rules>
+            <rule id="15e8-bab2-9998-29f6" name="Power Vortex" hidden="false">
+              <description>At any point during the Chaos Magic phase, the Daemon may give up Wounds to generate Power dice (with no saves of any kind allowed, no Ward saves, no Regeneration, etc). For each Wound sacrificed, the Daemon generate an extra D3 Power dice that turn which only it may use.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
           </costs>
@@ -2643,6 +2704,11 @@ Being corporeal manifestations of Chaos, Daemons&apos; attacks are magical and c
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="056c-83c6-15a4-8ca1" type="max"/>
           </constraints>
+          <rules>
+            <rule id="717f-5fe1-e281-7fca" name="Plague Flail" hidden="false">
+              <description>The Daemon&apos;s attacks count as Poisoned Attacks. This gift cannot be combined with a Blade of the Ether gift.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="15.0"/>
           </costs>
@@ -2686,6 +2752,11 @@ Being corporeal manifestations of Chaos, Daemons&apos; attacks are magical and c
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="708d-d427-1211-fb97" type="max"/>
           </constraints>
+          <rules>
+            <rule id="d9e2-3a81-5dcd-b405" name="Soporific Musk" hidden="false">
+              <description>Any model in base contact with one or more Daemons with Soporific Musk halve their WS and I (rounding up).</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="30.0"/>
           </costs>
@@ -2701,6 +2772,11 @@ Being corporeal manifestations of Chaos, Daemons&apos; attacks are magical and c
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d14-163b-bb37-60f0" type="max"/>
           </constraints>
+          <rules>
+            <rule id="915d-252a-62b3-dc7d" name="Gaze of Acquiescence" hidden="false">
+              <description>At the beginning of the Close Combat phase, select one model in base contact with the Daemon. The target must pass a Leadership test or may not make attacks in that Close Combat phase. Models Immune to Psychology cannot be affected.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
           </costs>
@@ -2724,6 +2800,11 @@ Being corporeal manifestations of Chaos, Daemons&apos; attacks are magical and c
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4eff-cadf-0123-dfb3" type="max"/>
           </constraints>
+          <rules>
+            <rule id="4bb3-f839-5099-59e6" name="Lore of Slaanesh" hidden="false">
+              <description>The Lore of Slaanesh Lore</description>
+            </rule>
+          </rules>
         </selectionEntry>
         <selectionEntry id="bb43-b277-a959-18b5" name="Lore of Shadow" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -2742,6 +2823,13 @@ Being corporeal manifestations of Chaos, Daemons&apos; attacks are magical and c
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb57-a900-2f50-362d" type="max"/>
           </constraints>
+          <rules>
+            <rule id="9c11-f330-8214-71c7" name="Lore of Shadow" hidden="false">
+              <description>In the land of the Empire, Wizards of the Shadow call themselves Grey Wizards, as if to distance themselves from the sinister reputation of their sorcery. They are more often called Trickster Wizards by the common folk, who mistrust and fear them. Shadow Lore is the magic of deceit and illusion, of trickery, concealment and darkness.
+
+The Lore of Shadow Lore</description>
+            </rule>
+          </rules>
         </selectionEntry>
         <selectionEntry id="25d0-9fcf-ba10-91b7" name="Lore of Death" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -2760,6 +2848,13 @@ Being corporeal manifestations of Chaos, Daemons&apos; attacks are magical and c
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a2d-9436-8f81-0fa2" type="max"/>
           </constraints>
+          <rules>
+            <rule id="f3e3-658c-91bd-238b" name="Lore of Death" hidden="false">
+              <description>Though the Lore of Death, or Amethyst magic, is the most feared of sorceries, not all practitioners are evil or ill-intended. It is the magic of the bygone ages and draws its power deeply from the realm of the dead.
+
+The Lore of Death Lore</description>
+            </rule>
+          </rules>
         </selectionEntry>
         <selectionEntry id="b5cd-4415-fbdf-f086" name="Lore of Nurgle" hidden="true" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -2772,6 +2867,11 @@ Being corporeal manifestations of Chaos, Daemons&apos; attacks are magical and c
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef69-c518-9492-6004" type="max"/>
           </constraints>
+          <rules>
+            <rule id="86a4-23cd-8605-1bfa" name="Lore of Nurgle" hidden="false">
+              <description>The Lore of Nurgle Lore</description>
+            </rule>
+          </rules>
         </selectionEntry>
         <selectionEntry id="df8c-a3dc-adcb-8b2a" name="Lore of Fire" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -2790,6 +2890,13 @@ Being corporeal manifestations of Chaos, Daemons&apos; attacks are magical and c
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e790-d390-2ba6-99a2" type="max"/>
           </constraints>
+          <rules>
+            <rule id="7061-f7d2-ed8d-b18e" name="Lore of Fire" hidden="false">
+              <description>All of these spells are considered to be Fire attacks and cause double damage against flammable creatures.
+
+The Lore of Fire Lore</description>
+            </rule>
+          </rules>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>

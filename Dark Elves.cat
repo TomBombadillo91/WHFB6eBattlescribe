@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b151-7d1c-4a96-e0d0" name="Dark Elves" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b151-7d1c-4a96-e0d0" name="Dark Elves" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7b32-9394-e778-467c" name="Poison" hidden="false"/>
     <categoryEntry id="16df-2ebd-e4f7-9984" name="Artifacts and Skills" hidden="false"/>
@@ -3350,6 +3350,13 @@ If the Spawn&apos;s movement is sufficient to take it into an enemy unit then it
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c1e-38fa-e936-b9a6" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb5e-a2c0-2809-9d60" type="min"/>
           </constraints>
+          <rules>
+            <rule id="892e-905e-bdfd-d245" name="Chaos Armour" hidden="false">
+              <description>All-enclosing suits of Chaos Armour are the living gifts of the Dark Gods upon their Champions. They become part of the wearers body and can never be removed once put on.
+
+Chaos armour gives a 4+ armour save. It can be combined with other equipment as normal. Sorcerers can wear this armour and cast spells.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -5456,6 +5463,11 @@ The model is considered to have Poisoned Attacks.</description>
               </conditions>
             </modifier>
           </modifiers>
+          <rules>
+            <rule id="0a26-0452-6f14-f263" name="Lore of Slaanesh" hidden="false">
+              <description>The Lore of Slaanesh Lore</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>

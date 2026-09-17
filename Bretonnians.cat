@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="05b9-5022-67cd-4fd3" name="Bretonnians" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="05b9-5022-67cd-4fd3" name="Bretonnians" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="ff93-67ff-9b17-d51d" name="Grail Vow" hidden="false">
       <rules>
@@ -4230,6 +4230,11 @@ The Knight may re-roll failed rolls to hit when charging and using a lance (incl
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7e10-4231-1f6a-280b" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4c78-6f1e-70d2-b4ff" type="max"/>
               </constraints>
+              <rules>
+                <rule id="e9d1-f42a-09e2-f558" name="Gromril Great Helm" hidden="false">
+                  <description>Gives a 6+ Armour save and may be worn In addition to normal armour. The wearer may re-roll failed Armour saves.</description>
+                </rule>
+              </rules>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="30.0"/>
               </costs>

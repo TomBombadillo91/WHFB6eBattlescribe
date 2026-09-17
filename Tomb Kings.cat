@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4b41-6842-9db5-f563" name="Tomb Kings" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4b41-6842-9db5-f563" name="Tomb Kings" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7d0c-5562-269f-0795" name="Tomb King General" hidden="false"/>
     <categoryEntry id="80b7-5608-88c2-552c" name="Settra&apos;s Army" hidden="false">
@@ -520,6 +520,11 @@ One Skink Chief may carry the Battle Standard for +25 pts. A Skink Chief with th
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6c8-3c84-88c7-7dec" type="max"/>
           </constraints>
+          <rules>
+            <rule id="9975-f558-909a-6c2b" name="Blessing of the Asp" hidden="false">
+              <description>Units of Skeletal Bowmen, Skeletal Light Horsemen and Chariots in an army that includes Queen Khalida may be given the Blessing of the Asp at the cost of +2 points per model. All shooting by these units count as Poisoned Attacks.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -671,6 +676,11 @@ One Skink Chief may carry the Battle Standard for +25 pts. A Skink Chief with th
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00fe-2c20-aa57-300c" type="max"/>
           </constraints>
+          <rules>
+            <rule id="9904-970c-4b32-6b9b" name="Blessing of the Asp" hidden="false">
+              <description>Units of Skeletal Bowmen, Skeletal Light Horsemen and Chariots in an army that includes Queen Khalida may be given the Blessing of the Asp at the cost of +2 points per model. All shooting by these units count as Poisoned Attacks.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -912,6 +922,11 @@ One Skink Chief may carry the Battle Standard for +25 pts. A Skink Chief with th
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1634-df4f-6400-a515" type="max"/>
           </constraints>
+          <rules>
+            <rule id="33ec-1bc2-630d-07b8" name="Blessing of the Asp" hidden="false">
+              <description>Units of Skeletal Bowmen, Skeletal Light Horsemen and Chariots in an army that includes Queen Khalida may be given the Blessing of the Asp at the cost of +2 points per model. All shooting by these units count as Poisoned Attacks.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>

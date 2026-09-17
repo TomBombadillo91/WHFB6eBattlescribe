@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4ca8-2035-2f87-1bd7" name="WHFB 6th Edition" revision="26" battleScribeVersion="2.03" authorName="Tom Clare" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="4ca8-2035-2f87-1bd7" name="WHFB 6th Edition" revision="27" battleScribeVersion="2.03" authorName="Tom Clare" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="d9e7-add3-773e-ffab" name="BRB"/>
     <publication id="2c29-8521-dcc7-5337" name="Warhammer Chronicles 2003"/>
@@ -486,36 +486,85 @@ Note that a Dispel Scroll will not help if the spell has been cast with Irresist
       </costs>
     </selectionEntry>
     <selectionEntry id="aa12-5ee9-b575-c4a6" name="Lore of Fire" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="7024-2978-a5b8-7165" name="Lore of Fire" hidden="false">
+          <description>All of these spells are considered to be Fire attacks and cause double damage against flammable creatures.
+
+The Lore of Fire Lore</description>
+        </rule>
+      </rules>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2030-7bd3-3f77-1594" name="Lore of Metal" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="c6c8-6225-afec-6763" name="Lore of Metal" hidden="false">
+          <description>In the lands of Men, the Lore of Metal is more commonly known as Alchemy. It is practiced by many races, but few are as devoted to it as Men. If there is truth in common talk then there are many fortunes won by means of alchemical sorcery. The Alchemists of the Golden Order at Altdorf have the Emperor&apos;s ear in all matters of state and war – or so it is said by ordinary folk of the town.
+
+The Lore of Metal Lore</description>
+        </rule>
+      </rules>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8704-072d-b3dd-84f5" name="Lore of Shadow" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="81ba-bf60-d544-9cd7" name="Lore of Shadow" hidden="false">
+          <description>In the land of the Empire, Wizards of the Shadow call themselves Grey Wizards, as if to distance themselves from the sinister reputation of their sorcery. They are more often called Trickster Wizards by the common folk, who mistrust and fear them. Shadow Lore is the magic of deceit and illusion, of trickery, concealment and darkness.
+
+The Lore of Shadow Lore</description>
+        </rule>
+      </rules>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e33d-6dcc-3793-da4a" name="Lore of Light" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="11c9-1d6b-6097-f595" name="Lore of Light" hidden="false">
+          <description>The Lore of Light is a magic of bright and radiant power, of the solar wind, and of life giving energy. Wizards who practice this art are sometimes called White Wizards or Hierophants. It is the magic of solar rituals, carefully guarded secrets and ancient ceremonies.
+
+The Lore of Light Lore</description>
+        </rule>
+      </rules>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7e93-afdd-d365-6a23" name="Lore of Life" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="b257-f163-9a6e-9016" name="Lore of Life" hidden="false">
+          <description>The Lore of Life is the magical lore of the growing earth and as such is bound to the changing seasons. Few creatures of any race understand the nature of growing things as do these Wizards. It is a form of magic that exists in all water and vegetation and which is strongest when it is close to places where rivers run and where woods and forests grow most abundantly.
+
+The Lore of Life Lore</description>
+        </rule>
+      </rules>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="adb8-37e0-7609-365b" name="Lore of Death" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="0458-d407-7832-a535" name="Lore of Death" hidden="false">
+          <description>Though the Lore of Death, or Amethyst magic, is the most feared of sorceries, not all practitioners are evil or ill-intended. It is the magic of the bygone ages and draws its power deeply from the realm of the dead.
+
+The Lore of Death Lore</description>
+        </rule>
+      </rules>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="afbd-2b69-4e54-2863" name="Lore of Beasts" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="7160-91b1-3786-8d86" name="Lore of Beasts" hidden="false">
+          <description>The Lore of Beasts is the magic of Shamans and animal spirits. It is a sorcery of wild and primitive races, of creatures that shun the cities of Men, and of Men who have turned their backs upon the ways of their own kind.
+
+The Lore of Beasts Lore</description>
+        </rule>
+      </rules>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
@@ -553,6 +602,17 @@ Note that a spell cast with a Power Stone can never be cast with Irresistible Fo
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d47-6a9c-133b-4a47" type="min"/>
           </constraints>
+      <rules>
+        <rule id="8b10-0186-fa23-f4cc" name="Power Stones" hidden="false">
+          <description>The Power Stone is imbued with a powerful magical invocation. When it is held out by a Wizard before he casts a spell, the effect is to enhance the efficacy of the magic. A further two dice are added to the Casting roll. Note that using a Power Stone will allow a Wizard to use more Power dice than he is normally permitted. For example, a First Level Wizard may read a Power Stone and thus use four Power dice to cast a spell (2 basic + 2 from a Power Stone). A Power Stone can only be used once - after one use its power is exhausted.
+
+Using a Power Stone will bring any spell in play cast earlier by that Wizard to an end in the same way as casting a new spell by ordinary means.
+
+As with scrolls, Power Stones are not unique items - they are prepared by a Wizard prior to battle and it is quite possible for several Wizards to carry Power Stones, and for a Wizard to carry more than one. However, only one Power Stone can be used to enhance a spell.
+
+Note that a spell cast with a Power Stone can never be cast with Irresistible Force, though it can be Miscast.</description>
+        </rule>
+      </rules>
         </entryLink>
       </entryLinks>
       <costs>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <costTypes>
     <costType id="fada-3781-5bbe-4625" name=" Hull Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -3507,6 +3507,11 @@ When firing his own missile weapon, an Engineer can always choose a different ta
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2a8e-6ae3-758c-45c5" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cef0-158a-ea72-3a6e" type="max"/>
           </constraints>
+          <rules>
+            <rule id="a64c-9d49-1671-4587" name="Knights of the Inner Circle" hidden="false">
+              <description>The unit may be upgraded to Knights of the Inner Circle, at the cost of +3 pts per model. The Knights and the First Knight in this unit are Strength 4.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
             <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -3703,6 +3708,11 @@ When firing his own missile weapon, an Engineer can always choose a different ta
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e365-e5da-11dc-1892" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d947-0542-eb53-a994" type="max"/>
           </constraints>
+          <rules>
+            <rule id="9512-014e-2771-a944" name="Knights of the Inner Circle" hidden="false">
+              <description>The unit may be upgraded to Knights of the Inner Circle, at the cost of +3 pts per model. The Knights and the First Knight in this unit are Strength 4.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
             <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>

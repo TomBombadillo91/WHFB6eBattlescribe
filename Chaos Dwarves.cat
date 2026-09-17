@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7236-6609-8f2a-760a" name="Chaos Dwarves" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7236-6609-8f2a-760a" name="Chaos Dwarves" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="d1fa-39bb-985e-3662" name="Bull Centaur Lord" hidden="false" collective="false" import="true" type="model">
       <constraints>
@@ -1285,6 +1285,11 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="308b-edc5-1c69-7d94" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e2b-ef0d-9574-3d73" type="max"/>
           </constraints>
+          <rules>
+            <rule id="6827-88de-16bd-bd06" name="Big&apos;Uns" hidden="false">
+              <description>Choose up to one unit allowed in the army to upgrade to Big&apos;Uns and pay the appropriate points. This may be a unit of Orc Boyz, Savage Orc Boyz, Orc Boar Boyz or Savage Orc Boar Boyz. Whichever type of unit you choose to upgrade you must have at least as many normal models of that type in other units before you take the Big&apos;Uns. You may only ever have one unit of Big&apos;Uns in any army. A unit of Big&apos;Uns may carry a magic standard worth up to 50 points. This is in addition to any magical banners that would normally be allowed to units of that type. So, for example. if your Big&apos;Uns are Boar Boyz then both they and one unit of normal Boar Boyz may take a magic banner.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>

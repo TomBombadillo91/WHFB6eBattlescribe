@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2c0-45b3-040e-fe0f" name="Vampire Counts" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2c0-45b3-040e-fe0f" name="Vampire Counts" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7d18-159a-be52-079b" name="Vampire" hidden="false"/>
     <categoryEntry id="72bd-3327-881f-a995" name="Von Carstein" hidden="false"/>
@@ -1691,6 +1691,11 @@ Lahmia Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bb43-1fe3-f3f1-e408" type="max"/>
           </constraints>
+          <rules>
+            <rule id="22e3-d911-ffc1-69bc" name="Summon Bats" hidden="false">
+              <description>Once per game the Vampire can use this power at the start of one of his turns. He can choose to summon either a Bat Swarm (one base) or D3+1 Fell Bats. Immediately calculate the Victory points value of the new unit. The unit can enter from any table edge in the same way as a unit that had pursued an enemy off the field.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="65.0"/>
           </costs>
@@ -1711,6 +1716,11 @@ Lahmia Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bd12-e61f-4a76-055c" type="max"/>
           </constraints>
+          <rules>
+            <rule id="3c7b-16de-f2c6-eb2c" name="Call Winds" hidden="false">
+              <description>At the beginning of each of his turns the Vampire can decide not to move in that Movement phase and attempt to call winds. Roll a dice: on a result of 1 nothing happens, on a 2 to 6 the Vampire summons a wild storm that will last until the beginning of his next turn. If he is engaged in close combat, wounded or killed, the storm ends immediately. The storm affects the entire battlefield. All shooting is at -1 to hit. All flying movement is impossible and flying creatures have to use their ground Movement value.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="55.0"/>
           </costs>
@@ -1726,6 +1736,13 @@ Lahmia Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9aaf-bf22-168d-be17" type="max"/>
           </constraints>
+          <rules>
+            <rule id="0c59-c3da-fa8c-c17f" name="Walking Death" hidden="false">
+              <description>So powerful is the unholy presence of the Vampire that mere mortals are forced to flee in terror.
+
+The presence of one or more von Carsten Vampires with this power in a combat adds +1 to their side&apos;s combat resolution.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
           </costs>
@@ -1741,6 +1758,11 @@ Lahmia Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fd2e-9816-ae67-416e" type="max"/>
           </constraints>
+          <rules>
+            <rule id="88ad-dc47-5b8c-5d51" name="Summon Wolves" hidden="false">
+              <description>Once per game, the Vampire can use this power at the start of one of his turns to summon D3 Dire Wolves. Immediately calculate the Victory points value of the new unit. The unit can enter from any table edge in the same way as a unit that has pursued an enemy off the field.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
           </costs>
@@ -1756,6 +1778,11 @@ Lahmia Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3a44-9f2b-437b-8fff" type="max"/>
           </constraints>
+          <rules>
+            <rule id="780d-2a5c-84dd-f594" name="Aura of Dark Majesty" hidden="false">
+              <description>If the Vampire is the army&apos;s General, the normal range of 12&quot; for his troops to be able to march and use his Leadership is extended to 18&quot;.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
           </costs>
@@ -1771,6 +1798,13 @@ Lahmia Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ba54-75a4-76de-1f15" type="max"/>
           </constraints>
+          <rules>
+            <rule id="e427-fdcd-067e-0415" name="Wolf Form" hidden="false">
+              <description>The Vampire can change his shape to that of a wolf.
+
+The Movement of the Vampire is increased to 9 as long as he is moving on foot.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
           </costs>
@@ -1786,6 +1820,11 @@ Lahmia Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eaa4-08af-5a68-526f" type="max"/>
           </constraints>
+          <rules>
+            <rule id="f3fb-59c1-fce2-2ac6" name="Red Fury" hidden="false">
+              <description>The Vampire has + 1 Attack.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="30.0"/>
           </costs>
@@ -1801,6 +1840,11 @@ Lahmia Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5da0-8665-6ade-c6d9" type="max"/>
           </constraints>
+          <rules>
+            <rule id="ddc2-a6a5-1d4e-7d99" name="Blademaster" hidden="false">
+              <description>The Vampire can choose one model in base contact with him at the beginning of the Close Combat phase. The chosen model will lose one of his Attacks, chosen by the Vampire if he has different kinds of attack (for example, from a riding beast, bite attacks, etc).</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="30.0"/>
           </costs>
@@ -1816,6 +1860,11 @@ Lahmia Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d2ee-ac3f-b30d-e52d" type="max"/>
           </constraints>
+          <rules>
+            <rule id="c5c6-9db2-f2be-9bb2" name="Heart Piercing" hidden="false">
+              <description>The Vampire can re-roll missed close combat attacks in the first round of every combat.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
           </costs>
@@ -1831,6 +1880,13 @@ Lahmia Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8a9e-bd84-8b5e-66d5" type="max"/>
           </constraints>
+          <rules>
+            <rule id="0001-cb3a-b4f0-ef71" name="Master Strike" hidden="false">
+              <description>So strong is the lord of the night, that a well-placed blow from his sword can sever a limb or decapitate the toughest opponents.
+
+The Vampire has the Killing Blow special rule.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
           </costs>
@@ -1846,6 +1902,11 @@ Lahmia Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b020-c7cf-6624-9111" type="max"/>
           </constraints>
+          <rules>
+            <rule id="349f-5582-3812-0ed2" name="Strength of Steel" hidden="false">
+              <description>The Vampire has +1 Strength the turn he charges.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="15.0"/>
           </costs>
@@ -1861,6 +1922,11 @@ Lahmia Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="af91-faaa-2c91-bc4d" type="max"/>
           </constraints>
+          <rules>
+            <rule id="6021-70a9-9a63-4e13" name="Honour or Death" hidden="false">
+              <description>At the start of a challenge, the enemy character selected to take on the Vampire must take a Leadership test before any blows are struck (a character Immune to Psychology is also immune to this effect). If the test is failed, the enemy character will change his mind and hide in the rear ranks, refusing to fight the Vampire (see Refusing a Challenge). Then the combat will proceed as normal, with no challenges fought that turn and the Vampire will be free to fight against any models he is in contact with.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
           </costs>
@@ -1876,6 +1942,13 @@ Lahmia Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d2b5-2cf8-b20a-d0db" type="max"/>
           </constraints>
+          <rules>
+            <rule id="f1c1-ca4e-6171-42f6" name="Nehekhara&apos;s Noble Blood" hidden="false">
+              <description>The only thing the Necrarchs could take from their land was their necromantic lore. These secrets are found in the cursed scrolls bidden in the lairs of the oldest Lords of the Necrarch family.
+
+The Vampire has one extra Magic Level. A Thrall with this power is a Level 1 Wizard in all respects and can be the army&apos;s General.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="45.0"/>
           </costs>
@@ -1891,6 +1964,11 @@ Lahmia Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="11ac-733f-188f-8f6d" type="max"/>
           </constraints>
+          <rules>
+            <rule id="f370-6893-2948-b2e3" name="The Awakening" hidden="false">
+              <description>Whenever the Vampire casts the Necromantic spell Invocation of Nehek he can add + D3 to the total number of Skeletons or Zombies created. For example, if he casts Level 2 Invocation, he can raise 2D6+ D3 Skeletons.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
           </costs>
@@ -1906,6 +1984,13 @@ Lahmia Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="acd5-3a28-ec1c-25f1" type="max"/>
           </constraints>
+          <rules>
+            <rule id="2dbd-8335-8c84-6f9d" name="Dark Acolyte" hidden="false">
+              <description>Even the lowliest Necrarch follows the long and difficult path of the Necromancer.
+
+The presence of the Vampire on the battlefield adds one dice to the player&apos;s pile of Power dice (no effect on the Dispel dice).</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
           </costs>
@@ -1921,6 +2006,11 @@ Lahmia Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b65e-b0c7-ce22-43b6" type="max"/>
           </constraints>
+          <rules>
+            <rule id="10f1-7c7c-84ea-f012" name="Unholy Cynosure" hidden="false">
+              <description>Once per game, the Vampire can re-roll one of the dice rolled to cast a spell. This can be used to negate a Miscast result or could cause an Irresistible Force result.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
           </costs>
@@ -1936,6 +2026,11 @@ Lahmia Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2b6c-6e7d-c597-99f2" type="max"/>
           </constraints>
+          <rules>
+            <rule id="ac9f-66c1-3019-36c9" name="Master of the Black Arts" hidden="false">
+              <description>The range of all spells cast by the Vampire is increased by 6&quot;. This power won&apos;t affect spells without, a range (like Hand of Dust) nor the range of spells cast from bound spell items.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
           </costs>
@@ -1951,6 +2046,13 @@ Lahmia Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9df2-2884-ab36-781b" type="max"/>
           </constraints>
+          <rules>
+            <rule id="3c03-a9dc-d57f-bf76" name="Forbidden Lore" hidden="false">
+              <description>Long must one study to gain knowledge of the netherworld, but time is no worry to an undying scholar.
+
+The Vampire knows one more spell than he is normally allowed. This does not increase his Magic Level.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="15.0"/>
           </costs>
@@ -1971,6 +2073,13 @@ Lahmia Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b98b-fb74-b4e0-fda3" type="max"/>
           </constraints>
+          <rules>
+            <rule id="aab6-92ce-d925-084b" name="Curse of the Revenant" hidden="false">
+              <description>So strong is the desire for some to continue living that they defy death. But this has a price - the eternal thirst for the blood of the living.
+
+The Vampire has the Regeneration special rule.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="55.0"/>
           </costs>
@@ -1986,6 +2095,11 @@ Lahmia Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1efc-455f-d644-2d05" type="max"/>
           </constraints>
+          <rules>
+            <rule id="b176-40db-d2a5-c648" name="Massive Monstrosity" hidden="false">
+              <description>The Vampire has +1 Wound on his profile.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="50.0"/>
           </costs>
@@ -2001,6 +2115,11 @@ Lahmia Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2b28-4d4a-8841-0644" type="max"/>
           </constraints>
+          <rules>
+            <rule id="6c8c-0f37-c209-2708" name="Bat Form" hidden="false">
+              <description>The model has the Fly special rule.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="45.0"/>
           </costs>
@@ -2016,6 +2135,11 @@ Lahmia Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3fa1-fd17-8ba2-b137" type="max"/>
           </constraints>
+          <rules>
+            <rule id="07d4-daa3-0ce8-3733" name="Infinite Hatred" hidden="false">
+              <description>The Vampire can re-roll all failed To Hit rolls.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="30.0"/>
           </costs>
@@ -2031,6 +2155,11 @@ Lahmia Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0c28-c334-6720-aa4c" type="max"/>
           </constraints>
+          <rules>
+            <rule id="67a9-bf4b-72a8-1d73" name="Summon Ghouls" hidden="false">
+              <description>Once per game, the Vampire can use this power at the start of one of his turns to summon D3+1 Ghouls. Immediately calculate the Victory points value of the new unit. The unit can enter from any table edge in the same way as a unit that had pursued an enemy off the field.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
           </costs>
@@ -2046,6 +2175,11 @@ Lahmia Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="29ae-49aa-b3da-d69d" type="max"/>
           </constraints>
+          <rules>
+            <rule id="da0a-09a5-5e19-ab12" name="Iron Sinews" hidden="false">
+              <description>The Vampire has +1 Strength on his profile.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
           </costs>
@@ -2066,6 +2200,11 @@ Lahmia Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="10c5-104a-c6a6-5e84" type="max"/>
           </constraints>
+          <rules>
+            <rule id="8041-b4fe-d81c-ea2c" name="Seduction" hidden="false">
+              <description>At the beginning of the Close Combat phase select one model in base contact with the Vampire. The selected model must take a Leadership test. If the test is failed, the victim is controlled by the Vampire player in that Close Combat phase. The model will direct its attacks against his own side. The model cannot be attacked by either side in that Close Combat phase but, after combat resolution has been worked out, he reverts immediately to the original player&apos;s control and can therefore use his Leadership for any Break tests and can be broken and pursued as normal. If the model has no friendly models in base contact, it will count as being dominated (see the Domination power).</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="55.0"/>
           </costs>
@@ -2081,6 +2220,11 @@ Lahmia Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1685-2016-e7e6-2ffb" type="max"/>
           </constraints>
+          <rules>
+            <rule id="f0f6-45dd-4681-d59c" name="Domination" hidden="false">
+              <description>At the beginning of the Close Combat phase select one model in base contact with the Vampire. The selected model must take a Leadership test. If the test is failed, the victim cannot attack in that Close Combat phase and all attacks directed against the victim will hit automatically.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="40.0"/>
           </costs>
@@ -2096,6 +2240,11 @@ Lahmia Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a447-fe41-16d6-1489" type="max"/>
           </constraints>
+          <rules>
+            <rule id="2039-bc69-a44e-a30b" name="Quickblood" hidden="false">
+              <description>The Vampire has a Ward save of 5+.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="30.0"/>
           </costs>
@@ -2111,6 +2260,11 @@ Lahmia Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4fde-bd44-4865-587c" type="max"/>
           </constraints>
+          <rules>
+            <rule id="0134-9e6f-4e0c-5f0f" name="Innocence Lost" hidden="false">
+              <description>The Vampire always attacks first in close combat, even if charged. If an enemy has the same power because of a magic item or spell, hits are resolved in order of Initiative. If the Vampire and her enemy have the same Initiative, roll a dice to decide who attacks first.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
           </costs>
@@ -2126,6 +2280,11 @@ Lahmia Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d309-8ae7-2d22-1bb0" type="max"/>
           </constraints>
+          <rules>
+            <rule id="bea4-271b-327c-a857" name="Transfix" hidden="false">
+              <description>At the beginning of the Close Combat phase select one model in base contact with the Vampire The selected model must take a Leadership test. If the test is failed, the victim cannot attack in that Close Combat phase.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
           </costs>
@@ -2141,6 +2300,13 @@ Lahmia Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="225b-624e-ccc7-862d" type="max"/>
           </constraints>
+          <rules>
+            <rule id="4c88-860b-2dcc-5e59" name="Beguile" hidden="false">
+              <description>What brute would dare to attack such a vulnerable lady?
+
+At the beginning of the Close Combat phase select one model in base contact with the Vampire. The selected model must take a Leadership test. If the test is failed, the victim cannot attack the Vampire in that Close Combat phase.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
           </costs>
@@ -2251,6 +2417,11 @@ Lahmia Type</description>
       </constraints>
       <selectionEntries>
         <selectionEntry id="d62b-327f-8207-6bbd" name="Necromancy" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="2d65-1337-b88a-1a55" name="Necromancy" hidden="false">
+              <description>Necromancy Lore</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -2771,6 +2942,11 @@ For each unsaved wound caused by the blade the player may immediately get a magi
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33c9-44f1-affd-f000" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3d4d-8910-791e-3158" type="max"/>
               </constraints>
+              <rules>
+                <rule id="10ec-6879-0cc1-c2d9" name="Wailing Helm" hidden="false">
+                  <description>Gives a 6+ armour save and may be worn in addition to normal armour. The wearer also causes terror.</description>
+                </rule>
+              </rules>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="50.0"/>
               </costs>
