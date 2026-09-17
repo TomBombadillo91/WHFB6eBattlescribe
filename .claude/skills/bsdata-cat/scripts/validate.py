@@ -444,6 +444,8 @@ def main() -> int:
     ap.add_argument("--root", help="repo root (default: auto-detected)")
     ap.add_argument("--no-deploy", action="store_true", help="skip Deploy/ consistency checks")
     ap.add_argument("-q", "--quiet", action="store_true", help="errors only, no warnings")
+    ap.add_argument("--max-warnings", type=int, metavar="N",
+                    help="fail if more than N warnings (the accepted baseline is 159)")
     args = ap.parse_args()
 
     root = repo_root(args.root)
@@ -489,7 +491,12 @@ def main() -> int:
 
     checked = ", ".join(sorted(f.name for f in selected)) if args.files else f"{len(selected)} files"
     print(f"\nchecked {checked}: {len(rep.errors)} error(s), {len(rep.warnings)} warning(s)")
-    return 1 if rep.errors else 0
+
+    over_budget = args.max_warnings is not None and len(rep.warnings) > args.max_warnings
+    if over_budget:
+        print(f"error: {len(rep.warnings)} warnings exceeds the accepted baseline of "
+              f"{args.max_warnings}; see 'Accepted validator warnings' in CLAUDE.md")
+    return 1 if rep.errors or over_budget else 0
 
 
 if __name__ == "__main__":

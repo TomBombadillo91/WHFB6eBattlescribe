@@ -1,0 +1,72 @@
+name: Validate
+
+# Structural validation of the BattleScribe data files. This is the gate the
+# Deploy workflow waits on, so keep the workflow name stable -- deploy.yml
+# references it by name in its workflow_run trigger.
+
+# (The two path lists are duplicated on purpose: GitHub Actions does not support
+# YAML anchors in workflow files. Keep them in step.)
+on:
+  pull_request:
+    paths:
+      - '*.cat'
+      - '*.gst'
+      - 'Deploy/**'
+      - '.claude/skills/bsdata-cat/scripts/**'
+      - '.github/workflows/validate.yml'
+  push:
+    branches: [main]
+    paths:
+      - '*.cat'
+      - '*.gst'
+      - 'Deploy/**'
+      - '.claude/skills/bsdata-cat/scripts/**'
+      - '.github/workflows/validate.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate data files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # Deploy/ is regenerated automatically once a change lands on main, so a
+      # pull request is not required to have it up to date. Checking it here
+      # would fail every honest PR, hence --no-deploy; deploy.yml runs the full
+      # check after it repackages.
+      #
+      # --max-warnings pins the accepted baseline documented in CLAUDE.md (the
+      # Chaos Dwarves / Orcs and Goblins id collision). New warnings fail.
+      - name: Validate
+        run: >
+          python .claude/skills/bsdata-cat/scripts/validate.py
+          --no-deploy
+          --max-warnings 159
+
+      # Informational only: tells a contributor whether their branch also needs
+      # a Deploy/ rebuild, without failing the build if it does.
+      - name: Report Deploy/ freshness
+        if: always()
+        run: |
+          if python .claude/skills/bsdata-cat/scripts/build_deploy.py --check > deploy-check.txt 2>&1; then
+            echo ':white_check_mark: `Deploy/` is in sync with the root data files.' >> "$GITHUB_STEP_SUMMARY"
+          else
+            {
+              echo ':information_source: `Deploy/` is stale on this branch:'
+              echo
+              echo '```'
+              cat deploy-check.txt
+              echo '```'
+              echo
+              echo 'That is fine -- it is rebuilt automatically when this lands on `main`.'
+              echo 'To do it locally: `python .claude/skills/bsdata-cat/scripts/build_deploy.py`'
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
