@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4b41-6842-9db5-f563" name="Tomb Kings" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4b41-6842-9db5-f563" name="Tomb Kings" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7d0c-5562-269f-0795" name="Tomb King General" hidden="false"/>
     <categoryEntry id="80b7-5608-88c2-552c" name="Settra&apos;s Army" hidden="false">
@@ -1352,7 +1352,9 @@ One Skink Chief may carry the Battle Standard for +25 pts. A Skink Chief with th
           </constraints>
           <rules>
             <rule id="b5a1-96e2-18df-a8ff" name="The Armour of Golden Magnificence" hidden="false">
-              <description>Settra has a 2+ Armour saving throw. This saving throw is never modified to worse than a 4+, even if hit by an attack that normally allows no Armour save (such as a cannonball).</description>
+              <description>Settra wears a suit of age-old, kingly armour that was said to have been crafted and worn by the jackal god, Djaf, when he walked the land. It is impervious to the ravages of time, and nothing can tarnish this shining golden armour.
+
+Settra has a 2+ Armour saving throw. This saving throw is never modified to worse than a 4+, even if hit by an attack that normally allows no Armour save (such as a cannonball).</description>
             </rule>
           </rules>
           <costs>
@@ -1642,7 +1644,9 @@ If the wearer is with a unit, no more than half the wounds suffered due to comba
               </constraints>
               <rules>
                 <rule id="7fa7-d49b-6f2a-6ea2" name="Armour of the Ages" hidden="false">
-                  <description>Counts as heavy armour. The bearer gains +1 Wound.</description>
+                  <description>This armour imbues its wearer with the ability to continue fighting even when horrendously injured.
+
+Counts as heavy armour. The bearer gains +1 Wound.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -1769,7 +1773,9 @@ If the wearer is with a unit, no more than half the wounds suffered due to comba
           </constraints>
           <rules>
             <rule id="7efa-36eb-87ae-070d" name="Icon of the Sacred Eye" hidden="false">
-              <description>In the first round of every combat, all models in the unit (including steeds) get +1 to hit.</description>
+              <description>The arcane power of this stylised icon of the unblinking eye infuses the unit that carries it within their ranks, making their blows strike true.
+
+In the first round of every combat, all models in the unit (including steeds) get +1 to hit.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -1798,7 +1804,9 @@ If the wearer is with a unit, no more than half the wounds suffered due to comba
           </constraints>
           <rules>
             <rule id="2866-8f4e-d747-c560" name="Mirage Standard" hidden="false">
-              <description>Any missile weapons that roll to hit must re-roll all successful rolls to hit when firing against a unit that contains the Mirage Standard. Against missile weapons that do not require a roll to hit (such as cannons and stone throwers), all models in the unit containing the Mirage Standard gain a 5+ Ward save.</description>
+              <description>Imbued with the curses of a hundred Nehekharan widows, this banner leads the enemies&apos; minds astray, rendering them almost blind to where the unit bearing the banner actually is.
+
+Any missile weapons that roll to hit must re-roll all successful rolls to hit when firing against a unit that contains the Mirage Standard. Against missile weapons that do not require a roll to hit (such as cannons and stone throwers), all models in the unit containing the Mirage Standard gain a 5+ Ward save.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2300,7 +2308,9 @@ A character with this item cannot take any other magic items.</description>
           </constraints>
           <rules>
             <rule id="232a-e271-6a52-95bf" name="Destroyer of Eternities" hidden="false">
-              <description>Tomb King on foot only. Counts as a great weapon and has the Killing Blow special ability. The player may choose to attack normally with the Destroyer of Eternities or make a special attack If the special attack is chosen, all enemy models that are touching the Tomb King take two automatic hits. These hits do benefit from the special rules for great weapons and Killing Blow. If a target is riding a monster or a chariot, then both take two automatic hits. In a challenge, only the model engaged in the challenge counts as being in contact with the Tomb King.</description>
+              <description>The bloodthirsty King Nekhesh first wielded this massive, ornate blade in battle, smashing his foes in all directions and severing limbs and heads with each swing It is said that those slain by its blade have no chance of reaching the afterlife, and it was thus greatly feared in ancient Nehekhara. The sword was also used to ritually execute captured foes of the king, and it can cleave through armour, muscle and bone with ease.
+
+Tomb King on foot only. Counts as a great weapon and has the Killing Blow special ability. The player may choose to attack normally with the Destroyer of Eternities or make a special attack If the special attack is chosen, all enemy models that are touching the Tomb King take two automatic hits. These hits do benefit from the special rules for great weapons and Killing Blow. If a target is riding a monster or a chariot, then both take two automatic hits. In a challenge, only the model engaged in the challenge counts as being in contact with the Tomb King.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2329,7 +2339,9 @@ A character with this item cannot take any other magic items.</description>
           </constraints>
           <rules>
             <rule id="476c-3204-bb48-a8b4" name="Crook and Flail of Radiance" hidden="false">
-              <description>Tomb King or Tomb Prince only. +1 Attack. Always strikes first. If another character has this ability, then resolve the order of attacks in Initiative order. Requires two hands.</description>
+              <description>These gleaming golden weapons represent the high status of the bearer, and all in his presence are humbled by the aura of majesty these weapons convey. Only the most powerful and influential leaders may bear these sacred symbols of rulership.
+
+Tomb King or Tomb Prince only. +1 Attack. Always strikes first. If another character has this ability, then resolve the order of attacks in Initiative order. Requires two hands.</description>
             </rule>
           </rules>
           <categoryLinks>

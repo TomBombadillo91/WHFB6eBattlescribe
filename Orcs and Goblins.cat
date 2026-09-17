@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9534-aec7-1922-76f2" name="Orcs and Goblins" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9534-aec7-1922-76f2" name="Orcs and Goblins" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5b0c-07f2-6b72-7aa8" name="Orc" hidden="false"/>
     <categoryEntry id="2c47-226a-5465-6c16" name="Common Orc" hidden="false"/>
@@ -3005,7 +3005,9 @@ Move the Fanatic into and through any units it hits as already described and cal
               <description>If a Fanatic moves into an obstacle, wood, building, impassable terrain of any kind, or off the tabletop altogether then he is slain. If two Fanatics collide both are slain.</description>
             </rule>
             <rule id="7612-f8c6-5416-3d7e" name="Moving through Fanatics" hidden="false">
-              <description>As already described, a moving unit that is confronted by emerging Fanatics is halted 8&quot; away from the Night Goblin unit and does not move any further in that Movement phase. However, charging units are an exception to this rule. This is true even if the unit has declared a charge but has not yet started moving. The unit must complete its charge once damage from the Fanatics is worked out and if no (more) Fanatics would be hit as a result. If Fanatics are left in-between the chargers and their target then the chargers can choose to either halt where they are, or complete their charge by deliberately moving through the Fanatics. This is entirely up to the player. If chargers move through a Fanatic then they take further damage. This may initiate a Panic test if sufficient casualties are caused, assuming that a Panic test has not already been taken. If a Panic test due to Fanatic casualties has already been taken and passed then another test is not needed.
+              <description>Troops are not allowed to intentionally move into a Fanatic that was released in a previous turn unless they are charging as described below. However, troops will sometimes be forced to move into a Fanatic, for example because they move randomly or if they flee or pursue through it. When this happens the unit takes damage as if hit by the Fanatic. A unit which panics as a result of casualties suffered from a Fanatic does not need to take further damage if it flees back through the same Fanatic - the troops are assumed to flee in front of the Fanatic as it whirls towards them.
+
+As already described, a moving unit that is confronted by emerging Fanatics is halted 8&quot; away from the Night Goblin unit and does not move any further in that Movement phase. However, charging units are an exception to this rule. This is true even if the unit has declared a charge but has not yet started moving. The unit must complete its charge once damage from the Fanatics is worked out and if no (more) Fanatics would be hit as a result. If Fanatics are left in-between the chargers and their target then the chargers can choose to either halt where they are, or complete their charge by deliberately moving through the Fanatics. This is entirely up to the player. If chargers move through a Fanatic then they take further damage. This may initiate a Panic test if sufficient casualties are caused, assuming that a Panic test has not already been taken. If a Panic test due to Fanatic casualties has already been taken and passed then another test is not needed.
 
 As Goblin Fanatics cannot be fought normally, either player can ignore them and charge through them, moving as if they were not there. The charging unit takes damage from the Fanatic as normal, and if the Fanatic would end up inside the unit it is placed 1&quot; behind the unit instead.</description>
             </rule>
@@ -3023,7 +3025,9 @@ If, by whatever means, an enemy suddenly appears closer than 8&quot; to the Nigh
 !goblin-fanatics-2</description>
             </rule>
             <rule id="8852-92a8-14fc-9ff8" name="Splat!" hidden="false">
-              <description>If a Fanatic touches a unit as he moves he automatically inflicts D6 Strength 5 hits with his spinning ball of death. It does not matter how many models the Fanatic spins through. If he hits just one then he bounces around inside the unit, rebounding from foe to foe, until he spins out the other side leaving the enemy completely devastated. Note also that a single Fanatic can pass through several units in one turn if he rolls high enough.
+              <description>Fanatics don&apos;t fight in close combat at all. Instead they cause terrible carnage as they whirl through their target. They cannot be attacked in close combat. The only way to kill a Fanatic is to shoot him, fry him with magic of wait for him to collapse from exhaustion.
+
+If a Fanatic touches a unit as he moves he automatically inflicts D6 Strength 5 hits with his spinning ball of death. It does not matter how many models the Fanatic spins through. If he hits just one then he bounces around inside the unit, rebounding from foe to foe, until he spins out the other side leaving the enemy completely devastated. Note also that a single Fanatic can pass through several units in one turn if he rolls high enough.
 
 No armour saves are permitted from Fanatic attacks. Heavily armoured targets are just as vulnerable as others - their armour is easily crushed whilst nimbler and more lightly armored individuals might more readily dodge out of the way.
 
@@ -3042,7 +3046,15 @@ If a Fanatic spins into a unit that is engaged in close combat then calculate th
           </constraints>
           <rules>
             <rule id="792a-2067-e981-c797" name="Netters" hidden="false">
-              <description>Entangled models lose 1 Attack from their profile for the rest of that turn. A character model or a model with multiple Attacks might be netted several times, in which case the penalty is cumulative; -1 Attack is lost each time the model is netted. However, if the model has special attacks or attacks which are not based on the model&apos;s profile these are not affected. If the model is mounted on a creature that has its own Attacks then the plaver who has been netted can elect to surrender either a mount or rider Attack, but only loses 1 Attack from the model in total.
+              <description>A unit of Night Goblins may include a proportion of Netters. The Netters use their nets to entangle the Goblins&apos; enemies, rendering them unable to fight.
+
+Netter models always fight exactly like an ordinary rank-and-file Goblin of their type and are assumed to be armed and armoured in the same way too. So, in a regiment of Night Goblin Archers the Netters are assumed to have bows as well even if individual models appear solely preoccupied with waving their nets about! We can safely imagine that sufficient Night Goblins have concealed weaponry nestling beneath their robes and leave it at that (it is best not to probe too deeply beneath the robes of a Night Goblin).
+
+Netters can attempt to entangle enemy models before the first round of a combat. Their special ability only applies once during a combat engagement, after which they are assumed to have thrown their nets away and resorted to ordinary weaponry. Once they have thrown their nets the Netter model is replaced with a normal Night Goblin for the rest of the battle. This shouldn&apos;t be a problem as you&apos;re in combat now and there are bound to be a few casualties among the Gobbos...
+
+Immediately before normal fighting begins, each Netter Goblin can attempt to throw his net over an enemy model in base contact. Roll to hit on behalf of the Netter in the same way as when fighting close combat. If the target model is hit it is entangled. Several Netters can attempt to throw their nets over the same model assuming that they are all in base contact with their target.
+
+Entangled models lose 1 Attack from their profile for the rest of that turn. A character model or a model with multiple Attacks might be netted several times, in which case the penalty is cumulative; -1 Attack is lost each time the model is netted. However, if the model has special attacks or attacks which are not based on the model&apos;s profile these are not affected. If the model is mounted on a creature that has its own Attacks then the plaver who has been netted can elect to surrender either a mount or rider Attack, but only loses 1 Attack from the model in total.
 
 Once all entanglements have been worked out, combat proceeds as normal with both sides making attacks in the usual order, including the Netters. Note that this means that Netters get to fight twice in the first round of combat - once with nets and once with ordinary weapons. In second and subsequent turns of combat the Netters have no further effect and previously &apos;netted&apos; enemies struggle free to fight as normal.
 
@@ -3545,7 +3557,9 @@ When a Night Goblin unit containing Netters is shot at by missile weapons the pl
 Squig Hoppers and loose Squigs can also be targeted by missile fire. If they are hit, work out damage as normal. In the case of Squig Hoppers, the first wound always kills the rider, turning its mount into a loose Squig, the second wound kills the Squig. A Squig Hopper which turns into a loose Squig as a result of missile fire will bounce randomly from its next turn.</description>
         </rule>
         <rule id="cc46-469e-f8c9-02be" name="Flee!" hidden="false">
-          <description>As soon as a unit declares that it is fleeing, it is moved 
+          <description>Flee means just that - when your unit sees the enemy thundering down upon them, they turn tail and run! This is a rather desperate option as once troops begin to run they tend to carry on going, and may run away from the battlefield altogether, whether you want them to or not.
+
+As soon as a unit declares that it is fleeing, it is moved 
 directly away from charging enemies by 2D6&quot; if its 
 Movement characteristic is 6&quot; or less, or by 3D6&quot; if its Move is more than 6&quot;. The fleeing unit is repositioned facing directly away from the chargers. Move the fleeing models immediately by the distance indicated by the dice roll. This is explained further in the rules for fleeing models in the Close Combat section.</description>
         </rule>
@@ -3580,7 +3594,9 @@ When deploying a Squig Herd on the tabletop, Night Goblins can never be arranged
 The unit is considered to have the same Leadership value as the Night Goblins because they control the Squigs (in theory). All Leadership based test are therefore taken against the Night Goblins&apos; Leadership, including any Break tests required.</description>
         </rule>
         <rule id="c18d-2439-e7e2-68d6" name="Squig Hoppers" hidden="false">
-          <description>At the start of the Movement phase, as part of compulsory movement, the player indicates which of his Squig Hoppers will bounce out of their unit. Taking each Hopper one at a time, indicate the direction he will move in and roll 2D6 - the Squig Hopper moves exactly the distance rolled. However, on the roll of any double the rider is thrown immediately and the Squig Hopper becomes a loose Squig. If you have a spare Squig model, replace the Hopper with that. Otherwise just make a note and roll a Scatter dice to establish the direction bounced as described for a loose Squig.
+          <description>Squig Hoppers are Night Goblins riding, or rather hanging on to, Squigs. They are included in Squig units and can fight in them too. The rider never fights, he is too busy trying to stay on, so a squig Hopper fights exactly like a squig. The advantage of a Squig Hopper is that he can deliberately bounce out of the unit at the start of the player&apos;s Movement phase so long as the unit is not already fighting in close combat, has declared a charge, or is subject to a compulsory movement rule such as that caused by a failed Animosity test, etc.
+
+At the start of the Movement phase, as part of compulsory movement, the player indicates which of his Squig Hoppers will bounce out of their unit. Taking each Hopper one at a time, indicate the direction he will move in and roll 2D6 - the Squig Hopper moves exactly the distance rolled. However, on the roll of any double the rider is thrown immediately and the Squig Hopper becomes a loose Squig. If you have a spare Squig model, replace the Hopper with that. Otherwise just make a note and roll a Scatter dice to establish the direction bounced as described for a loose Squig.
 
 If a Squig Hopper or loose Squig bounces onto any unit from either side it will attack immediately. Work out if the Squig hits and remove any casualties caused. The enemy cannot fight back. Then bounce the Squig again in exactly the same way. Continue to bounce each Squig until it lands on an empty space. If you&apos;re lucky it will bounce from one enemy unit to another, killing as many enemy as possible. If you&apos;re lucky...
 
@@ -4939,7 +4955,9 @@ score a hit regardless of how slimy he is.</description>
           </constraints>
           <rules>
             <rule id="411d-55bc-041e-674e" name="Blood-forged Armour" hidden="false">
-              <description>Gives Grimgor a 1+ Armour save and a 5+ Ward save.</description>
+              <description>Battered, scarred and twisted, just like its wearer, the Blood-forged Armour has served Grimgor well in many battles.
+
+Gives Grimgor a 1+ Armour save and a 5+ Ward save.</description>
             </rule>
           </rules>
           <costs>
@@ -6605,7 +6623,9 @@ If an enemy model suffers one or more wounds (after saves) inflicted by the Curm
           </constraints>
           <rules>
             <rule id="f40e-1d66-b3f2-5942" name="Duffa&apos;s Club of Duffin&apos;" hidden="false">
-              <description>Duffa&apos;s Club of Duffin&apos; strikes with +3 Attacks once in the game. The Orc player must declare that he&apos;s using the extra Attacks before he makes any rolls to hit. All 3 Attacks have to be used at the same time and the bearer has to roll to hit as usual. Duffa&apos;s Club only works once in the game.</description>
+              <description>Duffa was Wollopa&apos;s sidekick until he was eaten by a Squig. Waking up inside the Squig&apos;s stomach was a bit of a shock and although he fought his way out he was never quite the same afterwards. It is said that this club retains some of his frenzy to escape even now.
+
+Duffa&apos;s Club of Duffin&apos; strikes with +3 Attacks once in the game. The Orc player must declare that he&apos;s using the extra Attacks before he makes any rolls to hit. All 3 Attacks have to be used at the same time and the bearer has to roll to hit as usual. Duffa&apos;s Club only works once in the game.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -6742,7 +6762,9 @@ If an enemy model suffers one or more wounds (after saves) inflicted by the Curm
               </constraints>
               <rules>
                 <rule id="5f6d-2f37-8280-f75a" name="Drog&apos;s Dead &apos;Ard Armour" hidden="false">
-                  <description>Orcs only. Gives the wearer a 1+ armour save that cannot be improved.</description>
+                  <description>Drog was one of the first Black Orcs to be seen to the west of the Worlds Edge Mountains, and his battle-scarred armour was made to an unusual design by unknown hands.
+
+Orcs only. Gives the wearer a 1+ armour save that cannot be improved.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -6776,7 +6798,9 @@ If an enemy model suffers one or more wounds (after saves) inflicted by the Curm
               </constraints>
               <rules>
                 <rule id="cf0f-3ba8-f38d-7e3d" name="Armour of Protectyness" hidden="false">
-                  <description>Counts as wearing armour (5+ armour save) which can be combined with other equipment normally. Also, the wearer discounts the first wound he suffers.</description>
+                  <description>It&apos;s not often that Gobbos get to name magical items, and this is why. The Armour of Protectyness was quenched in the blood of a Troll and has gained some of its regenerative powers.
+
+Counts as wearing armour (5+ armour save) which can be combined with other equipment normally. Also, the wearer discounts the first wound he suffers.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -6805,7 +6829,9 @@ If an enemy model suffers one or more wounds (after saves) inflicted by the Curm
               </constraints>
               <rules>
                 <rule id="0f28-5fd1-6490-2317" name="Armour of Mork" hidden="false">
-                  <description>Counts as wearing armour (5+ armour save) which can be combined with other equipment normally.  Also gives the wearer and the unit he is with Magic Resistance (2).</description>
+                  <description>Armour made with the aid of a Shaman (as one of the ingredients) is a strong defence against enemy magic.
+
+Counts as wearing armour (5+ armour save) which can be combined with other equipment normally.  Also gives the wearer and the unit he is with Magic Resistance (2).</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -6837,7 +6863,9 @@ If an enemy model suffers one or more wounds (after saves) inflicted by the Curm
               </constraints>
               <rules>
                 <rule id="b911-f6c8-49b0-a2c9" name="Armour of Gork" hidden="false">
-                  <description>Counts as wearing armour (5+ armour save) which can be combined with other equipment normally. The wearer may re-roll failed armour saves.</description>
+                  <description>If armour is made with the correct rituals instead of just being bashed out of whatever bits of metal come to hand, it can be enchanted by a Shaman to offer extra protection.
+
+Counts as wearing armour (5+ armour save) which can be combined with other equipment normally. The wearer may re-roll failed armour saves.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -7358,7 +7386,9 @@ The &apos;Itty Ring contains the &apos;Eadbutt spell described in the spells of 
           </constraints>
           <rules>
             <rule id="3245-4449-e299-a415" name="Night Banner" hidden="false">
-              <description>Thanks to the darkness and shadowyness of it all, not to mention the dimness, any missiles fired at the unit are at -1 to hit.</description>
+              <description>The Night Banner surrounds the unit which has it in dimly shadowy darkness and darkly dim shadowyness.
+
+Thanks to the darkness and shadowyness of it all, not to mention the dimness, any missiles fired at the unit are at -1 to hit.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -7738,7 +7768,14 @@ D6		Result
           <description>The Giant head-butts his enemy. automatically inflicting 1 wound with no armour saves allowed. If the victim is wounded but not slain then he is dazed and loses all of his following attacks - if the target has not yet attacked that combat round he loses those Attacks, if he has already attacked he loses the following round&apos;s attacks.</description>
         </rule>
         <rule id="a0f9-f5f7-8760-df25" name="Fall Over" hidden="false">
-          <description>To see if the Giant falls over roll a D6. If you score between 2 and 6 then the Giant sways slightly, but regains his balance and no harm is done. If the roll results in a 1 the Giant falls over. Obviously, if a Giant is slain then it falls over automatically.
+          <description>A Giant must test to see whether it falls over if any of the following apply:
+
+1. When it is beaten in close combat. Test once results are established but before taking Break or Panic tests.
+2. At the start of the Movement phase if it is fleeing.
+3. When it crosses an obstacle. Test when the obstacle is reached.
+4. If the Giant decides to Jump Up and Down on an enemy. Test immediately beforehand.
+
+To see if the Giant falls over roll a D6. If you score between 2 and 6 then the Giant sways slightly, but regains his balance and no harm is done. If the roll results in a 1 the Giant falls over. Obviously, if a Giant is slain then it falls over automatically.
 
 To determine which direction the Giant falls, roll a Scatter dice - the arrow indicates the direction in which the Giant falls. Place the Falling Giant template with its feet at the model&apos;s base and its head in the direction of the fall. Any models lying completely under the template are automatically hit. Any models partly covered are hit on a 4+.
 
@@ -7771,7 +7808,9 @@ D6	Result
 4-6	Swing with Club</description>
         </rule>
         <rule id="25b7-efb3-4a96-ea83" name="Jump Up and Down" hidden="false">
-          <description>The unit sustains 2D6 Strength 6 hits allocated as shooting hits. Work out damage and saves as usual. Giants enjoy jumping up and down on their enemies so much that a Giant that does so in one combat round will automatically do so in the following round if he is able to, assuming that he did not fall over in the previous round. A separate test is required at the start of each succeeding combat round to determine if the Giant falls over. A Giant that starts to Jump Up and Down will therefore continue to do so until he falls over or until the that combat comes to an end.</description>
+          <description>The Giant jumps up and down vigorously on top of one enemy unit in base contact. Before he starts, the Giant must test to determine if he falls over. If he falls over, work out where he falls over. Assuming that he remains on his none too nimble feet, the Giant bounds up and down on the enemy unit, guffawing madly.
+
+The unit sustains 2D6 Strength 6 hits allocated as shooting hits. Work out damage and saves as usual. Giants enjoy jumping up and down on their enemies so much that a Giant that does so in one combat round will automatically do so in the following round if he is able to, assuming that he did not fall over in the previous round. A separate test is required at the start of each succeeding combat round to determine if the Giant falls over. A Giant that starts to Jump Up and Down will therefore continue to do so until he falls over or until the that combat comes to an end.</description>
         </rule>
         <rule id="c282-29cf-cc67-ef4e" name="Giants Movement" hidden="false">
           <description>Giants have long limbs and move over normal sized obstacles such as walls and fences without breaking stride. Treat such obstacles as open ground when working out how far the Giant moves. However, when crossing such obstacles the player must test to see if the Giant falls over.</description>
@@ -7793,7 +7832,9 @@ D6		Result
           <description>The Giant swings his club across the enemy&apos;s ranks, knocking many targets to the floor. The Giant inflicts D6 Strength 6 hits on the target unit, allocated as shooting hits.</description>
         </rule>
         <rule id="b408-1409-f56f-7362" name="Thump with Club" hidden="false">
-          <description>The target may attempt to avoid the blow by taking and passing an Initiative test (use the lowest if the model has several different values). If avoided there is no effect. If failed the target is struck and takes 2D6 wounds with no armour save allowed. If a double is rolled the Giant&apos;s club embeds itself in the ground and the Giant cannot attack at all in the following round whilst he recovers his weapon (this ceases to apply if the combat ends before the next round).</description>
+          <description>Most Giants carry a big club, often a tree trunk or a big bone. If they have no weapon they will use their enormous fists. The Giant picks one model as his target and brings down his club with a single mighty stroke.
+
+The target may attempt to avoid the blow by taking and passing an Initiative test (use the lowest if the model has several different values). If avoided there is no effect. If failed the target is struck and takes 2D6 wounds with no armour save allowed. If a double is rolled the Giant&apos;s club embeds itself in the ground and the Giant cannot attack at all in the following round whilst he recovers his weapon (this ceases to apply if the combat ends before the next round).</description>
         </rule>
         <rule id="7c73-a945-0f86-ad34" name="Yell and Bawl" hidden="false">
           <description>The Giant yells and bawls at the enemy. This is not a pleasant experience as Giants are deafeningly loud and tend towards poor oral hygiene. Neither the Giant nor models in contact him actually fight if they have not already done so this round, but the combat round is automatically won by the Giant&apos;s side. The enemy are automatically beaten and must take resultant Break tests with a -2 modifier.</description>
@@ -7803,7 +7844,9 @@ D6		Result
     <infoGroup id="f401-340a-10f3-9ab4" name="Troll" hidden="false">
       <rules>
         <rule id="cb05-1611-12c6-3ab5" name="Troll Vomit" hidden="false">
-          <description>Instead of attacking normally the whole unit may elect to vomit on the enemy. As each Troll can make only 1 Vomit Attack at a time, as opposed to 3 ordinary Attacks, this means the unit gets fewer Attacks, although these always hit. Each model inflicts one automatic Strength 5 hit with no Armour saves allowed.</description>
+          <description>A Troll&apos;s digestive fluid is the most corrosive thing known to science... and about the most revolting too. Trolls are able to vomit their stomach contents upon their enemies if they wish. A unit of Trolls can make Vomit Attacks instead of ordinary attacks during close combat.
+
+Instead of attacking normally the whole unit may elect to vomit on the enemy. As each Troll can make only 1 Vomit Attack at a time, as opposed to 3 ordinary Attacks, this means the unit gets fewer Attacks, although these always hit. Each model inflicts one automatic Strength 5 hit with no Armour saves allowed.</description>
         </rule>
       </rules>
       <infoLinks>

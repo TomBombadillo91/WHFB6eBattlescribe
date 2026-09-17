@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2c0-45b3-040e-fe0f" name="Vampire Counts" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2c0-45b3-040e-fe0f" name="Vampire Counts" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7d18-159a-be52-079b" name="Vampire" hidden="false"/>
     <categoryEntry id="72bd-3327-881f-a995" name="Von Carstein" hidden="false"/>
@@ -1056,7 +1056,9 @@
     <selectionEntry id="f5ec-da94-2004-b9e5" name="Dire Wolves" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="6308-8964-d5c5-c3dc" name="Slavering Charge" hidden="false">
-          <description>Models with this special rule resolve their attacks at Strength 4 during the turn they charge.</description>
+          <description>These beasts overpower their enemies as they charge.
+
+Models with this special rule resolve their attacks at Strength 4 during the turn they charge.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2803,7 +2805,9 @@ For each unsaved wound caused by the blade the player may immediately get a magi
               </constraints>
               <rules>
                 <rule id="d6cf-fb69-c362-3356" name="The Flayed Hauberk" hidden="false">
-                  <description>Can&apos;t be chosen by Necrarch or Lahmian Vampires. 1+ armour save. This cannot be improved by any means.</description>
+                  <description>The design and dark red colour of this armour make the wearer disturbingly similar to a walking flayed body.
+
+Can&apos;t be chosen by Necrarch or Lahmian Vampires. 1+ armour save. This cannot be improved by any means.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -3041,7 +3045,9 @@ Can&apos;t be chosen by Blood Dragon Vampires. The Familiar&apos;s owner knows o
               </constraints>
               <rules>
                 <rule id="d728-5f50-dd42-c5f9" name="Staff of Damnation" hidden="false">
-                  <description>Bound Spell, Power Level 4. The bearer can release the powers of the staff once in each of his Magic phases. All Undead units within 12&quot; are affected by the Hellish Vigour spel.. Roll a D6 each time the Staff is used. On a roll of 1, the Staff is temporarily exhausted and can&apos;t be used again that battle.</description>
+                  <description>The Staff of Damnation contains a powerful spell that fills the Undead with renewed vigour.
+
+Bound Spell, Power Level 4. The bearer can release the powers of the staff once in each of his Magic phases. All Undead units within 12&quot; are affected by the Hellish Vigour spel.. Roll a D6 each time the Staff is used. On a roll of 1, the Staff is temporarily exhausted and can&apos;t be used again that battle.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -3141,7 +3147,9 @@ Roll a D6 each time the Book is used. On a result of 1 its powers are temporaril
           </constraints>
           <rules>
             <rule id="2132-b609-733c-4f38" name="Rod of Flaming Death" hidden="false">
-              <description>Bound Spell, Power Level 4. The bearer can cast the Rod&apos;s spell once in his Magic phase. The spell requires no Power dice to cast.
+              <description>The Rod contains a sinister spell of destruction which takes the shape of a flaming skull that hurtles against the enemy with a loud and terrifying scream.
+
+Bound Spell, Power Level 4. The bearer can cast the Rod&apos;s spell once in his Magic phase. The spell requires no Power dice to cast.
 
 A flaming magic missile with a range of 24&quot; and causing D3 Strength 4 hits spews from the staff. A unit taking at least one casualty must take a Panic test.</description>
             </rule>

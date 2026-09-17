@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="dfb1-1789-5d68-be54" name="Skaven" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="dfb1-1789-5d68-be54" name="Skaven" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="4f5c-498c-bd84-7e28" name="Clan Eshin" hidden="false"/>
     <categoryEntry id="befb-92ec-0667-152b" name="Clan Pestilens" hidden="false"/>
@@ -714,7 +714,11 @@ Warp-blades are Warpstone Weapons.</description>
       </profiles>
       <rules>
         <rule id="65f4-2774-9c02-4508" name="Hidden" hidden="false">
-          <description>Hidden Assassins may be revealed at the beginning of any of your turns or at the start of any Close Combat phase. The player declares that his unit contains an Assassin and places the model amongst the ranks where it can fight, displacing a normal rank-and-file model (not a character, champion, musician or standard bearer) to the rearmost rank. If there are no such models in the front rank, the Assassin is placed in the second rank until there is enough room for him in the first rank. Assassins always strikes first in the round of close combat they are revealed, even against chargers. If an enemy model is also entitled to always strike first, the model with higher Initiative strikes first (roll a D6 if they have equal Initiative).</description>
+          <description>If you wish, any Assassin in your army may start the game hidden in one of the following units: Clanrats, Stormvermin, Night Runners and Gutter Runners (not in Tunnelling Teams - too dangerous!).
+
+Hidden Assassins are not placed on the table but are assumed to move with the unit they accompany. At the start of the game, note down which unit they are hidden in. If the unit is wiped out or flees off the table before the Assassin is revealed then the Assassin is lost and Victory points are scored as normal. Before he&apos;s revealed there is no other way he can be harmed.
+
+Hidden Assassins may be revealed at the beginning of any of your turns or at the start of any Close Combat phase. The player declares that his unit contains an Assassin and places the model amongst the ranks where it can fight, displacing a normal rank-and-file model (not a character, champion, musician or standard bearer) to the rearmost rank. If there are no such models in the front rank, the Assassin is placed in the second rank until there is enough room for him in the first rank. Assassins always strikes first in the round of close combat they are revealed, even against chargers. If an enemy model is also entitled to always strike first, the model with higher Initiative strikes first (roll a D6 if they have equal Initiative).</description>
         </rule>
         <rule id="b854-72dc-dc65-d5b7" name="Leadership" hidden="false">
           <description>Units in the army can never use their Leadership value and an Assassin can never be the General of the army (therefore your army must include at least one other character to act as the General).</description>
@@ -2476,7 +2480,9 @@ If the Doomwheel&apos;s movement is sufficient to move into contact wiht an enem
           <description>Warp Lightning is a magic missile with a range of 24&quot; It can be cast at a casting value of 5+ or 9+ (declare before rolling the dice). If successfully cast, it hits its target and causes D6 Strength 5 hits at casting value 5+ or 2D6 Strength 5 hits at 9+. Each result of 1 that is rolled when determining the number of hits caused by any version of the spell hits the caster rather than the enemy. For example, if a 4 and a 1 are rolled to determine the 2D6 hits caused, the enemy suffers four hits and the caster suffers one.</description>
         </rule>
         <rule id="77ed-8cd8-003d-e77b" name="Crew Attacks" hidden="false">
-          <description>Crew and chariots may also shoot any of their missile weapons in the Shooting phase as normal (unless engaged in close combat) though a -1 to hit penalty applies if the chariot moves.</description>
+          <description>Chariot crew may fight against enemy in contact with the chariot whether to its front, side or rear. They strike blows in normal Initiative order and attack during a charge, exactly like other warriors. All crew (usually two) fight, including the driver.
+
+Crew and chariots may also shoot any of their missile weapons in the Shooting phase as normal (unless engaged in close combat) though a -1 to hit penalty applies if the chariot moves.</description>
         </rule>
         <rule id="f6b5-f23b-f7a9-f19e" name="Unit Strength 4" hidden="false">
           <description>The Doomwheel has a Unit Strength of 4.</description>
@@ -2703,7 +2709,9 @@ D6	Result
           <description>When Throt is in the rear ranks of a unit of Giant Rats or Rat Ogres, he can make four Strength 4 Attacks with his whip instead of the one normal Strength 5 Attack. Note that attacks with the whip do NOT benefit from the Killing Blow ability.</description>
         </rule>
         <rule id="2d1c-a802-400d-6065" name="Master Controller" hidden="false">
-          <description>Any Clan Moulder unit within 6&quot; of Throt may re-roll any failed Psychology test. In addition to this, if Throt is not your army&apos;s General, any Clan Moulder unit (Rat Ogres and Giant Rats) within 6&quot; of him may use his Leadership for any Leadership test they take.</description>
+          <description>Throt holds his position of authority within Clan Moulder through a mixture of fear, respect and brute strength. Skaven cringe under his crazed gaze, and fear the touch of his accursed whip.
+
+Any Clan Moulder unit within 6&quot; of Throt may re-roll any failed Psychology test. In addition to this, if Throt is not your army&apos;s General, any Clan Moulder unit (Rat Ogres and Giant Rats) within 6&quot; of him may use his Leadership for any Leadership test they take.</description>
         </rule>
         <rule id="be1c-e2ca-1b0e-4e3c" name="Ravening Hunger" hidden="false">
           <description>Throt and any unit he has joined may never pursue a fleeing enemy they have broken in combat, as Throt stops to feed on the corpses of the fallen.</description>
@@ -2907,7 +2915,11 @@ Throt can Regenerate.</description>
       </profiles>
       <rules>
         <rule id="809a-66fb-118a-8ec5" name="Hidden" hidden="false">
-          <description>Hidden Assassins may be revealed at the beginning of any of your turns or at the start of any Close Combat phase. The player declares that his unit contains an Assassin and places the model amongst the ranks where it can fight, displacing a normal rank-and-file model (not a character, champion, musician or standard bearer) to the rearmost rank. If there are no such models in the front rank, the Assassin is placed in the second rank until there is enough room for him in the first rank. Assassins always strikes first in the round of close combat they are revealed, even against chargers. If an enemy model is also entitled to always strike first, the model with higher Initiative strikes first (roll a D6 if they have equal Initiative).</description>
+          <description>If you wish, any Assassin in your army may start the game hidden in one of the following units: Clanrats, Stormvermin, Night Runners and Gutter Runners (not in Tunnelling Teams - too dangerous!).
+
+Hidden Assassins are not placed on the table but are assumed to move with the unit they accompany. At the start of the game, note down which unit they are hidden in. If the unit is wiped out or flees off the table before the Assassin is revealed then the Assassin is lost and Victory points are scored as normal. Before he&apos;s revealed there is no other way he can be harmed.
+
+Hidden Assassins may be revealed at the beginning of any of your turns or at the start of any Close Combat phase. The player declares that his unit contains an Assassin and places the model amongst the ranks where it can fight, displacing a normal rank-and-file model (not a character, champion, musician or standard bearer) to the rearmost rank. If there are no such models in the front rank, the Assassin is placed in the second rank until there is enough room for him in the first rank. Assassins always strikes first in the round of close combat they are revealed, even against chargers. If an enemy model is also entitled to always strike first, the model with higher Initiative strikes first (roll a D6 if they have equal Initiative).</description>
         </rule>
         <rule id="d10a-d615-396e-d576" name="Leadership" hidden="false">
           <description>Units in the army can never use their Leadership value and an Assassin can never be the General of the army (therefore your army must include at least one other character to act as the General).</description>
@@ -3476,7 +3488,11 @@ Missile hits (normal and magical) against the Bell are randomised as normal for 
 If the Grey Seer refuses a challenge, he can declare that he&apos;s hiding behind the Bell for protection. The Grey Seer is not moved from the Bell, but he cannot fight and cannot be attacked for the duration of that combat engagement. The challenger is free to attack any other model he&apos;s in base contact with, including the Bell itself (if he&apos;s in base contact with it).</description>
         </rule>
         <rule id="d2a9-8e91-a757-7b12" name="Ringing The Bell" hidden="false">
-          <description>Score	Result
+          <description>In the Skaven Shooting phase, the striker can ring the Bell, even when it is engaged in close combat. First declare if you are going to roll one, two or three dice (ie, decide how much effort the striker is putting into hitting the Bell). Then roll them, add their results together and consult the chart below.
+
+Ringing the Bell Chart
+
+Score	Result
 1-3	No effect.
 4-5	The Bell and its unit cause fear until the next Skaven Shooting phase.
 6-7	The Bell and its unit are stubborn (despite being immune to Psychology) until the next Skaven Shooting phase.
@@ -3544,7 +3560,9 @@ Treble	The effect rolled on the chart does not apply and the Bell itself is dest
           </constraints>
           <rules>
             <rule id="f065-aa0e-3b4c-aaff" name="Warpstone Stars" hidden="false">
-              <description>Clan Eshin only. The model can throw as many Warpstone Stars in a single Shooting phase as it has Attacks on its profile (all against the same target). Treat them as normal throwing stars, but with a range of 10&quot; and Strength 5. Each unsaved wound is multiplied into D3 wounds.</description>
+              <description>These throwing weapons are coated with deadly poison which eats through armour and flesh.
+
+Clan Eshin only. The model can throw as many Warpstone Stars in a single Shooting phase as it has Attacks on its profile (all against the same target). Treat them as normal throwing stars, but with a range of 10&quot; and Strength 5. Each unsaved wound is multiplied into D3 wounds.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -3621,7 +3639,9 @@ No armour saves are allowed against wounds caused by the Gouger.</description>
           </constraints>
           <rules>
             <rule id="787c-5b4d-887f-febe" name="Weeping Blade" hidden="false">
-              <description>The wielder has + 1 Strength. Each unsaved wound is multiplied into D3 wounds.</description>
+              <description>This weapon weeps a black and corrosive venom which can burn through armour and slay with the merest touch.
+
+The wielder has + 1 Strength. Each unsaved wound is multiplied into D3 wounds.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -3862,7 +3882,9 @@ Clan Moulder only. This weapon requires two hands to use and confers the Killing
               </constraints>
               <rules>
                 <rule id="8645-d613-81cb-9ac0" name="Rust Armour" hidden="false">
-                  <description>Gives a 5+ armour save that can be combined with other armour as normal. In addition, if the wearer is wounded by a hit with a Strength sufficiently high to completely cancel his armour save (or a hit that does not allow armour saves at all, such as from a cannon ball), the wound is discounted but the armour falls to pieces and is destroyed.</description>
+                  <description>This is an ancient, decaying suit of armour, held together with the power of dark sorcery.
+
+Gives a 5+ armour save that can be combined with other armour as normal. In addition, if the wearer is wounded by a hit with a Strength sufficiently high to completely cancel his armour save (or a hit that does not allow armour saves at all, such as from a cannon ball), the wound is discounted but the armour falls to pieces and is destroyed.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -3953,7 +3975,9 @@ The Twisted Crown gives the wearer the Regeneration ability.</description>
           </constraints>
           <rules>
             <rule id="8a87-c917-ef72-5164" name="The Foul Pendant" hidden="false">
-              <description>The pendant confers a 5+ Ward save to the bearer.</description>
+              <description>Sickly green smoke radiates from this rat-skull token. This solidifies before incoming attacks, returning to smoke once more when the blow is deflected.
+
+The pendant confers a 5+ Ward save to the bearer.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -3970,7 +3994,9 @@ The Twisted Crown gives the wearer the Regeneration ability.</description>
           </constraints>
           <rules>
             <rule id="e452-8d0b-2e03-a99c" name="Warpstone Amulet" hidden="false">
-              <description>The Amulet confers to the bearer a 4+ Ward save. At the end of the game roll a D6. On the result of 1, the character succumbs to the mutating power of the warpstone and counts as a casualty for the purposes of allocating Victory points, and cannot contest table quarters. No re-rolls are allowed for this final roll.</description>
+              <description>The Warpstone Amulet radiates disharmony, hostility and confusion, so that anyone who attacks its bearer becomes dazed and bewildered.
+
+The Amulet confers to the bearer a 4+ Ward save. At the end of the game roll a D6. On the result of 1, the character succumbs to the mutating power of the warpstone and counts as a casualty for the purposes of allocating Victory points, and cannot contest table quarters. No re-rolls are allowed for this final roll.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -4340,7 +4366,9 @@ Roll a D6 every time it is used. On a 1 the Storm Daemon runs out of power and c
           </constraints>
           <rules>
             <rule id="4743-74dc-79b3-68f9" name="Umbranner" hidden="false">
-              <description>All models in the unit carrying the banner receive a 4+ Ward save against all normal and magical missiles with Strength 4 or less.</description>
+              <description>A writhing black cloud hangs over the unit bearing the Umbranner, turning arrows in mid flight away from their intended targets.
+
+All models in the unit carrying the banner receive a 4+ Ward save against all normal and magical missiles with Strength 4 or less.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -4537,7 +4565,11 @@ If their unit is engaged in combat from a previous turn and the Skaven character
 Furthermore, if Skaven characters refuse a challenge, the Skaven player, rather than his opponent, can choose which character goes at the back of the unit. Once this character is moved to the back of the unit, no further penalties apply to him for having refused the challenge. Note that if the rear of the unit is engaged in combat, the character has to be placed on the flank, inside the unit, or in any other position where it cannot fight. You can never get into base contact with enemies when refusing a challenge.</description>
     </rule>
     <rule id="936c-575c-87e5-8df3" name="Warpstone Tokens" hidden="false">
-      <description>For any of the warpstone generated dice that rolls a 1, the Skaven Wizard suffers a wound, with no saves of any kind allowed. The results of Miscasts still apply as normal to Skaven Wizards.
+      <description>Before casting a spell, a Skaven Wizard can declare that he is eating some of his Warpstone tokens to boost his powers, generating extra Power dice. He can eat any number of tokens to cast a spell, as long as he has enough tokens left. When casting the spell, roll one extra dice for each Warpstone token used. These extra dice are added to the casting total, counting as normal Power dice and can cause a Miscast and Irresistible Force.
+
+This allows the Skaven Wizards to use more dice than they are normally allowed for their level. You can cast a spell without using any normal Power dice and only with warpstone generated dice if you want.
+
+For any of the warpstone generated dice that rolls a 1, the Skaven Wizard suffers a wound, with no saves of any kind allowed. The results of Miscasts still apply as normal to Skaven Wizards.
 
 When using both normal Power dice and warpstone generated ones, it is best to use dice of a different colour to represent the warpstone generated Power dice (green is best!), or to roll them separately.</description>
     </rule>

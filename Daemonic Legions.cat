@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7010-abfa-dde5-6873" name="Daemonic Legions" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7010-abfa-dde5-6873" name="Daemonic Legions" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="37ff-905c-0f6b-9742" name="Mark of Chaos Undivided" hidden="false"/>
     <categoryEntry id="452e-f479-2264-b39d" name="Mark of Tzeentch" hidden="false"/>
@@ -628,7 +628,9 @@ The Banner of the Gods has a different effect when carried by a Daemonic Herald:
               </modifiers>
               <rules>
                 <rule id="3c43-ddd3-56d8-ee1d" name="Banner of Rage" hidden="false">
-                  <description>Characters &amp; units with the Mark of Khorne only. The model and any unit they are with may re-roll failed Break tests and will not lose their frenzy if beaten in close combat.</description>
+                  <description>This banner contaim the soul of the Blood God&apos;s most bloodthirsty champions. It radiates bloodlust, driving those who fight beneath it into a frenzy of destruction.
+
+Characters &amp; units with the Mark of Khorne only. The model and any unit they are with may re-roll failed Break tests and will not lose their frenzy if beaten in close combat.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -668,7 +670,9 @@ The Banner of the Gods has a different effect when carried by a Daemonic Herald:
               </modifiers>
               <rules>
                 <rule id="ddba-935a-4db3-893c" name="Blasted Standard" hidden="false">
-                  <description>Characters and units with the Mark of Tzeentch only. Bound Spell. Power level 4. The banner contains the bound Tzeentch spell Yellow Fire of Transformation.</description>
+                  <description>The Blasted Standard contains a mighty spell of protection. Those marching behind this banner are shielded by powerful magical flames.
+
+Characters and units with the Mark of Tzeentch only. Bound Spell. Power level 4. The banner contains the bound Tzeentch spell Yellow Fire of Transformation.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -681,7 +685,9 @@ The Banner of the Gods has a different effect when carried by a Daemonic Herald:
             <selectionEntry id="dc1a-ab39-9263-1e17" name="Banner of Wrath" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
                 <rule id="c00a-1fb1-b800-3bbc" name="Banner of Wrath" hidden="false">
-                  <description>Bound Spell. Power Level 4. The banner contains a bound magic missile with range 24&quot;, causing D6 Strength 4 hits.</description>
+                  <description>The Banner of Wrath contains a potent spell that lashes the enemy with forks of magical lightning.
+
+Bound Spell. Power Level 4. The banner contains a bound magic missile with range 24&quot;, causing D6 Strength 4 hits.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -2798,7 +2804,9 @@ Being corporeal manifestations of Chaos, Daemons&apos; attacks are magical and c
     </rule>
     <rule id="ee13-4ea7-37a5-af07" name="Cloud of Flies" hidden="false"/>
     <rule id="4926-ab12-a3b9-dcd2" name="Tongue Attack" hidden="false">
-      <description>If an opponent has the same ability, resolve the strikes in Initiative order - if these are the same, roll a D6 to see who strikes first. Note that this ability only applies to the Mount, not to the Daemonette rider.
+      <description>Attacks from the Mount count as Poisoned Attacks. In addition, because of its preternatural dexterity, the Mount always strikes first in close combat, even against a charging enemy.
+
+If an opponent has the same ability, resolve the strikes in Initiative order - if these are the same, roll a D6 to see who strikes first. Note that this ability only applies to the Mount, not to the Daemonette rider.
 
 &gt; In the Warhammer Chronicles 2004 Official Rules for Mounted Daemonettes, the Swift Steed rule listed the always strikes first rule instead of being listed under Tongue Attack.</description>
     </rule>

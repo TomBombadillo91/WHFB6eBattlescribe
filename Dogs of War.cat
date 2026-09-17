@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3604-800a-4012-5da6" name="Dogs of War" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3604-800a-4012-5da6" name="Dogs of War" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5e7e-36e5-c0bf-c57c" name="Dogs of War" hidden="false"/>
     <categoryEntry id="c51c-ed7d-9669-006f" name="Regiment of Renown" hidden="false"/>
@@ -3119,7 +3119,9 @@ Contents
       </modifiers>
       <rules>
         <rule id="3aaa-0c38-d683-5ca5" name="Giants of Albion" hidden="false">
-          <description>Note that, although named, Cachtorr and Bologs do NOT count as being characters. Giants treat obstacles like open ground, but are prone to falling. Roll a D6 if they cross an obstacle or lose a round of combat. If you roll a 1 the Giant has fallen and can squash those underneath. Use the Scatter dice to see which direction he falls in, and the model itself as a template. Those underneath take a single S5 hit which causes D3 wounds. Giants may not attack and are hit automatically in hand-to-hand combat whilst on the ground. They are automatically killed if they break from combat while on the ground. It takes a Giant one turn to stand up. Giants also fall over when they die.
+          <description>Cachtorr and Bologs are  large targets and cause terror.
+
+Note that, although named, Cachtorr and Bologs do NOT count as being characters. Giants treat obstacles like open ground, but are prone to falling. Roll a D6 if they cross an obstacle or lose a round of combat. If you roll a 1 the Giant has fallen and can squash those underneath. Use the Scatter dice to see which direction he falls in, and the model itself as a template. Those underneath take a single S5 hit which causes D3 wounds. Giants may not attack and are hit automatically in hand-to-hand combat whilst on the ground. They are automatically killed if they break from combat while on the ground. It takes a Giant one turn to stand up. Giants also fall over when they die.
 
 In close combat you must roll a dice each round to determine what the Giant will do that turn. Against other large targets:
 
@@ -3758,7 +3760,9 @@ Beorg is a Were-Bear - he wears no armour and fights with his claws an teeth!</d
           <description>5+ Ward save.</description>
         </rule>
         <rule id="0a54-71dc-cf52-ca45" name="For Hire (Dark Emissary)" hidden="false">
-          <description>A Dark Emissary costs 265 points and uses up both a Rare choice and a Hero choice.
+          <description>A Dark Emissary can be hired as a Dogs of War unit. They may be hired by Dark Elves, Skaven, Chaos (all types including armies with a daemonic general), Vampire Counts, Tomb Kings, Dwarfs, Empire, Bretonnia (this is an exception to the normal rule), Dogs of War and Orcs &amp; Goblins.
+
+A Dark Emissary costs 265 points and uses up both a Rare choice and a Hero choice.
 
 If fighting alongside a Dwarf army containing an Anvil of Doom, make two separate pools of Power dice in your own Magic phase: one pool to be used with the Anvil (D6+2 dice) and one to be used by the Emissary (two dice plus four for his Level). In your opponent&apos;s Magic phase, you can group all your Dispel dice into a single pool.</description>
         </rule>
@@ -3885,7 +3889,9 @@ The Bolt is a magic missile with a range of up to 18&quot;. If successfully cast
           <description>4+ Ward save.</description>
         </rule>
         <rule id="f59e-e12e-9a2d-a307" name="For Hire (Truthsayer)" hidden="false">
-          <description>A Truthsayer costs 265 points and uses up both a Rare choice and a Hero choice.
+          <description>A Truthsayer can be hired as a Dogs of War unit. They may be hired by Lizardmen, High Elves, Wood Elves, Dwarfs, Tomb Kings, Empire, Bretonnia (this is an exception to the normal rule), Dogs of War and Orcs &amp; Goblins.
+
+A Truthsayer costs 265 points and uses up both a Rare choice and a Hero choice.
 
 If fighting alongside a Dwarf army containing an Anvil of Doom make two separate pools of Power dice in your own Magic phase: one pool to be used with the Anvil (D6+2 dice) and one to be used by the Truthsayer (two dice plus three for his Level). In your opponent&apos;s Magic phase, you can group all your Dispel dice into a single pool.</description>
         </rule>

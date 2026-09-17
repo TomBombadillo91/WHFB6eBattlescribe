@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7bb5-70b8-0122-944c" name="Wood Elves" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7bb5-70b8-0122-944c" name="Wood Elves" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="4f0e-c683-4011-68a9" name="Magic Bow" hidden="true"/>
     <categoryEntry id="3fee-c6b4-de1c-b33e" name="Magic Arrows" hidden="false"/>
@@ -1838,7 +1838,9 @@ Regardless of whether the Warhawk Riders choose to fall back or not, the enemy m
       </profiles>
       <rules>
         <rule id="950c-148f-907d-3017" name="Spirit of Kurnous" hidden="false">
-          <description>Orion is Unbreakable. However, if he is beaten in combat, his essence will begin to fade. If Orion is beaten in combat, then for each point of combat resolution he loses by he also loses one wound. If Orion is within 6&quot; of a wood the number of wounds he loses is reduced by one (so, if he loses the combat by one and is within 6&quot; of a wood, he does not lose any wounds).</description>
+          <description>The spirit of Kurnous infuses Orion. He has no understanding of fear, pain merely feeds his anger and he will not stop until his enemies are dead beneath his hooves.
+
+Orion is Unbreakable. However, if he is beaten in combat, his essence will begin to fade. If Orion is beaten in combat, then for each point of combat resolution he loses by he also loses one wound. If Orion is within 6&quot; of a wood the number of wounds he loses is reduced by one (so, if he loses the combat by one and is within 6&quot; of a wood, he does not lose any wounds).</description>
         </rule>
         <rule id="8ecc-af94-c651-17f3" name="The Wild Hunt" hidden="false">
           <description>As long as they have a Musician, when a unit of Wild Riders charges it causes fear until the start of the next Wood Elf turn.</description>
@@ -1863,7 +1865,9 @@ Regardless of whether the Warhawk Riders choose to fall back or not, the enemy m
           </constraints>
           <rules>
             <rule id="036c-62e4-db90-ad58" name="Horn of the Wild Hunt" hidden="false">
-              <description>One use only. The first time Orion declares a charge, he sounds the Horn of the Wild Hunt. All enemies within 18&quot; of him (before he starts his charge move) must take a Panic test.</description>
+              <description>Orion carries an enormous hunting horn, crafted from the horn of a mighty forest creature. All who hear the blaring horn of Orion are filled with fear.
+
+One use only. The first time Orion declares a charge, he sounds the Horn of the Wild Hunt. All enemies within 18&quot; of him (before he starts his charge move) must take a Panic test.</description>
             </rule>
           </rules>
           <costs>
@@ -2231,7 +2235,9 @@ The Cloak of Isha adds two Dispel dice to the Wood Elf Dispel dice pool.</descri
           </constraints>
           <rules>
             <rule id="a721-f4f1-2d29-400e" name="A Murder of Spites" hidden="false">
-              <description>The model gains +D6 attacks in close combat. These are worked out at the bearer&apos;s WS, and have an Initiative of 4 and a Strength of 2. In addition, these attacks count as magical, and are Poisoned Attacks.</description>
+              <description>Spites are vicious manifestations that take countless varied forms. Some have barbed, thorn-like limbs and razor sharp talons, others take the form of diminutive winged figures armed with tiny weapons. Some seem to be all teeth and talons, while others may hide their viciousness behind a façade of innocence and beauty. They hide within the cloaks of their hosts, or within the cracks and hollows of ancient Treemen, peeping out maliciously and ready to attack any who draw near.
+
+The model gains +D6 attacks in close combat. These are worked out at the bearer&apos;s WS, and have an Initiative of 4 and a Strength of 2. In addition, these attacks count as magical, and are Poisoned Attacks.</description>
             </rule>
           </rules>
           <costs>
@@ -2410,7 +2416,9 @@ In a challenge, any enemy attempting to strike a character with an Annoyance of 
               </constraints>
               <rules>
                 <rule id="ab7b-4804-59b4-9d15" name="Armour of the Fey" hidden="false">
-                  <description>Counts as light armour (6+ Armour Save)that can be combined with other equipment as normal. Against any magical close combat attacks, the wearer receives a 4+ Ward Save.</description>
+                  <description>In Bretonnia, there are tales of a solitary Elf knight who, when brought to battle, could not be slain, for his armour kept him safe against the lances and magical blades of his foes. Ultimately, so the tale recounts, this knight was slain by a peasant woman whom he had lured away from her family - his throat cut by a simple knife.
+
+Counts as light armour (6+ Armour Save)that can be combined with other equipment as normal. Against any magical close combat attacks, the wearer receives a 4+ Ward Save.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -2435,7 +2443,9 @@ In a challenge, any enemy attempting to strike a character with an Annoyance of 
               </constraints>
               <rules>
                 <rule id="d256-6ddd-a46e-36e8" name="Briarsheath" hidden="false">
-                  <description>Characters on foot only. Counts as light armour (6+ Armour Save) that can be combined with other equipment as normal. Enemies wishing to target the model wearing the Briarsheath with a shooting attack suffer an additional -1 to hit penalty. This is increased to -2 if the wearer is within a wood.</description>
+                  <description>The writhing thorns and brambles of this armour work their way into the bearer&apos;s surroundings, rendering him invisible to all but the most observant foe.
+
+Characters on foot only. Counts as light armour (6+ Armour Save) that can be combined with other equipment as normal. Enemies wishing to target the model wearing the Briarsheath with a shooting attack suffer an additional -1 to hit penalty. This is increased to -2 if the wearer is within a wood.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -2491,7 +2501,9 @@ In a challenge, any enemy attempting to strike a character with an Annoyance of 
               </constraints>
               <rules>
                 <rule id="8a7f-be63-7ca7-f842" name="The Oaken Armour" hidden="false">
-                  <description>Counts as light armour (6+ Armour Save) that can be combined with other equipment as normal. The Oaken Armour gives the wearer the Regeneration ability.</description>
+                  <description>Said to have been crafted by Daith himself, this armour binds the lifeforce of its bearer to that of Athel Loren, keeping them safe from harm.
+
+Counts as light armour (6+ Armour Save) that can be combined with other equipment as normal. The Oaken Armour gives the wearer the Regeneration ability.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -3398,7 +3410,9 @@ Magic arrows. No Armour Saves are allowed against Arcane Bodkins.</description>
           </constraints>
           <rules>
             <rule id="dd22-2c60-734e-0fb4" name="Saemrath - the Banner of Zenith" hidden="false">
-              <description>The distance at which enemy models are prevented from marching by this unit is increased from 8&quot; to 12&quot;.</description>
+              <description>The Banner of the Zenith is said to reflect a portion of the radiance of the Lady Ariel, for it shines with such purity that none who mean harm to the Asrai may approach it.
+
+The distance at which enemy models are prevented from marching by this unit is increased from 8&quot; to 12&quot;.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -4045,7 +4059,15 @@ This character benefits from the Forest Spirit special rules (and so may join un
       <description>This is a specialised Shooting attack that may be used even if the Treeman marched. Pick one unit within 6&quot; the target does not have to be in the Treeman&apos;s line of sight, but all other targeting restrictions apply. That unit takes an Artillery dice worth of Strength 4 hits (Strength 5 if the target is at least partially within a wood). On a misfire, nothing happens.</description>
     </rule>
     <rule id="051d-6cbd-ec6d-869d" name="Shadow Dances of Loec" hidden="false">
-      <description>The Wardancers rain blow after blow upon their opponent, moving with such speed that the eye cannot follow each distinct cut and thrust. While they perform this dance, each model in the unit is granted + 1 Attack.
+      <description>In each round of combat that they fight, Wardancers must choose one of the following Shadow Dances to perform. They cannot choose the same dance in two consecutive turns of the same combat engagement.
+
+Whirling Death
+
+Each strike of a Wardancer&apos;s blade is made with uncanny precision, capable of severing a head or piercing a heart with one deceptively elegant stroke. While performing this dance, the Wardancers have the Killing Blow special rule.
+
+Storm of Blades
+
+The Wardancers rain blow after blow upon their opponent, moving with such speed that the eye cannot follow each distinct cut and thrust. While they perform this dance, each model in the unit is granted + 1 Attack.
 
 The Shadows Coil
 
@@ -4067,7 +4089,9 @@ The sinuous movements of this dance distract and confuse the enemy, allowing the
 Either place them exactly like Scouts, but with no minimum distance between them and the enemy, or place them in sight of the enemy (even in the open), but more than 12&quot; away from them.</description>
     </rule>
     <rule id="2e86-6d3c-f3a9-992a" name="The Fury of Kurnous" hidden="false">
-      <description>On any round of combat in which the Wild Riders did not charge they gain +1 Attack.</description>
+      <description>In combat, the spirit of Kurnous imbues the Wild Riders with deadly vigour.
+
+On any round of combat in which the Wild Riders did not charge they gain +1 Attack.</description>
     </rule>
     <rule id="5334-072a-d5f4-0ffd" name="Magic Arrows" hidden="false">
       <description>The Wood Elves make use of magic arrows. Magic arrows may be fired by normal or magic bows, with any exceptions noted. These arrows are counted as magical, and it is assumed that the a character has enough arrows to last the entire battle, unless stated otherwise.</description>

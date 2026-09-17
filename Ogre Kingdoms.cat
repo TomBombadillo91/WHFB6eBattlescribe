@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9817-5d62-aa33-69f5" name="Ogre Kingdoms" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9817-5d62-aa33-69f5" name="Ogre Kingdoms" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5fa5-4b26-a63e-0bef" name="Big Name" hidden="false"/>
     <categoryEntry id="a123-ef4a-523b-4159" name="Has Thiefstones" hidden="false"/>
@@ -1653,7 +1653,14 @@ D6 | Effect
           <description>Giants expect smaller weedier folk to run away and would be disappointed if they didn&apos;t. Consequently, when a unit of cavalry-sized or smaller models, is destroyed, breaks or flees past, Giants do not need to test for panic.</description>
         </rule>
         <rule id="f361-7379-ec76-b886" name="Fall Over" hidden="false">
-          <description>To see if the Giant falls over roll a D6. If you score between 2 and 6 then the Giant sways slightly, but regains his balance and no harm is done. If the roll results in a 1 the Giant falls over. Obviously, if a Giant is slain then it falls over automatically.
+          <description>A Giant must test to see whether it falls over if any of the following apply:
+
+1. When it is beaten in close combat. Test once results are established but before taking Break or Panic tests.
+2. At the start of the Movement phase if it is fleeing.
+3. When it crosses an obstacle. Test when the obstacle is reached.
+4. If the Giant decides to Jump Up and Down on an enemy. Test immediately beforehand.
+
+To see if the Giant falls over roll a D6. If you score between 2 and 6 then the Giant sways slightly, but regains his balance and no harm is done. If the roll results in a 1 the Giant falls over. Obviously, if a Giant is slain then it falls over automatically.
 
 To determine which direction the Giant falls, roll a Scatter dice - the arrow indicates the direction in which the Giant falls. Place the Falling Giant template with its feet at the model&apos;s base and its head in the direction of the fall. Any models lying completely under the template are automatically hit. Any models partly covered are hit on a 4+.
 
@@ -2123,7 +2130,11 @@ Enemies firing at units of Rhinoxen comprising of Rhinox and Bull Rhinox must no
           <description>Skrag is a crazed, gore-splattered killing-machine driven on by the will of his god. He causes Terror and is subject to Frenzy.</description>
         </rule>
         <rule id="2e06-59b8-8ec5-b6e8" name="The Blessings of the Great Maw" hidden="false">
-          <description>Models killed	Effect on Skrag	Effect on Gorgers
+          <description>Skrag and his Gorgers receive the blessings of their ever-hungry god according to the table below. The &apos;Models Killed&apos; column refers to the number of models killed by Skrag in combat. Models killed by Gut Magic or from running down fleeing units do not count towards this total. When a new level on the table is reached, the bonuses take effect immediately and are cumulative, although Skrag is only ever automatically restored to his starting number of Wounds after his first kill.
+
+The Blessings of the Great Maw Chart
+
+Models killed	Effect on Skrag	Effect on Gorgers
 1+	Skrag is automatically restored to his starting number of wounds, and gains Regeneration.	All Gorgers that have not entered play will enter play in the next Ogre Kingdoms turn.
 5+	Skrag gains + 1 Attack.	All Gorgers gain + 1 Attack.
 10+	Skrag may re-roll failed rolls to hit in combat.	Gorgers may re-roll failed rolls to hit in combat.
@@ -2363,7 +2374,9 @@ Gorgers must always end their move closer to the enemy, and if there is an eligi
           </conditions>
         </modifier>
       </modifiers>
-      <description>Single Ogres and Ogre characters move as monsters and have Unit Strength 3.
+      <description>As an Ogre Kingdoms army will include a lot of units of large, multiple-Wound Ogres here are a few reminders and clarifications on the relevant rules:
+
+Single Ogres and Ogre characters move as monsters and have Unit Strength 3.
 
 Ranked units containing champions and characters will need to keep track of wounds on rank and file troops and on the champion/character separately, as wounds are not carried over from one to the other. You might like to use differently coloured dice to keep track of wounds caused.
 
@@ -2891,7 +2904,9 @@ In a challenge, a Tyrant choosing to use this special attack does not use a temp
               </constraints>
               <rules>
                 <rule id="84ea-759d-66a8-e8d9" name="Bullgut" hidden="false">
-                  <description>The Bullgut confers a 6+ Armour Save that can be combined with other equipment normally. On any turn the bearer charges, he counts his Unit Strength as 6, and any impact hits caused by the Ogre&apos;s Bull Charge are considered to be Armour Piercing.</description>
+                  <description>A Bullgut is a heavy-duty gut-plate with two sharp curving horns that jut out from it, wrenched from the skull of a mighty cave-beast. The ground itself shakes when the bearer makes a bull charge.
+
+The Bullgut confers a 6+ Armour Save that can be combined with other equipment normally. On any turn the bearer charges, he counts his Unit Strength as 6, and any impact hits caused by the Ogre&apos;s Bull Charge are considered to be Armour Piercing.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -2908,7 +2923,9 @@ In a challenge, a Tyrant choosing to use this special attack does not use a temp
               </constraints>
               <rules>
                 <rule id="a602-4f09-f011-40e2" name="Gut Maw" hidden="false">
-                  <description>Grants a 6+ Armour Save that can be combined with other equipment normally. If an Ogre wearing the Gut Maw kills an opponent during a challenge, he may immediately restore a number of wounds equal to the starting Wounds characteristic of the slain opponent. If the owner of the Gut Maw is already at full Wounds, then he may add +1 Wound to his profile.</description>
+                  <description>Blessed by several generations of Butchers and passed through clan to clan, this polished brass gut-plate has a set of huge silver jaws attached to it. Those the bearer kills in single combat are swallowed by the gut-plate and pass straight into the Great Maw, and their life force passed to the wearer in return.
+
+Grants a 6+ Armour Save that can be combined with other equipment normally. If an Ogre wearing the Gut Maw kills an opponent during a challenge, he may immediately restore a number of wounds equal to the starting Wounds characteristic of the slain opponent. If the owner of the Gut Maw is already at full Wounds, then he may add +1 Wound to his profile.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -2925,7 +2942,9 @@ In a challenge, a Tyrant choosing to use this special attack does not use a temp
               </constraints>
               <rules>
                 <rule id="801d-b4c0-430d-f978" name="Mastodon Armour" hidden="false">
-                  <description>The Mastodon Armour is heavy armour and therefore confers a 5+ Armour Save. If at any point the wearer is killed by an attack that is not made in close combat, he rolls a dice. On the roll of a 2+, he is instead restored to life on 1 wound at the end of the phase.</description>
+                  <description>The Mastodon Armour is a great set of plates and chainmail forged by the Chaos Dwarfs in exchange for hundreds of Human and Gnoblar slaves. It shifts and hardens in response to incoming attacks.
+
+The Mastodon Armour is heavy armour and therefore confers a 5+ Armour Save. If at any point the wearer is killed by an attack that is not made in close combat, he rolls a dice. On the roll of a 2+, he is instead restored to life on 1 wound at the end of the phase.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -3041,7 +3060,9 @@ In a challenge, a Tyrant choosing to use this special attack does not use a temp
           </constraints>
           <rules>
             <rule id="a740-af1f-9a43-3a21" name="Jade Lion" hidden="false">
-              <description>The bearer, and any unit he is with, may re-roll any failed Psychology tests. Once the unit flees for any reason, this benefit is lost.</description>
+              <description>In far Cathay, the Jade Lions are revered for their courage and level-headedness. Occasionally an Ogre may be found carrying the likeness of one of these as an amulet, and they still contain some of their power, although showing cowardice will cause the magic to depart.
+
+The bearer, and any unit he is with, may re-roll any failed Psychology tests. Once the unit flees for any reason, this benefit is lost.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -3130,7 +3151,9 @@ At the beginning of the owning player&apos;s turn, pick a unit that is in line o
           </constraints>
           <rules>
             <rule id="ae2f-7903-4100-3c13" name="Spangleshard" hidden="false">
-              <description>For each individual wound the bearer suffers, roll a D6. If this roll is higher than the result of the To Wound roll, that wound is discounted. For instance, if the bearer takes a Strength 10 hit and the resultant To Wound roll is a 3, the bearer would have to roll a 4+ to nullify it. This roll is taken before any multiple wounds are caused, and cannot affect automatic wounds.</description>
+              <description>This was once a finely-wrought gemstone bound into a silver filigree cone, no doubt of Elven origin. Now a dirt-encrusted, chipped remnant of its former glory, the defensive powers of the Spangleshard still activate against powerful attacks.
+
+For each individual wound the bearer suffers, roll a D6. If this roll is higher than the result of the To Wound roll, that wound is discounted. For instance, if the bearer takes a Strength 10 hit and the resultant To Wound roll is a 3, the bearer would have to roll a 4+ to nullify it. This roll is taken before any multiple wounds are caused, and cannot affect automatic wounds.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -3220,7 +3243,9 @@ At the beginning of the owning player&apos;s turn, pick a unit that is in line o
               </constraints>
               <rules>
                 <rule id="0180-69e8-22e5-804f" name="Hellheart" hidden="false">
-                  <description>One use only. The Butcher may use this item at the start of his opponent&apos;s Magic phase, immediately taking an automatic Strength 3 hit. For the remainder of the phase, any Casting roll that includes a double will result in a Miscast, not just a double 1. Any wizard suffering a Miscast must roll on the Gut Magic Miscast table instead of his own he is counted as a Butcher). If a spell is cast with Irresistible Force, resolve the spell as usual and then roll on the Gut Magic Miscast table.</description>
+                  <description>The Butcher has the ichor-soaked heart of a foul Chaos spawn, bunted from the northern tundra. The fickle powers of the gods of Chaos are still in the offal, and by forcing it down his gullet the Butcher may create a vortex of magical anarchy.
+
+One use only. The Butcher may use this item at the start of his opponent&apos;s Magic phase, immediately taking an automatic Strength 3 hit. For the remainder of the phase, any Casting roll that includes a double will result in a Miscast, not just a double 1. Any wizard suffering a Miscast must roll on the Gut Magic Miscast table instead of his own he is counted as a Butcher). If a spell is cast with Irresistible Force, resolve the spell as usual and then roll on the Gut Magic Miscast table.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -3288,7 +3313,9 @@ At the beginning of the owning player&apos;s turn, pick a unit that is in line o
               </constraints>
               <rules>
                 <rule id="a1e4-8565-665a-1a34" name="Skullmantle" hidden="false">
-                  <description>Any enemy unit forced to take any Leadership tests (including Psychology and Break tests) due to the Butcher wearing the Skullmantle, or a unit he has joined, suffers a -1 penalty to their Leadership test.</description>
+                  <description>After a significant victory, a Butcher may collect a bagful of heads and boil them all in quicklime. Spending careful hours with the help of a Scalp-Gnoblar or two, he will twist ropes, wood, hair, iron nails and hide into a hideous ritual mask, infused with the fears of his defeated foe.
+
+Any enemy unit forced to take any Leadership tests (including Psychology and Break tests) due to the Butcher wearing the Skullmantle, or a unit he has joined, suffers a -1 penalty to their Leadership test.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -3336,7 +3363,13 @@ Each Ogre model that causes an impact hit due to a successful Bull Charge may ad
       <description>Roll a D6 at the beginning of the turn for each unit of Gnoblar Fighters that is not in combat, fleeing or subject to any compulsory movement. If a unit rolls a 1 it may do nothing at all this turn.</description>
     </rule>
     <rule id="841b-fb55-b7e7-859e" name="Brace of Handguns" hidden="false">
-      <description>The first time a brace of handguns is fired in any game, it may add D6&quot; to its range to represent the fact the weapons have been densely packed with black powder before the battle. A brace of handguns counts as a pair of pistols in all respects, other than those listed in its profile.</description>
+      <description>Ogre Maneaters that have sold their swords across the Empire often pick up specially modified black powder weapons as recompense for their efforts; these are regarded as symbols of great status due to their ability to emit noise and violence in equal measure. Such is the size and strength of their owners that Ogres use these with the ease a human uses a pistol. The most common of these customised weapons is an Empire handgun with a massively enlarged trigger and guard; most Maneaters have at least one of these devices in their possession and some may sport a brace of these handguns across their puffed-out guts.
+
+A brace of handguns has the following profile:
+
+Brace of Handguns Profile
+
+The first time a brace of handguns is fired in any game, it may add D6&quot; to its range to represent the fact the weapons have been densely packed with black powder before the battle. A brace of handguns counts as a pair of pistols in all respects, other than those listed in its profile.</description>
     </rule>
     <rule id="ce27-8bc8-6f2f-6ead" name="Cathayan Longsword" hidden="false">
       <description>A Cathayan longsword is a one-handed weapon that is so finely crafted it confers +1 Weapon Skill and +1 Initiative to the bearer when used in combat. It is Armour Piercing.</description>

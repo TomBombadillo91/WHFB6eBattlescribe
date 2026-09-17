@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b151-7d1c-4a96-e0d0" name="Dark Elves" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b151-7d1c-4a96-e0d0" name="Dark Elves" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7b32-9394-e778-467c" name="Poison" hidden="false"/>
     <categoryEntry id="16df-2ebd-e4f7-9984" name="Artifacts and Skills" hidden="false"/>
@@ -586,7 +586,11 @@
       </profiles>
       <rules>
         <rule id="ed30-dd83-f649-8883" name="Hidden" hidden="false">
-          <description>Hidden Assassins may be revealed at the beginning of any of your turns or at the start of any Close Combat phase. The player declares that his unit contains an Assassin and places the model amongst the ranks where he can fight, displacing a normal rank-and-file model. If there are no such models in the front rank, the Assassin is placed in the second rank until there is enough room for him in the first rank. Assassins always strike first in the round of hand-to-hand combat they are revealed, even against chargers. If an enemy model is also entitled to always strikes first, the model with higher Initiative strikes first (roll a D6 if they have equal Initiative).</description>
+          <description>If you wish, any Assassin in your army may start the game hidden in one of the following units: Witch Elves, Warriors, Corsairs, Executioners or Black Guard. Alternatively, he may deploy as a Scout.
+
+Hidden Assassins are not placed on the table, but are assumed to move along with whatever unit they are with. At the start of the game, make a note of which unit they are hidden in. If the unit is wiped out or flees off the table before the Assassin is revealed then the Assassin is lost and Victory points are scored as normal. Before he is revealed, there is no other way the Assassin can be harmed.
+
+Hidden Assassins may be revealed at the beginning of any of your turns or at the start of any Close Combat phase. The player declares that his unit contains an Assassin and places the model amongst the ranks where he can fight, displacing a normal rank-and-file model. If there are no such models in the front rank, the Assassin is placed in the second rank until there is enough room for him in the first rank. Assassins always strike first in the round of hand-to-hand combat they are revealed, even against chargers. If an enemy model is also entitled to always strikes first, the model with higher Initiative strikes first (roll a D6 if they have equal Initiative).</description>
         </rule>
         <rule id="cab2-8b21-7156-6c89" name="Leadership" hidden="false">
           <description>Units in the army can never use their Leadership value and an Assassin can never be the General of the army (therefore your army must include at least one other character to act as the General).</description>
@@ -2281,7 +2285,9 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
           </constraints>
           <rules>
             <rule id="37a8-b847-0cd2-8727" name="Armour of Midnight" hidden="false">
-              <description>The Armour of Midnight is a suit of heavy armour. In addition Malekith has a 2 + Ward save against any non-magical attacks (ie, not spells or magic items). Also, he will never suffer more than one wound from a single hit, so war machines, magic items and other attacks that cause multiple wounds only ever cause one wound at a time. The Armour of Midnight does not prevent Malekith from casting spells.</description>
+              <description>Forged from the hardest meteoric iron to be mined from the mountains of Naggardth, Malekith &apos;s armour is near impenetrable to mortal weapons.
+
+The Armour of Midnight is a suit of heavy armour. In addition Malekith has a 2 + Ward save against any non-magical attacks (ie, not spells or magic items). Also, he will never suffer more than one wound from a single hit, so war machines, magic items and other attacks that cause multiple wounds only ever cause one wound at a time. The Armour of Midnight does not prevent Malekith from casting spells.</description>
             </rule>
           </rules>
           <costs>
@@ -2450,7 +2456,9 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
       </profiles>
       <rules>
         <rule id="e4b1-f2dd-7399-b852" name="Tz&apos;Arkan" hidden="false">
-          <description>- Malus is subject to frenzy and does not lose his frenzy even if beaten in combat.
+          <description>At the start of any Dark Elf turn, Malus may drink his soporific potion and unleash the power of the daemon that resides within him. If he does this, it has the following effects that last for the remainder of the battle:
+
+- Malus is subject to frenzy and does not lose his frenzy even if beaten in combat.
 - Malus adds + I WS, + IS, + 2T and + 21.
 - He may re-roll any failed Leadership test he is required to take (for spells, Break tests, etc).
 - If Malus is in base contact with a friendly model and not in contact with the enemy in any Close Combat phase (including your opponent&apos;s) roll a D6. On a roll of a 4+ he restrains his murderous rage. On a 3 or less he attacks one model in contact chosen by your opponent, resolved as if he was charging, The other model will strike back if it survives Malus&apos; attacks. No combat results are calculated and both models will act normally from the moment the attacks are finished.</description>
@@ -4171,7 +4179,9 @@ Models with the Mark of Slaanesh only. Whenever the bearer issues a challenge, t
               </constraints>
               <rules>
                 <rule id="a017-a60c-6f5e-10bf" name="Blood Armour" hidden="false">
-                  <description>Blood Armour is treated as a suit of normal heavy armour (5+ save) and can be combined with other armour as normal. For every unsaved wound the wearer inflicts, their save is improved by 1 point (to 4+ then 3+, etc) up to a maximum total save of 1+.</description>
+                  <description>When anointed with the blood of the enemy, this armour becomes ever more endurable.
+
+Blood Armour is treated as a suit of normal heavy armour (5+ save) and can be combined with other armour as normal. For every unsaved wound the wearer inflicts, their save is improved by 1 point (to 4+ then 3+, etc) up to a maximum total save of 1+.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -4195,7 +4205,9 @@ Models with the Mark of Slaanesh only. Whenever the bearer issues a challenge, t
               </constraints>
               <rules>
                 <rule id="3080-c050-985f-94c8" name="Armour of Living Death" hidden="false">
-                  <description>The Armour of Living Death counts as heavy armour, giving a 5 + Armour save, which can be combined with other armour as normal. In addition. the model has +1 Toughness and +1 Wound.</description>
+                  <description>It is claimed that anyone wearing this armour cannot die, that they are sustained by its magical energy. Unfortunately, they cannot remove the armour and are slowly driven insane.
+
+The Armour of Living Death counts as heavy armour, giving a 5 + Armour save, which can be combined with other armour as normal. In addition. the model has +1 Toughness and +1 Wound.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -4219,7 +4231,9 @@ Models with the Mark of Slaanesh only. Whenever the bearer issues a challenge, t
               </constraints>
               <rules>
                 <rule id="f859-68b1-ea40-c2da" name="Armour of Eternal Servitude" hidden="false">
-                  <description>This light armour gives a basic 6+ save, which can be combined with other armour as normal. In addition, the wearer can Regenerate.</description>
+                  <description>Oaths of lovalty and dedication to Khaine were sworn at the time of the armour&apos;s forging, and the wearer is granted extended life to serve his god.
+
+This light armour gives a basic 6+ save, which can be combined with other armour as normal. In addition, the wearer can Regenerate.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -4271,7 +4285,9 @@ Models with the Mark of Slaanesh only. Whenever the bearer issues a challenge, t
               </constraints>
               <rules>
                 <rule id="7eba-164a-671c-b93f" name="Shield of Ghrond" hidden="false">
-                  <description>The Shield of Ghrond is treated like a normal shield. and in addition any hits the character suffers will be resolved with -1 Strength.</description>
+                  <description>Shaped into the leering face of an Ice Daemon, the shield of Ghrond is imbued with the power of the north wind which robs attacks of their force.
+
+The Shield of Ghrond is treated like a normal shield. and in addition any hits the character suffers will be resolved with -1 Strength.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -4300,7 +4316,9 @@ Models with the Mark of Slaanesh only. Whenever the bearer issues a challenge, t
           </constraints>
           <rules>
             <rule id="58f6-74ea-57c3-b193" name="Standard of Slaughter" hidden="false">
-              <description>One use only. The unit gains +D3 to its combat resolution the first time it charges.</description>
+              <description>Anointed with the blood of an Ulthuan Elf, this banner imbues the unit with a bitter determination.
+
+One use only. The unit gains +D3 to its combat resolution the first time it charges.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -4447,7 +4465,9 @@ The unit carrying this standard causes fear.</description>
           </constraints>
           <rules>
             <rule id="43e0-c7a3-80b7-9601" name="Black Amulet" hidden="false">
-              <description>The wearer has a 5+ Ward save against close combat hits. If the wearer of the Black Amulet passes his Ward save then the attacking model suffers 1 wound instead. There is no save against such a rebounded wound, even from Wards.</description>
+              <description>Cast from the heartstone of a mountain tainted with the power of Dark Sorcery the Black Amulet is a lustrous polished stone of midnight hue, engraved with a single glowing rune.
+
+The wearer has a 5+ Ward save against close combat hits. If the wearer of the Black Amulet passes his Ward save then the attacking model suffers 1 wound instead. There is no save against such a rebounded wound, even from Wards.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -4623,7 +4643,9 @@ The seal of Ghrond adds one dice to the Dispel dice pool of the army.</descripti
           </constraints>
           <rules>
             <rule id="d6fe-3c6c-1589-25ad" name="Chill Blade" hidden="false">
-              <description>Any model wounded by a Chill Blade (after saves, etc) may not attack for the rest of that combat round.</description>
+              <description>The blade of this sword holds a terrible spell of coldness which seeps into the Dark Elf&apos;s victim, freezing their soul and temporarily paralysing them.
+
+Any model wounded by a Chill Blade (after saves, etc) may not attack for the rest of that combat round.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -4765,7 +4787,9 @@ No Armour saves may be taken against hits from the Blade of Ruin. Ward saves may
           </constraints>
           <rules>
             <rule id="fae1-2793-27e9-2718" name="Draich of Dark Power" hidden="false">
-              <description>+2 Strength. Killing Blow. Uses two hands</description>
+              <description>This mighty two-handed, curved blade is deadly when wielded by a skilful swordsman, easily able to carve through armour and bone with deadly grace.
+
++2 Strength. Killing Blow. Uses two hands</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -5229,7 +5253,9 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
           </constraints>
           <rules>
             <rule id="28ff-928b-64e5-c9a8" name="Manbane" hidden="false">
-              <description>A character with a weapon coated with Manbane always counts their Strength as one higher than their target&apos;s Toughness, unless their Strength would normally be more than this, up to a maximum of Strength 6. In effect, this means that they almost always wound opponents on a roll of 3 +. This modified Strength is also used to calculate Armour save modifiers.</description>
+              <description>Manbane is one of the most lethal venoms ever devised, causing even the tiniest wound to bleed openly.
+
+A character with a weapon coated with Manbane always counts their Strength as one higher than their target&apos;s Toughness, unless their Strength would normally be more than this, up to a maximum of Strength 6. In effect, this means that they almost always wound opponents on a roll of 3 +. This modified Strength is also used to calculate Armour save modifiers.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -5553,7 +5579,9 @@ The model is considered to have Poisoned Attacks.</description>
               </constraints>
               <rules>
                 <rule id="6ff2-4f41-d782-b28d" name="Armour of Tortured Souls" page="51" hidden="false">
-                  <description>The Armour of Tortured Souls is a suit of Chaos armour. The wearer counts as having +1 Toughness against mundane attacks (not spells or magic Items. etc).</description>
+                  <description>This suit of armour is fully enclosed. Nothing remains of the wearer except his spirit and the spirits of those who wore the armour before him.
+
+The Armour of Tortured Souls is a suit of Chaos armour. The wearer counts as having +1 Toughness against mundane attacks (not spells or magic Items. etc).</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -5570,7 +5598,9 @@ The model is considered to have Poisoned Attacks.</description>
               </constraints>
               <rules>
                 <rule id="8d36-4931-50a6-f324" name="Armour of Damnation" page="51" hidden="false">
-                  <description>The Armour of Damnation is a suit Chaos armour. In addition, any model attacking the wearer in close combat must re-roll successful hits.</description>
+                  <description>This highly ornate suit of Chaos armour shimmers with unnatural energies that distort the position of the wearer so that the enemy&apos;s blows miss their mark.
+
+The Armour of Damnation is a suit Chaos armour. In addition, any model attacking the wearer in close combat must re-roll successful hits.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -5604,7 +5634,9 @@ The model is considered to have Poisoned Attacks.</description>
               </constraints>
               <rules>
                 <rule id="c786-ae6c-b628-e968" name="Crimson Armour of Dargan" hidden="false">
-                  <description>The Crimson Armour is a suit of Chaos armour. In addition, any model wishing to attack the wearer in close combat must first pass a Leadership test or they may not attack that combat round.</description>
+                  <description>This armour emits a searing heat which blinds and burns those who dare raise a blade against it.
+
+The Crimson Armour is a suit of Chaos armour. In addition, any model wishing to attack the wearer in close combat must first pass a Leadership test or they may not attack that combat round.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -5621,7 +5653,9 @@ The model is considered to have Poisoned Attacks.</description>
               </constraints>
               <rules>
                 <rule id="81ec-b233-97d4-d952" name="Trollhide Armour" page="63" hidden="false">
-                  <description>Trollhide Armour counts as a suit of heavy armour. The wearer may also Regenerate, except that lost Wounds are only regained on the roll of a 6, rather than a 4, 5 or 6.</description>
+                  <description>Properly treated and inscribed with the correct sigils when Morrsleib is full in the sky, the Trollhide Armour confers some of the more gruesome abilities of its former occupant to the wearer.
+
+Trollhide Armour counts as a suit of heavy armour. The wearer may also Regenerate, except that lost Wounds are only regained on the roll of a 6, rather than a 4, 5 or 6.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -5692,7 +5726,9 @@ The model is considered to have Poisoned Attacks.</description>
               </constraints>
               <rules>
                 <rule id="c97d-2e41-23c8-a279" name="Rending Sword" page="51" hidden="false">
-                  <description>A model wounded by the Rending Sword (after saves. etc) loses not one but D3 wounds.</description>
+                  <description>The Rending Sword has gnarled teeth along its edge that rip and gnaw at armour and bone. As it is swung, the sword growls and snarls like a wild beast hungry for the taste of raw flesh.
+
+A model wounded by the Rending Sword (after saves. etc) loses not one but D3 wounds.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -5892,7 +5928,9 @@ No Armour saves are made against wounds caused by the Great Fang.</description>
           </constraints>
           <rules>
             <rule id="8314-ae4a-edea-cb2e" name="Banner of Wrath" hidden="false">
-              <description>Bound Spell. Power Level 4. The banner contains a bound magic missile with range 24&quot;, causing D6 Strength 4 hits.</description>
+              <description>The Banner of Wrath contains a potent spell that lashes the enemy with forks of magical lightning.
+
+Bound Spell. Power Level 4. The banner contains a bound magic missile with range 24&quot;, causing D6 Strength 4 hits.</description>
             </rule>
           </rules>
           <categoryLinks>

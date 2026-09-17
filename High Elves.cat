@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="3f17-868d-fac0-4c8d" name="First Among Equals" hidden="false">
       <constraints>
@@ -1152,7 +1152,9 @@
           </constraints>
           <rules>
             <rule id="af84-32d4-1c4c-e1f5" name="Dragon Armour" hidden="false">
-              <description>The model is immune to all breath attacks, and any fire-based attack (including spells from the Lore of Fire). Dragon armour also counts as heavy armour, giving a 5+ armour save.</description>
+              <description>Forged in the heart of a volcano, this fine armour is enchanted to ward off the effects of Dragon breath.
+
+The model is immune to all breath attacks, and any fire-based attack (including spells from the Lore of Fire). Dragon armour also counts as heavy armour, giving a 5+ armour save.</description>
             </rule>
           </rules>
           <costs>
@@ -1630,7 +1632,9 @@
     <selectionEntry id="47ff-199d-f9a2-ac43" name="Repeater Bolt Throwers" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="1d83-79b5-8644-6f8f" name="Repeater Bolt Throwers" hidden="false">
-          <description>If using the multiple shots option then the Repeater Bolt Thrower shoots six bolts in each Shooting phase. These shots are worked out exactly like shots from bows or crossbows, using the Ballistic Skill of the crew to determine whether the bolts hit or not. All bolts must be directed towards a single target. Multiple shots have a Range of 48&quot;, a Strength of 4, with armour saves suffering a -2 penalty.</description>
+          <description>A Repeater Bolt Thrower is a war machine and all the rules governing war machines apply. Repeater Bolt Throwers may either shoot a single bolt or they may fire multiple shots.
+
+If using the multiple shots option then the Repeater Bolt Thrower shoots six bolts in each Shooting phase. These shots are worked out exactly like shots from bows or crossbows, using the Ballistic Skill of the crew to determine whether the bolts hit or not. All bolts must be directed towards a single target. Multiple shots have a Range of 48&quot;, a Strength of 4, with armour saves suffering a -2 penalty.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -1672,7 +1676,9 @@
           </profiles>
           <rules>
             <rule id="ef75-ab3e-8c6c-876d" name="Repeater Bolt Thrower" hidden="false">
-              <description>If using the multiple shots option then the Repeater Bolt Thrower shoots six bolts in each Shooting phase. These shots are worked out exactly like shots from bows or crossbows, using the Ballistic Skill of the crew to determine whether the bolts hit or not. All bolts must be directed towards a single target. Multiple shots have a Range of 48&quot;, a Strength of 4, with armour saves suffering a -2 penalty.</description>
+              <description>A Repeater Bolt Thrower is a war machine and all the rules governing war machines apply. Repeater Bolt Throwers may either shoot a single bolt or they may fire multiple shots.
+
+If using the multiple shots option then the Repeater Bolt Thrower shoots six bolts in each Shooting phase. These shots are worked out exactly like shots from bows or crossbows, using the Ballistic Skill of the crew to determine whether the bolts hit or not. All bolts must be directed towards a single target. Multiple shots have a Range of 48&quot;, a Strength of 4, with armour saves suffering a -2 penalty.</description>
             </rule>
           </rules>
           <costs>
@@ -2186,7 +2192,9 @@ After each use, even if it was dispelled, roll a D6. On a roll of a 1 the power 
           </constraints>
           <rules>
             <rule id="8146-5367-05a7-351c" name="Ring of Corin" hidden="false">
-              <description>Bound Spell. Power level 4. The Ring of Corin may cast its Bound spell once per Magic phase like an ordinary spell. The spell requires no Power dice to cast, all the power required is provided by the ring itself.
+              <description>The origins of this spell are steeped in mystery, and no other artefacts of this powerful mage survive. However, few are the loremasters, wizards or warlocks that have not heard of it!
+
+Bound Spell. Power level 4. The Ring of Corin may cast its Bound spell once per Magic phase like an ordinary spell. The spell requires no Power dice to cast, all the power required is provided by the ring itself.
 
 The Ring of Corin contains the Vaul&apos;s Unmaking spell.</description>
             </rule>
@@ -2312,7 +2320,9 @@ The Ring of Corin contains the Vaul&apos;s Unmaking spell.</description>
               </constraints>
               <rules>
                 <rule id="46bc-03d2-b253-af71" name="Shadow Armour" hidden="false">
-                  <description>Counts as heavy armour (armour save 5+) which can be combined with other equipment normally. In addition, if the wearer is an independent character on foot then he is treated as having the Scout special rule. He may choose to deploy either at the same time as the other characters, or as a Scout (including setting up with a unit of Shadow Warriors).</description>
+                  <description>Forged by the bitter Shadow Warriors in their hidden camps, the shimmering Shadow Armour weighs almost nothing. It exists somewhere between the real world and that of magic, a fact which mages find quite alarming.
+
+Counts as heavy armour (armour save 5+) which can be combined with other equipment normally. In addition, if the wearer is an independent character on foot then he is treated as having the Scout special rule. He may choose to deploy either at the same time as the other characters, or as a Scout (including setting up with a unit of Shadow Warriors).</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -2355,7 +2365,9 @@ The Ring of Corin contains the Vaul&apos;s Unmaking spell.</description>
               </constraints>
               <rules>
                 <rule id="6e02-33be-a5e7-c158" name="Armour of the Gods" publicationId="2c29-8521-dcc7-5337" page="11" hidden="false">
-                  <description>The Armour of the Gods can only be worn by characters on foot, and can&apos;t be combined with other armour. It confers a 3+ Armour save. It also adds +1 to the wearer&apos;s Strength characteristic.</description>
+                  <description>This highly ornate armour is imbued with its own strength, which it grants to the wearer.
+
+The Armour of the Gods can only be worn by characters on foot, and can&apos;t be combined with other armour. It confers a 3+ Armour save. It also adds +1 to the wearer&apos;s Strength characteristic.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -2384,7 +2396,9 @@ The Ring of Corin contains the Vaul&apos;s Unmaking spell.</description>
               </constraints>
               <rules>
                 <rule id="49b5-be71-ff8d-0125" name="Armour of Stars" hidden="false">
-                  <description>May only be worn by a model on foot. Counts as light armour (armour save 6+) which can be combined with other equipment normally. If the wearer suffers an unsaved wound then one of the gems will burst into brilliant white light as he is instantly teleported 3D6&quot; in a random direction.
+                  <description>Decorated with hundreds of glittering gems on a background of deepest blue lacquer, the Armour of Stars is a wonder to behold.
+
+May only be worn by a model on foot. Counts as light armour (armour save 6+) which can be combined with other equipment normally. If the wearer suffers an unsaved wound then one of the gems will burst into brilliant white light as he is instantly teleported 3D6&quot; in a random direction.
 
 Note that this means that he can only suffer 1 unsaved wound in a round of close combat as he will be teleported away before the second can strike him. However, if he was struck by a Killing Blow or a weapon that does multiple wounds per hit (such as a cannon ball) then he would still suffer the instant death or multiplied wounds as normal before teleporting away.
 
@@ -2412,7 +2426,9 @@ If the model is teleported into another model or impassable terrain then simply 
               </constraints>
               <rules>
                 <rule id="bb6a-fac5-dd29-77af" name="Armour of Protection" hidden="false">
-                  <description>Counts as light armour (armour save 6+) which can be combined with other equipment normally. If the-wearer fails his armour save he may make a 4+ Ward save.</description>
+                  <description>This simple armour is adorned by a single Sarathai rune on the breastplate. The World Dragon itself is said to protect the wearer.
+
+Counts as light armour (armour save 6+) which can be combined with other equipment normally. If the-wearer fails his armour save he may make a 4+ Ward save.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -2429,8 +2445,10 @@ If the model is teleported into another model or impassable terrain then simply 
               </constraints>
               <rules>
                 <rule id="2df5-1fa3-3d0f-4133" name="Armour of Heroes" hidden="false">
-                  <description>Counts as heavy armour (armour save 5+) which can be combined with other equipment normally. In order to allocate close combat attacks against the wearer, an opponent must first pass a Leadership test. Test each Close Combat phase. If the test is failed, the enemy may attack another model in base contact instead. Models who are
-are immune to this effect also.</description>
+                  <description>This finely wrought suit of armour is made in an unusual style, not seen since the time before the Sundering. A character wearing this armour seems to shine with an inner light. Surely he is one of the ancient gods of battle!
+
+Counts as heavy armour (armour save 5+) which can be combined with other equipment normally. In order to allocate close combat attacks against the wearer, an opponent must first pass a Leadership test. Test each Close Combat phase. If the test is failed, the enemy may attack another model in base contact instead. Models who are 
+ are immune to this effect also.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -2875,7 +2893,9 @@ are immune to this effect also.</description>
           </constraints>
           <rules>
             <rule id="a548-1d87-f518-6dbd" name="Claw of Devastation" publicationId="2c29-8521-dcc7-5337" page="11" hidden="false">
-              <description>THe wielder may re-roll failed rolls to wound in close combat, and ignores Armour saves.</description>
+              <description>Shaped like a wickedly taloned claw, this magic weapon pulses with dark power, ripping apart armour and bone with equal ease.
+
+The wielder may re-roll failed rolls to wound in close combat, and ignores Armour saves.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -3599,7 +3619,9 @@ Mage only. May cast with a maximum of + 1 more Power dice than normal. For examp
       <description>lthilmar barding adds + I to the model&apos;s armour save like ordinary barding, however there is no reduction in the movement rate of the model.</description>
     </rule>
     <rule id="d572-b8fe-424a-4311" name="Dragon Armour" hidden="false">
-      <description>The model is immune to all breath attacks, and any fire-based attack (including spells from the Lore of Fire). Dragon armour also counts as heavy armour, giving a 5+ armour save.</description>
+      <description>Forged in the heart of a volcano, this fine armour is enchanted to ward off the effects of Dragon breath.
+
+The model is immune to all breath attacks, and any fire-based attack (including spells from the Lore of Fire). Dragon armour also counts as heavy armour, giving a 5+ armour save.</description>
     </rule>
     <rule id="bdf5-319e-933e-4e77" name="Lion Cloak" hidden="false">
       <description>The white lion cloak that gives the White Lions of Chrace their name also gives them a +2 armour save versus missile fire. In close combat it is thrown cloak over the shoulder and offers no additional protection.</description>

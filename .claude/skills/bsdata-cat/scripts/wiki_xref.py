@@ -337,10 +337,17 @@ def wiki_rules_text(md):
     body = re.sub(r"^!\[.*$", "", body, flags=re.M)
 
     paras = [p.strip() for p in re.split(r"\n\s*\n", body) if p.strip()]
-    first = next((i for i, p in enumerate(paras) if STRONG_SIGNAL.search(p)), None)
-    if first is None:
-        first = next((i for i, p in enumerate(paras) if WEAK_SIGNAL.search(p)), None)
-    if first is None:
+
+    # Drop leading paragraphs only while they carry NO game vocabulary at all,
+    # and stop at the first that does. Cutting to the first STRONG signal was
+    # tried and is wrong: the Terror page states three paragraphs of real rules
+    # before it reaches a measurement, and all three were being discarded.
+    # Keeping a stray line of flavour is cosmetic; dropping rules is a bug.
+    first = 0
+    while first < len(paras) and not (STRONG_SIGNAL.search(paras[first])
+                                      or WEAK_SIGNAL.search(paras[first])):
+        first += 1
+    if first == len(paras):          # nothing looked mechanical anywhere
         return "\n\n".join(paras), []
     return "\n\n".join(paras[first:]), paras[:first]
 
@@ -488,6 +495,14 @@ def analyse(path, wiki):
                 row["bucket"] = "E"
                 row["note"] = "{} has no rules text (probably a unit page)".format(wpath)
                 row["candidates"] = [(wpath, "", 1.0)]
+            # The game system is shared by all 16 catalogues, so only core
+            # rulebook content belongs in it. Its bare "Chariot" tag otherwise
+            # resolves to Gorthor's chariot - a Beasts of Chaos special
+            # character's rule - and would ship that to every army.
+            elif path.suffix == ".gst" and "Main Rulebook" not in wiki.assoc(wpath):
+                row["bucket"] = "C"
+                row["note"] = "{} is {}, not core rulebook - wrong for a shared rule".format(
+                    wpath, ", ".join(wiki.assoc(wpath)) or "unattributed")
         rows.append(row)
 
     for it in inv["items"]:

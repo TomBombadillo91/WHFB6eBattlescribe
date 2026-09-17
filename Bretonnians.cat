@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="05b9-5022-67cd-4fd3" name="Bretonnians" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="05b9-5022-67cd-4fd3" name="Bretonnians" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="ff93-67ff-9b17-d51d" name="Grail Vow" hidden="false">
       <rules>
@@ -742,7 +742,13 @@ This gives Damsels Magic Resistance (1), and Prophetesses Magic Resistance (2).<
             <selectionEntry id="d9e3-6743-fcce-6298" name="Defensive Stakes" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
                 <rule id="8dea-01c2-dce4-18fc" name="Defensive Stakes" hidden="false">
-                  <description>No unit gains any charge bonus when they charge the unit&apos;s front. For example, lances do not gain their +2 Strength bonus, great weapons will strike last, chariots will not inflict any impact hits. Special attacks that require the unit to charge for it to take effect (like the Bone Giant&apos;s Furious Assault) cannot use their special rules. In addition, the charging unit does not count as charging for determining who gets to fight first - the Initiative value of the models involved in the fight determines this - in the case of a tie, roll a dice to determine who attacks first. Characters may join the unit or leave it freely - add or remove a stake base as necessary.</description>
+                  <description>Set up the stakes at the start of the game when the unit is deployed. Every model in the front rank has a stake base placed in front of it (these stakes must also be set up within the army&apos;s deployment zone).
+
+If the unit makes any movement at any point in the game (including reforms, wheels, turning, or fleeing), then the stakes are removed for the rest of the game.
+
+Enemy units charging the bowmen measure the distance to the front of the stakes rather than to the peasants themselves - at all other times, any distance is measured to the peasants. Models may attack through bases of stakes in the same manner as the second rank of spears (ie, a model may attack any model that the stake in front of it is touching).
+
+No unit gains any charge bonus when they charge the unit&apos;s front. For example, lances do not gain their +2 Strength bonus, great weapons will strike last, chariots will not inflict any impact hits. Special attacks that require the unit to charge for it to take effect (like the Bone Giant&apos;s Furious Assault) cannot use their special rules. In addition, the charging unit does not count as charging for determining who gets to fight first - the Initiative value of the models involved in the fight determines this - in the case of a tie, roll a dice to determine who attacks first. Characters may join the unit or leave it freely - add or remove a stake base as necessary.</description>
                 </rule>
               </rules>
               <costs>
@@ -1157,7 +1163,9 @@ This gives Damsels Magic Resistance (1), and Prophetesses Magic Resistance (2).<
           <description>The Grail Reliquae has a Unit Strength of 6 (plus any accompanying Battle Pilgrims)</description>
         </rule>
         <rule id="092c-aef3-52c3-cc0c" name="Grail Reliquae" hidden="false">
-          <description>The Grail Reliquae has a 5+ Armour save. In close combat, this save is increased to 4+.
+          <description>This holy shrine is placed in the centre of the front rank, just like a Standard Bearer or Musician (see Standards, Musicians &amp; Champions). lf the unit turns, the Reliquae is always moved to the front rank again, just like a Standard Bearer or Musician.
+
+The Grail Reliquae has a 5+ Armour save. In close combat, this save is increased to 4+.
 
 The Grail Reliquae counts as both a Standard Bearer (following all the rules for Standard Bearers, though it can never be dropped or captured), and Musician (following all the rules for Musicians).
 
@@ -1950,7 +1958,15 @@ The Toad Familiar adds one dice to both the Power dice and the Dispel dice pool 
   </selectionEntries>
   <rules>
     <rule id="8509-0cf0-5d2f-07de" name="The Blessing of the Lady" hidden="false">
-      <description>- Affected models get a 6+ ward save
+      <description>The Bretonnian player may pray for the Blessing of the Lady before the battle begins but after both players have deployed their army. The enemy can then choose to take the first or second turn, as the whole Bretonnian army must kneel to pray before the fight. The Lady&apos;s Blessing is automatically granted.
+
+The Lady’s Blessing is automatically granted. The Blessing affects all units and characters that have The Knight&apos;s Vow, The Questing Vow and The Grail Vow. In addition, Prophetesses of the Lady and Damsels of the Lady are also affected. The Blessing also affects the mount of any affected model.
+
+The Blessing affects all units and characters that have The Knight&apos;s Vow, The Questing Vow and The Grail Vow. In addition, Prophetesses of the Lady and Damsels of the Lady are also affected. The Blessing also affects the mount of any affected model (so, Hippogryphs and Pegasus gain the benefit of the Blessing as long as their rider is affected).
+
+The effects of the Blessing are as follows:
+
+- Affected models get a 6+ ward save
 - Affected models get a 5+ ward save versus attacks with Strength 5 or higher.
 
 Losing the Blessing
@@ -2282,7 +2298,9 @@ Characters with the Questing Vow cannot use a mundane or magical lance.</descrip
           </constraints>
           <rules>
             <rule id="8f06-c611-6e05-9c89" name="Virtue of the Impetuous Knight" hidden="false">
-              <description>The Knight, and any mounted unit he is with, adds +D6&quot; for the first charge that they declare (roll after declaring the charge). If the charge is failed the unit will not add the extra D6&quot; to their failed charge movement.</description>
+              <description>&apos;In the glory of the charge was Balduffi most alive, and though others more tempered by the fires of war better controlled their ardour, be was ever in the forefront of battle.&apos;
+
+The Knight, and any mounted unit he is with, adds +D6&quot; for the first charge that they declare (roll after declaring the charge). If the charge is failed the unit will not add the extra D6&quot; to their failed charge movement.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2376,7 +2394,9 @@ Characters with the Questing Vow cannot use a mundane or magical lance.</descrip
           </constraints>
           <rules>
             <rule id="2682-e311-b086-be23" name="Virtue of the Joust" hidden="false">
-              <description>The Knight may re-roll failed rolls to hit when charging and using a lance (including magical lances).</description>
+              <description>&apos;Great was Duke Folgar of Artois&apos; skill with a lance - none could unhorse hint, save perhaps Landuin himself&apos;
+
+The Knight may re-roll failed rolls to hit when charging and using a lance (including magical lances).</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -3860,7 +3880,9 @@ Characters with the Questing Vow cannot use a mundane or magical lance.</descrip
           </constraints>
           <rules>
             <rule id="1451-7a04-c931-5c1b" name="Virtue of the Impetuous Knight" hidden="false">
-              <description>The Knight, and any mounted unit he is with, adds +D6&quot; for the first charge that they declare (roll after declaring the charge). If the charge is failed the unit will not add the extra D6&quot; to their failed charge movement.</description>
+              <description>&apos;In the glory of the charge was Balduffi most alive, and though others more tempered by the fires of war better controlled their ardour, be was ever in the forefront of battle.&apos;
+
+The Knight, and any mounted unit he is with, adds +D6&quot; for the first charge that they declare (roll after declaring the charge). If the charge is failed the unit will not add the extra D6&quot; to their failed charge movement.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -3895,7 +3917,9 @@ Characters with the Questing Vow cannot use a mundane or magical lance.</descrip
           </constraints>
           <rules>
             <rule id="211d-dbee-a463-64b2" name="Virtue of the Joust" hidden="false">
-              <description>The Knight may re-roll failed rolls to hit when charging and using a lance (including magical lances).</description>
+              <description>&apos;Great was Duke Folgar of Artois&apos; skill with a lance - none could unhorse hint, save perhaps Landuin himself&apos;
+
+The Knight may re-roll failed rolls to hit when charging and using a lance (including magical lances).</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -3937,7 +3961,9 @@ Characters with the Questing Vow cannot use a mundane or magical lance.</descrip
           </constraints>
           <rules>
             <rule id="1ffd-7f5c-bbbd-9f19" name="Virtue of the Joust" hidden="false">
-              <description>The Knight may re-roll failed rolls to hit when charging and using a lance (including magical lances).</description>
+              <description>&apos;Great was Duke Folgar of Artois&apos; skill with a lance - none could unhorse hint, save perhaps Landuin himself&apos;
+
+The Knight may re-roll failed rolls to hit when charging and using a lance (including magical lances).</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -3979,7 +4005,9 @@ Characters with the Questing Vow cannot use a mundane or magical lance.</descrip
           </constraints>
           <rules>
             <rule id="f864-ebdc-994b-b819" name="Virtue of the Joust" hidden="false">
-              <description>The Knight may re-roll failed rolls to hit when charging and using a lance (including magical lances).</description>
+              <description>&apos;Great was Duke Folgar of Artois&apos; skill with a lance - none could unhorse hint, save perhaps Landuin himself&apos;
+
+The Knight may re-roll failed rolls to hit when charging and using a lance (including magical lances).</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -4242,7 +4270,9 @@ Characters with the Questing Vow cannot use a mundane or magical lance.</descrip
               </constraints>
               <rules>
                 <rule id="63c1-3d71-edf1-b4c0" name="Cuirass of Fortune" hidden="false">
-                  <description>This armour replaces the Knight&apos;s heavy armour, and gives a 5+ Armour save which may be combined with other armour as normal. When rolling to wound in close combat, the Knight may re-roll any dice rolls of 1.</description>
+                  <description>The Cuirass is a remarkable piece of equipment fined by the mad artificer Gurdilleme the Blatantly Insane. Any who possess the armour not only find their blows more accurate. but also enjoy the favour of maidens and oddly generous merchants.
+
+This armour replaces the Knight&apos;s heavy armour, and gives a 5+ Armour save which may be combined with other armour as normal. When rolling to wound in close combat, the Knight may re-roll any dice rolls of 1.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -4259,7 +4289,9 @@ Characters with the Questing Vow cannot use a mundane or magical lance.</descrip
               </constraints>
               <rules>
                 <rule id="978b-5aa0-11bf-5a61" name="Armour of the Midsummer Sun" hidden="false">
-                  <description>This armour replaces the Knight&apos;s heavy armour, and gives a 5+ Armour save that may be combined with other armour as normal. Opponents suffer a -1 penalty to all rolls to hit the wearer and his mount with missile weapons and in close combat.</description>
+                  <description>This enchanted armour reflects and magnifies the light of the sun so that beams of light shimmer and burst from every surface as the knight gallops towards his foe
+
+This armour replaces the Knight&apos;s heavy armour, and gives a 5+ Armour save that may be combined with other armour as normal. Opponents suffer a -1 penalty to all rolls to hit the wearer and his mount with missile weapons and in close combat.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -4276,7 +4308,9 @@ Characters with the Questing Vow cannot use a mundane or magical lance.</descrip
               </constraints>
               <rules>
                 <rule id="1421-f6c5-df73-bcff" name="Armour of Agiluf" hidden="false">
-                  <description>This armour replaces the Knight&apos;s heavy armour and includes a shield, giving a 4+ Armour save. The shield must he used at all times - so the wearer cannot use a weapon that requires two hands. In addition, the armour confers Weapon Skill 10 (which cannot be altered with other items, Virtues, etc) to whomever is wearing it.</description>
+                  <description>It Is believed that the knight Agilulf worre this armour, but in folklore it is claimed that Agilulf never actually existed, and that the armour was possessed of a will of its own. When the knight was slain if indeed be was alive, the armour was found to be empty and its shining brilliance gradually faded until it was its current, dark colour.
+
+This armour replaces the Knight&apos;s heavy armour and includes a shield, giving a 4+ Armour save. The shield must he used at all times - so the wearer cannot use a weapon that requires two hands. In addition, the armour confers Weapon Skill 10 (which cannot be altered with other items, Virtues, etc) to whomever is wearing it.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -4564,7 +4598,9 @@ Any challenge issued by the bearer of the Gauntlet of the Duel cannot be refused
           </constraints>
           <rules>
             <rule id="7c8a-cb3c-4a5f-b2b0" name="Sword of the Lady&apos;s Champion" hidden="false">
-              <description>Character with The Grail Vow only. The character always counts their Strength as one higher than their target&apos;s Toughness, unless their Strength would normally he more than this. In effect this means that they will always wound opponents on at least a 3+. This modified Strength is also used to calculate Armour save modifiers.</description>
+              <description>On the eve of battle, a knight that kneels to pray beside a body of still water may be rewarded with the vision of a pale, slender band emerging from the water, with a beautiful blade grasped within its delicate fingers.
+
+Character with The Grail Vow only. The character always counts their Strength as one higher than their target&apos;s Toughness, unless their Strength would normally he more than this. In effect this means that they will always wound opponents on at least a 3+. This modified Strength is also used to calculate Armour save modifiers.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -4644,7 +4680,9 @@ Any challenge issued by the bearer of the Gauntlet of the Duel cannot be refused
           </constraints>
           <rules>
             <rule id="9a17-39a2-fbba-50ec" name="Morning Star of Fracasse" hidden="false">
-              <description>The bearer has +2 Strength in the first round of combat. For each hit on a close combat opponent, roll a D6. On a 4+, if the opponent has a magic weapon, it is destroyed.</description>
+              <description>This mighty morning star has a hatred of magical trickery and unholy artefacts inherited from its first owner. Fracasse Langoustine, the Scourge of Araby. It will entangle and rip a magic weapon from the hands of anyone, unless a spiked orb to the head settles the matter first.
+
+The bearer has +2 Strength in the first round of combat. For each hit on a close combat opponent, roll a D6. On a 4+, if the opponent has a magic weapon, it is destroyed.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -4702,7 +4740,9 @@ Any challenge issued by the bearer of the Gauntlet of the Duel cannot be refused
           </constraints>
           <rules>
             <rule id="6593-518d-a1fd-d4bd" name="The Wyrmlance" hidden="false">
-              <description>Mounted character only. The bearer has +2 Strength on the charge when mounted. In addition, once per game, the model wielding the Wymilance may make a breath attack from the tip of the lance at Strength 3 provided he is not in close combat. Furthermore, all attacks made by the Wyrmlance count as flaming attacks.</description>
+              <description>Legend has it that the lance of Duke Beligulf Fearnought was plunged into the maw of the dragon Maliifex just as it was about to spout a great torrent of flame. It is said to have absorbed the power of the dragon&apos;s breath and, by uttering the name of the slain dragon, the wielder may unleash this fire at will.
+
+Mounted character only. The bearer has +2 Strength on the charge when mounted. In addition, once per game, the model wielding the Wymilance may make a breath attack from the tip of the lance at Strength 3 provided he is not in close combat. Furthermore, all attacks made by the Wyrmlance count as flaming attacks.</description>
             </rule>
           </rules>
           <categoryLinks>

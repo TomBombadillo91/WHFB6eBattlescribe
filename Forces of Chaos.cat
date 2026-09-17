@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="e8a8-d83e-c60c-3ad0" name="Hordes of Chaos"/>
     <publication id="dc3a-2511-d23a-deb3" name="Beasts of Chaos"/>
@@ -4419,7 +4419,9 @@ If the Spawn&apos;s movement is sufficient to take it into an enemy unit then it
     <selectionEntry id="11e9-830f-f26c-1de1" name="Chaos Trolls" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="2da6-b52d-788f-5ed9" name="Troll Vomit" hidden="false">
-          <description>Instead of attacking normally the whole unit may elect to vomit on the enemy. As each Troll can make only 1 Vomit Attack at a time, as opposed to 3 ordinary Attacks, this means the unit gets fewer Attacks, although these always hit. Each model inflicts one automatic Strength 5 hit with no Armour saves allowed.</description>
+          <description>A Troll&apos;s digestive fluid is the most corrosive thing known to science... and about the most revolting too. Trolls are able to vomit their stomach contents upon their enemies if they wish. A unit of Trolls can make Vomit Attacks instead of ordinary attacks during close combat.
+
+Instead of attacking normally the whole unit may elect to vomit on the enemy. As each Troll can make only 1 Vomit Attack at a time, as opposed to 3 ordinary Attacks, this means the unit gets fewer Attacks, although these always hit. Each model inflicts one automatic Strength 5 hit with no Armour saves allowed.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4606,7 +4608,9 @@ If the Spawn&apos;s movement is sufficient to take it into an enemy unit then it
       </modifiers>
       <rules>
         <rule id="ba89-6828-b6a9-4738" name="Drunken" hidden="false">
-          <description>Roll a D6 for each Centigor unit at the start of each of their turns, before charges are declared. On a roll of 1, they must test for stupidity that turn. On a roll of 2-5 the alcohol has no benefit or hindrance that turn. On a roll of 6 they become subject to frenzy for that turn (even if they have previously lost a round of combat). Remember that while subject to stupidity or frenzy they are immune to all other forms of psychology.</description>
+          <description>Centigors are inclined to drink vast quantities of noxious beer and looted wine and spirits before battle, working themselves up into a drunken frenzy. While this makes them heedless of danger, and can turn them into berserk fighters, it can also severely incapacitate them.
+
+Roll a D6 for each Centigor unit at the start of each of their turns, before charges are declared. On a roll of 1, they must test for stupidity that turn. On a roll of 2-5 the alcohol has no benefit or hindrance that turn. On a roll of 6 they become subject to frenzy for that turn (even if they have previously lost a round of combat). Remember that while subject to stupidity or frenzy they are immune to all other forms of psychology.</description>
         </rule>
         <rule id="5234-5b77-80a2-b23f" name="Trample" hidden="false">
           <description>As well as their weapons, Centigors use their hooves and sheer size to crush the enemy. Centigors have an additional Attack, which does not benefit from weapon penalties or bonuses.</description>
@@ -5303,7 +5307,14 @@ They use cavalry rules for spears.</description>
           <description>Giants expect smaller weedier folk to run away and would be disappointed if they didn&apos;t. Consequently, when a unit of cavalry-sized or smaller models, is destroyed, breaks or flees past, Giants do not need to test for panic.</description>
         </rule>
         <rule id="88e5-b5f3-29b4-92d9" name="Fall Over" hidden="false">
-          <description>To see if the Giant falls over roll a D6. If you score between 2 and 6 then the Giant sways slightly, but regains his balance and no harm is done. If the roll results in a 1 the Giant falls over. Obviously, if a Giant is slain then it falls over automatically.
+          <description>A Giant must test to see whether it falls over if any of the following apply:
+
+1. When it is beaten in close combat. Test once results are established but before taking Break or Panic tests.
+2. At the start of the Movement phase if it is fleeing.
+3. When it crosses an obstacle. Test when the obstacle is reached.
+4. If the Giant decides to Jump Up and Down on an enemy. Test immediately beforehand.
+
+To see if the Giant falls over roll a D6. If you score between 2 and 6 then the Giant sways slightly, but regains his balance and no harm is done. If the roll results in a 1 the Giant falls over. Obviously, if a Giant is slain then it falls over automatically.
 
 To determine which direction the Giant falls, roll a Scatter dice - the arrow indicates the direction in which the Giant falls. Place the Falling Giant template with its feet at the model&apos;s base and its head in the direction of the fall. Any models lying completely under the template are automatically hit. Any models partly covered are hit on a 4+.
 
@@ -5949,7 +5960,9 @@ Once on the ground, a Giant may get up in his following Movement phase, but may 
       </constraints>
       <rules>
         <rule id="0a2e-070e-8be5-dda8" name="Armour of Khorne" hidden="false">
-          <description>The Daemon has an armour save of 4+ in addition to its Daemonic Aura.</description>
+          <description>The Daemon wears armour fashioned from materials unknown to mortals.
+
+The Daemon has an armour save of 4+ in addition to its Daemonic Aura.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -6067,7 +6080,9 @@ Once on the ground, a Giant may get up in his following Movement phase, but may 
       </constraints>
       <rules>
         <rule id="ed6a-3698-f700-2582" name="Spell Destroyer" hidden="false">
-          <description>Once per battle, the Daemon may automatically dispel one enemy spell, except one which has just been cast with Irresistible Force. In addition, roll a D6. On a roll of 4+, the enemy Wizard loses knowledge of that spell and may not cast it for the rest of the battle.</description>
+          <description>The Daemon can wrench magical power from its foes using its own Chaos essence to attack the minds of enemy Wizards.
+
+Once per battle, the Daemon may automatically dispel one enemy spell, except one which has just been cast with Irresistible Force. In addition, roll a D6. On a roll of 4+, the enemy Wizard loses knowledge of that spell and may not cast it for the rest of the battle.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -7288,7 +7303,9 @@ Once on the ground, a Giant may get up in his following Movement phase, but may 
           </constraints>
           <rules>
             <rule id="3997-184b-ae87-d4ea" name="The Bonecrusher Mace" publicationId="dc3a-2511-d23a-deb3" page="62" hidden="false">
-              <description>The Mace always wounds on a 2+. Armour saves are taken using the wielder&apos;s normal Strength.
+              <description>This massive, heavy club is ringed with bands of cursed iron. and carries enchantments of shattering and destruction. Though it lacks an edge with which to penetrate armour, those struck by it find their bones turn to powder under the sheer brute force of the blow. Even castle gates have fallen to this weapon in its long and bloody history.
+
+The Mace always wounds on a 2+. Armour saves are taken using the wielder&apos;s normal Strength.
 
 Against Castles, Empire Steam Tankks and in other situations where a roll to wound is not taken, the wielder counts as having double its Strength characteristic, to a maximum of 10.</description>
             </rule>
@@ -7526,7 +7543,9 @@ Against Castles, Empire Steam Tankks and in other situations where a roll to wou
           </constraints>
           <rules>
             <rule id="1e88-797a-3be7-d4ca" name="Rending Sword" publicationId="e8a8-d83e-c60c-3ad0" page="51" hidden="false">
-              <description>A model wounded by the Rending Sword (after saves. etc) loses not one but D3 wounds.</description>
+              <description>The Rending Sword has gnarled teeth along its edge that rip and gnaw at armour and bone. As it is swung, the sword growls and snarls like a wild beast hungry for the taste of raw flesh.
+
+A model wounded by the Rending Sword (after saves. etc) loses not one but D3 wounds.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -8258,7 +8277,9 @@ No Armour saves are made against wounds caused by the Great Fang.</description>
           </constraints>
           <rules>
             <rule id="cf6f-6c30-1ee6-27f5" name="The Dark Heart" hidden="false">
-              <description>Beasts of Chaos characters only. The character and any unit led by him adds +D3&quot; to their charge move. Roll after declaring charges — if the charge is failed, the models move their normal failed charge distance.</description>
+              <description>This pulsating, dark red gemstone exudes a throbbing dark light and beats like a living heart. Those under the influence of its power are filled with a longing to kill, and will charge recklessly at the foe, filled with hate-fueled invigoration.
+
+Beasts of Chaos characters only. The character and any unit led by him adds +D3&quot; to their charge move. Roll after declaring charges — if the charge is failed, the models move their normal failed charge distance.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -8774,7 +8795,9 @@ Models with the Mark of Slaanesh only. Whenever the bearer issues a challenge, t
           </constraints>
           <rules>
             <rule id="3ad4-9feb-f61f-a472" name="Banner of Rage" hidden="false">
-              <description>Characters &amp; units with the Mark of Khorne only. The model and any unit they are with may re-roll failed Break tests and will not lose their frenzy if beaten in close combat.</description>
+              <description>This banner contaim the soul of the Blood God&apos;s most bloodthirsty champions. It radiates bloodlust, driving those who fight beneath it into a frenzy of destruction.
+
+Characters &amp; units with the Mark of Khorne only. The model and any unit they are with may re-roll failed Break tests and will not lose their frenzy if beaten in close combat.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -8832,7 +8855,9 @@ Models with the Mark of Slaanesh only. Whenever the bearer issues a challenge, t
           </constraints>
           <rules>
             <rule id="5434-55e0-bd28-978a" name="Blasted Standard" hidden="false">
-              <description>Characters and units with the Mark of Tzeentch only. Bound Spell. Power level 4. The banner contains the bound Tzeentch spell Yellow Fire of Transformation.</description>
+              <description>The Blasted Standard contains a mighty spell of protection. Those marching behind this banner are shielded by powerful magical flames.
+
+Characters and units with the Mark of Tzeentch only. Bound Spell. Power level 4. The banner contains the bound Tzeentch spell Yellow Fire of Transformation.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -8849,7 +8874,9 @@ Models with the Mark of Slaanesh only. Whenever the bearer issues a challenge, t
           </constraints>
           <rules>
             <rule id="a67b-e3da-f055-0f7c" name="Banner of Wrath" hidden="false">
-              <description>Bound Spell. Power Level 4. The banner contains a bound magic missile with range 24&quot;, causing D6 Strength 4 hits.</description>
+              <description>The Banner of Wrath contains a potent spell that lashes the enemy with forks of magical lightning.
+
+Bound Spell. Power Level 4. The banner contains a bound magic missile with range 24&quot;, causing D6 Strength 4 hits.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -8931,7 +8958,9 @@ Models with the Mark of Slaanesh only. Whenever the bearer issues a challenge, t
               </constraints>
               <rules>
                 <rule id="5dd2-5f41-f5b0-f0a8" name="Armour of Damnation" publicationId="e8a8-d83e-c60c-3ad0" page="51" hidden="false">
-                  <description>The Armour of Damnation is a suit Chaos armour. In addition, any model attacking the wearer in close combat must re-roll successful hits.</description>
+                  <description>This highly ornate suit of Chaos armour shimmers with unnatural energies that distort the position of the wearer so that the enemy&apos;s blows miss their mark.
+
+The Armour of Damnation is a suit Chaos armour. In addition, any model attacking the wearer in close combat must re-roll successful hits.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -8960,7 +8989,9 @@ Models with the Mark of Slaanesh only. Whenever the bearer issues a challenge, t
               </constraints>
               <rules>
                 <rule id="dde7-8775-deb7-3e7b" name="Armour of Tortured Souls" publicationId="e8a8-d83e-c60c-3ad0" page="51" hidden="false">
-                  <description>The Armour of Tortured Souls is a suit of Chaos armour. The wearer counts as having +1 Toughness against mundane attacks (not spells or magic Items. etc).</description>
+                  <description>This suit of armour is fully enclosed. Nothing remains of the wearer except his spirit and the spirits of those who wore the armour before him.
+
+The Armour of Tortured Souls is a suit of Chaos armour. The wearer counts as having +1 Toughness against mundane attacks (not spells or magic Items. etc).</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -8984,7 +9015,9 @@ Models with the Mark of Slaanesh only. Whenever the bearer issues a challenge, t
               </constraints>
               <rules>
                 <rule id="df14-b7c0-c17b-dfad" name="Chaos Armour" publicationId="dc3a-2511-d23a-deb3" page="63" hidden="false">
-                  <description>Chaos armour gives a 4+ armour save. It can be combined with other equipment as normal. Sorcerers can wear this armour and cast spells.</description>
+                  <description>All-enclosing suits of Chaos Armour are the living gifts of the Dark Gods upon their Champions. They become part of the wearers body and can never be removed once put on.
+
+Chaos armour gives a 4+ armour save. It can be combined with other equipment as normal. Sorcerers can wear this armour and cast spells.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -9013,7 +9046,9 @@ Models with the Mark of Slaanesh only. Whenever the bearer issues a challenge, t
               </constraints>
               <rules>
                 <rule id="1824-9c9d-a282-b637" name="Crimson Armour of Dargan" hidden="false">
-                  <description>The Crimson Armour is a suit of Chaos armour. In addition, any model wishing to attack the wearer in close combat must first pass a Leadership test or they may not attack that combat round.</description>
+                  <description>This armour emits a searing heat which blinds and burns those who dare raise a blade against it.
+
+The Crimson Armour is a suit of Chaos armour. In addition, any model wishing to attack the wearer in close combat must first pass a Leadership test or they may not attack that combat round.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -9078,7 +9113,9 @@ Models with the Mark of Slaanesh only. Whenever the bearer issues a challenge, t
               </constraints>
               <rules>
                 <rule id="9cf9-382f-1ca8-9788" name="Trollhide Armour" publicationId="dc3a-2511-d23a-deb3" page="63" hidden="false">
-                  <description>Trollhide Armour counts as a suit of heavy armour. The wearer may also Regenerate, except that lost Wounds are only regained on the roll of a 6, rather than a 4, 5 or 6.</description>
+                  <description>Properly treated and inscribed with the correct sigils when Morrsleib is full in the sky, the Trollhide Armour confers some of the more gruesome abilities of its former occupant to the wearer.
+
+Trollhide Armour counts as a suit of heavy armour. The wearer may also Regenerate, except that lost Wounds are only regained on the roll of a 6, rather than a 4, 5 or 6.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -9115,7 +9152,9 @@ Models with the Mark of Slaanesh only. Whenever the bearer issues a challenge, t
               </constraints>
               <rules>
                 <rule id="c8ac-0265-ed97-5d26" name="Pelt of the Dark Young" hidden="false">
-                  <description>Beasts of Chaos characters only. The Pelt confers a Scaly Skin 6+ save that can be combined with normal armour. It also gives the bearer and any unit he joins Magic Resistance (1).</description>
+                  <description>After years of being smeared in blood, filth and excrement in the name of the Chaos gods, the Champion&apos;s pelt has mutated into an iron-hard cloak of gristle and hair that affords protection from both physical and magical attacks.
+
+Beasts of Chaos characters only. The Pelt confers a Scaly Skin 6+ save that can be combined with normal armour. It also gives the bearer and any unit he joins Magic Resistance (1).</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -9168,7 +9207,9 @@ Models with the Mark of Slaanesh only. Whenever the bearer issues a challenge, t
               </constraints>
               <rules>
                 <rule id="329e-4562-0091-fc8a" name="Spelleater Shield" publicationId="e8a8-d83e-c60c-3ad0" page="51" hidden="false">
-                  <description>Models with the Mark of Khorne only. The Spelleater Shield is treated like a normal shield. In addition, it grants Magic Resistance (2) to the character and any unit he is with. Roll a D6 each time a spell is cast at the bearer of the Spelleater Shield and is dispelled. On a roll of 4 or more, the spell is destroyed and the enemy Wizard may not cast it for the rest of the battle.</description>
+                  <description>The Spelleater Shield is made made daemonhide and adorned with symbols of power. When spells are cast against the bearer, it drains away their power.
+
+Models with the Mark of Khorne only. The Spelleater Shield is treated like a normal shield. In addition, it grants Magic Resistance (2) to the character and any unit he is with. Roll a D6 each time a spell is cast at the bearer of the Spelleater Shield and is dispelled. On a roll of 4 or more, the spell is destroyed and the enemy Wizard may not cast it for the rest of the battle.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -10484,7 +10525,17 @@ The Familiar&apos;s owner knows one more spell than is normal for his level. Thi
 - Units with the Raiders special rule may not be joined by characters who are not Raiders. Characters with the Raiders special rule may Join any unit they wish, but if they join a unit which does not have the Raiders special rule then they are treated exactly like any other character model.</description>
     </rule>
     <rule id="042e-ac58-600d-b7f6" name="Ambush" hidden="false">
-      <description>Both armies are chosen using the Warhammer Army lists. The defender has 50% more points than the attacker (rounding fractions down). Eg, 1,500 points of attackers would face 2,250 points of defenders.
+      <description>The Elves attacked the Dwarfs with arrows while remaining concealed in the trees and drew the reckless Dwarfs onwards, while the rest of the Wood Elf force closed in from behind. In these circumstances, the Wood Elves would not need to outnumber the Dwarfs and may even have been a smaller force.
+
+Despite forming a shield-wall, the Dwarfs were unable to fight their way back out of the ravine and were all slain.
+
+Overview
+
+In this scenario a smaller force takes advantage of surprise and better position to ambush a larger force.
+
+Armies
+
+Both armies are chosen using the Warhammer Army lists. The defender has 50% more points than the attacker (rounding fractions down). Eg, 1,500 points of attackers would face 2,250 points of defenders.
 
 Battlefield
 

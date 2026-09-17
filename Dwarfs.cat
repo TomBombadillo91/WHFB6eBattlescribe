@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="e0a8-8253-1a27-7620" name="Engineering Rune" hidden="false">
       <rules>
@@ -523,7 +523,11 @@ Engineering Runes Type</description>
           <description>If a machine with an Engineer attached to it misfires and explodes, the Engineer will be killed with the rest of the crew if he replaced a crewman or used his Artillery Master ability during that turn.</description>
         </rule>
         <rule id="dfca-595e-42a1-318a" name="Artillery Master" hidden="false">
-          <description>Note that if the Engineer uses his ability during the firing of the war machine, he will not be able to shoot with his own missile weapon in the same Shooting phase (he is too busy grumbling about the crew&apos;s poor aim). Remember that you must fire all the weapons requiring you to guess the range before any normal shooting. In addition, you must remember to fire a Bolt Thrower which an Engineer has joined before he opens fire with his own weapon. If you fired the Engineer&apos;s own weapon then you cannot use his re-roll ability in the same turn.
+          <description>A Cannon or a Stone Thrower (but not a Flame Cannon) which has been joined by an Engineer may make two guesses when declaring the range they are firing at (one for the crew, one for the Engineer). Measure the two points you have guessed and then decide which one you want to use for that shot before rolling any dice.
+
+A Bolt Thrower which has been joined by an Engineer may use his BS when rolling to hit.
+
+Note that if the Engineer uses his ability during the firing of the war machine, he will not be able to shoot with his own missile weapon in the same Shooting phase (he is too busy grumbling about the crew&apos;s poor aim). Remember that you must fire all the weapons requiring you to guess the range before any normal shooting. In addition, you must remember to fire a Bolt Thrower which an Engineer has joined before he opens fire with his own weapon. If you fired the Engineer&apos;s own weapon then you cannot use his re-roll ability in the same turn.
 
 When firing his own missile weapon, an Engineer can always choose a different target from the one fired upon by the machine he has joined.</description>
         </rule>
@@ -1005,7 +1009,11 @@ When firing his own missile weapon, an Engineer can always choose a different ta
       </constraints>
       <rules>
         <rule id="5b32-5a9c-6609-fb61" name="Underground Advance" hidden="false">
-          <description>Instead, starting from turn two, at the beginning of every Dwarf turn roll a dice: on a 4+ the Miners will arrive. For every successive turn after the second, add a further +1 to the roll, so they arrive on a 3+ in turn three, and so on (but an unmodified roll of 1 is always a failure).
+          <description>Miners are famous for using their extensive knowledge of underground tunnels to make their way to the enemy&apos;s rear and turn up on the battlefield from a completely unexpected direction.
+
+Miners do not have to be deployed on the table at the beginning of the battle.
+
+Instead, starting from turn two, at the beginning of every Dwarf turn roll a dice: on a 4+ the Miners will arrive. For every successive turn after the second, add a further +1 to the roll, so they arrive on a 3+ in turn three, and so on (but an unmodified roll of 1 is always a failure).
 
 In the Movement phase of the turn when they arrive, Miners can enter the battlefield from any table edge and will be treated exactly like a unit that has pursued an enemy off the table in the previous turn. If the Miners fail to turn up for the entire game, they have obviously got lost in the tunnels, but their points value are not awarded to the opponent.</description>
         </rule>
@@ -2011,7 +2019,9 @@ Steam Gun	Flame Template	3	-1</description>
       </profiles>
       <rules>
         <rule id="bd8e-0139-6203-3ac0" name="Organ Gun" hidden="false">
-          <description>If you roll a Misfire, the cannon has misfired and may explode. Roll a D6 and consult the Organ Gun Misfire chart to see what happens.
+          <description>In the Shooting phase, turn the Organ Gun so that it face its target. Roll the Artillery dice and then measure the range. If the target unit is within range it will suffer a number of hits equal to the number rolled on the Artillery dice. Hits are resolved using the profile below.
+
+If you roll a Misfire, the cannon has misfired and may explode. Roll a D6 and consult the Organ Gun Misfire chart to see what happens.
 
 Profiles
 
@@ -2098,7 +2108,9 @@ No more than one item may carry the same combination of magic runes. You could n
       </profiles>
       <rules>
         <rule id="9e16-d9de-996e-1f44" name="Anvil of Doom" hidden="false">
-          <description>The Runelord and the two Anvil Guards would rather give their lives before abandoning this most ancient artefact, and must remain for all the battle on the platform. They are Unbreakable, may not declare charges and will never pursue beaten foes. The Anvil and crew have a Unit Strength of 3.
+          <description>A Dwarf army may have one and only one Anvil of Doom. In gaming terms, the Anvil is treated a a piece of terrain; it cannot be moved or attacked at all (no more than you can move or attack a hill!).
+
+The Runelord and the two Anvil Guards would rather give their lives before abandoning this most ancient artefact, and must remain for all the battle on the platform. They are Unbreakable, may not declare charges and will never pursue beaten foes. The Anvil and crew have a Unit Strength of 3.
 
 Enemy units which charge the Anvil model are placed in base contact with the platform. The Runelord and the Guards place themselves between the enemy and the anvil, without leaving the Anvil&apos;s platform. The Anvil and crew count as a unit with a 60mm wide frontage for the purposes of who can fight who (this is the width of the Anvil&apos;s base).
 
@@ -2360,7 +2372,9 @@ Any blows struck by a weapon engraved with this rune will always hit. No roll to
         <selectionEntry id="e809-61ea-88fe-52aa" name="Rune of Fury" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="0f0f-b4f1-86b3-616c" name="Rune of Fury" hidden="false">
-              <description>The wielder of this weapon adds +1 to his Attack characteristic.</description>
+              <description>The Dwarf wielding the weapon must concentrate upon an unavenged grudge, causing him to become enraged at the wrongs his race have endured.
+
+The wielder of this weapon adds +1 to his Attack characteristic.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2484,7 +2498,9 @@ Any blows struck by a weapon engraved with this rune will always hit. No roll to
           </constraints>
           <rules>
             <rule id="b42e-49a5-e99f-2f33" name="Master Rune of Steel" hidden="false">
-              <description>Your opponent must re-roll successful rolls to wound against the character.</description>
+              <description>Once this rune has been forged, it binds metals together making them more resilient. Armour with this rune never rusts through weathering or age.
+
+Your opponent must re-roll successful rolls to wound against the character.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2565,7 +2581,9 @@ Any blows struck by a weapon engraved with this rune will always hit. No roll to
         <selectionEntry id="b495-ea03-80e5-f53a" name="Rune of Fortitude" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="d328-1228-7daf-5c25" name="Rune of Fortitude" hidden="false">
-              <description>This rune gives its bearer +1 Wound.</description>
+              <description>It is rumoured amongst those Dwarfs who have worn this armour that it becomes sentient. Whilst no Runesmith has ever confirmed this rumour, they make no attempts to deny it either.
+
+This rune gives its bearer +1 Wound.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2597,7 +2615,9 @@ Any blows struck by a weapon engraved with this rune will always hit. No roll to
           </constraints>
           <rules>
             <rule id="4d1f-8f83-4f75-9976" name="Rune of Resistance" hidden="false">
-              <description>This rune allows the character to re-roll any failed armour saving throws. As you&apos;re only ever allowed one re-roll multiples of this rune would have no effect.</description>
+              <description>First used on the armour of the Thane of Karak Azgal by Gorgi Storngbeard, this rune is thought to have been lost amongst the ruined stronghold. Fortunately the Runesmith survived to replicate it.
+
+This rune allows the character to re-roll any failed armour saving throws. As you&apos;re only ever allowed one re-roll multiples of this rune would have no effect.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2613,7 +2633,9 @@ Any blows struck by a weapon engraved with this rune will always hit. No roll to
           </constraints>
           <rules>
             <rule id="710c-035e-12fb-077d" name="Rune of Iron" hidden="false">
-              <description>This rune confers a 6+ Ward save. Two of these runes confer a 5+ Ward save, but three cannot be taken, because only the Master Rune of Spite can bind such huge power.</description>
+              <description>When iron is saturated with magic it is known as lodestone. This rune focuses the magnetic properties of lodestone to create magical armour.
+
+This rune confers a 6+ Ward save. Two of these runes confer a 5+ Ward save, but three cannot be taken, because only the Master Rune of Spite can bind such huge power.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -3049,7 +3071,9 @@ Each rune adds one dice to any dispel attempt against enemy spells cast against 
           </constraints>
           <rules>
             <rule id="c218-a76d-3594-c426" name="Rune of Forging" hidden="false">
-              <description>Can only he placed on a cannon. Allows Dwarf player to re-roll Artillery dice when he rolls a Misfire. If you roll a Misfire when rolling Artillery dice either to hit or to bounce, then you can roll again. You are bound by the second roll even if it&apos;s another Misfire. Multiples have no effect.</description>
+              <description>When making a cannon, with each hammer blow an Engineer strikes, a Runesmith must recite a special litany. This can take weeks to complete.
+
+Can only he placed on a cannon. Allows Dwarf player to re-roll Artillery dice when he rolls a Misfire. If you roll a Misfire when rolling Artillery dice either to hit or to bounce, then you can roll again. You are bound by the second roll even if it&apos;s another Misfire. Multiples have no effect.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -3065,7 +3089,9 @@ Each rune adds one dice to any dispel attempt against enemy spells cast against 
           </constraints>
           <rules>
             <rule id="942f-11b4-b470-9d75" name="Rune of Reloading" hidden="false">
-              <description>The war machine can shoot every turn, as long as there is at least one crewman left, even if it has rolled a 2-3 on the Misfire table in the previous turn. Multiples have no effect.</description>
+              <description>After a war machine has proved its reliability, a Runesmith may deem it worthy of this rune.
+
+The war machine can shoot every turn, as long as there is at least one crewman left, even if it has rolled a 2-3 on the Misfire table in the previous turn. Multiples have no effect.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -3308,7 +3334,9 @@ Runesmiths/Runelords only. During the enemy&apos;s Magic phase, this rune allows
           </constraints>
           <rules>
             <rule id="d254-2531-f715-67a6" name="Master Rune of Spellbinding" hidden="false">
-              <description>Runesmiths/Runelords only. +1 to all attempts to dispel.</description>
+              <description>This rune allows a Runesmith to channel away the winds of magic with greater ease, thwarting the magical attacks of their foes.
+
+Runesmiths/Runelords only. +1 to all attempts to dispel.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -3395,7 +3423,9 @@ Runesmiths/Runelords only. During the enemy&apos;s Magic phase, this rune allows
           </modifiers>
           <rules>
             <rule id="0c58-7aa1-a69e-6dcb" name="Spelleater Rune" hidden="false">
-              <description>Runesmiths/Runelords only - one use only. This rune works exactly like a Rune of Spellbreaking. Also, when the enemy spell is cancelled, roll a dice. On the roll of a 4+ the enemy spell is lost and can&apos;t be cast again for the rest of the game.</description>
+              <description>This rune makes Runesmiths and Runelords almost invulnerable to magical attacks
+
+Runesmiths/Runelords only - one use only. This rune works exactly like a Rune of Spellbreaking. Also, when the enemy spell is cancelled, roll a dice. On the roll of a 4+ the enemy spell is lost and can&apos;t be cast again for the rest of the game.</description>
             </rule>
           </rules>
           <categoryLinks>

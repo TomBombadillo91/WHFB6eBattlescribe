@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <costTypes>
     <costType id="fada-3781-5bbe-4625" name=" Hull Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -4500,7 +4500,11 @@ When firing his own missile weapon, an Engineer can always choose a different ta
       </profiles>
       <rules>
         <rule id="5d29-0517-2eaa-a8a3" name="Mortar" hidden="false">
-          <description>To fire a Mortar you need the large template (the 5&quot; diameter one), the Artillery dice, and the Scatter dice. First pivot the Mortar so that it is pointing in the direction you wish to fire. Note that the crew of the Mortar does need to see the target. Now declare how far you want to fire the mortar shell. You must do this without measuring, guessing the range as accurately as you can. You must guess a distance of between 12&quot; and 48&quot;.
+          <description>Mortars are shorter, heavier weapons than cannons, designed to lob an explosive shell high into the air so that it drops down onto the target. A mortar shell is hollow and filled with gunpowder. The crew light the fuse before dropping the mortar shell into the Mortar. While a cannon ball may plough through a line of troops and kill three or four victims, a mortar shell explodes with a tremendous blast, scattering mud and bits of shell over a wide area. A well placed mortar shell can kill a great many victims at once.
+
+Firing the Mortar
+
+To fire a Mortar you need the large template (the 5&quot; diameter one), the Artillery dice, and the Scatter dice. First pivot the Mortar so that it is pointing in the direction you wish to fire. Note that the crew of the Mortar does need to see the target. Now declare how far you want to fire the mortar shell. You must do this without measuring, guessing the range as accurately as you can. You must guess a distance of between 12&quot; and 48&quot;.
 
 After guessing, place the centre of the large template directly over the spot you have guessed to.
 
@@ -5023,7 +5027,9 @@ Note that this power does not affect other characters (they are more difficult t
           </constraints>
           <rules>
             <rule id="1627-8c33-4056-491e" name="Staff of Volans" hidden="false">
-              <description>Only then is the total score and its effects worked out. Including Miscasts and Irresistible Force. This is especially useful because the Staff will make Miscasts and failed Dispels rarer (you need to roll at least three 1s) and will make spells cast with Irresistible Force more common (if you roll a 5 and a 6. you can transform the 5 into a 6).</description>
+              <description>Immediately after rolling the dice to cast a spell or to dispel an enemy spell, the Wizard wielding the Staff of Volans can pick up one of the dice rolled and turn it so that its result is one higher than the number rolled.
+
+Only then is the total score and its effects worked out. Including Miscasts and Irresistible Force. This is especially useful because the Staff will make Miscasts and failed Dispels rarer (you need to roll at least three 1s) and will make spells cast with Irresistible Force more common (if you roll a 5 and a 6. you can transform the 5 into a 6).</description>
             </rule>
           </rules>
           <costs>
@@ -5260,10 +5266,14 @@ Eg: An arrow shot by a bow hits Soft. It will cause D6 + 3 + 0 - 8 points of dam
 A cannon ball shot by a Great Cannon hits Hard and causes D6 + 10 + D6 - 10 points of damage. It can cause from 2 to 12 points of damage on the Tank. Note that Steam Tanks are immune to the effects of poison, so treat poisoned attacks as normal attacks.</description>
             </rule>
             <rule id="a7b0-326d-31a2-32d9" name="Special Attacks against the Steam Tank" hidden="false">
-              <description>For example, let&apos;s consider the Thump with Club attack of a Giant. The attack hits automatically (the Tank failing its Initiative test automatically), but the Giant still has to roll to see if it hits Soft or Hard. Let&apos;s imagine it hits Soft. The Giant&apos;s club will therefore cause: D6 + 6 (his Strength) + 2D6 (the multiple wounds it causes) - 8 points of structural damage against the Tank An &apos;Eadbutt attack (one automatic wound) hitting Hard on the other hand would cause D6 + 6 - 10 points of structural damage. No secondary effects, such as the &apos;Eadbutt&apos;s stunning, apply against the Tank.</description>
+              <description>Attacks that hit automatically must still roll to determine if they hit Soft or Hard. Hits that wound automatically must still roll to damage the Tank as normal using the Strength of the creature delivering the hits.
+
+For example, let&apos;s consider the Thump with Club attack of a Giant. The attack hits automatically (the Tank failing its Initiative test automatically), but the Giant still has to roll to see if it hits Soft or Hard. Let&apos;s imagine it hits Soft. The Giant&apos;s club will therefore cause: D6 + 6 (his Strength) + 2D6 (the multiple wounds it causes) - 8 points of structural damage against the Tank An &apos;Eadbutt attack (one automatic wound) hitting Hard on the other hand would cause D6 + 6 - 10 points of structural damage. No secondary effects, such as the &apos;Eadbutt&apos;s stunning, apply against the Tank.</description>
             </rule>
             <rule id="f273-e3c2-1a3c-ae2a" name="Magic against the Steam Tank" hidden="false">
-              <description>No spells or magic items which attack or otherwise target the Steam Tank, friend&apos;s or enemy&apos;s, have any effect against it, except those that cause hits with a known Strength (all magic missiles and a few others such as the Comet of Casandora). These spells are treated as normal shooting, with the ones hitting from above automatically hitting Soft. Spells that deliver a hit with a known Strength and have a secondary effect as well (such as the Pit of Shades) work partially on the Tank. Apply only the hits caused and disregard the secondary effects.</description>
+              <description>The Steam Tank&apos;s huge metal mass is enough to scramble and block most magical energies. However, less subtle spells, those that deal physical attacks to their target, have a chance of inflicting damage to it.
+
+No spells or magic items which attack or otherwise target the Steam Tank, friend&apos;s or enemy&apos;s, have any effect against it, except those that cause hits with a known Strength (all magic missiles and a few others such as the Comet of Casandora). These spells are treated as normal shooting, with the ones hitting from above automatically hitting Soft. Spells that deliver a hit with a known Strength and have a secondary effect as well (such as the Pit of Shades) work partially on the Tank. Apply only the hits caused and disregard the secondary effects.</description>
             </rule>
             <rule id="1771-18cf-4cea-00fb" name="Close Combat against the Steam Tank" hidden="false">
               <description>In close combat, enemies have the chance to concentrate their attacks on vulnerable parts of the Tank. The Steam Tank is considered to have a Weapon Skill of 1. All enemy models that are in base contact with the Steam Tank, or would be in contact by projecting their bases forward as shown on Diagram 5, can roll to hit against the Tank as normal. Remember to deduct the attacks of the models that have been killed by its impact hits if the Tank has charged in. If the enemies roll a hit, they hit Soft. If they miss, they hit Hard instead. Work out the damage they cause as per shooting hits.
@@ -5342,7 +5352,11 @@ The Steam Tank&apos;s main guns cannot fire grapeshot, but any enemy unit in bas
             <selectionEntry id="6443-e3e1-948c-632c" name="Mortar &amp; Swivel Guns" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
                 <rule id="23fe-fe3d-5785-f7f3" name="Mortar" hidden="false">
-                  <description>To fire a Mortar you need the large template (the 5&quot; diameter one), the Artillery dice, and the Scatter dice. First pivot the Mortar so that it is pointing in the direction you wish to fire. Note that the crew of the Mortar does need to see the target. Now declare how far you want to fire the mortar shell. You must do this without measuring, guessing the range as accurately as you can. You must guess a distance of between 12&quot; and 48&quot;.
+                  <description>Mortars are shorter, heavier weapons than cannons, designed to lob an explosive shell high into the air so that it drops down onto the target. A mortar shell is hollow and filled with gunpowder. The crew light the fuse before dropping the mortar shell into the Mortar. While a cannon ball may plough through a line of troops and kill three or four victims, a mortar shell explodes with a tremendous blast, scattering mud and bits of shell over a wide area. A well placed mortar shell can kill a great many victims at once.
+
+Firing the Mortar
+
+To fire a Mortar you need the large template (the 5&quot; diameter one), the Artillery dice, and the Scatter dice. First pivot the Mortar so that it is pointing in the direction you wish to fire. Note that the crew of the Mortar does need to see the target. Now declare how far you want to fire the mortar shell. You must do this without measuring, guessing the range as accurately as you can. You must guess a distance of between 12&quot; and 48&quot;.
 
 After guessing, place the centre of the large template directly over the spot you have guessed to.
 
@@ -5530,7 +5544,9 @@ Note that the effects of combat resolution, panic and so on are worked out after
           </constraints>
           <rules>
             <rule id="7690-4e82-0cf2-f9ba" name="Armour of the Heldenhammer" hidden="false">
-              <description>The Armour of the Heldenhammer provides a 2 + Armour saving throw, and Magic Resistance (2). No model in base contact may cast spells (including friendly models) or use Bound Items.</description>
+              <description>Forged over two and a half thousand years ago for the Warrior-King Sigmar, this ancient gromril armour was never claimed by the founder of the Empire. Its many runes provide protection against attack and malign magic.
+
+The Armour of the Heldenhammer provides a 2 + Armour saving throw, and Magic Resistance (2). No model in base contact may cast spells (including friendly models) or use Bound Items.</description>
             </rule>
           </rules>
           <costs>
@@ -5612,7 +5628,9 @@ Note: During the events known as the Storm of Chaos, Ghal Maraz is wielded by th
       </profiles>
       <rules>
         <rule id="c01e-e30d-6f67-8f51" name="Leader of Men" hidden="false">
-          <description>All friendly units within 18&quot; of the Emperor can always use his Leadership instead of their own (this replaces his normal General ability of passing on his Leadership within 12&quot;). In addition, all units using Karl Franz&apos;s Leadership can re-roll failed Psychology tests (remember that Break tests are not Psychology tests).</description>
+          <description>The presence and unflinching courage of the Emperor greatly raise the morale of his soldiers, inspiring the humblest of fighters to mighty acts of heroism. The Emperor is Immune to Panic.
+
+All friendly units within 18&quot; of the Emperor can always use his Leadership instead of their own (this replaces his normal General ability of passing on his Leadership within 12&quot;). In addition, all units using Karl Franz&apos;s Leadership can re-roll failed Psychology tests (remember that Break tests are not Psychology tests).</description>
         </rule>
         <rule id="d01a-d5b6-aaef-1f5a" name="The Reiksguard" hidden="false">
           <description>Karl Franz is protected by the knights of the Reiksguard and he commands the entire order. To represent this, up to half the Knightly Orders units in Karl Franz&apos;s army may be upgraded to Inner Circle, and Greatswords may be taken as a Core choice to represent Reiksguard Knights on foot.</description>
@@ -5671,7 +5689,9 @@ Note: During the events known as the Storm of Chaos, Ghal Maraz is wielded by th
           </constraints>
           <rules>
             <rule id="a241-fa42-737c-35a6" name="Silver Seal" hidden="false">
-              <description>Gives a 4+ Ward save and Magic Resistance (3) to the Emperor and his mount. In addition, enemies suffer a -1 penalty on their rolls to hit the Emperor and his mount, with both close combat and shooting attacks.</description>
+              <description>The Silver Seal wards away harmful blows, and even countermands magic spells cast against the Emperor. The Warrior Mage Fredrik von Tarnus made the artefact for Magnus the Pious, after the Great War against Chaos.
+
+Gives a 4+ Ward save and Magic Resistance (3) to the Emperor and his mount. In addition, enemies suffer a -1 penalty on their rolls to hit the Emperor and his mount, with both close combat and shooting attacks.</description>
             </rule>
           </rules>
           <costs>
@@ -6200,7 +6220,9 @@ The Sigil of Sigmar adds one extra dice to all Dispel rolls against enemy spells
               </constraints>
               <rules>
                 <rule id="ce19-7afc-7b96-f24c" name="Armour of Meteoric Iron" hidden="false">
-                  <description>This suit of armour gives the bearer a 1+ armour save which cannot be improved by any means.</description>
+                  <description>This suit of armour, forged by the RuneSmiths of Zhufbar long ago, is today held in the Imperial armoury at Altdorf.
+
+This suit of armour gives the bearer a 1+ armour save which cannot be improved by any means.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -6217,7 +6239,9 @@ The Sigil of Sigmar adds one extra dice to all Dispel rolls against enemy spells
               </constraints>
               <rules>
                 <rule id="3a9b-f564-7d3b-12a8" name="Armour of Tarnus" hidden="false">
-                  <description>Counts as light armour (armour save 6+) which can be combined with other equipment normally. If the wearer fails his armour save, he may make a 5+ Ward save. Wizards can wear this armour and cast spells.</description>
+                  <description>This armour was worn by the warrior-wizard Frederick von Tarnus.
+
+Counts as light armour (armour save 6+) which can be combined with other equipment normally. If the wearer fails his armour save, he may make a 5+ Ward save. Wizards can wear this armour and cast spells.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -6241,7 +6265,9 @@ The Sigil of Sigmar adds one extra dice to all Dispel rolls against enemy spells
               </constraints>
               <rules>
                 <rule id="933f-2490-8751-ff07" name="The Gilded Armour" hidden="false">
-                  <description>Counts as heavy armour (armour save 5+) which can he combined with other equipment normally. Models attacking the wearer in close combat must pass a Strength test before rolling to hit for every Attack directed at the target (ie. roll equal to or less than its Strength on a D6, a 6 always fails). If the test is failed the Attack is lost.</description>
+                  <description>This golden suit of armour was a gift from the Elves of Ulthuan to Magnus the Pious after the Great War against Chaos. Any weapon brought to bear against the wearer is repelled by an invisible force.
+
+Counts as heavy armour (armour save 5+) which can he combined with other equipment normally. Models attacking the wearer in close combat must pass a Strength test before rolling to hit for every Attack directed at the target (ie. roll equal to or less than its Strength on a D6, a 6 always fails). If the test is failed the Attack is lost.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -6286,7 +6312,9 @@ The Sigil of Sigmar adds one extra dice to all Dispel rolls against enemy spells
               </constraints>
               <rules>
                 <rule id="daba-2936-bbf1-3d59" name="Dawn Armour" hidden="false">
-                  <description>Counts as full plate armour (armour save 4+) which can be combined with other equipment normally. In addition the model can re-roll any failed armour save.</description>
+                  <description>An armour of burnished Estalian steel, enchanted by Gold Wizards so that any damage suffered by it disappears.
+
+Counts as full plate armour (armour save 4+) which can be combined with other equipment normally. In addition the model can re-roll any failed armour save.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -6354,7 +6382,9 @@ The Sigil of Sigmar adds one extra dice to all Dispel rolls against enemy spells
               </constraints>
               <rules>
                 <rule id="c67f-21bb-957f-9275" name="Shield of the Gorgon" hidden="false">
-                  <description>This shield confers a 6+ armour save which can he combined with other equipment normally. The wearer can force one model in base contact to lose one Attack. In the case of models with different Attacks (eg. mounted models) the wearer chooses which Attack is lost. Special Attacks (like those of a Giant, impact hits and anything not included in the Attacks value on a model&apos;s profile) are not affected.</description>
+                  <description>The hideous head of the mythical creature known as the Gorgon is depicted on this shield in such detail that it seems alive. Even the fiercest enemies try to avoid its gaze which is rumoured to turn living creatures to stone.
+
+This shield confers a 6+ armour save which can he combined with other equipment normally. The wearer can force one model in base contact to lose one Attack. In the case of models with different Attacks (eg. mounted models) the wearer chooses which Attack is lost. Special Attacks (like those of a Giant, impact hits and anything not included in the Attacks value on a model&apos;s profile) are not affected.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -6482,7 +6512,9 @@ The Sigil of Sigmar adds one extra dice to all Dispel rolls against enemy spells
               </constraints>
               <rules>
                 <rule id="6abe-6ff1-d6a0-3e55" name="Seal of Destruction" hidden="false">
-                  <description>One use only. The seal has the same effect as a Dispel scroll. In addition, roll a D6. On a result of 4+ the spell is removed from the caster&apos;s mind and he can no longer cast it. Spells cast from a Bound item will only be removed on the result of a 6.</description>
+                  <description>Once activated this seal can drain the knowledge of one spell from the mind of an enemy Wizard.
+
+One use only. The seal has the same effect as a Dispel scroll. In addition, roll a D6. On a result of 4+ the spell is removed from the caster&apos;s mind and he can no longer cast it. Spells cast from a Bound item will only be removed on the result of a 6.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -6590,7 +6622,9 @@ The Sigil of Sigmar adds one extra dice to all Dispel rolls against enemy spells
           </constraints>
           <rules>
             <rule id="a4ed-a54c-d8b8-4043" name="Rod of Command" hidden="false">
-              <description>One use only. The character and the unit he is with will automatically pass the first Break test they have to take, regardless of modifiers and even if they would normally automatically fail their test (for example, losing a round of combat against an opponent that outnumbers them and causes fear). If the player forgets to use it, even if he rolls and passes the test, the item is still used up. Note that this item cannot he used by a character in the turn he refused a challenge and who is hiding at the back of the unit (who would pay heed to such a coward!).</description>
+              <description>When the battle seems lost, the bearer can summon the powers of the Rod to turn a rout into steadfast resistance.
+
+One use only. The character and the unit he is with will automatically pass the first Break test they have to take, regardless of modifiers and even if they would normally automatically fail their test (for example, losing a round of combat against an opponent that outnumbers them and causes fear). If the player forgets to use it, even if he rolls and passes the test, the item is still used up. Note that this item cannot he used by a character in the turn he refused a challenge and who is hiding at the back of the unit (who would pay heed to such a coward!).</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -6607,7 +6641,9 @@ The Sigil of Sigmar adds one extra dice to all Dispel rolls against enemy spells
           </constraints>
           <rules>
             <rule id="f222-ed44-17dd-5a31" name="The Silver Horn" hidden="false">
-              <description>Bound Spell. Power Level 5. The Silver Horn may cast its spell once per Empire Magic phase. The spell requires no Power dice to cast, all the power required is provided by the Horn itself.
+              <description>This elegant hunting horn contains a potent spell. Friends who hear its note are filled with courage.
+
+Bound Spell. Power Level 5. The Silver Horn may cast its spell once per Empire Magic phase. The spell requires no Power dice to cast, all the power required is provided by the Horn itself.
 
 All friendly units that are fleeing anywhere on the battlefield will rally immediately.</description>
             </rule>
@@ -6626,7 +6662,9 @@ All friendly units that are fleeing anywhere on the battlefield will rally immed
           </constraints>
           <rules>
             <rule id="2158-cb0f-ab64-f5fa" name="The Orb Of Thunder" hidden="false">
-              <description>Bound Spell. Power Level 4. The Orb of Thunder spell may be cast once per Empire Magic phase. The spell requires no Power dice to cast, all the power required is provided by the Orb itself and the spell will last until dispelled.
+              <description>The Orb of Thunder contains a powerful spell that wreaks turmoil in the air.
+
+Bound Spell. Power Level 4. The Orb of Thunder spell may be cast once per Empire Magic phase. The spell requires no Power dice to cast, all the power required is provided by the Orb itself and the spell will last until dispelled.
 
 When the Orb of Thunder spell is in play, no flying creatures on the battlefield can use their ability to fly and will have to move on the ground at their normal Movement rate.</description>
             </rule>
@@ -6698,7 +6736,9 @@ The bearer can cast the captured spell in his own Magic phase by releasing it fr
           </constraints>
           <rules>
             <rule id="4996-1b7f-c1c7-9cac" name="Doomfire Ring" hidden="false">
-              <description>Bound Spell. Power Level 3. The Doomfire Ring may cast its Bound spell once per Magic phase like an ordinary spell. The spell requires no Power dice to cast, all the power required is provided by the Ring itself.
+              <description>The Doomfire Ring, node of iron and rubies, contains a spell that allows its master to cast fire upon his enemies.
+
+Bound Spell.  Power Level 3. The Doomfire Ring may cast its Bound spell once per Magic phase like an ordinary spell. The spell requires no Power dice to cast, all the power required is provided by the Ring itself.
 
 A flaming magic missile spurts from the Ring in a straight line up to 18” long striking the first unit in its path. The unit takes 1D6 Strength 3 hits.</description>
             </rule>
@@ -6796,7 +6836,9 @@ A flaming magic missile spurts from the Ring in a straight line up to 18” long
           </constraints>
           <rules>
             <rule id="5d3c-e14e-40dd-7000" name="Banner of Ulric" hidden="false">
-              <description>If a unit wishes to charge Knights carrying this banner, it must take a Leadership test. If the test is failed, it may not charge or shoot and must remain stationary in that Movement phase. A unit normally not affected by fear is immune to the effects of this banner as well.</description>
+              <description>Knights of the White Wolf only. If a unit is charged by a unit of Knights carrying this banner, then it must take a Leadership test as soon as the Knights are determined to be within charge range. If the test is passed. the unit can fight on as normal. If the unit falls its test, it must roll 6s to score hits in the first turn of close combat.
+
+If a unit wishes to charge Knights carrying this banner, it must take a Leadership test. If the test is failed, it may not charge or shoot and must remain stationary in that Movement phase. A unit normally not affected by fear is immune to the effects of this banner as well.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -6813,7 +6855,9 @@ A flaming magic missile spurts from the Ring in a straight line up to 18” long
           </constraints>
           <rules>
             <rule id="96b7-67c0-54ad-15fb" name="Griffon Standard" hidden="false">
-              <description>A unit carrying the Griffon Standard counts double its normal rank bonus when it comes to working out combat results. If in a single rank, it has no advantage. However, if the unit is in two ranks it receives +2, in three ranks +4. and in four ranks (the maximum bonus) +6.
+              <description>The men of Reikland have carried this standard in many a battle. It rests in the Great Cathedral of Sigmar and is brought forth in times of war. A unit flying the Griffon Standard will resolutely stand its ground few foes can break them, no matter how many fall.
+
+A unit carrying the Griffon Standard counts double its normal rank bonus when it comes to working out combat results. If in a single rank, it has no advantage. However, if the unit is in two ranks it receives +2, in three ranks +4. and in four ranks (the maximum bonus) +6.
 
 The unit carrying the Griffon Standard will never pursue a fleeing enemy but will always hold its ground instead.</description>
             </rule>
