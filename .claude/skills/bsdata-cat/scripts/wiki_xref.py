@@ -582,7 +582,11 @@ def main():
     wiki.check_normalise()
 
     if args.text:
-        body, flavour = wiki_rules_text(wiki.text(args.text))
+        # Git Bash rewrites a leading-slash argument into a Windows path, so
+        # accept "magic-items/lahmia" as well as "/magic-items/lahmia".
+        wpath = args.text.replace("\\", "/")
+        wpath = "/" + wpath.rsplit(":/", 1)[-1].lstrip("/")
+        body, flavour = wiki_rules_text(wiki.text(wpath))
         if flavour:
             sys.stderr.write("dropped {} flavour para\n".format(len(flavour)))
         print(xml_escape(body))
