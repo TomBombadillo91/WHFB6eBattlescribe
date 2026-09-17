@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="e0a8-8253-1a27-7620" name="Engineering Rune" hidden="false">
       <rules>
         <rule id="6347-45b4-b61f-1746" name="Engineering Rune" hidden="false">
-          <description>Shots from a War Machine inscribed with Engineering Runes counts as a Magical attack.</description>
+          <description>Dwarf Cannons, Stone Throwers and Bolt Throwers may be inscribed with up to three of the Engineering Runes described below. The newfangled (to the Dwarfs) Organ Gun, Flame Cannon and Gyrocopter may not have Engineering runes. Note that a shot from a war machine inscribed with Engineering runes counts as a magical attack.
+
+Engineering Runes Type</description>
         </rule>
       </rules>
     </categoryEntry>
@@ -518,16 +520,10 @@
       </profiles>
       <rules>
         <rule id="6bdc-4749-a633-49c0" name="Extra Crewman" hidden="false">
-          <description>An Engineer can also replace a last crew member of a machine he joins (including Flame Cannons and Organ Guns), but if he is operating the machine, the Engineer cannot fire his own missile weapon.
-
-If a machine with an Engineer attached to it misfires and explodes, the Engineer will be killed with the rest of the crew if he replaced a crewman or used his Artillery Master ability during that turn.</description>
+          <description>If a machine with an Engineer attached to it misfires and explodes, the Engineer will be killed with the rest of the crew if he replaced a crewman or used his Artillery Master ability during that turn.</description>
         </rule>
         <rule id="dfca-595e-42a1-318a" name="Artillery Master" hidden="false">
-          <description>A Cannon or a Stone Thrower (but not a Flame Cannon) which has been joined by an Engineer may make two guesses when declaring the range they are firing at (one for the crew, one for the Engineer). Measure the two points you have guessed and then decide which one you want to use for that shot before rolling any dice.
-
-A Bolt Thrower which has been joined by an Engineer may use his BS when rolling to hit.
-
-Note that if the Engineer uses his ability during the firing of the war machine, he will not be able to shoot with his own missile weapon in the same Shooting phase (he is too busy grumbling about the crew&apos;s poor aim). Remember that you must fire all the weapons requiring you to guess the range before any normal shooting. In addition, you must remember to fire a Bolt Thrower which an Engineer has joined before he opens fire with his own weapon. If you fired the Engineer&apos;s own weapon then you cannot use his re-roll ability in the same turn.
+          <description>Note that if the Engineer uses his ability during the firing of the war machine, he will not be able to shoot with his own missile weapon in the same Shooting phase (he is too busy grumbling about the crew&apos;s poor aim). Remember that you must fire all the weapons requiring you to guess the range before any normal shooting. In addition, you must remember to fire a Bolt Thrower which an Engineer has joined before he opens fire with his own weapon. If you fired the Engineer&apos;s own weapon then you cannot use his re-roll ability in the same turn.
 
 When firing his own missile weapon, an Engineer can always choose a different target from the one fired upon by the machine he has joined.</description>
         </rule>
@@ -1009,11 +1005,9 @@ When firing his own missile weapon, an Engineer can always choose a different ta
       </constraints>
       <rules>
         <rule id="5b32-5a9c-6609-fb61" name="Underground Advance" hidden="false">
-          <description>Miners do not have to be deployed on the table at the beginning of the battle.
+          <description>Instead, starting from turn two, at the beginning of every Dwarf turn roll a dice: on a 4+ the Miners will arrive. For every successive turn after the second, add a further +1 to the roll, so they arrive on a 3+ in turn three, and so on (but an unmodified roll of 1 is always a failure).
 
-Instead, starting from turn two, at the beginning of every Dwarf turn roll a dice: on a 4+ the Miners will arrive. For every successive turn after the second, add a further +1 to the roll, so they arrive on a 3+ in turn three, and so on (but an unmodified roll of 1 is always a failure).
-
-In the Movement phase of the turn when they arrive, Miners can enter the battlefield from any table edge and will be treated exactly like a unit that has pursued an enemy off the table in the previous turn. If the Miners fail to tum up for the entire game, they have obviously got lost in the tunnels, but their points value are not awarded to the opponent.</description>
+In the Movement phase of the turn when they arrive, Miners can enter the battlefield from any table edge and will be treated exactly like a unit that has pursued an enemy off the table in the previous turn. If the Miners fail to turn up for the entire game, they have obviously got lost in the tunnels, but their points value are not awarded to the opponent.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -1363,7 +1357,7 @@ In the Movement phase of the turn when they arrive, Miners can enter the battlef
     <selectionEntry id="3b90-87d2-6c42-d7c8" name="Longbeards" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="b8a7-0024-a9ea-4af1" name="Immune to Panic" hidden="false">
-          <description>Longbeards are Immune to Panic and automatically pass any Panic tests they have to take.</description>
+          <description>Units with this special rule are Immune to Panic and automatically pass any Panic tests they have to take.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -1867,14 +1861,14 @@ In the Movement phase of the turn when they arrive, Miners can enter the battlef
       </profiles>
       <rules>
         <rule id="d19a-798c-a9eb-0b72" name="Flame Cannon" hidden="false">
-          <description>Firing the Flame Cannon
-Flame Cannons shoot in a similar way to cannons, but instead of firing a cannon ball they shoot a gout of flame - use the Flame template to represent this.
+          <description>Flame Cannons shoot in a similar way to cannons, but instead of firing a cannon ball they shoot a gout of flame - use the Flame template to represent this.
 
 To fire the cannon, first turn it on the spot so that it points at your intended target. Now declare how far you wish to shoot, up to a maximum of 12&quot;, eg, 12&quot;, 10&quot;, 8&quot;, etc. This represents the gunners elevating the barrel to get the required trajectory. The jet of inflammable liquid will travel the distance you have nominated plus the score of an Artillery dice (marked 2, 4, 6, 8, 10 and Misfire).
 
 Roll the Artillery dice and add the score to the distance you have nominated. The jet travels the total distance and will land short, hit the target, or pass over it depending on how accurately you have guessed the range and what effect the dice roll has.
 
 Damage
+
 When you have established where the jet of flaming liquid hits the ground, place a marker on that spot. The jet sprays out from this point and scorches a line through any targets in its way. To determine the swathe cut by the burning liquid place the Flame template with the narrow end on the point where the jet hit the ground and the wide end pointing directly away from the cannon so that the flame continues in a straight line. Any models completely under the template are automatically hit and models partially covered are hit on the roll of a 4+. Any model struck by the flame take a Strength 5 hit and any model wounded by the flame takes D3 wounds. Saving throws apply as normal (ie, -2 armour save).
 
 A unit which suffers casualties from the Flame Cannon must take an immediate Panic test to represent the horrific effects of this weapon.
@@ -1882,15 +1876,23 @@ A unit which suffers casualties from the Flame Cannon must take an immediate Pan
 If you roll a Misfire on the Artillery dice then the Flame Cannon has malfunctioned. Roll a D6 and check the Flame Cannon Misfire chart to see what happens.
 
 Profiles
+
+Flame Cannon Chart
+
 Max. Range	Strength	Wounds	Armour Save
 12&quot;	5	D3	-2
+
 You can move the Flame Cannon at the same rate as it crew, assuming they are all alive. If any crew are slain, the Move rate is reduced proportionately. The Flame Cannon may be turned on the spot to face its target, but cannot otherwise move and fire in the same turn.
+
+War Machine Profile Chart
 
 Movement	Toughness	Wounds
 As crew	7	3
+
 The Flame Cannon is a large and well constructed device, but by its very nature is vulnerable: all the hot tar, oil, high pressure and flame is a recipe for disaster. The Flame Cannon itself is reasonably sturdy, but if it suffers damage it becomes unreliable and dangerous. For each wound suffered by the Flame Cannon, deduct -1 on the Misfire chart for all Misfire rolls. This means that a Flame Cannon with two wounds left would deduct -1 from a roll on the Misfire chart, and any roll of a 1-3 would therefore destroy it. Suffering wounds does not increase the likelihood of a misfire, but it does make misfires more dangerous when they happen.
 
 Loss of Crew
+
 The Flame Cannon requires a full crew of three Dwarfs to work it properly: to pump up the pressure, aim the gun, fire the nozzle, etc. If one crewman is slain the remaining pair can just about cope without slowing down the rate of work. No penalty is therefore imposed for the loss of one crewman. If two crewmen are slain, the remaining crewman won&apos;t be able to prepare the weapon properly, ie, the Flame Cannon can only be fired every other turn. Should all the crew be slain, the Flame Cannon is useless.</description>
         </rule>
         <rule id="c624-c8f8-808e-b12f" name="Flame Cannon Misfire" hidden="false">
@@ -1960,16 +1962,15 @@ To represent the explosion, place a large Blast template (5&quot; diameter) wher
           <description>Close combat is conducted as normal with a few exceptions. If a Gyrocopter is broken in close combat then it will automatically crash. Otherwise the Gyrocopter functions normally until it has sustained three wounds, at which point it can no longer fly and crashes. If a Gyrocopter is wounded by an Attack which is Strength 7 or more, it will crash automatically.</description>
         </rule>
         <rule id="db8e-c3ef-1efd-786b" name="Flying Machine" hidden="false">
-          <description>The Gyrocopter can, of course, fly.
-
-Gyrocopters always end their move hovering at very low altitude, and may be charged by enemy troops in the same way as flying creatures. If the Gyrocopter can&apos;t fly for any reason, it can&apos;t move. If a Gyrocopter has to flee when it cannot fly, it will be removed and counts as destroyed (but won&apos;t crash). Note that the Gyrocopter does nor suffer the -1 penalty to its pursuit and flee moves and so will travel the full 3D6 inches.</description>
+          <description>Gyrocopters always end their move hovering at very low altitude, and may be charged by enemy troops in the same way as flying creatures. If the Gyrocopter can&apos;t fly for any reason, it can&apos;t move. If a Gyrocopter has to flee when it cannot fly, it will be removed and counts as destroyed (but won&apos;t crash). Note that the Gyrocopter does nor suffer the -1 penalty to its pursuit and flee moves and so will travel the full 3D6 inches.</description>
         </rule>
         <rule id="e288-c9fc-67be-5dbf" name="Steam Gun" hidden="false">
           <description>The Gyrocopter is armed with a steam-powered gun that unleashes a hail of lead bullets similar to a cannon&apos;s grapeshot. To represent the blast of the steam gun, use the Flame template. Place the template with the broad end over the target and the narrow end touching the muzzle of the gun. Any models completely under the template are automatically hit and models partially covered are hit on the roll of a 4+.
 
+Steam Gun Chart
+
 Range	Strength	Armour Save
-Steam Gun	Flame Template	3	-1
-</description>
+Steam Gun	Flame Template	3	-1</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -2010,21 +2011,26 @@ Steam Gun	Flame Template	3	-1
       </profiles>
       <rules>
         <rule id="bd8e-0139-6203-3ac0" name="Organ Gun" hidden="false">
-          <description>Firing the Dwarf Organ Gun
-In the Shooting phase, turn the Organ Gun so that it face its target. Roll the Artillery dice and then measure the range. If the target unit is within range it will suffer a number of hits equal to the number rolled on the Artillery dice. Hits are resolved using the profile below.
-
-If you roll a Misfire, the cannon has misfired and may explode. Roll a D6 and consult the Organ Gun Misfire chart to see what happens.
+          <description>If you roll a Misfire, the cannon has misfired and may explode. Roll a D6 and consult the Organ Gun Misfire chart to see what happens.
 
 Profiles
+
 The Organ Gun ha more barrels than an ordinary cannon but these are smaller and lighter. Its range and the damage it inflicts are considerably different from a cannon&apos;s.
+
+Organ Gun Chart
 
 Range	Strength	Armour Save
 18&quot;	5	-3
+
 Organ Guns are stoutly made from iron and solid wood and can sustain considerable damage as shown on their profile below. An Organ Gun can be moved by its Dwarf crew at 3&quot; per turn. If any crew are slain, the Move rate is reduced proportionally. The Organ Gun cannot move and shoot in the same turn, other than to pivot on the spot to face its target.
+
+War Machine Profile Chart
 
 Movement	Toughness	Wounds
 As crew	7	3
+
 Loss of Crew
+
 The Organ Gun requires a full crew of three Dwarfs to work it properly. If one crewman is slain the other two can just about get by and the gun may fire as normal. If two crewmen are slain, the remaining crewman won&apos;t be able to operate the weapon properly - the gun can only be fired every other turn Should all the crew be slain, the gun is useless.</description>
         </rule>
         <rule id="2617-d71c-5e28-c6b4" name="Organ Gun Misfire" hidden="false">
@@ -2060,13 +2066,13 @@ The Organ Gun requires a full crew of three Dwarfs to work it properly. If one c
 No more than one item may carry the same combination of magic runes. You could not have a rune-hammer and a rune-axe both engraved with a Rune of Speed and a Rune of Fire, for example. This restriction also applies to the use of single runes, so you could not have two characters in your army wearing armour engraved with a single Rune of Resistance. Creating rune items takes a great deal of effort and Runesmiths don&apos;t like repeating themselves. Nor do they copy other Runesmiths&apos; work, except during their apprenticeship. This is known among Runesmiths as the Rule of Pride.</description>
     </rule>
     <rule id="0440-4012-380d-eda9" name="Ancestral Grudge" hidden="false">
-      <description>All Dwarfs Hate all types of Greenskins (Orcs, Goblins, Snotlings, Night Goblins, Black Orcs, Hobgoblins, etc.)</description>
+      <description>Dwarfs hate all types of Orcs, Goblins and Snotlings, including Night Goblins, Black Orcs, Hobgoblins... In fact all greenskins of any description!</description>
     </rule>
     <rule id="6159-f693-9239-0f8d" name="Resolute" hidden="false">
-      <description>Dwarf units flee and pursue 2D6-1&quot; instead of the normal 2D6&quot;</description>
+      <description>Dwarfs (including Chaos Dwarfs) flee and pursue 2D6-1&quot; Instead of the normal 2D6&quot;.</description>
     </rule>
     <rule id="4f63-f575-8d2e-72ee" name="Relentless" hidden="false">
-      <description>All Dwarf units may march even if there is an enemy within 8&quot;.</description>
+      <description>Dwarf units may march even if there are enemy within 8&quot;.</description>
     </rule>
   </rules>
   <sharedSelectionEntries>
@@ -2092,35 +2098,20 @@ No more than one item may carry the same combination of magic runes. You could n
       </profiles>
       <rules>
         <rule id="9e16-d9de-996e-1f44" name="Anvil of Doom" hidden="false">
-          <description>A Dwarf army may have one and only one Anvil of Doom. In gaming terms, the Anvil is treated a a piece of terrain; it cannot be moved or attacked at all (no more than you can move or attack a hill!).
-
-The Runelord and the two Anvil Guards would rather give their lives before abandoning this most ancient artefact, and must remain for all the battle on the platform. They are Unbreakable, may not declare charges and will never pursue beaten foes. The Anvil and crew have a Unit Strength of 3.
+          <description>The Runelord and the two Anvil Guards would rather give their lives before abandoning this most ancient artefact, and must remain for all the battle on the platform. They are Unbreakable, may not declare charges and will never pursue beaten foes. The Anvil and crew have a Unit Strength of 3.
 
 Enemy units which charge the Anvil model are placed in base contact with the platform. The Runelord and the Guards place themselves between the enemy and the anvil, without leaving the Anvil&apos;s platform. The Anvil and crew count as a unit with a 60mm wide frontage for the purposes of who can fight who (this is the width of the Anvil&apos;s base).
 
 When shooting at the Anvil of Doom, randomise hits evenly between the Dwarfs and the Anvil (discounting any hits against the Anvil itself). To take into account the protection offered by the Anvil, the Runelord gains a 4+ Ward save against any form of missile (including magic missiles).
 
 The Anvil and the Dwarf Magic Phase
+
 During his own Magic phase the Dwarf player receives D6+2 Power dice. During the enemy&apos;s Magic phase everything is as normal, though the Anvil adds an extra dice to the Dwarfs&apos; Dispel pool.
 
 The Runelord uses the powers of the Anvil of Doom by striking the appropriate elemental rune upon it. In gaming terms, the Runelord may cast each of the four runic powers one per Magic phase using the Power dice provided by the Anvil. He may use a maximum of four dice to power a runic spell. If the Runelord is fighting in close combat, he will not be able to cast runic spells. If the spell is miscast, the Runelord does not have to roll on the Miscast table, but the Dwarf Magic phase ends immediately and all remaining dice are discarded.</description>
         </rule>
         <rule id="3bf0-ff66-4c13-09e0" name="Runic Powers" hidden="false">
-          <description>Rune of Water (Bound Spell)
-Cast on 6+
-When struck properly, the Anvil&apos;s magic pulses out into the ground, drawing water from underground Lakes and rivers and causing it to swell up onto the battlefield to create a mire. This power can be cast on any enemy unit on the tabletop. The unit&apos;s Movement is halved until the end of its own following tum. If forced to flee, for whatever reason, the unit flees at half speed (determine the flee distance of the unit as normal and then halve the score, rounding up). This spell has no effect on flyers or ethereal creatures.
-
-Rune of Air (Bound Spell)
-Cast on 7+
-If successfully struck, this rune causes a dark cloud to gather over the battlefield and a storm of lightning cascade down upon an enemy unit. This spell can be cast on any enemy unit on the tabletop, causing D6 Strength 4 hits. These hits are distributed exactly like hits from shooting.
-
-Rune of Fire (Bound Spell)
-Cast on 8+
-Each blow of the Runelord&apos;s hammer causes a fiery ball to explode into his foes. This rune releases a magic missile with a range of 30&quot;. If successfully cast, the fireball causes 2D6 Strength 4 hits.
-
-Rune of Earth (Bound Spell)
-Cast on 9+
-The clang of hammer on rune reverberates across the battlefield, causing the ground to tremble before exploding under the enemy in a hail of rocky shards. This spell can be cast on any enemy unit within line of sight. The Anvil causes D6 Strength 5 hits on any one enemy unit on the tabletop, plus a further D6 Strength 5 hits if the unit is partially or wholly within a rocky feature (all hills, rocky outcrops, ruins, or any similar area which has been identified as high ground, rocky or ruinous before the game).</description>
+          <description>Runic Powers Lore</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2246,7 +2237,7 @@ The clang of hammer on rune reverberates across the battlefield, causing the gro
           </constraints>
           <rules>
             <rule id="cb5a-6204-8b30-e645" name="Master Rune of Alaric the Mad" hidden="false">
-              <description>This rune cancels an opponent&apos;s Armour saving throw. When wounded by this weapon. the target is not allowed an armour saving throw of any kind.</description>
+              <description>This rune cancels an opponent&apos;s Armoursaving throw. When wounded by this weapon. the target is not allowed an armour saving throw of any kind.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2278,7 +2269,9 @@ The clang of hammer on rune reverberates across the battlefield, causing the gro
           </constraints>
           <rules>
             <rule id="41f4-13b0-5603-42e0" name="Master Rune of Breaking" hidden="false">
-              <description>If the Dwarf character scores a hit against an enemy with a magic weapon, the enemy&apos;s magic weapon is destroyed immediately.</description>
+              <description>First used during the War of Vengeance, this rune was inscribed upon King Gorrin&apos;s axe, which destroyed the High Elf General Elthior&apos;s enchanted blade. It has become a popularly used rune ever since.
+
+If the Dwarf character scores a hit against an enemy with a magic weapon, the enemy&apos;s magic weapon is destroyed immediately.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2320,7 +2313,9 @@ The clang of hammer on rune reverberates across the battlefield, causing the gro
           </constraints>
           <rules>
             <rule id="465d-7d3d-acb9-b64e" name="Master Rune of Snorri Spangelhelm" hidden="false">
-              <description>Any blows struck by a weapon engraved with this rune will always hit. No roll to hit is necessary.</description>
+              <description>Runesmith to the High King in Karaz-a-Karak during the time of Kallon. Snorri wrought the exquisite war panoply of the High Kings for several generations. He fought in many battles and was renowned for his magnificent gromril armour as well as this unique weapon rune.
+
+Any blows struck by a weapon engraved with this rune will always hit. No roll to hit is necessary.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2801,7 +2796,9 @@ The clang of hammer on rune reverberates across the battlefield, causing the gro
           </constraints>
           <rules>
             <rule id="f554-fa34-9aa2-9e34" name="Master Rune of Fear" hidden="false">
-              <description>The unit causes Fear exactly as described in the psychology rules. A unit which causes fear is not affected by fear itself.</description>
+              <description>The clan that takes this banner to battle give the illusion that they tower over the enemy. Dwarfs are a strong enough opponent in their own right but a unit of giant Dwarfs is enough to scare even the strongest enemy.
+
+The unit causes Fear exactly as described in the psychology rules. A unit which causes fear is not affected by fear itself.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2895,7 +2892,9 @@ The clang of hammer on rune reverberates across the battlefield, causing the gro
         <selectionEntry id="bdc7-c948-b5bd-d58a" name="Rune of Sanctuary" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="304c-2d1f-a2a6-e295" name="Rune of Sanctuary" hidden="false">
-              <description>Each rune adds one dice to any dispel attempt against enemy spells cast against the unit.</description>
+              <description>This rune creates an area of anti-magic, using the defiance of the Dwarfs to deflect mystical attacks.
+
+Each rune adds one dice to any dispel attempt against enemy spells cast against the unit.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -3121,7 +3120,9 @@ The clang of hammer on rune reverberates across the battlefield, causing the gro
           </constraints>
           <rules>
             <rule id="cfbf-1eb5-46ad-d176" name="Valiant Rune" hidden="false">
-              <description>As long as their war machine is not destroyed, the war machine crew are Unbreakable.</description>
+              <description>Dwarf crews are famed for always defending their machines to the bitter end when attacked.
+
+As long as their war machine is not destroyed, the war machine crew are Unbreakable.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3264,7 +3265,9 @@ The clang of hammer on rune reverberates across the battlefield, causing the gro
           </constraints>
           <rules>
             <rule id="2169-4774-61fc-e23b" name="Master Rune of Balance" hidden="false">
-              <description>Runesmiths/Runelords only. During the enemy&apos;s Magic phase, this rune allows the Dwarf player to remove one dice from the opponent&apos;s pile of Power dice and add it to his own Dispel dice pile.</description>
+              <description>Forged in the embers of a captured spell book, this rune hungers after magical&apos; power, stealing it from the enemy.
+
+Runesmiths/Runelords only. During the enemy&apos;s Magic phase, this rune allows the Dwarf player to remove one dice from the opponent&apos;s pile of Power dice and add it to his own Dispel dice pile.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -3535,13 +3538,13 @@ The clang of hammer on rune reverberates across the battlefield, causing the gro
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="a550-e8c9-b0ba-0242" name="Slayer" hidden="false">
-      <description>When rolling to wound, a Slayer&apos;s Strength, including any modifiers for weapon (eg, a Great Axe), is increased until it is equal to the Toughness of his opponent, up to a maximum of Strength 6. If the opponent&apos;s Toughness i slower than the Slayer&apos;s Strength, including any modifiers for weapons, the Slayer does not receive any Strength bonus. For example, a Slayer armed with a Great Axe (S5) is fighting a Dragon (T6): normally he needs a 5+ to wound, but because of the Slayer skill his Strength is increased to 6 and he therefore wounds on a 4+. Note that the Armour save modifier is calculated at the modified Strength score, in this case it is -3 for a Strength 6 hit. If the Slayer were fighting a weedy Goblin (T3), he would use his normal Strength of 5 and would therefore wound the Goblin on a 2+, with an armour save modifier of -2.</description>
+      <description>When rolling to wound, a Slayer&apos;s Strength, including any modifiers for weapon (eg, a Great Axe), is increased until it is equal to the Toughness of his opponent, up to a maximum of Strength 6. If the opponent&apos;s Toughness is lower than the Slayer&apos;s Strength, including any modifiers for weapons, the Slayer does not receive any Strength bonus. For example, a Slayer armed with a Great Axe (S5) is fighting a Dragon (T6): normally he needs a 5+ to wound, but because of the Slayer skill his Strength is increased to 6 and he therefore wounds on a 4+. Note that the Armour save modifier is calculated at the modified Strength score, in this case it is -3 for a Strength 6 hit. If the Slayer were fighting a weedy Goblin (T3), he would use his normal Strength of 5 and would therefore wound the Goblin on a 2+, with an armour save modifier of -2.</description>
     </rule>
     <rule id="7b5d-1b8b-cc5f-2ef9" name="Loner" hidden="false">
       <description>Daemon Slayers and Dragon Slayer may only fight alone or join a Slayers unit. Daemon and Dragon Slayers can never be the army&apos;s General.</description>
     </rule>
     <rule id="8158-0867-cf89-976d" name="Rune Lore" hidden="false">
-      <description>Each Runelord and Runesmith adds 1 extra dice to the Dispel pool.</description>
+      <description>A Runesmith or Runelord gives the Dwarf player an extra Dispel dice in the enemy Magic phase.</description>
     </rule>
   </sharedRules>
   <catalogueLinks>

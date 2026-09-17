@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7bb5-70b8-0122-944c" name="Wood Elves" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7bb5-70b8-0122-944c" name="Wood Elves" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="4f0e-c683-4011-68a9" name="Magic Bow" hidden="true"/>
     <categoryEntry id="3fee-c6b4-de1c-b33e" name="Magic Arrows" hidden="false"/>
@@ -1060,7 +1060,7 @@
       </profiles>
       <rules>
         <rule id="9152-3fc7-c7a2-57b1" name="Bodyguard" hidden="false">
-          <description>When joined by a Wood Elf Highborn or Noble, a unit of Eternal Guard is Stubborn.</description>
+          <description>As long as the army&apos;s General is with this unit, the unit is Stubborn.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1575,13 +1575,9 @@
 Regardless of whether the Warhawk Riders choose to fall back or not, the enemy must take a Break test as normal. If the Warhawk Riders elect to remain in combat then work out the results of the Break test and any pursuits as normal. This special ability may only be used on a turn that Warhawk Riders charge.</description>
         </rule>
         <rule id="fc0d-e52a-5fec-1870" name="Flying Cavalry" hidden="false">
-          <description>These units follow the rules for Units of Flyers as described in the main Warhammer rulebook with the following exceptions:
-
-Flying Cavalry are Unit Strength 2.
-
-They receive +1 to their Armour save for being mounted.
-
-They are affected by spells, etc, that would affect cavalry.</description>
+          <description>- Flying Cavalry are Unit Strength 2.
+- They receive +1 to their Armour save for being mounted.
+- They are affected by spells, etc, that would affect cavalry.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1845,7 +1841,7 @@ They are affected by spells, etc, that would affect cavalry.</description>
           <description>Orion is Unbreakable. However, if he is beaten in combat, his essence will begin to fade. If Orion is beaten in combat, then for each point of combat resolution he loses by he also loses one wound. If Orion is within 6&quot; of a wood the number of wounds he loses is reduced by one (so, if he loses the combat by one and is within 6&quot; of a wood, he does not lose any wounds).</description>
         </rule>
         <rule id="8ecc-af94-c651-17f3" name="The Wild Hunt" hidden="false">
-          <description>In an army led by Orion, Wild Riders of Kurnous are a Core choice. An army led by Orion must include at least one unit of Wild Riders. In addition, in an army led by Orion, Glade Guard and Scouts count as Special units, and Waywatchers may not be taken at all.</description>
+          <description>As long as they have a Musician, when a unit of Wild Riders charges it causes fear until the start of the next Wood Elf turn.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1937,7 +1933,9 @@ They are affected by spells, etc, that would affect cavalry.</description>
           </constraints>
           <rules>
             <rule id="b54a-3527-3600-784b" name="Cloak of Isha" hidden="false">
-              <description>The Cloak of Isha adds two Dispel dice to the Wood Elf Dispel dice pool.</description>
+              <description>The Cloak of Isha wards off evil magics and is woven from the leaves of the sacred rowan trees of the Grove of Isha by Ariel herself.
+
+The Cloak of Isha adds two Dispel dice to the Wood Elf Dispel dice pool.</description>
             </rule>
           </rules>
           <costs>
@@ -2261,7 +2259,9 @@ They are affected by spells, etc, that would affect cavalry.</description>
           </constraints>
           <rules>
             <rule id="2ace-b1ac-6821-69cd" name="An Annoyance of Netlings" hidden="false">
-              <description>In a challenge, any enemy attempting to strike a character with an Annoyance of Netlings will only hit on 6s.</description>
+              <description>These spites commonly take the form of spider-like creatures, scurrying over their host with feverish abandon. Any enemy that attempts to strike a being that is under the protection of Netlings is likely to find their weapon snagged in a web of magical filaments.
+
+In a challenge, any enemy attempting to strike a character with an Annoyance of Netlings will only hit on 6s.</description>
             </rule>
           </rules>
           <costs>
@@ -2702,7 +2702,9 @@ They are affected by spells, etc, that would affect cavalry.</description>
           </constraints>
           <rules>
             <rule id="5060-a7d7-0240-4956" name="The Spear of Twilight" hidden="false">
-              <description>This spear confers the Killing Blow ability on the wielder.</description>
+              <description>When this spear strikes, the fury and rage of the wielder is channelled into the body of the foe with appalling and destructive force.
+
+This spear confers the Killing Blow ability on the wielder.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -3079,7 +3081,9 @@ They are affected by spells, etc, that would affect cavalry.</description>
           </constraints>
           <rules>
             <rule id="eee2-f0ba-247d-e1c2" name="Arcane Bodkins" hidden="false">
-              <description>Magic arrows. No Armour Saves are allowed against Arcane Bodkins.</description>
+              <description>Whether plate, chain, or unnatural hide, no armour can shield against the enchantments that permeate these deadly barbs - if the firer&apos;s aim is true, the target is doomed.
+
+Magic arrows. No Armour Saves are allowed against Arcane Bodkins.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3447,7 +3451,9 @@ They are affected by spells, etc, that would affect cavalry.</description>
               </constraints>
               <rules>
                 <rule id="7db1-7629-1b42-cba7" name="Wand of Wych Elm" hidden="false">
-                  <description>This staff allows any Dispel attempt to be re-rolled.</description>
+                  <description>A stave fashioned from the innately magical Wych Elm tree is a much sought-after tool. With it, a mage can bend the winds of magic more freely to his will.
+
+This staff allows any Dispel attempt to be re-rolled.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -3725,7 +3731,7 @@ They are affected by spells, etc, that would affect cavalry.</description>
           </profiles>
           <rules>
             <rule id="05d3-f1f1-f130-5160" name="Impale" hidden="false">
-              <description>When a unicorn charges into combat it receives +2 to its Strength.</description>
+              <description>This model has a +1 Strength bonus when charging.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3770,7 +3776,11 @@ They are affected by spells, etc, that would affect cavalry.</description>
           </modifiers>
           <rules>
             <rule id="2178-5fe1-efa5-9795" name="Wardancer Kindred" hidden="false">
-              <description>The character loses their longbow, but gains the special rules Wardancer Weapons, Shadow Dances of Loec, Immune to Psychology and Talismanic Tattoos.
+              <description>Wood Elf Highborn: +50 points
+
+Wood Elf Noble: +30 points
+
+The character loses their longbow, but gains the special rules Wardancer Weapons, Shadow Dances of Loec, Immune to Psychology and Talismanic Tattoos.
 
 Wardancer characters may not wear any armour or be given magical weapons that are not classed as Wardancer Weapons. The character must fight on foot and cannot join any units except Wardancers - if they join a unit of Wardancers, then both the unit and the character(s) must use the same Shadow Dance.</description>
             </rule>
@@ -3805,7 +3815,11 @@ Wardancer characters may not wear any armour or be given magical weapons that ar
           </modifiers>
           <rules>
             <rule id="4316-a216-a1c8-09d0" name="Eternal Kindred" hidden="false">
-              <description>A character from an Eternal Kindred benefits from the Eternal Guard Fighting Style special rule, though this is lost if they choose any Magic Weapons or Magic Armour.</description>
+              <description>Wood Elf Highborn: +10 points
+
+Wood Elf Noble: +5 points
+
+A character from an Eternal Kindred benefits from the Eternal Guard Fighting Style special rule, though this is lost if they choose any Magic Weapons or Magic Armour.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3862,7 +3876,11 @@ Wardancer characters may not wear any armour or be given magical weapons that ar
           </modifiers>
           <rules>
             <rule id="22d3-357d-27f7-517f" name="Scout Kindred" hidden="false">
-              <description>The character gains the Scout special rule. However, the character must fight on foot, and may not carry a great weapon.</description>
+              <description>Wood Elf Highborn: +25 points
+
+Wood Elf Noble: +15 points
+
+The character gains the Scout special rule. However, the character must fight on foot, and may not carry a great weapon.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3895,7 +3913,11 @@ Wardancer characters may not wear any armour or be given magical weapons that ar
           </constraints>
           <rules>
             <rule id="a966-eed4-894d-c6c2" name="Wild Rider Kindred" hidden="false">
-              <description>The character carries a spear and wears light armour. They may not choose any additional weapons or armour, though they may choose a magic spear or a suit of magical light armour to replace the respective item if they wish. They benefit from the Talismanic Tattoos, Fury of Kurnous and Forest Spirit special rules (and so may join units of Forest spirits). However, they must ride an Elven Steed or Great Stag (chosen at additional cost from the army list).</description>
+              <description>Wood Elf Highborn: +50 points
+
+Wood Elf Noble: +35 points
+
+The character carries a spear and wears light armour. They may not choose any additional weapons or armour, though they may choose a magic spear or a suit of magical light armour to replace the respective item if they wish. They benefit from the Talismanic Tattoos, Fury of Kurnous and Forest Spirit special rules (and so may join units of Forest spirits). However, they must ride an Elven Steed or Great Stag (chosen at additional cost from the army list).</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3927,7 +3949,11 @@ Wardancer characters may not wear any armour or be given magical weapons that ar
           </modifiers>
           <rules>
             <rule id="51e6-ab5f-aef8-e9db" name="Waywatcher Kindred" hidden="false">
-              <description>The character gains the special rules Lethal Shot and Forest Stalker. Note that the Lethal Shot rule only applies if the character is not using magical arrows or a magical bow. The character cannot wear any armour, carry a shield, nor carry any close combat weapon that requires two hands to use (such as a great weapon). Waywatcher characters must fight on foot.</description>
+              <description>Wood Elf Highborn: +45 points
+
+Wood Elf Noble: +35 points
+
+The character gains the special rules Lethal Shot and Forest Stalker. Note that the Lethal Shot rule only applies if the character is not using magical arrows or a magical bow. The character cannot wear any armour, carry a shield, nor carry any close combat weapon that requires two hands to use (such as a great weapon). Waywatcher characters must fight on foot.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3957,7 +3983,9 @@ Wardancer characters may not wear any armour or be given magical weapons that ar
           </constraints>
           <rules>
             <rule id="9621-edae-8a48-3151" name="Glamourweave Kindred" hidden="false">
-              <description>This character benefits from the Forest Spirit special rules (and so may join units of Forest Spirits). However, they must ride an Elven Steed or a Unicorn (chosen at an additional cost from the army list).</description>
+              <description>Spellweaver/Spellsinger: +20 points
+
+This character benefits from the Forest Spirit special rules (and so may join units of Forest Spirits). However, they must ride an Elven Steed or a Unicorn (chosen at an additional cost from the army list).</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4017,18 +4045,14 @@ Wardancer characters may not wear any armour or be given magical weapons that ar
       <description>This is a specialised Shooting attack that may be used even if the Treeman marched. Pick one unit within 6&quot; the target does not have to be in the Treeman&apos;s line of sight, but all other targeting restrictions apply. That unit takes an Artillery dice worth of Strength 4 hits (Strength 5 if the target is at least partially within a wood). On a misfire, nothing happens.</description>
     </rule>
     <rule id="051d-6cbd-ec6d-869d" name="Shadow Dances of Loec" hidden="false">
-      <description>In each round of combat that they fight, Wardancers must choose one of the following Shadow Dances to perform. They cannot choose the same dance in two consecutive turns of the same combat engagement.
-
-Whirling Death
-Each strike of a Wardancer&apos;s blade is made with uncanny precision, capable of severing a head or piercing a heart with one deceptively elegant stroke. While performing this dance, the Wardancers have the Killing Blow special rule.
-
-Storm of Blades
-The Wardancers rain blow after blow upon their opponent, moving with such speed that the eye cannot follow each distinct cut and thrust. While they perform this dance, each model in the unit is granted + 1 Attack.
+      <description>The Wardancers rain blow after blow upon their opponent, moving with such speed that the eye cannot follow each distinct cut and thrust. While they perform this dance, each model in the unit is granted + 1 Attack.
 
 The Shadows Coil
+
 With agile grace the Wardancers evade the clumsy attacks of their enemies, becoming almost impossible to strike. While performing this dance, the Wardancers have a 4+ Ward Save.
 
 Woven Mist
+
 The sinuous movements of this dance distract and confuse the enemy, allowing the Wardancers to strike before their foe can react. When performing this dance, each Wardancer reduces his or her total attacks by one but always strikes first in combat. If their opponent also has this ability, resolve attacks in Initiative order.</description>
     </rule>
     <rule id="302f-b741-1452-4688" name="Talismanic Tattoos" hidden="false">
@@ -4038,7 +4062,9 @@ The sinuous movements of this dance distract and confuse the enemy, allowing the
       <description>All non-magical arrows shot by models with the Lethal Shot special rule have the Killing Blow ability at short range.</description>
     </rule>
     <rule id="ceb4-6d9c-1fae-35da" name="Forest Stalkers" hidden="false">
-      <description>Either place them exactly like Scouts, but with no minimum distance between them and the enemy, or place them in sight of the enemy (even in the open), but more than 12&quot; away from them.</description>
+      <description>Clad in carefully woven raiments designed to help them vanish into the background, Waywatchers are almost impossible to spot. This means that the enemy suffers an additional -1 to hit modifier when shooting at them. In addition, Waywatchers are able to sneak up extremely close to their foes. Waywatchers are deployed at the same time as Scouts, and can be placed in one of two ways.
+
+Either place them exactly like Scouts, but with no minimum distance between them and the enemy, or place them in sight of the enemy (even in the open), but more than 12&quot; away from them.</description>
     </rule>
     <rule id="2e86-6d3c-f3a9-992a" name="The Fury of Kurnous" hidden="false">
       <description>On any round of combat in which the Wild Riders did not charge they gain +1 Attack.</description>
@@ -4066,15 +4092,10 @@ The sinuous movements of this dance distract and confuse the enemy, allowing the
     <infoGroup id="fbc1-98db-5307-258b" name="Forest Spirit" hidden="false">
       <rules>
         <rule id="2218-f830-140b-b798" name="Forest Spirit" hidden="false">
-          <description>The following rules apply to all creatures with the Forest Spirit special rule.
-
-Non-Forest Spirits may not join a Forest Spirit unit and vice versa. Treeman Ancients may never join units.
-
-Forest Spirits have a 5+ Ward Save. However, this save cannot be used against magical attacks (spells, magic weapons etc).
-
-All attacks by Forest Spirits count as being magical. This includes any special or ranged attacks they may have.
-
-Forest Spirits are Immune to Psychology.</description>
+          <description>- Non-Forest Spirits may not join a Forest Spirit unit and vice versa. Treeman Ancients may never join units.
+- Forest Spirits have a 5+ Ward Save. However, this save cannot be used against magical attacks (spells, magic weapons etc).
+- All attacks by Forest Spirits count as being magical. This includes any special or ranged attacks they may have.
+- Forest Spirits are Immune to Psychology.</description>
         </rule>
       </rules>
       <infoLinks>

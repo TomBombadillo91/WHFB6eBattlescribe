@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d9da-11c6-1a8c-4472" name="Lizardmen" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <readme>WIP Lizardmen. TODO: Add unit profiles &amp; item descriptions</readme>
+<catalogue id="d9da-11c6-1a8c-4472" name="Lizardmen" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>WIP Lizardmen. TODO: Add unit profiles</readme>
   <categoryEntries>
     <categoryEntry id="361c-7d6f-fc45-5312" name="Skink" hidden="false"/>
     <categoryEntry id="b1f9-5e8b-41ec-2c52" name="Mount" hidden="false"/>
@@ -37,19 +37,25 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="91f0-5f02-6598-1b85" name="Palanquin" hidden="false"/>
+        <rule id="91f0-5f02-6598-1b85" name="Palanquin" hidden="false">
+          <description>Treat the Slann as a single model with a single profile, rather like a chariot. If the Slann has joined a unit of troops, the unit counts rank bonuses as if the space taken by the palanquin was taken by normal troops. The palanquin may be placed in the centre of the second rank of troops, rather than in the front rank (see the diagram below). It is only ever forced to move into the front rank if the front rank is reduced to less than three models. If the palanquin is forced to move into the front rank, it is placed in the centre of the remaining two troops - slide them aside so that the Slann may fit between them. If there is just one model left in the front rank, then simply place the Slann next to it. While the Slann has no enemy models in base to base contact, it does not count as being in combat for purposes of its own spell casting and use of magic items, even if the unit around it is. This means that it may still cast spells as if unengaged, as it sometimes rises on its palanquin above the fighting to cast its powerful magic before dropping back within the protection of its unit. However, the Slann still counts as being in combat in regards to enemies wishing to target the Slann.
+
+!palanquin</description>
+        </rule>
         <rule id="714f-4b7c-fa09-b70d" name="Unit Strength 5" hidden="false">
           <description>This model has a unit strength of 5.</description>
         </rule>
         <rule id="3f96-c5a2-9c6e-a6e8" name="Contemplation" hidden="false">
-          <description>Slann may never take magic weapons or magic armour, and their attack represents their skink attendant darting forward to strike.</description>
+          <description>Slann are concerned with the plan of the Old Ones and the workings of magic rather than fighting the lesser races. Consequently, a Slann will never fight. If engaged in combat, its single attack is made by its Skink attendant darting forward to strike before retreating once again behind the throne. Slann may never take magic weapons or magic armour when choosing their magic items.</description>
         </rule>
-        <rule id="b944-885c-f12c-b3ac" name="Telepathy" hidden="false"/>
+        <rule id="b944-885c-f12c-b3ac" name="Telepathy" hidden="false">
+          <description>Slann remain in constant communication with their brethren, and can see through the eyes of other Slann or even Skink Priests if they wish. For spell casting, the Slann is considered to be able to draw a line of sight to everything that any Skink Priests or other Slann on the table can see. Note that it is still the Slann that casts the spell, and range is measured from the Slann itself, ignoring any intervening terrain. Eg, a Slann in the second rank of a unit of Saurus Warriors that are engaged in combat may cast magic missiles at a foe (even though the Slann itself cannot see them) that a friendly Skink Priest can see, so long as the target is within range of the Slann.</description>
+        </rule>
         <rule id="f000-a9dd-0b4b-d19a" name="Shield of the Old Ones" hidden="false">
-          <description>Slann are protected by potent magical defences that give them a 4+ Ward save.</description>
+          <description>Slann are protected by potent magical defences that gives them a 4+ Ward save.</description>
         </rule>
         <rule id="4f29-3cb0-01d6-9205" name="Wisdom of the Old Ones" hidden="false">
-          <description>See the spell generation rules for Slann Generations on page 49.</description>
+          <description>Slann are the most powerful spellcasters in the Warhammer world. See the Slann Generations.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -71,9 +77,9 @@
             <selectionEntry id="7a8b-390d-aaa9-c14e" name="5th Generation" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
                 <rule id="02ba-fcb6-19ed-f7b3" name="Fifth Generation" hidden="false">
-                  <description>The Slann has +1 to all their attempts to cast and dispel spells.
+                  <description>How do you do this? Pick a list, roll a dice to see what you get, choose the default spell instead if you like and then choose another list or the same one again. You cannot have the same spell from the same list more than once per Wizard as normal, so re-roll duplicate results. However, you could have the same effect from two different spells, eg, Fire Ball and Dark Hand of Death.
 
-The Slann may select spells from multiple lores of magic by selecting a lore and then rolling for the spell, one at a time.</description>
+Slann are so powerful that they add +1 to their attempts to both cast and dispel.</description>
                 </rule>
               </rules>
               <costs>
@@ -83,11 +89,7 @@ The Slann may select spells from multiple lores of magic by selecting a lore and
             <selectionEntry id="7433-1581-1d1f-1bb6" name="4th Generation" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
                 <rule id="b98c-7d26-91f6-4ad0" name="Fourth Generation" hidden="false">
-                  <description>Whenever a Miscast is rolled, the spell automatically fails but no roll is made on the miscast table.
-
-The Slann has +1 to all their attempts to cast and dispel spells.
-
-The Slann may select spells from multiple lores of magic by selecting a lore and then rolling for the spell, one at a time.</description>
+                  <description>Whenever a Fourth Generation Slann Mage-Priest suffers a Miscast, the spell automatically fails but no roll on the Miscast Table is taken.</description>
                 </rule>
               </rules>
               <costs>
@@ -104,12 +106,9 @@ The Slann may select spells from multiple lores of magic by selecting a lore and
               </modifiers>
               <rules>
                 <rule id="ec33-8eab-222d-0b28" name="Third Generation" hidden="false">
-                  <description>The Slann has +1 Wound (included in profile) and uses an additional Hero choice (so counts as a Lord and a Hero) 
-The Slann knows Dispel Magic in addition to it&apos;s other spells.
-Whenever a Miscast is rolled, the spell automatically fails but no roll is made on the miscast table.
-The Slann has +1 to all their attempts to cast and dispel spells.
-The Slann may select spells from multiple lores of magic by selecting a lore and then rolling for the spell, one at a time.
-If the Slann is slain, the opponent gains an additional 100 victory points.</description>
+                  <description>In addition to any other spells, they also know Drain Magic spell and have +1 wound.
+
+However, Slann of the Third Generation are so ancient and revered that if one is killed in a game, the Lizardmen player&apos;s opponent gains 100 Victory Points added to his total at the end of the battle. If the scenario does not use Victory Points then the demise of the Slann has no effect.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -129,13 +128,9 @@ If the Slann is slain, the opponent gains an additional 100 victory points.</des
               </modifiers>
               <rules>
                 <rule id="126b-5b5f-e810-53a7" name="Second Generation" hidden="false">
-                  <description>The Slann has +2 Wounds (included in profile) and uses an additional Hero and Rare choice (so counts as a Lord, a Hero and a Rare choice)
-Whenever the Slann casts a spell using at least one power dice, they may add one additional power dice after the initial casting attempt has been made. This dice does not come from the power dice pool and is effectively &quot;free&quot;, and may cause Miscasts and Irresistible Force as normal.
-The Slann knows Dispel Magic in addition to it&apos;s other spells.
-Whenever a Miscast is rolled, the spell automatically fails but no roll is made on the miscast table.
-The Slann has +1 to all their attempts to cast and dispel spells.
-The Slann may select spells from multiple lores of magic by selecting a lore and then rolling for the spell, one at a time.
-If the Slann is slain, the opponent gains an additional 200 victory points.</description>
+                  <description>Every spell cast by the Slann may have an extra dice added to it after the dice have been rolled. This extra dice does not come from the Slann player&apos;s pool of Power dice, and is in affect a &apos;free&apos; dice. This extra dice may cause Irresistible Force or Miscasts as normal. In addition, the Slann has +1 Wound (remember this is cumulative, so a Second Generation Slann has 2 more Wounds than a Fourth or Fifth Generation Slann).
+
+However, as a Slann of the Second Generation is so ancient and revered, if he is killed in battle then the Lizardmen&apos;s opponent gains an extra 100 Victory Points at the end of the battle (remember this is cumulative, so the opponent gets an additional 200 Victory Points total, including the 100 for Third Generation). If the scenario does not use Victory Points then the demise of the Slann has no additional effect.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -288,8 +283,12 @@ If the Slann is slain, the opponent gains an additional 200 victory points.</des
                 </profile>
               </profiles>
               <rules>
-                <rule id="dde3-c65a-25d4-a7c4" name="Blood-frenzy" hidden="false"/>
-                <rule id="0979-2536-972b-a0c1" name="Ultimate Predator" hidden="false"/>
+                <rule id="dde3-c65a-25d4-a7c4" name="Blood-frenzy" hidden="false">
+                  <description>Once the Carnosaur has inflicted a wound or a casualty, it will become immediately subject to frenzy from the next Close Combat phase onwards. The Carnosaur will never lose its frenzy, even if it is beaten in combat.</description>
+                </rule>
+                <rule id="0979-2536-972b-a0c1" name="Ultimate Predator" hidden="false">
+                  <description>Against large targets, each wound that the Carnosaur inflicts does D3 wounds rather than 1.</description>
+                </rule>
                 <rule id="247e-f9f4-5052-62c8" name="Scaly Skin (4+)" hidden="false">
                   <description>The Carnosaur has a Scaly Skin save of 4+.</description>
                 </rule>
@@ -629,7 +628,7 @@ If the Slann is slain, the opponent gains an additional 200 victory points.</des
       </profiles>
       <rules>
         <rule id="5088-37e8-8113-d1d5" name="Aquatic" hidden="false">
-          <description>This unit can move over marsh, rivers, lakes or any other water features without penalty, and will benefit from soft cover while in such terrain.</description>
+          <description>Models with this special rule can move over marsh, rivers, lakes, or any other water features without penalty, and will benefit from soft cover while in such terrain.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -860,7 +859,9 @@ If the Slann is slain, the opponent gains an additional 200 victory points.</des
       </profiles>
       <rules>
         <rule id="f2ee-2bed-631d-8f5e" name="Predatory Fighters" hidden="false">
-          <description>Saurus with spears may only make a single attack when they are fighting from the second rank onwards against a foe to the unit&apos;s front.</description>
+          <description>Saurus Warriors are vicious fighters whose bodies and armament have been created to maximise their fighting potential in close combat. As well as their well-designed weapons, they make use of their bony crests, powerful jaws and claws. Even their shields are designed to strike and slash with, making them formidable opponents.
+
+However, this instinctive and predatory fighting style works best at close range, so Saurus Warriors fighting with spears may only make a single attack rather than two, if they are positioned where they can attack in the second rank of fighting a foe to the unit&apos;s front.</description>
         </rule>
         <rule id="a4b1-ea4a-847d-9f21" name="Scaly Skin (6+)" hidden="false">
           <description>This unit has a Scaly Skin save of 6+.</description>
@@ -960,7 +961,7 @@ If the Slann is slain, the opponent gains an additional 200 victory points.</des
       </profiles>
       <rules>
         <rule id="7f1e-054b-b69f-425f" name="Aquatic" hidden="false">
-          <description>This unit can move over marsh, rivers, lakes or any other water features without penalty, and will benefit from soft cover while in such terrain.</description>
+          <description>Models with this special rule can move over marsh, rivers, lakes, or any other water features without penalty, and will benefit from soft cover while in such terrain.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1075,8 +1076,12 @@ If the Slann is slain, the opponent gains an additional 200 victory points.</des
         </profile>
       </profiles>
       <rules>
-        <rule id="58f0-5f2c-700a-769f" name="Swarm" hidden="false"/>
-        <rule id="687d-0f6c-ebaa-33d0" name="Small" hidden="false"/>
+        <rule id="58f0-5f2c-700a-769f" name="Swarm" hidden="false">
+          <description>Jungle Swarms represent countless numbers of creatures on a single 40mm x 40mm base. This base is treated as a single model with several Wounds and Attacks. A Jungle Swarm base fights at full effect until it has taken 5 Wounds at which point it is removed. Jungle Swarms are Unbreakable and cannot be joined by characters.</description>
+        </rule>
+        <rule id="687d-0f6c-ebaa-33d0" name="Small" hidden="false">
+          <description>Units with this special rule do not block the line of sight of other units. Note that this does not, however, allow other skirmishers to move through their formation.</description>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink id="a073-ca68-24a9-9022" name="Poisoned Attacks" hidden="false" targetId="d168-689e-84dd-9b7e" type="rule"/>
@@ -1131,7 +1136,7 @@ If the Slann is slain, the opponent gains an additional 200 victory points.</des
           <description>This unit has a Scaly Skin save of 5+.</description>
         </rule>
         <rule id="7e8f-f4a5-d3f5-9f69" name="Sacred Duty" hidden="false">
-          <description>If both a Slann Mage-Priest and Temple Guard are in the army, the Slann must join the Temple Guard unit and cannot leave the unit. While there is a Slann in the unit, the Temple Guard are Stubborn.</description>
+          <description>If both a Slann Mage Priest and a Temple Guard are in the army, then the Slann must be placed in the unit. The Slann cannot leave this unit – the Temple Guard are spawned to protect the Slann and their temples, and they will not leave their charge for anything. Whilst there is a Slann Mage Priest within the unit, the Temple Guard are Stubborn.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1262,7 +1267,7 @@ If the Slann is slain, the opponent gains an additional 200 victory points.</des
           <description>This unit has a Scaly Skin save of 6+.</description>
         </rule>
         <rule id="7495-a8d1-b6d1-0df1" name="Thick Skinned" hidden="false">
-          <description>This unit adds +2 to it&apos;s Armour save for being mounted, instead of the usual +1.</description>
+          <description>Models with this special have thick scaly skin or hide, which acts like armour and makes them difficult to injure. A model riding a creature with this special rules counts +2 to his Armour save instead of the normal +1 for being mounted.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1348,8 +1353,9 @@ If the Slann is slain, the opponent gains an additional 200 victory points.</des
       </profiles>
       <rules>
         <rule id="047d-69c4-08ce-80be" name="Skirmish Screen" hidden="false">
-          <description>Kroxigor units may see and charge through Skink units that are not fleeing. A Skink unit that has a unit of Kroxigors charge through them must take a Leadership test. If this is failed, they may not voluntarily move that turn.
-Enemy units charged by Kroxigor through a skirmish screen may stand &amp; shoot as normal. For the purposes of working out range and whether the unit can stand &amp; shoot at all (if the Kroxigor are within half of their charge distance), measure the distance to the point from which the Kroxigor emerge (ie, the front of the Skink unit).</description>
+          <description>Both Skinks and Kroxigors are separate units and follow all the normal rules. In addition, Kroxigors may see and charge through Skink units (including Chameleon Skinks) that are not fleeing. However, the Skinks often have to leap out of the way of these charging behemoths, and may drop to the ground while they thunder past. A Skink unit that has a unit of Kroxigors charge through them must take a Leadership test. If this is failed, they may not voluntarily move that turn.
+
+Enemy units charged by Kroxigor through a skirmish screen may stand &amp; shoot as normal. For the purposes of working out range and whether the unit can stand &amp; shoot at all (if the Kroxigor are within half their charge distance), measure the distance to the point from which the Kroxigor emerge (ie, the front of the Skink unit).</description>
         </rule>
         <rule id="eea4-b28f-4f18-debe" name="Scaly Skin (4+)" hidden="false">
           <description>This unit has a Scaly Skin save of 4+</description>
@@ -1405,10 +1411,18 @@ Enemy units charged by Kroxigor through a skirmish screen may stand &amp; shoot 
       </profiles>
       <rules>
         <rule id="83bd-a765-1a94-4773" name="Aquatic" hidden="false">
-          <description>This unit can move over marsh, rivers, lakes or any other water features without penalty, and will benefit from soft cover while in such terrain.</description>
+          <description>Models with this special rule can move over marsh, rivers, lakes, or any other water features without penalty, and will benefit from soft cover while in such terrain.</description>
         </rule>
-        <rule id="8ebb-f231-7393-9b09" name="Expert Hunters" hidden="false"/>
-        <rule id="af89-343d-9607-7cb9" name="Chameleons" hidden="false"/>
+        <rule id="8ebb-f231-7393-9b09" name="Expert Hunters" hidden="false">
+          <description>Chamelon Skinks work best when stalking their prey alone, or when accompanied by others of their kind.
+
+Characters can never join units of Chameleon Skinks</description>
+        </rule>
+        <rule id="af89-343d-9607-7cb9" name="Chameleons" hidden="false">
+          <description>With skin that shifts colours to match their surroundings, Chameleon Skinks are very hard to spot. This means that the enemy suffers an additional -1 to hit when shooting at them.
+
+In addition, they are able to sneak up extremely close to their foes. Chameleon Skinks are deployed at the same time as Scouts, and can be placed in one of two ways. Either place them exactly like Scouts, but with no minimum distance between them and the enemy, or place them in sight of the enemy (event in the open), but more than 12&quot; away from them.</description>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink id="1e94-1ca3-95e1-e494" name="Skirmishers" hidden="false" targetId="4c3d-1a6a-3977-0b53" type="rule"/>
@@ -1464,10 +1478,9 @@ Enemy units charged by Kroxigor through a skirmish screen may stand &amp; shoot 
       </profiles>
       <rules>
         <rule id="e561-e9b1-1f54-76c0" name="Hit-and-Run Attack" hidden="false">
-          <description>On any turn that Terradons charge, after resolving a combat the Terradons may Hit and Run.
-If the Terradons lose or draw the combat, they do not take a Break test but automatically fall back (this is treated like fleeing, except that it does not cause panic in nearby units) and automatically rally at the end of the fall back move. The enemy cannot pursue them.
+          <description>Terradons attack their prey by diving upon them, grasping them in their talons and pulling them high up into the air, before dropping them.
 
-If the Terradons win the combat, before the enemy takes their Break test the Terradons may elect to fall back (as above). Regardless of whether or not the Terradons elect to fall back, the enemy unit must take a Break test as normal. If the Terradons choose to remain in combat, work out the results of the Break test and any pursuits as normal.</description>
+On any turn that Terradons charge, work out combat as normal. If the Terradons lose the combat or the combat is a draw, they do not take a Break test but automatically fall back (this is treated like fleeing, except that it does not cause panic in nearby units, and the Terradons automatically rally at the end of the fall back move). The enemy cannot pursue them. If the Terradons win the combat, before the enemy takes its Break test, the Terradons may elect to fall back. Regardless of whether the Terradons choose to fall back or not, the enemy must take a Break test as normal. If the Terradons elect to remain in combat then work out the results of the Break test and any pursuits as normal. This special attack may only be used on the turn that Terradons charge.</description>
         </rule>
         <rule id="bca7-c5bd-ce60-2afa" name="Mounted" hidden="false">
           <description>Skinks riding Terradons get a 6+ Armour save.</description>
@@ -1540,14 +1553,14 @@ If the Terradons win the combat, before the enemy takes their Break test the Ter
       </profiles>
       <rules>
         <rule id="10e6-c09c-227d-d8a9" name="Controlled Creature" hidden="false">
-          <description>Any shooting against the Salamander will hit the Salamanders on a roll of a 1-4, and the Skinks on a 5 or 6.
-If all the Skink Handlers are slain, then the Salamanders must take a Leadership test. If they fail this test, they must roll on the Monster Reaction table on page 105 of the Warhammer rulebook.</description>
+          <description>Any shooting against the Salamander unit will hit the Salamanders on a roll of 1-4 and the Skinks on a 5 or 6.
+
+If all the Skink Handlers are slain, then the Salamanders must take a Leadership test. If they fail this test, they must roll on the Monster Reaction table.</description>
         </rule>
         <rule id="1fc2-8f5d-77ee-f6c6" name="Spout Flames" hidden="false">
-          <description>Range of 15&quot;. Roll an Artillery dice for each Salamander. This is the number of hits that the target suffers, which are resolved at Strength 3 with a -1 Armour save modifier.
-Salamanders cannot stand &amp; shoot, although they can move and shoot as normal.
+          <description>Range of 15&quot;. Roll an Artillery dice for each Salamander. This is the number of hits that the target suffers. Hits are resolved at Strength 3, although they reduce the target&apos;s Armour save by -1. Note that Salamanders cannot stand &amp; shoot, though they may move and shoot as normal.
 
-On the roll of a Misfire, D3 of the Skink Handlers are removed as casualties and the Salamander does not spout flames that Shooting phase. If there are no Skinks left to be removed, the shot is just discounted.</description>
+On the roll of a Misfire, D3 of the Skink Handlers are removed as casualties, and the Salamander does not spout flames that Shooting phase - either the Salamander has eaten the Skinks or they have got in the way of its corrosive venom. If there are no Skinks left to be removed, the shot is just discounted.</description>
         </rule>
         <rule id="3eb4-e51f-9fb1-c84b" name="Scaly Skin (5+)" hidden="false">
           <description>Salamanders have a 5+ Scaly Skin save.</description>
@@ -1678,7 +1691,9 @@ On the roll of a Misfire, D3 of the Skink Handlers are removed as casualties and
   </entryLinks>
   <rules>
     <rule id="9043-ec9e-233e-5429" name="Cold Blooded" hidden="false">
-      <description>For all leadership tests, all Lizardmen units roll 3 dice and choose the lowest 2 scores.</description>
+      <description>All Lizardmen are cold-blooded and naturally slow to react to psychology, if they react at all. To other races the Lizardmen seem incapable of emotion, bloodthirsty and little more than heartless killers. This is not necessarily true, for the Lizardmen merely view the world from a very different perspective.
+
+For all Leadership tests, all Lizardmen units roll 3 dice and choose the lowest 2 scores.</description>
     </rule>
   </rules>
   <sharedSelectionEntries>
@@ -1780,18 +1795,20 @@ On the roll of a Misfire, D3 of the Skink Handlers are removed as casualties and
       </profiles>
       <rules>
         <rule id="8e75-ac74-223a-c00a" name="Ridden Monster" hidden="false">
-          <description>Treat Stegadons as ridden monsters with more than one rider. If the Stegadon is killed, then the skinks form a small unit of skirmishers. If all the skinks are killed, the Stegadon is treated like any other ridden monster that loses it&apos;s rider. For Victory Points purposes, only the Stegadon itself counts, unless it is ridden by a character - slain non-character Skinks are ignored.</description>
+          <description>Treat Stegadons as ridden monsters with more than one rider. If the Stegadon is killed then the Skinks form a small unit of skirmishers. If all the Skinks are killed, the Stegadon is treated like any other ridden monster that loses its rider. For Victory Points purposes, only the Stegadon itself counts, unless it is ridden by a character. Slain non-character Skinks are ignored.</description>
         </rule>
         <rule id="c391-718a-e71d-da2d" name="Scaly Skin (4+)" hidden="false">
           <description>This unit has a Scaly Skin save of 4+.</description>
         </rule>
         <rule id="de85-e83d-95e0-3097" name="Howdah" hidden="false">
-          <description>The Skink crew or character riding the Stegadon has a 2+ Armour save that cannot be improved in any way</description>
+          <description>The combined effect of the armoured howdah, shields and giant bony crest on the Stegadon is to give the Skinks (or character) riding it a 2+ Armour save which cannot be improved in any way, though a character could also have a Ward save from a magic item.</description>
         </rule>
         <rule id="b575-7baf-8763-65c2" name="Unit Strength 8" hidden="false">
           <description>This model has a unit strength of 8</description>
         </rule>
-        <rule id="7277-04f7-06ff-08b7" name="Immune to Panic" hidden="false"/>
+        <rule id="7277-04f7-06ff-08b7" name="Immune to Panic" hidden="false">
+          <description>Units with this special rule are Immune to Panic and automatically pass any Panic tests they have to take.</description>
+        </rule>
         <rule id="48d6-d7a0-1669-e4e4" name="Giant Bow" hidden="false">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -1800,9 +1817,7 @@ On the roll of a Misfire, D3 of the Skink Handlers are removed as casualties and
               </conditions>
             </modifier>
           </modifiers>
-          <description>The Giant Bow is fired using the Skink&apos;s Ballistic Skill and inflicts a single Strength 5 hit that does D3 wounds. It can penetrate ranks in the same manner as a bolt thrower, although it can move and fire.
-The giant bow can only fire in the front arc of the Stegadon itself, and takes two crew to fire the giant bow (so two Skinks can&apos;t throw javelins if they are crewing the giant bow).
-As the Stegadon is a Large Target, it may shoot over normal sized units and interposing terrain that large targets can see over.</description>
+          <description>The giant bow is a Bolt Thrower, using all the rules for Bolt Throwers, with the following exceptions: The giant bow is fired using the Skinks&apos; Ballistic Skill, and inflicts a single Strength 5 hit that does D3 wounds. The giant bow can move and fire, although it can only fire in the arc of sight of the Stegadon itself. It takes two crew to fire the giant bow (so two Skinks can&apos;t throw javelins if they are crewing the giant bow). As the Stegadon is a large target, the giant bow may shoot over normal sized units and interposing terrain that large target can see over.</description>
         </rule>
         <rule id="a6bf-8909-f877-60d5" name="Mixed Weapons" hidden="false">
           <modifiers>
@@ -1812,7 +1827,7 @@ As the Stegadon is a Large Target, it may shoot over normal sized units and inte
               </conditions>
             </modifier>
           </modifiers>
-          <description>The Skinks in the howdah carry hand weapons and javelins, and may throw the javelins in any direction.</description>
+          <description>Skinks in the howdah carry a variety of weapons. For the purposes of the game count these as hand weapons and javelins (note that the javelins are poisoned, and the Skinks may throw their javelins in any direction).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1880,7 +1895,7 @@ As the Stegadon is a Large Target, it may shoot over normal sized units and inte
           </constraints>
           <rules>
             <rule id="fe04-1dba-c3bf-77bb" name="Blessed Spawning of Tzunki" hidden="false">
-              <description>Aquatic and +1 Initiative.</description>
+              <description>Models on foot only. Aquatic, +1 Initiative.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -1919,7 +1934,7 @@ As the Stegadon is a Large Target, it may shoot over normal sized units and inte
           </constraints>
           <rules>
             <rule id="7eba-546f-da8c-ba6e" name="Blessed Spawning of Huanchi" hidden="false">
-              <description>The unit may move through jungle, woods and forest as if it were open ground, suffering no penalties for movement</description>
+              <description>Models on foot only. The unit may move through jungle, woods and forest as if it were open ground, suffering no penalties for movement.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -1970,7 +1985,7 @@ As the Stegadon is a Large Target, it may shoot over normal sized units and inte
                   </conditions>
                 </modifier>
               </modifiers>
-              <description>Adds +1 dice to the player&apos;s Dispel dice pool.</description>
+              <description>The presence of the unit or character on the battlefield adds one dice to the player&apos;s Dispel dice pool.</description>
             </rule>
             <rule id="019f-0d07-3fae-451e" name="Blessed Spawning of Tepok (Skink)" hidden="true">
               <modifiers>
@@ -1980,7 +1995,7 @@ As the Stegadon is a Large Target, it may shoot over normal sized units and inte
                   </conditions>
                 </modifier>
               </modifiers>
-              <description>Magic Resistance (1)</description>
+              <description>The presence of the unit or character on the battlefield adds one dice to the player&apos;s Dispel dice pool.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2036,7 +2051,7 @@ As the Stegadon is a Large Target, it may shoot over normal sized units and inte
                   </conditions>
                 </modifier>
               </modifiers>
-              <description>Scaly Skin save is increased by +1.</description>
+              <description>Scaly Skin save increased by +1.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2064,7 +2079,7 @@ As the Stegadon is a Large Target, it may shoot over normal sized units and inte
           </constraints>
           <rules>
             <rule id="8263-f819-4707-e4cd" name="Blessed Spawning of Itzl" hidden="false">
-              <description>Characters must take the Blessed Spawning of Itzl if they wish to ride a Cold One or Carnosaur.</description>
+              <description>May not be taken by a unit. Characters must take the Blessed Spawning of Itzl if they wish to ride a Cold One or a Carnosaur.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2153,7 +2168,9 @@ Note that Carnosaur will still be subject to Blood-Frenzy, and Cold Ones will st
           </constraints>
           <rules>
             <rule id="3888-1561-1eb0-1c50" name="Blessed Spawning of Chotec" hidden="false">
-              <description>Roll an extra dice when pursuing and choose the highest two (or three if mounted)</description>
+              <description>The beat of the sun burns within the bodies of those blessed by the solar god Chotec, filling them with energy at times when other cold blooded-creatures become sluggish. A fiery red-orange is Chotec&apos;s associated colour.
+
+Roll an extra dice when pursuing and choose the highest two (or three if mounted).</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2210,7 +2227,9 @@ Note that Carnosaur will still be subject to Blood-Frenzy, and Cold Ones will st
           </constraints>
           <rules>
             <rule id="8ca1-e736-c877-c89a" name="Blessed Mark of the Old Ones" hidden="false">
-              <description>The character may re-roll a total of D3 (roll at the start of the game) single D6&apos;s per game. Each re-roll entitles the player to take a single D6 of his own that directly affects the character (including one of the dice rolled as part of a 2D6, 3D6 etc) and roll it again. This can potentially cause Irresistable Force or avoid a Miscast. Remember that you cannot re-roll a dice more than once.</description>
+              <description>May not be taken by a unit. Only ONE Saurus character or Skink character may take the Mark of the Old Ones per army. The character may re-roll a total of D3 (roll at the start of the game) single D6&apos;s per game. Each re-roll entitles the player to take a single D6 of his own that directly effects the character including one of the dice rolled as part of a 2D6, 3D6, etc) and roll it again.
+
+This can potentially cause Irresistible Force or avoid a Miscast. Remember that you cannot re-roll a dice more than once.</description>
             </rule>
           </rules>
         </entryLink>
@@ -2246,7 +2265,7 @@ Note that Carnosaur will still be subject to Blood-Frenzy, and Cold Ones will st
           </constraints>
           <rules>
             <rule id="b543-3a1a-73e7-8abf" name="The Divine Plaque of Protection" hidden="false">
-              <description>Increase the Ward Save that the Slann gets from 4+ to 2+. This benefit is lost against models that are attacking the Slann in close combat as they are slightly inside the mystical shield.</description>
+              <description>Slann Mage-Priest only. Increases the Ward save that the Slann gets from 4+ to 2+. Note however, that the Slann does not get this increase against models that are attacking it in close combat, for they are slightly inside the mystical shield. In close combat, the Slann still only gets a 4+ Ward save.</description>
             </rule>
           </rules>
           <costs>
@@ -2260,7 +2279,7 @@ Note that Carnosaur will still be subject to Blood-Frenzy, and Cold Ones will st
           </constraints>
           <rules>
             <rule id="74cc-1b2e-3ed5-21fc" name="Plaque of Dominion" hidden="false">
-              <description>Adds an extra +1 dice to the Lizardmen player&apos;s Power dice and Dispel pools</description>
+              <description>Slann Mage-Priest only. Adds an extra +1 dice to the Lizardmen player&apos;s Power dice and Dispel pools.</description>
             </rule>
           </rules>
           <costs>
@@ -2274,7 +2293,7 @@ Note that Carnosaur will still be subject to Blood-Frenzy, and Cold Ones will st
           </constraints>
           <rules>
             <rule id="b043-46c7-2f12-7485" name="Plaque of Tepok" hidden="false">
-              <description>The Slann knows one more spell than normal</description>
+              <description>Slann Mage-Priest only. The Slann knows one more spell than he is normally allowed.</description>
             </rule>
           </rules>
           <costs>
@@ -2294,7 +2313,7 @@ Note that Carnosaur will still be subject to Blood-Frenzy, and Cold Ones will st
           </constraints>
           <rules>
             <rule id="0fd8-0ff5-664b-9889" name="Piranha Blade" hidden="false">
-              <description>All wounds inflicted by the Piranha Blade are multiplied into two wounds after Armour saves, etc.</description>
+              <description>Any wound inflicted by the Piranha Blade is multiplied into two wounds after Armour saves, etc.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2310,7 +2329,7 @@ Note that Carnosaur will still be subject to Blood-Frenzy, and Cold Ones will st
           </constraints>
           <rules>
             <rule id="f0db-24d5-5b46-a62f" name="Scimitar of the Sun Resplendent" hidden="false">
-              <description>The wielder of this blade has +2 Attacks.</description>
+              <description>The wielder of this blade has + 2 Attacks.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2342,7 +2361,7 @@ Note that Carnosaur will still be subject to Blood-Frenzy, and Cold Ones will st
           </constraints>
           <rules>
             <rule id="8d7a-bc76-e534-4b4a" name="The Blade of Revered Tzunki" hidden="false">
-              <description>The wielder of this blade has +1 Strength. No armour saves are allowed against attacks made by the Blade of Revered Tzunki</description>
+              <description>The wielder of this blade has +1 Strength. No Armour saves are allowed against attacks made by the Blade of Revered Tzunki.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2358,7 +2377,7 @@ Note that Carnosaur will still be subject to Blood-Frenzy, and Cold Ones will st
           </constraints>
           <rules>
             <rule id="4236-a1ae-5c53-8747" name="The Blade of Realities" hidden="false">
-              <description>No Ward saves are allowed against the Blade of Realities, although Armour saves and Regeneration may be taken as normal. In addition, any wound inflicted on Daemons is multiplied into two wound (after Armour saves, etc).</description>
+              <description>No Ward saves are allowed against the Blade of Realities, although Armour saves and Regeneration may be taken as normal. In addition, any wound inflicted on Daemons is multiplied into two wounds (after Armour saves, etc).</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2381,8 +2400,9 @@ Note that Carnosaur will still be subject to Blood-Frenzy, and Cold Ones will st
           </constraints>
           <rules>
             <rule id="6377-5b46-39be-1810" name="Dagger of Sotek" hidden="false">
-              <description>Skink only.
-Confers on the bearer the Killing Blow ability. In addition, the bearer causes Fear in Skaven.</description>
+              <description>This cruel, curved dagger has taken thousands of lives sacrifices offered up to the bloodthirsty god Sotek. The rat- kin particularly fear this weapon, for it has been the doom of many of their number.
+
+Skink only. Confers on the bearer the Killing Blow ability. In addition, the bearer causes fear in Skaven.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2398,7 +2418,9 @@ Confers on the bearer the Killing Blow ability. In addition, the bearer causes F
           </constraints>
           <rules>
             <rule id="f919-556e-1ebe-e598" name="Sword of the Hornet" hidden="false">
-              <description>The bearer of this sword always strikes first. If an opponent also has the ability to always strike first, then resolve their attacks in normal Initiative order.</description>
+              <description>When this sword is picked up, the bearer is filled with minor premonitions, seeing events seconds before they happen. In this way, the sword&apos;s wielder can perceive where the enemy will attack, and launch one of their own a moment before.
+
+The bearer of this sword always strikes first. If an opponent also has the ability to always strike first then resolve their attacks in normal Initiative order.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2414,7 +2436,7 @@ Confers on the bearer the Killing Blow ability. In addition, the bearer causes F
           </constraints>
           <rules>
             <rule id="8116-36d7-77ea-6dbd" name="Burning Blade of Chotec" hidden="false">
-              <description>Targets struck by the Burning Blade of Chotec suffer a -2 penalty to their Armour save in addition to any modifiers from the user&apos;s Strength. All attacks made with this weapon are flaming attacks.</description>
+              <description>Targets struck by the Burning Blade of Chotec suffer a -2 penalty to their Armour save in addition to any modifiers from the user&apos;s Strength. All attacks made with this weapon count as flaming attacks.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2500,7 +2522,7 @@ Confers +1 to the model&apos;s Armour save, which may be combined with other arm
               </constraints>
               <rules>
                 <rule id="ce75-b725-6423-206d" name="The Maiming Shield" hidden="false">
-                  <description>The shield conferrs a +1 Armour save like a normal shield. In addition, it confers +1 Attack to the model using it. This additional attack is worked out using the base Strength of the wielder, and counts as magical.</description>
+                  <description>The shield confers a +1 Armour save like a normal shield. In addition, it confers +1 Attack to the model using it. This additional attack is worked out using the base Strength of the wielder, and counts as magical.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -2523,7 +2545,7 @@ Confers +1 to the model&apos;s Armour save, which may be combined with other arm
               </constraints>
               <rules>
                 <rule id="a8ff-9a7b-22f7-1014" name="Shield of the Mirrored Pool" hidden="false">
-                  <description>The shield confers a +1 Armour save like a normal shield. In addition, any magic missile that strikes the bearer or any unit he is with is deflected on the roll of a 4+ on a D6. If the spell is deflected, the results of the magic missile are resolved against the caster of the spell or the unit the character is with (following normal targeting rules). This in turn cannot be dispelled.</description>
+                  <description>The shield confers a +1 Armour save like a normal shield. In addition, any magic missile that strikes the bearer or any unit he is with is deflected on the roll of 4+ on a D6. If the spell is deflected, the results of the magic missile is resolved against the caster of the spell or the unit the character is with (following the normal targeting rules). This in turn cannot be dispelled.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -2559,8 +2581,7 @@ Confers +1 to the model&apos;s Armour save, which may be combined with other arm
           </constraints>
           <rules>
             <rule id="cb10-653f-8ed5-187d" name="Gleaming Pendant of Chotec" hidden="false">
-              <description>One use only.
-The pendant may be used at the start of any Lizardmen player&apos;s Close Combat phase. For that turn only, any enemy unit that is in contact with the model using the pendant will strike last in combat - even striking after great weapons and Zombies! If an enemy has the ability to always strike first, then on a roll of a 4+ they get to attack first; if they roll a 1-3 they too will strike last.</description>
+              <description>One use only. The pendant may be used at the start of any Lizardmen player&apos;s Close Combat phase. For that turn only, any enemy unit that is in contact with the model using the pendant will strike last in combat - even striking after great weapons and Zombies! If an enemy has the ability to always strike first, then on the roll of a 4+ they get to attack first; if they roll a 1-3, then they too will strike last.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2576,8 +2597,7 @@ The pendant may be used at the start of any Lizardmen player&apos;s Close Combat
           </constraints>
           <rules>
             <rule id="4670-1f59-43a8-8da8" name="Blood Statuette of Spite" hidden="false">
-              <description>Bound Spell. Power Level 5. One use only.
-The spell bound within the statuette may be cast on any enemy character. That character must immediately take a Toughness test (remember that a roll of a 6 always fails). If this test is failed, then the model loses a wound with no saves of any kind allowed. If the model takes a wound, it must immediately take another Toughness test, losing another wound if it fails again. This continues until the model either passes a Toughness test or is slain. </description>
+              <description>Bound Spell. Power Level 5. One use only. Once per game, the user may cast the spell bound within the statuette. This spell requires no Power dice to cast as all the power is provided by the statuette. The spell may be cast on any enemy character. That character must immediately take a Toughness test (remember that a roll of 6 always fails). If this test is failed, then the model loses a wound with no saves of any kind allowed. If the model takes a wound, it must immediately take another Toughness test, losing another wound if it fails again. This continues until either the model passes a Toughness test or is slain.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2605,8 +2625,7 @@ The spell bound within the statuette may be cast on any enemy character. That ch
           </constraints>
           <rules>
             <rule id="03b9-0003-dfc1-d9de" name="Cloak of Feathers" hidden="false">
-              <description>Skink on foot only.
-The wearer of the cloak my Fly.</description>
+              <description>Skink on foot only. The wearer of the cloak may fly.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2663,7 +2682,9 @@ After the enemy rolls on the Miscast Table for the first time in the game, the b
           </constraints>
           <rules>
             <rule id="ce98-e5a0-1312-4419" name="Bane Head" hidden="false">
-              <description>Nominate an enemy character at the start of the battle. All unsaved wounds caused by the bearer on the nominated target are doubled.</description>
+              <description>The shrunken head of a long-deceased intruder to the jungles, the Bane Head is used before battle to place a deadly curse onto one&apos;s enemies.
+
+Nominate an enemy character at the start of the battle. All unsaved wounds caused by the bearer on the nominated target are doubled.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2679,7 +2700,7 @@ After the enemy rolls on the Miscast Table for the first time in the game, the b
           </constraints>
           <rules>
             <rule id="e444-69e2-fde5-473d" name="Dragonfly of Quicksilver" hidden="false">
-              <description>If both the Lizardmen player an their opponent have models with the Scout ability, then the Lizardmen player adds +1 to their dice roll when rolling to see who gets to deploy their scouts first.</description>
+              <description>If both the Lizardmen player and his opponent have models with the Scout ability, then the Lizardmen player adds +1 to his dice roll when rolling to see who gets to deploy their scouts first.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2695,7 +2716,7 @@ After the enemy rolls on the Miscast Table for the first time in the game, the b
           </constraints>
           <rules>
             <rule id="d437-0d77-3a33-52af" name="Venom of the Firefly Frog" hidden="false">
-              <description>All mundane weapons used by the model with the Venom of the Firefly Frog (both close combat and ranged) have Poisoned Attacks and are magical.</description>
+              <description>All mundane weapons used by the model with the Venom of the Firefly Frog (both close combat weapons and ranged weapons) are coated with this venom. All attacks made with these weapons count as Poisoned Attacks and are magical.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2742,8 +2763,7 @@ May be targeted against an enemy unit during the Magic phase. It is a Magic Miss
           </constraints>
           <rules>
             <rule id="4277-9d89-6253-c1e5" name="Cube of Darkness" hidden="false">
-              <description>One Use Only
-This may be used with the exact same effects as a Dispel Scroll. In addition, all Remains in Play spells are automatically removed from play. Finally, roll a D6. The Magic phase ends immediately on the roll of a 4+.</description>
+              <description>One use only. This may be used with the exact same effects as a Dispel Scroll. In addition, all Remains in Play spells are automatically removed from play. Finally, roll a D6. The Magic phase ends immediately on the roll of a 4+.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2759,7 +2779,7 @@ This may be used with the exact same effects as a Dispel Scroll. In addition, al
           </constraints>
           <rules>
             <rule id="7b6a-6790-b446-0419" name="Diadem of Power" hidden="false">
-              <description>The diadem allows the bearer to save up to two of their own unused Power dice or Dispel dice at the end of any Magic phase and store them, to add to their side&apos;s dice pool in the next Magic phase.</description>
+              <description>The diadem allows the bearer to save up to two of his own unused Power dice or Dispel dice at the end of any Magic phase and store them, to add to his side&apos;s dice pool in the next Magic phase.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2786,7 +2806,7 @@ This may be used with the exact same effects as a Dispel Scroll. In addition, al
           </constraints>
           <rules>
             <rule id="0add-f144-bc73-6c92" name="Amulet of Itzl" hidden="false">
-              <description>The character wearing this amulet has a 2+ Ward save against the first wound suffered.</description>
+              <description>One use only. The character wearing this amulet has a 2+ Ward save against the first wound suffered.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2818,7 +2838,7 @@ This may be used with the exact same effects as a Dispel Scroll. In addition, al
           </constraints>
           <rules>
             <rule id="5447-5163-f991-dbb1" name="Glyph Necklace" hidden="false">
-              <description>The character wearing this has a 5+ Ward save.</description>
+              <description>The character wearing this has a 5 + Ward save.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2937,9 +2957,17 @@ The unit may use this banner once per game, at the start of any Lizardmen Magic 
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="d69e-a479-b089-6806" name="Aquatic" hidden="false">
-      <description>This unit can move over marsh, rivers, lakes or any other water features without penalty, and will benefit from soft cover while in such terrain.</description>
+      <description>Models with this special rule can move over marsh, rivers, lakes, or any other water features without penalty, and will benefit from soft cover while in such terrain.</description>
     </rule>
-    <rule id="a394-9810-7646-6a2e" name="Stubborn" hidden="false"/>
+    <rule id="a394-9810-7646-6a2e" name="Stubborn" hidden="false">
+      <description>Some troops will fight on in close combat almost regardless of casualties. This can be because they consider themselves to be elite, have taken severe vows to hold their ground in combat or are simply too dumb to flee when defeated by superior troops! Sometimes troops will fight stubbornly against certain enemies because of honour, vows or racial animosity, and fight normally against other enemies. These troops are referred as being stubborn.
+
+The following rules apply:
+
+Stubborn troops take all Break tests on their unmodified Leadership value. They do not reduce this value regardless of any combat results, how many casualties they have suffered or other combat bonuses. This means, for example, that stubborn troops with a Leadership value of 9 will only ever break on the roll of 10 or more when making a Break test. If a stubborn unit contains characters with higher Leadership values than the rank-and-file troops who are not themselves stubborn, the character&apos;s Leadership value can be used to take the test, but it is still subject to the normal modifiers for a Break test. Use either the Leadership value of the character leading the unit or the unit&apos;s own Leadership value, depending on which results in the higher value for passing a Break test.
+
+Characters that are part of a stubborn unit but are not stubborn themselves will not have to take a separate Break test - they benefit and gain from the determination of the troops around them! Stubborn units led by stubborn characters can use the character&apos;s unmodified Leadership value for Break tests. Note that any troops who are not stubborn but are led by a stubborn character may use his Leadership value for Break tests, but the roll is modified as normal.</description>
+    </rule>
   </sharedRules>
   <catalogueLinks>
     <catalogueLink id="eae2-6ca1-36ad-96f7" name="Dogs of War" targetId="3604-800a-4012-5da6" type="catalogue" importRootEntries="true"/>

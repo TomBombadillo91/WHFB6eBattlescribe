@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7236-6609-8f2a-760a" name="Chaos Dwarves" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7236-6609-8f2a-760a" name="Chaos Dwarves" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="d1fa-39bb-985e-3662" name="Bull Centaur Lord" hidden="false" collective="false" import="true" type="model">
       <constraints>
@@ -1833,7 +1833,7 @@
           </constraints>
           <rules>
             <rule id="73d0-650d-2665-5713" name="Obsidian Blade" hidden="false">
-              <description>No armour saves allowed. If the target takes an unsaved wound their armour and shield (including any magic armour and shields) are destroyed.</description>
+              <description>No Armour save allowed. If target takes an unsaved wound his armour and shield (including magic armour and shield) is destroyed.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -1850,7 +1850,7 @@
           </constraints>
           <rules>
             <rule id="8dce-7973-a820-4dbb" name="Black Hammer of Hashut" hidden="false">
-              <description>The wielder has +2 Strength. Flammable targets that take at least one wound from the Black Hammer of Hashut are automatically killed.</description>
+              <description>+2 Strength. Flammable targets are automatically killed if they take a single wound.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -1867,7 +1867,7 @@
           </constraints>
           <rules>
             <rule id="cffc-3171-a159-02b0" name="Dark Mace of Death" hidden="false">
-              <description>Once per battle the bearer may make a single special attack instead of rolling to hit, etc. as normal. All models in base contact (not the bearer&apos;s mount) take D3 automatic wounds with no armour saves allowed.</description>
+              <description>Once per battle bearer may make a single special attack instead of rolling to hit, etc as normal. All models in base contact (not the bearer&apos;s mount) take D3 wounds with no Armour save.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -1913,7 +1913,7 @@
               </constraints>
               <rules>
                 <rule id="3b86-40ca-9c8d-22a8" name="Armour of Gazrakh" hidden="false">
-                  <description>Gives the wearer a 1+ armour save that cannot be improved.</description>
+                  <description>Gives wearer a 1+ Armour save that cannot be improved.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -1930,7 +1930,7 @@
               </constraints>
               <rules>
                 <rule id="c32c-45dc-c59e-c366" name="Armour of the Furnace" hidden="false">
-                  <description>The wearer has a 4+ armour save and a 5+ ward save. The wearer and his mount are immune to fire based attacks and spells.</description>
+                  <description>Counts as wearing armour (4+ Armour save) 5+ Ward save. Wearer (and his mount) is immune to fire based attacks and spells.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -1977,7 +1977,7 @@
           </constraints>
           <rules>
             <rule id="522a-da44-6999-cc9d" name="Gauntlets of Bazhrakk the Cruel" hidden="false">
-              <description>The wearer has +1 Strength, but if they roll a 1 to hit the blow strikes a random friendly model in base contact instead (this can be the wearer&apos;s mount)</description>
+              <description>+1 Strength. If the wearer rolls a 1 to hit, this blow strikes a random friendly model in base contact instead. This could be his mount.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -1994,7 +1994,7 @@
           </constraints>
           <rules>
             <rule id="166b-da9e-2029-1300" name="Black Gem of Gnar" hidden="false">
-              <description>One use only. Can be activated at the beginning of either player&apos;s Close Comat phase, after challenges are issued and accepted. The bearer and one model in base contact (bearer&apos;s choice) may not attack or be attacked for the duration of that phase, nor may their steeds attack. Work out combat resolution as normal.</description>
+              <description>Can be activated at the beginning of either player&apos;s Close Combat phase, after challenges are issued and accepted. The bearer and one model in base contact (bearer&apos;s choice) may not attack or be attacked for the duration of that phase. Work out combat resolution as normal. Steeds may not attack either. One use only.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2025,7 +2025,7 @@
           </constraints>
           <rules>
             <rule id="9c95-ca69-7b73-ee2b" name="Talisman of Obsidian" hidden="false">
-              <description>Wearer cannot be affeced by spells at all (not even friendly spells) and obviously cannot cast any spells himself. Wizards in base contact cannot cast spells.</description>
+              <description>Wearer cannot be affected by spells at all (not even friendly spells), and obviously cannot cast any himself. Wizards in base contact cannot cast spells.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2052,7 +2052,7 @@
           </constraints>
           <rules>
             <rule id="27ac-2368-783c-bafd" name="Banner of Slavery" hidden="false">
-              <description>Orc, Goblin and Hobgoblin units within 12&quot; of the banner may re-roll any failed Psychology tests.</description>
+              <description>Orc, Goblin and Hobgoblin units within 12&quot; of the banner may re-roll any failed Psychology test.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2117,7 +2117,7 @@
               </constraints>
               <rules>
                 <rule id="1548-e51f-4ebd-2e8f" name="Chalice of Darkness" hidden="false">
-                  <description>You may choose to roll a D3 at the start of either player&apos;s Magic phase. Remove this many dice from both player&apos;s magic pools.</description>
+                  <description>You may choose to roll a D3 at the start of either player&apos;s Magic phase. Remove this, many dice from both player&apos;s magic pools.</description>
                 </rule>
               </rules>
               <categoryLinks>

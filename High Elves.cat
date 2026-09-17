@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="3f17-868d-fac0-4c8d" name="First Among Equals" hidden="false">
       <constraints>
@@ -1151,7 +1151,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2940-81d8-9467-47f6" type="max"/>
           </constraints>
           <rules>
-            <rule id="af84-32d4-1c4c-e1f5" name="Dragon Armour" hidden="false"/>
+            <rule id="af84-32d4-1c4c-e1f5" name="Dragon Armour" hidden="false">
+              <description>The model is immune to all breath attacks, and any fire-based attack (including spells from the Lore of Fire). Dragon armour also counts as heavy armour, giving a 5+ armour save.</description>
+            </rule>
           </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
@@ -1628,11 +1630,7 @@
     <selectionEntry id="47ff-199d-f9a2-ac43" name="Repeater Bolt Throwers" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="1d83-79b5-8644-6f8f" name="Repeater Bolt Throwers" hidden="false">
-          <description>A Repeater Bolt Thrower is a war machine and all the rules governing war machines apply. Repeater Bolt Throwers may either shoot a single bolt or they may fire multiple shots.
-
-If using the multiple shots option then the Repeater Bolt Thrower shoots six bolts in each Shooting phase. These shots are worked out exactly like shots from bows or crossbows, using the Ballistic Skill of the crew to determine whether the bolts hit or not. All bolts must be directed towards a single target. Multiple shots have a Range of 48&quot;, a Strength of 4, with armour saves suffering a -2 penalty.
-
-Note that Repeater Bolt Throwers do not suffer -1 to hit for fiing multiple shots.</description>
+          <description>If using the multiple shots option then the Repeater Bolt Thrower shoots six bolts in each Shooting phase. These shots are worked out exactly like shots from bows or crossbows, using the Ballistic Skill of the crew to determine whether the bolts hit or not. All bolts must be directed towards a single target. Multiple shots have a Range of 48&quot;, a Strength of 4, with armour saves suffering a -2 penalty.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -1673,7 +1671,9 @@ Note that Repeater Bolt Throwers do not suffer -1 to hit for fiing multiple shot
             </profile>
           </profiles>
           <rules>
-            <rule id="ef75-ab3e-8c6c-876d" name="Repeater Bolt Thrower" hidden="false"/>
+            <rule id="ef75-ab3e-8c6c-876d" name="Repeater Bolt Thrower" hidden="false">
+              <description>If using the multiple shots option then the Repeater Bolt Thrower shoots six bolts in each Shooting phase. These shots are worked out exactly like shots from bows or crossbows, using the Ballistic Skill of the crew to determine whether the bolts hit or not. All bolts must be directed towards a single target. Multiple shots have a Range of 48&quot;, a Strength of 4, with armour saves suffering a -2 penalty.</description>
+            </rule>
           </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="100.0"/>
@@ -3125,7 +3125,9 @@ are immune to this effect also.</description>
               </constraints>
               <rules>
                 <rule id="b4c4-b252-fe0c-ec6b" name="Annulian Crystal" hidden="false">
-                  <description>During the enemy&apos;s Magic phase, the Crystal allows the High Elf player to remove one dice from the opponent&apos;s pile of Power dice and add it to his own Dispel dice pile.</description>
+                  <description>Dug from beneath the Annuli mountains, this crystal has been shaped by the magical vortex that swathes Albion, so that it draws magical energy towards it.
+
+During the enemy&apos;s Magic phase, the Crystal allows the High Elf player to remove one dice from the opponent&apos;s pile of Power dice and add it to his own Dispel dice pile.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -3228,7 +3230,13 @@ are immune to this effect also.</description>
                   </constraints>
                   <rules>
                     <rule id="f3c3-b3ca-6200-f8be" name="Power Stone" hidden="false">
-                      <description>One use only. +2 dice to cast a spell.</description>
+                      <description>The Power Stone is imbued with a powerful magical invocation. When it is held out by a Wizard before he casts a spell, the effect is to enhance the efficacy of the magic. A further two dice are added to the Casting roll. Note that using a Power Stone will allow a Wizard to use more Power dice than he is normally permitted. For example, a First Level Wizard may read a Power Stone and thus use four Power dice to cast a spell (2 basic + 2 from a Power Stone). A Power Stone can only be used once - after one use its power is exhausted.
+
+Using a Power Stone will bring any spell in play cast earlier by that Wizard to an end in the same way as casting a new spell by ordinary means.
+
+As with scrolls, Power Stones are not unique items - they are prepared by a Wizard prior to battle and it is quite possible for several Wizards to carry Power Stones, and for a Wizard to carry more than one. However, only one Power Stone can be used to enhance a spell.
+
+Note that a spell cast with a Power Stone can never be cast with Irresistible Force, though it can be Miscast.</description>
                     </rule>
                   </rules>
                   <categoryLinks>
@@ -3413,9 +3421,7 @@ are immune to this effect also.</description>
           </constraints>
           <rules>
             <rule id="43c0-2e7f-1661-6486" name="Pure of Heart" hidden="false">
-              <description>Though the Golden Age of the High Elves is a distant memory, then are still a few noble Elves those mere presence reminds those about them of the heroic past of their race. They embody all that is glorious about the Elves from before the tine of the Sundering and are a bittersweet reminder of former achievements.
-
-This Honour MUST be given to exactly one high Elf character. It costs no points.
+              <description>This Honour MUST be given to exactly one high Elf character. It costs no points.
 The character, and any unit he joins, is Immune to Panic. If the Pure of Heart character is killed, the High Elf player loses 100 Victory points from his total at the end of the battle. If the scenario does not use Victory points then the demise of the Pure of Heart character has no effect.</description>
             </rule>
           </rules>
@@ -3446,9 +3452,7 @@ The character, and any unit he joins, is Immune to Panic. If the Pure of Heart c
           </constraints>
           <rules>
             <rule id="b768-73d3-19fe-aec7" name="Loremaster" hidden="false">
-              <description>Sated by his training in the martial arts, this character has now embarked upon the path of the mage.
-
-The character is a Level 1 Wizard. Note that he may not cast spells if he is wearing armour (remember that barding for his steed will not affect his spell casting).</description>
+              <description>The character is a Level 1 Wizard. Note that he may not cast spells if he is wearing armour (remember that barding for his steed will not affect his spell casting).</description>
             </rule>
           </rules>
           <costs>
@@ -3461,9 +3465,7 @@ The character is a Level 1 Wizard. Note that he may not cast spells if he is wea
           </constraints>
           <rules>
             <rule id="5faa-256e-293e-db8d" name="Lion Guard" hidden="false">
-              <description>The hero is lauded amongst all Elvenkind for his total devotion to the protection of Ulthuan and his unswerving loyalty to the Phoenix King.
-
-The character comes equipped with a lion cloak. The character and any unit he leads is Stubborn. If you have a character with Lion Guard, then White Lions become a Special Choice for your army (but remain 0-1).</description>
+              <description>The character comes equipped with a lion cloak. The character and any unit he leads is Stubborn. If you have a character with Lion Guard, then White Lions become a Special Choice for your army (but remain 0-1).</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3480,9 +3482,7 @@ The character comes equipped with a lion cloak. The character and any unit he le
           </constraints>
           <rules>
             <rule id="7b20-bf15-f9d9-d0a5" name="Swordmaster" hidden="false">
-              <description>Trained by the adepts at the tower of Hoeth, the lethal skills of this warrior are justly fabled.
-
-The character is equipped with a great weapon and may not take a magic weapon. Instead of striking last in any turn he does not charge, the character will strike in Initiative order. The character also has the Killing Blow special rule.</description>
+              <description>The character is equipped with a great weapon and may not take a magic weapon. Instead of striking last in any turn he does not charge, the character will strike in Initiative order. The character also has the Killing Blow special rule.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3599,10 +3599,7 @@ Mage only. May cast with a maximum of + 1 more Power dice than normal. For examp
       <description>lthilmar barding adds + I to the model&apos;s armour save like ordinary barding, however there is no reduction in the movement rate of the model.</description>
     </rule>
     <rule id="d572-b8fe-424a-4311" name="Dragon Armour" hidden="false">
-      <description>Forged in the heart of a volcano, this fine armour is enchanted to ward off the effects of Dragon breath.
-
-The model is immune to all breath attacks, and any fire-band attack (including spells from the Lore of Fire). Dragon armour also counts as heavy armour, giving a 5+ armour save.
-</description>
+      <description>The model is immune to all breath attacks, and any fire-based attack (including spells from the Lore of Fire). Dragon armour also counts as heavy armour, giving a 5+ armour save.</description>
     </rule>
     <rule id="bdf5-319e-933e-4e77" name="Lion Cloak" hidden="false">
       <description>The white lion cloak that gives the White Lions of Chrace their name also gives them a +2 armour save versus missile fire. In close combat it is thrown cloak over the shoulder and offers no additional protection.</description>
@@ -3611,7 +3608,7 @@ The model is immune to all breath attacks, and any fire-band attack (including s
       <description>High Elf Mages get +1 to each attempt to dispel. Note that this bonus is not cumulative for having more than one High Elf Mage, so an army with two High Elf Mages will still only get +1 to dispel from this source. However, this bonus may still be combined with magic items as normal.</description>
     </rule>
     <rule id="eee4-1f3b-1339-bd99" name="Swordmaster" hidden="false">
-      <description>May use a Great weapon as deftly as a normal sword. Instead of striking last in any turn they don&apos;t charge, they strike in Initiative order. A Great weapon used by a Swordmaster will still strike blows with + 2 Strength.</description>
+      <description>The character is equipped with a great weapon and may not take a magic weapon. Instead of striking last in any turn he does not charge, the character will strike in Initiative order. The character also has the Killing Blow special rule.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

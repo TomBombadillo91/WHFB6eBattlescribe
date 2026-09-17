@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3604-800a-4012-5da6" name="Dogs of War" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3604-800a-4012-5da6" name="Dogs of War" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5e7e-36e5-c0bf-c57c" name="Dogs of War" hidden="false"/>
     <categoryEntry id="c51c-ed7d-9669-006f" name="Regiment of Renown" hidden="false"/>
@@ -2157,10 +2157,7 @@
           </profiles>
           <rules>
             <rule id="2966-39b0-ac06-881c" name="Scimitar of Dakisir" hidden="false">
-              <description>Magic Weapon
-This scimitar is an heirloom of the tribal sheikhs of the Desert Dogs. It was forged centuries ago in the Kasbah of Dakisir, long ago sacked and ruined by the Undead. The blade is decorated with magical texts inlaid in gold.
-
-Thanks to his impressive weapon Sheikh Ahmed Shufti adds +1 Strength to blows he strikes and +2 Strength for blows struck in the turn in which he charges.</description>
+              <description>Thanks to his impressive weapon Sheikh Ahmed Shufti adds +1 Strength to blows he strikes and +2 Strength for blows struck in the turn in which he charges.</description>
             </rule>
           </rules>
           <costs>
@@ -2189,8 +2186,7 @@ Thanks to his impressive weapon Sheikh Ahmed Shufti adds +1 Strength to blows he
           </profiles>
           <rules>
             <rule id="26f5-8c00-4e9f-eb69" name="Black Banner of the Muktarhin" hidden="false">
-              <description>Magic Standard
-When calculating which side wins the combat, the banner adds+D3 to the Desert Dogs’ score.</description>
+              <description>When calculating which side wins the combat, the banner adds+D3 to the Desert Dogs’ score.</description>
             </rule>
           </rules>
           <costs>
@@ -2750,10 +2746,7 @@ Luca Brazanga is armed with a Hand Weapon, Pistol, Crossbow and Heavy Armour</de
           </profiles>
           <rules>
             <rule id="88a4-7bb2-6834-9021" name="Amulet of Dragonheart" hidden="false">
-              <description>Enchanted Item
-This amulet was one of the potent artefacts made by Caledor the Dragontamer for the Elven Dragon Princes. It is said that the gleaming gem hanging around Asarnil’s neck is a stone found at the heart of a mountain, blessed by Caledor the Dragontamer himself.
-
-The dazzling light of the Amulet of Dragonheart makes the shape of Asarnil and his Dragon appear blurry and vague, as if glanced through a haze. All missile attacks against Asarnil and his Dragon suffer a -1 to hit penalty.</description>
+              <description>The dazzling light of the Amulet of Dragonheart makes the shape of Asarnil and his Dragon appear blurry and vague, as if glanced through a haze. All missile attacks against Asarnil and his Dragon suffer a -1 to hit penalty.</description>
             </rule>
           </rules>
           <costs>
@@ -2857,16 +2850,101 @@ In addition, if rolling on the Monster Reaction chart for Deathfang add +1 to th
       </profiles>
       <rules>
         <rule id="abcd-4900-3b39-b338" name="Small Calibre" hidden="false">
-          <description>The maximum range you can guess is 24&quot;. The shots are Strength 7, D3 wounds, no Armour save.</description>
+          <description>The maximum range you can guess is 24&quot;. The shots are Strength 7, D3 wounds, no Armour save.
+
+Rapid Movement
+
+The Galloper Gun is harnessed to a warhorse ridden by one of the gunners. This enables the Gun and its entire crew to move 8&quot; (the remaining crew are assumed to jump on the harness and hitch a lift).
+The Galloper Guns may march move. 
+If the Galloper Gun is charged, the crew may hold or flee. If they flee, the Gun is assumed to be limbered up immediately without any movement penalty. If the Gun and crew are caught, they are destroyed.
+
+Close Combat
+
+The crew fight in hand-to-hand combat as normal. The mounted gunner fights as normal from horseback.
+
+Deployment
+
+The Guns are deployed as separate teams, each Gun and its crew operating as an independent unit. Bronzino must be deployed together with one team, but he can then ride from one team to another or operate on his own as a separate character. When he joins a team, he follows the normal rules for characters joining war machines.</description>
         </rule>
         <rule id="6f24-a681-3a27-f750" name="Rapid Movement" hidden="false">
-          <description>The Galloper Gun is harnessed to a warhorse ridden by one of the gunners. This enables the Gun and its entire crew to move 8&quot; (the remaining crew are assumed to jump on the harness and hitch a lift). The Galloper Guns may march move. If the Galloper Gun is charged, the crew may hold or flee. If they flee, the Gun is assumed to be limbered up immediately without any movement penalty. If the Gun and crew are caught, they are destroyed.</description>
+          <description>The maximum range you can guess is 24&quot;. The shots are Strength 7, D3 wounds, no Armour save.
+
+Rapid Movement
+
+The Galloper Gun is harnessed to a warhorse ridden by one of the gunners. This enables the Gun and its entire crew to move 8&quot; (the remaining crew are assumed to jump on the harness and hitch a lift).
+The Galloper Guns may march move. 
+If the Galloper Gun is charged, the crew may hold or flee. If they flee, the Gun is assumed to be limbered up immediately without any movement penalty. If the Gun and crew are caught, they are destroyed.
+
+Close Combat
+
+The crew fight in hand-to-hand combat as normal. The mounted gunner fights as normal from horseback.
+
+Deployment
+
+The Guns are deployed as separate teams, each Gun and its crew operating as an independent unit. Bronzino must be deployed together with one team, but he can then ride from one team to another or operate on his own as a separate character. When he joins a team, he follows the normal rules for characters joining war machines.</description>
         </rule>
         <rule id="35f5-4621-e0e0-d7f2" name="Deployment" hidden="false">
-          <description>The Guns are deployed as separate teams, each Gun and its crew operating as an independent unit. Bronzino must be deployed together with one team, but he can then ride from one team to another or operate on his own as a separate character. When he joins a team, he follows the normal rules for characters joining war machines.</description>
+          <description>In most scenarios, all the war machines in your army must be deployed at one time. They don&apos;t have to be deployed near each other, and there are no battery rules. Characters can be deployed with them when your characters are put on the table (such as Dwarf or Empire Engineers), not when the war machines are set up.
+
+War machines (or anyone else for that matter) cannot be deployed in impassable terrain. Now, this is where arguments start, as players think that different types of scenery would be impassable to war machines - we&apos;ve probably all heard someone say, &quot;How did that cannon get on top of that tower then? Air-lifted by Griffon was it?&quot; or similar. As with all terrain, there are no hard and fast rules to apply because people&apos;s collections can vary so much. However, it is always a good idea to go over the different scenery pieces on the battlefield before the game starts and say what type is what. Whilst doing this, it is worthwhile agreeing any areas where you feel war machines cannot deploy, thus saving debates once half your army is down and your whole deployment is based around setting up your Volley Gun in those rocks.</description>
         </rule>
         <rule id="9e26-c77c-33ec-abcc" name="Close Combat" hidden="false">
-          <description>The crew fight in hand-to-hand combat as normal. The mounted gunner fights as normal from horseback.</description>
+          <description>Once Shooting has been resolved it is time to deal with the brutal cut and thrust of close combat, hand-to-hand fighting or melee, as it&apos;s sometimes called. Once engaged in close combat, units cannot move or shoot missile weapons, they must stand toe-to-toe with their enemy until one side is destroyed or forced to flee. Regardless of which player&apos;s turn it is, all models that are in contact with the enemy must fight. The Close Combat phase is therefore an exception to the normal turn sequence in that both sides take part in the fighting.
+
+Like the Movement phase, the Close Combat phase follows a set order or sequence as outlined below.
+
+1. Fight Combats - Each unit involved in combat fights as explained in the rules that follow. Fight all the combats before working out results.
+2. Results - Work out which side has won each combat and by how much. The losing side will have lost by 1, 2 or more &apos;points&apos; as explained later.
+3. Break Tests - Each unit that loses in combat must take a Break test. Any units failing their Break test are deemed &apos;broken&apos; and a note is made or models are turned round to show this. Take all Break tests now.
+4. Panic Tests - If any friendly units have broken then units nearby must take a Panic test as described in the Psychology section. Take any required Panic tests now.
+5. Flee! - Units which have broken or failed their Panic test must flee away from their enemy. Move all newly fleeing troops now.
+6. Pursue - Units whose enemies have broken and fled that turn are allowed to pursue them and might possibly catch and destroy them.
+7. Redress Ranks - At the end of the Close Combat phase, formations are tidied up ready for the next phase.
+
+Contents
+
+- Combats
+- Who Strikes First
+- Which Models Fight
+- Hitting the Enemy
+- Cavalry (Close Combat)
+- Defended Obstacles
+- Wound (Close Combat)
+- Weapons Modifiers
+- Saves (Close Combat)
+- Regeneration and Killing Blow
+- Removing Casualties (Close Combat)
+- Excess Casualties
+- Results
+- Combat Results
+- Combat Resolution Bonuses
+- Outnumbering
+- Challenges (Combat Resolution)
+- Order of Combat Resolution
+- Losers Take a Break Test
+- Panic Tests for Breaks
+- Fleeing Troops
+- Move Fleeing Troops
+- Subsequent Actions of Fleeing Troops
+- Rallying (Close Combat)
+- Rally Test
+- Pursuit
+- Pursuit Move
+- Pursuit into Fresh Enemy
+- Pursuit into Enemy Chargers
+- Restraining Pursuit
+- Pursuit Off the Table
+- Redress the Ranks
+- Fleeing Units
+- Units Taking Casualties
+- Expand Frontage
+- Lapping Round
+- Combat Bonuses
+- Defeat in Combat
+- Which Models Can Fight
+- Overrun Rule
+- Overrun
+- Overrun Direction</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3041,23 +3119,18 @@ In addition, if rolling on the Monster Reaction chart for Deathfang add +1 to th
       </modifiers>
       <rules>
         <rule id="3aaa-0c38-d683-5ca5" name="Giants of Albion" hidden="false">
-          <description>Cachtorr and Bologs are large targets and cause terror.
-
-Note that, although named, Cachtorr and Bologs do NOT count as being characters. Giants treat obstacles like open ground, but are prone to falling. Roll a D6 if they cross an obstacle or lose a round of combat. If you roll a 1 the Giant has fallen and can squash those underneath. Use the Scatter dice to see which direction he falls in, and the model itself as a template. Those underneath take a single S5 hit which causes D3 wounds. Giants may not attack and are hit automatically in hand-to-hand combat whilst on the ground. They are automatically killed if they break from combat while on the ground. It takes a Giant one turn to stand up. Giants also fall over when they die.
+          <description>Note that, although named, Cachtorr and Bologs do NOT count as being characters. Giants treat obstacles like open ground, but are prone to falling. Roll a D6 if they cross an obstacle or lose a round of combat. If you roll a 1 the Giant has fallen and can squash those underneath. Use the Scatter dice to see which direction he falls in, and the model itself as a template. Those underneath take a single S5 hit which causes D3 wounds. Giants may not attack and are hit automatically in hand-to-hand combat whilst on the ground. They are automatically killed if they break from combat while on the ground. It takes a Giant one turn to stand up. Giants also fall over when they die.
 
 In close combat you must roll a dice each round to determine what the Giant will do that turn. Against other large targets:
 
-On a roll of 1-3 Giants will Yell and Bawl (Giant does not attack, but enemy side automatically loses the fight by 2)
-
-On the roll of a 4-6 they will &apos;Eadbutt (D6 S6 hits, randomised like missile fire for ridden monsters)
+- On a roll of 1-3 Giants will Yell and Bawl (Giant does not attack, but enemy side automatically loses the fight by 2)
+- On the roll of a 4-6 they will &apos;Eadbutt (D6 S6 hits, randomised like missile fire for ridden monsters)
 
 Against smaller opponents:
 
-Giants will Yell and Bawl on the roll of a 1-2
-
-On the roll of a 3-4 they will Jump Up and Down (2D6 S6 hits on unit, randomised like missile fire, but first test to fall over – see above)
-
-On the roll of a 5-6 they will Swing With Club (D6 S6 hits on unit, randomised like missile fire).</description>
+- Giants will Yell and Bawl on the roll of a 1-2
+- On the roll of a 3-4 they will Jump Up and Down (2D6 S6 hits on unit, randomised like missile fire, but first test to fall over – see above)
+- On the roll of a 5-6 they will Swing With Club (D6 S6 hits on unit, randomised like missile fire).</description>
         </rule>
         <rule id="0fe2-5e8a-fc04-708a" name="Independent Models" hidden="false">
           <description>Hengus, Cachtorr and Bologs are individual models and move independently, though they may not join regiments. The enemy is awarded Victory points separately for each model slain. Hengus is worth 100 points and each Giant is worth 175 points.</description>
@@ -3471,9 +3544,7 @@ Beorg is a Were-Bear - he wears no armour and fights with his claws an teeth!</d
           </profiles>
           <rules>
             <rule id="ee24-7c1f-dacb-aef1" name="Bear Fang" hidden="false">
-              <description>Talisman
-This gigantic and ancient yellowed canine tooth is the sacred talisman of lordship amongst Beorg’s tribe. Beorg wears it about his neck.
-The talisman wards off blows that would otherwise harm its wearer, giving Beorg a Ward save of 4+.</description>
+              <description>The talisman wards off blows that would otherwise harm its wearer, giving Beorg a Ward save of 4+.</description>
             </rule>
           </rules>
           <costs>
@@ -3502,8 +3573,7 @@ The talisman wards off blows that would otherwise harm its wearer, giving Beorg 
           </profiles>
           <rules>
             <rule id="e783-fe37-bcb3-cbec" name="Bear Banner" hidden="false">
-              <description>Magic Standard
-Oerl carries the tribe’s totem into battle – an entire bear skin whose grizzly head leers out from the top. The skin’s power is immense, driving the warriors into a fury that is almost impossible to stop. To represent this, the entire unit receives a +1 to hit bonus in the initial round of each hand-to-hand combat.</description>
+              <description>Oerl carries the tribe’s totem into battle – an entire bear skin whose grizzly head leers out from the top. The skin’s power is immense, driving the warriors into a fury that is almost impossible to stop. To represent this, the entire unit receives a +1 to hit bonus in the initial round of each hand-to-hand combat.</description>
             </rule>
           </rules>
           <costs>
@@ -3627,8 +3697,7 @@ Oerl carries the tribe’s totem into battle – an entire bear skin whose grizz
           </constraints>
           <rules>
             <rule id="cd60-5ab3-c25f-7b9b" name="Grimacing Death Mask" hidden="false">
-              <description>Enchanted Item
-The mask, which represents the grimacing face of death, is the last thing Vespero’s duelling opponents see before they meet their sudden end. To represent the scarifying effect of the mask, Vespero causes fear in the enemy.</description>
+              <description>The mask, which represents the grimacing face of death, is the last thing Vespero’s duelling opponents see before they meet their sudden end. To represent the scarifying effect of the mask, Vespero causes fear in the enemy.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3686,13 +3755,10 @@ The mask, which represents the grimacing face of death, is the last thing Vesper
       </profiles>
       <rules>
         <rule id="9de6-b22b-a631-cc2f" name="The Spiral" hidden="false">
-          <description>The symbol of the Dark Master and a feared sign of damnation. Few enemies dare look upon it.
-5+ Ward Save.</description>
+          <description>5+ Ward save.</description>
         </rule>
         <rule id="0a54-71dc-cf52-ca45" name="For Hire (Dark Emissary)" hidden="false">
-          <description>A Dark Emissary can be hired as a Dogs of War unit. They may be hired by Dark Elves, Skaven, Chaos (all types including armies with a daemonic general), Vampire Counts, Tomb Kings, Dwarfs, Empire, Bretonnia (this is an exception to the normal rule), Dogs of War and Orcs &amp; Goblins.
-
-A Dark Emissary costs 265 points and uses up both a Rare choice and a Hero choice.
+          <description>A Dark Emissary costs 265 points and uses up both a Rare choice and a Hero choice.
 
 If fighting alongside a Dwarf army containing an Anvil of Doom, make two separate pools of Power dice in your own Magic phase: one pool to be used with the Anvil (D6+2 dice) and one to be used by the Emissary (two dice plus four for his Level). In your opponent&apos;s Magic phase, you can group all your Dispel dice into a single pool.</description>
         </rule>
@@ -3816,61 +3882,15 @@ The Bolt is a magic missile with a range of up to 18&quot;. If successfully cast
       </profiles>
       <rules>
         <rule id="3b4f-d515-95a2-a5b3" name="The Triskele" hidden="false">
-          <description>The magical symbol of their office, it also focuses positive energies onto Truthsayers, protecting them from harm.
-
-4+ Ward save.</description>
+          <description>4+ Ward save.</description>
         </rule>
         <rule id="f59e-e12e-9a2d-a307" name="For Hire (Truthsayer)" hidden="false">
-          <description>A Truthsayer can be hired as a Dogs of War unit. They may be hired by Lizardmen, High Elves, Wood Elves, Dwarfs, Tomb Kings, Empire, Bretonnia (this is an exception to the normal rule), Dogs of War and Orcs &amp; Goblins.
-
-A Truthsayer costs 265 points and uses up both a Rare choice and a Hero choice.
+          <description>A Truthsayer costs 265 points and uses up both a Rare choice and a Hero choice.
 
 If fighting alongside a Dwarf army containing an Anvil of Doom make two separate pools of Power dice in your own Magic phase: one pool to be used with the Anvil (D6+2 dice) and one to be used by the Truthsayer (two dice plus three for his Level). In your opponent&apos;s Magic phase, you can group all your Dispel dice into a single pool.</description>
         </rule>
         <rule id="3a09-57ec-3385-511b" name="Truthsayer Spell List" hidden="false">
-          <description>Elemental Power (Signature Spell)
-Casting Value: 6+
-Fenbeasts are elemental creatures which thrive on the magic which suffuses the isle of Albion. This can be boosted by magical energy from the Truthsayer or Dark Emissary.
-
-As well as their normal spells, Truthsayers and Dark Emissaries also have the Elemental Power spell, which is only of use on Fenbeasts. Pick a single Fenbeast within 18&quot; of the caster. The Fenbeast immediately gains D3 Wounds, up to its starting value of 4.
-
-1. Wings of Fate
-Casting Value: 5+
-The Truthsayer conjures a flock of enchanted birds to attack his enemies.
-
-The flock is a magic missile with a range of up to 24&quot;. If successfully cast, the flock hits its target and causes 2D6 Strength 2 hits.
-
-2. Light of Battle
-Casting Value: 6+
-A chosen regiment of warriors is protected by a shimmering barrier that deflects enemy missiles and blows.
-
-This spell can be cast on one friendly unit anywhere on the battlefield, even if engaged in close combat. All models in the unit receive a 5+ Ward save until the beginning of the caster&apos;s next turn.
-
-3. Gift of Life
-Casting Value: 7+
-Dying warriors that are lying broken on the battlefield are granted a new chance, their bodies are healed of all wounds and their strength is returned to them.
-
-Each unit in the player&apos;s army is given back one model that has been removed as a casualty during the game. The model is placed back in its original unit, with its full complement of Wounds. The spell has no effect on units that have been destroyed or fled off the table. All characters, chariots and models with 4 or more Wounds on their profile who have been wounded get one lost Wound back. This spell has no effect on war machines (but it can restore a lost crew member).
-
-4. Blessing of Valour
-Casting Value: 8+
-The prayers of the Truthsayer are heeded in the heavens and his warriors are filled with the strength and skills of the gods of hunting and battle.
-
-Remains in play. This spell can be cast on a friendly unit which is anywhere on the battlefield, even if it is engaged in close combat. If successfully cast, all models that are in the unit get a bonus of +1 to all their rolls to hit (both shooting and close combat attacks). Once it is cast, the Blessing remains in play until it is dispelled, or until the Wizard chooses to end it (which he can do at any time), attempts to cast another spell or is slain.
-
-5. Boon of Courage
-Casting Value: 8+
-The warriors hear the commanding voice of the Truthsayer in their minds, calling upon their honour and bidding them to fight on, no matter how desperate their situation has become.
-
-This spell can be cast on one friendly unit anywhere on the battlefield, even if it is engaged in close combat. If successfully cast, the unit is Unbreakable until the beginning of the caster&apos;s next turn.
-
-If cast on a fleeing unit, the unit immediately rallies, regardless of how many models are left in it.
-
-6. Voice of Command
-Casting Value: 9+
-Hearing the booming voice of the Truthsayer, an enemy regiment suddenly stops in its tracks, doubt filling their minds, hesitation paralysing their limbs.
-
-This spell can be cast on any enemy unit on the table. The unit must immediately take a Leadership test. If the test is failed, the unit immediately loses all its fighting spirit. The affected unit cannot move in its next Movement phase (except if the unit is subject to some form of compulsory movement, such as fleeing, stupidity, etc). In addition, the unit cannot shoot in its next Shooting phase. This spell has no effect on models that are Immune to Psychology.</description>
+          <description>Truthsayers&apos; Spell List Lore</description>
         </rule>
         <rule id="9e89-884e-13a1-978f" name="Level 3 Wizard" hidden="false">
           <description>Truthsayers are Level 3 Wizards. They always use spells from the Truthsayer spell list.</description>
@@ -3925,7 +3945,7 @@ This spell can be cast on any enemy unit on the table. The unit must immediately
       </constraints>
       <rules>
         <rule id="e552-fcd6-6396-8fec" name="For Hire (Fenbeasts)" hidden="false">
-          <description>Any army that includes a Truthsayer or Dark Emissary may field one or more Fenbeasts as Dogs of War. Up to 3 Fenbeasts may be included as a single Rare choice. No army may include more than 3 Fenbeasts.</description>
+          <description>These rules state which armies the regiment can fight for and its position (Core, Special, Rare) in the relevant lists.</description>
         </rule>
       </rules>
       <categoryLinks>

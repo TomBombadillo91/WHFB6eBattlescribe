@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9817-5d62-aa33-69f5" name="Ogre Kingdoms" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9817-5d62-aa33-69f5" name="Ogre Kingdoms" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5fa5-4b26-a63e-0bef" name="Big Name" hidden="false"/>
     <categoryEntry id="a123-ef4a-523b-4159" name="Has Thiefstones" hidden="false"/>
@@ -480,12 +480,9 @@
           </profiles>
           <rules>
             <rule id="1268-ae95-456d-f897" name="Sic &apos;em Boys" hidden="false">
-              <description>Any Sabretusks accompanying the Hunter will be deployed alongside the Hunter (one on either side if two are taken). 
-A Hunter may never decline a challenge, just as though he were on his own. 
-Missile fire is randomised against the unit by rolling a D6: 1-4 hits the Hunter, 5 or 6 hits a Sabretusk. 
+              <description>A Hunter will often send his Sabretusks out to chase down vulnerable or wounded victims. They may charge independently of the Hunter using their own Movement rate. In this case, the Sabretusks charge and the Hunter moves as normal - the Hunter may not charge a different target. Once the Sabretusks have been released, they become a Fast Cavalry unit that may only ever be joined by the Hunter that released them (they will cease to be Fast Cavalry should the Hunter rejoin them).
 
-The Hunter and his unit need never take Panic tests for Sabretusk casualties. If the Hunter is killed, either by missile fire or in combat, then any unreleased Sabretusks are immediately treated as casualties as they feed on his corpse.
-
+Any Sabretusks accompanying the Hunter will be deployed alongside the Hunter (one on either side if two are taken). A Hunter may never decline a challenge, just as though he were on his own. Missile fire is randomised against the unit by rolling a D6: 1-4 hits the Hunter, 5 or 6 hits a Sabretusk. The Hunter and his unit need never take Panic tests for Sabretusk casualties. If the Hunter is killed, either by missile fire or in combat, then any unreleased Sabretusks are immediately treated as casualties as they feed on his corpse.
 If the Hunter breaks an enemy unit whilst he still has one or more Sabretusks remaining, and would normally be able to pursue, he may opt to release the &apos;tusks. The Hunter will automatically remain stationary whilst his Sabretusks run down the prey; roll 3D6 for their pursuit distance. The Sabretusks then become a separate unit as described above. Victory Points are counted separately for each Sabretusk killed, whether they are with the Hunter or not.
 
 Being huge feline predators the size of a warhorse, Sabretusks cause fear.</description>
@@ -1214,8 +1211,7 @@ Leadbelchers may both move and fire and stand &amp; shoot with their Leadbelcher
 
 Leadbelcher cannons can be used as Ogre clubs in close combat, regardless of whether they are loaded or not.
 
-Range 12&quot;	Strength 4 
-Armour Piercing, Multiple Shots (Artillery Dice)</description>
+Leadbelcher Cannon Profile</description>
             </rule>
           </rules>
           <infoLinks>
@@ -1446,7 +1442,9 @@ D6 | Effect
 5 | The Scrappers have found a shiny thing lying on the ground nearby and may not fire this turn.
 6 | The mischievous Scrappers have waited for the least popular amongst them to step on the loading mechanism and fired him instead. The hit lands on target, but instead of using the large Blast template, resolve a single Strength 5 hit instead at the point of impact (this still has Killing Blow).</description>
         </rule>
-        <rule id="82c0-79c2-046f-eecd" name="Scale Terrain" hidden="false"/>
+        <rule id="82c0-79c2-046f-eecd" name="Scale Terrain" hidden="false">
+          <description>Yhetees treat all undefended obstacles, cliffs, rocks, boulders, scree and woods as clear ground, even if it would normally be counted as impassable terrain. They may not end their move in any terrain classed as Impassable Terrain. Note that such features still block line of sight if they would normally do so.</description>
+        </rule>
         <rule id="bfbd-79c5-8e8d-4942" name="Unit Strength 5" hidden="false"/>
         <rule id="ed63-8917-b44c-47f9" name="Bad Tempered" hidden="false">
           <description>If there is an enemy model that is an eligible target for the Scraplauncher to charge during the Declare Charges part of the Movement phase, it must immediately pass a Leadership test or declare a charge - if there is a choice of models to charge, then the controlling player may choose freely between them.</description>
@@ -1655,16 +1653,7 @@ D6 | Effect
           <description>Giants expect smaller weedier folk to run away and would be disappointed if they didn&apos;t. Consequently, when a unit of cavalry-sized or smaller models, is destroyed, breaks or flees past, Giants do not need to test for panic.</description>
         </rule>
         <rule id="f361-7379-ec76-b886" name="Fall Over" hidden="false">
-          <description>Giants are ungainly and frequently befuddled, as a consequence of which they often trip, stumble or fall down. They are especially prone to this if they&apos;ve been raiding the local brewery. When a Giant falls over, this is bad news for everyone nearby as a falling Giant can easily squash anything it falls on.
-
-A Giant must test to see whether it falls over if any of the following apply:
-
-1) When it is beaten in close combat. Test once results are established but before taking Break or Panic tests.
-2) At the start of the Movement phase if it is fleeing.
-3) When it crosses an obstacle. Test when the obstacle is reached.
-4) If the Giant decides to Jump Up and Down on an enemy. Test immediately beforehand.
-
-To see if the Giant falls over roll a D6. If you score between 2 and 6 then the Giant sways slightly, but regains his balance and no harm is done. If the roll results in a 1 the Giant falls over. Obviously, if a Giant is slain then it falls over automatically.
+          <description>To see if the Giant falls over roll a D6. If you score between 2 and 6 then the Giant sways slightly, but regains his balance and no harm is done. If the roll results in a 1 the Giant falls over. Obviously, if a Giant is slain then it falls over automatically.
 
 To determine which direction the Giant falls, roll a Scatter dice - the arrow indicates the direction in which the Giant falls. Place the Falling Giant template with its feet at the model&apos;s base and its head in the direction of the fall. Any models lying completely under the template are automatically hit. Any models partly covered are hit on a 4+.
 
@@ -1764,16 +1753,20 @@ D6 | Result
       </profiles>
       <rules>
         <rule id="9411-ee49-2b18-a491" name="Ravenous" hidden="false">
-          <description>Gorgers must always end their move closer to the enemy, and if there is an eligible target for a charge then it must do so. If there is a choice of models to charge then the Ogre player may choose freely between them. Gorgers must always pursue, and may never overrun as they are too busy wolfing down great chunks of their prey.</description>
+          <description>When a Gorger latches onto the scent of fear, it becomes an unstoppable juggernaut intent on nothing other than feasting on a banquet of flesh and blood.
+
+Gorgers must always end their move closer to the enemy, and if there is an eligible target for a charge then it must do so. If there is a choice of models to charge then the Ogre player may choose freely between them. Gorgers must always pursue, and may never overrun as they are too busy wolfing down great chunks of their prey.</description>
         </rule>
         <rule id="aec0-83eb-a77a-cd34" name="Bloodscent" hidden="false">
           <description>Gorgers are not deployed on the table at the beginning of the battle. Instead, at the start of each Ogre turn (starting from Turn two), roll a D6 to see whether the Gorger arrives:
 
-Turn | Dice roll to arrive
-2 | 4+
-3 | 3+
-4 | 2+
-5 | Arrives automatically
+Bloodscent Chart
+
+Turn	Dice roll to arrive
+2	4+
+3	3+
+4	2+
+5	Arrives automatically
 
 In the Remaining Moves phase of the turn when it arrives, the Gorger can enter the battlefield from any table edge and will be treated exactly as if is re-entering play the turn after it had pursued enemy off the table (therefore it may not charge that turn).</description>
         </rule>
@@ -1827,8 +1820,27 @@ In the Remaining Moves phase of the turn when it arrives, the Gorger can enter t
 This is improved to a 3+ save if they are equipped with heavy armour.</description>
         </rule>
         <rule id="0b75-f1c4-2fa7-a323" name="Unit Strength" hidden="false">
-          <description>Each Rhinox Rider has Unit Strength 4.
-Bull Rhinox Riders have a Unit Strength of 6.</description>
+          <description>Warhammer has several rules (such as outnumbering, panic, etc) where the unit with greater impetus, size or hitting power gains an advantage over its opponents. To establish the relative power of all these different creatures, you need to determine Unit Strength. In most cases this is worked out by simply counting the number of models in a unit. However, some huge creatures such as Trolls, war machines, chariots, etc, are individually clearly more powerful than a single man on foot! These creatures have a different Unit Strength.
+
+Unit Strength Table Chart
+
+Troop Type	Unit Strength
+All Infantry (Man-sized)*	1
+Characters on foot	1
+Unit flyers	1
+Cavalry (25mm x 50mm bases)	2
+Chariots	4
+War Machines (including crew)	3
+Large Infantry (40/50mm base)*	3
+Monsters	Starting Wounds
+Ridden Monsters	1 per rider + Monster Unit Strength
+Models not specified elsewhere	1
+
+\** Ogres, Trolls, Minotaurs, Kroxigor, Chaos Spawn, Snotling bases, etc. Includes characters of these races. Excludes models that qualify as Monsters.*
+
+Unit The table that appears above gives you the Unit Strength value of each troop type. The Unit Strength listed is for each model in a unit. To figure out the Unit Strength of an entire regiment, count the number of models in the unit and multiply it with the appropriate number given. In the case of several types of models with different Unit Strengths in the same unit, simply add these together.
+
+Eg, a unit of three Ogres has a Unit Strength of (3x3=9).</description>
         </rule>
         <rule id="d102-d5b4-daea-751d" name="Thunderous Charge" hidden="false">
           <description>Even a single Rhinox Rider in full
@@ -1839,10 +1851,7 @@ each model causes D3 impact hits at the basic strength of the
 Rhinox or Bul l Rhinox.</description>
         </rule>
         <rule id="105b-de77-4fd6-89ea" name="Bad Tempered" hidden="false">
-          <description>Even Rhinoxes that have been broken by their riders have a temper shorter than a pygmy&apos;s thumb. 
-If there is an enemy model that is an eligible target for the Rhinox Riders to charge during the Declare Charges part of the Movement phase, 
-it must immediately pass a Leadership test or declare a charge. 
-If there is a choice of models to charge, then the controlling player may choose freely between them.</description>
+          <description>If there is an enemy model that is an eligible target for the Scraplauncher to charge during the Declare Charges part of the Movement phase, it must immediately pass a Leadership test or declare a charge - if there is a choice of models to charge, then the controlling player may choose freely between them.</description>
         </rule>
         <rule id="98d1-fef4-50a7-63ff" name="Rhinox Cavalry" hidden="false">
           <description>Once a Rhinox has started to move it is difficult to get it to stop.  This rarely interferes with the Rhinox Riders&apos; strategy, which usually consists of &apos;head down and charge&apos;.
@@ -2114,14 +2123,11 @@ Enemies firing at units of Rhinoxen comprising of Rhinox and Bull Rhinox must no
           <description>Skrag is a crazed, gore-splattered killing-machine driven on by the will of his god. He causes Terror and is subject to Frenzy.</description>
         </rule>
         <rule id="2e06-59b8-8ec5-b6e8" name="The Blessings of the Great Maw" hidden="false">
-          <description>Skrag and his Gorgers receive the blessings of their ever-hungry god according to the table below. The &apos;Models Killed&apos; column refers to the number of models killed by Skrag in combat. Models killed by Gut Magic or from running down fleeing units do not count towards this total. When a new level on the table is reached, the bonuses take effect immediately and are cumulative, although Skrag is only ever automatically restored to his starting number of Wounds after his first kill.
-
-Models killed | Effect on Skrag | Effect on Gorgers
-
-1+ | Skrag is automatically restored to his starting number of wounds, and gains Regeneration. | All Gorgers that have not entered play will enter play in the next Ogre Kingdoms turn.
-5+ | Skrag gains + 1 Attack. | All Gorgers gain + 1 Attack.
-10+ | Skrag may re-roll failed rolls to hit in combat. | Gorgers may re-roll failed rolls to hit in combat.
-15+ | Skrag becomes Unbreakable. | All Gorgers gain Regeneration.</description>
+          <description>Models killed	Effect on Skrag	Effect on Gorgers
+1+	Skrag is automatically restored to his starting number of wounds, and gains Regeneration.	All Gorgers that have not entered play will enter play in the next Ogre Kingdoms turn.
+5+	Skrag gains + 1 Attack.	All Gorgers gain + 1 Attack.
+10+	Skrag may re-roll failed rolls to hit in combat.	Gorgers may re-roll failed rolls to hit in combat.
+15+	Skrag becomes Unbreakable.	All Gorgers gain Regeneration.</description>
         </rule>
         <rule id="c459-13e1-0882-e713" name="Army of the Slaughterer" hidden="false">
           <description>In an army led by Skrag the Slaughterer, Gorgers are a Special choice, and in addition 2 Gorgers may be taken for each Special choice (rather than just 1). Skrag MUST be accompanied by at least 2 Gorgers (therefore using up 1 Special choice).</description>
@@ -2213,16 +2219,20 @@ Models killed | Effect on Skrag | Effect on Gorgers
             <rule id="4788-a135-0355-d8ae" name="Bloodscent" hidden="false">
               <description>Gorgers are not deployed on the table at the beginning of the battle. Instead, at the start of each Ogre turn (starting from Turn two), roll a D6 to see whether the Gorger arrives:
 
-Turn | Dice roll to arrive
-2 | 4+
-3 | 3+
-4 | 2+
-5 | Arrives automatically
+Bloodscent Chart
+
+Turn	Dice roll to arrive
+2	4+
+3	3+
+4	2+
+5	Arrives automatically
 
 In the Remaining Moves phase of the turn when it arrives, the Gorger can enter the battlefield from any table edge and will be treated exactly as if is re-entering play the turn after it had pursued enemy off the table (therefore it may not charge that turn).</description>
             </rule>
             <rule id="9dba-33ec-098a-1a36" name="Ravenous" hidden="false">
-              <description>Gorgers must always end their move closer to the enemy, and if there is an eligible target for a charge then it must do so. If there is a choice of models to charge then the Ogre player may choose freely between them. Gorgers must always pursue, and may never overrun as they are too busy wolfing down great chunks of their prey.</description>
+              <description>When a Gorger latches onto the scent of fear, it becomes an unstoppable juggernaut intent on nothing other than feasting on a banquet of flesh and blood.
+
+Gorgers must always end their move closer to the enemy, and if there is an eligible target for a charge then it must do so. If there is a choice of models to charge then the Ogre player may choose freely between them. Gorgers must always pursue, and may never overrun as they are too busy wolfing down great chunks of their prey.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -2353,9 +2363,7 @@ In the Remaining Moves phase of the turn when it arrives, the Gorger can enter t
           </conditions>
         </modifier>
       </modifiers>
-      <description>As an Ogre Kingdoms army will include a lot of units of large, multiple-Wound Ogres here are a few reminders and clarifications on the relevant rules:
-
-Single Ogres and Ogre characters move as monsters and have Unit Strength 3.
+      <description>Single Ogres and Ogre characters move as monsters and have Unit Strength 3.
 
 Ranked units containing champions and characters will need to keep track of wounds on rank and file troops and on the champion/character separately, as wounds are not carried over from one to the other. You might like to use differently coloured dice to keep track of wounds caused.
 
@@ -2369,7 +2377,9 @@ Single Ogre characters cannot be picked out if they are within 5” of a friendl
           </conditions>
         </modifier>
       </modifiers>
-      <description>Ogre characters cannot join Gnoblar units of any sort.</description>
+      <description>An Ogre seen leading a unit of mere Gnoblars would never live it down.
+
+Ogre characters cannot join Gnoblar units of any sort.</description>
     </rule>
   </rules>
   <sharedSelectionEntries>
@@ -2523,7 +2533,9 @@ Note: Tooth-Gnoblars are represented on the character model they accompany; they
         <selectionEntry id="e6d5-a630-ee00-90b6" name="Longstrider" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="e94c-9ed8-3225-a4ce" name="Longstrider" hidden="false">
-              <description>An Ogre with the big name Longstrider adds 1 to his Movement rate.</description>
+              <description>An Ogre with the big name Longstrider has hunted on the slopes of the mountains for decades, and is even capable of running down a sprinting ice elk. The first Hunter; Jhared the Red, was known as Jhared Longstrider until he slaughtered his own tribe.
+
+An Ogre with the big name Longstrider adds 1 to his Movement rate.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2768,7 +2780,9 @@ Ogres in the unit with the Dragonhide Standard are immune to Ice Magic.</descrip
           </constraints>
           <rules>
             <rule id="cc1f-ba00-e27e-a4c6" name="Skullplucker" hidden="false">
-              <description>The Ogre with this weapon has Killing Blow.</description>
+              <description>This heavy, spiked metal gauntlet was originally worn by its namesake Big Agi Skullplucker, who had a particular dislike for Elves, and enjoyed nothing more than twisting off their girly little heads with this nasty-looking and bloodstained glove.
+
+The Ogre with this weapon has Killing Blow.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3044,7 +3058,9 @@ In a challenge, a Tyrant choosing to use this special attack does not use a temp
           </constraints>
           <rules>
             <rule id="fe3a-6267-39b5-63ab" name="Rock Eye" hidden="false">
-              <description>At the beginning of the owning player&apos;s turn, pick a unit that is in line of sight of the character with this item. The opposing player must announce the presence of any hidden models (Fanatics, assassins and the like) within that unit, and announce what magic items are within that unit. He need not describe who carries them, however.</description>
+              <description>The Ogre with the Rock Eye has cast one of his own eyes into the Great Maw. The rough pebble taken from the parched earth around the Maw and hammered in its place gives him the power of second sight.
+
+At the beginning of the owning player&apos;s turn, pick a unit that is in line of sight of the character with this item. The opposing player must announce the presence of any hidden models (Fanatics, assassins and the like) within that unit, and announce what magic items are within that unit. He need not describe who carries them, however.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -3320,14 +3336,7 @@ Each Ogre model that causes an impact hit due to a successful Bull Charge may ad
       <description>Roll a D6 at the beginning of the turn for each unit of Gnoblar Fighters that is not in combat, fleeing or subject to any compulsory movement. If a unit rolls a 1 it may do nothing at all this turn.</description>
     </rule>
     <rule id="841b-fb55-b7e7-859e" name="Brace of Handguns" hidden="false">
-      <description>A brace of handguns has the following profile:
-
-Range 24&quot; Strength 4
-Armour Piercing, 2x Multiple Shots, Pistol
-
-The first time a brace of handguns is fired in any game, it may add D6&quot; to its range to represent the fact the weapons have been densely packed with black powder before the battle. A brace of handguns counts as a pair of pistols in all respects, other than those listed in its profile.
-
-</description>
+      <description>The first time a brace of handguns is fired in any game, it may add D6&quot; to its range to represent the fact the weapons have been densely packed with black powder before the battle. A brace of handguns counts as a pair of pistols in all respects, other than those listed in its profile.</description>
     </rule>
     <rule id="ce27-8bc8-6f2f-6ead" name="Cathayan Longsword" hidden="false">
       <description>A Cathayan longsword is a one-handed weapon that is so finely crafted it confers +1 Weapon Skill and +1 Initiative to the bearer when used in combat. It is Armour Piercing.</description>
@@ -3341,8 +3350,7 @@ The first time a brace of handguns is fired in any game, it may add D6&quot; to 
     <rule id="f60d-9bf0-6534-1c0a" name="Sharp Stuff" hidden="false">
       <description>Gnoblars generally carry around a number of small, sharp projectiles ranging from irate bristlehogs to sharpened horseshoes, for throwing at any enemies that get too close. For a Gnoblar, there&apos;s nothing quite like the satisfaction of hurling a jagged rock into an unprotected face.
 
-Range 8&quot; Strength 2
-2x Multiple Shots, Thrown Weapon</description>
+Sharp Stuff Profile</description>
     </rule>
     <rule id="6995-86b4-0431-95e7" name="Casting Gut Magic" hidden="false">
       <description>Each Butcher and Slaughtermaster knows all of the Gut Magic spells, as Butchers have a communal spiritual &apos;pool&apos; from which they take their magic. If a Gut Magic spell has already been successfully cast that phase and a second Butcher wishes to cast the same spell, the Casting level is doubled to 6+. If a third Butcher wants to cast the same spell that phase, the Casting level is tripled to 9+, and so on.
