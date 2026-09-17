@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3604-800a-4012-5da6" name="Dogs of War" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3604-800a-4012-5da6" name="Dogs of War" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5e7e-36e5-c0bf-c57c" name="Dogs of War" hidden="false"/>
     <categoryEntry id="c51c-ed7d-9669-006f" name="Regiment of Renown" hidden="false"/>
@@ -851,6 +851,21 @@
           <constraints>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30b3-5b54-f354-6758" type="min"/>
           </constraints>
+          <profiles>
+            <profile id="4ed6-15b1-ba2f-a73e" name="Bodyguard" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+                <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
+                <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
+                <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+                <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+                <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
+                <characteristic name="I" typeId="b418-0e30-644f-1435">2</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+                <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="9.0"/>
           </costs>
@@ -999,6 +1014,21 @@
           </conditions>
         </modifier>
       </modifiers>
+      <profiles>
+        <profile id="3442-7968-ea0e-37c2" name="Hireling Wizard Lord" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">3</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="5a64-3c1e-3728-0bf4" name="Dogs of War" hidden="false" targetId="5e7e-36e5-c0bf-c57c" primary="false"/>
         <categoryLink id="4354-b91c-8b40-21fc" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
@@ -1076,6 +1106,21 @@
           </conditions>
         </modifier>
       </modifiers>
+      <profiles>
+        <profile id="fcff-06eb-2dc1-9f3d" name="Mercenary General" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">5</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">6</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="8453-0532-77a5-9ddc" name="Dogs of War" hidden="false" targetId="5e7e-36e5-c0bf-c57c" primary="false"/>
         <categoryLink id="282b-8a12-115c-b6a1" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
@@ -1275,6 +1320,21 @@
           </conditions>
         </modifier>
       </modifiers>
+      <profiles>
+        <profile id="7177-6b39-2093-c45a" name="Hireling Wizard" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">3</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="d883-6afd-6e7b-17e5" name="Dogs of War" hidden="false" targetId="5e7e-36e5-c0bf-c57c" primary="false"/>
         <categoryLink id="2932-25d4-e6b9-d691" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
@@ -1338,6 +1398,21 @@
           </conditions>
         </modifier>
       </modifiers>
+      <profiles>
+        <profile id="2637-c1ab-0f62-515c" name="Captain" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">5</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="d001-3eb7-fa6e-30d1" name="Dogs of War" hidden="false" targetId="5e7e-36e5-c0bf-c57c" primary="false"/>
         <categoryLink id="c05a-d905-3be1-8c1c" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
@@ -1562,6 +1637,21 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a9a0-1c19-1ce5-22e7" type="min"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0d84-a2cf-7d96-c08a" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="53f0-ac54-7631-1991" name="Paymaster" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">4</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="943d-81d5-3d5f-6f4d" name="Dogs of War" hidden="false" targetId="5e7e-36e5-c0bf-c57c" primary="false"/>
         <categoryLink id="7b37-a92c-2fe5-470c" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
@@ -1892,6 +1982,21 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5d2-39cc-ed41-db3a" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2a3-c219-0743-e7c9" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="6d1b-2159-3d67-8ac7" name="&apos;Ragged&apos; Ricco" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+                <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
+                <characteristic name="BS" typeId="22c7-799b-e07c-f32c">5</characteristic>
+                <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+                <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+                <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
+                <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
+                <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="72.0"/>
           </costs>
@@ -2023,6 +2128,21 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7606-dcf5-9b82-ea98" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5781-7289-8265-cd84" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="faa9-5605-72aa-d6ce" name="Roderigo Delmonte" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+                <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
+                <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
+                <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+                <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+                <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
+                <characteristic name="I" typeId="b418-0e30-644f-1435">4</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2</characteristic>
+                <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="44.0"/>
           </costs>
@@ -2348,6 +2468,21 @@ Luca Brazanga is armed with a Hand Weapon, Pistol, Crossbow and Heavy Armour</de
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b14e-e87c-fcf7-8d8a" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6f1-947f-410c-b1a5" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="a3df-c159-8620-21e5" name="Voland" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+                <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
+                <characteristic name="BS" typeId="22c7-799b-e07c-f32c">5</characteristic>
+                <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+                <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+                <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
+                <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
+                <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="99.0"/>
           </costs>
@@ -2420,6 +2555,21 @@ Luca Brazanga is armed with a Hand Weapon, Pistol, Crossbow and Heavy Armour</de
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ad2-19dd-274d-bde4" type="min"/>
             <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcff-f72b-ddd4-38ed" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="9cdc-39d3-7807-b2c7" name="Hobgoblin" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+                <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
+                <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
+                <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
+                <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+                <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
+                <characteristic name="I" typeId="b418-0e30-644f-1435">2</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+                <characteristic name="Ld" typeId="bbad-d421-400b-87c1">6</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="15.0"/>
           </costs>
@@ -2506,6 +2656,21 @@ Luca Brazanga is armed with a Hand Weapon, Pistol, Crossbow and Heavy Armour</de
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b6b-21e4-4274-8374" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2699-64a8-cdbc-2f3c" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="3fea-14e8-9d73-5ac0" name="Lumpin Croop" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+                <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
+                <characteristic name="BS" typeId="22c7-799b-e07c-f32c">5</characteristic>
+                <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
+                <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+                <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
+                <characteristic name="I" typeId="b418-0e30-644f-1435">6</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2</characteristic>
+                <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="55.0"/>
           </costs>
@@ -2515,6 +2680,21 @@ Luca Brazanga is armed with a Hand Weapon, Pistol, Crossbow and Heavy Armour</de
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a07-8379-cac4-17d5" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d227-f0b3-115c-085f" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="8568-38f1-7df8-dd9f" name="Ned Hamfist" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+                <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">2</characteristic>
+                <characteristic name="BS" typeId="22c7-799b-e07c-f32c">5</characteristic>
+                <characteristic name="S" typeId="0c58-1252-962d-8fcc">2</characteristic>
+                <characteristic name="T" typeId="16d7-9f22-06d8-8427">2</characteristic>
+                <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
+                <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+                <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="7.0"/>
           </costs>
@@ -2718,6 +2898,21 @@ Luca Brazanga is armed with a Hand Weapon, Pistol, Crossbow and Heavy Armour</de
           </conditions>
         </modifier>
       </modifiers>
+      <profiles>
+        <profile id="8930-41ae-b13c-872f" name="Asarnil the Dragonlord" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">7</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">7</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="1226-0685-a18b-9860" name="New CategoryLink" hidden="false" targetId="a3af-995e-0cf1-7091" primary="true"/>
         <categoryLink id="8923-573c-7a3e-0cf7" name="Regiment of Renown" hidden="false" targetId="c51c-ed7d-9669-006f" primary="false"/>
@@ -3292,6 +3487,21 @@ Against smaller opponents:
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="066b-3354-b7ae-54d5" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d13-ac03-e2cc-9d21" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="3224-4a01-1653-f02b" name="Tichi-Huichi" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
+                <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
+                <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
+                <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+                <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+                <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
+                <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
+                <characteristic name="Ld" typeId="bbad-d421-400b-87c1">7</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="140.0"/>
           </costs>
@@ -3697,6 +3907,21 @@ Beorg is a Were-Bear - he wears no armour and fights with his claws an teeth!</d
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc35-ea25-2fa6-099f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e04e-52b1-d7db-d7af" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="f42c-33d9-c5a8-bc1e" name="Vespero" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+                <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
+                <characteristic name="BS" typeId="22c7-799b-e07c-f32c">5</characteristic>
+                <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+                <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+                <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
+                <characteristic name="I" typeId="b418-0e30-644f-1435">6</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
+                <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <rules>
             <rule id="cd60-5ab3-c25f-7b9b" name="Grimacing Death Mask" hidden="false">
               <description>The mask, which represents the grimacing face of death, is the last thing Vespero’s duelling opponents see before they meet their sudden end. To represent the scarifying effect of the mask, Vespero causes fear in the enemy.</description>

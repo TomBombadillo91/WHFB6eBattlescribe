@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d9da-11c6-1a8c-4472" name="Lizardmen" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d9da-11c6-1a8c-4472" name="Lizardmen" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>WIP Lizardmen. TODO: Add unit profiles</readme>
   <categoryEntries>
     <categoryEntry id="361c-7d6f-fc45-5312" name="Skink" hidden="false"/>
@@ -893,6 +893,21 @@ However, this instinctive and predatory fighting style works best at close range
           <constraints>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da9c-b62d-e8ec-99a5" type="min"/>
           </constraints>
+          <profiles>
+            <profile id="7252-853e-bd44-b60b" name="Saurus Warrior" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+                <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
+                <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
+                <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+                <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+                <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
+                <characteristic name="I" typeId="b418-0e30-644f-1435">1</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2</characteristic>
+                <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="12.0"/>
           </costs>
@@ -1009,6 +1024,21 @@ However, this instinctive and predatory fighting style works best at close range
             <constraint field="selections" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b30f-a5fd-7103-9bf3" type="max"/>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0006-93b1-95b9-f685" type="min"/>
           </constraints>
+          <profiles>
+            <profile id="3faa-67fd-22a2-fe60" name="Skink" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
+                <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">2</characteristic>
+                <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
+                <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
+                <characteristic name="T" typeId="16d7-9f22-06d8-8427">2</characteristic>
+                <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
+                <characteristic name="I" typeId="b418-0e30-644f-1435">4</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+                <characteristic name="Ld" typeId="bbad-d421-400b-87c1">5</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
           </costs>
@@ -1121,6 +1151,21 @@ Alternatively, Scouts can be placed on the controlling player&apos;s deployment 
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d78-c0b6-d0e7-a636" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1616-57e6-0441-8918" type="min"/>
           </constraints>
+          <profiles>
+            <profile id="e45b-7fef-59dc-4ac7" name="Jungle Swarm" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
+                <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
+                <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
+                <characteristic name="S" typeId="0c58-1252-962d-8fcc">2</characteristic>
+                <characteristic name="T" typeId="16d7-9f22-06d8-8427">2</characteristic>
+                <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">5</characteristic>
+                <characteristic name="I" typeId="b418-0e30-644f-1435">1</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">5</characteristic>
+                <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="60.0"/>
           </costs>
@@ -1183,6 +1228,21 @@ Alternatively, Scouts can be placed on the controlling player&apos;s deployment 
           <constraints>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0196-eafd-673f-1e4d" type="min"/>
           </constraints>
+          <profiles>
+            <profile id="f09a-fccc-473a-6e1e" name="Temple Guard" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+                <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
+                <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
+                <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+                <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+                <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
+                <characteristic name="I" typeId="b418-0e30-644f-1435">2</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2</characteristic>
+                <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="17.0"/>
           </costs>
@@ -1307,6 +1367,21 @@ Alternatively, Scouts can be placed on the controlling player&apos;s deployment 
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41ee-da3a-538e-a0e4" type="min"/>
           </constraints>
+          <profiles>
+            <profile id="0c0b-ffed-ea71-5493" name="Cold One Rider" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+                <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
+                <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
+                <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+                <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+                <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
+                <characteristic name="I" typeId="b418-0e30-644f-1435">1</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2</characteristic>
+                <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
           </costs>
@@ -1400,6 +1475,21 @@ Enemy units charged by Kroxigor through a skirmish screen may stand &amp; shoot 
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2eb0-581e-07f2-02da" type="min"/>
           </constraints>
+          <profiles>
+            <profile id="e67d-20ef-1f40-fae5" name="Kroxigor" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
+                <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
+                <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
+                <characteristic name="S" typeId="0c58-1252-962d-8fcc">5</characteristic>
+                <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+                <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+                <characteristic name="I" typeId="b418-0e30-644f-1435">1</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
+                <characteristic name="Ld" typeId="bbad-d421-400b-87c1">7</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="58.0"/>
           </costs>
@@ -1532,6 +1622,21 @@ On any turn that Terradons charge, work out combat as normal. If the Terradons l
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="784c-baff-eece-5e99" type="min"/>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="473d-36ba-f50e-252d" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="0dd7-6f09-6375-ce25" name="Terradon &amp; Rider" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">2</characteristic>
+                <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
+                <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
+                <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+                <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+                <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
+                <characteristic name="I" typeId="b418-0e30-644f-1435">4</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
+                <characteristic name="Ld" typeId="bbad-d421-400b-87c1">5</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
           </costs>

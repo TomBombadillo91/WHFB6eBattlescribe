@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7010-abfa-dde5-6873" name="Daemonic Legions" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7010-abfa-dde5-6873" name="Daemonic Legions" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="37ff-905c-0f6b-9742" name="Mark of Chaos Undivided" hidden="false"/>
     <categoryEntry id="452e-f479-2264-b39d" name="Mark of Tzeentch" hidden="false"/>
@@ -145,6 +145,21 @@ Master of the Shadows Lore</description>
           </conditionGroups>
         </modifier>
       </modifiers>
+      <profiles>
+        <profile id="960e-9dd8-fb37-dc02" name="Daemon Prince" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">8</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">5</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">4</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">8</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">5</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="83fa-285d-16b0-d6d1" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
         <categoryLink id="69d3-d62f-5809-c960" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
@@ -225,6 +240,21 @@ Master of the Shadows Lore</description>
           </conditionGroups>
         </modifier>
       </modifiers>
+      <profiles>
+        <profile id="ff46-3ae7-f303-8c23" name="Great Unclean One" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">8</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">6</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">6</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">10</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">4</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">6</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="e024-f57c-5b0a-5235" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
         <categoryLink id="8b22-8d3d-fb5d-ebec" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
@@ -258,6 +288,21 @@ Master of the Shadows Lore</description>
           </conditionGroups>
         </modifier>
       </modifiers>
+      <profiles>
+        <profile id="46d6-376c-bc39-bee3" name="Bloodthirster" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">10</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">6(7)</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">6</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">7</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">10</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">7</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="19c4-3ab2-9bad-2c52" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
         <categoryLink id="a725-1ff4-0dc0-781c" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
@@ -290,6 +335,21 @@ Master of the Shadows Lore</description>
           </conditionGroups>
         </modifier>
       </modifiers>
+      <profiles>
+        <profile id="8f9f-c9a6-5789-b411" name="Lord of Change" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">6</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">6</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">6</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">10</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">5</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="e639-3a4b-3da6-811a" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
         <categoryLink id="03ed-2a54-a520-555b" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
@@ -324,6 +384,21 @@ Master of the Shadows Lore</description>
           </conditionGroups>
         </modifier>
       </modifiers>
+      <profiles>
+        <profile id="4943-41d6-9211-0b4d" name="Keeper of Secrets" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">8</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">9</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">6</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">6</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">6</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">10</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">10</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="472e-ca72-6497-8a49" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
         <categoryLink id="40b3-00fb-bc85-961a" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
@@ -401,6 +476,21 @@ Master of the Shadows Lore</description>
           </conditionGroups>
         </modifier>
       </modifiers>
+      <profiles>
+        <profile id="fb29-40fc-f259-90a8" name="Exalted Daemon" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">7</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">5</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">7</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="4c30-09f5-7e2f-fcac" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
         <categoryLink id="bad5-899b-8241-1fd8" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="true"/>
@@ -470,6 +560,21 @@ Master of the Shadows Lore</description>
           </conditions>
         </modifier>
       </modifiers>
+      <profiles>
+        <profile id="2d03-b217-f96e-abf6" name="Daemonic Herald" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">5</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">6</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="06f4-4e9a-f318-8f04" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="true"/>
         <categoryLink id="a77b-e7b0-e162-b1d9" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>

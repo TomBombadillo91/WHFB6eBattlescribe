@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="05b9-5022-67cd-4fd3" name="Bretonnians" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="05b9-5022-67cd-4fd3" name="Bretonnians" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="ff93-67ff-9b17-d51d" name="Grail Vow" hidden="false">
       <rules>
@@ -57,6 +57,21 @@ Characters with the Questing Vow cannot use a mundane or magical lance.</descrip
           </conditionGroups>
         </modifier>
       </modifiers>
+      <profiles>
+        <profile id="71ac-55a9-efc9-290e" name="Bretonnian Lord" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">6</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="16eb-c948-95e6-65e7" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="1f87-3b30-e253-ab43" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
@@ -158,6 +173,21 @@ Characters with the Questing Vow cannot use a mundane or magical lance.</descrip
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95b7-1663-bc60-9233" type="min"/>
       </constraints>
+      <profiles>
+        <profile id="930d-f1a9-98d7-0696" name="Paladin" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="ea63-d15d-a14f-04e5" name="New CategoryLink" hidden="false" targetId="5694-61f3-6913-6154" primary="true"/>
         <categoryLink id="af07-0601-deff-0b31" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
@@ -428,6 +458,21 @@ In addition, so reckless are the Knights Errant, that whenever they charge, the 
       </costs>
     </selectionEntry>
     <selectionEntry id="e65e-d21c-3754-3281" name="Prophetess of the Lady" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="5b54-3e2d-ad79-9f03" name="Prophetess of the Lady" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">3</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules>
         <rule id="6de6-56e8-0343-00cc" name="Aura of the Lady" hidden="false">
           <description>Damsels and Prophetesses are divinely protected by the Lady of the Lake.
@@ -459,6 +504,21 @@ This gives Damsels Magic Resistance (1), and Prophetesses Magic Resistance (2).<
       </costs>
     </selectionEntry>
     <selectionEntry id="166a-3de3-777c-9f01" name="Damsel of the Lady" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="6b15-c6c2-60d6-effc" name="Damsel of the Lady" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">3</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules>
         <rule id="2258-6bb4-24ec-8572" name="Aura of the Lady" hidden="false">
           <description>Damsels and Prophetesses are divinely protected by the Lady of the Lake.

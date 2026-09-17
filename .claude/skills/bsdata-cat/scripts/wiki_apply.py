@@ -75,6 +75,69 @@ def element_span(text, eid):
     return start, j, tag, indent, False
 
 
+def direct_children(src):
+    """[(tag, start, end)] for the element's own children, ignoring nested ones.
+
+    Needed because a character entry contains its mount as a nested
+    selectionEntry, so the LAST </constraints> inside its span belongs to the
+    mount, not to the character. Inserting there attaches the block to the
+    wrong model.
+    """
+    i = src.index(">") + 1                     # past the opening tag
+    if src[i - 2] == "/":                      # self-closing
+        return []
+    out = []
+    while True:
+        m = re.search(r"<(\w+)", src[i:])
+        if not m:
+            return out
+        tag, start = m.group(1), i + m.start()
+        if src[start:start + 2] == "</":
+            return out
+        j = src.index(">", start)
+        if src[j - 1] == "/":                  # self-closing child
+            out.append((tag, start, j + 1))
+            i = j + 1
+            continue
+        depth, k = 1, j + 1
+        pat = re.compile(r"<{0}\b|</{0}>".format(re.escape(tag)))
+        while depth:
+            mm = pat.search(src, k)
+            if not mm:
+                return out
+            if mm.group(0).startswith("</"):
+                depth -= 1
+                k = mm.end()
+            else:
+                e = src.index(">", mm.end())
+                depth += 0 if src[e - 1] == "/" else 1
+                k = e + 1
+        out.append((tag, start, k))
+        i = k
+
+
+def insertion_point(src, after, before):
+    """Offset inside src at which to splice a new direct child.
+
+    `after` is the child to follow if present; `before` names the children this
+    one must precede, in BattleScribe's order.
+    """
+    kids = direct_children(src)
+    # The LAST matching child, not the first. An entry with <modifiers> then
+    # <constraints> would otherwise splice the new child between them, putting
+    # it ahead of the constraints and breaking BattleScribe's child order.
+    cut = None
+    for tag, _s, end in kids:
+        if tag in after:
+            cut = end
+    if cut is not None:
+        return cut
+    for tag, start, _e in kids:
+        if tag in before:
+            return src.rfind("\n", 0, start) + 1
+    return None
+
+
 def rule_block(indent, rid, name, body):
     """A <rule> with a description, at BattleScribe's indentation and escaping."""
     nl = "\r\n"
@@ -135,19 +198,18 @@ def apply_item(text, row, mint_id):
         r=rule_block(inner_indent + "  ", mint_id, row["name"], row["proposed"]),
     )
 
-    for after in ("</profiles>", "</constraints>"):
-        k = src.rfind(after)
-        if k != -1:
-            cut = k + len(after)
-            return text[:start] + src[:cut] + block + src[cut:] + text[end:], "inserted rules block"
-    for before in ("<infoGroups>", "<infoLinks>", "<categoryLinks>", "<selectionEntries>",
-                   "<selectionEntryGroups>", "<entryLinks>", "<costs>"):
-        k = src.find(before)
-        if k != -1:
-            line_start = src.rfind("\n", 0, k) + 1
-            return (text[:start] + src[:line_start].rstrip("\r\n") + block + "\r\n"
-                    + src[line_start:] + text[end:], "inserted rules block")
-    return text, "no insertion point found"
+    cut = insertion_point(
+        src,
+        after=("profiles", "constraints", "modifierGroups", "modifiers"),
+        before=("infoGroups", "infoLinks", "categoryLinks", "selectionEntries",
+                "selectionEntryGroups", "entryLinks", "costs"),
+    )
+    if cut is None:
+        return text, "no insertion point found"
+    if src[cut - 1] == ">":                    # splicing straight after a child
+        return text[:start] + src[:cut] + block + src[cut:] + text[end:], "inserted rules block"
+    return (text[:start] + src[:cut].rstrip("\r\n") + block + "\r\n"
+            + src[cut:] + text[end:], "inserted rules block")
 
 
 def bump_revision(text):

@@ -9,58 +9,58 @@ profile (`typeId="0a0f-00cd-0261-c0ea"`) with the nine characteristics.
 
 ## Bretonnians.cat (4)
 
-- [ ] `Bretonnian Lord` -> `/unit/bretonnian-lord`
-- [ ] `Damsel of the Lady` -> `/unit/damsel-of-the-lady`
-- [ ] `Paladin` -> `/unit/paladin`
-- [ ] `Prophetess of the Lady` -> `/unit/prophetess-of-the-lady`
+- [x] `Bretonnian Lord` -> `/unit/bretonnian-lord`
+- [x] `Damsel of the Lady` -> `/unit/damsel-of-the-lady`
+- [x] `Paladin` -> `/unit/paladin`
+- [x] `Prophetess of the Lady` -> `/unit/prophetess-of-the-lady`
 
 ## Daemonic Legions.cat (7)
 
-- [ ] `Bloodthirster` -> `/unit/bloodthirster`
-- [ ] `Daemon Prince` -> `/unit/daemon-prince`
-- [ ] `Daemonic Herald` -> `/unit/daemonic-herald`
-- [ ] `Exalted Daemon` -> `/unit/exalted-daemon`
-- [ ] `Great Unclean One` -> `/unit/great-unclean-one`
-- [ ] `Keeper of Secrets` -> `/unit/keeper-of-secrets`
-- [ ] `Lord of Change` -> `/unit/lord-of-change`
+- [x] `Bloodthirster` -> `/unit/bloodthirster`
+- [x] `Daemon Prince` -> `/unit/daemon-prince`
+- [x] `Daemonic Herald` -> `/unit/daemonic-herald`
+- [x] `Exalted Daemon` -> `/unit/exalted-daemon`
+- [x] `Great Unclean One` -> `/unit/great-unclean-one`
+- [x] `Keeper of Secrets` -> `/unit/keeper-of-secrets`
+- [x] `Lord of Change` -> `/unit/lord-of-change`
 
 ## Dark Elves.cat (1)
 
-- [ ] `Druchii Annointed` -> `/unit/druchii-annointed`
+- [x] `Druchii Annointed` -> `/unit/druchii-annointed`
 
 ## Dogs of War.cat (15)
 
-- [ ] `'Ragged' Ricco` -> `/unit/ragged-ricco`
-- [ ] `Asarnil the Dragonlord` -> `/unit/asarnil-the-dragonlord`
-- [ ] `Bodyguard` -> `/unit/bodyguard`
-- [ ] `Captain` -> `/unit/captain`
-- [ ] `Hireling Wizard` -> `/unit/hireling-wizard`
-- [ ] `Hireling Wizard Lord` -> `/unit/hireling-wizard-lord`
-- [ ] `Hobgoblin` -> `/unit/hobgoblin`
-- [ ] `Lumpin Croop` -> `/unit/lumpin-croop`
-- [ ] `Mercenary General` -> `/unit/mercenary-general`
-- [ ] `Ned Hamfist` -> `/unit/ned-hamfist`
-- [ ] `Paymaster` -> `/unit/paymaster`
-- [ ] `Roderigo Delmonte` -> `/unit/roderigo-delmonte`
-- [ ] `Tichi-Huichi` -> `/unit/tichi-huichi`
-- [ ] `Vespero` -> `/unit/vespero`
-- [ ] `Voland` -> `/unit/voland`
+- [x] `'Ragged' Ricco` -> `/unit/ragged-ricco`
+- [x] `Asarnil the Dragonlord` -> `/unit/asarnil-the-dragonlord`
+- [x] `Bodyguard` -> `/unit/bodyguard`
+- [x] `Captain` -> `/unit/captain`
+- [x] `Hireling Wizard` -> `/unit/hireling-wizard`
+- [x] `Hireling Wizard Lord` -> `/unit/hireling-wizard-lord`
+- [x] `Hobgoblin` -> `/unit/hobgoblin`
+- [x] `Lumpin Croop` -> `/unit/lumpin-croop`
+- [x] `Mercenary General` -> `/unit/mercenary-general`
+- [x] `Ned Hamfist` -> `/unit/ned-hamfist`
+- [x] `Paymaster` -> `/unit/paymaster`
+- [x] `Roderigo Delmonte` -> `/unit/roderigo-delmonte`
+- [x] `Tichi-Huichi` -> `/unit/tichi-huichi`
+- [x] `Vespero` -> `/unit/vespero`
+- [x] `Voland` -> `/unit/voland`
 
 ## Lizardmen.cat (7)
 
-- [ ] `Cold One Rider` -> `/unit/cold-one-rider`
-- [ ] `Jungle Swarm` -> `/unit/jungle-swarm`
-- [ ] `Kroxigor` -> `/unit/kroxigor`
-- [ ] `Saurus Warrior` -> `/unit/saurus-warrior`
-- [ ] `Skink` -> `/unit/skink`
-- [ ] `Temple Guard` -> `/unit/temple-guard`
-- [ ] `Terradon & Rider` -> `/unit/terradon-and-rider`
+- [x] `Cold One Rider` -> `/unit/cold-one-rider`
+- [x] `Jungle Swarm` -> `/unit/jungle-swarm`
+- [x] `Kroxigor` -> `/unit/kroxigor`
+- [x] `Saurus Warrior` -> `/unit/saurus-warrior`
+- [x] `Skink` -> `/unit/skink`
+- [x] `Temple Guard` -> `/unit/temple-guard`
+- [x] `Terradon & Rider` -> `/unit/terradon-and-rider`
 
 ## Wood Elves.cat (3)
 
-- [ ] `Eternal Guard` -> `/unit/eternal-guard`
-- [ ] `Glade Guard` -> `/unit/glade-guard`
-- [ ] `Tree Kin` -> `/unit/tree-kin`
+- [x] `Eternal Guard` -> `/unit/eternal-guard`
+- [x] `Glade Guard` -> `/unit/glade-guard`
+- [x] `Tree Kin` -> `/unit/tree-kin`
 
 ## Not actionable from the wiki ({})
 
