@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="dfb1-1789-5d68-be54" name="Skaven" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="dfb1-1789-5d68-be54" name="Skaven" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="4f5c-498c-bd84-7e28" name="Clan Eshin" hidden="false"/>
     <categoryEntry id="befb-92ec-0667-152b" name="Clan Pestilens" hidden="false"/>
@@ -10,11 +10,7 @@
     <categoryEntry id="bf09-3558-8963-50e3" name="Mainstay Unit" hidden="false">
       <rules>
         <rule id="be95-5fc7-ac39-8d2c" name="Mainstay Unit" hidden="false">
-          <description>The number of Clanrat units in the army restricts the maximum number of multiples of any other unit that can be included in the army. For example, if you have one unit of Clanrats, you can include one unit of Globadiers, one of Stormvermin, one of Gutter Runners, etc. If you have two units of Clanrats then you can include up to two units of Globadiers, up to two units of Gutter Runners, up to two Warp-lightning Cannons, etc. All normal restrictions still apply on top of this.
-
-In a Clan Eshin Army, Night Runners are your Mainstay Unit instead of Clanrats.
-In a Clan Pestilens Army, Plague Monks are your Mainstay Unit instead of Clanrats.
-In a Clan Moulder Army, Giant Rat Packs are your Mainstay Unit instead of Clanrats.</description>
+          <description>The number of Clanrat units in the army restricts the maximum number of multiples of any other unit that can be included in the army. For example, if you have one unit of Clanrats, you can include one unit of Globadiers, one of Stormvermin, one of Gutter Runners, etc. If you have two units of Clanrats then you can include up to two units of Globadiers, up to two units of Gutter Runners, up to two Warp-lightning Cannons, etc. All normal restrictions still apply on top of this.</description>
         </rule>
       </rules>
     </categoryEntry>
@@ -718,11 +714,7 @@ Warp-blades are Warpstone Weapons.</description>
       </profiles>
       <rules>
         <rule id="65f4-2774-9c02-4508" name="Hidden" hidden="false">
-          <description>If you wish, any Assassin in your army may start the game hidden in one of the following units: Clanrats, Stormvermin, Night Runners and Gutter Runners (not in Tunnelling Teams - too dangerous!).
-
-Hidden Assassins are not placed on the table but are assumed to move with the unit they accompany. At the start of the game, note down which unit they are hidden in. If the unit is wiped out or flees off the table before the Assassin is revealed then the Assassin is lost and Victory points are scored as normal. Before he&apos;s revealed there is no other way he can be harmed.
-
-Hidden Assassins may be revealed at the beginning of any of your turns or at the start of any Close Combat phase. The player declares that his unit contains an Assassin and places the model amongst the ranks where it can fight, displacing a normal rank-and-file model (not a character, champion, musician or standard bearer) to the rearmost rank. If there are no such models in the front rank, the Assassin is placed in the second rank until there is enough room for him in the first rank. Assassins always strikes first in the round of close combat they are revealed, even against chargers. If an enemy model is also entitled to always strike first, the model with higher Initiative strikes first (roll a D6 if they have equal Initiative).</description>
+          <description>Hidden Assassins may be revealed at the beginning of any of your turns or at the start of any Close Combat phase. The player declares that his unit contains an Assassin and places the model amongst the ranks where it can fight, displacing a normal rank-and-file model (not a character, champion, musician or standard bearer) to the rearmost rank. If there are no such models in the front rank, the Assassin is placed in the second rank until there is enough room for him in the first rank. Assassins always strikes first in the round of close combat they are revealed, even against chargers. If an enemy model is also entitled to always strike first, the model with higher Initiative strikes first (roll a D6 if they have equal Initiative).</description>
         </rule>
         <rule id="b854-72dc-dc65-d5b7" name="Leadership" hidden="false">
           <description>Units in the army can never use their Leadership value and an Assassin can never be the General of the army (therefore your army must include at least one other character to act as the General).</description>
@@ -1167,9 +1159,9 @@ Hidden Assassins may be revealed at the beginning of any of your turns or at the
           <description>If all Packmasters are killed and no characters are in the unit, Giant Rats must charge the closest enemy in sight or, if no enemies are within charge reach, move as fast as possible towards the nearest enemy (in the Compulsory Moves phase).</description>
         </rule>
         <rule id="e1b5-4aa7-2d94-2ee3" name="Mixed Unit (Giant Rats)" hidden="false">
-          <description>Giant Rats and Packmasters fight in mixed units. In these units, Packmasters and any, character that joins the unit can be placed anywhere within the unit (but they normally tend toaccumulate towards the back..). Missile hits and impact hits against these units are randomised as follows: roll a D6, 1-5 hits a Giant Rat, 6 hits a Packmaster.
+          <description>The Hellcannon is treated as a war machine with the exceptions below. The three crew form a unit with the Hellcannon. The unit has a 360° arc of sight. The Chaos Dwarfs act as war machine crew in combat, but will line up on either side of the Hellcannon instead of in front of it.
 
-Remember that you use the best Leadership in the unit to take Leadership tests, so the Giant Rats won&apos;t need to use their own Leadership as long as one Packmaster is alive.</description>
+When moving normally, the unit uses the Chaos Dwarfs&apos; Movement rate. When rampaging, the whole unit moves 2D6&quot;.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -1700,30 +1692,26 @@ Poisoned Wind Globes are Warpstone Weapons.</description>
           </constraints>
           <rules>
             <rule id="029f-4cb1-3a5f-2190" name="Tunnelling" hidden="false">
-              <description>Tunnelling Teams aren&apos;t deployed at the beginning of the game, but use the following rules:
+              <description>After both sides have set up (including Scouts), place a tunnel marker anywhere on the battlefield (a coin will do). At the beginning of each Skaven turn, except for the first, roll a D6 to determine if the Tunnelling Team emerge:
 
-After both sides have set up (including Scouts), place a tunnel marker anywhere on the battlefield (a coin will do). At the beginning of each Skaven turn, except for the first, roll a D6 to determine if the Tunnelling Team emerge:
+Tunnelling Chart
 
 First turn	N/A
 Second turn	4+ to emerge
 Third turn	3+ to emerge
 Fourth turn	2+ to emerge
 Fifth turn	Emerge automatically
+
 When the team emerges, roll a Scatter dice and an Artillery dice. If you roll a Hit on the Scatter dice, the marker stays in place; if you roll an arrow, move the marker the distance indicated by the Artillery dice in the direction shown by the arrow.
 
 Once the final position of the marker has been established, replace the marker with one of your models and place all the other models within 2&quot; of the first one. The team emerges at the beginning of the turn (this is the very first thing they do that turn) and can then act normally, even declare a charge!
 
 If the marker is moved under an enemy unit, the Tunnelling Team will automatically engage it in close combat on the side that is closest to the marker (the team counts as charging). If the marker is moved under a friendly unit or impassable terrain, place the Tunnelling Team on the closest edge of the unit/obstacle. If the marker is moved off the battlefield, the team has got lost (as per result 3-4 on the Tunnelling Mishap table).
 
-If you roll a Misfire, roll a D6 and consult the Tunnelling Mishap table:
-
-D6		Result
-1-2	Cave in!	The tunnel collapses and the team is killed. The enemy gets Victory points for its destruction.
-3-4	Where are we?	The team has got lost and emerges slightly away from their intended target, maybe in a pigsty, the lair of a huge monster or into the courtyard of a Bretonnian castle. The team does not take any part in the battle, but the enemy does not earn any Victory points for it.
-5-6	I told you to turn left!	The team almost made it, but went in the wrong direction for the last few hundred yards. Your opponent can place the marker anywhere on the battlefield and deploy the Skaven models as they emerge. The models cannot move in the Movement phase of the turn they emerge (except for fleeing if they fail a Terror or Panic test), because they are too busy trying to work out where they are and blaming each other for reading the map wrong.</description>
+If you roll a Misfire, roll a D6 and consult the Tunnelling Mishap table.</description>
             </rule>
             <rule id="8f51-f47f-3c6b-c8e7" name="Suicide Mission" hidden="false">
-              <description>Due to the dangers involved in tunnelling, characters will never join these teams.</description>
+              <description>Mission: Due to the dangers involved in tunnelling, characters will never join these teams.</description>
             </rule>
           </rules>
           <costs>
@@ -1885,9 +1873,7 @@ D6		Result
               <description>Jezzails are missile weapons with a maximum range of 36&quot; and Strength of 6. They are
 Move-or-Fire and Armour Piercing weapons.
 
-Jezzails are Warpstone Weapons.
-
-Jezzails are the most reliable weapons developed by Clan Skryre (they&apos;re almost safe!). For each Jezzail that obtains a result of 1. on its roll to hit, roll another dice. If this second dice rolls a 2-6 the shot was a dud and all is fine, but if the result is a 1 the gun has a serious problem. To represent this, the Jezzail hits itself (roll to wound as normal).</description>
+Jezzail Profile</description>
             </rule>
           </rules>
           <costs>
@@ -2071,11 +2057,9 @@ Jezzails are the most reliable weapons developed by Clan Skryre (they&apos;re al
       </constraints>
       <rules>
         <rule id="06dd-e615-0101-4265" name="Mixed Unit (Rat Ogres)" hidden="false">
-          <description>Rat Ogres and Packmasters fight in mixed units. Rat Ogres always form the first rank and can never be placed in the second and following tanks (they would attack each other otherwise!). Packmasters and characters joining the unit are formed up behind them never in the first rank, but these units never get a rank bonus.
+          <description>The Hellcannon is treated as a war machine with the exceptions below. The three crew form a unit with the Hellcannon. The unit has a 360° arc of sight. The Chaos Dwarfs act as war machine crew in combat, but will line up on either side of the Hellcannon instead of in front of it.
 
-Missile hits and impact hits against these units are randomised as follows: roll a D6, 1-4 hits a Rat Ogre, 5-6 hits a Packmaster.
-
-When manoeuvring, consider only the Rat Ogres and then place the Packmasters at the back of the Rat Ogres&apos; line. Rat Ogres cannot end their move in snaking formation.</description>
+When moving normally, the unit uses the Chaos Dwarfs&apos; Movement rate. When rampaging, the whole unit moves 2D6&quot;.</description>
         </rule>
         <rule id="cb15-3a86-73ac-ab51" name="Loss of Packmasters (Rat Ogres)" hidden="false">
           <description>If all the Packmasters are killed and there are no characters in the unit, the Rat Ogres suffer from stupidity.</description>
@@ -2289,17 +2273,21 @@ When manoeuvring, consider only the Rat Ogres and then place the Packmasters at 
       </profiles>
       <rules>
         <rule id="647e-9d24-e1a0-6ad0" name="Warp-Lightning Cannon" hidden="false">
-          <description>The Warp-lightning Cannon is crewed by two slaves, who provide the muscular power needed to move the gun around, and by a Skryre adept who orders the slaves around and fires the gun. The magical energy of the warpstone powering the gun is also used by the Skryre adept to strengthen the slaves, giving them enough muscle to move and spin around the heavy machine with ease. The unfortunate side effects of this exposure to raw warpstone energy mean that the slaves normally survive for less than a day. Just long enough...
+          <description>Range	Strength	Damage	Save
+8D6&quot;	Artillery Dice	D6	Normal
 
 Moving the Cannon
+
 Warp-lightning Cannons follow all the movement rules for chariots. In addition, because of the unnatural strength of the slaves moving it, the Warp-lightning Cannon is allowed to march. The Warp-lightning Cannon can never charge into combat and, if charged, must always, declare a flee reaction, even when pursued or overrun into (the warpstone gives strong foretelling powers to the Skryre adept, allowing him to perceive the enemy. attack in advance, and it bestows enough strength to the slaves for them to quickly carry out his orders to retreat).
 
 Attacking the Cannon
+
 The Warp-lightning Cannon has a single stat-line, like a chariot. An unsaved wound caused by a Strength 7 hit or greater destroys the cannon automatically.
 
 The Skryre adept uses the energy of the warpstone to create a shimmering magical shield, protecting himself and the gun from incoming missiles and spells. The warpstone confers a 4+ Ward save to the Warp-lightning Cannon. This save does not protect it from any of the effects of the Misfire chart.
 
 Firing the Cannon
+
 The Warp-lightning Cannon is a Move-or-Fire weapon, like all other war machines.
 
 To fire the Cannon, first point it in the direction you wish to fire. Note that the special warpstone-powered aiming sight allows the Skryre adept to see through terrain and troops, so you don&apos;t need a clear line of sight to the target. The Cannon can be fired in any direction, even through your own troops no restriction applies whatsoever. For convenience, it&apos;s better if you indicate a model as a target, and line up the barrel towards it.
@@ -2311,6 +2299,7 @@ Roll an Artillery dice. Models hit by the lightning suffer an automatic hit at t
 The Warp-lightning Cannon is a Warpstone Weapon.
 
 Effects of Terrain
+
 Linear obstacles do not stop the bolt, nor do woods or wooden buildings. Only hills, high stone walls, such as castle walls, and rock formations can stop it. It is a good idea to agree with your opponent which terrain features on your table will block the lightning before starting to deploy your troops.
 
 If the Cannon and its targets are on a different level, for example if the target is on a hill, some amount of abstract thinking is required. Before firing the gun you must declare whether it is firing up or flat. If firing up, the beam hits only targets that are on hills, castle walls or other positions that put them higher up than the tabletop level. If firing flat, only models on the table will be hit and a hill/castle wall would block the beam. If the Cannon itself is on a hill/castle wall, it can either fire flat, hitting all models in similar positions, or fire down, hitting all models in front of it on the same hill first and then all models on the tabletop level (the bolt being stopped by other hills, castle walls, etc).</description>
@@ -2361,7 +2350,35 @@ If the Cannon and its targets are on a different level, for example if the targe
           <description>The Glaives wielded by Vermin Lords are heavily ensorcelled with death magic. A hit from a Doom Glaive allows no armour saves.</description>
         </rule>
         <rule id="d1d7-0510-7c90-4983" name="Spellcaster" hidden="false">
-          <description>Vermin Lords are Level 4 Wizards that take their spells from the Skaven Magic list.</description>
+          <description>Horrors can unleash the magical energies of their creator as blasts of power. These count as bound spells. All of the power is generated by the Horror themselves and no Magic dice are used. The casting value of the spell is equal to half the Horrors&apos; current U
+nit Strength (rounding down, to a minimum of 1). The Horrors may cast one of the following spell at the start of their Magic phase:
+
+Fire of Tzeentch
+
+This is a magic missile with a range of 24&quot;. The range and line of sight are worked out from any model in the front rank. It inflicts D6 hits on the target unit. The Strength of the hits depends on the size of the casting unit:
+
+Fires of Tzeentch Chart
+
+Unit Size	Strength of Hits
+1-5	Strength 1
+6-10	Strength 2
+11-15	Strength 3
+16-20	Strength 4
+21+	Strength 5
+
+Coruscation of Energy
+
+The Horrors unleash magical energy across the battlefield in a whirling vortex of power. This spell may be targeted on a single enemy unit within 12&quot; or, if they are in close combat, the Horrors must target one units they are fighting. Every model in the enemy unit suffers a Strength 3 hit.
+
+Uncontrollable Mutation
+
+The Horrors warp theworld around them, turning foes into twisted masses of pulsing flesh and bone before a newly born Horror springs from the corrupted mess. This can only be cast on a single enemy unit in base contact with the Horrors. Roll a D6 for each Horror in contact with the target unit. Each roll of a 6 slays an enemy model outright, with no Armour saves allowed. These hits are distributed among the model of the target unit just like shooting.
+
+The spell can only be cast on roughly man-sized or 
+smallers opponent and so cannot be cast on Ogres, Trolls, chariots, war engines (although the crew may be affected), monsters or character riding monsters etc. N
+ormal cavalry models may be targeted.
+
+Each enemy slain by this spell is turned into a Horror and added to the Horrors&apos; unit.</description>
         </rule>
         <rule id="6fd6-a071-542d-8223" name="Daemonic Instability" hidden="false">
           <description>When a Vermin Lord loses a round of combat it must take a special Daemonic Instability test instead of a Break test. Use the following procedure to take a Daemonic Instability test:
@@ -2456,20 +2473,10 @@ If the Doomwheel&apos;s movement is sufficient to move into contact wiht an enem
           <description>The Doomwheel deals D6+2 impact hits at Strength 5 when it charges into a combat.</description>
         </rule>
         <rule id="45af-4321-9847-79e6" name="Warp Lightning" hidden="false">
-          <description>In each Skaven shooting phase the Doomwheel can unleash D3 bolts of warp-lightning (roll in each Shooting phase). The Skaven player can choose not to release the warp-lightning.
-
-The power of the warp-lightning can be very unpredictable - each time roll an Artillery dice. If you roll a number then that is the Strength of all the lightning bolts this turn. Each of the bolts has a range of 3D6&quot; and will strike the nearest model in any direction - friend or foe! 
-The bolts of warp-lightning arc wildly so they ignore any terrain between them and the nearest target.
-If the Doomwheel is in contact with a unit or model don&apos;t bother rolling for range - the bolts will automatically hit the target in contact.
-
-If several targets are the same distance away the bolt will be attracted to the target with the best saving throw (since they have more metal armour on them).
-
-Each Bolt will only damage a single model, but the model struck suffers not one but D6 wounds. Against war engines, ridden monsters and the like the hit scored is randomized between the machine/creature and its crew.
-
-If you roll a misfire something has gone awry with the warpstone generator. The Doomwheel will fire three shots at full range and full power (so 18&quot; at Strength 10). After this te Doomwheel itself is destroyed and removed from play.</description>
+          <description>Warp Lightning is a magic missile with a range of 24&quot; It can be cast at a casting value of 5+ or 9+ (declare before rolling the dice). If successfully cast, it hits its target and causes D6 Strength 5 hits at casting value 5+ or 2D6 Strength 5 hits at 9+. Each result of 1 that is rolled when determining the number of hits caused by any version of the spell hits the caster rather than the enemy. For example, if a 4 and a 1 are rolled to determine the 2D6 hits caused, the enemy suffers four hits and the caster suffers one.</description>
         </rule>
         <rule id="77ed-8cd8-003d-e77b" name="Crew Attacks" hidden="false">
-          <description>In the close combat phase the rats and the Skaven driver will fight enemy models in contact with the Doomwheel.</description>
+          <description>Crew and chariots may also shoot any of their missile weapons in the Shooting phase as normal (unless engaged in close combat) though a -1 to hit penalty applies if the chariot moves.</description>
         </rule>
         <rule id="f6b5-f23b-f7a9-f19e" name="Unit Strength 4" hidden="false">
           <description>The Doomwheel has a Unit Strength of 4.</description>
@@ -2535,20 +2542,16 @@ If you roll a misfire something has gone awry with the warpstone generator. The 
       </profiles>
       <rules>
         <rule id="d035-9ebc-d9e9-0a12" name="Blessed by the Horned Rat" hidden="false">
-          <description>Thanquol has a 4+ Ward Save. In addition, while Thanquol is inside a unit, for every wound saved by his Ward save one skaven in base contact with the Grey Seer will be wounded in his place. Resolve the effects of the wound as normal against the unfortunate Skaven, including normal armour saves, etc.</description>
+          <description>Thanquol seems to enjoy the favour of the Horned One, always escaping death in the direst situations. To simulate this he has a Ward save of 4+. In addition, when Thanquol is inside a unit, for every wound saved by his Ward save, one Skaven in base contact with the Grey Seer (Skaven player&apos;s choice) will be wounded in his place. Resolve the effects of the wound as normal against the unfortunate Skaven, including normal armour saves, etc.</description>
         </rule>
         <rule id="f780-eec0-14d3-137a" name="Warpstone Addiction" hidden="false">
-          <description>Thanquol is an extremely addicted Warpstone user, but this problem also has a positive side in that he is now able to consume huge quantities of the dangerous substance without suffering its harmful effects. When Thanquol rolls a 1 to cast a spell with any power dice generated by a Warpstone Token, he can re-roll the dice but the second result stands.</description>
+          <description>Thanquol is an extremely addicted warpstone user, but this problem also has a positive side in that he is now able to consume huge quantities of the dangerous substance without suffering its harmful effects. When Thanquol rolls a 1 to cast a spell with any Power dice generated by a Warpstone Token, he can re-roll the dice, but the second result stands.</description>
         </rule>
         <rule id="3275-8fce-261f-699e" name="Arch-rivals" hidden="false">
           <description>Thanquol Hates and Fears Gotrek Gurnisson and Felix Jaeger.</description>
         </rule>
         <rule id="7682-aa3e-5783-1674" name="Pawn" hidden="false">
-          <description>oneripper must be deployed within 6&quot; of Thanquol at the beginning of the game. After that, Boneripper is free to move independently (in reality he is telepathically controlled by Thanquol) and will count as a separate unit of a single Rat Ogre for the rest of the game (he is worth 75 Victory points). Boneripper can never join units. If Thanquol is killed or flees off the table, Boneripper switches off and is immediately removed from the table, counting as a casualty. At the beginning of each of his turns in which the Skaven player wants to do anything with Boneripper (move, shoot, fight in close combat) the player must roll a D6 to activate the automaton. On a roll of 2-6 everything is well and Boneripper acts as normal. On the roll of a 1, Boneripper suffers a malfunction - roll another dice and refer to the Malfunction chart to find out what&apos;s gone wrong.
-
-D6	Result
-1-3	Boneripper does nothing this turn and is hit automatically if engaged in close combat. The opponent can control Boneripper in his next turn, exactly as if it was one of his models. At the beginning of the next Skaven turn, control reverts to the Skaven player.
-4-6	Boneripper does nothing this turn and is hit automatically if engaged in close combat.</description>
+          <description>Boneripper must be deployed within 6&quot; of Thanquol at the beginning of the game. After that, Boneripper is free to move independently (in reality he is telepathically controlled by Thanquol) and will count as a separate unit of a single Rat Ogre for the rest of the game (he is worth 75 Victory points). Boneripper can never join units. If Thanquol is killed or flees off the table, Boneripper switches off and is immediately removed from the table, counting as a casualty. At the beginning of each of his turns in which the Skaven player wants to do anything with Boneripper (move, shoot, fight in close combat) the player must roll a D6 to activate the automaton. On a roll of 2-6 everything is well and Boneripper acts as normal. On the roll of a 1, Boneripper suffers a malfunction - roll another dice and refer to the Malfunction chart to find out what&apos;s gone wrong.</description>
         </rule>
         <rule id="b545-2463-4886-7993" name="Safety Valve" hidden="false">
           <description>Before giving Boneripper to Thanquol as a gift, the Warlock Engineers made sure that their creation couldn&apos;t be turned against them in the future. Boneripper cannot charge/overrun if the charge/overrun would take him into base contact with a Skaven belonging to Clan Skryre. He can never pursue a unit containing one or more members of Clan Skryre. He can never direct any of his close combat attacks against members of Clan Skryre. Also, the template of his warpfire thrower cannot be placed so that it could hit a member of Clan Skryre.</description>
@@ -2595,7 +2598,7 @@ D6	Result
           </constraints>
           <rules>
             <rule id="1520-e674-c6ba-56f8" name="Staff of the Horned One" hidden="false">
-              <description>Thanquol&apos;s staff marks him out as one who speaks for the Horned Rat and also gives him one extra spell (so he knows five spells in total)</description>
+              <description>Thanquol&apos;s staff marks him out as one who speaks for the Horned Rat and also gives him one extra spell. Therefore the Grey Seer knows five out of the six Skaven spells.</description>
             </rule>
           </rules>
           <costs>
@@ -2609,7 +2612,8 @@ D6	Result
           </constraints>
           <rules>
             <rule id="bd04-28c7-ea3c-bdb7" name="Amulet of the Horned One" hidden="false">
-              <description>The pure warpstone talisman worn by Thanquol is a powerful defensive item as well as a badge of office. At the beginning of each of his turns the player controlling Thanquol must roll a dice. On a 1 nothing happens, on a 2-6 Thanquol recovers one of the wounds he has previously lost during the game.</description>
+              <description>The pure warpstone talisman worn by Thanquol is a powerful defensive item as well as a badge of office. At the beginning of each of his turns, the player controlling Thanquol must roll a dice. On a 1 nothing happens, on a 2-6 Thanquol recovers one of the Wounds he has
+previously lost during the game.</description>
             </rule>
           </rules>
           <costs>
@@ -2623,7 +2627,16 @@ D6	Result
           </constraints>
           <rules>
             <rule id="b44d-34fb-cc20-6096" name="Warpfire Thrower" hidden="false">
-              <description>A small version of the dreaded warpfire thrower has been built in place of one of Boneripper&apos;s arms. Ths is treated as a Strength 4 breath weapon in all respects. When firing place the narrow end of the flame template in contact with the weapon&apos;s muzzle. Units suffering any casualties must take a Panic test.</description>
+              <description>Place the flame template with its narrow end touching the Warpfire Thrower and the large part aimed at the target. The target must be in line of sight to shoot at it. Roll the Artillery dice and move the template the amount of inches shown by the dice towards the target to see where the warpflame lands. The template can overshoot a target - the team squirts the warpflame in too high an arc. Determine which models are hit as per a breath weapon. A unit suffering any casualties must take a Panic test. If you roll a Misfire, the weapon doesn&apos;t fire, roll a D6 on the misfire chart below.
+
+Note that this model can stand &amp; shoot - fire the weapon as soon as the charge is declared, before the enemy moves.
+
+Warpfire Thrower Misfire Chart Chart
+
+D6	Result
+1-2	Kaboom! Place the iarge circular template centred on the barrel and resolve the hit as normal. After this, the team is automatically removed.
+3-4	The barrel catches fire! The team runs desperately 2D6&quot; in a random direction (the model with the barrel in front), stopping if it comes in contact with anything, then explodes. Place the small circular template over the barrel and resolve the hit as normal. After this, the team is automatically removed.
+5-6	The weapon&apos;s nozzle blocks and squirts burning fuel over its crew. Work out the effect as if the team had been hit by their own weapon.</description>
             </rule>
           </rules>
           <costs>
@@ -2696,7 +2709,9 @@ D6	Result
           <description>Throt and any unit he has joined may never pursue a fleeing enemy they have broken in combat, as Throt stops to feed on the corpses of the fallen.</description>
         </rule>
         <rule id="e0ce-31d4-cfa3-0df1" name="Warpstone-Fuelled Constitution" hidden="false">
-          <description>Throt can Regenerate</description>
+          <description>Throt has conducted a number of experiments on his own body, resulting in his heightened strength and recuperative abilities.
+
+Throt can Regenerate.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2892,16 +2907,10 @@ D6	Result
       </profiles>
       <rules>
         <rule id="809a-66fb-118a-8ec5" name="Hidden" hidden="false">
-          <description>If you wish, any Assassin in your army may start the game hidden in one of the following units: Clanrats, Stormvermin, Night Runners and Gutter Runners (not in Tunnelling Teams - too dangerous!).
-
-Hidden Assassins are not placed on the table but are assumed to move with the unit they accompany. At the start of the game, note down which unit they are hidden in. If the unit is wiped out or flees off the table before the Assassin is revealed then the Assassin is lost and Victory points are scored as normal. Before he&apos;s revealed there is no other way he can be harmed.
-
-Hidden Assassins may be revealed at the beginning of any of your turns or at the start of any Close Combat phase. The player declares that his unit contains an Assassin and places the model amongst the ranks where it can fight, displacing a normal rank-and-file model (not a character, champion, musician or standard bearer) to the rearmost rank. If there are no such models in the front rank, the Assassin is placed in the second rank until there is enough room for him in the first rank. Assassins always strikes first in the round of close combat they are revealed, even against chargers. If an enemy model is also entitled to always strike first, the model with higher Initiative strikes first (roll a D6 if they have equal Initiative).</description>
+          <description>Hidden Assassins may be revealed at the beginning of any of your turns or at the start of any Close Combat phase. The player declares that his unit contains an Assassin and places the model amongst the ranks where it can fight, displacing a normal rank-and-file model (not a character, champion, musician or standard bearer) to the rearmost rank. If there are no such models in the front rank, the Assassin is placed in the second rank until there is enough room for him in the first rank. Assassins always strikes first in the round of close combat they are revealed, even against chargers. If an enemy model is also entitled to always strike first, the model with higher Initiative strikes first (roll a D6 if they have equal Initiative).</description>
         </rule>
         <rule id="d10a-d615-396e-d576" name="Leadership" hidden="false">
-          <description>The Master Assassin can always pass his Leadership value to all units of Night Runners and Gutter Runners within 12&quot; (ask your opponent to look away if you have to measure range when he is hidden, then measure range to the unit he is hidden in)
-
-Other units can only use his Leadership if he is not hidden.</description>
+          <description>Units in the army can never use their Leadership value and an Assassin can never be the General of the army (therefore your army must include at least one other character to act as the General).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3401,9 +3410,7 @@ Warp-blades are Warpstone Weapons.</description>
       <description>All models in the Skaven army add +1 to the total rolled to determine the distance they flee.</description>
     </rule>
     <rule id="793d-62ac-fb82-a35c" name="Strength In Numbers" hidden="false">
-      <description>All units in the Skaven army always add their current rank bonus to their Leadership value for any Leadership based test.
-
-First work out the Leadership of the unit as normal (character in the unit, General within 12&quot;, magic bonuses/penalties, etc) and then add the rank bonus of the unit to this value. The maximum bonus you can get is obviously +3, for a maximum total Leadership of 10. For example, a unit of Clanrats Id 5) with a rank bonus of +2 will have a Leadership of 7 on its own, a Leadership of 8 if led by a Chieftain (Ld 6) or of 9 if within 12&quot; of a Warlord who is the Skaven General (Ld 7). Note that the General confers his basic Leadership and then the units modify it with their own rank bonus - do not modify the Leadership of the General with the ranks of his own unit and then pass this modified Leadership on to every unit within 12&quot;!
+      <description>First work out the Leadership of the unit as normal (character in the unit, General within 12&quot;, magic bonuses/penalties, etc) and then add the rank bonus of the unit to this value. The maximum bonus you can get is obviously +3, for a maximum total Leadership of 10. For example, a unit of Clanrats Id 5) with a rank bonus of +2 will have a Leadership of 7 on its own, a Leadership of 8 if led by a Chieftain (Ld 6) or of 9 if within 12&quot; of a Warlord who is the Skaven General (Ld 7). Note that the General confers his basic Leadership and then the units modify it with their own rank bonus - do not modify the Leadership of the General with the ranks of his own unit and then pass this modified Leadership on to every unit within 12&quot;!
 
 When Skaven lose their rank bonus from a charge in the flank or rear, thev cannot use this Leadership bonus (including when testing for panic for being charged in the flank/rear while engaged to the front). Remember that fleeing units do not have a rank bonus, so fleeing Skaven will have to rally on their basic Leadership.</description>
     </rule>
@@ -3451,20 +3458,12 @@ The Bell&apos;s unit moves as normal, marching, charging and pursuing at normal 
 
 The Bell&apos;s unit is reassured by the presence of the holy artefact and is therefore Immune to Psychology. If the Bell&apos;s unit is broken in combat and flees, they abandon the Bell. If this happens, the Bell itself and the striker are automatically destroyed by the enemy, while the Grey Seer abandons the Bell and flees on foot together with the unit that was pushing it. The enemy can pursue the fleeing Skaven unit as normal. Victory points for the Bell are awarded separately from those for the Grey Seer, in the same way as for a ridden monster/chariot.
 
-When casting spells from the Bell, the Grey Seer can measure a spell&apos;s range from any point of the Screaming Bell&apos;s carriage.</description>
+When casting spells from the Bell, the Grey Seer can measure a spell&apos;s range from any point of the Screaming Bell&apos;s carriage.
+
+!screaming-bell-movement</description>
         </rule>
         <rule id="a398-26ae-6288-980f" name="Screaming Bell" hidden="false">
-          <description>The Screaming Bell is a large target and has a Unit Strength of 4 (5 with the Grey Seer).
-
-The Screaming Bell has a Ward save of 3+ representing hits that bounce off the indestructible Bell of the Horned One itself. The Grey Seer does not benefit from this save, but gets the normal 5+ armour save from being on a chariot, representing the shelter he gets from the Bell&apos;s carriage.
-
-Unsaved wounds caused by a hit with a Strength of 7 or more destroy the Screaming Bell automatically. On the other hand, every time one such wound is saved by the Bell&apos;s Ward save, the Screaming Bell will immediately ring with three dice as described below. Any new effects generated in this way replace effects that were lasting from a previous ringing of the Bell.
-
-The Screaming Bell and the unit pushing it have Magic Resistance (2).
-
-The Screaming Bell adds two dice to the Skaven pool of Power dice in the Skaven Magic phase. These dice can be used only by the Grey Seer.
-
-The Grey Seer can take advantage of his high position, drawing line of sight for his spells over the heads of the Bell&apos;s unit (remember, the Bell is a large target). In addition, he is free to cast spells all around, not only in the unit&apos;s line of sight.</description>
+          <description>Screaming Bells are holy altars from which the Grey Seers preach to the the Skaven. The Bell is an ever-present symbol in the legends describing the creation of the Skaven race, and its sound reaches deep inside the evil hearts of the rat-men, inspiring awe and devotion. In battle the ominous sound of the Bell can be beard above the clamour of the flghting, a message of death for the rat-men&apos;s enemies and of victory for the Skaven.</description>
         </rule>
         <rule id="5504-15d8-c299-99fe" name="Missile Fire Against The Bell" hidden="false">
           <description>Enemies with a line of sight to the Screaming Bell may choose whether to target the Bell or its unit with their missile fire.
@@ -3477,9 +3476,7 @@ Missile hits (normal and magical) against the Bell are randomised as normal for 
 If the Grey Seer refuses a challenge, he can declare that he&apos;s hiding behind the Bell for protection. The Grey Seer is not moved from the Bell, but he cannot fight and cannot be attacked for the duration of that combat engagement. The challenger is free to attack any other model he&apos;s in base contact with, including the Bell itself (if he&apos;s in base contact with it).</description>
         </rule>
         <rule id="d2a9-8e91-a757-7b12" name="Ringing The Bell" hidden="false">
-          <description>In the Skaven Shooting phase, the striker can ring the Bell, even when it is engaged in close combat. First declare if you are going to roll one, two or three dice (ie, decide how much effort the striker is putting into hitting the Bell). Then roll them, add their results together and consult the chart below.
-
-Score	Result
+          <description>Score	Result
 1-3	No effect.
 4-5	The Bell and its unit cause fear until the next Skaven Shooting phase.
 6-7	The Bell and its unit are stubborn (despite being immune to Psychology) until the next Skaven Shooting phase.
@@ -3489,7 +3486,10 @@ Score	Result
 13!	All enemy units must take a Panic test. Undead units must take a Leadership test as if their General had been destroyed (they can use the General&apos;s Leadership if within 12&quot; of him).
 14-15	The Bell and its unit cause terror until the next Skaven Shooting phase.
 16-17	All Skaven units on the battlefield (even Clan Moulder beasts and units that are normally immune to psychology!) are subject to frenzy until defeated in combat.
+
 If the dice rolled include a double or a treble result (two fours, or two fives, or three sixes, etc), something has gone wrong:
+
+Double/Treble Chart
 
 Double	The effect rolled on the chart still applies as normal. In addition, the distorted resonance of the Bell causes both the Grey Seer and the unit pushing the bell to suffer D3 Strength 2 hits each, with no armour saves allowed.
 Treble	The effect rolled on the chart does not apply and the Bell itself is destroyed! Remove the Screaming Bell model and place the Grey Seer on foot inside the unit. Both the Grey Seer and the unit pushing the Bell suffer D6 Strength 4 hits each, with no armour save allowed. Note that the Grey Seer also suffers the normal Strength 5 hit due to his &apos;chariot&apos; being destroyed.</description>
@@ -3561,7 +3561,9 @@ Treble	The effect rolled on the chart does not apply and the Bell itself is dest
           </constraints>
           <rules>
             <rule id="7573-8678-86f2-c83b" name="The Gouger" hidden="false">
-              <description>No armour saves are allowed against wounds caused by the Gouger.</description>
+              <description>The potent blade of this foul weapon is engraved with twisted markings and is capable of slicing through the finest armour with ease.
+
+No armour saves are allowed against wounds caused by the Gouger.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -3602,7 +3604,7 @@ Treble	The effect rolled on the chart does not apply and the Bell itself is dest
           </constraints>
           <rules>
             <rule id="0def-9777-9ef4-dcdb" name="Fellblade" hidden="false">
-              <description>The Fellblade&apos;s wielder has Strength 10. Each unsaved wound is multiplied into D6 wounds. Roll a dice at the end of the wielder&apos;s turn: on à 3+ there is no effect; on a roll of 1-2 the wielder suffers 1 wound with no armour save allowed.</description>
+              <description>The Fellblade&apos;s wielder has Strength 10. Each unsaved wound is multiplied into D6 wounds. Roll a dice at the end of the wielder&apos;s turn: on a 3+ there is no effect; on a roll of 1-2 the wielder suffers 1 wound with no armour save allowed.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -3790,7 +3792,9 @@ Treble	The effect rolled on the chart does not apply and the Bell itself is dest
           </constraints>
           <rules>
             <rule id="16c9-b5f1-b464-7143" name="Things-Catcher" hidden="false">
-              <description>Clan Moulder only. This weapon requires two hands to use and confers the Killing Blow special ability.</description>
+              <description>This is the weapon wielded by the greatest heroes of Clan Moulder, used to catch the prey they need to conduct their foul experiments upon.
+
+Clan Moulder only. This weapon requires two hands to use and confers the Killing Blow special ability.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -3913,7 +3917,9 @@ In addition, the model can decide not to attack at all. but to wield the shield 
           </constraints>
           <rules>
             <rule id="284f-427b-d3e2-fbc6" name="Twisted Crown of the Horned Rat" hidden="false">
-              <description>The Twisted Crown gives the wearer the Regeneration ability.</description>
+              <description>The crown is crafted from, sharp barbs of corroded and tangled metal that push their way deep into the skull of the wearer, sending dark, invigorating energy through his body.
+
+The Twisted Crown gives the wearer the Regeneration ability.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -4070,6 +4076,8 @@ In addition, the model can decide not to attack at all. but to wield the shield 
           <rules>
             <rule id="8e78-e3f1-cb2d-9c4c" name="Skavenbrew" hidden="false">
               <description>A character can feed Skavenbrew to the unit he is with at the beginning of the battle. The Skavenbrew will have no effect on other, characters in the unit. Roll a D6 to determine the effect of the Skavenbrew:
+
+Skavenbrew Chart
 
 D6	Result
 1	No effect.
@@ -4457,12 +4465,16 @@ Weapon teams can never charge into close combat, even if frenzied.</description>
         <selectionEntry id="6569-cfaf-d66f-97db" name="Warpfire Thrower" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="bc78-e01e-69c7-fa77" name="Warpfire Thrower" hidden="false">
-              <description>Strength: 5
-Move-or-Fire, Multiple Wounds (D3), Waprstone Weapon.
+              <description>Place the flame template with its narrow end touching the Warpfire Thrower and the large part aimed at the target. The target must be in line of sight to shoot at it. Roll the Artillery dice and move the template the amount of inches shown by the dice towards the target to see where the warpflame lands. The template can overshoot a target - the team squirts the warpflame in too high an arc. Determine which models are hit as per a breath weapon. A unit suffering any casualties must take a Panic test. If you roll a Misfire, the weapon doesn&apos;t fire, roll a D6 on the misfire chart below.
 
-Place the flame template with its narrow end touching the Warpfire Thrower and the large part aimed at the target. The target must be in line of sight to shoot at it. Roll the Artillery dice and move the template the amount of inches shown by the dice towards the target to see where the warpflame lands. The template can overshoot a target - the team squirts the warpflame in too high an arc. Determine which models are hit as per a breath weapon. A unit suffering any casualties must take a Panic test. If you roll a Misfire, the weapon doesn&apos;t fire, roll a D6 on the misfire chart below.
+Note that this model can stand &amp; shoot - fire the weapon as soon as the charge is declared, before the enemy moves.
 
-Note that this model can stand &amp; shoot - fire the weapon as soon as the charge is declared, before the enemy moves.</description>
+Warpfire Thrower Misfire Chart Chart
+
+D6	Result
+1-2	Kaboom! Place the iarge circular template centred on the barrel and resolve the hit as normal. After this, the team is automatically removed.
+3-4	The barrel catches fire! The team runs desperately 2D6&quot; in a random direction (the model with the barrel in front), stopping if it comes in contact with anything, then explodes. Place the small circular template over the barrel and resolve the hit as normal. After this, the team is automatically removed.
+5-6	The weapon&apos;s nozzle blocks and squirts burning fuel over its crew. Work out the effect as if the team had been hit by their own weapon.</description>
             </rule>
             <rule id="9e7d-0d33-9b1e-1199" name="Warpfire Thrower Misfire" hidden="false">
               <description>D6	Result
@@ -4478,13 +4490,17 @@ Note that this model can stand &amp; shoot - fire the weapon as soon as the char
         <selectionEntry id="ab92-5cd1-f9e2-a7dc" name="Ratling Gun" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="69f7-8f29-35d9-6819" name="Ratling Gun" hidden="false">
-              <description>Strength 4, 15&quot; Range. Armour Piercing, Move-or-Fire, Warpstone Weapon.
-
-To fire the gun, first you have to determine how many shots are fired. To do this, roll a D6: the result is the amount of shots fired. You can now decide whether to stop or to roll a second dice. The result of the second dice is added to the first and their total will be the amount of shots fired. You can now stop or choose to continue firing, repeating the same process. When you decide to stop, check the distance to the target and, if it is within range, all shots fired will automatically hit.
+              <description>To fire the gun, first you have to determine how many shots are fired. To do this, roll a D6: the result is the amount of shots fired. You can now decide whether to stop or to roll a second dice. The result of the second dice is added to the first and their total will be the amount of shots fired. You can now stop or choose to continue firing, repeating the same process. When you decide to stop, check the distance to the target and, if it is within range, all shots fired will automatically hit.
 
 You can continue to roll dice as long as you want, but if you roll a DOUBLE (ie, you roll a duplicate of one of the numbers already rolled), the Ratling Gun suffers some kind of malfunction while firing. As soon as you roll a double consult the Misfire Chart below.
 
-Note that Ratling Guns can stand &amp; shoot.</description>
+Note that Ratling Guns can stand &amp; shoot.
+
+Ratling Gun Misfire Chart Chart
+
+Double 1 or Double 2	Jammed! The pump powering the firing mechanism loses pressure before the crew can fire. No shots are fired this turn.
+Double 3 or Double 4	Whoops!!! The steam pump controls malfunction and a cloud of green steam surrounds the crew as the gun spins around wildly. Roll a Scatter dice - all the shots (including the ones rolled with the last dice, the one that has caused the Misfire) are fired in the direction shown by the arrow by the half-blinded and disoriented crew, hitting the first unit in their path within 15&quot;, friend or foe!
+Double 5 or Double 6	BLAM! The weapon builds up excessive pressure and the release mechanism locks shut. No shots are fired this turn, the weapon explodes and the team is torn to shreds.</description>
             </rule>
             <rule id="713b-d036-a8cd-040a" name="Ratling Gun Misfire" hidden="false">
               <description>Double 1 or Double 2	Jammed! The pump powering the firing mechanism loses pressure before the crew can fire. No shots are fired this turn.
@@ -4521,20 +4537,12 @@ If their unit is engaged in combat from a previous turn and the Skaven character
 Furthermore, if Skaven characters refuse a challenge, the Skaven player, rather than his opponent, can choose which character goes at the back of the unit. Once this character is moved to the back of the unit, no further penalties apply to him for having refused the challenge. Note that if the rear of the unit is engaged in combat, the character has to be placed on the flank, inside the unit, or in any other position where it cannot fight. You can never get into base contact with enemies when refusing a challenge.</description>
     </rule>
     <rule id="936c-575c-87e5-8df3" name="Warpstone Tokens" hidden="false">
-      <description>Skaven Wizards begin the game with a number of Warpstone tokens equal to their level.
-
-Before casting a spell, a Skaven Wizard can declare that he is eating some of his Warpstone tokens to boost his powers, generating extra Power dice. He can eat any number of tokens to cast a spell, as long as he has enough tokens left. When casting the spell, roll one extra dice for each Warpstone token used. These extra dice are added to the casting total, counting as normal Power dice and can cause a Miscast and Irresistible Force.
-
-This allows the Skaven Wizards to use more dice than they are normally allowed for their level. You can cast a spell without using any normal Power dice and only with warpstone generated dice if you want.
-
-For any of the warpstone generated dice that rolls a 1, the Skaven Wizard suffers a wound, with no saves of any kind allowed. The results of Miscasts still apply as normal to Skaven Wizards.
+      <description>For any of the warpstone generated dice that rolls a 1, the Skaven Wizard suffers a wound, with no saves of any kind allowed. The results of Miscasts still apply as normal to Skaven Wizards.
 
 When using both normal Power dice and warpstone generated ones, it is best to use dice of a different colour to represent the warpstone generated Power dice (green is best!), or to roll them separately.</description>
     </rule>
     <rule id="93bd-451c-66d5-2ded" name="Warplock Pistol" hidden="false">
-      <description>A warplock pistol follows the normal rules for pistols, except that it has a range of 10&quot; and a Strength of 5..
-
-For each Warplock Pistol shot that obtains a result of 1 on its roll to hit, roll another dice. If this second dice rolls a 2-6 the shot was a dud and all is fine, but if the result is a 1 the gun has a serious problem. To represent this, the wielder hits itself (roll to wound as normal).
+      <description>A warplock pistol follows the normal rules for pistols, except that it has a range of 10&quot; and a Strength of 5. In addition, warlock pistols are Reliable.
 
 A warplock pistol is a Warpstone Weapon.</description>
     </rule>
