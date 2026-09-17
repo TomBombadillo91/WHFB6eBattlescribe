@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9534-aec7-1922-76f2" name="Orcs and Goblins" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9534-aec7-1922-76f2" name="Orcs and Goblins" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5b0c-07f2-6b72-7aa8" name="Orc" hidden="false"/>
     <categoryEntry id="2c47-226a-5465-6c16" name="Common Orc" hidden="false"/>
@@ -363,18 +363,6 @@
           </constraints>
           <profiles>
             <profile id="165e-4e56-fbb2-4bb6" name="Savage Orc" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
-              <modifierGroups>
-                <modifierGroup>
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6fad-57cb-d877-0058" type="equalTo"/>
-                  </conditions>
-                  <modifiers>
-                    <modifier type="set" field="d46f-1ae5-387f-4ac3" value="4"/>
-                    <modifier type="set" field="name" value="Savage Orc Big&apos;Un"/>
-                    <modifier type="set" field="0c58-1252-962d-8fcc" value="4"/>
-                  </modifiers>
-                </modifierGroup>
-              </modifierGroups>
               <characteristics>
                 <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
                 <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
