@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="05b9-5022-67cd-4fd3" name="Bretonnians" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="05b9-5022-67cd-4fd3" name="Bretonnians" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="ff93-67ff-9b17-d51d" name="Grail Vow" hidden="false">
       <rules>
         <rule id="9d14-4306-540f-6c61" name="Grail Vow" hidden="false">
-          <description>Knights with the Grail Vow are Immune to Psychology and cannot be joined by characters that have the Knight&apos;s Vow or the Questing Vow.
+          <description>Knights with the Grail Vow are Immune to Psychology, and cannot be joined by characters that have The Knight&apos;s Vow or The Questing Vow.
 
-Any model with the Grail Vow always starts the game with the Blessing of the Lady, regardless of whether or not the Bretonnian army prays. 
-All attacks made by models with the Grail Vow count as Magical, although this does not affect the Knight&apos;s mount.</description>
+Any model with the Grail Vow always starts the game with The Blessing of the Lady, regardless of whether or not the Bretonnian army prays. All attacks made by models with the Grail Vow count as magical, though this does not affect the Knight’s mount.</description>
         </rule>
       </rules>
     </categoryEntry>
@@ -21,7 +20,7 @@ All attacks made by models with the Grail Vow count as Magical, although this do
     <categoryEntry id="8544-7483-7784-ffda" name="Questing Vow" hidden="false">
       <rules>
         <rule id="daed-599e-5353-b722" name="Questing Vow" hidden="false">
-          <description>Knights with the Questing Vow may ignore panic caused by friendly units and models with The Peasant&apos;s Duty, may re-roll any failed Psychology tests and cannot be joined by characters with the Knight&apos;s Vow.
+          <description>Knights with the Questing Vow may ignore panic caused by friendly units and models with the Peasant’s Duty, may re-roll any failed Psychology tests, and cannot be joined by characters with the Knight&apos;s Vow.
 
 Characters with the Questing Vow cannot use a mundane or magical lance.</description>
         </rule>
@@ -294,7 +293,11 @@ Characters with the Questing Vow cannot use a mundane or magical lance.</descrip
     </selectionEntry>
     <selectionEntry id="2b72-8cdd-6a55-de4b" name="Knights Errant" hidden="false" collective="false" import="true" type="unit">
       <rules>
-        <rule id="c5e1-8c49-cc69-3f08" name="Impetuous" hidden="false"/>
+        <rule id="c5e1-8c49-cc69-3f08" name="Impetuous" hidden="false">
+          <description>After charges have been declared, if any Impetuous units did not declare a charge but are within charge range of an enemy, then they must take a Leadership test to restrain themselves from charging. If this test is failed, they are forced to charge. If the test is passed, they may move normally.
+
+In addition, so reckless are the Knights Errant, that whenever they charge, the unit and any characters that have joined them are Immune to Psychology for the rest of that turn.</description>
+        </rule>
       </rules>
       <categoryLinks>
         <categoryLink id="fa56-d30f-e809-cd13" name="Core" hidden="false" targetId="62d3-efc6-6c2c-634e" primary="true"/>
@@ -427,7 +430,9 @@ Characters with the Questing Vow cannot use a mundane or magical lance.</descrip
     <selectionEntry id="e65e-d21c-3754-3281" name="Prophetess of the Lady" hidden="false" collective="false" import="true" type="model">
       <rules>
         <rule id="6de6-56e8-0343-00cc" name="Aura of the Lady" hidden="false">
-          <description>Prophetesses have Magic Resistance (2)</description>
+          <description>Damsels and Prophetesses are divinely protected by the Lady of the Lake.
+
+This gives Damsels Magic Resistance (1), and Prophetesses Magic Resistance (2).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -456,7 +461,9 @@ Characters with the Questing Vow cannot use a mundane or magical lance.</descrip
     <selectionEntry id="166a-3de3-777c-9f01" name="Damsel of the Lady" hidden="false" collective="false" import="true" type="model">
       <rules>
         <rule id="2258-6bb4-24ec-8572" name="Aura of the Lady" hidden="false">
-          <description>Damsels have Magic Resistance (2)</description>
+          <description>Damsels and Prophetesses are divinely protected by the Lady of the Lake.
+
+This gives Damsels Magic Resistance (1), and Prophetesses Magic Resistance (2).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -734,7 +741,9 @@ Characters with the Questing Vow cannot use a mundane or magical lance.</descrip
           <selectionEntries>
             <selectionEntry id="d9e3-6743-fcce-6298" name="Defensive Stakes" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
-                <rule id="8dea-01c2-dce4-18fc" name="Defensive Stakes" hidden="false"/>
+                <rule id="8dea-01c2-dce4-18fc" name="Defensive Stakes" hidden="false">
+                  <description>No unit gains any charge bonus when they charge the unit&apos;s front. For example, lances do not gain their +2 Strength bonus, great weapons will strike last, chariots will not inflict any impact hits. Special attacks that require the unit to charge for it to take effect (like the Bone Giant&apos;s Furious Assault) cannot use their special rules. In addition, the charging unit does not count as charging for determining who gets to fight first - the Initiative value of the models involved in the fight determines this - in the case of a tie, roll a dice to determine who attacks first. Characters may join the unit or leave it freely - add or remove a stake base as necessary.</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
@@ -1021,8 +1030,9 @@ Characters with the Questing Vow cannot use a mundane or magical lance.</descrip
       </constraints>
       <rules>
         <rule id="b753-2e5d-cff4-a4cb" name="Flying Cavalry" hidden="false">
-          <description>Pegasus Knights follow the rules for Flying Cavalry (p.106 of the BRB) with the following exceptions:
-They have a Unit Strength of 2 each, they get +1 Armour save for being mounted, and are affected by spells, etc. that affect cavalry.</description>
+          <description>- Flying Cavalry are Unit Strength 2.
+- They receive +1 to their Armour save for being mounted.
+- They are affected by spells, etc, that would affect cavalry.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1146,7 +1156,15 @@ They have a Unit Strength of 2 each, they get +1 Armour save for being mounted, 
         <rule id="fc75-b694-38f6-9668" name="Unit Strength 6" hidden="false">
           <description>The Grail Reliquae has a Unit Strength of 6 (plus any accompanying Battle Pilgrims)</description>
         </rule>
-        <rule id="092c-aef3-52c3-cc0c" name="Grail Reliquae" hidden="false"/>
+        <rule id="092c-aef3-52c3-cc0c" name="Grail Reliquae" hidden="false">
+          <description>The Grail Reliquae has a 5+ Armour save. In close combat, this save is increased to 4+.
+
+The Grail Reliquae counts as both a Standard Bearer (following all the rules for Standard Bearers, though it can never be dropped or captured), and Musician (following all the rules for Musicians).
+
+While there are rank &amp; file Battle Pilgrims remaining in the unit, each wound caused against the Reliquae will result in one regular rank &amp; file model being removed ( other Battle Pilgrims simply leap in to hold up the Reliquae if one of them falls). Only once all the Battle Pilgrims in the unit are removed does the Reliquae itself start taking wounds.
+
+In addition, the presence of the Grail Reliquae means that the entire unit will be affected by the Blessing of the Lady, if the Bretonnian army prayed at the start of the game. This follows all the normal rules for the Blessing of the Lady.</description>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink id="5fb4-92fc-b6db-06cf" name="Hatred" hidden="false" targetId="2db9-4b87-800e-ed58" type="rule"/>
@@ -1365,7 +1383,7 @@ They have a Unit Strength of 2 each, they get +1 Armour save for being mounted, 
       </constraints>
       <rules>
         <rule id="3d6b-1387-59c3-1e7c" name="Living Saints" hidden="false">
-          <description>Each model in a unit of Grail Knights can issue and accept challenges as if they were a Champion.</description>
+          <description>Every model in a unit of Grail Knights can issue and accept challenges as if they were a Champion.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -1475,9 +1493,7 @@ They have a Unit Strength of 2 each, they get +1 Armour save for being mounted, 
     <selectionEntry id="37a6-9bc9-db23-c5f0" name="Field Trebuchet" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="8bab-1e8d-98e9-47b6" name="Field Trebuchet" hidden="false">
-          <description>The Field Trebuchet is a Stone Thrower, with the following exceptions:
-It has a range of 12-60&quot; and a Strength of 5 (10).
-It can never be moved during the game after it has been deployed, although it may be pivoted on the spot.</description>
+          <description>The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10). In addition, it can never be moved during the game, though may be pivoted on the spot.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1607,23 +1623,21 @@ It can never be moved during the game after it has been deployed, although it ma
           <description>The Steed of the Green Knight is not slowed by its barding, and so its Movement is 8″.</description>
         </rule>
         <rule id="5f86-62ff-ae28-db92" name="Ethereal" hidden="false">
-          <description>The Green Knight is an insubstantial, ghostly being that can pass through barriers as if they were not there at all. He suffers no movement penalties for moving over or through any kind of terrain. He never suffers any movement penalties, even f om such things as magical effects. He can even move through impassable terrain, so long as he does not encl his move within impassable terrain. He may not, however, move through other units. Nevertheless, the Green Knight does block line of sight (no one can see through him), and cannot see through anything himself that would normally block line of sight.
+          <description>Ethereal beings are insubstantial creatures which can move through solid objects. They therefore suffer no movement penalties for moving over difficult terrain or obstacles, or from other reductions to movement (such as the Anvil of Doom&apos;s Rune of Water or the Pit of Shades spell). They can move through buildings just as easily, but not through other units. They cannot, however, end their movement inside impassable terrain nor see through anything that would block the line of sight of normal units. Ethereal creatures block line of sight normally (the enemy cannot see through them).
 
-Because he is insubstantial, he can&apos;t be harmed except by magical attacks, Daemons or other ethereal creatures, though he may be affected by spells as normal.
+Because they are insubstantial, they can&apos;t be harmed in combat except by attacks from magical weapons, Daemons or other Ethereal creatures, though they can be affected by spells as normal. Ethereal creatures can still be beaten in close combat and suffer extra wounds as a consequence because combat results are not wholly dependent upon casualties.
 
-He also cannot join or be joined by units or characters.</description>
+Note that if a Wraith rides a Nightmare, then the Nightmare will also be Ethereal.</description>
         </rule>
         <rule id="1d27-6b13-c9c9-0618" name="Aura of the Fey" hidden="false">
-          <description>A being of supernatural power, the Green Knight can never truly be slain.
-
-If his Wounds are ever reduced to zero, he will instantly disappear into thin air. However, in the Remaining Moves part of the following Bretonnian Movement phase, the Bretonnian player may attempt to reawaken the Green Knight as described in Guardian of the Sacred Sites above, following all the same rules. However, each time the Green Knight is slain, a -1 is suffered on the next dice roll made to awaken him (eg, after he is slain the first time, he will awaken the following turn on a 4+ rather than a 3+. After the second time, he awakens on a 5+, etc). If he does not appear, a test may be taken during each following Bretonnian Remaining Moves phase to see if he returns.
+          <description>If his Wounds are ever reduced to zero, he will instantly disappear into thin air. However, in the Remaining Moves part of the following Bretonnian Movement phase, the Bretonnian player may attempt to reawaken the Green Knight as described in Guardian of the Sacred Sites above, following all the same rules. However, each time the Green Knight is slain, a -1 is suffered on the next dice roll made to awaken him (eg, after he is slain the first time, he will awaken the following turn on a 4+ rather than a 3+. After the second time, he awakens on a 5+, etc). If he does not appear, a test may be taken during each following Bretonnian Remaining Moves phase to see if he returns.
 
 For calculating Victory Points, the enemy only gets full Victory Points for the Green Knight if he is not on the table at the end of the game.</description>
         </rule>
-        <rule id="91b2-7c76-6010-0f3a" name="Guardian of Sacred Sites" hidden="false">
+        <rule id="91b2-7c76-6010-0f3a" name="Guardian of the Sacred Sites" hidden="false">
           <description>The Green Knight is not placed on the board during deployment. In the Remaining Moves phase of any Bretonnian Movement phase, the Bretonnian player may attempt to awaken the Green Knight. Roll a dice – he will awaken on the dice roll of a 3 or more. If he does not awaken that turn, then the player may try again the following turn, and so on.
 
-When the Green Knight is awoken, he may be placed within any &apos;natural&apos; terrain piece on the table that is difficult ground or very difficult ground (including forests, rivers, marshes, rocky outcrops but not constructed things like buildings, etc). What is &apos;natural&apos; terrain should be decided before the game starts, and at least one suitable piece should be placed on the table. The Green Knight may move normally on the turn he appears.
+When the Green Knight is awoken, he may be placed within any &apos;natural&apos; terrain piece on the table that is difficult ground or very difficult ground (including fo1·ests, rivers, marshes, rocky outcrops but not constructed things like buildings, etc). What is &apos;natural&apos; terrain should be decided before the game starts, and at least one suitable piece should be placed on the table. The Green Knight may move normally on the turn he appears.
 
 During the game, the Green Knight may disappear at will and reappear in another location completely. If the Green Knight is within (or moves into) a &apos;natural&apos; piece of scenery during the Remaining Moves phase, then he may instantly be removed from the table and replaced anywhere on the table within another &apos;natural&apos; piece of terrain, facing in any direction. He may not move any further that turn. Note that he still may not end his move within impassable terrain.</description>
         </rule>
@@ -1751,9 +1765,7 @@ During the game, the Green Knight may disappear at will and reappear in another 
           </profiles>
           <rules>
             <rule id="4f3a-50d9-78c1-402d" name="Silvaron" hidden="false">
-              <description>Silvaron has +2 Strength when he charges. In addition he has a 5+ Ward save and Magic Resistance (2). Remember than even though both Silvaron and the Enchantress have Magic Resistance, only one of them may add their dice into dispellnig a spell affecting them.
-
-All attacks made by Silvaron count as magical, and he causes Fear.</description>
+              <description>Silvaron has +2 Strength when he charges. In addition, he has a 5+ Ward save, and Magic Resistance (2). Remember that even though both Silvaron and the Enchantress have Magic Resistance, only one of them may add their dice into dispelling a spell affecting them. All attacks made by Silvaron count as magical, and he causes fear.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -1778,7 +1790,7 @@ All attacks made by Silvaron count as magical, and he causes Fear.</description>
           </constraints>
           <rules>
             <rule id="b4a2-4302-3a82-436b" name="The Chalice of Potions" hidden="false">
-              <description>At any point during each Bretonnian Magic phase, the Fay Enchantress may peer into the Chalice and stir up magical power to use against her foes. Roll a D6 each time the Chalice is used. The number refers to which spell is automatically cast from the Lore of Heavens as a Bound Spell (at the Power Level equal to the minimum casting level for the spell). However, if a 6 is rolled and the Comet of Casandora is cast (even if it is dispelled), the Chalice temporarily runs out of power, and cannot be used for the remainder of the battle.</description>
+              <description>At any point during each Bretonnian Magic phase, the Fay Enchantress may peer into the Chalice and stir up magical power to use against her foes. Roll aD6 each time the Chalice is used. The number refers to which spell is automatically cast from the Lore of Heavens as a Bound Spell (at the Power Level equal to the minimum casting level for the spell). However, if a 6 is rolled and the Comet of Casandora is cast (even if it is dispelled), the Chalice temporarily runs out of power, and cannot be used for the remainder of the battle.</description>
             </rule>
           </rules>
           <costs>
@@ -1792,7 +1804,9 @@ All attacks made by Silvaron count as magical, and he causes Fear.</description>
           </constraints>
           <rules>
             <rule id="b52e-9163-6ffb-1c80" name="Power Familiar (Toad)" hidden="false">
-              <description>The Toad Familiar adds one dice to both the Power dice and the Dispel dice pool of the Fay Enchantress’ side.</description>
+              <description>Said to have once been a wizard that displeased her, the Enchantress draws power from her toad familiar to strengthen her spells and weaken the magic of her enemies.
+
+The Toad Familiar adds one dice to both the Power dice and the Dispel dice pool of the Fay Enchantress’ side.</description>
             </rule>
           </rules>
           <costs>
@@ -1822,7 +1836,7 @@ All attacks made by Silvaron count as magical, and he causes Fear.</description>
               <description>The Fay Enchantress may be accompanied by 2-8 Grail Guardians. These Grail Guardians cost 38 points each. One may be upgraded to be a Musician for + 10 points, and another may be upgraded to a Standard Bearer for +20 points. They follow all the rules for Grail Knights. They are placed on the table when the Fay Enchantress is set up, and must form up as a unit with her. The Fay Enchantress can never choose to leave this unit. These Knights are not chosen from the army list, and may be taken in addition to a 0-1 unit of Grail Knights.</description>
             </rule>
             <rule id="b548-aca4-deb2-001f" name="Living Saints" hidden="false">
-              <description>Each model in a unit of Grail Knights can issue and accept challenges as if they were a Champion.</description>
+              <description>Every model in a unit of Grail Knights can issue and accept challenges as if they were a Champion.</description>
             </rule>
           </rules>
           <selectionEntries>
@@ -1936,16 +1950,15 @@ All attacks made by Silvaron count as magical, and he causes Fear.</description>
   </selectionEntries>
   <rules>
     <rule id="8509-0cf0-5d2f-07de" name="The Blessing of the Lady" hidden="false">
-      <description>The Bretonnian player may pray for the Blessing of the Lady before the battle begins but after both players have deployed their army. The enemy can then choose to take the first or second turn, as the whole Bretonnian army must kneel to pray before the fight. The Lady&apos;s Blessing is automatically granted.
+      <description>- Affected models get a 6+ ward save
+- Affected models get a 5+ ward save versus attacks with Strength 5 or higher.
 
-The Blessing affects all units and characters that have the Knight&apos;s Vow, the Questing Vow and the Grail Vow. In addition, Prophetesses and Damsels are also affected. The Blessing also affects the mount of any affected model (so Hippogryphs and Pegasus gain the benefit so long as the rider is affected).
+Losing the Blessing
 
-The effects of the Blessing are as follows:
-- Affected models get a 6+ Ward save.
-- Affected models get a 5+ Ward save versus attacks with Strengh 5 or higher.
+Characters and units can lose the Blessing, and once lost, it cannot be regained. Keep a note of which units have lost the Blessing (perhaps using counters).
 
-Losing the Blessing:
-Characters and units can lose the Blessing, and once lost it cannot be regained. A unit or character loses the Blessing for the following reasosns:
+A unit or character loses the Blessing for the following reasons:
+
 - The unit or character flees for any reason (including breaking from combat).
 - The Bretonnian player refuses to meet a challenge in a fight where a Knightly character (or the Champion of a unit of Knights) could have accepted. In this case, if there is more than one unit of Knights in the combat, then all units and characters involved in the combat will lose the Blessing.</description>
     </rule>
@@ -2018,6 +2031,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f25c-c285-0653-ee8f" type="max"/>
       </constraints>
+      <rules>
+        <rule id="25b5-004f-527e-87d0" name="Knight&apos;s Vow" hidden="false">
+          <description>Knights with the Knight’s Vow may ignore panic caused by friendly units and models with The Peasant’s Duty.</description>
+        </rule>
+      </rules>
       <categoryLinks>
         <categoryLink id="4418-db9f-6bd0-f582" name="Knightly Vow" hidden="false" targetId="cb2b-a2b1-5e1f-ba95" primary="false"/>
       </categoryLinks>
@@ -2041,6 +2059,13 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1293-1ccd-e74d-419c" type="max"/>
       </constraints>
+      <rules>
+        <rule id="391f-61e2-e2c6-4b2f" name="Grail Vow" hidden="false">
+          <description>Knights with the Grail Vow are Immune to Psychology, and cannot be joined by characters that have The Knight&apos;s Vow or The Questing Vow.
+
+Any model with the Grail Vow always starts the game with The Blessing of the Lady, regardless of whether or not the Bretonnian army prays. All attacks made by models with the Grail Vow count as magical, though this does not affect the Knight’s mount.</description>
+        </rule>
+      </rules>
       <categoryLinks>
         <categoryLink id="5425-8229-a008-2fed" name="Grail Vow" hidden="false" targetId="ff93-67ff-9b17-d51d" primary="false"/>
       </categoryLinks>
@@ -2064,6 +2089,13 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e43-d64f-3e6d-5461" type="max"/>
       </constraints>
+      <rules>
+        <rule id="ab97-c839-f89b-d1cb" name="Questing Vow" hidden="false">
+          <description>Knights with the Questing Vow may ignore panic caused by friendly units and models with the Peasant’s Duty, may re-roll any failed Psychology tests, and cannot be joined by characters with the Knight&apos;s Vow.
+
+Characters with the Questing Vow cannot use a mundane or magical lance.</description>
+        </rule>
+      </rules>
       <categoryLinks>
         <categoryLink id="4bd3-f09d-2c56-c954" name="Questing Vow" hidden="false" targetId="8544-7483-7784-ffda" primary="false"/>
       </categoryLinks>
@@ -2101,6 +2133,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6f2-9292-6cd1-f71a" type="max"/>
           </constraints>
+          <rules>
+            <rule id="71bd-bf63-2cde-8453" name="Virtue of Heroism" hidden="false">
+              <description>Against Large Targets, and if armed with a non-magical weapon, the Knight has the Killing Blow special ability. This overrides the normal limitation of Killing Blow only affecting man-sized models.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="246e-5ded-0a3a-bdae" name="Virtue of Heroism" hidden="false" targetId="a423-3873-857e-12bb" primary="false"/>
           </categoryLinks>
@@ -2131,6 +2168,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d28-60bb-c7e4-62d6" type="max"/>
           </constraints>
+          <rules>
+            <rule id="a28a-6948-9b4f-a9f1" name="Virtue of Knightly Temper" hidden="false">
+              <description>For each attack that the Knight hits and wounds with on the charge (before Saves etc,), he may make an additional attack. For example, if a Paladin hits and wounds with two attacks he can make two additional attacks immediately. Extra attacks are not generated if these additional attacks also hit and wound. A character with this Virtue may not use magic weapons.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="08ea-b9f4-001c-8696" name="Virtue of Knightly Temper" hidden="false" targetId="f63e-3392-d3de-e61b" primary="false"/>
           </categoryLinks>
@@ -2168,6 +2210,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b716-bdf0-27f1-334c" type="max"/>
           </constraints>
+          <rules>
+            <rule id="867f-69ba-b363-d425" name="Virtue of Stoicism" hidden="false">
+              <description>The Knight (and any unit he has joined) may re-roll failed Break tests.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="1993-7532-bd75-58df" name="Virtue of Stoicism" hidden="false" targetId="c5b1-f947-9883-0bd2" primary="false"/>
           </categoryLinks>
@@ -2198,6 +2245,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc0a-af96-66f6-ff0f" type="max"/>
           </constraints>
+          <rules>
+            <rule id="1f82-3146-903d-e259" name="Virtue of the Ideal" hidden="false">
+              <description>The Knight gains the following bonuses to his profile: +2 Weapon Skill, +1 Initiative, +1 Attack. He may not be the army&apos;s General (even if he has the highest Leadership) and any friendly unit (including other Knightly characters, or units using a Knight&apos;s Leadership) taking any form of Leadership test within 6&quot; of this model suffers a -1 penalty to their Leadership.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="3811-b8d1-06d0-f7d2" name="Virtue of the Ideal" hidden="false" targetId="9081-37c4-141d-49d5" primary="false"/>
           </categoryLinks>
@@ -2228,6 +2280,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d1c-ed70-97dc-6234" type="max"/>
           </constraints>
+          <rules>
+            <rule id="8f06-c611-6e05-9c89" name="Virtue of the Impetuous Knight" hidden="false">
+              <description>The Knight, and any mounted unit he is with, adds +D6&quot; for the first charge that they declare (roll after declaring the charge). If the charge is failed the unit will not add the extra D6&quot; to their failed charge movement.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="b57e-3663-4183-00fa" name="Virtue of the Impetuous Knight" hidden="false" targetId="c40e-92ec-95c9-2fb4" primary="false"/>
           </categoryLinks>
@@ -2258,6 +2315,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4577-d3ca-c2f1-17bb" type="max"/>
           </constraints>
+          <rules>
+            <rule id="1da1-cb28-66a4-0d84" name="Virtue of Confidence" hidden="false">
+              <description>The Knight must always issue challenges, and will always accept them if possible. In challenges, the Knight may re-roll all failed rolls to hit and to wound.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="3aa2-0432-823b-e40d" name="Virtue of Confidence" hidden="false" targetId="6425-ed2c-c2a2-1de5" primary="false"/>
           </categoryLinks>
@@ -2277,6 +2339,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e7c4-4851-6f98-144c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a04-c204-eb3d-2097" type="max"/>
           </constraints>
+          <rules>
+            <rule id="0942-0fee-2d56-9d5a" name="Virtue of Duty" hidden="false">
+              <description>One per army. May not be taken by the General. For as long as the General is alive, the model with this Virtue adds + 1 to the combat resolution of any fight of which he is a part.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="7f59-1ec0-712b-a068" name="Virtue of Duty" hidden="false" targetId="bef0-0933-0787-df16" primary="false"/>
           </categoryLinks>
@@ -2307,6 +2374,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6dc-fb86-956d-8725" type="max"/>
           </constraints>
+          <rules>
+            <rule id="2682-e311-b086-be23" name="Virtue of the Joust" hidden="false">
+              <description>The Knight may re-roll failed rolls to hit when charging and using a lance (including magical lances).</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="b302-f939-edcb-98f0" name="Virtue of the Joust" hidden="false" targetId="bfbc-5bc3-2b40-014c" primary="false"/>
           </categoryLinks>
@@ -2337,6 +2409,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="497f-4270-5b8d-9252" type="max"/>
           </constraints>
+          <rules>
+            <rule id="c3a4-9c1b-96ca-4e4c" name="Virtue of Noble Disdain" hidden="false">
+              <description>The Knight hates all enemies using missile weapons including war machine crews. In addition, any unit the Knight has joined never takes Panic tests caused by suffering 25% casualties (eg, shooting, magic, etc).</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="3244-efd8-76eb-50fa" name="Virtue of Noble Disdain" hidden="false" targetId="6f6b-4fd9-6302-4d00" primary="false"/>
           </categoryLinks>
@@ -2367,6 +2444,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b81c-d132-104f-02b5" type="max"/>
           </constraints>
+          <rules>
+            <rule id="e068-6fa5-61bb-3d6d" name="Virtue of Purity" hidden="false">
+              <description>The Knight will always start the game with the Blessing of the Lady, even if the army did not pray. In addition, the Ward save which the Knight gains from the Blessing is always 5+. regardless of the Strength of the attack.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="6f82-fe5b-7a08-e523" name="Virtue of Purity" hidden="false" targetId="0dae-bfd2-f3f8-2e3a" primary="false"/>
           </categoryLinks>
@@ -2397,6 +2479,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abcd-914e-2cde-6751" type="max"/>
           </constraints>
+          <rules>
+            <rule id="6c7d-aa95-cc79-7947" name="Virtue of Discipline" hidden="false">
+              <description>The enemy never gets a +1 combat resolution bonus for outnumbering in any combat that the character is involved in. Note, however, that he and any unit he has joined will still flee automatically if beaten by a fear-causing enemy that outnumbers them, as per the normal rules.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="3e83-fc04-cf47-0a61" name="Virtue of Discipline" hidden="false" targetId="81e6-0a1a-58ed-060b" primary="false"/>
           </categoryLinks>
@@ -2427,6 +2514,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ff2-3daa-1b3f-ab52" type="max"/>
           </constraints>
+          <rules>
+            <rule id="0d86-ada4-31a1-f923" name="Virtue of Empathy" hidden="false">
+              <description>The Knight may be fielded on foot. In addition, if he is not the army&apos;s General, Peasant units within 12&quot; of him may use his Leadership, rather than the normal distance of 6&quot;.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="a11a-ab00-4ce7-a010" name="Virtue of Empathy" hidden="false" targetId="e297-ed4c-9703-18dd" primary="false"/>
           </categoryLinks>
@@ -2457,6 +2549,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5561-a8ab-79ad-146a" type="max"/>
           </constraints>
+          <rules>
+            <rule id="4a6c-135c-dc93-241c" name="Virtue of the Penitent" hidden="false">
+              <description>The Knight is Stubborn, though he may never join any friendly units. He may not take any magic items, nor may he ride a Hippogryph or a Royal Pegasus.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="646d-cc3a-55a4-9194" name="Virtue of the Penitent" hidden="false" targetId="f6b7-151f-9165-3c8b" primary="false"/>
           </categoryLinks>
@@ -2487,6 +2584,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7aa-9e4f-77be-6999" type="max"/>
           </constraints>
+          <rules>
+            <rule id="b83c-f65b-5917-1894" name="Virtue of Audacity" hidden="false">
+              <description>Against enemies with a higher Strength than himself (before modifications from weapons etc.), the Knight may re-roll any failed rolls To Hit and To Wound.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="78e6-1275-3659-a512" name="Virtue of Audacity" hidden="false" targetId="2a2e-dec8-0103-dddd" primary="false"/>
           </categoryLinks>
@@ -2524,6 +2626,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df9e-c0a5-a90f-593d" type="max"/>
           </constraints>
+          <rules>
+            <rule id="a8fa-2bb9-c152-9d64" name="Virtue of Audacity" hidden="false">
+              <description>Against enemies with a higher Strength than himself (before modifications from weapons etc.), the Knight may re-roll any failed rolls To Hit and To Wound.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="98ed-b6bf-f5d0-ab0c" name="Virtue of Audacity" hidden="false" targetId="2a2e-dec8-0103-dddd" primary="false"/>
           </categoryLinks>
@@ -2561,6 +2668,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e9e-0144-2cf8-6adc" type="max"/>
           </constraints>
+          <rules>
+            <rule id="f467-c5c6-d45e-bcc9" name="Virtue of Audacity" hidden="false">
+              <description>Against enemies with a higher Strength than himself (before modifications from weapons etc.), the Knight may re-roll any failed rolls To Hit and To Wound.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="eaac-a819-0249-8c75" name="Virtue of Audacity" hidden="false" targetId="2a2e-dec8-0103-dddd" primary="false"/>
           </categoryLinks>
@@ -2591,6 +2703,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="feec-d2df-94f6-f5b9" type="max"/>
           </constraints>
+          <rules>
+            <rule id="6b0f-5fbe-11cf-2160" name="Virtue of Confidence" hidden="false">
+              <description>The Knight must always issue challenges, and will always accept them if possible. In challenges, the Knight may re-roll all failed rolls to hit and to wound.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="dc6e-b20b-b7c7-4932" name="Virtue of Confidence" hidden="false" targetId="6425-ed2c-c2a2-1de5" primary="false"/>
           </categoryLinks>
@@ -2628,6 +2745,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d152-ed21-bd9b-9cfb" type="max"/>
           </constraints>
+          <rules>
+            <rule id="870c-3061-1f33-d24f" name="Virtue of Confidence" hidden="false">
+              <description>The Knight must always issue challenges, and will always accept them if possible. In challenges, the Knight may re-roll all failed rolls to hit and to wound.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="accb-93b7-f973-ad0f" name="Virtue of Confidence" hidden="false" targetId="6425-ed2c-c2a2-1de5" primary="false"/>
           </categoryLinks>
@@ -2665,6 +2787,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3d2-f5f6-7747-ac83" type="max"/>
           </constraints>
+          <rules>
+            <rule id="efdb-5dff-013f-f994" name="Virtue of Confidence" hidden="false">
+              <description>The Knight must always issue challenges, and will always accept them if possible. In challenges, the Knight may re-roll all failed rolls to hit and to wound.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="05b5-c76e-b0de-7f7c" name="Virtue of Confidence" hidden="false" targetId="6425-ed2c-c2a2-1de5" primary="false"/>
           </categoryLinks>
@@ -2702,6 +2829,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c560-6b00-2db3-ffdb" type="max"/>
           </constraints>
+          <rules>
+            <rule id="a429-8cf7-46c3-c29d" name="Virtue of Discipline" hidden="false">
+              <description>The enemy never gets a +1 combat resolution bonus for outnumbering in any combat that the character is involved in. Note, however, that he and any unit he has joined will still flee automatically if beaten by a fear-causing enemy that outnumbers them, as per the normal rules.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="67d0-1804-061e-c608" name="Virtue of Discipline" hidden="false" targetId="81e6-0a1a-58ed-060b" primary="false"/>
           </categoryLinks>
@@ -2732,6 +2864,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64ad-59d8-e911-f588" type="max"/>
           </constraints>
+          <rules>
+            <rule id="d90e-62c3-2843-f536" name="Virtue of Discipline" hidden="false">
+              <description>The enemy never gets a +1 combat resolution bonus for outnumbering in any combat that the character is involved in. Note, however, that he and any unit he has joined will still flee automatically if beaten by a fear-causing enemy that outnumbers them, as per the normal rules.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="5190-5ec9-359e-41e2" name="Virtue of Discipline" hidden="false" targetId="81e6-0a1a-58ed-060b" primary="false"/>
           </categoryLinks>
@@ -2762,6 +2899,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bd9-691c-9b78-e1a7" type="max"/>
           </constraints>
+          <rules>
+            <rule id="6422-991f-0673-70d1" name="Virtue of Discipline" hidden="false">
+              <description>The enemy never gets a +1 combat resolution bonus for outnumbering in any combat that the character is involved in. Note, however, that he and any unit he has joined will still flee automatically if beaten by a fear-causing enemy that outnumbers them, as per the normal rules.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="48bd-ca2b-08f3-06ae" name="Virtue of Discipline" hidden="false" targetId="81e6-0a1a-58ed-060b" primary="false"/>
           </categoryLinks>
@@ -2799,6 +2941,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9272-38f7-9c0a-948e" type="max"/>
           </constraints>
+          <rules>
+            <rule id="63b0-618c-01e7-b4ce" name="Virtue of Discipline" hidden="false">
+              <description>The enemy never gets a +1 combat resolution bonus for outnumbering in any combat that the character is involved in. Note, however, that he and any unit he has joined will still flee automatically if beaten by a fear-causing enemy that outnumbers them, as per the normal rules.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="654a-c6ab-f276-a50e" name="Virtue of Discipline" hidden="false" targetId="81e6-0a1a-58ed-060b" primary="false"/>
           </categoryLinks>
@@ -2836,6 +2983,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2dd9-111b-4b0f-a08a" type="max"/>
           </constraints>
+          <rules>
+            <rule id="9c51-9b14-dfb1-823f" name="Virtue of Discipline" hidden="false">
+              <description>The enemy never gets a +1 combat resolution bonus for outnumbering in any combat that the character is involved in. Note, however, that he and any unit he has joined will still flee automatically if beaten by a fear-causing enemy that outnumbers them, as per the normal rules.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="dada-bfe0-1382-2be4" name="Virtue of Discipline" hidden="false" targetId="81e6-0a1a-58ed-060b" primary="false"/>
           </categoryLinks>
@@ -2866,6 +3018,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ecf-60b7-c1bd-1890" type="max"/>
           </constraints>
+          <rules>
+            <rule id="a8ff-8971-d2a4-e746" name="Virtue of Empathy" hidden="false">
+              <description>The Knight may be fielded on foot. In addition, if he is not the army&apos;s General, Peasant units within 12&quot; of him may use his Leadership, rather than the normal distance of 6&quot;.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="f383-c1d4-cd61-0e48" name="Virtue of Empathy" hidden="false" targetId="e297-ed4c-9703-18dd" primary="false"/>
           </categoryLinks>
@@ -2896,6 +3053,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da85-07bb-4061-b6d9" type="max"/>
           </constraints>
+          <rules>
+            <rule id="887b-9700-5279-5a45" name="Virtue of Empathy" hidden="false">
+              <description>The Knight may be fielded on foot. In addition, if he is not the army&apos;s General, Peasant units within 12&quot; of him may use his Leadership, rather than the normal distance of 6&quot;.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="6453-db41-d958-6052" name="Virtue of Empathy" hidden="false" targetId="e297-ed4c-9703-18dd" primary="false"/>
           </categoryLinks>
@@ -2926,6 +3088,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e92a-bc3d-9b48-96ca" type="max"/>
           </constraints>
+          <rules>
+            <rule id="01ab-29d0-79d6-d92c" name="Virtue of Empathy" hidden="false">
+              <description>The Knight may be fielded on foot. In addition, if he is not the army&apos;s General, Peasant units within 12&quot; of him may use his Leadership, rather than the normal distance of 6&quot;.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="fba5-8d30-4b42-cc5a" name="Virtue of Empathy" hidden="false" targetId="e297-ed4c-9703-18dd" primary="false"/>
           </categoryLinks>
@@ -2963,6 +3130,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91ef-2d64-e82d-fbd6" type="max"/>
           </constraints>
+          <rules>
+            <rule id="7be8-4cba-8a94-3a78" name="Virtue of Empathy" hidden="false">
+              <description>The Knight may be fielded on foot. In addition, if he is not the army&apos;s General, Peasant units within 12&quot; of him may use his Leadership, rather than the normal distance of 6&quot;.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="2c58-36af-ee97-3eaa" name="Virtue of Empathy" hidden="false" targetId="e297-ed4c-9703-18dd" primary="false"/>
           </categoryLinks>
@@ -2993,6 +3165,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc54-572a-481f-2750" type="max"/>
           </constraints>
+          <rules>
+            <rule id="b5ec-a32f-ed36-ba48" name="Virtue of Empathy" hidden="false">
+              <description>The Knight may be fielded on foot. In addition, if he is not the army&apos;s General, Peasant units within 12&quot; of him may use his Leadership, rather than the normal distance of 6&quot;.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="6d01-7e80-ac87-05ad" name="Virtue of Empathy" hidden="false" targetId="e297-ed4c-9703-18dd" primary="false"/>
           </categoryLinks>
@@ -3030,6 +3207,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0656-7aff-ba50-8c8e" type="max"/>
           </constraints>
+          <rules>
+            <rule id="375a-e82d-40cd-7bf3" name="Virtue of Empathy" hidden="false">
+              <description>The Knight may be fielded on foot. In addition, if he is not the army&apos;s General, Peasant units within 12&quot; of him may use his Leadership, rather than the normal distance of 6&quot;.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="7365-2a90-ec72-810a" name="Virtue of Empathy" hidden="false" targetId="e297-ed4c-9703-18dd" primary="false"/>
           </categoryLinks>
@@ -3067,6 +3249,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="882b-0997-8845-baf3" type="max"/>
           </constraints>
+          <rules>
+            <rule id="3cd3-53b7-1194-4a89" name="Virtue of Empathy" hidden="false">
+              <description>The Knight may be fielded on foot. In addition, if he is not the army&apos;s General, Peasant units within 12&quot; of him may use his Leadership, rather than the normal distance of 6&quot;.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="2cbf-47d7-bce5-2fad" name="Virtue of Empathy" hidden="false" targetId="e297-ed4c-9703-18dd" primary="false"/>
           </categoryLinks>
@@ -3104,6 +3291,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcd2-27ce-e005-d2e4" type="max"/>
           </constraints>
+          <rules>
+            <rule id="b6ed-7daa-d56c-70a4" name="Virtue of Empathy" hidden="false">
+              <description>The Knight may be fielded on foot. In addition, if he is not the army&apos;s General, Peasant units within 12&quot; of him may use his Leadership, rather than the normal distance of 6&quot;.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="fa03-ad42-4508-ec45" name="Virtue of Empathy" hidden="false" targetId="e297-ed4c-9703-18dd" primary="false"/>
           </categoryLinks>
@@ -3141,6 +3333,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f02-0bd6-6332-3fda" type="max"/>
           </constraints>
+          <rules>
+            <rule id="d4a9-50ed-65f1-4de3" name="Virtue of Empathy" hidden="false">
+              <description>The Knight may be fielded on foot. In addition, if he is not the army&apos;s General, Peasant units within 12&quot; of him may use his Leadership, rather than the normal distance of 6&quot;.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="f6b4-c3aa-032d-88c9" name="Virtue of Empathy" hidden="false" targetId="e297-ed4c-9703-18dd" primary="false"/>
           </categoryLinks>
@@ -3178,6 +3375,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e513-dc40-12d1-c480" type="max"/>
           </constraints>
+          <rules>
+            <rule id="f1c4-1fba-a55d-923b" name="Virtue of Knightly Temper" hidden="false">
+              <description>For each attack that the Knight hits and wounds with on the charge (before Saves etc,), he may make an additional attack. For example, if a Paladin hits and wounds with two attacks he can make two additional attacks immediately. Extra attacks are not generated if these additional attacks also hit and wound. A character with this Virtue may not use magic weapons.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="c1b0-3d15-e9c7-0c37" name="Virtue of Knightly Temper" hidden="false" targetId="f63e-3392-d3de-e61b" primary="false"/>
           </categoryLinks>
@@ -3215,6 +3417,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f442-c550-673d-a80b" type="max"/>
           </constraints>
+          <rules>
+            <rule id="d41d-591e-1b48-2d23" name="Virtue of Noble Disdain" hidden="false">
+              <description>The Knight hates all enemies using missile weapons including war machine crews. In addition, any unit the Knight has joined never takes Panic tests caused by suffering 25% casualties (eg, shooting, magic, etc).</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="1bcf-f65f-e4c3-2132" name="Virtue of Noble Disdain" hidden="false" targetId="6f6b-4fd9-6302-4d00" primary="false"/>
           </categoryLinks>
@@ -3252,6 +3459,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="170f-4ad7-94cd-17f4" type="max"/>
           </constraints>
+          <rules>
+            <rule id="9045-ff18-9f15-b654" name="Virtue of Noble Disdain" hidden="false">
+              <description>The Knight hates all enemies using missile weapons including war machine crews. In addition, any unit the Knight has joined never takes Panic tests caused by suffering 25% casualties (eg, shooting, magic, etc).</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="f428-ae7b-9455-ba20" name="Virtue of Noble Disdain" hidden="false" targetId="6f6b-4fd9-6302-4d00" primary="false"/>
           </categoryLinks>
@@ -3289,6 +3501,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b835-eaa2-c12f-6ac7" type="max"/>
           </constraints>
+          <rules>
+            <rule id="2316-bb35-6939-2791" name="Virtue of Noble Disdain" hidden="false">
+              <description>The Knight hates all enemies using missile weapons including war machine crews. In addition, any unit the Knight has joined never takes Panic tests caused by suffering 25% casualties (eg, shooting, magic, etc).</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="4008-9d10-87b1-479a" name="Virtue of Noble Disdain" hidden="false" targetId="6f6b-4fd9-6302-4d00" primary="false"/>
           </categoryLinks>
@@ -3319,6 +3536,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b2e-6425-8b27-61bc" type="max"/>
           </constraints>
+          <rules>
+            <rule id="c646-3289-414e-5de5" name="Virtue of Noble Disdain" hidden="false">
+              <description>The Knight hates all enemies using missile weapons including war machine crews. In addition, any unit the Knight has joined never takes Panic tests caused by suffering 25% casualties (eg, shooting, magic, etc).</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="e78a-2815-f8c2-b185" name="Virtue of Noble Disdain" hidden="false" targetId="6f6b-4fd9-6302-4d00" primary="false"/>
           </categoryLinks>
@@ -3356,6 +3578,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22c5-0ef8-aaac-e022" type="max"/>
           </constraints>
+          <rules>
+            <rule id="0eda-f607-acf0-0e37" name="Virtue of Purity" hidden="false">
+              <description>The Knight will always start the game with the Blessing of the Lady, even if the army did not pray. In addition, the Ward save which the Knight gains from the Blessing is always 5+. regardless of the Strength of the attack.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="fa9d-2ca3-8aea-8dd0" name="Virtue of Purity" hidden="false" targetId="0dae-bfd2-f3f8-2e3a" primary="false"/>
           </categoryLinks>
@@ -3393,6 +3620,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e16a-1196-528a-d613" type="max"/>
           </constraints>
+          <rules>
+            <rule id="054d-dbeb-768e-9bc9" name="Virtue of Purity" hidden="false">
+              <description>The Knight will always start the game with the Blessing of the Lady, even if the army did not pray. In addition, the Ward save which the Knight gains from the Blessing is always 5+. regardless of the Strength of the attack.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="10f5-9a6c-0c22-2ba4" name="Virtue of Purity" hidden="false" targetId="0dae-bfd2-f3f8-2e3a" primary="false"/>
           </categoryLinks>
@@ -3430,6 +3662,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39b8-b7ad-f719-bb49" type="max"/>
           </constraints>
+          <rules>
+            <rule id="943e-2619-f642-6e9b" name="Virtue of Purity" hidden="false">
+              <description>The Knight will always start the game with the Blessing of the Lady, even if the army did not pray. In addition, the Ward save which the Knight gains from the Blessing is always 5+. regardless of the Strength of the attack.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="5fb9-84c9-b9b0-5124" name="Virtue of Purity" hidden="false" targetId="0dae-bfd2-f3f8-2e3a" primary="false"/>
           </categoryLinks>
@@ -3460,6 +3697,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61bc-3c28-0bf0-c33f" type="max"/>
           </constraints>
+          <rules>
+            <rule id="e8dc-aa1f-f8f0-0114" name="Virtue of Purity" hidden="false">
+              <description>The Knight will always start the game with the Blessing of the Lady, even if the army did not pray. In addition, the Ward save which the Knight gains from the Blessing is always 5+. regardless of the Strength of the attack.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="85f8-c3ef-46f2-cffa" name="Virtue of Purity" hidden="false" targetId="0dae-bfd2-f3f8-2e3a" primary="false"/>
           </categoryLinks>
@@ -3497,6 +3739,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea8a-6ead-4623-8015" type="max"/>
           </constraints>
+          <rules>
+            <rule id="52b0-351f-7b63-f5f8" name="Virtue of Heroism" hidden="false">
+              <description>Against Large Targets, and if armed with a non-magical weapon, the Knight has the Killing Blow special ability. This overrides the normal limitation of Killing Blow only affecting man-sized models.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="03ce-a128-d334-04c5" name="Virtue of Heroism" hidden="false" targetId="a423-3873-857e-12bb" primary="false"/>
           </categoryLinks>
@@ -3527,6 +3774,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1ff-629f-82a7-53a1" type="max"/>
           </constraints>
+          <rules>
+            <rule id="803e-9a76-de86-6ea8" name="Virtue of Stoicism" hidden="false">
+              <description>The Knight (and any unit he has joined) may re-roll failed Break tests.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="825e-7ebf-5b28-4473" name="Virtue of Stoicism" hidden="false" targetId="c5b1-f947-9883-0bd2" primary="false"/>
           </categoryLinks>
@@ -3564,6 +3816,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b1b-1558-d207-deac" type="max"/>
           </constraints>
+          <rules>
+            <rule id="a8c3-1e66-eee6-a7f4" name="Virtue of the Ideal" hidden="false">
+              <description>The Knight gains the following bonuses to his profile: +2 Weapon Skill, +1 Initiative, +1 Attack. He may not be the army&apos;s General (even if he has the highest Leadership) and any friendly unit (including other Knightly characters, or units using a Knight&apos;s Leadership) taking any form of Leadership test within 6&quot; of this model suffers a -1 penalty to their Leadership.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="17bb-73ab-9df9-8fe3" name="Virtue of the Ideal" hidden="false" targetId="9081-37c4-141d-49d5" primary="false"/>
           </categoryLinks>
@@ -3601,6 +3858,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8869-1eae-ad48-cfc1" type="max"/>
           </constraints>
+          <rules>
+            <rule id="1451-7a04-c931-5c1b" name="Virtue of the Impetuous Knight" hidden="false">
+              <description>The Knight, and any mounted unit he is with, adds +D6&quot; for the first charge that they declare (roll after declaring the charge). If the charge is failed the unit will not add the extra D6&quot; to their failed charge movement.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="5ca2-ad89-8782-9354" name="Virtue of the Impetuous Knight" hidden="false" targetId="c40e-92ec-95c9-2fb4" primary="false"/>
           </categoryLinks>
@@ -3631,6 +3893,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efb7-3e41-cb7a-0e02" type="max"/>
           </constraints>
+          <rules>
+            <rule id="211d-dbee-a463-64b2" name="Virtue of the Joust" hidden="false">
+              <description>The Knight may re-roll failed rolls to hit when charging and using a lance (including magical lances).</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="7fab-0f71-8e96-579a" name="Virtue of the Joust" hidden="false" targetId="bfbc-5bc3-2b40-014c" primary="false"/>
           </categoryLinks>
@@ -3668,6 +3935,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7324-440b-fc7d-cac4" type="max"/>
           </constraints>
+          <rules>
+            <rule id="1ffd-7f5c-bbbd-9f19" name="Virtue of the Joust" hidden="false">
+              <description>The Knight may re-roll failed rolls to hit when charging and using a lance (including magical lances).</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="4fb3-db4a-dcdd-930f" name="Virtue of the Joust" hidden="false" targetId="bfbc-5bc3-2b40-014c" primary="false"/>
           </categoryLinks>
@@ -3705,6 +3977,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e23b-cf11-6f2f-ad2c" type="max"/>
           </constraints>
+          <rules>
+            <rule id="f864-ebdc-994b-b819" name="Virtue of the Joust" hidden="false">
+              <description>The Knight may re-roll failed rolls to hit when charging and using a lance (including magical lances).</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="c81b-81f3-d1cd-f67a" name="Virtue of the Joust" hidden="false" targetId="bfbc-5bc3-2b40-014c" primary="false"/>
           </categoryLinks>
@@ -3742,6 +4019,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24ac-173f-e6fb-ad0d" type="max"/>
           </constraints>
+          <rules>
+            <rule id="0b37-3c86-2007-e521" name="Virtue of the Penitent" hidden="false">
+              <description>The Knight is Stubborn, though he may never join any friendly units. He may not take any magic items, nor may he ride a Hippogryph or a Royal Pegasus.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="f4b5-95b4-7cdf-f032" name="Virtue of the Penitent" hidden="false" targetId="f6b7-151f-9165-3c8b" primary="false"/>
           </categoryLinks>
@@ -3768,6 +4050,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="78b7-76c4-b399-3c9f" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e31f-2d8b-07be-f607" type="max"/>
           </constraints>
+          <rules>
+            <rule id="bddb-d711-df02-fa19" name="Sirienne&apos;s Locket" hidden="false">
+              <description>Bretonnian Lord only. A Knight with Sideline&apos;s locket can never suffer more than one wound in any one phase from non-magical attacks - even multiple wound weapons (including war machines) can only cause a single wound. After the first wound in that phase is suffered, all subsequent wounds suffered during that phase are ignored. The bearer can still be run down by pursuing enemies as normal, and may still be affected as normal by Killing Blow.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="818e-def2-7055-8dcb" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
           </categoryLinks>
@@ -3792,6 +4079,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3fd0-61fe-83f6-9182" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8a4f-d6aa-50cd-fac9" type="max"/>
           </constraints>
+          <rules>
+            <rule id="563f-6376-f48f-9c44" name="Token of the Damsel" hidden="false">
+              <description>One use only. Bretonnian Lord or Paladin only. Against the first wounding hit suffered, the Knight gains a 2+ Ward save.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="4ece-fce8-d958-b1a7" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
           </categoryLinks>
@@ -3811,6 +4103,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0aa5-8c49-8338-62c6" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="11f8-8119-44f2-08a6" type="max"/>
           </constraints>
+          <rules>
+            <rule id="a8f2-5fda-e3e2-38b7" name="Insignia of the Quest" hidden="false">
+              <description>Character with The Questing Vow only. If the bearer is ever reduced to 1 Wound, then the Knight Instantly gains a 3+ Ward save. If the character suffers multiple wounds that would kill him before he has gained this Ward save (eg, If he has more than one wound left and is hit by a cannon ball), he will be reduced to 1 Wound, then may attempt his 3+ Ward save to stay alive and nullify any further wounds caused by the same hit.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="648f-f43f-64cf-6954" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
           </categoryLinks>
@@ -3823,6 +4120,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4b10-d476-6e66-2324" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="edd4-ac59-d910-f1cd" type="max"/>
           </constraints>
+          <rules>
+            <rule id="9606-f945-9eaf-47f7" name="Braid of Bordeleaux" hidden="false">
+              <description>One use only. The Braid may be used at the start of any Bretonnian turn. Until the beginning of the next Bretonnian turn, the character’s Leadership value is increased by 1. In addition, once the Braid has been used, until the start of the next Bretonnian turn, the model bearing the Braid and any unit he is with can move over marsh, rivers, lakes and any other water features without penalty and will benefit from soft cover while in such terrain.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="cfbd-a10e-6eae-9b89" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
           </categoryLinks>
@@ -3835,6 +4137,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a226-d583-57be-5c55" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3431-8ce3-9250-04ee" type="max"/>
           </constraints>
+          <rules>
+            <rule id="9ccf-154f-2f1d-bc79" name="Dragon&apos;s Claw" hidden="false">
+              <description>The bearer&apos;s Ward save gained from the Blessing of the Lady is Increased to 5+ against attacks of any Strength. If the model loses the Blessing, then it loses this Ward save as normal. In addition, as long as the bearer has the Blessing, he is immune to fire based attacks (such as Dragon&apos;s breath, Warp-fire Throwers and spells from the Lore of Fire).</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="17b8-b1fb-10d9-3b2f" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
           </categoryLinks>
@@ -3847,6 +4154,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="60ab-d6b2-305b-17f8" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d0c5-a9a5-0f8f-9f02" type="max"/>
           </constraints>
+          <rules>
+            <rule id="2667-f683-6d2b-5674" name="Mantle of Damsel Elena" hidden="false">
+              <description>Poisoned Attacks do not wound automatically against a chancier with the Mantle. In addition. the special rules for Killing Blow have no effect on the character.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="ba54-1c61-4376-9e47" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
           </categoryLinks>
@@ -3911,6 +4223,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6457-db57-a16d-8b3c" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0927-2bd8-a5fa-cc77" type="max"/>
               </constraints>
+              <rules>
+                <rule id="0eee-9906-84f0-c47b" name="Gilded Cuirass" hidden="false">
+                  <description>Character with The Grail Vow only. This armour replaces the Knight&apos;s heavy armour, and gives a 5+ Armour save that can be combined with other equipment as normal. In addition, the wearer has Regeneration.</description>
+                </rule>
+              </rules>
               <categoryLinks>
                 <categoryLink id="f418-647c-8a7c-85ed" name="Magic Armour" hidden="false" targetId="2963-aff1-28ca-7634" primary="false"/>
               </categoryLinks>
@@ -3923,6 +4240,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9811-a27a-a6ad-eb99" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="adf4-9f25-3db9-93fd" type="max"/>
               </constraints>
+              <rules>
+                <rule id="63c1-3d71-edf1-b4c0" name="Cuirass of Fortune" hidden="false">
+                  <description>This armour replaces the Knight&apos;s heavy armour, and gives a 5+ Armour save which may be combined with other armour as normal. When rolling to wound in close combat, the Knight may re-roll any dice rolls of 1.</description>
+                </rule>
+              </rules>
               <categoryLinks>
                 <categoryLink id="e908-2a38-2afe-8865" name="Magic Armour" hidden="false" targetId="2963-aff1-28ca-7634" primary="false"/>
               </categoryLinks>
@@ -3930,11 +4252,16 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3c4a-de09-83bc-f353" name="Armour of Midsummer Sun" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3c4a-de09-83bc-f353" name="Armour of the Midsummer Sun" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6f3d-d284-c01d-63ad" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ec82-da30-5353-064d" type="max"/>
               </constraints>
+              <rules>
+                <rule id="978b-5aa0-11bf-5a61" name="Armour of the Midsummer Sun" hidden="false">
+                  <description>This armour replaces the Knight&apos;s heavy armour, and gives a 5+ Armour save that may be combined with other armour as normal. Opponents suffer a -1 penalty to all rolls to hit the wearer and his mount with missile weapons and in close combat.</description>
+                </rule>
+              </rules>
               <categoryLinks>
                 <categoryLink id="29ec-7b90-4184-bd56" name="Magic Armour" hidden="false" targetId="2963-aff1-28ca-7634" primary="false"/>
               </categoryLinks>
@@ -3947,6 +4274,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8ade-82c7-9601-077a" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bd56-b8f7-cec7-83ea" type="max"/>
               </constraints>
+              <rules>
+                <rule id="1421-f6c5-df73-bcff" name="Armour of Agiluf" hidden="false">
+                  <description>This armour replaces the Knight&apos;s heavy armour and includes a shield, giving a 4+ Armour save. The shield must he used at all times - so the wearer cannot use a weapon that requires two hands. In addition, the armour confers Weapon Skill 10 (which cannot be altered with other items, Virtues, etc) to whomever is wearing it.</description>
+                </rule>
+              </rules>
               <categoryLinks>
                 <categoryLink id="6cd4-c2fb-ce75-d12e" name="Magic Armour" hidden="false" targetId="2963-aff1-28ca-7634" primary="false"/>
               </categoryLinks>
@@ -4009,6 +4341,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7159-d9df-c014-3f3e" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="92c5-41c3-cd6a-6111" type="max"/>
           </constraints>
+          <rules>
+            <rule id="1e60-fae4-05f5-c0a1" name="Falcon-horn of Fredemund" hidden="false">
+              <description>One use only. The Horn may he sounded at the start of any Bretonnian turn. Until the start of the next Bretonnian turn, no enemy unit may Fly - they are forced to use their ground movement. Note that this may also alter the enemies&apos; flee pursuit distance.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="cc42-0473-dafb-14f7" name="Enchanted Item" hidden="false" targetId="d8eb-f296-d241-3c6d" primary="false"/>
           </categoryLinks>
@@ -4021,6 +4358,13 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ac2b-00dd-2036-40a7" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e0fd-611a-9e80-979c" type="max"/>
           </constraints>
+          <rules>
+            <rule id="6b57-9000-8800-1c63" name="Holy Icon" hidden="false">
+              <description>This priceless triptych depicts the aspects of the Lady and incorporates the heraldry of Bretomda. Any under the auspices of this artefact find themselves imbued with faith and become practically immune to hostile magic.
+
+The Holy Icon gives the character Magic Resistance (3).</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="0630-b951-a02b-55dd" name="Enchanted Item" hidden="false" targetId="d8eb-f296-d241-3c6d" primary="false"/>
           </categoryLinks>
@@ -4033,6 +4377,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f68a-9908-e8b8-3a10" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e7eb-1a55-0a84-2009" type="max"/>
           </constraints>
+          <rules>
+            <rule id="9f04-e772-73bf-fcb5" name="The Ruby Goblet" hidden="false">
+              <description>This magic item will start to take effect at the end of the first phase during which the hearer or his unit suffers an unsaved wound. From that moment on, the hearer (and any unit he Ls with) cannot be wounded on better than a 3+ from any non-magical source.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="d90f-7b9f-a12e-9b8f" name="Enchanted Item" hidden="false" targetId="d8eb-f296-d241-3c6d" primary="false"/>
           </categoryLinks>
@@ -4052,6 +4401,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a280-ca40-f727-dbcd" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1914-354d-4454-7244" type="max"/>
           </constraints>
+          <rules>
+            <rule id="db1a-16ae-3f81-58d8" name="The Mane of the Purebreed" hidden="false">
+              <description>One use only. Character on Warhorse only. The Mane confers +1 Strength to the character&apos;s Warhorse and those of any unit he is with the first time they charge.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="fc01-b2a7-89fb-aadf" name="Enchanted Item" hidden="false" targetId="d8eb-f296-d241-3c6d" primary="false"/>
           </categoryLinks>
@@ -4076,6 +4430,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6357-9492-7b55-7497" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3001-7f98-a315-98a5" type="max"/>
           </constraints>
+          <rules>
+            <rule id="39ed-c613-2644-24ed" name="Antlers of the Great Hunt" hidden="false">
+              <description>Bretonnian Lord or Paladin only. The Knight (and any unit he is with) may roll an additional dice when pursuing and choose the highest three (two if on foot).</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="73b0-6758-b11e-f516" name="Enchanted Item" hidden="false" targetId="d8eb-f296-d241-3c6d" primary="false"/>
           </categoryLinks>
@@ -4088,6 +4447,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="71b5-cd27-37f8-1daf" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ea1e-e545-b3af-71d5" type="max"/>
           </constraints>
+          <rules>
+            <rule id="c407-aea1-b568-396c" name="Tress of Isoulde" hidden="false">
+              <description>One use only. Nominate one enemy model at the beginning of any Close Combat phase. The bearer hits that model on a 2+ for that Close Combat round, regardless of other modifiers.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="91a8-88ae-73ba-aecd" name="Enchanted Item" hidden="false" targetId="d8eb-f296-d241-3c6d" primary="false"/>
           </categoryLinks>
@@ -4100,6 +4464,13 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="420e-7a2c-692e-6100" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b11a-63c2-ea75-7a0b" type="max"/>
           </constraints>
+          <rules>
+            <rule id="c981-7ea7-4418-d261" name="Gauntlet of the Duel" hidden="false">
+              <description>When cast down, this enchanted gauntlet can magnify even the rifest scrap of or conceit into a surge of righteous self-belief. Even Skaven have been known to join the bearer in honourable combat (with predictable results).
+
+Any challenge issued by the bearer of the Gauntlet of the Duel cannot be refused.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="1093-ddf2-48aa-e52e" name="Enchanted Item" hidden="false" targetId="d8eb-f296-d241-3c6d" primary="false"/>
           </categoryLinks>
@@ -4143,6 +4514,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f007-095d-2c60-175d" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="355d-197a-fdcc-6111" type="max"/>
           </constraints>
+          <rules>
+            <rule id="8015-f146-10a1-0852" name="The Silver Lance of the Blessed" hidden="false">
+              <description>Mounted character only. The bearer has +2 Strength on the charge when mounted. If the model has The Blessing of the Lady, then all attacks with the Silver Lance of the Blessed automatically hit.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="9dd9-ca0c-19cf-aabb" name="Magic Weapon" hidden="false" targetId="e6e5-cff5-9987-d563" primary="false"/>
           </categoryLinks>
@@ -4162,6 +4538,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8d51-3d77-aa8d-bdb7" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="53ba-a883-5913-cc6d" type="max"/>
           </constraints>
+          <rules>
+            <rule id="f411-c221-fc59-54d0" name="Sword of the Quest" hidden="false">
+              <description>Model with The Questing Vow only. May be used as either a hand weapon or a great weapon, decided at the start of combat as normal. No Armour saves may be taken against the Sword of the Quest.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="55c5-4984-6635-9e06" name="Magic Weapon" hidden="false" targetId="e6e5-cff5-9987-d563" primary="false"/>
           </categoryLinks>
@@ -4181,6 +4562,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="de0e-e1ba-fd19-4b95" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7a1e-813c-6e91-5d3e" type="max"/>
           </constraints>
+          <rules>
+            <rule id="7c8a-cb3c-4a5f-b2b0" name="Sword of the Lady&apos;s Champion" hidden="false">
+              <description>Character with The Grail Vow only. The character always counts their Strength as one higher than their target&apos;s Toughness, unless their Strength would normally he more than this. In effect this means that they will always wound opponents on at least a 3+. This modified Strength is also used to calculate Armour save modifiers.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="ae73-e3ee-3f65-f90f" name="Magic Weapon" hidden="false" targetId="e6e5-cff5-9987-d563" primary="false"/>
           </categoryLinks>
@@ -4193,6 +4579,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2a9e-0ad1-d80e-43a8" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="70e2-ff59-4580-1275" type="max"/>
           </constraints>
+          <rules>
+            <rule id="24e9-cf54-27eb-b2e5" name="Sword of Heroes" hidden="false">
+              <description>Against enemies that have Toughness 5 or greater, the bearer gets +1 Strength and each unsaved wound caused by the Sword of Heroes becomes D3 wounds rather than 1.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="f640-cfb5-2109-5158" name="Magic Weapon" hidden="false" targetId="e6e5-cff5-9987-d563" primary="false"/>
           </categoryLinks>
@@ -4217,6 +4608,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="82e3-6e4c-42d0-b970" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1ba1-2b28-7a5a-2f0e" type="max"/>
           </constraints>
+          <rules>
+            <rule id="09df-bfdf-f477-3be6" name="The Heartwood Lance" hidden="false">
+              <description>Mounted character only. The bearer has +2 Strength on the charge when mounted. The Heartwood Lance allows the bearer to re-roll all failed rolls to wound.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="1427-031a-5448-fce3" name="Magic Weapon" hidden="false" targetId="e6e5-cff5-9987-d563" primary="false"/>
           </categoryLinks>
@@ -4224,11 +4620,16 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="85da-b3cf-ef38-f1e9" name="Birth-sword of Carcasonne" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="85da-b3cf-ef38-f1e9" name="Birth-sword of Carcassonne" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ad03-be6c-cef2-1ba8" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8379-96b6-1a30-a47a" type="max"/>
           </constraints>
+          <rules>
+            <rule id="f613-2fe8-6492-3d4b" name="Birth-sword of Carcassonne" hidden="false">
+              <description>The Sword adds +1 Strength to the bearer. Enemies wounded by the sword must re-roll any successful Armour saves.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="aa4f-4313-43b3-b5ca" name="Magic Weapon" hidden="false" targetId="e6e5-cff5-9987-d563" primary="false"/>
           </categoryLinks>
@@ -4241,6 +4642,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3585-46e7-221a-2090" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ca94-72c9-3dc8-c6ea" type="max"/>
           </constraints>
+          <rules>
+            <rule id="9a17-39a2-fbba-50ec" name="Morning Star of Fracasse" hidden="false">
+              <description>The bearer has +2 Strength in the first round of combat. For each hit on a close combat opponent, roll a D6. On a 4+, if the opponent has a magic weapon, it is destroyed.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="d45a-516e-65a4-e067" name="Magic Weapon" hidden="false" targetId="e6e5-cff5-9987-d563" primary="false"/>
           </categoryLinks>
@@ -4265,6 +4671,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6eee-a84f-4a7a-0961" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ccd4-2980-c009-a471" type="max"/>
           </constraints>
+          <rules>
+            <rule id="2f0b-dfe6-e4ad-4359" name="The Lance of Artois" hidden="false">
+              <description>Mounted character only. The bearer has +2 Strength on the charge when mounted. In addition, the lance confers the Killing Blow special rule onto the bearer but only on turns during which the character charges.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="af0d-cd67-21fa-744f" name="Magic Weapon" hidden="false" targetId="e6e5-cff5-9987-d563" primary="false"/>
           </categoryLinks>
@@ -4289,6 +4700,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8244-423c-0cde-1d13" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ee5e-507b-8b71-0c1c" type="max"/>
           </constraints>
+          <rules>
+            <rule id="6593-518d-a1fd-d4bd" name="The Wyrmlance" hidden="false">
+              <description>Mounted character only. The bearer has +2 Strength on the charge when mounted. In addition, once per game, the model wielding the Wymilance may make a breath attack from the tip of the lance at Strength 3 provided he is not in close combat. Furthermore, all attacks made by the Wyrmlance count as flaming attacks.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="3724-d51a-1244-9596" name="Magic Weapon" hidden="false" targetId="e6e5-cff5-9987-d563" primary="false"/>
           </categoryLinks>
@@ -4321,6 +4737,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e0ce-cbfa-45ed-9898" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="767a-0c87-22c2-ff20" type="max"/>
           </constraints>
+          <rules>
+            <rule id="5d29-ca9c-1bc3-a672" name="Prayer Icon of Quenelles" hidden="false">
+              <description>One use only. The Prayer Icon can be revealed at any time. The bearer and the unit she is with are immediately granted the Blessing of the Lady Lady. This can allow a unit that has lost the blessing to regain it.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="41bc-69a6-9983-0b37" name="Arcane Item" hidden="false" targetId="7cfd-b676-48e1-6eec" primary="false"/>
           </categoryLinks>
@@ -4333,6 +4754,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6d6e-56ee-9cf2-f400" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="13b1-1d3e-6f24-449b" type="max"/>
           </constraints>
+          <rules>
+            <rule id="bbad-165c-4216-37cd" name="Sacrament of the Lady" hidden="false">
+              <description>At the start of any Bretonnian Magic phase, the bearer may use the Sacrament. The model generates double its usual number of Power dice but may not cast any spells that turn. Each time the Sacraments are used, roll a dice. On a 1 the model has run out of wafers and after that turn the Sacrament cannot he used for the remainder of the game.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="b064-5ebe-3411-9aa3" name="Arcane Item" hidden="false" targetId="7cfd-b676-48e1-6eec" primary="false"/>
           </categoryLinks>
@@ -4345,6 +4771,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c901-56c8-dd7e-e428" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0f32-f8e7-5559-3f00" type="max"/>
           </constraints>
+          <rules>
+            <rule id="3fb2-6b9e-b290-1ecc" name="The Verdant Heart" hidden="false">
+              <description>Any wood or finest that the hearer is within counts as very difficult terrain as long as the character remains wholly within the terrain feature. In addition, the bearer gains +1 to cast spells from the Lore of Life.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="3440-642f-c1f0-7b31" name="Arcane Item" hidden="false" targetId="7cfd-b676-48e1-6eec" primary="false"/>
           </categoryLinks>
@@ -4357,6 +4788,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4b73-01cc-e370-055b" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f556-7df6-f72a-487e" type="max"/>
           </constraints>
+          <rules>
+            <rule id="6760-77e8-7232-962e" name="Chalice of Malfleur" hidden="false">
+              <description>At the start of the opponent&apos;s Magic phase. the bearer may drink from the Chalice. If she does so, on the roll of a 1 she suffers a wound with no saves allowed, including Wand saves. On a roll of 2-6 an extra Dispel dice is added to the player&apos;s pool.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="0db5-0f0e-007f-d76b" name="Arcane Item" hidden="false" targetId="7cfd-b676-48e1-6eec" primary="false"/>
           </categoryLinks>
@@ -4369,6 +4805,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ec4c-f3ba-e2c0-16a6" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f3ac-29ff-2e99-4d5f" type="max"/>
           </constraints>
+          <rules>
+            <rule id="d567-95b8-b1fe-1325" name="Potion Sacre" hidden="false">
+              <description>One use only. This is used before rolling the dice to cast or dispel a spell. After the dice are rolled. the player may add +1 to the result of one dice. This may cause Irresistible Force or prevent a Miscast.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="e568-6419-7ebf-e6e6" name="Arcane Item" hidden="false" targetId="7cfd-b676-48e1-6eec" primary="false"/>
           </categoryLinks>
@@ -4381,6 +4822,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="74f2-785a-8101-de4c" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2dd3-e682-4b0d-ea9c" type="max"/>
           </constraints>
+          <rules>
+            <rule id="5e15-690e-0dd7-0476" name="The Silver Mirror" hidden="false">
+              <description>One use only. May be used with the exact same effects as a Dispel Scroll. In addition, the enemy Wizard who cast the spell suffers an immediate Strength 6 hit.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="6760-9939-a288-78a7" name="Arcane Item" hidden="false" targetId="7cfd-b676-48e1-6eec" primary="false"/>
           </categoryLinks>
@@ -4416,6 +4862,13 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e7e7-7291-4577-2426" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ad4f-a379-d23c-9014" type="max"/>
           </constraints>
+          <rules>
+            <rule id="5fa3-cc44-9200-25ec" name="Banner of the Lady" hidden="false">
+              <description>This banner was first carried by Giles le breton himself who rode to victory under the lady&apos;s benevolent gaze, instilling fear of tier wrath into his enemies.
+
+All enemy units with at least one model in base contact with the bearer of the Banner of the Lady get no combat bonus for ranks.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="071e-733c-4828-6366" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -4440,6 +4893,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="46fc-5147-1b3a-1c02" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9f41-c3b4-f8b7-6b9b" type="max"/>
           </constraints>
+          <rules>
+            <rule id="db8e-528a-9bd4-e1d3" name="Valorous Standard" hidden="false">
+              <description>Knights unit only. The unit rolls 3D6 for all Leadership based tests (Including Break tests) and discards the highest.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="d858-cd4b-03d3-82c2" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -4459,6 +4917,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4b05-70e5-05b7-2ce2" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b2ff-df6d-d6c3-6f06" type="max"/>
           </constraints>
+          <rules>
+            <rule id="c19a-c5b4-bed5-bffc" name="Banner of Defence" hidden="false">
+              <description>As long as the unit is affected by the Blessing of the Lady all models in a unit with the Banner gain a 4+ Ward save against all missiles (including magic missiles) with Strength 5 or more. If the Blessing of the lady is lost, then the Banner loses this ability.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="b225-55b9-2f99-beb5" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -4471,6 +4934,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f7d7-d95c-67b3-f943" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f551-042f-32c1-1566" type="max"/>
           </constraints>
+          <rules>
+            <rule id="f789-ef1e-e3b4-5ef1" name="Twilight Banner" hidden="false">
+              <description>One use only. The Twilight Banner can only be used in the Remaining Moves section of the turn (so a unit cannot use it on the turn it charges). They suffer no movement penalties for moving over difficult terrain or obstacles, or from any other reductions to movement. They can move through buildings just as easily. but cannot move through other units. In addition. they cannot end their move inside impassable terrain. These effects work only for that one Movement phase.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="d41b-21a7-462d-3158" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -4483,6 +4951,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b19d-2b3c-9452-47ec" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="82d8-60b0-287a-dd35" type="max"/>
           </constraints>
+          <rules>
+            <rule id="d8e0-56ec-0bc0-269e" name="Conqueror&apos;s Tapestry" hidden="false">
+              <description>Every enemy standard captured by the unit possessing the Conqueror&apos;s Tapestry is worth 200 Victory Points instead of 100. If an enemy unit captures the Conqueror&apos;s tapestry, the enemy gains 200 Victory Points rather than 100.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="af5c-cb3f-25d4-9cf6" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -4502,6 +4975,11 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1a5d-6492-67a1-bf04" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f8f8-ee5f-72c6-c6d2" type="max"/>
           </constraints>
+          <rules>
+            <rule id="9809-dc89-6033-93d6" name="Errantry Banner" hidden="false">
+              <description>Knights Errant unit only. All Knights Errant in the unit get a +1 Strength bonus on any turn they charge (no effect on steeds or characters). However, a unit with this banner suffers -2 to its Ld for any Impetuous tests.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="2ed8-1024-2e15-cb3a" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -4514,6 +4992,13 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ac9a-9f0d-0276-8a89" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6f07-85e1-479a-b5d7" type="max"/>
           </constraints>
+          <rules>
+            <rule id="166a-4d78-1fe4-fc33" name="Banner of Chalons" hidden="false">
+              <description>This magnificent banner is kept furled until the last Instant before a charge. When unfurlled in all its glory foes become awestruck and are unable to tear their eyes from it.
+
+The enemy cannot choose the stand &amp; shoot reaction against the unit carrying the Banner.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="ce8b-2c97-6e14-5a39" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -4690,10 +5175,12 @@ Characters and units can lose the Blessing, and once lost it cannot be regained.
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="3a4d-edcf-ab86-a4b9" name="Purebreed Warhorse" hidden="false">
-      <description>Bretonnian Warhorses do not suffer any movement penalties for being barded.</description>
+      <description>For generations, the Bretonnian Warhorse has been bred to bear the weight of a fully armoured knight.
+
+Bretonnian Warhorses do not suffer any movement penalties for being barded.</description>
     </rule>
     <rule id="086f-1322-7796-ae55" name="The Peasant&apos;s Duty" hidden="false">
-      <description>Models with The Peasant&apos;s Duty may use the Leadership of any non-fleeing friendly Knight within 6&quot; of them. Unit Standards in units with the Peasant&apos;s Duty do not confer any additional Victory Points if they are captured.</description>
+      <description>Models with the Peasant&apos;s Duty may use the Leadership of any non fleeing Knight within 6&quot; of them. Unit Standards in units with the Peasant&apos;s Duty do not confer any additional Victory Points if they are captured.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

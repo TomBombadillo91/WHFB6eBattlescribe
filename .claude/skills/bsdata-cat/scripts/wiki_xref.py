@@ -458,6 +458,14 @@ def analyse(path, wiki):
             row["proposed"] = proposed
             row["flavour"] = flavour
             row["same"] = norm_ws(proposed) == norm_ws(r["desc"])
+            # A page that converts to nothing is not a usable match. "The Fay
+            # Enchantress" resolves to /unit/the-fay-enchantress, which is a
+            # statline and a list of links -- both correctly dropped, leaving
+            # an empty description that would overwrite good existing text.
+            if not proposed.strip():
+                row["bucket"] = "E"
+                row["note"] = "{} has no rules text (probably a unit page)".format(wpath)
+                row["candidates"] = [(wpath, "", 1.0)]
         rows.append(row)
 
     for it in inv["items"]:
