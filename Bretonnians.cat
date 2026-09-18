@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="05b9-5022-67cd-4fd3" name="Bretonnians" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="05b9-5022-67cd-4fd3" name="Bretonnians" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="ff93-67ff-9b17-d51d" name="Grail Vow" hidden="false">
       <rules>
@@ -116,6 +116,9 @@ Characters with the Questing Vow cannot use a mundane or magical lance.</descrip
           </constraints>
           <selectionEntries>
             <selectionEntry id="4a88-a2d5-6d4c-7aa2" name="Morning Star" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="9ace-6529-aaa4-37a3" name="Morning Star" hidden="false" targetId="505c-f8fe-ee87-d4c3" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="3.0"/>
               </costs>
@@ -128,6 +131,9 @@ Characters with the Questing Vow cannot use a mundane or magical lance.</descrip
                   </conditions>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="ecff-1a0b-e7eb-5a81" name="Lance" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -140,6 +146,9 @@ Characters with the Questing Vow cannot use a mundane or magical lance.</descrip
                   </conditions>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="cf30-d038-91ca-2ce0" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -242,6 +251,9 @@ Characters with the Questing Vow cannot use a mundane or magical lance.</descrip
           </constraints>
           <selectionEntries>
             <selectionEntry id="f1e0-402d-5bd2-7d52" name="Morning Star" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="d597-aefb-0c17-ba70" name="Morning Star" hidden="false" targetId="505c-f8fe-ee87-d4c3" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="2.0"/>
               </costs>
@@ -254,6 +266,9 @@ Characters with the Questing Vow cannot use a mundane or magical lance.</descrip
                   </conditions>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="1ea9-640a-40a4-969f" name="Lance" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -266,6 +281,9 @@ Characters with the Questing Vow cannot use a mundane or magical lance.</descrip
                   </conditions>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="d34f-bf50-bf62-450a" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -367,6 +385,9 @@ In addition, so reckless are the Knights Errant, that whenever they charge, the 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2866-ed9e-4bec-2592" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="668b-c26b-5704-9838" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="b6eb-14e9-3182-b6ca" name="Lances" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -397,6 +418,9 @@ In addition, so reckless are the Knights Errant, that whenever they charge, the 
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c593-ffe1-099f-5b3c" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="b9b9-659d-1ad4-208f" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="7.0"/>
               </costs>
@@ -591,6 +615,9 @@ This gives Damsels Magic Resistance (1), and Prophetesses Magic Resistance (2).<
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fe0-e993-418b-9290" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a99-ef34-a6b7-4530" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="0974-c701-9bf1-2f64" name="Lances" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -621,6 +648,9 @@ This gives Damsels Magic Resistance (1), and Prophetesses Magic Resistance (2).<
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4aef-47af-8375-0421" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="18f8-e811-8dd2-8fac" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="8.0"/>
               </costs>
@@ -744,6 +774,9 @@ This gives Damsels Magic Resistance (1), and Prophetesses Magic Resistance (2).<
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad7d-879a-3d24-5197" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cb7-ad25-a169-4a0b" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="c441-254f-977d-fb6a" name="Longbows" hidden="false" targetId="c45c-2383-8be2-1152" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -787,6 +820,9 @@ This gives Damsels Magic Resistance (1), and Prophetesses Magic Resistance (2).<
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c8a-87e2-c071-ddae" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="33a1-2e12-f108-936c" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
               </costs>
@@ -925,6 +961,9 @@ No unit gains any charge bonus when they charge the unit&apos;s front. For examp
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c55-13f1-772f-455f" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="145f-fbeb-779a-9026" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
               </costs>
@@ -943,6 +982,9 @@ No unit gains any charge bonus when they charge the unit&apos;s front. For examp
               </costs>
             </selectionEntry>
             <selectionEntry id="dee9-ba6c-c504-e64e" name="Halberds" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="c90d-4439-d3db-fcae" name="Halberds" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -993,6 +1035,9 @@ No unit gains any charge bonus when they charge the unit&apos;s front. For examp
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c0e-b861-e169-cc11" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5c0-3f36-7d91-be80" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="3957-5f1f-e3d5-bcdb" name="Great Weapons" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1023,6 +1068,9 @@ No unit gains any charge bonus when they charge the unit&apos;s front. For examp
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="617b-8165-9828-a083" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="e976-b241-89b0-1f9a" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="9.0"/>
               </costs>
@@ -1151,6 +1199,9 @@ No unit gains any charge bonus when they charge the unit&apos;s front. For examp
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1acb-a701-9886-83f8" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6173-00f2-2770-04cf" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="5725-365f-2bd0-4cca" name="Lances" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1181,6 +1232,9 @@ No unit gains any charge bonus when they charge the unit&apos;s front. For examp
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a47d-6e9c-abb1-2c2b" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="b007-67bf-6e60-b460" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
               </costs>
@@ -1360,6 +1414,9 @@ In addition, the presence of the Grail Reliquae means that the entire unit will 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cd8-46b9-353d-635c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa90-93ea-c420-e58f" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="21fc-0abf-297d-5228" name="Bows" hidden="false" targetId="1648-091e-ca90-e56d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1387,6 +1444,9 @@ In addition, the presence of the Grail Reliquae means that the entire unit will 
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="175d-0592-7892-4bca" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="c73a-d9b5-2a63-0366" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="7.0"/>
               </costs>
@@ -1492,6 +1552,9 @@ In addition, the presence of the Grail Reliquae means that the entire unit will 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30bb-847e-562d-0ba3" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd90-1a2b-3428-9ae9" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="6b0a-c710-33e2-0479" name="Lances" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1522,6 +1585,9 @@ In addition, the presence of the Grail Reliquae means that the entire unit will 
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d967-d64b-0207-aab1" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="ef9c-0444-b071-c60f" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
               </costs>
@@ -1950,6 +2016,9 @@ The Toad Familiar adds one dice to both the Power dice and the Dispel dice pool 
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c104-9e43-52fd-9943" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6342-96af-6c29-9913" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="fe09-6d8b-1b1c-dfbc" name="Lances" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -1971,6 +2040,9 @@ The Toad Familiar adds one dice to both the Power dice and the Dispel dice pool 
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb2c-89b3-21b6-2133" type="max"/>
                   </constraints>
+                  <infoLinks>
+                    <infoLink id="9ad7-645b-eb66-65cb" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+                  </infoLinks>
                   <costs>
                     <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
                   </costs>

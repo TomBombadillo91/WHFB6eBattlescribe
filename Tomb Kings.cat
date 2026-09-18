@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4b41-6842-9db5-f563" name="Tomb Kings" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4b41-6842-9db5-f563" name="Tomb Kings" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7d0c-5562-269f-0795" name="Tomb King General" hidden="false"/>
     <categoryEntry id="80b7-5608-88c2-552c" name="Settra&apos;s Army" hidden="false">
@@ -95,11 +95,17 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="8e0a-2d86-cf65-d730" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="ad7a-0742-6c8e-e04d" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a403-35e6-3bcc-3b31" name="Flail" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="1a93-8b1c-3980-57fb" name="Flail" hidden="false" targetId="dad4-d7e5-09e8-3819" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="3.0"/>
               </costs>
@@ -250,11 +256,17 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="18fa-a9f1-3713-aa47" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="93f8-964a-576c-02a7" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0047-9f93-7180-bddc" name="Flail" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="f4c4-4712-0889-7729" name="Flail" hidden="false" targetId="dad4-d7e5-09e8-3819" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="2.0"/>
               </costs>
@@ -548,6 +560,9 @@ One Skink Chief may carry the Battle Standard for +25 pts. A Skink Chief with th
               <constraints>
                 <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="5ee1-5c3c-dc65-9c86" type="min"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="7281-fcc6-6ad8-fc34" name="Bows" hidden="false" targetId="1648-091e-ca90-e56d" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -577,6 +592,9 @@ One Skink Chief may carry the Battle Standard for +25 pts. A Skink Chief with th
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9823-9284-fa21-d1f2" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="1b03-1413-b969-6d27" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
               </costs>
@@ -585,6 +603,9 @@ One Skink Chief may carry the Battle Standard for +25 pts. A Skink Chief with th
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e6a-8fce-ca7a-4e69" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="23b8-8af7-bf89-875d" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
               </costs>
@@ -693,6 +714,9 @@ One Skink Chief may carry the Battle Standard for +25 pts. A Skink Chief with th
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7635-a444-1f3b-6d1c" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="75e5-2a53-71c4-e1a8" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="14.0"/>
               </costs>
@@ -701,6 +725,9 @@ One Skink Chief may carry the Battle Standard for +25 pts. A Skink Chief with th
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c8a-dfcd-f192-2ce6" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="da90-db1f-c7e8-23fa" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="7.0"/>
               </costs>
@@ -764,6 +791,9 @@ One Skink Chief may carry the Battle Standard for +25 pts. A Skink Chief with th
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6c7-b176-5638-15ba" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="12fe-c183-c64d-53b3" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="14.0"/>
               </costs>
@@ -772,6 +802,9 @@ One Skink Chief may carry the Battle Standard for +25 pts. A Skink Chief with th
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e13b-6cd4-e9c4-856a" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="f8aa-2da4-52ec-9547" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="7.0"/>
               </costs>
@@ -939,6 +972,9 @@ One Skink Chief may carry the Battle Standard for +25 pts. A Skink Chief with th
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a47c-5731-a87a-d47c" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="5144-146f-211c-1fbf" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
               </costs>
@@ -947,6 +983,9 @@ One Skink Chief may carry the Battle Standard for +25 pts. A Skink Chief with th
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81b9-558c-9315-fb42" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="171e-7b35-9d6c-567f" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
               </costs>
@@ -1059,6 +1098,9 @@ One Skink Chief may carry the Battle Standard for +25 pts. A Skink Chief with th
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbaa-b246-59f0-2369" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="a623-fb50-a729-f0b6" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="12.0"/>
               </costs>
@@ -1067,6 +1109,9 @@ One Skink Chief may carry the Battle Standard for +25 pts. A Skink Chief with th
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff17-1502-1fa2-4d65" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="f558-e754-b05d-24d0" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>

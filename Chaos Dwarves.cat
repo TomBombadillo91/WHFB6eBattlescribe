@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7236-6609-8f2a-760a" name="Chaos Dwarves" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7236-6609-8f2a-760a" name="Chaos Dwarves" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="d1fa-39bb-985e-3662" name="Bull Centaur Lord" hidden="false" collective="false" import="true" type="model">
       <constraints>
@@ -65,6 +65,9 @@
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="d3af-d933-a22f-19d4" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="88c6-c2a8-ac9d-59cf" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+                  </infoLinks>
                   <costs>
                     <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
                   </costs>
@@ -165,11 +168,17 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="3f3d-73ce-6516-4ac5" name="Level 3" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="785b-25ac-5e1e-be68" name="Level 3" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1d59-d088-d075-952a" name="Level 4" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="335b-eedf-0f86-7e13" name="Level 4" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
               </costs>
@@ -258,6 +267,9 @@
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="1b38-9845-f27a-b83d" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="2c3e-2844-b385-1a6c" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+                  </infoLinks>
                   <costs>
                     <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
                   </costs>
@@ -407,6 +419,9 @@
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="efc9-f72a-ac6b-44ca" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="79e2-d71d-04d8-f1af" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+                  </infoLinks>
                   <costs>
                     <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
                   </costs>
@@ -483,11 +498,17 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="677a-cb4e-351d-e8c9" name="Level 1" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="28b7-9b88-227e-64f8" name="Level 1" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="429f-ad1f-2288-c8a7" name="Level 2" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="0bea-d818-518d-d8c6" name="Level 2" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
               </costs>
@@ -586,6 +607,9 @@
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="73d6-077c-7f71-5c77" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="9c57-2072-0d64-8af8" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+                  </infoLinks>
                   <costs>
                     <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
                   </costs>
@@ -694,6 +718,9 @@
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="c5fd-99c8-6595-875a" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="14be-8478-35bf-0898" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+                  </infoLinks>
                   <costs>
                     <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
                   </costs>
@@ -928,6 +955,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8de-4cae-800d-0186" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="3864-7a43-ba28-2daf" name="Bows" hidden="false" targetId="1648-091e-ca90-e56d" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -1104,6 +1134,9 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="053a-6d24-be92-0865" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="5a8f-adde-499e-2bb0" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -1141,6 +1174,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddd3-878f-0e14-0843" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="f725-171e-27dd-6697" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="15.0"/>
               </costs>
@@ -1157,6 +1193,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02a7-33f2-9bcf-cbc8" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="d055-b8a1-1988-1d6f" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="15.0"/>
               </costs>
@@ -1364,6 +1403,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48f2-35af-28f7-cd51" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="a6b3-bd25-5e22-1e42" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
               </costs>
@@ -1457,6 +1499,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6097-0237-c043-043b" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="52fd-dc3c-8af0-e6c4" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
               </costs>
@@ -1556,6 +1601,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2df0-4b76-44be-a1f0" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="9c88-3265-8953-0281" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="8.0"/>
               </costs>
@@ -1572,6 +1620,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f643-ee59-4d59-c4e7" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="6f09-bc22-9298-fbde" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -1699,6 +1750,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="032c-e39e-d8b3-f77b" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="1ab8-dacf-bfcb-3397" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -1803,6 +1857,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec38-41c2-7ad8-9879" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="abbc-b8c8-5d67-071e" name="Bows" hidden="false" targetId="1648-091e-ca90-e56d" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -2157,6 +2214,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9df3-9ebb-b6cd-2942" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="b16c-d865-a997-acfb" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
           </costs>
@@ -2173,6 +2233,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1073-880d-ffb7-c78f" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="461d-9b61-379b-60f5" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
           </costs>

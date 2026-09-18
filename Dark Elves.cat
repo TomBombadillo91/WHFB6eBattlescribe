@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b151-7d1c-4a96-e0d0" name="Dark Elves" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b151-7d1c-4a96-e0d0" name="Dark Elves" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7b32-9394-e778-467c" name="Poison" hidden="false"/>
     <categoryEntry id="16df-2ebd-e4f7-9984" name="Artifacts and Skills" hidden="false"/>
@@ -53,11 +53,17 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="dc98-404a-c625-a346" name="Level 3" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="b61d-fd09-9208-b8b1" name="Level 3" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="741f-5cc9-4983-86f8" name="Level 4" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="8775-f375-e474-16ce" name="Level 4" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="40.0"/>
               </costs>
@@ -146,11 +152,17 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="6cc6-f4eb-869e-375e" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="9d47-a8a4-f71d-c755" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7b33-eea6-97a4-0636" name="Halberd" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="a120-c19a-238b-019f" name="Halberd" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -163,6 +175,9 @@
                   </conditions>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="4515-cbbf-191d-e980" name="Lance" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -287,11 +302,17 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="70aa-63a0-9fed-ef0a" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="a849-6bb5-41b9-e84b" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7900-82a4-b79a-0d04" name="Halberd" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="797a-5ee0-a500-5435" name="Halberd" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -304,6 +325,9 @@
                   </conditions>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="483f-7121-820e-b358" name="Lance" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -434,11 +458,17 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="abe0-8281-d8df-7530" name="Level 1" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="2008-74b6-f09b-98c3" name="Level 1" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="744f-95ac-3d48-0848" name="Level 2" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="c7ee-ad59-bd7a-111a" name="Level 2" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="40.0"/>
               </costs>
@@ -536,6 +566,9 @@
                   </conditions>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="89da-6aab-c0c3-f1e7" name="Lance" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -682,6 +715,9 @@ Hidden Assassins may be revealed at the beginning of any of your turns or at the
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d32e-8618-f3c6-ce20" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b2a-104b-9c9c-0400" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="e212-7e81-c502-1b18" name="Hand Weapons" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -728,6 +764,9 @@ Hidden Assassins may be revealed at the beginning of any of your turns or at the
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0165-9d17-6577-cdba" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="ef10-b908-66da-c264" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
               </costs>
@@ -853,6 +892,9 @@ spells, etc). It may be combined with other types of armour.</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da65-1688-da49-fba6" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="8c97-abca-60f4-5fd3" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
               </costs>
@@ -983,6 +1025,9 @@ spells, etc). It may be combined with other types of armour.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c8f-f302-f2f0-c5ef" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9a7-37a1-c7f3-c584" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="81dd-3329-670f-f1f2" name="Hand Weapons" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1013,6 +1058,9 @@ spells, etc). It may be combined with other types of armour.</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a21a-5c72-3562-4a8b" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="d007-0db2-33e0-b0bf" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="7.0"/>
               </costs>
@@ -1152,6 +1200,9 @@ spells, etc). It may be combined with other types of armour.</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cc9-cce3-bc8a-fe00" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="31e5-b6c0-346f-a013" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -1263,6 +1314,9 @@ spells, etc). It may be combined with other types of armour.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da95-3e40-7120-1b12" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1bb-9244-7092-e06a" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="949c-9dbf-a812-8ab2" name="Hand Weapons" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1272,6 +1326,9 @@ spells, etc). It may be combined with other types of armour.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="893d-f4c0-e91f-5c66" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2780-9026-cbdd-0082" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="abc8-89fb-e660-3cc9" name="Lances" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1307,6 +1364,9 @@ spells, etc). It may be combined with other types of armour.</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a42a-a9eb-2f83-2bfd" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="1175-e155-2e83-c8e4" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="9.0"/>
               </costs>
@@ -1429,6 +1489,9 @@ spells, etc). It may be combined with other types of armour.</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad5c-299d-8ad7-30c7" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="26b0-8e9a-d220-1b00" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -1673,6 +1736,9 @@ In hand-to-hand combat the guardians are assembled in front of the Cauldron in t
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="804c-a971-5dca-9b0c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09ef-16d5-9af1-7cdd" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="1d6f-a3d3-6bf8-1716" name="Halberds" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1708,6 +1774,9 @@ In hand-to-hand combat the guardians are assembled in front of the Cauldron in t
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0850-86a0-c547-ce1f" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="b6d2-a7ba-ded6-b93f" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -2101,6 +2170,9 @@ You may choose the type of Veteran Hydra that joins your forces for this battle.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c622-8905-b988-9b6c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce90-fa3c-0b86-9571" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="e878-3728-e3ae-195a" name="Hand Weapons" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -2622,6 +2694,9 @@ The Armour of Midnight is a suit of heavy armour. In addition Malekith has a 2 +
           </constraints>
           <selectionEntries>
             <selectionEntry id="001c-9926-cc65-ef46" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="b5ec-3e51-6a51-e246" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -2632,11 +2707,17 @@ The Armour of Midnight is a suit of heavy armour. In addition Malekith has a 2 +
               </costs>
             </selectionEntry>
             <selectionEntry id="6aef-115e-0b48-536d" name="Flail" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="9d25-9450-a207-bd03" name="Flail" hidden="false" targetId="dad4-d7e5-09e8-3819" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="2.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="81c4-63bb-f208-0f2a" name="Halberd" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="f30f-f13e-1c04-9c32" name="Halberd" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -2875,6 +2956,9 @@ The Armour of Midnight is a suit of heavy armour. In addition Malekith has a 2 +
                   </repeats>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="519a-311a-1e54-de9f" name="Great Weapons" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -2887,6 +2971,9 @@ The Armour of Midnight is a suit of heavy armour. In addition Malekith has a 2 +
                   </repeats>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="af06-1283-c29a-66a7" name="Flails" hidden="false" targetId="dad4-d7e5-09e8-3819" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -2899,6 +2986,9 @@ The Armour of Midnight is a suit of heavy armour. In addition Malekith has a 2 +
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="613d-9798-a546-d5a8" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="1d87-3d56-dd0a-6b3a" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
               </costs>
@@ -2915,6 +3005,9 @@ The Armour of Midnight is a suit of heavy armour. In addition Malekith has a 2 +
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f3a-bce6-ba5e-a372" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="81dd-b3f8-219d-ff69" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
               </costs>
@@ -3066,6 +3159,9 @@ The Armour of Midnight is a suit of heavy armour. In addition Malekith has a 2 +
                   </repeats>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="94d4-0786-911b-f777" name="Great Weapons" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -3090,6 +3186,9 @@ The Armour of Midnight is a suit of heavy armour. In addition Malekith has a 2 +
                   </repeats>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="1187-09af-896b-e26d" name="Halberds" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -3102,6 +3201,9 @@ The Armour of Midnight is a suit of heavy armour. In addition Malekith has a 2 +
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="430e-399a-382a-7237" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="51b5-6535-f8f9-d8aa" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -3118,6 +3220,9 @@ The Armour of Midnight is a suit of heavy armour. In addition Malekith has a 2 +
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c52-a9af-55d2-954e" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="d127-d78d-ecd9-7bfd" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="12.0"/>
               </costs>
@@ -3214,6 +3319,9 @@ The Armour of Midnight is a suit of heavy armour. In addition Malekith has a 2 +
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe74-0985-b961-ff90" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="f103-a523-7c98-b3e5" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
               </costs>
@@ -3230,6 +3338,9 @@ The Armour of Midnight is a suit of heavy armour. In addition Malekith has a 2 +
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14eb-c446-a40e-a4c8" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="50ef-2452-f92c-ca3b" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
               </costs>
@@ -3404,11 +3515,17 @@ Chaos armour gives a 4+ armour save. It can be combined with other equipment as 
               </costs>
             </selectionEntry>
             <selectionEntry id="6b13-cbb2-79f9-f53c" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="793d-3394-cd0f-7d1c" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4910-aa52-1971-4c7c" name="Halberd" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="a151-b2e0-ab2f-0841" name="Halberd" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -3421,6 +3538,9 @@ Chaos armour gives a 4+ armour save. It can be combined with other equipment as 
                   </conditions>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="6df8-a2df-f9b7-5c94" name="Lance" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -3591,6 +3711,9 @@ Chaos armour gives a 4+ armour save. It can be combined with other equipment as 
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5773-9217-2ec3-1d0e" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="0eda-e877-010e-f65d" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -3755,6 +3878,9 @@ Certain characters may ride in a chariot. They replace one of the crew, and the 
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b812-569b-e775-35c0" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="4756-f14e-f47f-152e" name="Repeater Crossbows" hidden="false" targetId="11c6-d068-224a-5939" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
               </costs>

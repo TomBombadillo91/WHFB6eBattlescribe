@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="3f17-868d-fac0-4c8d" name="First Among Equals" hidden="false">
       <constraints>
@@ -78,6 +78,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2650-0a19-13ca-f24c" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="bd12-5d38-5a97-9280" name="Longbow" hidden="false" targetId="c45c-2383-8be2-1152" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="15.0"/>
           </costs>
@@ -137,16 +140,25 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="6577-e641-d8de-3ea3" name="Lance" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="ddba-7a28-3303-a3be" name="Lance" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e80e-8b9d-d28b-30de" name="Halberd" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="c8df-13f5-4954-9258" name="Halberd" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9a4a-4776-d877-25c9" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="3534-42c1-85dd-6482" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -277,6 +289,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa77-c45b-ae2e-58f9" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="fc9a-35be-83ef-3846" name="Longbow" hidden="false" targetId="c45c-2383-8be2-1152" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
           </costs>
@@ -343,16 +358,25 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="4610-a17a-c1f6-1d68" name="Lance" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="d92e-e14b-989a-5e84" name="Lance" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0648-9578-316e-20fe" name="Halberd" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="f154-4336-ec82-ede2" name="Halberd" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5ea7-42e7-1904-8902" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="8cc4-7e4f-5f92-6b91" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -452,6 +476,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e174-5212-bcfd-8970" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="193c-75c1-241f-f5cf" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="2643-df61-afe9-4fe3" name="Longbows" hidden="false" targetId="c45c-2383-8be2-1152" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -464,6 +491,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4b6-12c8-ad38-c3a6" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="1b47-a901-1e2a-ffeb" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -528,6 +558,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="facb-0d1c-2095-e747" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc72-acd8-cca4-b2e9" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="f5a6-b57b-158c-ba41" name="Hand Weapons" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -590,6 +623,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba2b-9c33-e238-bd2d" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="aa2c-623d-2137-fe81" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -658,6 +694,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86a3-e496-4ffb-ff20" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="910f-8f58-68ca-6884" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="8af9-6342-2167-3de8" name="Hand Weapons" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -690,6 +729,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecd6-601d-cdf5-cdac" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="235c-78e4-e893-f135" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="98c7-24db-d8ef-070e" name="Bows" hidden="false" targetId="1648-091e-ca90-e56d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -735,6 +777,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7051-4307-b70b-70fc" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="01c5-bd96-5c03-162a" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="7.0"/>
               </costs>
@@ -797,6 +842,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a103-99f6-61c4-02cb" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f1d-c7a4-ca2f-33d1" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="3e6c-8e83-38e6-3fd9" name="Hand Weapons" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -851,6 +899,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecfa-dc99-0096-547a" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7599-7507-57dc-917f" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="ed4e-391d-ab29-cc3b" name="Lances" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -863,6 +914,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2425-49f7-a161-c58f" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="7d3e-d77f-7492-63cc" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="7.0"/>
               </costs>
@@ -960,6 +1014,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41a2-984e-c7a4-07cf" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d10c-4970-1da2-9805" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="befe-ba5c-38b0-e422" name="Hand Weapons" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1007,6 +1064,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c46f-49f8-053b-8790" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="53d1-3c84-b3ab-ee83" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="7.0"/>
               </costs>
@@ -1084,6 +1144,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f05-b44a-bf54-48cf" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="d1e5-7503-7259-5e88" name="Bows" hidden="false" targetId="1648-091e-ca90-e56d" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -1111,6 +1174,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a557-e12a-0dd3-ec74" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="021f-d3d5-b486-52f5" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="dcfe-aa58-5290-7f1b" name="Lances" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1166,6 +1232,9 @@ The model is immune to all breath attacks, and any fire-based attack (including 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a675-8314-5863-568e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4c4-11d8-4f53-f069" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="2afc-eb87-97a3-4196" name="Hand Weapons" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1187,6 +1256,9 @@ The model is immune to all breath attacks, and any fire-based attack (including 
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fac-f320-15b7-6524" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="a693-6ccc-e27f-fa19" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="9.0"/>
               </costs>
@@ -1266,6 +1338,9 @@ The model is immune to all breath attacks, and any fire-based attack (including 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41c6-2377-b88f-3a01" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51c8-c181-9848-fc99" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="1b47-2d33-3ba4-00c4" name="Great Weapons" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1307,6 +1382,9 @@ The model is immune to all breath attacks, and any fire-based attack (including 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2390-7cf1-9a79-40ca" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ad6-5ce1-018f-0391" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="4220-c441-b0b2-4c0c" name="Hand Weapons" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1319,6 +1397,9 @@ The model is immune to all breath attacks, and any fire-based attack (including 
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec96-ff05-9b23-bdd8" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="b35a-325b-a639-5a51" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -1401,6 +1482,9 @@ The model is immune to all breath attacks, and any fire-based attack (including 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d9c-ce93-812e-015e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c4b-f0f5-8adf-e9aa" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="e977-7c43-a28f-c12c" name="Longbows" hidden="false" targetId="c45c-2383-8be2-1152" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1443,6 +1527,9 @@ The model is immune to all breath attacks, and any fire-based attack (including 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd12-c4f8-dd30-b727" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea7e-fa3a-8f12-a2ea" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="fd30-b72d-e1b1-8229" name="Hand Weapons" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1513,6 +1600,9 @@ The model is immune to all breath attacks, and any fire-based attack (including 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="470e-359d-d826-cf6a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f05b-aae0-43c0-4b71" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="9e8e-12bb-5839-df35" name="Halberds" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1554,6 +1644,9 @@ The model is immune to all breath attacks, and any fire-based attack (including 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a41-7a8d-17eb-e0e6" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2a3-7560-efaa-2339" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="aa62-c5e0-2346-a80e" name="Hand Weapons" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1566,6 +1659,9 @@ The model is immune to all breath attacks, and any fire-based attack (including 
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="677f-f6e7-9315-aa38" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="fa1f-3f48-92d5-2b37" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="7.0"/>
               </costs>
@@ -1779,6 +1875,9 @@ If using the multiple shots option then the Repeater Bolt Thrower shoots six bol
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e43a-5830-a67d-3bd1" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e75b-af6d-9e54-ea06" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="17cb-e830-156e-f274" name="Hand Weapons" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1800,6 +1899,9 @@ If using the multiple shots option then the Repeater Bolt Thrower shoots six bol
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d9d-6c1d-e07c-08ab" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="6da4-0fd1-b388-b219" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="7.0"/>
               </costs>
@@ -3243,33 +3345,20 @@ During the enemy&apos;s Magic phase, the Crystal allows the High Elf player to r
               </costs>
             </selectionEntry>
             <selectionEntry id="bad1-10b0-b865-eb15" name="Power Stone" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="a53c-7232-1a9d-5c74" name="Power Stone" hidden="false" targetId="130f-0831-64a4-4e02" type="rule"/>
+              </infoLinks>
               <selectionEntries>
                 <selectionEntry id="c104-a378-49d9-57d3" name="Power Stone" publicationId="d9e7-add3-773e-ffab" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9f1-3140-6055-3962" type="min"/>
                   </constraints>
-              <rules>
-                <rule id="6502-e869-694f-40e1" name="Power Stone" hidden="false">
-                  <description>The Power Stone is imbued with a powerful magical invocation. When it is held out by a Wizard before he casts a spell, the effect is to enhance the efficacy of the magic. A further two dice are added to the Casting roll. Note that using a Power Stone will allow a Wizard to use more Power dice than he is normally permitted. For example, a First Level Wizard may read a Power Stone and thus use four Power dice to cast a spell (2 basic + 2 from a Power Stone). A Power Stone can only be used once - after one use its power is exhausted.
-
-Using a Power Stone will bring any spell in play cast earlier by that Wizard to an end in the same way as casting a new spell by ordinary means.
-
-As with scrolls, Power Stones are not unique items - they are prepared by a Wizard prior to battle and it is quite possible for several Wizards to carry Power Stones, and for a Wizard to carry more than one. However, only one Power Stone can be used to enhance a spell.
-
-Note that a spell cast with a Power Stone can never be cast with Irresistible Force, though it can be Miscast.</description>
-                </rule>
-              </rules>
-                  <rules>
-                    <rule id="f3c3-b3ca-6200-f8be" name="Power Stone" hidden="false">
-                      <description>The Power Stone is imbued with a powerful magical invocation. When it is held out by a Wizard before he casts a spell, the effect is to enhance the efficacy of the magic. A further two dice are added to the Casting roll. Note that using a Power Stone will allow a Wizard to use more Power dice than he is normally permitted. For example, a First Level Wizard may read a Power Stone and thus use four Power dice to cast a spell (2 basic + 2 from a Power Stone). A Power Stone can only be used once - after one use its power is exhausted.
-
-Using a Power Stone will bring any spell in play cast earlier by that Wizard to an end in the same way as casting a new spell by ordinary means.
-
-As with scrolls, Power Stones are not unique items - they are prepared by a Wizard prior to battle and it is quite possible for several Wizards to carry Power Stones, and for a Wizard to carry more than one. However, only one Power Stone can be used to enhance a spell.
-
-Note that a spell cast with a Power Stone can never be cast with Irresistible Force, though it can be Miscast.</description>
-                    </rule>
-                  </rules>
+              <infoLinks>
+                <infoLink id="bbc0-9181-d73e-9c10" name="Power Stone" hidden="false" targetId="130f-0831-64a4-4e02" type="rule"/>
+              </infoLinks>
+                  <infoLinks>
+                    <infoLink id="ef0f-fdfd-fd37-8701" name="Power Stone" hidden="false" targetId="130f-0831-64a4-4e02" type="rule"/>
+                  </infoLinks>
                   <categoryLinks>
                     <categoryLink id="1a97-2081-1301-7937" name="New CategoryLink" hidden="false" targetId="7cfd-b676-48e1-6eec" primary="true"/>
                     <categoryLink id="484a-51b4-661d-9104" name="Scroll" hidden="false" targetId="06f3-5988-1d55-db7c" primary="false"/>
@@ -3525,6 +3614,9 @@ The character, and any unit he joins, is Immune to Panic. If the Pure of Heart c
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc0f-c07c-14a7-155e" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="152a-11a1-d229-ee6d" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="52c6-3045-085e-2e33" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>

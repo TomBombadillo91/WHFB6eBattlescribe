@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4ca8-2035-2f87-1bd7" name="WHFB 6th Edition" revision="27" battleScribeVersion="2.03" authorName="Tom Clare" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="4ca8-2035-2f87-1bd7" name="WHFB 6th Edition" revision="28" battleScribeVersion="2.03" authorName="Tom Clare" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="d9e7-add3-773e-ffab" name="BRB"/>
     <publication id="2c29-8521-dcc7-5337" name="Warhammer Chronicles 2003"/>
@@ -814,7 +814,13 @@ Note**: From Warhammer Annual 2002, Gav Thorpe clarified Regeneration has no eff
     </rule>
     <rule id="ea74-4e81-f844-d146" name="Stone Thrower" hidden="false"/>
     <rule id="95df-6c33-fb3e-c966" name="Cannon" hidden="false"/>
-    <rule id="3702-c42a-047c-af5f" name="Bolt Thrower" hidden="false"/>
+    <rule id="3702-c42a-047c-af5f" name="Bolt Throwers" hidden="false">
+      <description>Bolt throwers are fired in the Shooting phase along with other missile weapons. To fire a bolt thrower it must first be turned on the spot so that it points towards its intended victim. The bolt travels straight forward and (hopefully) hits the first target in its path. In a unit of troops this will always be a regular trooper. Only if there are no rank-and-file troops in the first rank hit by the bolt will it be necessary to randomize which model in the front rank is hit.
+
+To determine whether the bolt strikes its target, roll a D6 to hit using the crew&apos;s BS in the same way as bow shots, crossbows, and other missile weapons. The usual modifiers apply, except no penalty is imposed for turning the machine, as it is designed to be used in this way. See the Shooting section for details.
+
+If a hit is scored work our damage as described below. If the shot misses then the bolt hits the ground or sails into the air and comes down harmlessly somewhere else.</description>
+    </rule>
     <rule id="2381-ed16-2a32-cd12" name="Breath Weapon" hidden="false">
       <description>A model with a breath weapon may use it in the Shooting phase. Use the Flame template, placing the broad end over your intended target as you wish and the narrow end next to the creature&apos;s head. Any model that lies completely under the template is hit automatically - models whose bases lie partially under the template are hit on a 4+. The strength and any special effects of the breath weapon will be detailed in the entry for each individual creature. Characters under the template are eligible for &apos;Look out, Sir!&apos; rolls if they are in a unit.
 
@@ -830,6 +836,89 @@ Breath weapons may not be used as a stand &amp; shoot charge reaction, and neith
     </rule>
     <rule id="7eca-56b9-d1c7-c7c8" name="Scaly Skin" hidden="false">
       <description>Some creatures, the reptilian Lizardmen in particular, have tough, scaly skin which acts exactly like armour. This save can be variable. Lizardmen Skinks, for example, have a scaly skin save of 6+, while mighty Dragons could have a save of 3+ or more! The effectiveness of the scaly skin can be combined with armour, so a model with a 5+ scaly skin save and a shield would have a 4+ save. Note that scaly skin is an armour save for all intents and purposes, and may be modified by high Strength, etc.</description>
+    </rule>
+    <rule id="afee-6689-856e-2974" name="Wizard Levels" hidden="false">
+      <description>Level 2: Wizards of the Second Level are experienced spell casters whose powers are significantly greater than mere First Level Wizards.
+
+Level 3: Wizards of the Third Level are great sorcerers of a kind rarely seen on the battlefield except in times of dire need.
+
+Level 4: Wizards of the Fourth Level are the most mighty of all Wizards, the very equals of kings amongst the realms of sorcery.
+
+The higher a Wizard&apos;s Level, the greater his ability to draw magical power from the swirling winds of magic, either for his own use or that of his fellow Wizards.
+
+Each Wizard begins the game with one pre-generated spell for each Magic Level he has. We&apos;ll explain how to generate spells later. For now it is sufficient to know that First Level Wizards have one spell, Second Level Wizards have two spells, and so on.</description>
+    </rule>
+    <rule id="f7df-1ae0-6688-5c38" name="Musicians" hidden="false">
+      <description>An army marches under its banners but it does so to the beat of drums and the call of blaring horns. A unit of troops may include a Musician model, either a horn blower or a drummer, to accompany it into battle. Like Standard Bearers, Musicians fight just like an ordinary member of their unit, even if the model itself has slight variances in armour or weaponry. Also Like Standard Bearers, the player does not have to remove Musicians but can substitute an ordinary model instead. Unlike Standard Bearers, Musicians are not removed automatically when a unit breaks and flees from combat. Their instruments are somewhat lighter and less cumbersome than a weighty standard. Musicians cannot be captured as trophies.
+
+A Musician model is placed in the front rank of its unit. His effect on the fighting ability of the unit is not as great as a Standard Bearer but is useful nonetheless.</description>
+    </rule>
+    <rule id="697c-46aa-691c-9c64" name="Champion (Warhammer Glossary)" hidden="false">
+      <description>Champions are a special type of character who must always be with a unit. Champions must be placed in the front rank of the unit that they are with.</description>
+    </rule>
+    <rule id="1648-091e-ca90-e56d" name="Bow" hidden="false">
+      <description>The bow, is carried by most races and used extensively in warfare. It is a compact, long-ranged weapon that is cheap to make and easy to maintain.
+
+Bow Profile</description>
+    </rule>
+    <rule id="cd70-2ed2-922d-0011" name="Crossbow" hidden="false">
+      <description>A crossbow consists of a short, strong bowstave mounted on a wooden or steel stock. It takes a long time to load and wind a crossbow for each shot, but the crossbow bolt has tremendous range and power.
+
+Crossbow Profile</description>
+    </rule>
+    <rule id="dad4-d7e5-09e8-3819" name="Flail" hidden="false">
+      <description>Rules: +2 Strength bonus in the first turn of combat; requires two hands.</description>
+    </rule>
+    <rule id="e020-fa73-42e2-ad20" name="Great Weapon" hidden="false">
+      <description>Great weapons are especially large and heavy weapons that are wielded with both hands. As well as great swords this includes similarly heavy great hammer, great axes and the like. A blow from a great weapon can cut a foe in haIf and break apart the thickest armour.
+
+Rules: +2 Strength bonus; requires two hands; strikes last.</description>
+    </rule>
+    <rule id="318c-0aad-5fdc-96c0" name="Halberd" hidden="false">
+      <description>Rules: +1 Strength bonus; requires two hands.</description>
+    </rule>
+    <rule id="3eb5-f0b5-1e94-0eef" name="Hand Weapon" hidden="false">
+      <description>Unless specifically noted otherwise, all models are assumed to be carrying a hand weapon of some kind. The term &apos;hand weapon&apos; is used to describe any weapon held in one hand and not otherwise covered by the rules. As such it includes swords. axes clubs, maces, etc.
+
+Rules: No special weapon rules apply to hand weapons but they do have the advantage that they can be used in combination with each other (see Fighting with a Weapon in Each Hand) or with a shield (see Fighting with a Hand Weapon and Shield).</description>
+    </rule>
+    <rule id="9faf-8e95-aa25-b156" name="Handgun" hidden="false">
+      <description>A handgun is a simple firearm consisting of a metal barrel mounted on a wooden stock. The gunpowder charge is ignited by poking a length of burning cord, or match as it is called, into a small touchhole. Some of the more advanced versions made by Dwarfs have levers and springs which hold the burning match and triggers which release the firing mechanism and fire the gun.
+
+Handguns are not terribly reliable weapons, as occasionally the gun barrel tends to explode violently apart or the powder fails to ignite. Handguns, however, do have a long range and hit very hard, making a mockery of even the thickest armour.
+
+Handgun Profile</description>
+    </rule>
+    <rule id="d8c8-edc7-35dd-2b4d" name="Javelin" hidden="false">
+      <description>The javelin is a light spear designed for throwing, and javelin armed warriors often carry several to last them throughout the battle. The javelin is too flimsy to be used in hand-to-hand fighting. It is not a very common weapon as it has a short range, but the multitudinous reptilian skinks of Lustria use javelins extensively.
+
+Javelin Profile</description>
+    </rule>
+    <rule id="7154-2d01-2d5c-c06c" name="Lance" hidden="false">
+      <description>Rules: +2 Strength bonus in the first turn of combat when charging.</description>
+    </rule>
+    <rule id="c45c-2383-8be2-1152" name="Longbow" hidden="false">
+      <description>A longbow is a dangerous weapon made of alternating layers of either yew or elm. A skilled archer can hit an enemy from three hundred paces.
+
+Longbow Profile</description>
+    </rule>
+    <rule id="505c-f8fe-ee87-d4c3" name="Morning Star" hidden="false">
+      <description>This is a single-handed weapon that consists of one or more spiked balls on a chain. Like the larger flail it resembles, a morning star is a tiring weapon to use so its advantage lies in the first round of combat.
+
+Rules: +1 Strength bonus in the first turn of combat.</description>
+    </rule>
+    <rule id="11c6-d068-224a-5939" name="Repeater Crossbow" hidden="false">
+      <description>Used almost exclusively by the Dark Elves of Naggaroth, the repeater crossbow is a lighter, less powerful type of crossbow that has a magazine of bolts which allows a single bolt to drop into place ready for firing as the string is drawn. A repeater crossbow can fire a hail of shots in the time it takes to shoot one ordinary crossbow bolt.
+
+Repeater Crossbow Profile</description>
+    </rule>
+    <rule id="982a-e058-7b39-44d9" name="Sling" hidden="false">
+      <description>\* If enemy is within 9&quot;</description>
+    </rule>
+    <rule id="6566-55b1-e8b7-d3d8" name="Throwing Axe" hidden="false">
+      <description>Note that throwing axes cannot be used in close combat — or if used they simply count as hand weapons. Normal axes carried as hand weapons cannot be thrown either!
+
+Throwing Axe Profile</description>
     </rule>
   </sharedRules>
   <sharedInfoGroups>

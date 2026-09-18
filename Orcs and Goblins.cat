@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9534-aec7-1922-76f2" name="Orcs and Goblins" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9534-aec7-1922-76f2" name="Orcs and Goblins" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5b0c-07f2-6b72-7aa8" name="Orc" hidden="false"/>
     <categoryEntry id="2c47-226a-5465-6c16" name="Common Orc" hidden="false"/>
@@ -452,6 +452,9 @@
                   </repeats>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="f176-31b3-b763-84b2" name="Bows" hidden="false" targetId="1648-091e-ca90-e56d" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -495,6 +498,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48f2-35af-28f7-cd51" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="0af2-38cf-8566-0664" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
               </costs>
@@ -610,6 +616,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6097-0237-c043-043b" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="2696-8bc5-177f-20d7" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
               </costs>
@@ -728,6 +737,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2df0-4b76-44be-a1f0" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="5bb8-9255-8bc7-bd3c" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="8.0"/>
               </costs>
@@ -744,6 +756,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f643-ee59-4d59-c4e7" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="51d1-be7b-b77c-810d" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -912,6 +927,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="032c-e39e-d8b3-f77b" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="9202-58e6-452f-e076" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -2722,6 +2740,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="947d-b6b4-88ea-550d" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="a24e-ec5a-685b-3ba2" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
               </costs>
@@ -2884,6 +2905,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be37-6ff1-3f69-26f6" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="1d94-1efa-1744-02be" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="12.0"/>
               </costs>
@@ -2900,6 +2924,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de7e-6022-5fb3-59d7" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="c6f4-f024-a4d0-e2f0" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -3117,6 +3144,9 @@ When a Night Goblin unit containing Netters is shot at by missile weapons the pl
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6265-fe32-3059-4b53" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="59fe-3312-c989-c918" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="8.0"/>
               </costs>
@@ -3133,6 +3163,9 @@ When a Night Goblin unit containing Netters is shot at by missile weapons the pl
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c23-df35-4542-fcb1" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="62f9-5a31-0fe7-add9" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -3338,6 +3371,9 @@ When a Night Goblin unit containing Netters is shot at by missile weapons the pl
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab4f-1e66-f26b-5cd9" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="df1e-80bb-10a1-4b45" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="7.0"/>
               </costs>
@@ -3493,6 +3529,9 @@ When a Night Goblin unit containing Netters is shot at by missile weapons the pl
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4935-63c3-5b7d-ec00" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="ea50-d4e4-3431-15c7" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="7.0"/>
               </costs>
@@ -4433,6 +4472,9 @@ The Snotling Pump Wagon is crewed by overexcited Snotlings out of their minds on
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b2f-aa5e-7773-f013" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="9ac6-abbb-297a-a2d8" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="8.0"/>
               </costs>
@@ -4449,6 +4491,9 @@ The Snotling Pump Wagon is crewed by overexcited Snotlings out of their minds on
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87d6-eee5-07eb-c454" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="addd-73b7-5f48-7db1" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -4807,6 +4852,9 @@ score a hit regardless of how slimy he is.</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66d3-cc6f-8bf3-8d98" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="3cd2-dbf0-6594-28a3" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="12.0"/>
               </costs>
@@ -4823,6 +4871,9 @@ score a hit regardless of how slimy he is.</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3c4-f7df-8f79-a48e" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="d367-4b7b-ba9e-5772" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -5064,6 +5115,9 @@ The Eye gives Magic Resistance (1) to Grimgor and his Bodyguard.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8833-96f7-d723-c070" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d662-2883-726b-c652" type="min"/>
                   </constraints>
+                  <infoLinks>
+                    <infoLink id="6bfd-63e9-19c8-a866" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+                  </infoLinks>
                   <costs>
                     <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
                   </costs>
@@ -5494,6 +5548,9 @@ Treat the Prodder&apos;s blasts as bound spells with a power level of 3. Each bl
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec1a-599a-fd70-ad88" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="9dfb-0b3b-12d2-7a8e" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
               </costs>
@@ -5633,6 +5690,9 @@ Treat the Prodder&apos;s blasts as bound spells with a power level of 3. Each bl
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ef6-af68-5d61-c8f6" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="2d4d-f1b5-b070-0f97" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="7.0"/>
               </costs>
@@ -5791,6 +5851,9 @@ Treat the Prodder&apos;s blasts as bound spells with a power level of 3. Each bl
                   </repeats>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="7a30-3db4-874a-c988" name="Bows" hidden="false" targetId="1648-091e-ca90-e56d" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -5834,6 +5897,9 @@ Treat the Prodder&apos;s blasts as bound spells with a power level of 3. Each bl
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b2e-14f1-18fa-8364" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="a244-4511-a4d5-f037" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
               </costs>
@@ -5996,6 +6062,9 @@ Treat the Prodder&apos;s blasts as bound spells with a power level of 3. Each bl
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5bd-79ac-43b1-bc77" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="0331-f324-67c6-77ad" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="7.0"/>
               </costs>

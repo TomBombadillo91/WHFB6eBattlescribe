@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3604-800a-4012-5da6" name="Dogs of War" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3604-800a-4012-5da6" name="Dogs of War" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5e7e-36e5-c0bf-c57c" name="Dogs of War" hidden="false"/>
     <categoryEntry id="c51c-ed7d-9669-006f" name="Regiment of Renown" hidden="false"/>
@@ -418,6 +418,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c133-b736-131e-8206" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="db2d-5592-5878-7782" name="Bows" hidden="false" targetId="1648-091e-ca90-e56d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -552,6 +555,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1074-14f7-ea29-93d8" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="e2e7-66b1-5204-3248" name="Great Weapons" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -622,6 +628,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="426e-79f8-1f64-9c14" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="1bd2-edf5-2ee4-6654" name="Great Weapons" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -637,6 +646,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cba-35db-abd3-b268" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="b506-43f7-36dd-22b2" name="Crossbows" hidden="false" targetId="cd70-2ed2-922d-0011" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -762,6 +774,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc63-6177-9423-0b99" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="ac35-2842-2df6-5e8f" name="Flails" hidden="false" targetId="dad4-d7e5-09e8-3819" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -777,6 +792,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="420c-18de-ae70-39e7" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="12fc-724a-de59-cb8b" name="Great Weapons" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -966,6 +984,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f345-8cb8-83e5-481d" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="6126-ff2d-2619-101f" name="Bows" hidden="false" targetId="1648-091e-ca90-e56d" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -1146,6 +1167,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="732a-62ea-7141-3183" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="90b2-b564-1144-6acf" name="Halberd" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -1154,6 +1178,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66ec-14f6-d9dc-72c9" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="c791-d339-207a-b7d2" name="Morning Star" hidden="false" targetId="505c-f8fe-ee87-d4c3" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="3.0"/>
               </costs>
@@ -1169,6 +1196,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8272-a3c7-66a2-f784" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="5df8-080b-f40d-47b4" name="Lance" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -1199,6 +1229,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c232-040a-366d-57c5" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="2de6-3579-1747-9962" name="Longbow" hidden="false" targetId="c45c-2383-8be2-1152" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="15.0"/>
               </costs>
@@ -1215,6 +1248,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b70b-c869-2b39-4310" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="9640-a1f3-9556-e693" name="Crossbow" hidden="false" targetId="cd70-2ed2-922d-0011" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="15.0"/>
               </costs>
@@ -1446,6 +1482,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="334a-aec5-df34-fcf0" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="66c9-df01-e832-70c3" name="Morning Star" hidden="false" targetId="505c-f8fe-ee87-d4c3" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="2.0"/>
               </costs>
@@ -1461,6 +1500,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb4b-6f8e-5f82-155e" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="4042-b8f7-94d9-9356" name="Lance" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -1484,6 +1526,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a39c-88a5-0333-10b2" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="eabc-c8b4-6c03-27f2" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -1492,6 +1537,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3755-c3dd-1a7e-f752" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="6001-0667-a473-daca" name="Halberd" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -1507,6 +1555,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4621-b11f-827f-6c3b" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="33f5-ec08-2244-7dc7" name="Longbow" hidden="false" targetId="c45c-2383-8be2-1152" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
               </costs>
@@ -1523,6 +1574,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4909-4e4f-18d3-ee2b" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="e852-ac11-6298-0a20" name="Crossbow" hidden="false" targetId="cd70-2ed2-922d-0011" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
               </costs>
@@ -1685,6 +1739,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46b8-ba11-cc53-4fb3" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="3d26-1697-606f-69e5" name="Morning Star" hidden="false" targetId="505c-f8fe-ee87-d4c3" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="2.0"/>
               </costs>
@@ -1700,6 +1757,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2ee-3b3f-6601-3f22" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="4e8f-83ac-55e5-6b7a" name="Lance" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -1723,6 +1783,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7a8-6579-e85e-4a14" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="b927-b831-3c0a-a3e2" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -1731,6 +1794,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bab-23bf-426f-7993" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="0a74-b34e-9047-7159" name="Halberd" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -1746,6 +1812,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea7e-53bb-cd84-fd7d" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="2b35-b39a-dfcf-4c8a" name="Longbow" hidden="false" targetId="c45c-2383-8be2-1152" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
               </costs>
@@ -1762,6 +1831,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7212-4a27-bcdf-1597" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="2541-4ac1-b119-d6fb" name="Crossbow" hidden="false" targetId="cd70-2ed2-922d-0011" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
               </costs>
@@ -1909,6 +1981,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df9a-30f2-1acc-f73e" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9521-de30-7e3f-2f6a" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="ae76-9dbd-c6d1-9555" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1973,6 +2048,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8dd2-efe8-1298-b968" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f17b-b5c8-f065-8398" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="5321-f56c-890a-ef67" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -2064,6 +2142,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c89-e8da-fce9-2b29" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a848-513b-8231-fa50" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="fcb3-25d4-b655-702c" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -2152,6 +2233,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f53c-c283-4b43-5d39" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34f4-8cfc-6316-0172" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="98d9-5eb6-2820-5a6d" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -2492,6 +2576,9 @@ Luca Brazanga is armed with a Hand Weapon, Pistol, Crossbow and Heavy Armour</de
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7245-570e-40b0-7f87" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6a7-b5c4-2a11-0ea8" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="b55e-62b5-904f-c3cf" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -2597,6 +2684,9 @@ Luca Brazanga is armed with a Hand Weapon, Pistol, Crossbow and Heavy Armour</de
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e46-a10c-56a4-7119" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9444-2dc7-8057-c58a" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="0b59-5506-bfeb-06d2" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -2704,6 +2794,9 @@ Luca Brazanga is armed with a Hand Weapon, Pistol, Crossbow and Heavy Armour</de
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="369e-980a-5483-6e67" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8da9-7b44-b6a0-03de" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="772d-ec3c-4f8b-4062" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -2775,6 +2868,9 @@ Luca Brazanga is armed with a Hand Weapon, Pistol, Crossbow and Heavy Armour</de
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="179c-2f4c-3708-c757" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e90d-4756-ba48-ba5b" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="0bbe-305b-1e56-f05d" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -2856,6 +2952,9 @@ Luca Brazanga is armed with a Hand Weapon, Pistol, Crossbow and Heavy Armour</de
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a937-0699-bd33-26c9" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9103-e396-3665-cb93" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="903c-df3b-d0ac-e8bd" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -3511,6 +3610,9 @@ Against smaller opponents:
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8167-be25-d9b2-e4aa" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b2c-9280-555f-3970" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="9fe1-6039-4739-eec1" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -3596,6 +3698,9 @@ Against smaller opponents:
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f99-3d96-6d82-031e" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39a4-2df1-bf14-5cef" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="b2f5-f744-21cb-1bce" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -3667,6 +3772,9 @@ Against smaller opponents:
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8231-995b-70b0-14cd" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a5d-14cd-cebe-a9a9" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="5e0f-a521-4c12-e068" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -4262,6 +4370,9 @@ If fighting alongside a Dwarf army containing an Anvil of Doom make two separate
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5de4-b1fb-4691-1104" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="f3ad-f07e-0090-799a" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
           </costs>
@@ -4277,6 +4388,9 @@ If fighting alongside a Dwarf army containing an Anvil of Doom make two separate
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6c9a-a18d-e859-5c6e" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="8a33-19f7-713d-5605" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
           </costs>

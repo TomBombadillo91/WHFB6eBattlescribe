@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <costTypes>
     <costType id="fada-3781-5bbe-4625" name=" Hull Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -106,18 +106,27 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="f8cf-aab9-0477-50c2" name="Lance" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="3338-0dcc-b91f-4c31" name="Lance" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2eaf-5137-2ff1-590b" name="Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="f8ba-36a1-1e0e-fa20" name="Hand Weapon" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5bcf-43ed-afca-44f3" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="5aee-b56a-18e8-f0fe" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -131,12 +140,18 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="d2cb-bd4a-1553-f7da" name="Handgun" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="0ea2-404a-c918-4d78" name="Handgun" hidden="false" targetId="9faf-8e95-aa25-b156" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="15.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9f97-b916-2b7d-e4aa" name="Longbow" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="a903-1682-fee6-4d14" name="Longbow" hidden="false" targetId="c45c-2383-8be2-1152" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="15.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -349,12 +364,18 @@ In addition, as long as a Templar Grand Master is with a unit of Knights of his 
           </constraints>
           <selectionEntries>
             <selectionEntry id="58ab-97be-195c-5143" name="Level 4" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="cb57-cd23-0762-14cd" name="Level 4" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="47ce-8326-d366-8ed3" name="Level 3" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="5af5-fa1f-638b-c52a" name="Level 3" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -488,24 +509,36 @@ In addition, as long as a Templar Grand Master is with a unit of Knights of his 
               </costs>
             </selectionEntry>
             <selectionEntry id="abe8-af37-f4ba-57da" name="Lance" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="92aa-98e0-8119-d9b3" name="Lance" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="49f9-60f9-fc6a-e683" name="Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="6416-e002-459b-33d2" name="Hand Weapon" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="53ee-a6a5-9aab-a123" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="129c-f507-7566-5ea1" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="95ae-765b-71be-c2b5" name="Halberd" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="8beb-a4ca-9fdf-d681" name="Halberd" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -554,12 +587,18 @@ In addition, as long as a Templar Grand Master is with a unit of Knights of his 
           </constraints>
           <selectionEntries>
             <selectionEntry id="050b-1d8e-db22-5fe8" name="Handgun" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="a4f9-a707-ccb6-e6b2" name="Handgun" hidden="false" targetId="9faf-8e95-aa25-b156" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8c75-da1d-e2eb-d830" name="Longbow" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="5c19-182d-4efc-27ac" name="Longbow" hidden="false" targetId="c45c-2383-8be2-1152" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -717,6 +756,9 @@ Note that this power does not affect other characters (they are more difficult t
           </constraints>
           <selectionEntries>
             <selectionEntry id="a64e-cc24-d514-bb21" name="Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="033e-74f6-3f48-5326" name="Hand Weapon" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -938,12 +980,18 @@ When firing his own missile weapon, an Engineer can always choose a different ta
           </constraints>
           <selectionEntries>
             <selectionEntry id="583f-77ad-fdea-d4cb" name="Level 2" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="0f14-ac1f-478b-bced" name="Level 2" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e752-d0fa-8b51-3d8f" name="Level 1" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="a8be-e58b-8d89-77f1" name="Level 1" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -1055,6 +1103,9 @@ When firing his own missile weapon, an Engineer can always choose a different ta
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38bc-40f1-20a0-fa58" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="0d24-2c1a-f9e0-b7c5" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -1313,6 +1364,9 @@ When firing his own missile weapon, an Engineer can always choose a different ta
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3137-0a6f-d73c-1111" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="1de4-3187-ddd0-d599" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -1430,6 +1484,9 @@ When firing his own missile weapon, an Engineer can always choose a different ta
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5473-39e9-46a7-d39e" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="d91c-5a4f-202b-1aa1" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -1482,6 +1539,9 @@ When firing his own missile weapon, an Engineer can always choose a different ta
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="e937-9a16-ff71-81b8" name="Handgun" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="761b-8739-7416-a63b" name="Handgun" hidden="false" targetId="9faf-8e95-aa25-b156" type="rule"/>
+                      </infoLinks>
                       <costs>
                         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
                         <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -1951,6 +2011,9 @@ When firing his own missile weapon, an Engineer can always choose a different ta
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da70-5767-3e63-4eb6" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="0c70-20ce-97bf-5471" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -2458,6 +2521,9 @@ When firing his own missile weapon, an Engineer can always choose a different ta
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb74-fe55-9346-e9eb" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="24e2-687d-713a-9e85" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -2962,6 +3028,9 @@ When firing his own missile weapon, an Engineer can always choose a different ta
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c21c-bf5f-773b-6c68" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="8b40-abaf-89dc-bafe" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -3525,6 +3594,9 @@ When firing his own missile weapon, an Engineer can always choose a different ta
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba1f-6da3-2c29-0f3f" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="f003-9a8d-8066-5cb1" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="8.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -3726,6 +3798,9 @@ When firing his own missile weapon, an Engineer can always choose a different ta
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2677-ea5e-10d5-ba87" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="4307-223a-21ba-2e3f" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="8.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -3894,6 +3969,9 @@ When firing his own missile weapon, an Engineer can always choose a different ta
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="def8-4bbe-bbb8-80d2" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="668d-94b1-18ca-6766" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -4939,6 +5017,9 @@ Note that this power does not affect other characters (they are more difficult t
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72c6-2ae1-0119-1f27" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ebf-0dbb-516e-553c" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="8177-8b48-44f3-be1a" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
             <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>

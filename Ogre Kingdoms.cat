@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9817-5d62-aa33-69f5" name="Ogre Kingdoms" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9817-5d62-aa33-69f5" name="Ogre Kingdoms" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5fa5-4b26-a63e-0bef" name="Big Name" hidden="false"/>
     <categoryEntry id="a123-ef4a-523b-4159" name="Has Thiefstones" hidden="false"/>
@@ -80,6 +80,9 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="b54f-2433-372c-e412" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="2bdd-90d6-16d5-23c7" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="14.0"/>
               </costs>
@@ -305,6 +308,9 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="b96a-9d0a-b0d7-f166" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="5b02-dfc4-e639-b8ad" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="8.0"/>
               </costs>
@@ -711,6 +717,9 @@ The harpoon launcher is fired exactly as a bolt thrower with a Strength of 5, pe
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="151b-169f-c64a-94a5" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="0146-3b61-aa69-afa2" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
               </costs>
@@ -852,6 +861,9 @@ The harpoon launcher is fired exactly as a bolt thrower with a Strength of 5, pe
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d4f-7ddb-cb95-72ce" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70a1-eeba-a10e-1529" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="da09-0a2f-2d38-0151" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -904,6 +916,9 @@ The harpoon launcher is fired exactly as a bolt thrower with a Strength of 5, pe
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b328-5b27-dbe2-7f92" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="aff5-d73f-c0e6-f91e" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
               </costs>
@@ -1252,6 +1267,9 @@ Leadbelcher Cannon Profile</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b335-5e75-3a70-2f1c" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="ea45-a972-e71a-28d4" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
               </costs>
@@ -1595,6 +1613,9 @@ D6 | Effect
               </costs>
             </selectionEntry>
             <selectionEntry id="d233-5467-d979-c223" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="2510-ebcd-dda5-f428" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -1984,6 +2005,9 @@ They may not wheel more than once in any given turn (they still get a &apos;free
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90fd-51c3-18c3-3e5e" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="5e9b-0820-3692-5088" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="12.0"/>
               </costs>

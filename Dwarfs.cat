@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="e0a8-8253-1a27-7620" name="Engineering Rune" hidden="false">
       <rules>
@@ -90,6 +90,9 @@ Engineering Runes Type</description>
           </constraints>
           <selectionEntries>
             <selectionEntry id="0b6f-9745-2c36-2205" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="2558-060d-34e2-a8ef" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -107,6 +110,9 @@ Engineering Runes Type</description>
           </constraints>
           <selectionEntries>
             <selectionEntry id="5382-c6a1-170e-716a" name="Crossbow" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="eaaf-9ca8-76f8-6d87" name="Crossbow" hidden="false" targetId="cd70-2ed2-922d-0011" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="15.0"/>
               </costs>
@@ -173,6 +179,9 @@ Engineering Runes Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dbd9-e3a1-db80-e058" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="acb7-83b8-8f42-9aa3" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
           </costs>
@@ -251,6 +260,9 @@ Engineering Runes Type</description>
           </constraints>
           <selectionEntries>
             <selectionEntry id="8678-c775-1356-4fec" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="6556-f5b5-b137-6ac5" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -355,6 +367,9 @@ Engineering Runes Type</description>
           </constraints>
           <selectionEntries>
             <selectionEntry id="5683-9d68-721c-4da8" name="Crossbow" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="c13e-e3ba-667c-ec4b" name="Crossbow" hidden="false" targetId="cd70-2ed2-922d-0011" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
               </costs>
@@ -379,6 +394,9 @@ Engineering Runes Type</description>
           </constraints>
           <selectionEntries>
             <selectionEntry id="5410-a56d-c369-9a7f" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="6bde-7766-e912-1591" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -456,6 +474,9 @@ Engineering Runes Type</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d65e-7edc-9684-8560" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="a2fe-0627-8e01-2d31" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
           </costs>
@@ -602,6 +623,9 @@ When firing his own missile weapon, an Engineer can always choose a different ta
           </constraints>
           <selectionEntries>
             <selectionEntry id="4857-a5a3-1472-1fd6" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="f54a-ab26-a5af-e6df" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -658,6 +682,9 @@ When firing his own missile weapon, an Engineer can always choose a different ta
           </constraints>
           <selectionEntries>
             <selectionEntry id="b153-baab-59e0-cbd0" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="3c48-97c5-e911-3096" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -731,6 +758,9 @@ When firing his own missile weapon, an Engineer can always choose a different ta
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45d0-6ef9-7fae-1aaf" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="870d-3cf6-54f1-5d09" name="Great Weapons" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -743,6 +773,9 @@ When firing his own missile weapon, an Engineer can always choose a different ta
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7815-34bf-7554-29ce" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="8849-1aa5-f705-f821" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
               </costs>
@@ -852,6 +885,9 @@ When firing his own missile weapon, an Engineer can always choose a different ta
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f63-31a1-1d6f-8797" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="149b-adc0-abd8-3b71" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="b7c9-f244-c17f-ad30" name="Crossbows" hidden="false" targetId="cd70-2ed2-922d-0011" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -864,6 +900,9 @@ When firing his own missile weapon, an Engineer can always choose a different ta
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a3b-28de-7bc9-8ecc" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="cf1b-bbde-4f02-2835" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
               </costs>
@@ -960,6 +999,9 @@ When firing his own missile weapon, an Engineer can always choose a different ta
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9b8-eceb-a895-abaf" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="ed90-c46d-6cce-abd5" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
               </costs>
@@ -1060,6 +1102,9 @@ In the Movement phase of the turn when they arrive, Miners can enter the battlef
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9382-0643-732f-613b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="737b-7bf5-7bc6-64cc" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="a3d5-d938-2827-dd45" name="Great Weapons" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1072,6 +1117,9 @@ In the Movement phase of the turn when they arrive, Miners can enter the battlef
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c711-6ce7-58d2-8b28" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="5b2d-84a7-ba97-4f62" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -1153,6 +1201,9 @@ In the Movement phase of the turn when they arrive, Miners can enter the battlef
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3662-385e-d884-caaa" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fc0-dd46-9429-37f2" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="4a14-b331-d03f-330b" name="Great Weapons" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1180,6 +1231,9 @@ In the Movement phase of the turn when they arrive, Miners can enter the battlef
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d05-d0ba-aee2-c59b" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="ad6c-3246-7a9a-b41a" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -1215,6 +1269,9 @@ In the Movement phase of the turn when they arrive, Miners can enter the battlef
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f14-7dd4-1493-9bf1" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="34c8-7936-bc38-4d12" name="Crossbows" hidden="false" targetId="cd70-2ed2-922d-0011" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -1230,6 +1287,9 @@ In the Movement phase of the turn when they arrive, Miners can enter the battlef
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb64-c44d-9ec9-b474" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="04de-b96c-8078-8df1" name="Throwing Axes" hidden="false" targetId="6566-55b1-e8b7-d3d8" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -1294,6 +1354,9 @@ In the Movement phase of the turn when they arrive, Miners can enter the battlef
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4bf-5667-d315-768d" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0f8-6d07-1a3d-1f37" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="2952-d437-8f3b-c14d" name="Great Weapons" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1321,6 +1384,9 @@ In the Movement phase of the turn when they arrive, Miners can enter the battlef
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8572-8ecb-2941-34ae" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="cd0f-e2ed-0918-ddd0" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -1409,6 +1475,9 @@ In the Movement phase of the turn when they arrive, Miners can enter the battlef
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c41-9bfe-ec4a-e450" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff46-ac16-1ad6-c598" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="74b7-205e-2f7b-d2e4" name="Great Weapons" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1430,6 +1499,9 @@ In the Movement phase of the turn when they arrive, Miners can enter the battlef
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78c2-86bc-4567-d208" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="bd67-c2fe-9fcf-9df8" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -1521,6 +1593,9 @@ In the Movement phase of the turn when they arrive, Miners can enter the battlef
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1b8-4215-6715-9487" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="290c-c3dc-ae85-b07d" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -1624,6 +1699,9 @@ In the Movement phase of the turn when they arrive, Miners can enter the battlef
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d41-2b1c-9055-9a7e" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="3f6a-2f71-b393-21b0" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -1719,6 +1797,9 @@ In the Movement phase of the turn when they arrive, Miners can enter the battlef
       </costs>
     </selectionEntry>
     <selectionEntry id="f0b6-39b3-fe75-3590" name="Bolt Throwers" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4ffa-dbe9-72ec-2ee8" name="Bolt Throwers" hidden="false" targetId="3702-c42a-047c-af5f" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="c178-6e76-9bb8-7f97" name="Special" hidden="false" targetId="4a3f-84d1-0495-6ecb" primary="true"/>
       </categoryLinks>

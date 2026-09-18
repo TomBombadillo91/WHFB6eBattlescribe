@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7010-abfa-dde5-6873" name="Daemonic Legions" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7010-abfa-dde5-6873" name="Daemonic Legions" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="37ff-905c-0f6b-9742" name="Mark of Chaos Undivided" hidden="false"/>
     <categoryEntry id="452e-f479-2264-b39d" name="Mark of Tzeentch" hidden="false"/>
@@ -916,6 +916,9 @@ Bound Spell. Power Level 4. The banner contains a bound magic missile with range
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3447-ce38-636f-1833" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="3ccf-fa05-2484-848b" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="7.0"/>
               </costs>
@@ -924,6 +927,9 @@ Bound Spell. Power Level 4. The banner contains a bound magic missile with range
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c107-895f-a9a7-77d2" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="85e8-b5af-e8a3-46d0" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="14.0"/>
               </costs>
@@ -1035,6 +1041,9 @@ Each enemy slain by this spell is turned into a Horror and added to the Horrors&
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="640f-7ea3-a396-b028" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="6afd-ca8b-de0d-d2df" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="7.0"/>
               </costs>
@@ -1135,6 +1144,9 @@ Each enemy slain by this spell is turned into a Horror and added to the Horrors&
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4320-0153-3b45-3e0c" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="3d34-faa9-cb9e-a96d" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="7.0"/>
               </costs>
@@ -1143,6 +1155,9 @@ Each enemy slain by this spell is turned into a Horror and added to the Horrors&
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d38-e608-6b98-d18d" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="95d7-441b-382b-8770" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="14.0"/>
               </costs>
@@ -1224,6 +1239,9 @@ Each enemy slain by this spell is turned into a Horror and added to the Horrors&
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b8e-b963-f16d-2687" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="1167-77b7-e962-fac9" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="7.0"/>
               </costs>
@@ -1232,6 +1250,9 @@ Each enemy slain by this spell is turned into a Horror and added to the Horrors&
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d936-d8e1-029f-5bad" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="3a9a-cf98-5c3c-018d" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="14.0"/>
               </costs>
