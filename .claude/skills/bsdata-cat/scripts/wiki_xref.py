@@ -249,6 +249,7 @@ def cat_inventory(path):
                 })
             if pts is not None:
                 costs.append({"name": se.get("name") or "", "pts": pts,
+                              "id": se.get("id") or "",
                               "line": lines.get(se.get("id") or "", 0)})
 
     for pr in root.iter(ns + "profile"):
