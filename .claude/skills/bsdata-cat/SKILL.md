@@ -59,7 +59,7 @@ and they locate the repo root themselves.
 | --- | --- |
 | `find_id.py` | Look up ids by name or names by id, with element kind and location. `--in FILE`, `--tag KIND`. Also `--dump-gst-reference` to regenerate the ID tables. |
 | `new_id.py` | Mint ids that collide with nothing in the repo. `new_id.py 6`, or `--check <id>...`. |
-| `validate.py` | Dangling `targetId`/`childId`, malformed or duplicated ids, bad `field`/`scope`/`type` values, profile characteristics that disagree with the game system, wrong child order, `Deploy/` drift. Exits non-zero on errors. |
+| `validate.py` | Dangling `targetId`/`childId`, malformed or duplicated ids, bad `field`/`scope`/`type` values, profile characteristics that disagree with the game system, elements under a parent that cannot hold them (a `<rule>` outside a `<rules>`), wrong child order, `Deploy/` drift. Exits non-zero on errors. |
 | `build_deploy.py` | Regenerate `Deploy/*.catz`, `*.gstz`, `index.xml`, `index.bsi`. `--check` reports drift without writing. Only rewrites archives whose content actually changed. |
 | `wiki_xref.py` | Compare rules text against the scraped 6e wiki and write `reports/`. Never edits. `--only FILE`, `--text <wiki path>` for an XML-ready description, `--numbers` for cost/statline differences, `--stubs` for the undescribed-rule audit. Needs the scrape: `--wiki`, `$WHFB_WIKI_DATA`, or `../6eWikiScraper/data`. |
 | `wiki_apply.py` | Apply `wiki_xref.py`'s bucket A/B matches as text surgery. Dry run by default; `--write` to commit the change. Rewrites only the targeted spans, preserving CRLF and BattleScribe escaping. Mints ids for new `<rules>` blocks and bumps the revision. |
