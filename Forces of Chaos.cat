@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="e8a8-d83e-c60c-3ad0" name="Hordes of Chaos"/>
     <publication id="dc3a-2511-d23a-deb3" name="Beasts of Chaos"/>
@@ -1609,6 +1609,8 @@
         </profile>
       </profiles>
       <infoLinks>
+        <infoLink id="cf3e-0bdb-07e3-1618" name="Cloud of Flies" hidden="false" targetId="6b50-10ca-dd27-c712" type="rule"/>
+        <infoLink id="14f5-c447-f51d-172a" name="Stream of Corruption" hidden="false" targetId="cbfe-f7e6-7263-846f" type="rule"/>
         <infoLink id="54f3-ce86-7501-2fe7" name="Terror" hidden="false" targetId="3767-0d81-4db9-cda7" type="rule"/>
         <infoLink id="b221-b861-a996-6c5f" name="Daemonic" hidden="false" targetId="1d2a-5ef7-5722-e7d5" type="infoGroup"/>
         <infoLink id="9498-6b75-bdf4-6d3c" name="Large Target" hidden="false" targetId="01c3-c8c6-431f-1c2b" type="rule"/>
@@ -1817,6 +1819,7 @@
         </profile>
       </profiles>
       <infoLinks>
+        <infoLink id="7897-4d5a-8907-85d6" name="Aura of Slaanesh" hidden="false" targetId="d103-df69-44a8-2293" type="rule"/>
         <infoLink id="d53f-2c5e-b7b2-88da" name="Terror" hidden="false" targetId="3767-0d81-4db9-cda7" type="rule"/>
         <infoLink id="4379-cd7e-261b-625b" name="Daemonic" hidden="false" targetId="1d2a-5ef7-5722-e7d5" type="infoGroup"/>
         <infoLink id="7d7a-c56e-52f4-2c11" name="Large Target" hidden="false" targetId="01c3-c8c6-431f-1c2b" type="rule"/>
@@ -6144,7 +6147,7 @@ The Daemon has an armour save of 4+ in addition to its Daemonic Aura.</descripti
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c76-76df-eec5-fd58" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="ff6c-51d3-bbef-651c" name="Aura of Slaanesh" hidden="false" targetId="1998-c72e-fcd7-7491" type="rule"/>
+        <infoLink id="ff6c-51d3-bbef-651c" name="Aura of Slaanesh" hidden="false" targetId="d103-df69-44a8-2293" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1ada-f65f-3b75-dd5d" name="Daemonic Gift" hidden="false" targetId="d855-0137-fb0f-b91c" primary="false"/>
@@ -6264,7 +6267,7 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac70-4b55-6954-747c" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="c7cc-2f0d-9bb3-e34e" name="Stream of Corruption" hidden="false" targetId="e22b-b02b-ee07-a116" type="rule"/>
+        <infoLink id="c7cc-2f0d-9bb3-e34e" name="Stream of Corruption" hidden="false" targetId="cbfe-f7e6-7263-846f" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="fb94-cb84-b4e8-deab" name="Daemonic Gift" hidden="false" targetId="d855-0137-fb0f-b91c" primary="false"/>
@@ -6286,7 +6289,7 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10b7-7a9b-6bc6-bc51" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="41e4-9904-270a-8dc5" name="Cloud of Flies" hidden="false" targetId="2a7e-10b0-12b7-51aa" type="rule"/>
+        <infoLink id="41e4-9904-270a-8dc5" name="Cloud of Flies" hidden="false" targetId="6b50-10ca-dd27-c712" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c57e-0b39-b671-eaf8" name="Daemonic Gift" hidden="false" targetId="d855-0137-fb0f-b91c" primary="false"/>
@@ -10718,9 +10721,15 @@ The battle took place between Dwarfs and Wood Elves, in a ravine with heavily wo
     <rule id="cee3-197c-c24e-627e" name="Bloodgreed" hidden="false">
       <description>Minotaurs (and Doombulls) are known for their craving for flesh, and even in the heat of battle will stop to devour the fallen rather than continue to fight. A unit of Minotaurs, or a unit led by a Doombull, can never make an Overrun move, even if normally forced to do so by psychology or some other effect. However, Minotaurs (and Doombulls) pursue 3D6&quot;, rather than 2D6&quot;. If the Doombull is with a non­-Minotaur unit, then its normal pursuit rate is used.</description>
     </rule>
-    <rule id="2a7e-10b0-12b7-51aa" name="Cloud of Flies" hidden="false"/>
-    <rule id="e22b-b02b-ee07-a116" name="Stream of Corruption" hidden="false"/>
-    <rule id="1998-c72e-fcd7-7491" name="Aura of Slaanesh" hidden="false"/>
+    <rule id="2a7e-10b0-12b7-51aa" name="Cloud of Flies" hidden="false">
+      <description>Any unit close combat with a unit or model with this special rule suffers a -1 To Hit penalty on its rolls to hit.</description>
+    </rule>
+    <rule id="e22b-b02b-ee07-a116" name="Stream of Corruption" hidden="false">
+      <description>Plaguebearers may choose to vomit forth a grotesque spew of entrails, maggots and filth. This is resolved differently to the Daemonic Gift of the same name. It is used in close combat instead of making normal attacks and allows the Plaguebearers to hit their opponents automatically. Attacks are resolved at Strength 3. All models in the unit must use the same kind of attack in a single combat round, although they may change their attack from round to round.</description>
+    </rule>
+    <rule id="1998-c72e-fcd7-7491" name="Aura of Slaanesh" hidden="false">
+      <description>Any enemy unit in base contact with one or more models with the Aura of Slaanesh reduces its Leadership value by -1 to a minimum of 2.</description>
+    </rule>
     <rule id="da38-af45-b624-b4e8" name="Unruly" hidden="false">
       <description>At the start of each Chaos Compulsory Movement phase, roll a 1D6 for each Unruly unit. On a roll of a 1, the unit&apos;s headstrong nature has got the better of it. If there is an enemy unit that can be charged using the normal rules, the Beastmen must charge (charging the closest unit if there is more than one legal target). If no charges are possible, the unit moves as quickly and directly as possible towards the nearest enemy.</description>
     </rule>
@@ -10729,6 +10738,17 @@ The battle took place between Dwarfs and Wood Elves, in a ravine with heavily wo
     </rule>
     <rule id="b849-ce16-a6e5-4088" name="Mark of Chaos Undivided" hidden="false">
       <description>The character, unit or chariot may re-roll failed Psychology tests.</description>
+    </rule>
+    <rule id="cbfe-f7e6-7263-846f" name="Stream of Corruption" hidden="false">
+      <description>In any of the Chaos player&apos;s Shooting phases that the Daemon is not in combat, it may unleash its Stream of Corruption. This is a breath attack. The attack is resolved at Strength 3, with a -2 armour saving throw modifier.</description>
+    </rule>
+    <rule id="6b50-10ca-dd27-c712" name="Cloud of Flies" hidden="false">
+      <description>A swarm of flies envelopes the Daemon, distracting the enemy by flying into eyes, ears and mouths, crawling under armour and clothing.
+
+Any unit In close combat with one or more models with a Cloud of Flies suffers a -1 modifier to its rolls to hit.</description>
+    </rule>
+    <rule id="d103-df69-44a8-2293" name="Aura of Slaanesh" hidden="false">
+      <description>Any enemy unit in base contact with one or more models with the Aura of Slaanesh reduces its Leadership by -1, to a minimum Leadership value of 2.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

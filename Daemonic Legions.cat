@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7010-abfa-dde5-6873" name="Daemonic Legions" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7010-abfa-dde5-6873" name="Daemonic Legions" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="37ff-905c-0f6b-9742" name="Mark of Chaos Undivided" hidden="false"/>
     <categoryEntry id="452e-f479-2264-b39d" name="Mark of Tzeentch" hidden="false"/>
@@ -255,6 +255,10 @@ Master of the Shadows Lore</description>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="0cc0-254c-e2c4-377e" name="Cloud of Flies" hidden="false" targetId="3553-93c3-d247-3bac" type="rule"/>
+        <infoLink id="d33c-a195-7039-43b4" name="Stream of Corruption" hidden="false" targetId="420b-1188-8e15-554d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="e024-f57c-5b0a-5235" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
         <categoryLink id="8b22-8d3d-fb5d-ebec" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
@@ -399,6 +403,9 @@ Master of the Shadows Lore</description>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="083a-a2ab-a838-8244" name="Aura of Slaanesh" hidden="false" targetId="fbc6-1ab1-9f62-32af" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="472e-ca72-6497-8a49" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
         <categoryLink id="40b3-00fb-bc85-961a" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
@@ -1094,7 +1101,9 @@ Each enemy slain by this spell is turned into a Horror and added to the Horrors&
         </modifier>
       </modifiers>
       <rules>
-        <rule id="91ac-c09c-7bb5-e612" name="Stream of Corruption" hidden="false"/>
+        <rule id="91ac-c09c-7bb5-e612" name="Stream of Corruption" hidden="false">
+          <description>Plaguebearers may choose to vomit forth a grotesque spew of entrails, maggots and filth. This is resolved differently to the Daemonic Gift of the same name. It is used in close combat instead of making normal attacks and allows the Plaguebearers to hit their opponents automatically. Attacks are resolved at Strength 3. All models in the unit must use the same kind of attack in a single combat round, although they may change their attack from round to round.</description>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink id="ad3f-ebb4-eda4-fc5c" name="Cloud of Flies" hidden="false" targetId="ee13-4ea7-37a5-af07" type="rule"/>
@@ -2788,7 +2797,7 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a300-dbbe-fd6a-24e3" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="c29a-2e3a-35b2-8354" name="Cloud of Flies" hidden="false" targetId="ee13-4ea7-37a5-af07" type="rule"/>
+            <infoLink id="c29a-2e3a-35b2-8354" name="Cloud of Flies" hidden="false" targetId="3553-93c3-d247-3bac" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="40.0"/>
@@ -2810,6 +2819,9 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1674-7d3c-67e9-a737" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="0931-4787-ac51-d8f3" name="Stream of Corruption" hidden="false" targetId="420b-1188-8e15-554d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="30.0"/>
           </costs>
@@ -2856,7 +2868,7 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="caf4-521c-5d13-8740" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="3838-bf56-847e-cf89" name="Aura of Slaanesh" hidden="false" targetId="1783-01fe-723e-a7f4" type="rule"/>
+            <infoLink id="3838-bf56-847e-cf89" name="Aura of Slaanesh" hidden="false" targetId="fbc6-1ab1-9f62-32af" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="30.0"/>
@@ -3028,14 +3040,18 @@ The Lore of Fire Lore</description>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="1783-01fe-723e-a7f4" name="Aura of Slaanesh" hidden="false"/>
+    <rule id="1783-01fe-723e-a7f4" name="Aura of Slaanesh" hidden="false">
+      <description>Any enemy unit in base contact with one or more models with the Aura of Slaanesh reduces its Leadership value by -1 to a minimum of 2.</description>
+    </rule>
     <rule id="b9f2-9242-9816-d42a" name="Flames of Tzeentch" hidden="false">
       <description>Each Flamer can fire magical firebolts in the Shooting phase. These are treated as a thrown weapon with a range of 8&quot; and a Strength of 3. Each Flamer fires D6 bolts at the same target — roll to hit with each of them. Their bolts (as well as their close combat attacks) are flaming attacks.</description>
     </rule>
     <rule id="d02f-b121-ae24-0858" name="Floats" hidden="false">
       <description>Discs of Tzeentch hover above the ground, allowing the Sorcerer to hurl spells over the heads of friend and foe alike. For tine of sight purpose only, a character on a Disc of Tzeentch counts as a Large Target. A Disc moves like a flyer, except that it maximum move is 15&quot; rather than 20&quot;.</description>
     </rule>
-    <rule id="ee13-4ea7-37a5-af07" name="Cloud of Flies" hidden="false"/>
+    <rule id="ee13-4ea7-37a5-af07" name="Cloud of Flies" hidden="false">
+      <description>Any unit close combat with a unit or model with this special rule suffers a -1 To Hit penalty on its rolls to hit.</description>
+    </rule>
     <rule id="4926-ab12-a3b9-dcd2" name="Tongue Attack" hidden="false">
       <description>Attacks from the Mount count as Poisoned Attacks. In addition, because of its preternatural dexterity, the Mount always strikes first in close combat, even against a charging enemy.
 
@@ -3045,6 +3061,17 @@ If an opponent has the same ability, resolve the strikes in Initiative order - i
     </rule>
     <rule id="20d5-7a1f-932b-42b7" name="Scythed Wheels" hidden="false">
       <description>Chariots with Scythed Wheels deal an additional +1 impact hit.</description>
+    </rule>
+    <rule id="420b-1188-8e15-554d" name="Stream of Corruption" hidden="false">
+      <description>In any of the Chaos player&apos;s Shooting phases that the Daemon is not in combat, it may unleash its Stream of Corruption. This is a breath attack. The attack is resolved at Strength 3, with a -2 armour saving throw modifier.</description>
+    </rule>
+    <rule id="3553-93c3-d247-3bac" name="Cloud of Flies" hidden="false">
+      <description>A swarm of flies envelopes the Daemon, distracting the enemy by flying into eyes, ears and mouths, crawling under armour and clothing.
+
+Any unit In close combat with one or more models with a Cloud of Flies suffers a -1 modifier to its rolls to hit.</description>
+    </rule>
+    <rule id="fbc6-1ab1-9f62-32af" name="Aura of Slaanesh" hidden="false">
+      <description>Any enemy unit in base contact with one or more models with the Aura of Slaanesh reduces its Leadership by -1, to a minimum Leadership value of 2.</description>
     </rule>
   </sharedRules>
 </catalogue>
