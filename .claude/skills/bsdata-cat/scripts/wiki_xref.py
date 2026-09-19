@@ -236,10 +236,15 @@ def cat_inventory(path):
         # shields and mounts this lets through.
         uncategorised = not cats
         if se.get("type") == "upgrade" and (is_magic or uncategorised):
-            has = any(
-                se.find(ns + x) is not None and len(se.find(ns + x))
-                for x in ("rules", "profiles", "infoLinks")
-            )
+            def carries(el):
+                return any(el.find(ns + x) is not None and len(el.find(ns + x))
+                           for x in ("rules", "profiles", "infoLinks"))
+
+            # An entryLink can carry the rules itself -- the game system's
+            # "Power Stones" entry has no rules of its own and hangs them off
+            # its link to Power Stone, which displays perfectly well.
+            links = se.find(ns + "entryLinks")
+            has = carries(se) or any(carries(el) for el in (links if links is not None else []))
             cost = se.find("./{0}costs/{0}cost".format(ns))
             pts = cost.get("value") if cost is not None else None
             if not has:
@@ -491,6 +496,21 @@ def analyse(path, wiki):
         row = dict(r)
         row.update(c)
         row["kind"] = "rule"
+        # An ambiguous name whose text already matches one of the candidates is
+        # decided, not undecided. Stream of Corruption is two different rules
+        # sharing a name; once each element carries the right one there is
+        # nothing left to ask, even though the name still resolves to two pages.
+        if c["bucket"] == "C" and (r["desc"] or "").strip():
+            for h in c["hits"]:
+                try:
+                    cand, _ = wiki_rules_text(wiki.text(h["path"]))
+                except (KeyError, OSError):
+                    continue
+                if norm_ws(cand) == norm_ws(r["desc"]):
+                    c = {"bucket": "A", "hits": [h], "via": None}
+                    row.update(c)
+                    row.pop("note", None)
+                    break
         if c["bucket"] in ("A", "B") and c["hits"]:
             wpath = c["hits"][0]["path"]
             try:

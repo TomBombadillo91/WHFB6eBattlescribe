@@ -92,28 +92,28 @@ Statline rows compare only characteristics both sides state. A blank on either s
 | [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Dark Elves.cat:3065 | T | 3 | 4 |
 | [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Dark Elves.cat:3065 | W | 1 | 3 |
 | [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Dark Elves.cat:3065 | A | 1 | 2 |
-| [Centigor](https://6th.whfb.app/unit/centigor) | Forces of Chaos.cat:4893 | M | 6 | 8 |
-| [Centigor](https://6th.whfb.app/unit/centigor) | Forces of Chaos.cat:4893 | W | 3 | 1 |
-| [Centigor](https://6th.whfb.app/unit/centigor) | Forces of Chaos.cat:4893 | I | 4 | 2 |
-| [Centigor](https://6th.whfb.app/unit/centigor) | Forces of Chaos.cat:4893 | A | 3 | 1(2) |
-| [Centigor](https://6th.whfb.app/unit/centigor) | Forces of Chaos.cat:4893 | Ld | 8 | 7 |
-| [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Forces of Chaos.cat:5563 | WS | 3 | 4 |
-| [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Forces of Chaos.cat:5563 | S | 3 | 4 |
-| [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Forces of Chaos.cat:5563 | T | 3 | 4 |
-| [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Forces of Chaos.cat:5563 | W | 1 | 3 |
-| [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Forces of Chaos.cat:5563 | A | 1 | 2 |
+| [Centigor](https://6th.whfb.app/unit/centigor) | Forces of Chaos.cat:4896 | M | 6 | 8 |
+| [Centigor](https://6th.whfb.app/unit/centigor) | Forces of Chaos.cat:4896 | W | 3 | 1 |
+| [Centigor](https://6th.whfb.app/unit/centigor) | Forces of Chaos.cat:4896 | I | 4 | 2 |
+| [Centigor](https://6th.whfb.app/unit/centigor) | Forces of Chaos.cat:4896 | A | 3 | 1(2) |
+| [Centigor](https://6th.whfb.app/unit/centigor) | Forces of Chaos.cat:4896 | Ld | 8 | 7 |
+| [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Forces of Chaos.cat:5566 | WS | 3 | 4 |
+| [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Forces of Chaos.cat:5566 | S | 3 | 4 |
+| [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Forces of Chaos.cat:5566 | T | 3 | 4 |
+| [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Forces of Chaos.cat:5566 | W | 1 | 3 |
+| [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Forces of Chaos.cat:5566 | A | 1 | 2 |
 | [Knight](https://6th.whfb.app/unit/knight) | Dark Elves.cat:3275 | WS | 5 | 4 |
 | [Knight](https://6th.whfb.app/unit/knight) | Dark Elves.cat:3275 | S | 5 | 3 |
 | [Knight](https://6th.whfb.app/unit/knight) | Dark Elves.cat:3275 | T | 4 | 3 |
 | [Knight](https://6th.whfb.app/unit/knight) | Dark Elves.cat:3275 | I | 5 | 3 |
-| [Keeper of Secrets](https://6th.whfb.app/unit/keeper-of-secrets) | Forces of Chaos.cat:1697 | M | 6 | 8 |
-| [Keeper of Secrets](https://6th.whfb.app/unit/keeper-of-secrets) | Forces of Chaos.cat:1697 | WS | 6 | 9 |
-| [Keeper of Secrets](https://6th.whfb.app/unit/keeper-of-secrets) | Forces of Chaos.cat:1697 | A | 5 | 10 |
-| [Keeper of Secrets](https://6th.whfb.app/unit/keeper-of-secrets) | Forces of Chaos.cat:1697 | Ld | 9 | 6 |
-| [Knight](https://6th.whfb.app/unit/knight) | Forces of Chaos.cat:3091 | WS | 5 | 4 |
-| [Knight](https://6th.whfb.app/unit/knight) | Forces of Chaos.cat:3091 | S | 5 | 3 |
-| [Knight](https://6th.whfb.app/unit/knight) | Forces of Chaos.cat:3091 | T | 4 | 3 |
-| [Knight](https://6th.whfb.app/unit/knight) | Forces of Chaos.cat:3091 | I | 5 | 3 |
+| [Keeper of Secrets](https://6th.whfb.app/unit/keeper-of-secrets) | Forces of Chaos.cat:1699 | M | 6 | 8 |
+| [Keeper of Secrets](https://6th.whfb.app/unit/keeper-of-secrets) | Forces of Chaos.cat:1699 | WS | 6 | 9 |
+| [Keeper of Secrets](https://6th.whfb.app/unit/keeper-of-secrets) | Forces of Chaos.cat:1699 | A | 5 | 10 |
+| [Keeper of Secrets](https://6th.whfb.app/unit/keeper-of-secrets) | Forces of Chaos.cat:1699 | Ld | 9 | 6 |
+| [Knight](https://6th.whfb.app/unit/knight) | Forces of Chaos.cat:3094 | WS | 5 | 4 |
+| [Knight](https://6th.whfb.app/unit/knight) | Forces of Chaos.cat:3094 | S | 5 | 3 |
+| [Knight](https://6th.whfb.app/unit/knight) | Forces of Chaos.cat:3094 | T | 4 | 3 |
+| [Knight](https://6th.whfb.app/unit/knight) | Forces of Chaos.cat:3094 | I | 5 | 3 |
 | [Bladelord](https://6th.whfb.app/unit/bladelord) | High Elves.cat:1682 | WS | 5 | 6 |
 | [Bladelord](https://6th.whfb.app/unit/bladelord) | High Elves.cat:1682 | I | 6 | 5 |
 | [Bladelord](https://6th.whfb.app/unit/bladelord) | High Elves.cat:1682 | Ld | 9 | 8 |
@@ -121,8 +121,8 @@ Statline rows compare only characteristics both sides state. A blank on either s
 | [Villein](https://6th.whfb.app/unit/villein) | Bretonnians.cat:793 | A | 1 | 2 |
 | [Keeper of Secrets](https://6th.whfb.app/unit/keeper-of-secrets) | Dark Elves.cat:2844 | A | 6 | 10 |
 | [Keeper of Secrets](https://6th.whfb.app/unit/keeper-of-secrets) | Dark Elves.cat:2844 | Ld | 9 | 6 |
-| [Keeper of Secrets](https://6th.whfb.app/unit/keeper-of-secrets) | Forces of Chaos.cat:1805 | A | 6 | 10 |
-| [Keeper of Secrets](https://6th.whfb.app/unit/keeper-of-secrets) | Forces of Chaos.cat:1805 | Ld | 9 | 6 |
+| [Keeper of Secrets](https://6th.whfb.app/unit/keeper-of-secrets) | Forces of Chaos.cat:1807 | A | 6 | 10 |
+| [Keeper of Secrets](https://6th.whfb.app/unit/keeper-of-secrets) | Forces of Chaos.cat:1807 | Ld | 9 | 6 |
 | [Clanrat Slave](https://6th.whfb.app/unit/clanrat-slave) | Skaven.cat:1433 | M | 6 | 5 |
 | [Clanrat Slave](https://6th.whfb.app/unit/clanrat-slave) | Skaven.cat:1433 | I | 5 | 4 |
 | [Skeleton Crew](https://6th.whfb.app/unit/skeleton-crew) | Tomb Kings.cat:919 | WS | 3 | 2 |
@@ -130,25 +130,25 @@ Statline rows compare only characteristics both sides state. A blank on either s
 | [Pegasus](https://6th.whfb.app/unit/pegasus) | Bretonnians.cat:1179 | Ld | 7 | 6 |
 | [Bull Centaur Hero](https://6th.whfb.app/unit/bull-centaur-hero) | Chaos Dwarves.cat:541 | T | 4 | 5 |
 | [Hobgoblin Crew](https://6th.whfb.app/unit/hobgoblin-crew) | Chaos Dwarves.cat:1035 | M | 3 | 4 |
-| [Bloodletter](https://6th.whfb.app/unit/bloodletter) | Daemonic Legions.cat:885 | Ld | 9 | 8 |
-| [Horror](https://6th.whfb.app/unit/horror) | Daemonic Legions.cat:1010 | Ld | 9 | 8 |
-| [Plaguebearer](https://6th.whfb.app/unit/plaguebearer) | Daemonic Legions.cat:1113 | Ld | 9 | 8 |
-| [Daemonette](https://6th.whfb.app/unit/daemonette) | Daemonic Legions.cat:1208 | Ld | 9 | 8 |
-| [Daemonette](https://6th.whfb.app/unit/daemonette) | Daemonic Legions.cat:1312 | Ld | 9 | 8 |
-| [Flamer](https://6th.whfb.app/unit/flamer) | Daemonic Legions.cat:1446 | Ld | 9 | 8 |
-| [Flesh Hound](https://6th.whfb.app/unit/flesh-hound) | Daemonic Legions.cat:1698 | Ld | 9 | 8 |
-| [Nurglings](https://6th.whfb.app/unit/nurglings) | Daemonic Legions.cat:1758 | Ld | 9 | 8 |
-| [Screamer](https://6th.whfb.app/unit/screamer) | Daemonic Legions.cat:1816 | Ld | 9 | 8 |
+| [Bloodletter](https://6th.whfb.app/unit/bloodletter) | Daemonic Legions.cat:892 | Ld | 9 | 8 |
+| [Horror](https://6th.whfb.app/unit/horror) | Daemonic Legions.cat:1017 | Ld | 9 | 8 |
+| [Plaguebearer](https://6th.whfb.app/unit/plaguebearer) | Daemonic Legions.cat:1122 | Ld | 9 | 8 |
+| [Daemonette](https://6th.whfb.app/unit/daemonette) | Daemonic Legions.cat:1217 | Ld | 9 | 8 |
+| [Daemonette](https://6th.whfb.app/unit/daemonette) | Daemonic Legions.cat:1321 | Ld | 9 | 8 |
+| [Flamer](https://6th.whfb.app/unit/flamer) | Daemonic Legions.cat:1455 | Ld | 9 | 8 |
+| [Flesh Hound](https://6th.whfb.app/unit/flesh-hound) | Daemonic Legions.cat:1707 | Ld | 9 | 8 |
+| [Nurglings](https://6th.whfb.app/unit/nurglings) | Daemonic Legions.cat:1767 | Ld | 9 | 8 |
+| [Screamer](https://6th.whfb.app/unit/screamer) | Daemonic Legions.cat:1825 | Ld | 9 | 8 |
 | [Hag](https://6th.whfb.app/unit/hag) | Dark Elves.cat:1598 | WS | 4 | 5 |
 | [Daddallo](https://6th.whfb.app/unit/daddallo) | Dogs of War.cat:3378 | A | 2 | 1 |
 | [Warhorse](https://6th.whfb.app/unit/warhorse) | Dogs of War.cat:4491 | BS | 3 | 0 |
 | [Engineer](https://6th.whfb.app/unit/engineer) | Dwarfs.cat:528 | A | 2 | 1 |
 | [Bloodthirster](https://6th.whfb.app/unit/bloodthirster) | Forces of Chaos.cat:1483 | S | 7 | 6(7) |
-| [Ungor](https://6th.whfb.app/unit/ungor) | Forces of Chaos.cat:4193 | T | 4 | 3 |
-| [Troll](https://6th.whfb.app/unit/troll) | Forces of Chaos.cat:4546 | A | 4 | 3 |
-| [Chaos Giant](https://6th.whfb.app/unit/chaos-giant) | Forces of Chaos.cat:5426 | A | Special | * |
-| [Tuskgor](https://6th.whfb.app/unit/tuskgor) | Forces of Chaos.cat:5613 | S | 4 | 3 |
-| [Ungor](https://6th.whfb.app/unit/ungor) | Forces of Chaos.cat:5996 | WS | 4 | 3 |
+| [Ungor](https://6th.whfb.app/unit/ungor) | Forces of Chaos.cat:4196 | T | 4 | 3 |
+| [Troll](https://6th.whfb.app/unit/troll) | Forces of Chaos.cat:4549 | A | 4 | 3 |
+| [Chaos Giant](https://6th.whfb.app/unit/chaos-giant) | Forces of Chaos.cat:5429 | A | Special | * |
+| [Tuskgor](https://6th.whfb.app/unit/tuskgor) | Forces of Chaos.cat:5616 | S | 4 | 3 |
+| [Ungor](https://6th.whfb.app/unit/ungor) | Forces of Chaos.cat:5999 | WS | 4 | 3 |
 | [Ellyrian Reaver](https://6th.whfb.app/unit/ellyrian-reaver) | High Elves.cat:1029 | A | 1 | 2 |
 | [Harbinger](https://6th.whfb.app/unit/harbinger) | High Elves.cat:1087 | A | 1 | 2 |
 | [Thunderfist](https://6th.whfb.app/unit/thunderfist) | Ogre Kingdoms.cat:1248 | BS | 2 | 3 |
