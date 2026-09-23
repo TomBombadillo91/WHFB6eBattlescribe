@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="dfb1-1789-5d68-be54" name="Skaven" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="dfb1-1789-5d68-be54" name="Skaven" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="4f5c-498c-bd84-7e28" name="Clan Eshin" hidden="false"/>
     <categoryEntry id="befb-92ec-0667-152b" name="Clan Pestilens" hidden="false"/>
@@ -3521,9 +3521,7 @@ The Bell&apos;s unit moves as normal, marching, charging and pursuing at normal 
 
 The Bell&apos;s unit is reassured by the presence of the holy artefact and is therefore Immune to Psychology. If the Bell&apos;s unit is broken in combat and flees, they abandon the Bell. If this happens, the Bell itself and the striker are automatically destroyed by the enemy, while the Grey Seer abandons the Bell and flees on foot together with the unit that was pushing it. The enemy can pursue the fleeing Skaven unit as normal. Victory points for the Bell are awarded separately from those for the Grey Seer, in the same way as for a ridden monster/chariot.
 
-When casting spells from the Bell, the Grey Seer can measure a spell&apos;s range from any point of the Screaming Bell&apos;s carriage.
-
-!screaming-bell-movement</description>
+When casting spells from the Bell, the Grey Seer can measure a spell&apos;s range from any point of the Screaming Bell&apos;s carriage.</description>
         </rule>
         <rule id="a398-26ae-6288-980f" name="Screaming Bell" hidden="false">
           <description>Screaming Bells are holy altars from which the Grey Seers preach to the the Skaven. The Bell is an ever-present symbol in the legends describing the creation of the Skaven race, and its sound reaches deep inside the evil hearts of the rat-men, inspiring awe and devotion. In battle the ominous sound of the Bell can be beard above the clamour of the flghting, a message of death for the rat-men&apos;s enemies and of victory for the Skaven.</description>
@@ -3863,9 +3861,7 @@ The wielder has + 1 Strength. Each unsaved wound is multiplied into D3 wounds.</
           </constraints>
           <rules>
             <rule id="16c9-b5f1-b464-7143" name="Things-Catcher" hidden="false">
-              <description>This is the weapon wielded by the greatest heroes of Clan Moulder, used to catch the prey they need to conduct their foul experiments upon.
-
-Clan Moulder only. This weapon requires two hands to use and confers the Killing Blow special ability.</description>
+              <description>Clan Moulder only. This weapon requires two hands to use and confers the Killing Blow special ability.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -3990,9 +3986,7 @@ In addition, the model can decide not to attack at all. but to wield the shield 
           </constraints>
           <rules>
             <rule id="284f-427b-d3e2-fbc6" name="Twisted Crown of the Horned Rat" hidden="false">
-              <description>The crown is crafted from, sharp barbs of corroded and tangled metal that push their way deep into the skull of the wearer, sending dark, invigorating energy through his body.
-
-The Twisted Crown gives the wearer the Regeneration ability.</description>
+              <description>The Twisted Crown gives the wearer the Regeneration ability.</description>
             </rule>
           </rules>
           <categoryLinks>

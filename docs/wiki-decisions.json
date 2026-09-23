@@ -1,0 +1,590 @@
+{
+  "_comment": "Decisions taken on docs/judgement-calls.xlsx. wiki_xref.py reads this so a settled row is not asked again; make_xlsx carries 'Needs more thought' forward into the next sheet. Keyed by file+category+name+used_by.",
+  "decisions": [
+    {
+      "file": "Dark Elves.cat",
+      "category": "Ambiguous match",
+      "name": "Hand of Khaine",
+      "used_by": "Artifacts and Skills > Hand of Khaine",
+      "decision": "Option A",
+      "chose": "/magic-item/hand-of-khaine-artefact-and-skill",
+      "note": null
+    },
+    {
+      "file": "Dogs of War.cat",
+      "category": "Ambiguous match",
+      "name": "Magic",
+      "used_by": "The Giants of Albion > Hengus the Druid",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Forces of Chaos.cat",
+      "category": "Ambiguous match",
+      "name": "Axe of Khorne",
+      "used_by": "Magic Weapons > Axe of Khorne",
+      "decision": "Option A",
+      "chose": "/magic-item/axe-of-khorne-artifacts-of-the-dark-gods",
+      "note": null
+    },
+    {
+      "file": "Forces of Chaos.cat",
+      "category": "Ambiguous match",
+      "name": "Axe of Khorne",
+      "used_by": "shared; nothing links to it",
+      "decision": "Option B",
+      "chose": "/magic-item/axe-of-khorne-daemonic-gifts",
+      "note": null
+    },
+    {
+      "file": "Forces of Chaos.cat",
+      "category": "Ambiguous match",
+      "name": "Collar of Khorne",
+      "used_by": "Talismans",
+      "decision": "Option A",
+      "chose": "/magic-item/collar-of-khorne-artifacts-of-the-dark-gods",
+      "note": null
+    },
+    {
+      "file": "Forces of Chaos.cat",
+      "category": "Ambiguous match",
+      "name": "Collar of Khorne",
+      "used_by": "Daemonic Gifts",
+      "decision": "Option B",
+      "chose": "/magic-item/collar-of-khorne-daemonic-gifts",
+      "note": null
+    },
+    {
+      "file": "Orcs and Goblins.cat",
+      "category": "Ambiguous match",
+      "name": "'Eadbutt",
+      "used_by": "shared; nothing links to it",
+      "decision": "Option A",
+      "chose": "/special-rules/eadbutt",
+      "note": null
+    },
+    {
+      "file": "Skaven.cat",
+      "category": "Ambiguous match",
+      "name": "Daemonic Aura",
+      "used_by": "Vermin Lord",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Vermin Lord is from a WD article and isnt' in the wiki"
+    },
+    {
+      "file": "Skaven.cat",
+      "category": "Ambiguous match",
+      "name": "Movement",
+      "used_by": "Doomwheel",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Warhammer Fantasy 6th Edition.gst",
+      "category": "Ambiguous match",
+      "name": "Cannon",
+      "used_by": "shared; nothing links to it",
+      "decision": "Needs more thought",
+      "chose": null,
+      "note": "Need to summarise the cannon rules https://6th.whfb.app/war-machines/cannons"
+    },
+    {
+      "file": "Warhammer Fantasy 6th Edition.gst",
+      "category": "Ambiguous match",
+      "name": "Chariot",
+      "used_by": "shared; used by (catalogue root)",
+      "decision": "Needs more thought",
+      "chose": null,
+      "note": "Need to summarise the Chariot rules: https://6th.whfb.app/chariots"
+    },
+    {
+      "file": "Warhammer Fantasy 6th Edition.gst",
+      "category": "Ambiguous match",
+      "name": "Fast Cavalry",
+      "used_by": "shared; nothing links to it",
+      "decision": "Needs more thought",
+      "chose": null,
+      "note": "Need to summarise the Fast Cavalry rules https://6th.whfb.app/fast-cavalry"
+    },
+    {
+      "file": "Warhammer Fantasy 6th Edition.gst",
+      "category": "Ambiguous match",
+      "name": "Skirmishers",
+      "used_by": "shared; nothing links to it",
+      "decision": "Needs more thought",
+      "chose": null,
+      "note": "Need to summarise the Skirmishers rules https://6th.whfb.app/skirmishers"
+    },
+    {
+      "file": "Warhammer Fantasy 6th Edition.gst",
+      "category": "Ambiguous match",
+      "name": "Small",
+      "used_by": "shared; used by (catalogue root)",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "It's not techically a core rule, but the rule is functionally identical across each faction"
+    },
+    {
+      "file": "Warhammer Fantasy 6th Edition.gst",
+      "category": "Ambiguous match",
+      "name": "Swarm",
+      "used_by": "shared; used by (catalogue root)",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "It's not techically a core rule, but the rule is functionally identical across each faction"
+    },
+    {
+      "file": "Warhammer Fantasy 6th Edition.gst",
+      "category": "Ambiguous match",
+      "name": "Undead",
+      "used_by": "shared; nothing links to it",
+      "decision": "Needs more thought",
+      "chose": null,
+      "note": "Need to validate that the implementation across TK & VC is identical, and summarise it"
+    },
+    {
+      "file": "Wood Elves.cat",
+      "category": "Ambiguous match",
+      "name": "Tree Singing",
+      "used_by": "Drycha",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Bretonnians.cat",
+      "category": "No wiki coverage",
+      "name": "Braziers",
+      "used_by": "Peasant Bowmen > Braziers",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Missing from Wiki, but rule is correct in BSData"
+    },
+    {
+      "file": "Bretonnians.cat",
+      "category": "No wiki coverage",
+      "name": "The Fay Enchantress",
+      "used_by": "The Fay Enchantress",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Chaos Dwarves.cat",
+      "category": "No wiki coverage",
+      "name": "Great Taurus",
+      "used_by": "Chaos Dwarf Lord > Mount > Great Taurus",
+      "decision": "Option B",
+      "chose": "/unit/great-taurus",
+      "note": "https://6th.whfb.app/unit/great-taurus is the correct unit link for the mount"
+    },
+    {
+      "file": "Chaos Dwarves.cat",
+      "category": "No wiki coverage",
+      "name": "Lammasu",
+      "used_by": "Sorcerer Lord > Mount > Lammasu",
+      "decision": "Option B",
+      "chose": "/unit/lammasu",
+      "note": "ditto above"
+    },
+    {
+      "file": "Daemonic Legions.cat",
+      "category": "No wiki coverage",
+      "name": "Daemonic Legions Special Rules",
+      "used_by": "shared; nothing links to it",
+      "decision": "Option B",
+      "chose": "/special-rules/daemonic",
+      "note": "ditto above"
+    },
+    {
+      "file": "Daemonic Legions.cat",
+      "category": "No wiki coverage",
+      "name": "Horror Champion",
+      "used_by": "Horrors > Command > Champion",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Daemonic Legions.cat",
+      "category": "No wiki coverage",
+      "name": "Scythed Wheels",
+      "used_by": "shared; used by Chariot of Khorne, Chariot of Slaanesh",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Dark Elves.cat",
+      "category": "No wiki coverage",
+      "name": "5+ Annointed Ward Save",
+      "used_by": "Druchii Annointed",
+      "decision": "Option B",
+      "chose": "/special-rules/annointed-ward-save",
+      "note": null
+    },
+    {
+      "file": "Dark Elves.cat",
+      "category": "No wiki coverage",
+      "name": "Accustomed to Battle",
+      "used_by": "War Hydra > Variant War Hydra > Veteran War Hydra",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Dark Elves.cat",
+      "category": "No wiki coverage",
+      "name": "Acid Breath",
+      "used_by": "War Hydra > Variant War Hydra > Royal War Hydra",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Dark Elves.cat",
+      "category": "No wiki coverage",
+      "name": "Beastmaster",
+      "used_by": "Beastmaster",
+      "decision": "Option B",
+      "chose": "/unit/beastmaster",
+      "note": null
+    },
+    {
+      "file": "Dark Elves.cat",
+      "category": "No wiki coverage",
+      "name": "Chaos Daemon Sword (Keeper of Secrets) WS9 S6 I10 A6",
+      "used_by": "Chaos Daemon Sword",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Dark Elves.cat",
+      "category": "No wiki coverage",
+      "name": "Chosen of the Convents",
+      "used_by": "War Hydra > Variant War Hydra > Spellthirster",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Dark Elves.cat",
+      "category": "No wiki coverage",
+      "name": "Cold One Chariot",
+      "used_by": "Cold One Chariot",
+      "decision": "Option B",
+      "chose": "/unit/cold-one-chariot",
+      "note": null
+    },
+    {
+      "file": "Dark Elves.cat",
+      "category": "No wiki coverage",
+      "name": "Daerlythe's Aura",
+      "used_by": "War Hydra > Variant War Hydra > Spellthirster",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Dark Elves.cat",
+      "category": "No wiki coverage",
+      "name": "Hate High Elves",
+      "used_by": "shared; nothing links to it",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Dark Elves.cat",
+      "category": "No wiki coverage",
+      "name": "Malekith's Weapons",
+      "used_by": "Malekith, Witch King of Naggaroth",
+      "decision": "Option B",
+      "chose": "/unit/malekith",
+      "note": null
+    },
+    {
+      "file": "Dark Elves.cat",
+      "category": "No wiki coverage",
+      "name": "Mentally Scarred",
+      "used_by": "War Hydra > Variant War Hydra > Royal War Hydra",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Dark Elves.cat",
+      "category": "No wiki coverage",
+      "name": "Physically Weakened",
+      "used_by": "War Hydra > Variant War Hydra > Spellthirster",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Dark Elves.cat",
+      "category": "No wiki coverage",
+      "name": "Slaughterer's Blade",
+      "used_by": "Chaos Magic Items > Magic Weapons > Slaughterer's Blade",
+      "decision": "Option B",
+      "chose": "/magic-item/slaughters-blade",
+      "note": null
+    },
+    {
+      "file": "Dark Elves.cat",
+      "category": "No wiki coverage",
+      "name": "Sorcerer",
+      "used_by": "Malekith, Witch King of Naggaroth",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Dark Elves.cat",
+      "category": "No wiki coverage",
+      "name": "Speed of Slaanesh (Mistress)",
+      "used_by": "Devoted of Slaanesh > Speed of Slaanesh (Mistress)",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Dark Elves.cat",
+      "category": "No wiki coverage",
+      "name": "Splashback",
+      "used_by": "War Hydra > Variant War Hydra > Royal War Hydra",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Dark Elves.cat",
+      "category": "No wiki coverage",
+      "name": "The Hand of Khaine",
+      "used_by": "Malekith, Witch King of Naggaroth > The Hand of Khaine",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Dark Elves.cat",
+      "category": "No wiki coverage",
+      "name": "Veteran",
+      "used_by": "War Hydra > Variant War Hydra > Veteran War Hydra",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Dogs of War.cat",
+      "category": "No wiki coverage",
+      "name": "Birdmen of Catrazza",
+      "used_by": "Birdmen of Catrazza",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Dogs of War.cat",
+      "category": "No wiki coverage",
+      "name": "Brazanga's Besiegers",
+      "used_by": "Brazanga's Besiegers",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Dogs of War.cat",
+      "category": "No wiki coverage",
+      "name": "Dark Emissary Spell List",
+      "used_by": "Dark Emissary",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Dogs of War.cat",
+      "category": "No wiki coverage",
+      "name": "Galloper Gun Team",
+      "used_by": "Bronzino's Galloper Guns > Galloper Gun Team",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Dogs of War.cat",
+      "category": "No wiki coverage",
+      "name": "Master Gunner Bronzino",
+      "used_by": "Bronzino's Galloper Guns > Master Gunner Bronzino",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Dogs of War.cat",
+      "category": "No wiki coverage",
+      "name": "The Bearmen of Urslo",
+      "used_by": "Beorg Bearstruck and the Bearmen of Urslo",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Forces of Chaos.cat",
+      "category": "No wiki coverage",
+      "name": "Centigors",
+      "used_by": "Centigors",
+      "decision": "Option B",
+      "chose": "/unit/centigor",
+      "note": null
+    },
+    {
+      "file": "Forces of Chaos.cat",
+      "category": "No wiki coverage",
+      "name": "Diabolic Splendour",
+      "used_by": "Daemonic Gifts",
+      "decision": "Option B",
+      "chose": "/magic-item/diabolical-splendour",
+      "note": null
+    },
+    {
+      "file": "Forces of Chaos.cat",
+      "category": "No wiki coverage",
+      "name": "Giant Attacks",
+      "used_by": "Chaos Giant",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Forces of Chaos.cat",
+      "category": "No wiki coverage",
+      "name": "Move Over Obstacles",
+      "used_by": "Chaos Giant",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Forces of Chaos.cat",
+      "category": "No wiki coverage",
+      "name": "Slaughterer's Blade",
+      "used_by": "Magic Weapons > Slaughterer's Blade",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Forces of Chaos.cat",
+      "category": "No wiki coverage",
+      "name": "Staff of Darkoath",
+      "used_by": "Arcane Items",
+      "decision": "Option B",
+      "chose": "/magic-item/staff-of-darkoth",
+      "note": null
+    },
+    {
+      "file": "Forces of Chaos.cat",
+      "category": "No wiki coverage",
+      "name": "Vitriolic Totem",
+      "used_by": "Magic Banners",
+      "decision": "Option B",
+      "chose": "/magic-item/vitrolic-totem",
+      "note": null
+    },
+    {
+      "file": "High Elves.cat",
+      "category": "No wiki coverage",
+      "name": "Banner of Ellyrion",
+      "used_by": "Magic Banners > Banner of Ellyrion",
+      "decision": "Option B",
+      "chose": "/magic-item/banner-of-ellryion",
+      "note": null
+    },
+    {
+      "file": "High Elves.cat",
+      "category": "No wiki coverage",
+      "name": "Channeler",
+      "used_by": "Honours > Channeler",
+      "decision": "Option B",
+      "chose": "/magic-item/channeller",
+      "note": null
+    },
+    {
+      "file": "High Elves.cat",
+      "category": "No wiki coverage",
+      "name": "Fight In Three Ranks",
+      "used_by": "Spearmen",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "High Elves.cat",
+      "category": "No wiki coverage",
+      "name": "Fight In Three Ranks",
+      "used_by": "Lothern Sea Guard",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "High Elves.cat",
+      "category": "No wiki coverage",
+      "name": "Intruige at Court",
+      "used_by": "shared; nothing links to it",
+      "decision": "Option B",
+      "chose": "/special-rules/intrigue-at-court",
+      "note": null
+    },
+    {
+      "file": "High Elves.cat",
+      "category": "No wiki coverage",
+      "name": "Tiranoc Chariot",
+      "used_by": "Tiranoc Chariot",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Ogre Kingdoms.cat",
+      "category": "No wiki coverage",
+      "name": "Bull Rhinoxen",
+      "used_by": "Rhinox Cavalry > Bull Rhinox > Bull Rhinox",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Ogre Kingdoms.cat",
+      "category": "No wiki coverage",
+      "name": "Greasus Goldtooth",
+      "used_by": "Greasus Goldtooth",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Ogre Kingdoms.cat",
+      "category": "No wiki coverage",
+      "name": "Gut Magic Miscast",
+      "used_by": "shared; used by Butcher, Scrag the Slaughterer, Slaughtermaster",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    },
+    {
+      "file": "Ogre Kingdoms.cat",
+      "category": "No wiki coverage",
+      "name": "Harpoon Crossbow",
+      "used_by": "Hunter > Harpoon Crossbow",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": null
+    }
+  ]
+}

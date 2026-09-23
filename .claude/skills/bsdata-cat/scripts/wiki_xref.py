@@ -306,6 +306,13 @@ STRONG_SIGNAL = re.compile(
     re.I | re.X,
 )
 
+# A link into a rules section marks a paragraph as mechanical regardless of its
+# wording. The scraper resolves these for us, so use them before flattening.
+LINK_SIGNAL = re.compile(
+    r"\]\(\.\.?/(?:special-rules|magic-items?|psychology|spell|spell-lists"
+    r"|weapons|close-combat|shooting|movement)/",
+)
+
 WEAK_SIGNAL = re.compile(
     r"""\b(?:save|ward|wound|attacks?|casting|cast|charges?|panic|hate[sd]?|hatred
            |fear|terror|frenzy|stupidity|spell|magic\ missile|models?|unit
@@ -349,13 +356,19 @@ def wiki_rules_text(md):
     body = "\n".join(out_lines)
 
     body = flatten_tables(body)
-    body = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", body)
     body = re.sub(r"^#{2,6}\s+", "", body, flags=re.M)
     body = re.sub(r"\*\*(.*?)\*\*", r"\1", body)
     body = re.sub(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)", r"\1", body)
     body = re.sub(r"^!\[.*$", "", body, flags=re.M)
 
+    # Classify while the links are still here: a paragraph that links to another
+    # rules page is mechanical, whatever words it uses. The Axe of Khorne gift
+    # reads "A Daemon with an Axe of Khorne gains the [Killing Blow](...)" --
+    # no dice, no measurement, no keyword, but unmistakably the rule. Flattening
+    # first threw that signal away and kept the flavour line above it.
     paras = [p.strip() for p in re.split(r"\n\s*\n", body) if p.strip()]
+    linked = [bool(LINK_SIGNAL.search(p)) for p in paras]
+    paras = [re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", p) for p in paras]
 
     # Drop leading paragraphs only while they carry NO game vocabulary at all,
     # and stop at the first that does. Cutting to the first STRONG signal was
@@ -363,7 +376,8 @@ def wiki_rules_text(md):
     # before it reaches a measurement, and all three were being discarded.
     # Keeping a stray line of flavour is cosmetic; dropping rules is a bug.
     first = 0
-    while first < len(paras) and not (STRONG_SIGNAL.search(paras[first])
+    while first < len(paras) and not (linked[first]
+                                      or STRONG_SIGNAL.search(paras[first])
                                       or WEAK_SIGNAL.search(paras[first])):
         first += 1
     if first == len(paras):          # nothing looked mechanical anywhere

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d9da-11c6-1a8c-4472" name="Lizardmen" revision="16" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d9da-11c6-1a8c-4472" name="Lizardmen" revision="17" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>WIP Lizardmen. TODO: Add unit profiles</readme>
   <categoryEntries>
     <categoryEntry id="361c-7d6f-fc45-5312" name="Skink" hidden="false"/>
@@ -38,9 +38,7 @@
       </profiles>
       <rules>
         <rule id="91f0-5f02-6598-1b85" name="Palanquin" hidden="false">
-          <description>Treat the Slann as a single model with a single profile, rather like a chariot. If the Slann has joined a unit of troops, the unit counts rank bonuses as if the space taken by the palanquin was taken by normal troops. The palanquin may be placed in the centre of the second rank of troops, rather than in the front rank (see the diagram below). It is only ever forced to move into the front rank if the front rank is reduced to less than three models. If the palanquin is forced to move into the front rank, it is placed in the centre of the remaining two troops - slide them aside so that the Slann may fit between them. If there is just one model left in the front rank, then simply place the Slann next to it. While the Slann has no enemy models in base to base contact, it does not count as being in combat for purposes of its own spell casting and use of magic items, even if the unit around it is. This means that it may still cast spells as if unengaged, as it sometimes rises on its palanquin above the fighting to cast its powerful magic before dropping back within the protection of its unit. However, the Slann still counts as being in combat in regards to enemies wishing to target the Slann.
-
-!palanquin</description>
+          <description>Treat the Slann as a single model with a single profile, rather like a chariot. If the Slann has joined a unit of troops, the unit counts rank bonuses as if the space taken by the palanquin was taken by normal troops. The palanquin may be placed in the centre of the second rank of troops, rather than in the front rank (see the diagram below). It is only ever forced to move into the front rank if the front rank is reduced to less than three models. If the palanquin is forced to move into the front rank, it is placed in the centre of the remaining two troops - slide them aside so that the Slann may fit between them. If there is just one model left in the front rank, then simply place the Slann next to it. While the Slann has no enemy models in base to base contact, it does not count as being in combat for purposes of its own spell casting and use of magic items, even if the unit around it is. This means that it may still cast spells as if unengaged, as it sometimes rises on its palanquin above the fighting to cast its powerful magic before dropping back within the protection of its unit. However, the Slann still counts as being in combat in regards to enemies wishing to target the Slann.</description>
         </rule>
         <rule id="714f-4b7c-fa09-b70d" name="Unit Strength 5" hidden="false">
           <description>This model has a unit strength of 5.</description>
@@ -2335,9 +2333,7 @@ Note that Carnosaur will still be subject to Blood-Frenzy, and Cold Ones will st
           </constraints>
           <rules>
             <rule id="3888-1561-1eb0-1c50" name="Blessed Spawning of Chotec" hidden="false">
-              <description>The beat of the sun burns within the bodies of those blessed by the solar god Chotec, filling them with energy at times when other cold blooded-creatures become sluggish. A fiery red-orange is Chotec&apos;s associated colour.
-
-Roll an extra dice when pursuing and choose the highest two (or three if mounted).</description>
+              <description>Roll an extra dice when pursuing and choose the highest two (or three if mounted).</description>
             </rule>
           </rules>
           <categoryLinks>

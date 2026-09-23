@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b151-7d1c-4a96-e0d0" name="Dark Elves" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b151-7d1c-4a96-e0d0" name="Dark Elves" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7b32-9394-e778-467c" name="Poison" hidden="false"/>
     <categoryEntry id="16df-2ebd-e4f7-9984" name="Artifacts and Skills" hidden="false"/>
@@ -3456,7 +3456,7 @@ If the Spawn&apos;s movement is sufficient to take it into an enemy unit then it
       </profiles>
       <rules>
         <rule id="e4eb-c07e-8779-beb9" name="5+ Annointed Ward Save" hidden="false">
-          <description>The Druchii Annointed has a 5+ Ward Save that does not save against magical attacks.</description>
+          <description>5+ Ward save against non-magical attacks.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5522,7 +5522,9 @@ The model is considered to have Poisoned Attacks.</description>
           </constraints>
           <rules>
             <rule id="f1f7-2dfd-1cd1-4c96" name="Hand of Khaine" hidden="false">
-              <description>Any one model ( chosen by a Dark Elf player) in base contact will lose one Attack. Against mounted models, the Dark Elf player must choose either the mount/monster or the rider. If the model has several types of attack (an extra bite, for example) the Dark Elf player chooses which type of attack is lost. Models which are Immune to Psychology are not affected by the Hand of Khaine.</description>
+              <description>Tracing a complex pattern in the air, the Dark Elf entrances their victim, leaving him vulnerable and open to attack.
+
+Any one model ( chosen by a Dark Elf player) in base contact will lose one Attack. Against mounted models, the Dark Elf player must choose either the mount/monster or the rider. If the model has several types of attack (an extra bite, for example) the Dark Elf player chooses which type of attack is lost. Models which are Immune to Psychology are not affected by the Hand of Khaine.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -5845,7 +5847,7 @@ Trollhide Armour counts as a suit of heavy armour. The wearer may also Regenerat
               </constraints>
               <rules>
                 <rule id="a915-31cf-76d5-3eea" name="Slaughterer&apos;s Blade" page="63" hidden="false">
-                  <description>The Slaughterer&apos;s Blade counts as a Great Weapon in all respects. In addition, for each wound inflicted with the Slaughterer&apos;s Blade roll a D6. Each roll of a 4+ heals one lost Wound to the bearer (up to their starting Wounds total). Wounds regained this way do not count towards combat resolution.</description>
+                  <description>Characters on Foot only. The Slaughterer&apos;s Blade counts as a great weapon in all respects. In addition, for each wound inflicted with the Slaughterer&apos;s Blade, roll a 1D6 immediately. Each roll of a 4+ heals one lost Wound to the bearer (up to their starting Wounds total). Wounds regained in this way do not count towards combat resolution.</description>
                 </rule>
               </rules>
               <categoryLinks>

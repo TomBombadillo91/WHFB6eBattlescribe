@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="3f17-868d-fac0-4c8d" name="First Among Equals" hidden="false">
       <constraints>
@@ -2008,9 +2008,7 @@ If using the multiple shots option then the Repeater Bolt Thrower shoots six bol
       <description>When fighting against a Dark Elf army, all High Elves are immune to Panic.</description>
     </rule>
     <rule id="0122-3877-a6b3-7fe3" name="Intruige at Court" hidden="false">
-      <description>Though they are loyal to a fault, High Elves love intrigue and politics. Unfortunately, this sometimes means that their armies are trusted to the care of individuals on the basis of the political faction they follow rather than their ability to lead.
-
-The army&apos;s General is determined randomly. Before deployment, line up the character models and roll a dice. Count this number along the line - this is your General. If you roll over the number of characters in the army then the General is selected as normal instead. If you have six or more characters, choose five of them to line up, and then roll as above.</description>
+      <description>The army&apos;s General is determined randomly. Before deployment, line up the character models and roll a dice. Count this number along the line - this is your General. If you roll over the number of characters in the army then the General is selected as normal instead. If you have six or more characters, choose five of them to line up, and then roll as above.</description>
     </rule>
   </rules>
   <sharedSelectionEntries>
@@ -3671,9 +3669,7 @@ Mage only. May choose his spells instead of rolling for them.</description>
           </constraints>
           <rules>
             <rule id="942a-00cb-b368-d6ff" name="Channeler" hidden="false">
-              <description>The mage acts as a conduit through which raw power flows.
-
-Mage only. May cast with a maximum of + 1 more Power dice than normal. For example, a Level 3 Mage may use up to five Power dice in an attempt to cast a spell (instead of the usual four).</description>
+              <description>Mage only. May cast with a maximum of + 1 more Power dice than normal. For example, a Level 3 Mage may use up to five Power dice in an attempt to cast a spell (instead of the usual four).</description>
             </rule>
           </rules>
           <costs>

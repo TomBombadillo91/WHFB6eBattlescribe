@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2c0-45b3-040e-fe0f" name="Vampire Counts" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2c0-45b3-040e-fe0f" name="Vampire Counts" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7d18-159a-be52-079b" name="Vampire" hidden="false"/>
     <categoryEntry id="72bd-3327-881f-a995" name="Von Carstein" hidden="false"/>
@@ -1945,9 +1945,7 @@ The Movement of the Vampire is increased to 9 as long as he is moving on foot.</
           </constraints>
           <rules>
             <rule id="0001-cb3a-b4f0-ef71" name="Master Strike" hidden="false">
-              <description>So strong is the lord of the night, that a well-placed blow from his sword can sever a limb or decapitate the toughest opponents.
-
-The Vampire has the Killing Blow special rule.</description>
+              <description>The Vampire has the Killing Blow special rule.</description>
             </rule>
           </rules>
           <costs>
@@ -2138,9 +2136,7 @@ The Vampire knows one more spell than he is normally allowed. This does not incr
           </constraints>
           <rules>
             <rule id="aab6-92ce-d925-084b" name="Curse of the Revenant" hidden="false">
-              <description>So strong is the desire for some to continue living that they defy death. But this has a price - the eternal thirst for the blood of the living.
-
-The Vampire has the Regeneration special rule.</description>
+              <description>The Vampire has the Regeneration special rule.</description>
             </rule>
           </rules>
           <costs>

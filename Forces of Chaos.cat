@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="17" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="e8a8-d83e-c60c-3ad0" name="Hordes of Chaos"/>
     <publication id="dc3a-2511-d23a-deb3" name="Beasts of Chaos"/>
@@ -6077,6 +6077,13 @@ Once on the ground, a Giant may get up in his following Movement phase, but may 
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b215-7cb9-5fcb-88ee" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f96-774b-7c24-533a" type="max"/>
       </constraints>
+      <rules>
+        <rule id="3c0b-0c40-db75-0b48" name="Axe of Khorne" hidden="false">
+          <description>The axe is the favoured weapon of Khorne, and this unholy blade screams with the power of the Daemon bound within it.
+
+A Daemon with an Axe of Khorne gains the Killing Blow ability. This gift cannot be combined with a Blade of the Ether gift.</description>
+        </rule>
+      </rules>
       <categoryLinks>
         <categoryLink id="66a9-e86a-11de-0fc5" name="Daemonic Gift" hidden="false" targetId="d855-0137-fb0f-b91c" primary="false"/>
       </categoryLinks>
@@ -7768,7 +7775,7 @@ A model wounded by the Rending Sword (after saves. etc) loses not one but D3 wou
           </constraints>
           <rules>
             <rule id="ec78-6a10-ec1e-8f9a" name="Axe of Khorne" publicationId="e8a8-d83e-c60c-3ad0" page="51" hidden="false">
-              <description>The bearer has the Killing Blow ability.</description>
+              <description>Models with the Mark of Khorne only. Confers on the bearer the Killing Blow ability.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -8531,6 +8538,11 @@ Beasts of Chaos characters only. The character and any unit led by him adds +D3&
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ea1-a519-bcf1-25da" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cada-c266-c387-2d06" type="max"/>
           </constraints>
+          <rules>
+            <rule id="8c44-89a3-c8bf-ad0b" name="Collar of Khorne" hidden="false">
+              <description>Models with the Mark of Khorne only. The model has Magic Resistance (2).</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="e745-8d61-4189-127f" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
           </categoryLinks>
@@ -8837,6 +8849,11 @@ Models with the Mark of Slaanesh only. Whenever the bearer issues a challenge, t
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaf2-024c-2db7-476a" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e5d-dc86-8461-63b6" type="max"/>
           </constraints>
+          <rules>
+            <rule id="eeeb-1b89-b401-6dfc" name="Vitriolic Totem" hidden="false">
+              <description>Beasts of Chaos only. All models in the unit bearing this totem count as having Poisoned Attacks. This will have no effect on characters wielding magic weapons.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="9abb-b5fd-ac7f-f8ef" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -9613,6 +9630,11 @@ Models with the Mark of Khorne only. The Spelleater Shield is treated like a nor
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eba1-8eab-0555-27f2" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80b5-b44e-de70-d0b7" type="max"/>
           </constraints>
+          <rules>
+            <rule id="edc7-df98-19f5-d1d1" name="Diabolic Splendour" hidden="false">
+              <description>The Daemonic Aura becomes a normal ward save so can be used against magical attacks. This is also conferred to any Daemon unit which he joins.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="73b1-54ee-5ec3-aa31" name="Daemonic Gift" hidden="false" targetId="d855-0137-fb0f-b91c" primary="false"/>
           </categoryLinks>
@@ -9668,6 +9690,13 @@ The Daemons close combat attacks ignore armour saves.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dc1-e644-5605-f6a8" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0de3-e9ea-a1ca-e813" type="max"/>
           </constraints>
+          <rules>
+            <rule id="31ec-a238-dfa4-1833" name="Collar of Khorne" hidden="false">
+              <description>The Daemon wears a heavy studded collar as a mark of Khorne&apos;s protection again magic.
+
+The Daemon has Magic Resistance (2).</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="ca84-ed26-a7c1-5f79" name="Daemonic Gift" hidden="false" targetId="d855-0137-fb0f-b91c" primary="false"/>
           </categoryLinks>
@@ -10555,6 +10584,11 @@ Beasts of Chaos characters only. The Goretooth confers hatred and the Bloodgreed
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8450-0a84-3d69-3244" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edce-3d87-6643-0aef" type="max"/>
           </constraints>
+          <rules>
+            <rule id="2193-f7c8-04d1-6535" name="Staff of Darkoath" hidden="false">
+              <description>Counts as a braystaff. Also, the Shaman knows the following spell in addition to his other spells: The Wild Call</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="23ec-273e-d33a-ae41" name="Arcane Item" hidden="false" targetId="7cfd-b676-48e1-6eec" primary="false"/>
           </categoryLinks>
@@ -10693,8 +10727,6 @@ Both armies are chosen using the Warhammer Army lists. The defender has 50% more
 Battlefield
 
 Set up the terrain in an agreed manner.
-
-!scenario-6
 
 Deployment
 

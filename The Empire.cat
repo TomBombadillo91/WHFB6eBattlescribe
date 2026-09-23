@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="16" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <costTypes>
     <costType id="fada-3781-5bbe-4625" name=" Hull Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -5368,8 +5368,6 @@ No spells or magic items which attack or otherwise target the Steam Tank, friend
             </rule>
             <rule id="1771-18cf-4cea-00fb" name="Close Combat against the Steam Tank" hidden="false">
               <description>In close combat, enemies have the chance to concentrate their attacks on vulnerable parts of the Tank. The Steam Tank is considered to have a Weapon Skill of 1. All enemy models that are in base contact with the Steam Tank, or would be in contact by projecting their bases forward as shown on Diagram 5, can roll to hit against the Tank as normal. Remember to deduct the attacks of the models that have been killed by its impact hits if the Tank has charged in. If the enemies roll a hit, they hit Soft. If they miss, they hit Hard instead. Work out the damage they cause as per shooting hits.
-
-!steam-tank-close-combat-against-the-steam-tank
 
 Combat resolution is worked out as normal, counting each point of damage caused on the Steam Tank as a wound.
 

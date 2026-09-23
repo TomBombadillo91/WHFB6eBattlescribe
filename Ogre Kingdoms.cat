@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9817-5d62-aa33-69f5" name="Ogre Kingdoms" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9817-5d62-aa33-69f5" name="Ogre Kingdoms" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5fa5-4b26-a63e-0bef" name="Big Name" hidden="false"/>
     <categoryEntry id="a123-ef4a-523b-4159" name="Has Thiefstones" hidden="false"/>
@@ -2817,9 +2817,7 @@ Ogres in the unit with the Dragonhide Standard are immune to Ice Magic.</descrip
           </constraints>
           <rules>
             <rule id="cc1f-ba00-e27e-a4c6" name="Skullplucker" hidden="false">
-              <description>This heavy, spiked metal gauntlet was originally worn by its namesake Big Agi Skullplucker, who had a particular dislike for Elves, and enjoyed nothing more than twisting off their girly little heads with this nasty-looking and bloodstained glove.
-
-The Ogre with this weapon has Killing Blow.</description>
+              <description>The Ogre with this weapon has Killing Blow.</description>
             </rule>
           </rules>
           <infoLinks>

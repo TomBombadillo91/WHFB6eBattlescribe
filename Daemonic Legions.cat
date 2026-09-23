@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7010-abfa-dde5-6873" name="Daemonic Legions" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7010-abfa-dde5-6873" name="Daemonic Legions" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="37ff-905c-0f6b-9742" name="Mark of Chaos Undivided" hidden="false"/>
     <categoryEntry id="452e-f479-2264-b39d" name="Mark of Tzeentch" hidden="false"/>
@@ -1950,7 +1950,36 @@ Each enemy slain by this spell is turned into a Horror and added to the Horrors&
     </entryLink>
   </entryLinks>
   <rules>
-    <rule id="497d-7201-9745-d97a" name="Daemonic Legions Special Rules" hidden="false"/>
+    <rule id="497d-7201-9745-d97a" name="Daemonic Legions Special Rules" hidden="false">
+      <description>The following rules apply to all Daemonic creatures. Non-Daemonic models may not join a Daemonic unit, and a Daemonic model may not join a non-Daemonic unit. The only exception to this is a character riding a Daemonic Mount, Steed of Slaanesh, Juggernaut of Khorne or Disc of Tzeentch.
+
+Instability and Break Tests
+
+When daemons lose a round of combat they must take a special Daemonic Instability test instead of a Break test. In multiple combats, each Daemonic unit must test separately. Use the following procedure to take a Daemonic Instability test:
+
+1. Calculate combat resolution as normal.
+2. Roll 2D6 and compare this to the daemons&apos; Leadership value, with no combat resolution modifers. If the roll is higher, the daemons lose their grip on the mortal world and disappear from the battlefield. They count as destroyed.
+3. If the unit does not Instantly disappear, compare the dice roll to their Leadership value, taking into account any modifiers for combat resolution. For each point the unit fails its instability test by, the unit suffers one additional wound. No saves of any kind are allowed against these wounds, including Ward saves, Regeneration, etc. If characters are present in the unit, the controlling player can decide how to allocate wounds between the character&apos;s and the unit.
+4. If a Daemonic unit is wiped out by instability in the first round of combat, the enemy may overrun as normal.
+
+Example**: A unit of Bloodletters loses a combat by 4. The controlling player scores 7 on his 2D6 roll. This is lower than their Leadership of 8, so they don&apos;t disappear totally. However, because combat resolution modifiers count for Daemonic Instability, their Leadership is reduced to 4 for the second part of the test. This means that the Bloodletters have failed the test by 3, as so the unit suffers three wounds.
+
+Immune to Psychology
+
+Daemons are Immune to Psychology.
+
+Fear
+
+Daemons are otherworldly entities that cause fear.
+
+Daemonic Aura
+
+Daemons are not of mortal flesh and have some immunity to mundane weapons. Daemons get a 5+ Ward save. However, this Ward save cannot be used against magical attacks (ie, spells and magic items).
+
+Daemonic Attacks
+
+Being corporeal manifestations of Chaos, Daemons&apos; attacks are magical and can wound ethereal creatures. etc. This includes any special or ranged attacks they may have.</description>
+    </rule>
     <rule id="b451-7bd0-d020-b119" name="Daemonic" hidden="false">
       <description>The following rules apply to all Daemonic creatures. Non-Daemonic models may not join a Daemonic unit, and a Daemonic model may not join a non-Daemonic unit. The only exception to this is a character riding a Daemonic Mount, Steed of Slaanesh, Juggernaut of Khorne or Disc of Tzeentch.
 
