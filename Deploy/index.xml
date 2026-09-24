@@ -2,7 +2,7 @@
 <dataIndex battleScribeVersion="2.03" name="WHFB6eBattlescribe" indexUrl="https://raw.githubusercontent.com/TomRome2Rio/WHFB6eBattlescribe/main/Deploy/index.bsi" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
   <dataIndexEntries>
     <dataIndexEntry filePath="Warhammer Fantasy 6th Edition.gstz" dataType="gamesystem" dataId="4ca8-2035-2f87-1bd7" dataName="WHFB 6th Edition" dataBattleScribeVersion="2.03" dataRevision="29"/>
-    <dataIndexEntry filePath="Skaven.catz" dataType="catalogue" dataId="dfb1-1789-5d68-be54" dataName="Skaven" dataBattleScribeVersion="2.03" dataRevision="14"/>
+    <dataIndexEntry filePath="Skaven.catz" dataType="catalogue" dataId="dfb1-1789-5d68-be54" dataName="Skaven" dataBattleScribeVersion="2.03" dataRevision="15"/>
     <dataIndexEntry filePath="Bretonnians.catz" dataType="catalogue" dataId="05b9-5022-67cd-4fd3" dataName="Bretonnians" dataBattleScribeVersion="2.03" dataRevision="11"/>
     <dataIndexEntry filePath="High Elves.catz" dataType="catalogue" dataId="2ed9-b2d4-eb7d-a2c4" dataName="High Elves" dataBattleScribeVersion="2.03" dataRevision="14"/>
     <dataIndexEntry filePath="Chaos Dwarves.catz" dataType="catalogue" dataId="7236-6609-8f2a-760a" dataName="Chaos Dwarves" dataBattleScribeVersion="2.03" dataRevision="11"/>
