@@ -791,7 +791,7 @@
       "used_by": "",
       "decision": "Leave as is",
       "chose": null,
-      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+      "note": "Verified against the Rhinox Cavalry page (WD #309) at https://wfb6thcharacters.blogspot.com/p/rhinox-calvary-there-is-rite-of.html. Exact, down to the same OCR artefacts."
     },
     {
       "file": "Ogre Kingdoms.cat",
@@ -800,7 +800,7 @@
       "used_by": "",
       "decision": "Leave as is",
       "chose": null,
-      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+      "note": "Verified against the same WD #309 page, where the rule is called Single-Minded. Text matches; the catalogue names it after the unit."
     },
     {
       "file": "Ogre Kingdoms.cat",
@@ -809,7 +809,7 @@
       "used_by": "",
       "decision": "Leave as is",
       "chose": null,
-      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+      "note": "Verified word for word against the WD #309 Rhinox Cavalry page."
     },
     {
       "file": "Ogre Kingdoms.cat",
@@ -818,7 +818,7 @@
       "used_by": "",
       "decision": "Leave as is",
       "chose": null,
-      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+      "note": "Verified against the army book scan; corrected from Scrag's to Skrag's."
     },
     {
       "file": "Ogre Kingdoms.cat",
@@ -827,7 +827,7 @@
       "used_by": "",
       "decision": "Leave as is",
       "chose": null,
-      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+      "note": "Verified against the army book scan: 400 points and M6 WS5 BS3 S5 T6 W5 I3 A4 Ld9 both match. The entry was spelled Scrag throughout and is now Skrag; the rule text was abbreviated and is now the book's."
     },
     {
       "file": "Ogre Kingdoms.cat",
@@ -863,7 +863,7 @@
       "used_by": "",
       "decision": "Leave as is",
       "chose": null,
-      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+      "note": "The Night Goblin army list scan confirms the Giant's rules are Ignore Greenskin Panic, Large Target, Terror, Fall Over, Move, Special Attacks and Stubborn - exactly what the catalogue's Giant infoGroup and infoLinks already give it. The empty Giant rule beside them was redundant and is removed."
     },
     {
       "file": "Orcs and Goblins.cat",
@@ -872,16 +872,16 @@
       "used_by": "",
       "decision": "Leave as is",
       "chose": null,
-      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+      "note": "Verified against the Rare Units scan. The catalogue was missing the opening line and the Fast Cavalry exclusion; both added."
     },
     {
       "file": "Orcs and Goblins.cat",
       "category": "No wiki coverage",
       "name": "The Blasted Banner",
       "used_by": "",
-      "decision": "Leave as is",
+      "decision": "Matched",
       "chose": null,
-      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+      "note": "Confirmed by /special-rules/bodyguard-orcs-and-goblins, which states the Bodyguard and Grimgor are Stubborn whilst they retain the banner."
     },
     {
       "file": "Orcs and Goblins.cat",
@@ -944,16 +944,16 @@
       "used_by": "",
       "decision": "Leave as is",
       "chose": null,
-      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+      "note": "Still unverified. Not in the four Night Goblin army list scans available, though the Giant entry's flavour text does mention Fungus brews."
     },
     {
       "file": "Orcs and Goblins.cat",
       "category": "No wiki coverage",
       "name": "Staff of Badumm",
       "used_by": "",
-      "decision": "Leave as is",
+      "decision": "Matched",
       "chose": null,
-      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+      "note": "Confirmed against /magic-item/staff-of-baduumm; the text is identical and only the spelling of the name differs."
     },
     {
       "file": "Orcs and Goblins.cat",

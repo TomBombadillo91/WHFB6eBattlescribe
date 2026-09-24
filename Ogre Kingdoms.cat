@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9817-5d62-aa33-69f5" name="Ogre Kingdoms" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9817-5d62-aa33-69f5" name="Ogre Kingdoms" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5fa5-4b26-a63e-0bef" name="Big Name" hidden="false"/>
     <categoryEntry id="a123-ef4a-523b-4159" name="Has Thiefstones" hidden="false"/>
@@ -1909,7 +1909,7 @@ They may not wheel more than once in any given turn (they still get a &apos;free
             </profile>
             <profile id="9086-4d4c-859e-e4d1" name="Rhinox" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
               <characteristics>
-                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">7</characteristic>
                 <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
                 <characteristic name="BS" typeId="22c7-799b-e07c-f32c">-</characteristic>
                 <characteristic name="S" typeId="0c58-1252-962d-8fcc">5</characteristic>
@@ -2088,7 +2088,7 @@ Enemies firing at units of Rhinoxen comprising of Rhinox and Bull Rhinox must no
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fd8a-de61-b386-afbd" name="Scrag the Slaughterer" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="fd8a-de61-b386-afbd" name="Skrag the Slaughterer" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -2100,7 +2100,7 @@ Enemies firing at units of Rhinoxen comprising of Rhinox and Bull Rhinox must no
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="59c0-aa3f-691b-283a" type="max"/>
       </constraints>
       <profiles>
-        <profile id="63a9-b0db-16e3-0015" name="Scrag" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+        <profile id="63a9-b0db-16e3-0015" name="Skrag" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
             <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
             <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
@@ -2116,13 +2116,13 @@ Enemies firing at units of Rhinoxen comprising of Rhinox and Bull Rhinox must no
       </profiles>
       <rules>
         <rule id="f5c6-c989-6fed-57ea" name="Stump-Blades" hidden="false">
-          <description>Scrag&apos;s stump-blades count as two hand weapons</description>
+          <description>Skrag&apos;s stump-blades count as two hand weapons</description>
         </rule>
         <rule id="e0f8-c54a-8f9a-4353" name="Unit Strength 6" hidden="false">
           <description>Skrag and his cauldron have a Unit Strength of 6.</description>
         </rule>
         <rule id="b5d2-45f0-e23f-87c6" name="Skrag the Slaughterer" hidden="false">
-          <description>Skrag is a Slaughtermaster, and must be the army general. The usual restriction for taking Slaughtermasters (having to take a Tyrant first) does not apply.</description>
+          <description>Skrag is a Slaughtermaster, and counts as a Lord choice in an Ogre Kingdoms army. He must be used as presented here and may not be given any additional equipment or magic items. Skrag must be the army general. The usual restriction for taking Slaughtermasters (having to take a Tyrant first) does not apply.</description>
         </rule>
         <rule id="9648-ef9e-d70b-1f40" name="Chosen of the Great Maw" hidden="false">
           <description>Skrag is a crazed, gore-splattered killing-machine driven on by the will of his god. He causes Terror and is subject to Frenzy.</description>
