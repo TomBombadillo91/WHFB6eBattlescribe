@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2c0-45b3-040e-fe0f" name="Vampire Counts" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2c0-45b3-040e-fe0f" name="Vampire Counts" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7d18-159a-be52-079b" name="Vampire" hidden="false"/>
     <categoryEntry id="72bd-3327-881f-a995" name="Von Carstein" hidden="false"/>
@@ -2481,13 +2481,10 @@ Note that this spell can be cast only once per Magic phase, as normal, and not o
 - Can be cast to create a new unit of Zombies or Skeletons. If successfully cast, choose any point within 18&quot; and place one model on it. Then form the rest of the models around it. The new unit will consist of D6/2D6/3D6 models (add +1 per dice for Zombies), depending on the Casting Value chosen (see the table below). Skeletons will be armed with a hand weapon and shield. Zombies will be armed with a hand weapon. If less than five models are created, the spell has failed to work and no models can be placed on the table. Units created in this way must be deployed at least 1&quot; away from any enemy, but may be in any formation and facing any direction. Immediately calculate the Victory points value of the new unit (at 6 points per Zombie or 8 points per Skeleton) and record it straight away.
 - Can be cast to restore lost Wounds to an Undead model with multiple Wounds on its profile. If successfully cast, choose one Undead model (even if engaged in close combat) and then measure the range to it. If the model is in range, the spell restores 1/2/3 Wounds to the target, depending on the Casting Value chosen, (see the table below). This spell cannot be used to take the Wounds of the model above the number it started the game with.
 
-Invocation of Nehek Chart
-
-| Casting Value | Models Created | Wounds Restored |
-| --- | --- | --- |
-| 3+ | D6 Skeletons or D6+1 Zombies | 1 Wound |
-| 7+ | 2D6 Skeletons or 2D6+2 Zombies | 2 Wounds |
-| 11+ | 3D6 Skeletons or 3D6+3 Zombies | 3 Wounds |
+Casting Value	Models Created	Wounds Restored
+3+	D6 Skeletons or D6+1 Zombies	1 Wound
+7+	2D6 Skeletons or 2D6+2 Zombies	2 Wounds
+11+	3D6 Skeletons or 3D6+3 Zombies	3 Wounds
 
 2. Hand of Dust
 Casting Value: 7+
@@ -2525,7 +2522,7 @@ Remains in play. The Curse of Years can be cast on any one unengaged enemy unit 
 
 If successfully cast, the enemy swiftly starts to age. Roll a dice for each model in the affected unit. A model will suffer a wound on the roll of a 6+. No armour saves are allowed.
 
-Once it has been cast, the spell remains in play. It lasts until it is dispelled, or until the Wizard decides to end it (which he can do at any time), attempts to cast another spell or is slain. If not dispelled, at the beginning of the caster&apos;s next Magic phase, models in the affected unit suffer a wound on a 5 +. In the caster&apos;s next Magic phase they will suffer a wound on a 4+ and so on, to a minimum of 2+. No armour saves are allowed.
+Once it has been cast, the spell remains in play. It lasts until it is dispelled, or until the Wizard decides to end it (which he can do at any time), attempts to cast another spell or is slain. If not dispelled, at the beginning of the caster&apos;s next Magic phase, models in the affected unit suffer a wound on a 5+. In the caster&apos;s next Magic phase they will suffer a wound on a 4+ and so on, to a minimum of 2+. No armour saves are allowed.
 
 Characters who are part of a unit affected by this spell stop suffering from its effects if they leave the unit.</description>
             </rule>

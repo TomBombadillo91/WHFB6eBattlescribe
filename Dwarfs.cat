@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="e0a8-8253-1a27-7620" name="Engineering Rune" hidden="false">
       <rules>
@@ -2177,7 +2177,7 @@ No more than one item may carry the same combination of magic runes. You could n
       </profiles>
       <rules>
         <rule id="9e16-d9de-996e-1f44" name="Anvil of Doom" hidden="false">
-          <description>A Dwarf army may have one and only one Anvil of Doom. In gaming terms, the Anvil is treated a a piece of terrain; it cannot be moved or attacked at all (no more than you can move or attack a hill!).
+          <description>A Dwarf army may have one and only one Anvil of Doom. In gaming terms, the Anvil is treated as a piece of terrain; it cannot be moved or attacked at all (no more than you can move or attack a hill!).
 
 The Runelord and the two Anvil Guards would rather give their lives before abandoning this most ancient artefact, and must remain for all the battle on the platform. They are Unbreakable, may not declare charges and will never pursue beaten foes. The Anvil and crew have a Unit Strength of 3.
 

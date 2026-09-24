@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4ca8-2035-2f87-1bd7" name="WHFB 6th Edition" revision="32" battleScribeVersion="2.03" authorName="Tom Clare" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="4ca8-2035-2f87-1bd7" name="WHFB 6th Edition" revision="33" battleScribeVersion="2.03" authorName="Tom Clare" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="d9e7-add3-773e-ffab" name="BRB"/>
     <publication id="2c29-8521-dcc7-5337" name="Warhammer Chronicles 2003"/>
@@ -959,7 +959,7 @@ If the test is failed then all is not well. The following rules apply until the 
 2. If not in close combat, the unit momentarily forgets what it is doing. Move the unit directly forwards at half normal speed (for example, Trolls with Movement 6 would move 3&quot; forward). Any enemy troops encountered are automatically charged. If there are friends in the way, both units blunder into each other and their ranks become confused, in which case both units are pinned in place for the rest of the turn and neither may move further. This counts as compulsory movement and so occurs before other movement, but after charges have been declared (see the Movement section). Creatures within the unit that do not suffer from being stupid must also move as described - they are carried along by the movement of the rest of the unit and risk being trampled if they attempt to do otherwise.</description>
     </rule>
     <rule id="01c3-c8c6-431f-1c2b" name="Large Target" hidden="false">
-      <description>&gt; Note: This is a custom special rule that does not appear as a specified rule in the Main Rulebook. References to large targets appear frequently and this compiles the rules from To Hit Modifiers and Who Can Shoot and Line of Sight into a single instance that covers the features of large targets.
+      <description>Note: This is a custom special rule that does not appear as a specified rule in the Main Rulebook. References to large targets appear frequently and this compiles the rules from To Hit Modifiers and Who Can Shoot and Line of Sight into a single instance that covers the features of large targets.
 
 A large target is anything which in real life would be massively tall or which is especially bulky. Giants are large targets, for example, while Men, Orcs, Elves, Ogres, Cannons and the vast majority of troops are not. In every case, a creature&apos;s description in the relevant Army book will inform you whether it is a large target or not. Cavalry riders are not considered to be large targets if they are riding horses, wolves, boars or comparable beasts. Dragons, Greater Daemons and certain war machines are large targets. The following rules apply to large targets:
 
