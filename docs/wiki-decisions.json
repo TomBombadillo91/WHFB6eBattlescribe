@@ -719,7 +719,7 @@
       "used_by": "Mounted Daemonettes > Mounted Daemonettes",
       "decision": "Renamed",
       "chose": null,
-      "note": "The Mounted Daemonettes' mount is the Mount of Slaanesh, a different creature from the standalone Steed of Slaanesh. Renamed in Forces of Chaos and Dark Elves; its statline matches /unit/mount-of-slaanesh except Leadership, 8 here against 9 there."
+      "note": "The Mounted Daemonettes' mount is the Mount of Slaanesh, a different creature from the standalone Steed of Slaanesh. Renamed in Forces of Chaos and Dark Elves. Leadership 8 is correct; the wiki's 9 is wrong."
     },
     {
       "file": "Skaven.cat",
@@ -729,6 +729,24 @@
       "decision": "Leave as is",
       "chose": null,
       "note": "Confirmed against the army book: M5 WS4 BS3 S3 T4 W3 I5 A2 Ld7, points 180. The profile was named Warlock Engineer; renaming it was correct. The wiki has no Warlock Master page."
+    },
+    {
+      "file": "The Empire.cat",
+      "category": "Points cost",
+      "name": "Ghal Maraz",
+      "used_by": "Emperor Karl Franz > Weapon",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Deliberate. Karl Franz must take exactly one of Ghal Maraz at 180 or the Reikland Runefang at 100, which the Weapon group already enforces with min 1 and max 1. The wiki's 0 is the item not being separately priced."
+    },
+    {
+      "file": "Forces of Chaos.cat",
+      "category": "Unit statline",
+      "name": "Mount of Slaanesh",
+      "used_by": "Mounted Daemonettes > Mounted Daemonettes",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Leadership 8 is correct; the wiki's Mount of Slaanesh page has 9 in error."
     }
   ]
 }
