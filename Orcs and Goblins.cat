@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9534-aec7-1922-76f2" name="Orcs and Goblins" revision="19" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9534-aec7-1922-76f2" name="Orcs and Goblins" revision="20" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5b0c-07f2-6b72-7aa8" name="Orc" hidden="false"/>
     <categoryEntry id="2c47-226a-5465-6c16" name="Common Orc" hidden="false"/>
@@ -7588,8 +7588,9 @@ Thanks to the darkness and shadowyness of it all, not to mention the dimness, an
           </constraints>
           <rules>
             <rule id="5559-d608-a546-0c9d" name="Fungus Buster Brew" hidden="false">
-              <description>One Use Only.
-At the beginning of your first turn the character and the unit he is with drinks the brew. Roll a D6, on a 1 the brew has gone off and D6 Goblins become constipated. They are removed from the unit and tratead as casualties, and the brew has no further effect. On a 2+ the Goblins and the character become subject to Frenzy for the entire battle (subject to the normal rules for losing Frenzy).</description>
+              <description>Night Goblins only.
+
+At the beginning of your first turn the character and the unit he is with drinks the brew. Roll a D6. On a 1 the brew has gone off and D6 Goblins become constipated. They are removed from the unit and treated as casualties, the brew has no further effect. On a 2+ the Goblins and character become subject to Frenzy for the entire battle (subject to the usual rules for losing Frenzy). This magic item may only be used with the Night Goblin army list. Only one character in the army may have this magic item and it may only be used once per game.</description>
             </rule>
           </rules>
           <costs>
