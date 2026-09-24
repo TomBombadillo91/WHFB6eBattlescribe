@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4ca8-2035-2f87-1bd7" name="WHFB 6th Edition" revision="35" battleScribeVersion="2.03" authorName="Tom Clare" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="4ca8-2035-2f87-1bd7" name="WHFB 6th Edition" revision="36" battleScribeVersion="2.03" authorName="Tom Clare" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="d9e7-add3-773e-ffab" name="BRB"/>
     <publication id="2c29-8521-dcc7-5337" name="Warhammer Chronicles 2003"/>
@@ -1083,18 +1083,18 @@ Range 24&quot;; Strength 3.</description>
 Range 30&quot;; Strength 4.
 Rules: move-or-fire.</description>
     </rule>
-    <rule id="dad4-d7e5-09e8-3819" name="Flail" hidden="false">
+    <rule id="dad4-d7e5-09e8-3819" name="Flail" publicationId="d9e7-add3-773e-ffab" page="92" hidden="false">
       <description>Rules: +2 Strength bonus in the first turn of combat; requires two hands.</description>
     </rule>
-    <rule id="e020-fa73-42e2-ad20" name="Great Weapon" hidden="false">
+    <rule id="e020-fa73-42e2-ad20" name="Great Weapon" publicationId="d9e7-add3-773e-ffab" page="92" hidden="false">
       <description>Great weapons are especially large and heavy weapons that are wielded with both hands. As well as great swords this includes similarly heavy great hammer, great axes and the like. A blow from a great weapon can cut a foe in haIf and break apart the thickest armour.
 
 Rules: +2 Strength bonus; requires two hands; strikes last.</description>
     </rule>
-    <rule id="318c-0aad-5fdc-96c0" name="Halberd" hidden="false">
+    <rule id="318c-0aad-5fdc-96c0" name="Halberd" publicationId="d9e7-add3-773e-ffab" page="92" hidden="false">
       <description>Rules: +1 Strength bonus; requires two hands.</description>
     </rule>
-    <rule id="3eb5-f0b5-1e94-0eef" name="Hand Weapon" hidden="false">
+    <rule id="3eb5-f0b5-1e94-0eef" name="Hand Weapon" publicationId="d9e7-add3-773e-ffab" page="92" hidden="false">
       <description>Unless specifically noted otherwise, all models are assumed to be carrying a hand weapon of some kind. The term &apos;hand weapon&apos; is used to describe any weapon held in one hand and not otherwise covered by the rules. As such it includes swords. axes clubs, maces, etc.
 
 Rules: No special weapon rules apply to hand weapons but they do have the advantage that they can be used in combination with each other (see Fighting with a Weapon in Each Hand) or with a shield (see Fighting with a Hand Weapon and Shield).</description>
@@ -1113,7 +1113,7 @@ Rules: move-or-fire; armour piercing.</description>
 Range 8&quot;; Strength as user.
 Rules: thrown weapon.</description>
     </rule>
-    <rule id="7154-2d01-2d5c-c06c" name="Lance" hidden="false">
+    <rule id="7154-2d01-2d5c-c06c" name="Lance" publicationId="d9e7-add3-773e-ffab" page="92" hidden="false">
       <description>Rules: +2 Strength bonus in the first turn of combat when charging.</description>
     </rule>
     <rule id="c45c-2383-8be2-1152" name="Longbow" publicationId="d9e7-add3-773e-ffab" page="92" hidden="false">
@@ -1121,7 +1121,7 @@ Rules: thrown weapon.</description>
 
 Range 30&quot;; Strength 3.</description>
     </rule>
-    <rule id="505c-f8fe-ee87-d4c3" name="Morning Star" hidden="false">
+    <rule id="505c-f8fe-ee87-d4c3" name="Morning Star" publicationId="d9e7-add3-773e-ffab" page="92" hidden="false">
       <description>This is a single-handed weapon that consists of one or more spiked balls on a chain. Like the larger flail it resembles, a morning star is a tiring weapon to use so its advantage lies in the first round of combat.
 
 Rules: +1 Strength bonus in the first turn of combat.</description>
