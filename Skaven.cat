@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="dfb1-1789-5d68-be54" name="Skaven" revision="18" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="dfb1-1789-5d68-be54" name="Skaven" revision="19" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="4f5c-498c-bd84-7e28" name="Clan Eshin" hidden="false"/>
     <categoryEntry id="befb-92ec-0667-152b" name="Clan Pestilens" hidden="false"/>
@@ -2607,6 +2607,11 @@ Crew and chariots may also shoot any of their missile weapons in the Shooting ph
         <rule id="3275-8fce-261f-699e" name="Arch-rivals" hidden="false">
           <description>Thanquol Hates and Fears Gotrek Gurnisson and Felix Jaeger.</description>
         </rule>
+        <rule id="b380-d274-5210-f710" name="Boneripper Runs Amok!" hidden="false">
+          <description>D6	Result
+1-3	Boneripper does nothing this turn and is hit automatically if engaged in close combat. The opponent can control Boneripper in his next turn, exactly as if it was one of his models. At the beginning of the next Skaven turn, control reverts to the Skaven player.
+4-6	Boneripper does nothing this turn and is hit automatically if engaged in close combat.</description>
+        </rule>
         <rule id="7682-aa3e-5783-1674" name="Pawn" hidden="false">
           <description>Boneripper must be deployed within 6&quot; of Thanquol at the beginning of the game. After that, Boneripper is free to move independently (in reality he is telepathically controlled by Thanquol) and will count as a separate unit of a single Rat Ogre for the rest of the game (he is worth 75 Victory points). Boneripper can never join units. If Thanquol is killed or flees off the table, Boneripper switches off and is immediately removed from the table, counting as a casualty. At the beginning of each of his turns in which the Skaven player wants to do anything with Boneripper (move, shoot, fight in close combat) the player must roll a D6 to activate the automaton. On a roll of 2-6 everything is well and Boneripper acts as normal. On the roll of a 1, Boneripper suffers a malfunction - roll another dice and refer to the Malfunction chart to find out what&apos;s gone wrong.</description>
         </rule>
@@ -2684,16 +2689,7 @@ previously lost during the game.</description>
           </constraints>
           <rules>
             <rule id="b44d-34fb-cc20-6096" name="Warpfire Thrower" hidden="false">
-              <description>Place the flame template with its narrow end touching the Warpfire Thrower and the large part aimed at the target. The target must be in line of sight to shoot at it. Roll the Artillery dice and move the template the amount of inches shown by the dice towards the target to see where the warpflame lands. The template can overshoot a target - the team squirts the warpflame in too high an arc. Determine which models are hit as per a breath weapon. A unit suffering any casualties must take a Panic test. If you roll a Misfire, the weapon doesn&apos;t fire, roll a D6 on the misfire chart below.
-
-Note that this model can stand &amp; shoot - fire the weapon as soon as the charge is declared, before the enemy moves.
-
-Warpfire Thrower Misfire Chart Chart
-
-D6	Result
-1-2	Kaboom! Place the iarge circular template centred on the barrel and resolve the hit as normal. After this, the team is automatically removed.
-3-4	The barrel catches fire! The team runs desperately 2D6&quot; in a random direction (the model with the barrel in front), stopping if it comes in contact with anything, then explodes. Place the small circular template over the barrel and resolve the hit as normal. After this, the team is automatically removed.
-5-6	The weapon&apos;s nozzle blocks and squirts burning fuel over its crew. Work out the effect as if the team had been hit by their own weapon.</description>
+              <description>A small version of the dreaded warpfire thrower has been built in place of one of Boneripper&apos;s arms. This is treated as a breath weapon in all respects. When firing, place the flame template with its narrow end in contact with the weapon&apos;s muzzle. Models hit by the template suffer a Strength 4 hit. Units suffering any casualties must take a Panic test.</description>
             </rule>
           </rules>
           <costs>

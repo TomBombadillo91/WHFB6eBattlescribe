@@ -1061,7 +1061,7 @@
       "used_by": "",
       "decision": "Leave as is",
       "chose": null,
-      "note": "Statline verified against /unit/boneripper - M5 WS3 BS- S5 T5 W3 I2 A3 Ld10 matches exactly. The wiki page carries no rules text, so the armour save and talons line is still unconfirmed."
+      "note": "Verified against the Thanquol and Boneripper pages: 560 points for the pair, and both statlines match. Two faults found and fixed - Boneripper carried the weapon team's warpfire thrower rules instead of his own arm-mounted breath weapon, and the Boneripper Runs Amok chart his Pawn rule refers to was absent."
     },
     {
       "file": "Skaven.cat",
