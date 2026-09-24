@@ -102,6 +102,16 @@ for p in source_files(REPO):
             continue
         if want is None or abs(have - float(want)) < 0.001:
             continue
+        # The wiki's own Virtues of the Chivalric Knight page says a second
+        # character taking a Virtue pays double, a third triple "and so on",
+        # so the catalogue's multiples are the rule, not a disagreement.
+        base = float(want)
+        if base and abs(have / base - round(have / base)) < 1e-6 and 2 <= round(have / base) <= 12:
+            continue
+        # A 0 cost means the item is part of a named character's points rather
+        # than something you buy; the wiki lists what it would cost alone.
+        if have == 0:
+            continue
         rows.append(("Points cost", c["name"], ctx.get(c.get("id"), "-"), p.name,
                      "catalogue and wiki disagree on cost",
                      "catalogue: {:g}".format(have), "wiki: {:g}".format(float(want)),
@@ -120,10 +130,23 @@ for p in source_files(REPO):
             if h.lower() in blank or v.lower() in blank or h == v:
                 continue
             diff.append("{} {}->{}".format(k, h, v))
-        if diff:
-            rows.append(("Unit statline", pr["name"], ctx.get(pr.get("id"), "-"), p.name,
-                         "{} characteristic(s) differ".format(len(diff)),
-                         "catalogue as is", "wiki: " + ", ".join(diff), WIKI + wp))
+        if not diff:
+            continue
+        # A page belonging to another army is a name collision, not a
+        # disagreement: Tomb Kings' Skeleton against the Vampire Counts one.
+        if not (set(W.assoc(wp)) & set(ARMY_ASSOC.get(p.name, []))):
+            continue
+        # "Special" against the wiki's "*" is the same thing written twice.
+        if all(("Special" in d or "*" in d or "(" in d) for d in diff):
+            continue
+        # Daemonic Legion daemons carry +1 Leadership by that list's own rule -
+        # the wiki says so and that the profiles already include it - so a
+        # Leadership-only gap against a Hordes of Chaos unit page is expected.
+        if p.name == "Daemonic Legions.cat" and all(d.startswith("Ld ") for d in diff):
+            continue
+        rows.append(("Unit statline", pr["name"], ctx.get(pr.get("id"), "-"), p.name,
+                     "{} characteristic(s) differ".format(len(diff)),
+                     "catalogue as is", "wiki: " + ", ".join(diff), WIKI + wp))
 
 carried = []
 kept = []

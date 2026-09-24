@@ -525,6 +525,28 @@ def analyse(path, wiki):
                     row.update(c)
                     row.pop("note", None)
                     break
+
+        # Same idea for a name that matched nothing: if the text already IS a
+        # candidate page's text, the content has confirmed what the name could
+        # not. This is not applying a fuzzy match -- it is recognising one that
+        # was already settled. It clears the cases where the two sides simply
+        # spell the name differently, "Fusilade" against "Fusillade".
+        if c["bucket"] == "E" and (r["desc"] or "").strip():
+            for cpath, _key, _score in c.get("candidates", []):
+                try:
+                    cand, _ = wiki_rules_text(wiki.text(cpath))
+                except (KeyError, OSError):
+                    continue
+                if cand.strip() and norm_ws(cand) == norm_ws(r["desc"]):
+                    c = {"bucket": "A",
+                         "hits": [{"path": cpath, "name": wiki.pages[cpath]["name"],
+                                   "kind": wiki.pages[cpath].get("kind", ""),
+                                   "match": "text"}],
+                         "via": None}
+                    row.update(c)
+                    row.pop("candidates", None)
+                    break
+
         if c["bucket"] in ("A", "B") and c["hits"]:
             wpath = c["hits"][0]["path"]
             try:
