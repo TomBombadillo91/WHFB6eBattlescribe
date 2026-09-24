@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="27" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="28" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="e8a8-d83e-c60c-3ad0" name="Hordes of Chaos"/>
     <publication id="dc3a-2511-d23a-deb3" name="Beasts of Chaos"/>
@@ -9853,7 +9853,33 @@ The Daemon has Magic Resistance (2).</description>
           </modifiers>
           <rules>
             <rule id="a370-df22-5342-2b4e" name="Lore of Tzeentch" hidden="false">
-              <description>The Lore of Tzeentch Lore</description>
+              <description>0. Red Fire
+Casting Value: 5+
+This is a magic missile, range 30&quot;, causing D6 hits with a Strength of D6.
+
+1. Orange Fire
+Casting Value: 6+
+Remains in play. The flames that spring up around the Sorcerer contain scenes from the future, warning him of what is to come. The Sorcerer can re-roll all failed rolls to hit, to wound and all saves (Armour, Ward, etc). Note that the rolls of the caster&apos;s mount are not affected by the spell. Once it is cast, Orange Fire remains in play until the Sorcerer chooses to end it (which he can do at any time), it is dispelled, he attempts to cast another spell, or he is slain.
+
+2. Yellow Fire
+Casting Value: 6+
+Remains in play. The Sorcerer is surrounded by a shield of fire that blocks enemy attacks. The Sorcerer, his mount and all models in any unit he joins have a 5+ Ward save. This replaces their Daemonic aura. Once it is cast, Yellow Fire remains in play until the Sorcerer chooses to end it (which he can do at any time), it is dispelled, he attempts to cast another spell, or he is slain.
+
+3. Green Fire
+Casting Value: 9+
+Target one unengaged enemy unit within 24&quot;. A subtle whisper in their minds suddenly persuades many warriors to change their allegiance and attack their comrades. All the models in the unit immediately make one attack against the unit itself. Roll to hit, to wound and take saves as normal (counted as an ongoing combat, so no charging bonuses, weapon rules only applicable in the first round of combat, etc). Characters who have joined the unit are not affected or attacked because of their strong will. All mounts are unaffected. After this moment of folly, the troopers revert to normal and the spell has no further effects, but if the unit suffers enough casualties, it must take a Panic test. Units Immune to Psychology or fleeing are not affected by this spell.
+
+4. Blue Fire
+Casting Value: 9+
+This is a magic missile with range 12&quot;, causing 2D6 hits with a Strength of D6+1.
+
+5. Indigo Fire
+Casting Value: 11+
+The foe is enveloped by mutating flames. Target one unengaged enemy unit within 18&quot;. All models in the enemy unit suffer a Strength 2 hit. All models killed by the spell turn into a Horror. New Horror models are placed in close combat to the front of the enemy, in exactly the same formation as their former comrades, and the two units are lined up centre to centre. The newly created unit of Horrors counts as charging in the ensuing Close Combat phase. This newly created unit does not award Victory points. If you have insufficient Horror models, then excess casualties are not transformed and are simply removed.
+
+6. Violet Fire
+Casting Value: 12+
+Target one enemy character anywhere within 6&quot; of the caster, even inside a unit or if mounted on a monstrous steed. The victim must pass a Leadership test or disappear into the Realm of Chaos to be instructed by his new master. The model counts as killed for all intents and purposes.</description>
             </rule>
           </rules>
           <costs>
@@ -9870,7 +9896,29 @@ The Daemon has Magic Resistance (2).</description>
           </modifiers>
           <rules>
             <rule id="1d2e-dd6d-3336-6bd2" name="Lore of Nurgle" hidden="false">
-              <description>The Lore of Nurgle Lore</description>
+              <description>1. Magnificent Buboes
+Casting Value: 6+
+The Sorcerer bestows the gift of pus-filled buboes upon one of his enemies. Pick a single enemy model within line of sight and 18&quot;. This may be a character in a unit, a war engine crew member, a character&apos;s monstrous mount, etc. The model must pass a Toughness test or suffer one wound, with no Armour saves allowed.
+
+2. Favoured Poxes
+Casting Value: 7+
+Remains in play. Calling upon Nurgle to bless his enemies, the Sorcerer inflicts wave after wave of debilitating illnesses. Pick an enemy unit anywhere within 18&quot;, even one in close combat. The unit reduces its WS, BS, S and Ld by -1 (to a minimum of 1) whilst the spell lasts. Once it is cast, Poxes remains in play until the Sorcerer chooses to end it (which he can do at any time), it is dispelled, he attempts to cast another spell, or is slain.
+
+3. Effulgent Boils
+Casting Value: 8+
+The foes of Nurgle erupt with glistening boils, which split the skin and cause immense discomfort. Target one enemv unit within line of sight and 24&quot; of the Sorcerer. The target suffers D6 Strength 4 hits, with no Armour saves allowed.
+
+4. Glistening Scabs
+Casting Value: 9+
+The target&apos;s skin erupts with painful lesions and weeping sores. Pick a single character within line of sight and 18&quot; (even if within a unit). The model reduces its Toughness by -1 for the remainder of the game (to a minimum of 1).
+
+5. Glorious Afflictions
+Casting Value: 10+
+Remains in play. The enemy is infected with an atrophying canker that twists their limbs and withers their muscles. Pick one enemy unit on the battlefield that is not in close combat. Whilst the spell remains, the unit halves its Movement value (rounding up). If the unit is mounted, then the Movement value of the mount is halved. Flying creatures affected by this spell may only use ground movement but do not halve their Movement. Afflictions remains in play until the Sorcerer chooses to end it (which he can do at any time), it is dispelled, he attempts to cast another spell, or he is slain.
+
+6. Sumptuous Pestilence
+Casting Value: 11+
+The enemy are gripped by a horrific disease that causes their eyes to bleed, their tongues to swell and their internal organs to bloat. Cast this spell on a single enemy unit within 24&quot; and in line of sight. Although Pestilence is not a remains in play spell as such, the target unit is affected for the rest of the battle unless Pestilence is dispelled. At the start of each Magic phase (both the Chaos player&apos;s and his opponent&apos;s), the affected unit suffers D6 Strength 3 hits, with no Armour saves allowed, distributed as shooting hits.</description>
             </rule>
           </rules>
           <costs>
@@ -9887,7 +9935,29 @@ The Daemon has Magic Resistance (2).</description>
           </modifiers>
           <rules>
             <rule id="0388-dd54-3f7d-85e9" name="Lore of Slaanesh" hidden="false">
-              <description>The Lore of Slaanesh Lore</description>
+              <description>1. Blissful Throes
+Casting Value: 6+
+A long whip of pure Chaos energy lashes out at the enemy with a delightful crack, leaving its victims wracked with pain, to the envy of the caster. This is a magic missile with 12&quot; range, inflicting D6 Strength 6 hits.
+
+2. Luxurious Torment
+Casting Value: 7+
+The targets are engulfed by a wave of hysteria and begin crying out and weeping, clawing at themselves and turning on their friends with their weapons. Cast on a single unit (friend or foe) within 24&quot;, which may be in close combat. The unit becomes subject to frenzy until defeated in combat (even if normally Immune to Psychology). In addition, while the unit is frenzied, it suffers D6 Strength 3 hits, distributed like shooting hits at the start of each subsequent turn (both players&apos;).
+
+3. Titillating Delusions
+Casting Value: 8+
+Remains in play. Slaanesh creates an illusion of the enemy&apos;s deepest desire, and they find it impossible to resist the urge to capture it. This may be cast on an unengaged enemy unit within 24&quot;. Mark a point on the tabletop and within the unit&apos;s line of sight for the illusion to appear. In the Remaining Moves part of their Movement phase the affected unit must move as directly and quickly as possible towards this point, but it will charge and fight any enemy unit that lies along this line of advance. The spell remains in play until the caster decides to end it (which he can do at any time), it is dispelled, the Sorcerer attempts to cast another spell, the caster is killed or the unit reaches the illusion marker.
+
+4. Delectable Torture
+Casting Value: 9+
+May be cast on an unengaged enemy character within 24&quot;. He will immediately attack the unit he is with (no combat resolution, but a Panic test may be caused if enough casualties are scored). If the victim is not inside a unit, he will immediately use any missile weapon he has available against a single visible friendly unit chosen by the Chaos player. Mounts are not affected by this spell.
+
+5. Enrapturing Spasms
+Casting Value: 10+
+Target an enemy unit within 18&quot;, even if engaged in combat. The models in the unit cannot voluntarily move in the Movement phase (though they can flee as normal) and cannot shoot, attack in close combat or cast spells (nor maintain Remains in Play spells, which will be immediately dispelled). They are hit automatically in close combat. The target unit is also Immune to Psychology as long as the spell is in play, but they take Break tests as normal and will flee if forced to. This spell has no effect on enemies already immune to psychology. The effects last until the start of the caster&apos;s next Magic phase.
+
+6. Delicious Excruciation
+Casting Value: 11+
+Remains in play. Target a friendly or enemy unit within 24&quot;, even if engaged in combat. The unit is Unbreakable for as long as the spell is in effect. This replaces the Instability rules for Daemons. The spell remains in play until the caster decides to end it (which he can do at any time), it is dispelled, the Sorcerer attempts to cast another spell or the caster is killed. If a unit that is fleeing, it automatically and immediately rallies.</description>
             </rule>
           </rules>
           <costs>

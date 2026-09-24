@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7010-abfa-dde5-6873" name="Daemonic Legions" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7010-abfa-dde5-6873" name="Daemonic Legions" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="37ff-905c-0f6b-9742" name="Mark of Chaos Undivided" hidden="false"/>
     <categoryEntry id="452e-f479-2264-b39d" name="Mark of Tzeentch" hidden="false"/>
@@ -2974,7 +2974,29 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
           </constraints>
           <rules>
             <rule id="4bb3-f839-5099-59e6" name="Lore of Slaanesh" hidden="false">
-              <description>The Lore of Slaanesh Lore</description>
+              <description>1. Blissful Throes
+Casting Value: 6+
+A long whip of pure Chaos energy lashes out at the enemy with a delightful crack, leaving its victims wracked with pain, to the envy of the caster. This is a magic missile with 12&quot; range, inflicting D6 Strength 6 hits.
+
+2. Luxurious Torment
+Casting Value: 7+
+The targets are engulfed by a wave of hysteria and begin crying out and weeping, clawing at themselves and turning on their friends with their weapons. Cast on a single unit (friend or foe) within 24&quot;, which may be in close combat. The unit becomes subject to frenzy until defeated in combat (even if normally Immune to Psychology). In addition, while the unit is frenzied, it suffers D6 Strength 3 hits, distributed like shooting hits at the start of each subsequent turn (both players&apos;).
+
+3. Titillating Delusions
+Casting Value: 8+
+Remains in play. Slaanesh creates an illusion of the enemy&apos;s deepest desire, and they find it impossible to resist the urge to capture it. This may be cast on an unengaged enemy unit within 24&quot;. Mark a point on the tabletop and within the unit&apos;s line of sight for the illusion to appear. In the Remaining Moves part of their Movement phase the affected unit must move as directly and quickly as possible towards this point, but it will charge and fight any enemy unit that lies along this line of advance. The spell remains in play until the caster decides to end it (which he can do at any time), it is dispelled, the Sorcerer attempts to cast another spell, the caster is killed or the unit reaches the illusion marker.
+
+4. Delectable Torture
+Casting Value: 9+
+May be cast on an unengaged enemy character within 24&quot;. He will immediately attack the unit he is with (no combat resolution, but a Panic test may be caused if enough casualties are scored). If the victim is not inside a unit, he will immediately use any missile weapon he has available against a single visible friendly unit chosen by the Chaos player. Mounts are not affected by this spell.
+
+5. Enrapturing Spasms
+Casting Value: 10+
+Target an enemy unit within 18&quot;, even if engaged in combat. The models in the unit cannot voluntarily move in the Movement phase (though they can flee as normal) and cannot shoot, attack in close combat or cast spells (nor maintain Remains in Play spells, which will be immediately dispelled). They are hit automatically in close combat. The target unit is also Immune to Psychology as long as the spell is in play, but they take Break tests as normal and will flee if forced to. This spell has no effect on enemies already immune to psychology. The effects last until the start of the caster&apos;s next Magic phase.
+
+6. Delicious Excruciation
+Casting Value: 11+
+Remains in play. Target a friendly or enemy unit within 24&quot;, even if engaged in combat. The unit is Unbreakable for as long as the spell is in effect. This replaces the Instability rules for Daemons. The spell remains in play until the caster decides to end it (which he can do at any time), it is dispelled, the Sorcerer attempts to cast another spell or the caster is killed. If a unit that is fleeing, it automatically and immediately rallies.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -2999,7 +3021,37 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
             <rule id="9c11-f330-8214-71c7" name="Lore of Shadow" hidden="false">
               <description>In the land of the Empire, Wizards of the Shadow call themselves Grey Wizards, as if to distance themselves from the sinister reputation of their sorcery. They are more often called Trickster Wizards by the common folk, who mistrust and fear them. Shadow Lore is the magic of deceit and illusion, of trickery, concealment and darkness.
 
-The Lore of Shadow Lore</description>
+1. Steed of Shadows
+Casting Value: 4+
+This spell may be cast upon the Wizard himself or any single friendly independent character model within 12&quot; of him - the spell can only be cast on a model with a Unit Strength of 1 (it won&apos;t work on a mounted model or a model riding in a chariot, for example).
+
+If successfully cast, the model can make a normal flight move of up to 20&quot;. The model can fly out of close combat if desired, but cannot fly into close combat unless positioned so that it could do so by making a normal aerial charge (for example, it must not be engaged in combat already and must be able to see the target).
+
+2. Creeping Death
+Casting Value: 6+
+The Creeping Death is a magic missile with a range of up to 24&quot;. If successfully cast, the Creeping Death hits its targets and causes D6 Strength 3 hits. No armour saves are allowed against wounds caused by the Creeping Death.
+
+3. Pelt of Midnight
+Casting Value: 7+
+Remains in play. This spell can be cast on a friendly unit that is within 24&quot; of the caster. If successfully cast, all subsequent shooting directed at the unit requires a 6 to hit. All weapons which use a Scatter dice to hit will scatter automatically when targeted at the unit.
+
+Once it is cast, the Pelt of Midnight continues to work until it is dispelled, or until the Wizard chooses to end it (which he can do at any time), attempts to cast another spell or is slain.
+
+4. Shades of Death
+Casting Value: 8+
+Remains in play. This spell affects a single friendly unit within 6&quot; of the Wizard which is not engaged in close combat. The unit now causes fear.
+
+Once it is cast, the Shades of Death continues to work until it is dispelled, or until the Wizard chooses to end it (which he can do at any time), attempts to case another spell or is slain.
+
+5. Unseen Lurker
+Casting Value: 10+
+This spell can be cast on a friendly unit that is within 24&quot;, and which is not already engaged in close combat. The unit can immediately make a move of up to 8&quot; in the same way as a normal move made in the Movement phase. The unit can charge an enemy within 8&quot; if opportunity permits, and the same rules apply as for a normal charge made during the Movement phase. The enemy can only respond by holding their ground - the Unseen Lurker conceals the charger&apos;s intent until it is too late to respond in any other way.
+
+6. Pit of Shades
+Casting Value: 11+
+The Pit of Shades can be cast on any one unengaged enemy unit anywhere on the table. If successfully cast, the ground falls away beneath the unit&apos;s feet toppling them to their doom.
+
+Take the 3&quot; template and place it over a single target enemy unit. All models in the target unit completely under the template are automatically hit and those touched by it are hit on a 4+ on a D6. Models hit suffer 1 Strength 3 hit. In addition, the player whose unit is affected rolls a D6: on a score of 1-3 the unit climbs out of the pit (this counts as moving for the purposes of shooting, etc) and moves at half speed next turn, on a score of 4-6 the unit is unaffected. The pit closes up after the unit has clambered out of it.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -3024,7 +3076,43 @@ The Lore of Shadow Lore</description>
             <rule id="f3e3-658c-91bd-238b" name="Lore of Death" hidden="false">
               <description>Though the Lore of Death, or Amethyst magic, is the most feared of sorceries, not all practitioners are evil or ill-intended. It is the magic of the bygone ages and draws its power deeply from the realm of the dead.
 
-The Lore of Death Lore</description>
+1. Dark Hand of Death
+Casting Value: 5+
+This is a magic missile with a range of up to 24&quot;. If successfully cast, the spell hits its target and causes D6 Strength 4 hits.
+
+2. Death Dealer
+Casting Value: 5+
+This spell can be cast on a friendly unit that is engaged in close combat and which is within 24&quot; of the caster. If successfully cast then models which fall casualty can fight back, stabbing at their enemy with their last strength.
+
+The spell lasts for the duration of that Turn&apos;s Close Combat phase. Fight the combat as normal. Any model in the affected unit which falls casualty during the combat may make one further attack with its basic Strength before it is removed - this is regardless of whether the model has already fought or not. In the case of mounted models, models riding chariots or monsters and so forth, only riders may strike back.
+
+3. Steal Soul
+Casting Value: 8+
+This spell can be cast on an enemy model within 12&quot;. If successfully cast, the victim&apos;s soul is torn and rendered by dark forces and sacrificed to the caster himself.
+
+The enemy model loses 1 Wound. No armour save is allowed. In addition, the casting Wizard gains 1 Wound for the duration of the battle. This spell can be used to increase the caster&apos;s Wounds characteristic beyond its normal maximum level, and can be used several times to increase the caster&apos;s Wounds even further. At the end of the battle, any stolen Wounds are lost - if the Wizard has no Wounds left once stolen Wounds are removed, he is slain.
+
+The spell cannot affect Undead, Chaos Daemons, and similar units which don&apos;t have a soul!
+
+4. Wind of Death
+Casting Value: 8+
+This is a magic missile with range of up to 24&quot;. If successfully cast, the spell hits its target and causes 2D6 Strength 4 hits.
+
+5. Drain Life
+Casting Value: 10+
+If cast successfully each enemy unit within 12&quot; of the Wizard is affected.
+
+Each unit takes D6 Strength 3 hits. No armour saves are allowed against a Drain Life spell. These hits are distributed exactly like hits from shooting.
+
+The spell cannot affect Undead, Chaos Daemons, or buildings and similar models, as they are not truly alive.
+
+6. Doom and Darkness!
+Casting Value: 12+
+Lasts one turn+. This spell can be cast upon an enemy unit which is within 24&quot; of and visible to the caster. If successfully cast, the unit is enshrouded by a black cloud of despair.
+
+For the duration of the turn the affected unit will suffer a -3 penalty to any Leadership test (including Break tests) it is required to take. At the start of its following turn, the unit must take and pass a Leadership test (at -3), otherwise it remains affected for the duration of that turn as well. At the end of the affected unit&apos;s following turn, the spell ceases to have any effect.
+
+The spell cannot affect Undead targets, Chaos Daemons or Unbreakable units. Units, immune to psychology are not affected either.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -3041,7 +3129,29 @@ The Lore of Death Lore</description>
           </constraints>
           <rules>
             <rule id="86a4-23cd-8605-1bfa" name="Lore of Nurgle" hidden="false">
-              <description>The Lore of Nurgle Lore</description>
+              <description>1. Magnificent Buboes
+Casting Value: 6+
+The Sorcerer bestows the gift of pus-filled buboes upon one of his enemies. Pick a single enemy model within line of sight and 18&quot;. This may be a character in a unit, a war engine crew member, a character&apos;s monstrous mount, etc. The model must pass a Toughness test or suffer one wound, with no Armour saves allowed.
+
+2. Favoured Poxes
+Casting Value: 7+
+Remains in play. Calling upon Nurgle to bless his enemies, the Sorcerer inflicts wave after wave of debilitating illnesses. Pick an enemy unit anywhere within 18&quot;, even one in close combat. The unit reduces its WS, BS, S and Ld by -1 (to a minimum of 1) whilst the spell lasts. Once it is cast, Poxes remains in play until the Sorcerer chooses to end it (which he can do at any time), it is dispelled, he attempts to cast another spell, or is slain.
+
+3. Effulgent Boils
+Casting Value: 8+
+The foes of Nurgle erupt with glistening boils, which split the skin and cause immense discomfort. Target one enemv unit within line of sight and 24&quot; of the Sorcerer. The target suffers D6 Strength 4 hits, with no Armour saves allowed.
+
+4. Glistening Scabs
+Casting Value: 9+
+The target&apos;s skin erupts with painful lesions and weeping sores. Pick a single character within line of sight and 18&quot; (even if within a unit). The model reduces its Toughness by -1 for the remainder of the game (to a minimum of 1).
+
+5. Glorious Afflictions
+Casting Value: 10+
+Remains in play. The enemy is infected with an atrophying canker that twists their limbs and withers their muscles. Pick one enemy unit on the battlefield that is not in close combat. Whilst the spell remains, the unit halves its Movement value (rounding up). If the unit is mounted, then the Movement value of the mount is halved. Flying creatures affected by this spell may only use ground movement but do not halve their Movement. Afflictions remains in play until the Sorcerer chooses to end it (which he can do at any time), it is dispelled, he attempts to cast another spell, or he is slain.
+
+6. Sumptuous Pestilence
+Casting Value: 11+
+The enemy are gripped by a horrific disease that causes their eyes to bleed, their tongues to swell and their internal organs to bloat. Cast this spell on a single enemy unit within 24&quot; and in line of sight. Although Pestilence is not a remains in play spell as such, the target unit is affected for the rest of the battle unless Pestilence is dispelled. At the start of each Magic phase (both the Chaos player&apos;s and his opponent&apos;s), the affected unit suffers D6 Strength 3 hits, with no Armour saves allowed, distributed as shooting hits.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -3066,7 +3176,39 @@ The Lore of Death Lore</description>
             <rule id="7061-f7d2-ed8d-b18e" name="Lore of Fire" hidden="false">
               <description>All of these spells are considered to be Fire attacks and cause double damage against flammable creatures.
 
-The Lore of Fire Lore</description>
+1. Fire Ball
+Casting Value: 5+
+The fire ball is a magic missile with a range of up to 24&quot;. If successfully cast, the Fire Ball hits its target and causes D6 Strength 4 hits.
+
+2. Flaming Sword of Rhuin
+Casting Value: 6+
+Remains in play. This spell can be cast by the Wizard on himself. It can be cast even if the Wizard is in close combat. Once it has been cast, the spell lasts until the Wizard attempts another spell.
+
+A magical flaming blade materializes in the Wizard&apos;s grasp. This counts as a magic weapon. The Wizard gains +1 additional Attack to his profile for the duration of the spell. All the Wizard&apos;s attacks will hit on a basic score of 2+ and he adds +3 to his Strength whilst using the Sword of Rhuin. Whilst he has the Flaming Sword, the Wizard must use it as his sole weapon, he cannot combine it with other weapons.
+
+3. Fiery Blast
+Casting Value: 8+
+The Fiery Blast is an especially dangerous magic missile - it is an upmarket version of the Fire Ball, being both more powerful and harder to cast. The Fiery Blast has a range of up to 24&quot;. If successfully cast, the Fiery Blast hits its target and causes 2D6 Strength 4 hits.
+
+4. Burning Head
+Casting Value: 9+
+A phantasmic flaming head shoots 18&quot; from the caster in a straight direct path, laughing insanely as it burns a trail of destruction in its way. Each model that lies in the direct path of the Burning Head suffers a Strength 4 hit.
+
+5. Conflagration of Doom
+Casting Value: 11+
+This can be cast on any enemy unit anywhere on the table. If successfully cast, the target bursts into flames taking D6 Strength 4 hits. The target can take further hits depending on how long the fire burns. To represent this both players roll a D6. If the casting player&apos;s dice score is lower than or equal to his opponent&apos;s, the flames go out and nothing else happens, but if he rolls higher, add the dice roll to the number of hits caused. Both players then roll a further D6 and repeat the process until the casting player rolls equal to or less than his opponent. Once the casting player fails to roll higher, the fire goes out and no further hits are caused.
+
+6. Wall of Fire
+Casting Value: 12+
+Remains in play. This spell has a range of 24&quot; and can be cast on an enemy unit visible to the caster which has no models (friend or foe) within 1&quot; of its front rank (walls. hedges and other scenic features don&apos;t matter). The spell cannot be cast on units with a 360° line of sight.
+
+A searing wall of flame suddenly rises in front of the unit. To represent this take some cotton wool or paper and place this in a line up to 1&quot; thick in front of the unit.
+
+The unit suffers 1 automatic hit for each model (including characters) in its front rank. Each hit is resolved with a Strength of 4.
+
+Once it is cast, the Wall of Fire remains where it is until it is dispelled, or until the Wizard chooses to end it (which he can do at any time), attempts to cast another spell or is slain. No further hits are caused by the Wall of Fire unless a unit tries to move through it, in which case each model that moves through the Wall of Fire suffers a further Strength 4 hit.
+
+The Wall of Fire does not block the line of sight of archers and chargers, nor does it reduce a unit&apos;s Movement rate.</description>
             </rule>
           </rules>
         </selectionEntry>

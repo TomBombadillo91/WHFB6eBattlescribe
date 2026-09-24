@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b151-7d1c-4a96-e0d0" name="Dark Elves" revision="20" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b151-7d1c-4a96-e0d0" name="Dark Elves" revision="21" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7b32-9394-e778-467c" name="Poison" hidden="false"/>
     <categoryEntry id="16df-2ebd-e4f7-9984" name="Artifacts and Skills" hidden="false"/>
@@ -5609,7 +5609,29 @@ Any one model ( chosen by a Dark Elf player) in base contact will lose one Attac
           </modifiers>
           <rules>
             <rule id="0a26-0452-6f14-f263" name="Lore of Slaanesh" hidden="false">
-              <description>The Lore of Slaanesh Lore</description>
+              <description>1. Blissful Throes
+Casting Value: 6+
+A long whip of pure Chaos energy lashes out at the enemy with a delightful crack, leaving its victims wracked with pain, to the envy of the caster. This is a magic missile with 12&quot; range, inflicting D6 Strength 6 hits.
+
+2. Luxurious Torment
+Casting Value: 7+
+The targets are engulfed by a wave of hysteria and begin crying out and weeping, clawing at themselves and turning on their friends with their weapons. Cast on a single unit (friend or foe) within 24&quot;, which may be in close combat. The unit becomes subject to frenzy until defeated in combat (even if normally Immune to Psychology). In addition, while the unit is frenzied, it suffers D6 Strength 3 hits, distributed like shooting hits at the start of each subsequent turn (both players&apos;).
+
+3. Titillating Delusions
+Casting Value: 8+
+Remains in play. Slaanesh creates an illusion of the enemy&apos;s deepest desire, and they find it impossible to resist the urge to capture it. This may be cast on an unengaged enemy unit within 24&quot;. Mark a point on the tabletop and within the unit&apos;s line of sight for the illusion to appear. In the Remaining Moves part of their Movement phase the affected unit must move as directly and quickly as possible towards this point, but it will charge and fight any enemy unit that lies along this line of advance. The spell remains in play until the caster decides to end it (which he can do at any time), it is dispelled, the Sorcerer attempts to cast another spell, the caster is killed or the unit reaches the illusion marker.
+
+4. Delectable Torture
+Casting Value: 9+
+May be cast on an unengaged enemy character within 24&quot;. He will immediately attack the unit he is with (no combat resolution, but a Panic test may be caused if enough casualties are scored). If the victim is not inside a unit, he will immediately use any missile weapon he has available against a single visible friendly unit chosen by the Chaos player. Mounts are not affected by this spell.
+
+5. Enrapturing Spasms
+Casting Value: 10+
+Target an enemy unit within 18&quot;, even if engaged in combat. The models in the unit cannot voluntarily move in the Movement phase (though they can flee as normal) and cannot shoot, attack in close combat or cast spells (nor maintain Remains in Play spells, which will be immediately dispelled). They are hit automatically in close combat. The target unit is also Immune to Psychology as long as the spell is in play, but they take Break tests as normal and will flee if forced to. This spell has no effect on enemies already immune to psychology. The effects last until the start of the caster&apos;s next Magic phase.
+
+6. Delicious Excruciation
+Casting Value: 11+
+Remains in play. Target a friendly or enemy unit within 24&quot;, even if engaged in combat. The unit is Unbreakable for as long as the spell is in effect. This replaces the Instability rules for Daemons. The spell remains in play until the caster decides to end it (which he can do at any time), it is dispelled, the Sorcerer attempts to cast another spell or the caster is killed. If a unit that is fleeing, it automatically and immediately rallies.</description>
             </rule>
           </rules>
           <costs>

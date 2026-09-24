@@ -4,9 +4,7 @@
     <categoryEntry id="e0a8-8253-1a27-7620" name="Engineering Rune" hidden="false">
       <rules>
         <rule id="6347-45b4-b61f-1746" name="Engineering Rune" hidden="false">
-          <description>Dwarf Cannons, Stone Throwers and Bolt Throwers may be inscribed with up to three of the Engineering Runes described below. The newfangled (to the Dwarfs) Organ Gun, Flame Cannon and Gyrocopter may not have Engineering runes. Note that a shot from a war machine inscribed with Engineering runes counts as a magical attack.
-
-Engineering Runes Type</description>
+          <description>Dwarf Cannons, Stone Throwers and Bolt Throwers may be inscribed with up to three of the Engineering Runes described below. The newfangled (to the Dwarfs) Organ Gun, Flame Cannon and Gyrocopter may not have Engineering runes. Note that a shot from a war machine inscribed with Engineering runes counts as a magical attack.</description>
         </rule>
       </rules>
     </categoryEntry>
