@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4ca8-2035-2f87-1bd7" name="WHFB 6th Edition" revision="31" battleScribeVersion="2.03" authorName="Tom Clare" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="4ca8-2035-2f87-1bd7" name="WHFB 6th Edition" revision="32" battleScribeVersion="2.03" authorName="Tom Clare" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="d9e7-add3-773e-ffab" name="BRB"/>
     <publication id="2c29-8521-dcc7-5337" name="Warhammer Chronicles 2003"/>
@@ -694,7 +694,21 @@ Note that a spell cast with a Power Stone can never be cast with Irresistible Fo
 
 Alternatively, Scouts can be placed on the controlling player&apos;s deployment zone like any other troops, after deployment of both main armies is finished.</description>
     </rule>
-    <rule id="4c3d-1a6a-3977-0b53" name="Skirmishers" hidden="false"/>
+    <rule id="4c3d-1a6a-3977-0b53" name="Skirmishers" hidden="false">
+      <description>Formation. Skirmishers move as a loose group rather than in ranks and files, with models up to 1&quot; apart. If casualties split the group, the player must reform it in his next Movement phase.
+
+Movement. Skirmishers move up to double their Movement characteristic at all times, even within 8&quot; of the enemy. This doubled rate is not doubled again to charge or march. Their standard Movement is still used for flee and pursuit distances.
+
+Manoeuvring. Skirmishing models move like individual characters. The unit never turns or wheels; each model moves in any direction without penalty, and must end within 1&quot; of the group.
+
+Terrain. Skirmishers suffer no movement penalty for crossing obstacles or moving through difficult or very difficult ground.
+
+Shooting. Skirmishers may shoot in any direction. They do not block the line of sight of their own unit, including a character who has joined them, but a skirmishing unit does block line of sight to other units. An enemy shooting at skirmishers suffers -1 to hit; this applies only once, even if a character is with the unit. A skirmisher that moved faster than its standard Movement may not shoot that turn.
+
+Close combat. Skirmishers may charge any enemy visible to at least one model, and form up into a fighting line. In combat they never receive a rank bonus, and do not negate an enemy&apos;s rank bonus by charging its flank or rear. Once formed up they do have flanks and a rear, which count for combat resolution bonuses if the skirmisher unit is subsequently charged by another enemy unit. They overrun straight ahead, as other units do.
+
+Characters. Only a roughly man-sized character on foot may join a skirmishing unit.</description>
+    </rule>
     <rule id="d168-689e-84dd-9b7e" name="Poisoned Attacks" hidden="false">
       <description>A warrior with poisoned attacks will wound his target automatically if he scores a 6 when determining whether he hits his opponent in the Shooting or Close Combat phases. Armour saves are taken as normal. Unliving targets (such as war machines) are immune to poison as are some troop types. These are clearly defined in their description.</description>
     </rule>
@@ -786,8 +800,36 @@ Troops fighting in close combat with a hated foe may re-roll any misses When the
 
 Troops who hate their enemy must always pursue them if they flee. They cannot attempt to avoid pursuit by testing their Leadership as other troops can. They must even pursue if behind a defended obstacle.</description>
     </rule>
-    <rule id="ab75-c6ec-0411-c924" name="Fast Cavalry" hidden="false"/>
-    <rule id="4bb1-dfab-2824-bad1" name="Chariot" hidden="false"/>
+    <rule id="ab75-c6ec-0411-c924" name="Fast Cavalry" hidden="false">
+      <description>Fast cavalry use regular formations and follow all the normal rules for units, including penalties in difficult terrain, except as follows. They never receive a rank bonus.
+
+Free reform. Unless it charges, a fast cavalry unit may reform as many times as you wish during its Movement phase with no penalty to its Move distance. No model may move further than its maximum Move despite the free reform.
+
+Shooting. Fast cavalry may shoot all round, regardless of the direction the models face. For charging, stand &amp; shoot reactions and the like, the models must face the enemy as normal. They may shoot even when marching or reforming; the usual -1 to hit for moving applies.
+
+Fleeing and rallying. A fast cavalry unit that flees as a charge reaction and then rallies at the beginning of its next turn may reform facing in any direction and is free to move that Movement phase. If the chargers fail to catch it, their charge fails as normal; if the flee move does not carry it beyond the chargers&apos; reach, the unit is destroyed as normal.
+
+Characters. A character may join a fast cavalry unit and move with it, but does not benefit from any of the special shooting rules.</description>
+    </rule>
+    <rule id="4bb1-dfab-2824-bad1" name="Chariot" hidden="false">
+      <description>The model. A chariot, its crew and the creatures pulling it are a single model - in effect a unit of one, moving and fighting like a character or a large monster. It has separate characteristics for the chariot, the crew and the creatures. A chariot&apos;s Unit Strength equals its Wounds characteristic, or its Wounds +1 if a character is riding it. Spells that move individual models cannot move a chariot.
+
+Movement. A chariot moves at the speed of the creatures pulling it. It may never march, but doubles its move to charge. It does not turn or wheel and may face any direction without penalty, though it still needs line of sight to declare a charge.
+
+Terrain. A chariot may not voluntarily cross obstacles or difficult terrain, except a bridge or ford that is safe to cross. If forced into such terrain it suffers D6 Strength 6 hits, resolved against the chariot.
+
+Impact hits. A charging chariot inflicts D6 hits at its own Strength, +1 with scythed wheels. These are resolved before close combat begins; models killed by them do not fight, and the wounds count towards combat resolution.
+
+Attacks. All crew fight, including the driver, against enemies to the front, side or rear, in normal Initiative order. The creatures pulling the chariot may attack only enemies directly in front of them. The chariot has no Weapon Skill of its own - use the highest of its crew. Crew may shoot as normal, at -1 to hit if the chariot moved.
+
+Damage. A chariot has a single pool of Wounds covering the chariot, crew and creatures; when the last is lost, remove the model. Any wound caused by a hit of Strength 7 or more destroys the chariot outright, with no armour save. Shooting is resolved against the chariot as against any unit, at +1 to hit if it is a Large Target.
+
+Characters. A character rides a chariot as he would a large monster. Shots are randomised: on a 6 the character is hit. He uses either his own armour save +2 or the chariot&apos;s, whichever is better. In close combat the attacker chooses whether to strike the chariot or the character. A character in a chariot may issue or accept a challenge, fighting as though on foot - impact hits and crew and creature attacks are worked against the enemy unit rather than the challenge, unless the enemy character was alone when the chariot charged.
+
+Flee and pursuit. Chariots flee and pursue as ordinary troops, at 2D6&quot; or 3D6&quot; by speed, and are destroyed if caught.
+
+Upgrades. Extra crewman: +1 crew attack. Extra steed: +1 steed attack. Scythed wheels: +1 impact hit.</description>
+    </rule>
     <rule id="7c7c-8683-ae17-d576" name="Regeneration" hidden="false">
       <description>A creature with this ability may try to regenerate any wound on a D6 roll of 4+. Only one attempt may be made on each wound to regenerate it.
 
