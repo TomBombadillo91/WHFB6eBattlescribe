@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4b41-6842-9db5-f563" name="Tomb Kings" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4b41-6842-9db5-f563" name="Tomb Kings" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7d0c-5562-269f-0795" name="Tomb King General" hidden="false"/>
     <categoryEntry id="80b7-5608-88c2-552c" name="Settra&apos;s Army" hidden="false">
@@ -2538,8 +2538,6 @@ A Tomb Prince may cast Mankara&apos;s Incantation of Urgency or Horekhah&apos;s 
     </rule>
     <rule id="469a-8e42-10e9-9d3e" name="It Came From Below..." hidden="false">
       <description>After both sides have set up (including Scouts), place a marker (a coin will do) anywhere on the battlefield for each unit that is entombed in the sands. At the beginning of each Tomb Kings turn, except for the first, roll a D6 to determine if the creatures emerge:
-
-&quot;It Came From Below...&quot; Chart
 
 Turn	Result
 First turn	N/A

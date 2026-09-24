@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9534-aec7-1922-76f2" name="Orcs and Goblins" revision="22" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9534-aec7-1922-76f2" name="Orcs and Goblins" revision="23" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5b0c-07f2-6b72-7aa8" name="Orc" hidden="false"/>
     <categoryEntry id="2c47-226a-5465-6c16" name="Common Orc" hidden="false"/>
@@ -7896,7 +7896,7 @@ Once on the ground, a Giant may get up in his following Movement phase, but may 
 
 Giant fighting big things (Ogres, Kroxigors, Minotaurs or similar sized or larger creatures including chariots):
 
-Big Things Chart Chart
+Big Things
 
 D6	Result
 1	Yell and Bawl
@@ -7905,7 +7905,7 @@ D6	Result
 
 Giant fighting anyone smaller than above:
 
-Man-sized Things Chart Chart
+Man-sized Things
 
 D6	Result
 1	Yell and Bawl
@@ -7923,8 +7923,6 @@ The unit sustains 2D6 Strength 6 hits allocated as shooting hits. Work out damag
         </rule>
         <rule id="a70a-9a47-dcb9-c801" name="Pick Up and..." hidden="false">
           <description>The Giant stoops down and selects a model (Giant player&apos;s choice) that is either in base contact or touching a model in base contact (Giants have a long reach). The target may make a single attack to try to fend off the Giant&apos;s clumsy hand. If this attack hits and wounds the Giant, the Giant&apos;s attack fails, otherwise the Giant grabs the model and the player rolls a D6 to see what happens next:
-
-Pick Up and... Chart
 
 D6		Result
 1	Stuff into Bag.	The Giant stuffs the victim into his lug along with sheep, cows and other plunder. The model is effectively a casualty and can do nothing whilst in the bag, but if the Giant should he slain any enemy trapped in his bag are freed unharmed at the end of the battle. Victory points are not awarded to the enemy for freed models.

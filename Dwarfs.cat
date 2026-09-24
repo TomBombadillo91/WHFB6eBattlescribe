@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="e0a8-8253-1a27-7620" name="Engineering Rune" hidden="false">
       <rules>
@@ -1966,14 +1966,10 @@ If you roll a Misfire on the Artillery dice then the Flame Cannon has malfunctio
 
 Profiles
 
-Flame Cannon Chart
-
 Max. Range	Strength	Wounds	Armour Save
 12&quot;	5	D3	-2
 
 You can move the Flame Cannon at the same rate as it crew, assuming they are all alive. If any crew are slain, the Move rate is reduced proportionately. The Flame Cannon may be turned on the spot to face its target, but cannot otherwise move and fire in the same turn.
-
-War Machine Profile Chart
 
 Movement	Toughness	Wounds
 As crew	7	3
@@ -2056,8 +2052,6 @@ To represent the explosion, place a large Blast template (5&quot; diameter) wher
         <rule id="e288-c9fc-67be-5dbf" name="Steam Gun" hidden="false">
           <description>The Gyrocopter is armed with a steam-powered gun that unleashes a hail of lead bullets similar to a cannon&apos;s grapeshot. To represent the blast of the steam gun, use the Flame template. Place the template with the broad end over the target and the narrow end touching the muzzle of the gun. Any models completely under the template are automatically hit and models partially covered are hit on the roll of a 4+.
 
-Steam Gun Chart
-
 Range	Strength	Armour Save
 Steam Gun	Flame Template	3	-1</description>
         </rule>
@@ -2108,14 +2102,10 @@ Profiles
 
 The Organ Gun ha more barrels than an ordinary cannon but these are smaller and lighter. Its range and the damage it inflicts are considerably different from a cannon&apos;s.
 
-Organ Gun Chart
-
 Range	Strength	Armour Save
 18&quot;	5	-3
 
 Organ Guns are stoutly made from iron and solid wood and can sustain considerable damage as shown on their profile below. An Organ Gun can be moved by its Dwarf crew at 3&quot; per turn. If any crew are slain, the Move rate is reduced proportionally. The Organ Gun cannot move and shoot in the same turn, other than to pivot on the spot to face its target.
-
-War Machine Profile Chart
 
 Movement	Toughness	Wounds
 As crew	7	3

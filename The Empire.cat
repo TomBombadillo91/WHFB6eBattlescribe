@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="18" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="19" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <costTypes>
     <costType id="fada-3781-5bbe-4625" name=" Hull Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -4614,15 +4614,11 @@ Each model hit by the mortar shell takes a Strength 3 hit with a -1 Armour save 
 
 Profiles
 
-Mortar Damage Chart
-
 Strength	Wounds	Armour Save
 Normal hit	3	1	-1
 Under the hole	6	D3	none
 
 The Movement rate is the speed the Mortar can be moved by a full crew. If any crew are slain, the slain, Mortar&apos;s speed is reduced proportionally. A Mortar cannot move and shoot in the same turn except to turn to face its target.
-
-Mortar Profile Chart
 
 Range	Movement	Toughness	Wounds
 12&quot;-48&quot;	As crew	7	3
@@ -4715,15 +4711,11 @@ Once you have fired the three barrels, you must roll for each hit to determine d
 
 Profiles
 
-Helblaster Volley Gun Damage Chart
-
 Range	Hits/Shot	Strength	Armour Save
 0&quot;-12&quot;	Artillery dice	5	-3
 12&quot;-24&quot;	1/2 Artillery dice	4	-2
 
 The Volley Gun&apos;s Movement rate assumes it has a full crew if any crew are slain then its Movement is reduced proportionally. A Volley Gun cannot move and shoot except to turn to face its target.
-
-War Machine Profile Chart
 
 Movement	Toughness	Wounds
 As crew	7	3
@@ -5454,15 +5446,11 @@ Each model hit by the mortar shell takes a Strength 3 hit with a -1 Armour save 
 
 Profiles
 
-Mortar Damage Chart
-
 Strength	Wounds	Armour Save
 Normal hit	3	1	-1
 Under the hole	6	D3	none
 
 The Movement rate is the speed the Mortar can be moved by a full crew. If any crew are slain, the slain, Mortar&apos;s speed is reduced proportionally. A Mortar cannot move and shoot in the same turn except to turn to face its target.
-
-Mortar Profile Chart
 
 Range	Movement	Toughness	Wounds
 12&quot;-48&quot;	As crew	7	3
@@ -5504,12 +5492,10 @@ A Mortar requires a crew of three to work it properly. Two crewmen can just abou
               </constraints>
               <rules>
                 <rule id="8673-03d4-28ca-e788" name="Steam Gun" hidden="false">
-                  <description>The Gyrocopter is armed with a steam-powered gun that unleashes a hail of lead bullets similar to a cannon&apos;s grapeshot. To represent the blast of the steam gun, use the Flame template. Place the template with the broad end over the target and the narrow end touching the muzzle of the gun. Any models completely under the template are automatically hit and models partially covered are hit on the roll of a 4+.
+                  <description>This gun releases a cloud of steam on the enemy, searing flesh and boiling warriors alive in their suits of armour. The steam gun uses the Flame template and has the following profile:
 
-Steam Gun Chart
-
-Range	Strength	Armour Save
-Steam Gun	Flame Template	3	-1</description>
+Range	Strength	Damage	Saves
+Template	3	1	-3</description>
                 </rule>
               </rules>
               <costs>
