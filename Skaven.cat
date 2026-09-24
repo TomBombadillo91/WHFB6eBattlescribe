@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="dfb1-1789-5d68-be54" name="Skaven" revision="20" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="dfb1-1789-5d68-be54" name="Skaven" revision="21" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="4f5c-498c-bd84-7e28" name="Clan Eshin" hidden="false"/>
     <categoryEntry id="befb-92ec-0667-152b" name="Clan Pestilens" hidden="false"/>
@@ -3694,7 +3694,7 @@ No armour saves are allowed against wounds caused by the Gouger.</description>
             <rule id="787c-5b4d-887f-febe" name="Weeping Blade" hidden="false">
               <description>This weapon weeps a black and corrosive venom which can burn through armour and slay with the merest touch.
 
-The wielder has + 1 Strength. Each unsaved wound is multiplied into D3 wounds.</description>
+The wielder has +1 Strength. Each unsaved wound is multiplied into D3 wounds.</description>
             </rule>
           </rules>
           <categoryLinks>

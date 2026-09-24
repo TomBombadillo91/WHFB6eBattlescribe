@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="17" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="18" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <costTypes>
     <costType id="fada-3781-5bbe-4625" name=" Hull Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -5335,9 +5335,9 @@ Note: The top of the Steam Tank is considerably less armoured, so all attacks, i
 
 That is:
 
-Soft hit damage = D6 + S + \* - 8
+Soft hit damage = D6 + S + * - 8
 
-Hard hit damage = D6 + S + \* - 10
+Hard hit damage = D6 + S + * - 10
 
 Eg: An arrow shot by a bow hits Soft. It will cause D6 + 3 + 0 - 8 points of damage (the O is because the arrow does not cause multiple wounds). You will need to roll a 6 to score a single point of damage on the Tank.
 
@@ -5622,7 +5622,7 @@ Note that the effects of combat resolution, panic and so on are worked out after
             <rule id="7690-4e82-0cf2-f9ba" name="Armour of the Heldenhammer" hidden="false">
               <description>Forged over two and a half thousand years ago for the Warrior-King Sigmar, this ancient gromril armour was never claimed by the founder of the Empire. Its many runes provide protection against attack and malign magic.
 
-The Armour of the Heldenhammer provides a 2 + Armour saving throw, and Magic Resistance (2). No model in base contact may cast spells (including friendly models) or use Bound Items.</description>
+The Armour of the Heldenhammer provides a 2+ Armour saving throw, and Magic Resistance (2). No model in base contact may cast spells (including friendly models) or use Bound Items.</description>
             </rule>
           </rules>
           <costs>
@@ -5637,7 +5637,7 @@ The Armour of the Heldenhammer provides a 2 + Armour saving throw, and Magic Res
           </constraints>
           <rules>
             <rule id="a83d-2c5e-48ef-5527" name="Ghal Maraz" hidden="false">
-              <description>The Hammer of Sigmar grants its wielder + 2 Attacks. Any hits wound automatically and no Armour saves are allowed. Each unsaved wound becomes D3 wounds.
+              <description>The Hammer of Sigmar grants its wielder +2 Attacks. Any hits wound automatically and no Armour saves are allowed. Each unsaved wound becomes D3 wounds.
 
 Note: During the events known as the Storm of Chaos, Ghal Maraz is wielded by the Exalted of Sigmar; Valten. If Valten is in the same army as Karl Franz, the Emperor must be armed with his Runefang.</description>
             </rule>
@@ -5793,7 +5793,7 @@ Gives a 4+ Ward save and Magic Resistance (3) to the Emperor and his mount. In a
               </modifiers>
               <rules>
                 <rule id="4f30-4a9b-10a2-dc9f" name="Ghal Maraz" hidden="false">
-                  <description>The Hammer of Sigmar grants its wielder + 2 Attacks. Any hits wound automatically and no Armour saves are allowed. Each unsaved wound becomes D3 wounds.
+                  <description>The Hammer of Sigmar grants its wielder +2 Attacks. Any hits wound automatically and no Armour saves are allowed. Each unsaved wound becomes D3 wounds.
 
 Note: During the events known as the Storm of Chaos, Ghal Maraz is wielded by the Exalted of Sigmar; Valten. If Valten is in the same army as Karl Franz, the Emperor must be armed with his Runefang.</description>
                 </rule>

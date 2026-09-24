@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="05b9-5022-67cd-4fd3" name="Bretonnians" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="05b9-5022-67cd-4fd3" name="Bretonnians" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="ff93-67ff-9b17-d51d" name="Grail Vow" hidden="false">
       <rules>
@@ -1967,7 +1967,7 @@ The Toad Familiar adds one dice to both the Power dice and the Dispel dice pool 
           </constraints>
           <rules>
             <rule id="3548-43a0-4de5-c568" name="Grail Guardians" hidden="false">
-              <description>The Fay Enchantress may be accompanied by 2-8 Grail Guardians. These Grail Guardians cost 38 points each. One may be upgraded to be a Musician for + 10 points, and another may be upgraded to a Standard Bearer for +20 points. They follow all the rules for Grail Knights. They are placed on the table when the Fay Enchantress is set up, and must form up as a unit with her. The Fay Enchantress can never choose to leave this unit. These Knights are not chosen from the army list, and may be taken in addition to a 0-1 unit of Grail Knights.</description>
+              <description>The Fay Enchantress may be accompanied by 2-8 Grail Guardians. These Grail Guardians cost 38 points each. One may be upgraded to be a Musician for +10 points, and another may be upgraded to a Standard Bearer for +20 points. They follow all the rules for Grail Knights. They are placed on the table when the Fay Enchantress is set up, and must form up as a unit with her. The Fay Enchantress can never choose to leave this unit. These Knights are not chosen from the army list, and may be taken in addition to a 0-1 unit of Grail Knights.</description>
             </rule>
             <rule id="b548-aca4-deb2-001f" name="Living Saints" hidden="false">
               <description>Every model in a unit of Grail Knights can issue and accept challenges as if they were a Champion.</description>
@@ -2491,7 +2491,7 @@ The Knight, and any mounted unit he is with, adds +D6&quot; for the first charge
           </constraints>
           <rules>
             <rule id="0942-0fee-2d56-9d5a" name="Virtue of Duty" hidden="false">
-              <description>One per army. May not be taken by the General. For as long as the General is alive, the model with this Virtue adds + 1 to the combat resolution of any fight of which he is a part.</description>
+              <description>One per army. May not be taken by the General. For as long as the General is alive, the model with this Virtue adds +1 to the combat resolution of any fight of which he is a part.</description>
             </rule>
           </rules>
           <categoryLinks>

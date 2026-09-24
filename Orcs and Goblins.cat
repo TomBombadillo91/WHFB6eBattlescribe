@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9534-aec7-1922-76f2" name="Orcs and Goblins" revision="20" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9534-aec7-1922-76f2" name="Orcs and Goblins" revision="21" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5b0c-07f2-6b72-7aa8" name="Orc" hidden="false"/>
     <categoryEntry id="2c47-226a-5465-6c16" name="Common Orc" hidden="false"/>
@@ -6539,7 +6539,7 @@ The Club of Crumpin&apos; allows no armour saves.</description>
             <rule id="724f-11d7-d719-b27b" name="Hacka&apos;s Sword of Hackin&apos;" hidden="false">
               <description>It was said, mostly by Hacka, that he fought alongside Azhag, and was the one who first proclaimed him &apos;the Slaughterer&apos;. He also mentioned single-handedly killing Sigmar and being a drinking buddy of Gork (or possibly Mork). Whatever the truth, Hacka acquired this slender and rather Elven looking sword from somewhere strange and nobody ever felt much like asking where. Not after the last time, anyway.
 
-The Sword of Hackin&apos; hits on 2 + regardless of the wielder&apos;s WS.</description>
+The Sword of Hackin&apos; hits on 2+ regardless of the wielder&apos;s WS.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -7684,7 +7684,7 @@ At the beginning of your first turn the character and the unit he is with drinks
               </constraints>
               <rules>
                 <rule id="9719-5bd7-8568-ff46" name="Dangly Wotnotz" hidden="false">
-                  <description>Once per game the bearer may use it to add + 1 to a single dice of his Casting roll or his Dispel roll. Decide after the dice have been rolled. Note that this can potentially either stop a Miscast or cause a spell to be cast with Irresistible Force.</description>
+                  <description>Once per game the bearer may use it to add +1 to a single dice of his Casting roll or his Dispel roll. Decide after the dice have been rolled. Note that this can potentially either stop a Miscast or cause a spell to be cast with Irresistible Force.</description>
                 </rule>
               </rules>
               <categoryLinks>
