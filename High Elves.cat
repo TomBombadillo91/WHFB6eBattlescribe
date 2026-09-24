@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="3f17-868d-fac0-4c8d" name="First Among Equals" hidden="false">
       <constraints>
@@ -1035,7 +1035,7 @@
                 <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
                 <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
                 <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
-                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2</characteristic>
                 <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
               </characteristics>
             </profile>
@@ -1093,7 +1093,7 @@
                     <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
                     <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
                     <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
-                    <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+                    <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2</characteristic>
                     <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
                   </characteristics>
                 </profile>
@@ -1679,7 +1679,7 @@ The model is immune to all breath attacks, and any fire-based attack (including 
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5526-9d64-9aa1-860f" type="max"/>
               </constraints>
               <profiles>
-                <profile id="4ad4-d7fa-49de-c652" name="Bladelord" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+                <profile id="4ad4-d7fa-49de-c652" name="Keeper of the Flame" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
                   <characteristics>
                     <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
                     <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>

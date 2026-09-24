@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="19" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="21" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="e8a8-d83e-c60c-3ad0" name="Hordes of Chaos"/>
     <publication id="dc3a-2511-d23a-deb3" name="Beasts of Chaos"/>
@@ -1813,8 +1813,8 @@
             <characteristic name="T" typeId="16d7-9f22-06d8-8427">6</characteristic>
             <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">6</characteristic>
             <characteristic name="I" typeId="b418-0e30-644f-1435">10</characteristic>
-            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">6</characteristic>
-            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">10</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">6</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4199,7 +4199,7 @@ If the Spawn&apos;s movement is sufficient to take it into an enemy unit then it
                 <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
                 <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
                 <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
-                <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+                <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
                 <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
                 <characteristic name="I" typeId="b418-0e30-644f-1435">3</characteristic>
                 <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
@@ -5462,7 +5462,28 @@ A Giant that falls over automatically suffers 1 wound itself. No armour saves ap
 
 Once on the ground, a Giant may get up in his following Movement phase, but may not otherwise move that turn. Whilst on the ground a Giant may not attack, but he can still defend himself after a fashion so the enemy must still roll to score hits on him. If forced to flee whilst on the ground the Giant is slain - the enemy swarm over him and cut him to pieces. If the Giant gets the opportunity to pursue his foes whilst he&apos;s on the ground he stands up instead. A Giant may attack on the turn it stands up.</description>
         </rule>
-        <rule id="4af9-4858-7637-79bf" name="Giant Attacks" hidden="false"/>
+        <rule id="4af9-4858-7637-79bf" name="Giant Attacks" hidden="false">
+          <description>Giants do not attack in the same way as other creatures though they select their victims as normal. They are far too large and fractious to take orders, and much too scatterbrained to have any sort of coherent plan. In fact, once in combat even the Giant doesn&apos;t really know what he&apos;s going to do next! To determine what happens, each Close Combat phase roll a D6 on one of the following tables when it is the Giant&apos;s turn to fight. Which table you use depends on the size of the Giant&apos;s victim. When fighting characters riding monsters, decide whether to attack the rider or mount, as normal and use the appropriate table for the size of the target.
+
+Giant fighting big things (Ogres, Kroxigors, Minotaurs or similar sized or larger creatures including chariots):
+
+Big Things Chart Chart
+
+D6	Result
+1	Yell and Bawl
+2-4	Thump with Club
+5-6	&apos;Eadbutt
+
+Giant fighting anyone smaller than above:
+
+Man-sized Things Chart Chart
+
+D6	Result
+1	Yell and Bawl
+2	Jump Up and Down
+3	Pick Up and...
+4-6	Swing with Club</description>
+        </rule>
         <rule id="0f34-db8d-cd45-9071" name="Move Over Obstacles" hidden="false">
           <description>Giants treat obstacles such as walls and fences as open ground when moving. However, when crossing such obstacles Giants must test to see if they Fall Over.</description>
         </rule>
@@ -5618,7 +5639,7 @@ Once on the ground, a Giant may get up in his following Movement phase, but may 
             <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">7</characteristic>
             <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
             <characteristic name="BS" typeId="22c7-799b-e07c-f32c">-</characteristic>
-            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
             <characteristic name="T" typeId="16d7-9f22-06d8-8427">-</characteristic>
             <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">-</characteristic>
             <characteristic name="I" typeId="b418-0e30-644f-1435">2</characteristic>
@@ -5996,7 +6017,7 @@ Once on the ground, a Giant may get up in his following Movement phase, but may 
             <characteristic name="Ld" typeId="bbad-d421-400b-87c1">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="358a-36d5-c935-7a66" name="Ungor" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+        <profile id="358a-36d5-c935-7a66" name="Ungor Crew" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
             <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">-</characteristic>
             <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>

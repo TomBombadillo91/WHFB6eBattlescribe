@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9817-5d62-aa33-69f5" name="Ogre Kingdoms" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9817-5d62-aa33-69f5" name="Ogre Kingdoms" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5fa5-4b26-a63e-0bef" name="Big Name" hidden="false"/>
     <categoryEntry id="a123-ef4a-523b-4159" name="Has Thiefstones" hidden="false"/>
@@ -1249,7 +1249,7 @@ Leadbelcher Cannon Profile</description>
                   <characteristics>
                     <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
                     <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
-                    <characteristic name="BS" typeId="22c7-799b-e07c-f32c">2</characteristic>
+                    <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
                     <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
                     <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
                     <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
@@ -1357,7 +1357,7 @@ Leadbelcher Cannon Profile</description>
                 <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
                 <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
                 <characteristic name="I" typeId="b418-0e30-644f-1435">4</characteristic>
-                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
                 <characteristic name="Ld" typeId="bbad-d421-400b-87c1">7</characteristic>
               </characteristics>
             </profile>
@@ -1935,7 +1935,7 @@ They may not wheel more than once in any given turn (they still get a &apos;free
             </profile>
             <profile id="9086-4d4c-859e-e4d1" name="Rhinox" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
               <characteristics>
-                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">7</characteristic>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
                 <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
                 <characteristic name="BS" typeId="22c7-799b-e07c-f32c">-</characteristic>
                 <characteristic name="S" typeId="0c58-1252-962d-8fcc">5</characteristic>

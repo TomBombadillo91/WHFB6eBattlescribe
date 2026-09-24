@@ -14,12 +14,12 @@ An item listed several times at different costs is usually not a bug. The Breton
 
 Statline rows compare only characteristics both sides state. A blank on either side means the model is split into profile rows differently (chariots especially), which is a modelling difference, not a disagreement.
 
-## Magic item points costs (41 differences)
+## Magic item points costs (40 differences)
 
 | Item | Where | Catalogue | Wiki | Diff |
 | --- | --- | ---: | ---: | ---: |
-| [Pure of Heart](https://6th.whfb.app/magic-item/pure-of-heart) | High Elves.cat:3536 | 0 | 500 | +500 |
-| [Ghal Maraz](https://6th.whfb.app/magic-item/ghal-maraz) | The Empire.cat:5801 | 180 | 0 | -180 |
+| [Pure of Heart](https://6th.whfb.app/magic-item/pure-of-heart) | High Elves.cat:3534 | 0 | 500 | +500 |
+| [Ghal Maraz](https://6th.whfb.app/magic-item/ghal-maraz) | The Empire.cat:5799 | 180 | 0 | -180 |
 | [Virtue of Empathy](https://6th.whfb.app/magic-item/virtue-of-empathy) | Bretonnians.cat:3332 | 100 | 10 | -90 |
 | [Virtue of Empathy](https://6th.whfb.app/magic-item/virtue-of-empathy) | Bretonnians.cat:3458 | 90 | 10 | -80 |
 | [Virtue of Noble Disdain](https://6th.whfb.app/magic-item/virtue-of-noble-disdain) | Bretonnians.cat:3626 | 100 | 20 | -80 |
@@ -36,7 +36,6 @@ Statline rows compare only characteristics both sides state. A blank on either s
 | [Virtue of Confidence](https://6th.whfb.app/magic-item/virtue-of-confidence) | Bretonnians.cat:2912 | 75 | 25 | -50 |
 | [Virtue of Empathy](https://6th.whfb.app/magic-item/virtue-of-empathy) | Bretonnians.cat:3255 | 60 | 10 | -50 |
 | [Virtue of the Joust](https://6th.whfb.app/magic-item/virtue-of-the-joust) | Bretonnians.cat:4064 | 75 | 25 | -50 |
-| [Virtue of Stoicism](https://6th.whfb.app/magic-item/virtue-of-stoicism) | Bretonnians.cat:2331 | 80 | 35 | -45 |
 | [Virtue of Discipline](https://6th.whfb.app/magic-item/virtue-of-discipline) | Bretonnians.cat:3066 | 60 | 15 | -45 |
 | [Virtue of Empathy](https://6th.whfb.app/magic-item/virtue-of-empathy) | Bretonnians.cat:3297 | 50 | 10 | -40 |
 | [Virtue of Knightly Temper](https://6th.whfb.app/magic-item/virtue-of-knightly-temper) | Bretonnians.cat:3500 | 80 | 40 | -40 |
@@ -44,6 +43,7 @@ Statline rows compare only characteristics both sides state. A blank on either s
 | [Virtue of Purity](https://6th.whfb.app/magic-item/virtue-of-purity) | Bretonnians.cat:3703 | 60 | 20 | -40 |
 | [Virtue of Heroism](https://6th.whfb.app/magic-item/virtue-of-heroism) | Bretonnians.cat:3864 | 80 | 40 | -40 |
 | [Virtue of the Penitent](https://6th.whfb.app/magic-item/virtue-of-the-penitent) | Bretonnians.cat:4152 | 80 | 40 | -40 |
+| [Virtue of Stoicism](https://6th.whfb.app/magic-item/virtue-of-stoicism) | Bretonnians.cat:2331 | 70 | 35 | -35 |
 | [Virtue of the Ideal](https://6th.whfb.app/magic-item/virtue-of-the-ideal) | Bretonnians.cat:3941 | 70 | 35 | -35 |
 | [Virtue of the Impetuous Knight](https://6th.whfb.app/magic-item/virtue-of-the-impetuous-knight) | Bretonnians.cat:3983 | 70 | 35 | -35 |
 | [Virtue of Audacity](https://6th.whfb.app/magic-item/virtue-of-audacity) | Bretonnians.cat:2751 | 60 | 30 | -30 |
@@ -51,37 +51,25 @@ Statline rows compare only characteristics both sides state. A blank on either s
 | [Virtue of Empathy](https://6th.whfb.app/magic-item/virtue-of-empathy) | Bretonnians.cat:3220 | 40 | 10 | -30 |
 | [Virtue of Confidence](https://6th.whfb.app/magic-item/virtue-of-confidence) | Bretonnians.cat:2835 | 50 | 25 | -25 |
 | [Virtue of the Joust](https://6th.whfb.app/magic-item/virtue-of-the-joust) | Bretonnians.cat:4027 | 50 | 25 | -25 |
-| [Power Stone](https://6th.whfb.app/magic-item/power-stone) | High Elves.cat:3347 | 0 | 25 | +25 |
+| [Power Stone](https://6th.whfb.app/magic-item/power-stone) | High Elves.cat:3345 | 0 | 25 | +25 |
 | [Virtue of Noble Disdain](https://6th.whfb.app/magic-item/virtue-of-noble-disdain) | Bretonnians.cat:2541 | 40 | 20 | -20 |
 | [Virtue of Purity](https://6th.whfb.app/magic-item/virtue-of-purity) | Bretonnians.cat:2576 | 40 | 20 | -20 |
 | [Virtue of Empathy](https://6th.whfb.app/magic-item/virtue-of-empathy) | Bretonnians.cat:2646 | 30 | 10 | -20 |
 | [Virtue of Discipline](https://6th.whfb.app/magic-item/virtue-of-discipline) | Bretonnians.cat:2996 | 30 | 15 | -15 |
 | [Virtue of Empathy](https://6th.whfb.app/magic-item/virtue-of-empathy) | Bretonnians.cat:3150 | 20 | 10 | -10 |
 | [Horn of the Wild Hunt](https://6th.whfb.app/magic-item/horn-of-the-wild-hunt) | Wood Elves.cat:1957 | 0 | 10 | +10 |
-| [Virtue of Stoicism](https://6th.whfb.app/magic-item/virtue-of-stoicism) | Bretonnians.cat:3906 | 40 | 35 | -5 |
 
-## Unit statlines (50 models differ)
+## Unit statlines (23 models differ)
 
 | Model | Where | Characteristic | Catalogue | Wiki |
 | --- | --- | --- | ---: | ---: |
-| [Festering Chantor](https://6th.whfb.app/unit/festering-chantor) | Skaven.cat:3217 | WS | 3 | 4 |
-| [Festering Chantor](https://6th.whfb.app/unit/festering-chantor) | Skaven.cat:3217 | S | 3 | 4 |
-| [Festering Chantor](https://6th.whfb.app/unit/festering-chantor) | Skaven.cat:3217 | T | 4 | 5 |
-| [Festering Chantor](https://6th.whfb.app/unit/festering-chantor) | Skaven.cat:3217 | W | 2 | 3 |
-| [Festering Chantor](https://6th.whfb.app/unit/festering-chantor) | Skaven.cat:3217 | I | 3 | 4 |
-| [Festering Chantor](https://6th.whfb.app/unit/festering-chantor) | Skaven.cat:3217 | A | 1 | 2 |
-| [Festering Chantor](https://6th.whfb.app/unit/festering-chantor) | Skaven.cat:3217 | Ld | 5 | 6 |
-| [Warlock Engineer](https://6th.whfb.app/unit/warlock-engineer) | Skaven.cat:3020 | WS | 4 | 3 |
-| [Warlock Engineer](https://6th.whfb.app/unit/warlock-engineer) | Skaven.cat:3020 | T | 4 | 3 |
-| [Warlock Engineer](https://6th.whfb.app/unit/warlock-engineer) | Skaven.cat:3020 | W | 3 | 2 |
-| [Warlock Engineer](https://6th.whfb.app/unit/warlock-engineer) | Skaven.cat:3020 | I | 5 | 4 |
-| [Warlock Engineer](https://6th.whfb.app/unit/warlock-engineer) | Skaven.cat:3020 | A | 2 | 1 |
-| [Warlock Engineer](https://6th.whfb.app/unit/warlock-engineer) | Skaven.cat:3020 | Ld | 7 | 5 |
-| [Chaos Dwarf Sorcerer](https://6th.whfb.app/unit/chaos-dwarf-sorcerer) | Chaos Dwarves.cat:107 | S | 4 | 3 |
-| [Chaos Dwarf Sorcerer](https://6th.whfb.app/unit/chaos-dwarf-sorcerer) | Chaos Dwarves.cat:107 | T | 5 | 4 |
-| [Chaos Dwarf Sorcerer](https://6th.whfb.app/unit/chaos-dwarf-sorcerer) | Chaos Dwarves.cat:107 | W | 3 | 2 |
-| [Chaos Dwarf Sorcerer](https://6th.whfb.app/unit/chaos-dwarf-sorcerer) | Chaos Dwarves.cat:107 | I | 1 | 2 |
-| [Chaos Dwarf Sorcerer](https://6th.whfb.app/unit/chaos-dwarf-sorcerer) | Chaos Dwarves.cat:107 | Ld | 10 | 9 |
+| [Festering Chantor](https://6th.whfb.app/unit/festering-chantor) | Skaven.cat:3223 | WS | 3 | 4 |
+| [Festering Chantor](https://6th.whfb.app/unit/festering-chantor) | Skaven.cat:3223 | S | 3 | 4 |
+| [Festering Chantor](https://6th.whfb.app/unit/festering-chantor) | Skaven.cat:3223 | T | 4 | 5 |
+| [Festering Chantor](https://6th.whfb.app/unit/festering-chantor) | Skaven.cat:3223 | W | 2 | 3 |
+| [Festering Chantor](https://6th.whfb.app/unit/festering-chantor) | Skaven.cat:3223 | I | 3 | 4 |
+| [Festering Chantor](https://6th.whfb.app/unit/festering-chantor) | Skaven.cat:3223 | A | 1 | 2 |
+| [Festering Chantor](https://6th.whfb.app/unit/festering-chantor) | Skaven.cat:3223 | Ld | 5 | 6 |
 | [Knight](https://6th.whfb.app/unit/knight) | Dark Elves.cat:1263 | M | 5 | 4 |
 | [Knight](https://6th.whfb.app/unit/knight) | Dark Elves.cat:1263 | WS | 5 | 4 |
 | [Knight](https://6th.whfb.app/unit/knight) | Dark Elves.cat:1263 | BS | 4 | 3 |
@@ -92,44 +80,22 @@ Statline rows compare only characteristics both sides state. A blank on either s
 | [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Dark Elves.cat:3065 | T | 3 | 4 |
 | [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Dark Elves.cat:3065 | W | 1 | 3 |
 | [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Dark Elves.cat:3065 | A | 1 | 2 |
-| [Centigor](https://6th.whfb.app/unit/centigor) | Forces of Chaos.cat:4896 | M | 6 | 8 |
-| [Centigor](https://6th.whfb.app/unit/centigor) | Forces of Chaos.cat:4896 | W | 3 | 1 |
-| [Centigor](https://6th.whfb.app/unit/centigor) | Forces of Chaos.cat:4896 | I | 4 | 2 |
-| [Centigor](https://6th.whfb.app/unit/centigor) | Forces of Chaos.cat:4896 | A | 3 | 1(2) |
-| [Centigor](https://6th.whfb.app/unit/centigor) | Forces of Chaos.cat:4896 | Ld | 8 | 7 |
-| [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Forces of Chaos.cat:5566 | WS | 3 | 4 |
-| [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Forces of Chaos.cat:5566 | S | 3 | 4 |
-| [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Forces of Chaos.cat:5566 | T | 3 | 4 |
-| [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Forces of Chaos.cat:5566 | W | 1 | 3 |
-| [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Forces of Chaos.cat:5566 | A | 1 | 2 |
+| [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Forces of Chaos.cat:5587 | WS | 3 | 4 |
+| [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Forces of Chaos.cat:5587 | S | 3 | 4 |
+| [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Forces of Chaos.cat:5587 | T | 3 | 4 |
+| [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Forces of Chaos.cat:5587 | W | 1 | 3 |
+| [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Forces of Chaos.cat:5587 | A | 1 | 2 |
 | [Knight](https://6th.whfb.app/unit/knight) | Dark Elves.cat:3275 | WS | 5 | 4 |
 | [Knight](https://6th.whfb.app/unit/knight) | Dark Elves.cat:3275 | S | 5 | 3 |
 | [Knight](https://6th.whfb.app/unit/knight) | Dark Elves.cat:3275 | T | 4 | 3 |
 | [Knight](https://6th.whfb.app/unit/knight) | Dark Elves.cat:3275 | I | 5 | 3 |
-| [Keeper of Secrets](https://6th.whfb.app/unit/keeper-of-secrets) | Forces of Chaos.cat:1699 | M | 6 | 8 |
-| [Keeper of Secrets](https://6th.whfb.app/unit/keeper-of-secrets) | Forces of Chaos.cat:1699 | WS | 6 | 9 |
-| [Keeper of Secrets](https://6th.whfb.app/unit/keeper-of-secrets) | Forces of Chaos.cat:1699 | A | 5 | 10 |
-| [Keeper of Secrets](https://6th.whfb.app/unit/keeper-of-secrets) | Forces of Chaos.cat:1699 | Ld | 9 | 6 |
 | [Knight](https://6th.whfb.app/unit/knight) | Forces of Chaos.cat:3094 | WS | 5 | 4 |
 | [Knight](https://6th.whfb.app/unit/knight) | Forces of Chaos.cat:3094 | S | 5 | 3 |
 | [Knight](https://6th.whfb.app/unit/knight) | Forces of Chaos.cat:3094 | T | 4 | 3 |
 | [Knight](https://6th.whfb.app/unit/knight) | Forces of Chaos.cat:3094 | I | 5 | 3 |
-| [Bladelord](https://6th.whfb.app/unit/bladelord) | High Elves.cat:1682 | WS | 5 | 6 |
-| [Bladelord](https://6th.whfb.app/unit/bladelord) | High Elves.cat:1682 | I | 6 | 5 |
-| [Bladelord](https://6th.whfb.app/unit/bladelord) | High Elves.cat:1682 | Ld | 9 | 8 |
-| [Villein](https://6th.whfb.app/unit/villein) | Bretonnians.cat:793 | WS | 3 | 2 |
-| [Villein](https://6th.whfb.app/unit/villein) | Bretonnians.cat:793 | A | 1 | 2 |
 | [Keeper of Secrets](https://6th.whfb.app/unit/keeper-of-secrets) | Dark Elves.cat:2844 | A | 6 | 10 |
 | [Keeper of Secrets](https://6th.whfb.app/unit/keeper-of-secrets) | Dark Elves.cat:2844 | Ld | 9 | 6 |
-| [Keeper of Secrets](https://6th.whfb.app/unit/keeper-of-secrets) | Forces of Chaos.cat:1807 | A | 6 | 10 |
-| [Keeper of Secrets](https://6th.whfb.app/unit/keeper-of-secrets) | Forces of Chaos.cat:1807 | Ld | 9 | 6 |
-| [Clanrat Slave](https://6th.whfb.app/unit/clanrat-slave) | Skaven.cat:1433 | M | 6 | 5 |
-| [Clanrat Slave](https://6th.whfb.app/unit/clanrat-slave) | Skaven.cat:1433 | I | 5 | 4 |
-| [Skeleton Crew](https://6th.whfb.app/unit/skeleton-crew) | Tomb Kings.cat:919 | WS | 3 | 2 |
-| [Skeleton Crew](https://6th.whfb.app/unit/skeleton-crew) | Tomb Kings.cat:919 | Ld | 7 | 3 |
 | [Pegasus](https://6th.whfb.app/unit/pegasus) | Bretonnians.cat:1179 | Ld | 7 | 6 |
-| [Bull Centaur Hero](https://6th.whfb.app/unit/bull-centaur-hero) | Chaos Dwarves.cat:541 | T | 4 | 5 |
-| [Hobgoblin Crew](https://6th.whfb.app/unit/hobgoblin-crew) | Chaos Dwarves.cat:1035 | M | 3 | 4 |
 | [Bloodletter](https://6th.whfb.app/unit/bloodletter) | Daemonic Legions.cat:892 | Ld | 9 | 8 |
 | [Horror](https://6th.whfb.app/unit/horror) | Daemonic Legions.cat:1017 | Ld | 9 | 8 |
 | [Plaguebearer](https://6th.whfb.app/unit/plaguebearer) | Daemonic Legions.cat:1122 | Ld | 9 | 8 |
@@ -139,26 +105,10 @@ Statline rows compare only characteristics both sides state. A blank on either s
 | [Flesh Hound](https://6th.whfb.app/unit/flesh-hound) | Daemonic Legions.cat:1707 | Ld | 9 | 8 |
 | [Nurglings](https://6th.whfb.app/unit/nurglings) | Daemonic Legions.cat:1767 | Ld | 9 | 8 |
 | [Screamer](https://6th.whfb.app/unit/screamer) | Daemonic Legions.cat:1825 | Ld | 9 | 8 |
-| [Hag](https://6th.whfb.app/unit/hag) | Dark Elves.cat:1598 | WS | 4 | 5 |
-| [Daddallo](https://6th.whfb.app/unit/daddallo) | Dogs of War.cat:3378 | A | 2 | 1 |
-| [Warhorse](https://6th.whfb.app/unit/warhorse) | Dogs of War.cat:4491 | BS | 3 | 0 |
-| [Engineer](https://6th.whfb.app/unit/engineer) | Dwarfs.cat:528 | A | 2 | 1 |
 | [Bloodthirster](https://6th.whfb.app/unit/bloodthirster) | Forces of Chaos.cat:1483 | S | 7 | 6(7) |
-| [Ungor](https://6th.whfb.app/unit/ungor) | Forces of Chaos.cat:4196 | T | 4 | 3 |
 | [Troll](https://6th.whfb.app/unit/troll) | Forces of Chaos.cat:4549 | A | 4 | 3 |
 | [Chaos Giant](https://6th.whfb.app/unit/chaos-giant) | Forces of Chaos.cat:5429 | A | Special | * |
-| [Tuskgor](https://6th.whfb.app/unit/tuskgor) | Forces of Chaos.cat:5616 | S | 4 | 3 |
-| [Ungor](https://6th.whfb.app/unit/ungor) | Forces of Chaos.cat:5999 | WS | 4 | 3 |
-| [Ellyrian Reaver](https://6th.whfb.app/unit/ellyrian-reaver) | High Elves.cat:1029 | A | 1 | 2 |
-| [Harbinger](https://6th.whfb.app/unit/harbinger) | High Elves.cat:1087 | A | 1 | 2 |
-| [Thunderfist](https://6th.whfb.app/unit/thunderfist) | Ogre Kingdoms.cat:1248 | BS | 2 | 3 |
-| [Greyback](https://6th.whfb.app/unit/greyback) | Ogre Kingdoms.cat:1351 | A | 4 | 3 |
-| [Rhinox](https://6th.whfb.app/unit/rhinox) | Ogre Kingdoms.cat:1936 | M | 7 | 6 |
-| [Squig Hopper](https://6th.whfb.app/unit/squig-hopper) | Orcs and Goblins.cat:3710 | W | 2 | 1 |
-| [Giant](https://6th.whfb.app/unit/giant) | Orcs and Goblins.cat:4239 | A | Special | * |
-| [Boar Chariot](https://6th.whfb.app/unit/boar-chariot) | Orcs and Goblins.cat:6360 | S | 5 | 3 |
-| [Warlock Engineer](https://6th.whfb.app/unit/warlock-engineer) | Skaven.cat:497 | I | 6 | 4 |
-| [Plague Lord](https://6th.whfb.app/unit/plague-lord) | Skaven.cat:3140 | A | 5 | 4 |
+| [Giant](https://6th.whfb.app/unit/giant) | Orcs and Goblins.cat:4235 | A | Special | * |
 | [Skeleton](https://6th.whfb.app/unit/skeleton) | Tomb Kings.cat:663 | Ld | 5 | 3 |
 | [Skeleton](https://6th.whfb.app/unit/skeleton) | Tomb Kings.cat:765 | Ld | 5 | 3 |
 

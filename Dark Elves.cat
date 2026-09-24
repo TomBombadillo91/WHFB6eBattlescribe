@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b151-7d1c-4a96-e0d0" name="Dark Elves" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b151-7d1c-4a96-e0d0" name="Dark Elves" revision="16" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7b32-9394-e778-467c" name="Poison" hidden="false"/>
     <categoryEntry id="16df-2ebd-e4f7-9984" name="Artifacts and Skills" hidden="false"/>
@@ -1598,7 +1598,7 @@ spells, etc). It may be combined with other types of armour.</description>
         <profile id="36ab-4346-f579-a096" name="Hag" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
             <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
-            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
             <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
             <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
             <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>

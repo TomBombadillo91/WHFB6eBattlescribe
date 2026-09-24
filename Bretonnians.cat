@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="05b9-5022-67cd-4fd3" name="Bretonnians" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="05b9-5022-67cd-4fd3" name="Bretonnians" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="ff93-67ff-9b17-d51d" name="Grail Vow" hidden="false">
       <rules>
@@ -793,13 +793,13 @@ This gives Damsels Magic Resistance (1), and Prophetesses Magic Resistance (2).<
                 <profile id="25f6-1ee0-3259-67d8" name="Villein" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
                   <characteristics>
                     <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
-                    <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
+                    <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">2</characteristic>
                     <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
                     <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
                     <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
                     <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
                     <characteristic name="I" typeId="b418-0e30-644f-1435">3</characteristic>
-                    <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+                    <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2</characteristic>
                     <characteristic name="Ld" typeId="bbad-d421-400b-87c1">5</characteristic>
                   </characteristics>
                 </profile>
@@ -2367,7 +2367,7 @@ Characters with the Questing Vow cannot use a mundane or magical lance.</descrip
             <categoryLink id="1993-7532-bd75-58df" name="Virtue of Stoicism" hidden="false" targetId="c5b1-f947-9883-0bd2" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="80.0"/>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="70.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2f89-94c6-c451-eb6a" name="Virtue of the Ideal" hidden="true" collective="false" import="true" type="upgrade">
@@ -3935,7 +3935,7 @@ The Knight may re-roll failed rolls to hit when charging and using a lance (incl
             <categoryLink id="825e-7ebf-5b28-4473" name="Virtue of Stoicism" hidden="false" targetId="c5b1-f947-9883-0bd2" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="40.0"/>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8363-8bdd-abce-1c7b" name="Virtue of the Ideal" hidden="true" collective="false" import="true" type="upgrade">

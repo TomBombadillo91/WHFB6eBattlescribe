@@ -684,6 +684,42 @@
       "decision": "Actioned from note",
       "chose": null,
       "note": "renamed to Cupped Hands of the Old Ones and text taken from its wiki page"
+    },
+    {
+      "file": "High Elves.cat",
+      "category": "Points cost",
+      "name": "Power Stone",
+      "used_by": "Arcane Items > Unique Items > Power Stone",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "High Elves get certain items cheaper than other armies; 20 is correct for them against the 25 in the game system."
+    },
+    {
+      "file": "Vampire Counts.cat",
+      "category": "No wiki coverage",
+      "name": "Ethereal Steeds",
+      "used_by": "shared; used by Black Knights",
+      "decision": "Needs more thought",
+      "chose": null,
+      "note": "The wiki's Black Knight has only Undead and Wight Blades - no ethereal steeds - so there is nothing to copy and the intent is unclear."
+    },
+    {
+      "file": "Skaven.cat",
+      "category": "Unit statline",
+      "name": "Festering Chantor",
+      "used_by": "Festering Chantor",
+      "decision": "Needs more thought",
+      "chose": null,
+      "note": "Every one of seven characteristics is exactly 1 lower than the wiki's, which looks like a different tier of the model rather than a typo. Worth checking the book."
+    },
+    {
+      "file": "Forces of Chaos.cat",
+      "category": "Unit statline",
+      "name": "Steed of Slaanesh",
+      "used_by": "Mounted Daemonettes > Mounted Daemonettes",
+      "decision": "Needs more thought",
+      "chose": null,
+      "note": "The catalogue's is the ridden mount's line; the wiki page is the standalone Daemon creature. Probably not the same thing."
     }
   ]
 }

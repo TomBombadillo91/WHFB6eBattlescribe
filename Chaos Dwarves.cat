@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7236-6609-8f2a-760a" name="Chaos Dwarves" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7236-6609-8f2a-760a" name="Chaos Dwarves" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="d1fa-39bb-985e-3662" name="Bull Centaur Lord" hidden="false" collective="false" import="true" type="model">
       <constraints>
@@ -104,7 +104,7 @@
     </selectionEntry>
     <selectionEntry id="7fa5-b199-6fdd-5f77" name="Sorcerer Lord" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="c734-1a09-cc03-ada4" name="Chaos Dwarf Sorcerer" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+        <profile id="c734-1a09-cc03-ada4" name="Chaos Dwarf Sorcerer Lord" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
             <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">3</characteristic>
             <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
@@ -544,7 +544,7 @@
             <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
             <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
             <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
-            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
             <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
             <characteristic name="I" typeId="b418-0e30-644f-1435">4</characteristic>
             <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
@@ -1034,7 +1034,7 @@
             </profile>
             <profile id="bb86-56a9-0107-4e8b" name="Hobgoblin Crew" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
               <characteristics>
-                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">3</characteristic>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
                 <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
                 <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
                 <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
