@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d9da-11c6-1a8c-4472" name="Lizardmen" revision="17" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d9da-11c6-1a8c-4472" name="Lizardmen" revision="18" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>WIP Lizardmen. TODO: Add unit profiles</readme>
   <categoryEntries>
     <categoryEntry id="361c-7d6f-fc45-5312" name="Skink" hidden="false"/>
@@ -2254,7 +2254,7 @@ For all Leadership tests, all Lizardmen units roll 3 dice and choose the lowest 
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e2d6-72ed-693c-1261" name="Blessed Spawning of Tlzazcotl" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e2d6-72ed-693c-1261" name="Blessed Spawning of Tlazcotl" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -2282,9 +2282,8 @@ For all Leadership tests, all Lizardmen units roll 3 dice and choose the lowest 
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fe2-ad2b-948d-c1f9" type="min"/>
           </constraints>
           <rules>
-            <rule id="64d5-8ddb-06d5-d691" name="Blessed Spawning of Tlzazcotl" hidden="false">
-              <description>Immune to Psychology.
-Note that Carnosaur will still be subject to Blood-Frenzy, and Cold Ones will still be subject to Stupidity.</description>
+            <rule id="64d5-8ddb-06d5-d691" name="Blessed Spawning of Tlazcotl" hidden="false">
+              <description>Immune to Psychology (note that a Carnosaur ridden by a Saurus Oldblood with the Blessed Spawning of Tlazcotl is still subject to Blood-frenzy, and Cold Ones will still be subject to Stupidity).</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2410,14 +2409,14 @@ This can potentially cause Irresistible Force or avoid a Miscast. Remember that 
         </modifier>
       </modifiers>
       <selectionEntries>
-        <selectionEntry id="4fd5-fbef-7394-1ebe" name="Cupped Hands of the Hold Ones" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4fd5-fbef-7394-1ebe" name="Cupped Hands of the Old Ones" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc3c-4b7f-99bf-f0d6" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="195a-bd41-1042-2a27" type="max"/>
           </constraints>
           <rules>
-            <rule id="71a5-2710-b080-1e15" name="Cupped Hands of the Hold Ones" hidden="false">
-              <description>The entire unit that is accompanying the Slann gainst a 5+ Ward save. The unit does not get this Ward save against models that are attacking in close combat, for they are slightly inside the mystical shield.</description>
+            <rule id="71a5-2710-b080-1e15" name="Cupped Hands of the Old Ones" hidden="false">
+              <description>Slann Mage-Priest only. The entire unit that is accompanying the Slann gains a 5+ Ward save. Note, however, that the unit does not get this increase against models that are attacking it in close combat, for they are slightly inside the mystical shield.</description>
             </rule>
           </rules>
           <costs>

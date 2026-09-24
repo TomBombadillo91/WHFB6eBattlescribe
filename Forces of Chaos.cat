@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="17" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="18" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="e8a8-d83e-c60c-3ad0" name="Hordes of Chaos"/>
     <publication id="dc3a-2511-d23a-deb3" name="Beasts of Chaos"/>
@@ -4111,7 +4111,7 @@ If the Spawn&apos;s movement is sufficient to take it into an enemy unit then it
                   </modifiers>
                   <rules>
                     <rule id="bd3b-679d-0590-15b0" name="Firewyrn of Tzeentch" hidden="false">
-                      <description>Strength 3 Breath Weapon</description>
+                      <description>These creatures breathe magical flames. They have a Strength 3 breath weapon. If the Spawn is not engaged in combat, It will target the nearest enemy unit it can see (this is the Chaos player&apos;s choice in the case of two or more units being equidistant from the Spawn).</description>
                     </rule>
                   </rules>
                   <infoLinks>
@@ -7864,7 +7864,9 @@ No Armour saves are made against wounds caused by the Great Fang.</description>
           </profiles>
           <rules>
             <rule id="2e1a-1b1f-f2b6-b5e1" name="Scaly Skin (3+)" hidden="false"/>
-            <rule id="fc64-101f-c983-fdd9" name="Two Breath Weapons" hidden="false"/>
+            <rule id="fc64-101f-c983-fdd9" name="Two Breath Weapons" hidden="false">
+              <description>Chaos Dragons have two different Breath Weapons. A chaos Dragon may use both breath weapons in the same turn. Each turn, one head breathes fire, which is Strength 4 and the other breathes a cloud of corrosive gas, resolved at Strength 2 with a -3 to Armour saves.</description>
+            </rule>
           </rules>
           <infoLinks>
             <infoLink id="c1c5-de30-e8ef-00fd" name="Terror" hidden="false" targetId="3767-0d81-4db9-cda7" type="rule"/>

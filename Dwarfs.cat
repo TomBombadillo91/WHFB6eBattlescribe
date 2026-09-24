@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="e0a8-8253-1a27-7620" name="Engineering Rune" hidden="false">
       <rules>
@@ -2418,7 +2418,7 @@ Any blows struck by a weapon engraved with this rune will always hit. No roll to
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="75.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e9f7-26da-9e7e-bb66" name="Master Rune of Switftness" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e9f7-26da-9e7e-bb66" name="Master Rune of Swiftness" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="73a5-32fd-bdd1-6edf" value="0.0">
               <conditionGroups>
@@ -2439,7 +2439,7 @@ Any blows struck by a weapon engraved with this rune will always hit. No roll to
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73a5-32fd-bdd1-6edf" type="max"/>
           </constraints>
           <rules>
-            <rule id="c9bc-12a5-5efd-8bcf" name="Master Rune of Switftness" hidden="false">
+            <rule id="c9bc-12a5-5efd-8bcf" name="Master Rune of Swiftness" hidden="false">
               <description>A weapon engraved with this rune always strikes first. In situations where both sides are entitled to strike first, the highest initiative value has priority over the lower value. If Initiatives are equal, both sides roll a D6 and the highest score strikes first.</description>
             </rule>
           </rules>

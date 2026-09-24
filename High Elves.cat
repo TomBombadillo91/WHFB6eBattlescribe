@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="3f17-868d-fac0-4c8d" name="First Among Equals" hidden="false">
       <constraints>
@@ -2934,7 +2934,7 @@ Counts as heavy armour (armour save 5+) which can be combined with other equipme
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="60.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b1da-c176-9bde-af73" name="Bow of the Searfarer" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b1da-c176-9bde-af73" name="Bow of the Seafarer" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -2947,7 +2947,7 @@ Counts as heavy armour (armour save 5+) which can be combined with other equipme
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebc8-3eb0-7899-0abc" type="max"/>
           </constraints>
           <rules>
-            <rule id="675e-d0c1-2293-a7fe" name="Bow of the Searfarer" hidden="false">
+            <rule id="675e-d0c1-2293-a7fe" name="Bow of the Seafarer" hidden="false">
               <description>Treat the Bow of the Seafarer as a normal longbow with the following exception. Resolve a hit from this like a single bolt from a Bolt Thrower. Note that you may stand &amp; shoot with the Bow of the Seafarer.</description>
             </rule>
           </rules>

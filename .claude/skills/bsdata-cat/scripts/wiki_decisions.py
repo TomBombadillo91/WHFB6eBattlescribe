@@ -148,7 +148,8 @@ lg["A1"] = "WHFB 6e - judgement calls needing a decision"
 lg["A1"].font = Font(name=ARIAL, size=14, bold=True)
 notes = [
     "",
-    "Fill in the Decision column on the 'Decisions' sheet. Nothing else needs editing.",
+    "Fill in the Decision column on the 'Decisions' sheet, or just write what should",
+    "happen in Notes - a note on its own counts as an answer and will be actioned.",
     "Decision cells are shaded yellow and offer a dropdown; you may also type free text.",
     "Use the Notes column for anything an agent actioning this should know.",
     "",

@@ -1,5 +1,5 @@
 {
-  "_comment": "Decisions taken on docs/judgement-calls.xlsx. wiki_xref.py reads this so a settled row is not asked again; make_xlsx carries 'Needs more thought' forward into the next sheet. Keyed by file+category+name+used_by.",
+  "_comment": "Decisions taken on docs/judgement-calls.xlsx. wiki_xref.py reads this so a settled row is not asked again; wiki_decisions.py carries 'Needs more thought' forward into the next sheet. Keyed by file+category+name+used_by. NOTE: a row with only a Notes value and a blank Decision is still an answer - eleven were missed that way once, so read both columns.",
   "decisions": [
     {
       "file": "Dark Elves.cat",
@@ -585,6 +585,105 @@
       "decision": "Leave as is",
       "chose": null,
       "note": null
+    },
+    {
+      "file": "Skaven.cat",
+      "category": "Ambiguous match",
+      "name": "Expendable",
+      "used_by": "shared; used by Clanrat Slaves, Rat Swarm",
+      "decision": "Actioned from note",
+      "chose": null,
+      "note": "split into per-unit rules: Clanrat Slaves takes the Clanrat Slaves page, Rat Swarm takes the Swarms page, shared rule removed"
+    },
+    {
+      "file": "Dwarfs.cat",
+      "category": "No wiki coverage",
+      "name": "Flame Cannon Misfire",
+      "used_by": "Flame Cannon",
+      "decision": "Actioned from note",
+      "chose": null,
+      "note": "no change: already identical to /special-rules/flame-cannon-misfire-chart"
+    },
+    {
+      "file": "Dwarfs.cat",
+      "category": "No wiki coverage",
+      "name": "Gyrocopter",
+      "used_by": "Gyrocopter",
+      "decision": "Actioned from note",
+      "chose": null,
+      "note": "no change: /unit/gyrocopter has no rules prose, and the existing text is a correct Unit Strength and armour summary"
+    },
+    {
+      "file": "Dwarfs.cat",
+      "category": "No wiki coverage",
+      "name": "Master Rune of Switftness",
+      "used_by": "Weapon Runes > Master Rune of Switftness",
+      "decision": "Actioned from note",
+      "chose": null,
+      "note": "renamed to Master Rune of Swiftness; text was already identical"
+    },
+    {
+      "file": "Dwarfs.cat",
+      "category": "No wiki coverage",
+      "name": "Organ Gun Misfire",
+      "used_by": "Organ Gun",
+      "decision": "Actioned from note",
+      "chose": null,
+      "note": "no change: already identical to /special-rules/organ-gun-misfire-chart"
+    },
+    {
+      "file": "Dwarfs.cat",
+      "category": "No wiki coverage",
+      "name": "Rule of Pride",
+      "used_by": "shared; nothing links to it",
+      "decision": "Actioned from note",
+      "chose": null,
+      "note": "no change: already item 3 of /magic-items/creating-a-rune-item verbatim, plus a deliberate BattleScribe cannot-validate caveat"
+    },
+    {
+      "file": "Forces of Chaos.cat",
+      "category": "No wiki coverage",
+      "name": "Firewyrn of Tzeentch",
+      "used_by": "Spawn of Chaos > Spawn of Chaos > Spawn of the Gods > Firewyrn of Tzeentch",
+      "decision": "Actioned from note",
+      "chose": null,
+      "note": "text taken from /special-rules/firewyrms-of-tzeentch (was a 24-char stub)"
+    },
+    {
+      "file": "Forces of Chaos.cat",
+      "category": "No wiki coverage",
+      "name": "Two Breath Weapons",
+      "used_by": "Mount > Dragon of Chaos",
+      "decision": "Actioned from note",
+      "chose": null,
+      "note": "text taken from /special-rules/breath-weapons-hordes-of-chaos (was empty)"
+    },
+    {
+      "file": "High Elves.cat",
+      "category": "No wiki coverage",
+      "name": "Bow of the Searfarer",
+      "used_by": "Magic Weapons > Bow of the Searfarer",
+      "decision": "Actioned from note",
+      "chose": null,
+      "note": "renamed to Bow of the Seafarer; text was already identical"
+    },
+    {
+      "file": "Lizardmen.cat",
+      "category": "No wiki coverage",
+      "name": "Blessed Spawning of Tlzazcotl",
+      "used_by": "Sacred Spawnings > Blessed Spawning of Tlzazcotl",
+      "decision": "Actioned from note",
+      "chose": null,
+      "note": "renamed to Blessed Spawning of Tlazcotl and text taken from its wiki page"
+    },
+    {
+      "file": "Lizardmen.cat",
+      "category": "No wiki coverage",
+      "name": "Cupped Hands of the Hold Ones",
+      "used_by": "Sacred Plaques > Cupped Hands of the Hold Ones",
+      "decision": "Actioned from note",
+      "chose": null,
+      "note": "renamed to Cupped Hands of the Old Ones and text taken from its wiki page"
     }
   ]
 }

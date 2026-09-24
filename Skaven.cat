@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="dfb1-1789-5d68-be54" name="Skaven" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="dfb1-1789-5d68-be54" name="Skaven" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="4f5c-498c-bd84-7e28" name="Clan Eshin" hidden="false"/>
     <categoryEntry id="befb-92ec-0667-152b" name="Clan Pestilens" hidden="false"/>
@@ -1087,9 +1087,13 @@ Hidden Assassins may be revealed at the beginning of any of your turns or at the
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ac66-6fc0-9d81-9099" type="max"/>
       </constraints>
+      <rules>
+        <rule id="19de-e5fa-00f4-aa5a" name="Expendable" hidden="false">
+          <description>All Skaven units automatically pass Panic tests caused by units with this special rule.</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="1d97-67ee-b6fe-4b3b" name="Skirmishers" hidden="false" targetId="4c3d-1a6a-3977-0b53" type="rule"/>
-        <infoLink id="4bd5-158e-4273-243c" name="Expendable" hidden="false" targetId="7264-0f01-1703-8143" type="rule"/>
         <infoLink id="715a-d235-b049-4d35" name="Swarm" hidden="false" targetId="3e93-6230-180b-9a1c" type="infoGroup"/>
       </infoLinks>
       <categoryLinks>
@@ -1418,9 +1422,11 @@ When moving normally, the unit uses the Chaos Dwarfs&apos; Movement rate. When r
       <constraints>
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d3db-00f6-3722-7970" type="max"/>
       </constraints>
-      <infoLinks>
-        <infoLink id="d76e-b680-0e71-082b" name="Expendable" hidden="false" targetId="7264-0f01-1703-8143" type="rule"/>
-      </infoLinks>
+      <rules>
+        <rule id="c536-9d11-bf6b-d05b" name="Expendable" hidden="false">
+          <description>All Skaven units, except other units of Clanrat Slaves, automatically pass Panic tests caused by units of Clanrat Slaves.</description>
+        </rule>
+      </rules>
       <categoryLinks>
         <categoryLink id="0bdb-a6dd-6378-1b25" name="New CategoryLink" hidden="false" targetId="62d3-efc6-6c2c-634e" primary="true"/>
       </categoryLinks>
@@ -4591,10 +4597,6 @@ Double 5 or Double 6	BLAM! The weapon builds up excessive pressure and the relea
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="7264-0f01-1703-8143" name="Expendable" hidden="false">
-      <description>All Skaven units, automatically pass Panic tests caused by other expendable units.
-Clanrat Slaves do not automatically pass Panic tests caused by other Clanrat Slaves units.</description>
-    </rule>
     <rule id="a4cb-c68f-7b4b-a34f" name="Plague Censer" hidden="false">
       <description>A censer consecrated to the Horned Rat and filled with lethal burning warpstone is used as a weapon by its crazed bearers (it counts as a flail). In addition, when the censer is swung around violently it creates a deadly cloud of warpstone vapours. If the bearer is in base contact with an enemy at the beginning of the Close Combat phase (both the Skaven player&apos;s and the enemy&apos;s), all models in base contact with one or more models armed with a censer must take a Toughness test, as should the bearer himself. If the test is failed, the victim suffers 1 wound with no armour save. All Clan Pestilens Skaven and models with the Mark of Nurgle fail the test only on a roll of 6. The wounds caused by the gas are resolved before impact hits but after Assassins are revealed and challenged models are moved.
 
