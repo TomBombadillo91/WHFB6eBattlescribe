@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9817-5d62-aa33-69f5" name="Ogre Kingdoms" revision="18" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9817-5d62-aa33-69f5" name="Ogre Kingdoms" revision="19" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5fa5-4b26-a63e-0bef" name="Big Name" hidden="false"/>
     <categoryEntry id="a123-ef4a-523b-4159" name="Has Thiefstones" hidden="false"/>
@@ -1824,27 +1824,8 @@ In the Remaining Moves phase of the turn when it arrives, the Gorger can enter t
 This is improved to a 3+ save if they are equipped with heavy armour.</description>
         </rule>
         <rule id="0b75-f1c4-2fa7-a323" name="Unit Strength" hidden="false">
-          <description>Warhammer has several rules (such as outnumbering, panic, etc) where the unit with greater impetus, size or hitting power gains an advantage over its opponents. To establish the relative power of all these different creatures, you need to determine Unit Strength. In most cases this is worked out by simply counting the number of models in a unit. However, some huge creatures such as Trolls, war machines, chariots, etc, are individually clearly more powerful than a single man on foot! These creatures have a different Unit Strength.
-
-Unit Strength Table Chart
-
-Troop Type	Unit Strength
-All Infantry (Man-sized)*	1
-Characters on foot	1
-Unit flyers	1
-Cavalry (25mm x 50mm bases)	2
-Chariots	4
-War Machines (including crew)	3
-Large Infantry (40/50mm base)*	3
-Monsters	Starting Wounds
-Ridden Monsters	1 per rider + Monster Unit Strength
-Models not specified elsewhere	1
-
-* Ogres, Trolls, Minotaurs, Kroxigor, Chaos Spawn, Snotling bases, etc. Includes characters of these races. Excludes models that qualify as Monsters.
-
-Unit The table that appears above gives you the Unit Strength value of each troop type. The Unit Strength listed is for each model in a unit. To figure out the Unit Strength of an entire regiment, count the number of models in the unit and multiply it with the appropriate number given. In the case of several types of models with different Unit Strengths in the same unit, simply add these together.
-
-Eg, a unit of three Ogres has a Unit Strength of (3x3=9).</description>
+          <description>Each Rhinox Rider has Unit Strength 4.
+Bull Rhinox Riders have a Unit Strength of 6.</description>
         </rule>
         <rule id="d102-d5b4-daea-751d" name="Thunderous Charge" hidden="false">
           <description>Even a single Rhinox Rider in full

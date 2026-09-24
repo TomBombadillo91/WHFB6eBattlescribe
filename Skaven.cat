@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="dfb1-1789-5d68-be54" name="Skaven" revision="21" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="dfb1-1789-5d68-be54" name="Skaven" revision="22" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="4f5c-498c-bd84-7e28" name="Clan Eshin" hidden="false"/>
     <categoryEntry id="befb-92ec-0667-152b" name="Clan Pestilens" hidden="false"/>
@@ -2530,7 +2530,17 @@ If the Doomwheel&apos;s movement is sufficient to move into contact wiht an enem
           <description>The Doomwheel deals D6+2 impact hits at Strength 5 when it charges into a combat.</description>
         </rule>
         <rule id="45af-4321-9847-79e6" name="Warp Lightning" hidden="false">
-          <description>Warp Lightning is a magic missile with a range of 24&quot; It can be cast at a casting value of 5+ or 9+ (declare before rolling the dice). If successfully cast, it hits its target and causes D6 Strength 5 hits at casting value 5+ or 2D6 Strength 5 hits at 9+. Each result of 1 that is rolled when determining the number of hits caused by any version of the spell hits the caster rather than the enemy. For example, if a 4 and a 1 are rolled to determine the 2D6 hits caused, the enemy suffers four hits and the caster suffers one.</description>
+          <description>In each Skaven shooting phase the Doomwheel can unleash D3 bolts of warp-lightning (roll in each Shooting phase). The Skaven player can choose not to release the warp-lightning.
+
+The power of the warp-lightning can be very unpredictable - each time roll an Artillery dice. If you roll a number then that is the Strength of all the lightning bolts this turn. Each of the bolts has a range of 3D6&quot; and will strike the nearest model in any direction - friend or foe! 
+The bolts of warp-lightning arc wildly so they ignore any terrain between them and the nearest target.
+If the Doomwheel is in contact with a unit or model don&apos;t bother rolling for range - the bolts will automatically hit the target in contact.
+
+If several targets are the same distance away the bolt will be attracted to the target with the best saving throw (since they have more metal armour on them).
+
+Each Bolt will only damage a single model, but the model struck suffers not one but D6 wounds. Against war engines, ridden monsters and the like the hit scored is randomized between the machine/creature and its crew.
+
+If you roll a misfire something has gone awry with the warpstone generator. The Doomwheel will fire three shots at full range and full power (so 18&quot; at Strength 10). After this te Doomwheel itself is destroyed and removed from play.</description>
         </rule>
         <rule id="77ed-8cd8-003d-e77b" name="Crew Attacks" hidden="false">
           <description>Chariot crew may fight against enemy in contact with the chariot whether to its front, side or rear. They strike blows in normal Initiative order and attack during a charge, exactly like other warriors. All crew (usually two) fight, including the driver.
@@ -2971,7 +2981,9 @@ Hidden Assassins are not placed on the table but are assumed to move with the un
 Hidden Assassins may be revealed at the beginning of any of your turns or at the start of any Close Combat phase. The player declares that his unit contains an Assassin and places the model amongst the ranks where it can fight, displacing a normal rank-and-file model (not a character, champion, musician or standard bearer) to the rearmost rank. If there are no such models in the front rank, the Assassin is placed in the second rank until there is enough room for him in the first rank. Assassins always strikes first in the round of close combat they are revealed, even against chargers. If an enemy model is also entitled to always strike first, the model with higher Initiative strikes first (roll a D6 if they have equal Initiative).</description>
         </rule>
         <rule id="d10a-d615-396e-d576" name="Leadership" hidden="false">
-          <description>Units in the army can never use their Leadership value and an Assassin can never be the General of the army (therefore your army must include at least one other character to act as the General).</description>
+          <description>The Master Assassin can always pass his Leadership value to all units of Night Runners and Gutter Runners within 12&quot; (ask your opponent to look away if you have to measure range when he is hidden, then measure range to the unit he is hidden in)
+
+Other units can only use his Leadership if he is not hidden.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3528,7 +3540,17 @@ The Bell&apos;s unit is reassured by the presence of the holy artefact and is th
 When casting spells from the Bell, the Grey Seer can measure a spell&apos;s range from any point of the Screaming Bell&apos;s carriage.</description>
         </rule>
         <rule id="a398-26ae-6288-980f" name="Screaming Bell" hidden="false">
-          <description>Screaming Bells are holy altars from which the Grey Seers preach to the the Skaven. The Bell is an ever-present symbol in the legends describing the creation of the Skaven race, and its sound reaches deep inside the evil hearts of the rat-men, inspiring awe and devotion. In battle the ominous sound of the Bell can be beard above the clamour of the flghting, a message of death for the rat-men&apos;s enemies and of victory for the Skaven.</description>
+          <description>The Screaming Bell is a large target and has a Unit Strength of 4 (5 with the Grey Seer).
+
+The Screaming Bell has a Ward save of 3+ representing hits that bounce off the indestructible Bell of the Horned One itself. The Grey Seer does not benefit from this save, but gets the normal 5+ armour save from being on a chariot, representing the shelter he gets from the Bell&apos;s carriage.
+
+Unsaved wounds caused by a hit with a Strength of 7 or more destroy the Screaming Bell automatically. On the other hand, every time one such wound is saved by the Bell&apos;s Ward save, the Screaming Bell will immediately ring with three dice as described below. Any new effects generated in this way replace effects that were lasting from a previous ringing of the Bell.
+
+The Screaming Bell and the unit pushing it have Magic Resistance (2).
+
+The Screaming Bell adds two dice to the Skaven pool of Power dice in the Skaven Magic phase. These dice can be used only by the Grey Seer.
+
+The Grey Seer can take advantage of his high position, drawing line of sight for his spells over the heads of the Bell&apos;s unit (remember, the Bell is a large target). In addition, he is free to cast spells all around, not only in the unit&apos;s line of sight.</description>
         </rule>
         <rule id="5504-15d8-c299-99fe" name="Missile Fire Against The Bell" hidden="false">
           <description>Enemies with a line of sight to the Screaming Bell may choose whether to target the Bell or its unit with their missile fire.

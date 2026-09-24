@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7bb5-70b8-0122-944c" name="Wood Elves" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7bb5-70b8-0122-944c" name="Wood Elves" revision="16" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="4f0e-c683-4011-68a9" name="Magic Bow" hidden="true"/>
     <categoryEntry id="3fee-c6b4-de1c-b33e" name="Magic Arrows" hidden="false"/>
@@ -1939,7 +1939,7 @@ Regardless of whether the Warhawk Riders choose to fall back or not, the enemy m
 Orion is Unbreakable. However, if he is beaten in combat, his essence will begin to fade. If Orion is beaten in combat, then for each point of combat resolution he loses by he also loses one wound. If Orion is within 6&quot; of a wood the number of wounds he loses is reduced by one (so, if he loses the combat by one and is within 6&quot; of a wood, he does not lose any wounds).</description>
         </rule>
         <rule id="8ecc-af94-c651-17f3" name="The Wild Hunt" hidden="false">
-          <description>As long as they have a Musician, when a unit of Wild Riders charges it causes fear until the start of the next Wood Elf turn.</description>
+          <description>In an army led by Orion, Wild Riders of Kurnous are a Core choice. An army led by Orion must include at least one unit of Wild Riders. In addition, in an army led by Orion, Glade Guard and Scouts count as Special units, and Waywatchers may not be taken at all.</description>
         </rule>
       </rules>
       <infoLinks>

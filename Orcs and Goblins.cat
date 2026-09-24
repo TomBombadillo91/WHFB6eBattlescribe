@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9534-aec7-1922-76f2" name="Orcs and Goblins" revision="21" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9534-aec7-1922-76f2" name="Orcs and Goblins" revision="22" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5b0c-07f2-6b72-7aa8" name="Orc" hidden="false"/>
     <categoryEntry id="2c47-226a-5465-6c16" name="Common Orc" hidden="false"/>
@@ -5058,7 +5058,21 @@ The Eye gives Magic Resistance (1) to Grimgor and his Bodyguard.</description>
               </profiles>
               <rules>
                 <rule id="145e-79c1-5f37-e609" name="Bodyguard" hidden="false">
-                  <description>As long as the army&apos;s General is with this unit, the unit is Stubborn.</description>
+                  <description>Grimgor is always accompanied by a Bodyguard of equally scarred and grizzled. Black Orc veterans from his days in the wastes. He may not leave this unit. The following rules apply.
+
+The Bodyguard must be at least 9 models strong, not counting Grimgor. The points for the first 9 models are included in the cost above. Up to 10 more Black Orcs may be added to the Bodyguard at a cost of +13 points per additional model.
+
+The Bodyguard is equipped with choppas, additional hand weapons and heavy armour.
+
+The Bodyguard has a Musician.
+
+The Bodyguard has a Standard Bearer who carries the magical Blasted Banner. The unit carried this all the way from the Blasted Wastes and they&apos;re not going to lose it now! The Bodyguard (and Grimgor) is Stubborn whilst they retain the banner.
+
+The Bodyguard is in addition to the one unit of Black Orcs you are normally allowed in your army. This means that an army led by Grimgor may have up to two units of Black Orcs in total.
+
+No characters, except Grimgor, may join his Bodyguard. Grimgor may not leave it.
+
+When setting up a game, Grimgor and his Bodyguard deploy at the same time as other characters.</description>
                 </rule>
               </rules>
               <selectionEntries>
@@ -7767,13 +7781,33 @@ Note that the bonus armour save for using a hand weapon and shield does not appl
       <description>Orcs expect the smaller greenskins to run away and it doesn&apos;t really surprise them when they do. The sight of fleeing Goblins and Snotlings simply reminds the bigger and bolder Orcs why they are best. Consequently when a Goblin unit, Snotling Swarm or Snotling Pump Wagon is destroyed, breaks or flees past, Orc units do not need to test for panic.</description>
     </rule>
     <rule id="2664-5dbe-5f13-be94" name="Animosity" hidden="false">
-      <description>Ruglud’s Orcs suffer from Animosity like any other Greenskin unit, and must test each turn so long as the unit is not engaged in hand-to-hand combat, is not fleeing, and numbers at least five models. In the start of the Turn phase roll a D6 for Ruglud’s Armoured Orcs – on a 2+ the unit passes the test and moves/fights normally this turn. On a roll of 1 the unit fails the test. To determine what happens, roll a D6 and consult the table below (note that this table is different from the table of other Greenskin units).
+      <description>When greenskins get together they start to pick fights, bicker, and misbehave in all sorts of appalling ways. Even at the best of times, squabbling in the ranks can send a greenskin horde into disarray. One moment a mob is striding purposefully towards the enemy, and the next it is brought to a halt whilst two or more greenies settle their differences. As the army&apos;s commander, you will find this waywardness a great drawback. Inevitably you will hear the cries of dissent amongst your forces and realise that, once again, your best laid plans have been laid low by some petty quarrel.
 
-Animosity (Regiments of Renown) Chart
+Which Units Must Test?
+We take this unruly tendency into account by means of what we call the Animosity test. Not all your units have to take this test: Trolls, Snotlings, war machines and chariots do not, for example. In fact, only those greenskins fighting as part of a largish unit have to test for Animosity. The units that have to test are as follows:
 
-D6		Result
-1-2	Let&apos;s show &apos;em what these crossbows can do!	Ruglud&apos;s Armoured Orcs shoot at the closest unit, friend or foe. All models in the unit can fire without movement penalty at the nearest target in any direction, ignoring the usual restrictions for line of sight and fire arcs – this is an exception to the normal rules for shooting. The shots are worked out immediately, not in the Shooting phase, and the models themselves are not moved. The unit cannot do anything else that turn. If there are no units within range, the unit Squabbles instead (see the next entry).
-3-6	Squabble	An internal squabble amongst the ranks soon grows into a minor riot with fists and curses flying. This throws the unit into disorder and prevents all moving and shooting this turn. The unit can do nothing this turn while Ruglud cracks heads together to restore order.</description>
+Infantry and cavalry units of five or more Orc or Goblin models must test for Animosity at the start of each turn unless they are already engaged in close combat. All types of Goblin are affected (Common Gobbos and Night Goblins) and all types of Orcs except Black Orcs. Black Orcs are not affected and never have to test. Note that even though Savage Orcs are frenzied they must still take Animosity tests (Animosity is not a psychology test like panic, for example). After all, who are more likely to start fighting among themselves than Savage Orcs?
+
+A unit which is engaged in close combat at the start of its turn is exempt from Animosity. No test is required. The greenies are too busy fighting the enemy to squabble amongst themselves.
+
+A unit which is fleeing at the start of the turn is exempt from Animosity.
+
+Characters who are with units are considered to be part of those units and must go along with the Animosity result of the unit itself. A Shaman in a unit suffering from Animosity cannot cast spells or use magic items (e.g., Dispel scrolls) whilst the Animosity lasts, though they still contribute Power dice and Dispel dice to the pile as normal.
+
+War machines and chariots are never affected by Animosity.
+
+Squig Herd units are only affected by Animosity if they include five or more Night Goblins. Squigs and Squig Hoppers don&apos;t count towards the total. However, if the unit fails its test the entire unit is covered by the result - Squigs as well as Squig Hoppers and Night Goblins.
+
+Individual models, such as Fanatics or Squig Hoppers which have already left their original units, are not affected by Animosity.
+
+Black Orcs, Trolls, Snotlings, Giants and other such creatures are not affected by Animosity; only Goblins and Orcs as specified above.
+
+Units which fall below five models are not affected by Animosity and consequently do not have to test for it. With so few greenskins left to worry about the unit&apos;s leader can easily keep order.
+
+Units that have pursued the enemy off the table do not have to test until they return to the battlefield.
+
+When To Test
+At the end of the Start of the Turn phase in each of your turns you must test for each Orc and Goblin unit as described above. Starting on one side of the table and working through your army, roll a D6 for each unit. On a 2+ the unit passes the test and moves/fights normally this turn. On a 1 the unit fails the test. To determine what happens to a unit that fails its test, roll a D6 and consult the Animosity table.</description>
     </rule>
     <rule id="54d8-2a0c-e609-a983" name="Quell Animosity" hidden="false">
       <description>Models with this special rule do not test for Animosity. Furthermore, the stem scowls and menacing sneers of the model are so threatening that a unit which fails an Animosity test when led by a Character with this rule, or within 6&quot; of a model with this rule, will ignore the roll and must immediately roll again. If this second roll is also failed then a roll on the Animosity table is taken as usual. If the models with this rule are fleeing then they cannot quell Animosity in other units nearby.</description>

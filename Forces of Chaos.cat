@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="25" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="26" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="e8a8-d83e-c60c-3ad0" name="Hordes of Chaos"/>
     <publication id="dc3a-2511-d23a-deb3" name="Beasts of Chaos"/>
@@ -5548,7 +5548,8 @@ D6	Result
       </modifierGroups>
       <rules>
         <rule id="6f72-b60c-92e6-90d6" name="Swift Steed" hidden="false">
-          <description>&gt; In the Warhammer Chronicles 2004 Official Rules for Mounted Daemonettes, the Swift Steed rule listed the always strikes first rule instead of being listed under Tongue Attack.</description>
+          <description>Mounted Daemonettes count as Fast Cavalry. In addition, because of its preternatural dexterity, the mount always strikes first in close combat even agaisnt a charging enemy. If an opponent has the same ability, resolve the strikes in Initiative order - if these are the same, roll a D6 to see who strikes first.
+Note this ability applies only to the mount, not to the Daemonette rider.</description>
         </rule>
       </rules>
       <infoLinks>
