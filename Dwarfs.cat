@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="e0a8-8253-1a27-7620" name="Engineering Rune" hidden="false">
       <rules>
         <rule id="6347-45b4-b61f-1746" name="Engineering Rune" hidden="false">
-          <description>Dwarf Cannons, Stone Throwers and Bolt Throwers may be inscribed with up to three of the Engineering Runes described below. The newfangled (to the Dwarfs) Organ Gun, Flame Cannon and Gyrocopter may not have Engineering runes. Note that a shot from a war machine inscribed with Engineering runes counts as a magical attack.
-
-Engineering Runes Type</description>
+          <description>Dwarf Cannons, Stone Throwers and Bolt Throwers may be inscribed with up to three of the Engineering Runes described below. The newfangled (to the Dwarfs) Organ Gun, Flame Cannon and Gyrocopter may not have Engineering runes. Note that a shot from a war machine inscribed with Engineering runes counts as a magical attack.</description>
         </rule>
       </rules>
     </categoryEntry>
@@ -1968,14 +1966,10 @@ If you roll a Misfire on the Artillery dice then the Flame Cannon has malfunctio
 
 Profiles
 
-Flame Cannon Chart
-
 Max. Range	Strength	Wounds	Armour Save
 12&quot;	5	D3	-2
 
 You can move the Flame Cannon at the same rate as it crew, assuming they are all alive. If any crew are slain, the Move rate is reduced proportionately. The Flame Cannon may be turned on the spot to face its target, but cannot otherwise move and fire in the same turn.
-
-War Machine Profile Chart
 
 Movement	Toughness	Wounds
 As crew	7	3
@@ -2058,8 +2052,6 @@ To represent the explosion, place a large Blast template (5&quot; diameter) wher
         <rule id="e288-c9fc-67be-5dbf" name="Steam Gun" hidden="false">
           <description>The Gyrocopter is armed with a steam-powered gun that unleashes a hail of lead bullets similar to a cannon&apos;s grapeshot. To represent the blast of the steam gun, use the Flame template. Place the template with the broad end over the target and the narrow end touching the muzzle of the gun. Any models completely under the template are automatically hit and models partially covered are hit on the roll of a 4+.
 
-Steam Gun Chart
-
 Range	Strength	Armour Save
 Steam Gun	Flame Template	3	-1</description>
         </rule>
@@ -2110,14 +2102,10 @@ Profiles
 
 The Organ Gun ha more barrels than an ordinary cannon but these are smaller and lighter. Its range and the damage it inflicts are considerably different from a cannon&apos;s.
 
-Organ Gun Chart
-
 Range	Strength	Armour Save
 18&quot;	5	-3
 
 Organ Guns are stoutly made from iron and solid wood and can sustain considerable damage as shown on their profile below. An Organ Gun can be moved by its Dwarf crew at 3&quot; per turn. If any crew are slain, the Move rate is reduced proportionally. The Organ Gun cannot move and shoot in the same turn, other than to pivot on the spot to face its target.
-
-War Machine Profile Chart
 
 Movement	Toughness	Wounds
 As crew	7	3
@@ -2191,7 +2179,7 @@ No more than one item may carry the same combination of magic runes. You could n
       </profiles>
       <rules>
         <rule id="9e16-d9de-996e-1f44" name="Anvil of Doom" hidden="false">
-          <description>A Dwarf army may have one and only one Anvil of Doom. In gaming terms, the Anvil is treated a a piece of terrain; it cannot be moved or attacked at all (no more than you can move or attack a hill!).
+          <description>A Dwarf army may have one and only one Anvil of Doom. In gaming terms, the Anvil is treated as a piece of terrain; it cannot be moved or attacked at all (no more than you can move or attack a hill!).
 
 The Runelord and the two Anvil Guards would rather give their lives before abandoning this most ancient artefact, and must remain for all the battle on the platform. They are Unbreakable, may not declare charges and will never pursue beaten foes. The Anvil and crew have a Unit Strength of 3.
 
@@ -2206,7 +2194,21 @@ During his own Magic phase the Dwarf player receives D6+2 Power dice. During the
 The Runelord uses the powers of the Anvil of Doom by striking the appropriate elemental rune upon it. In gaming terms, the Runelord may cast each of the four runic powers one per Magic phase using the Power dice provided by the Anvil. He may use a maximum of four dice to power a runic spell. If the Runelord is fighting in close combat, he will not be able to cast runic spells. If the spell is miscast, the Runelord does not have to roll on the Miscast table, but the Dwarf Magic phase ends immediately and all remaining dice are discarded.</description>
         </rule>
         <rule id="3bf0-ff66-4c13-09e0" name="Runic Powers" hidden="false">
-          <description>Runic Powers Lore</description>
+          <description>Rune of Water (Bound Spell)
+Cast on 6+
+When struck properly, the Anvil&apos;s magic pulses out into the ground, drawing water from underground Lakes and rivers and causing it to swell up onto the battlefield to create a mire. This power can be cast on any enemy unit on the tabletop. The unit&apos;s Movement is halved until the end of its own following tum. If forced to flee, for whatever reason, the unit flees at half speed (determine the flee distance of the unit as normal and then halve the score, rounding up). This spell has no effect on flyers or ethereal creatures.
+
+Rune of Air (Bound Spell)
+Cast on 7+
+If successfully struck, this rune causes a dark cloud to gather over the battlefield and a storm of lightning cascade down upon an enemy unit. This spell can be cast on any enemy unit on the tabletop, causing D6 Strength 4 hits. These hits are distributed exactly like hits from shooting.
+
+Rune of Fire (Bound Spell)
+Cast on 8+
+Each blow of the Runelord&apos;s hammer causes a fiery ball to explode into his foes. This rune releases a magic missile with a range of 30&quot;. If successfully cast, the fireball causes 2D6 Strength 4 hits.
+
+Rune of Earth (Bound Spell)
+Cast on 9+
+The clang of hammer on rune reverberates across the battlefield, causing the ground to tremble before exploding under the enemy in a hail of rocky shards. This spell can be cast on any enemy unit within line of sight. The Anvil causes D6 Strength 5 hits on any one enemy unit on the tabletop, plus a further D6 Strength 5 hits if the unit is partially or wholly within a rocky feature (all hills, rocky outcrops, ruins, or any similar area which has been identified as high ground, rocky or ruinous before the game).</description>
         </rule>
       </rules>
       <infoLinks>

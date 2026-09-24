@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3604-800a-4012-5da6" name="Dogs of War" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3604-800a-4012-5da6" name="Dogs of War" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5e7e-36e5-c0bf-c57c" name="Dogs of War" hidden="false"/>
     <categoryEntry id="c51c-ed7d-9669-006f" name="Regiment of Renown" hidden="false"/>
@@ -4231,7 +4231,49 @@ A Truthsayer costs 265 points and uses up both a Rare choice and a Hero choice.
 If fighting alongside a Dwarf army containing an Anvil of Doom make two separate pools of Power dice in your own Magic phase: one pool to be used with the Anvil (D6+2 dice) and one to be used by the Truthsayer (two dice plus three for his Level). In your opponent&apos;s Magic phase, you can group all your Dispel dice into a single pool.</description>
         </rule>
         <rule id="3a09-57ec-3385-511b" name="Truthsayer Spell List" hidden="false">
-          <description>Truthsayers&apos; Spell List Lore</description>
+          <description>Elemental Power (Signature Spell)
+Casting Value: 6+
+Fenbeasts are elemental creatures which thrive on the magic which suffuses the isle of Albion. This can be boosted by magical energy from the Truthsayer or Dark Emissary.
+
+As well as their normal spells, Truthsayers and Dark Emissaries also have the Elemental Power spell, which is only of use on Fenbeasts. Pick a single Fenbeast within 18&quot; of the caster. The Fenbeast immediately gains D3 Wounds, up to its starting value of 4.
+
+1. Wings of Fate
+Casting Value: 5+
+The Truthsayer conjures a flock of enchanted birds to attack his enemies.
+
+The flock is a magic missile with a range of up to 24&quot;. If successfully cast, the flock hits its target and causes 2D6 Strength 2 hits.
+
+2. Light of Battle
+Casting Value: 6+
+A chosen regiment of warriors is protected by a shimmering barrier that deflects enemy missiles and blows.
+
+This spell can be cast on one friendly unit anywhere on the battlefield, even if engaged in close combat. All models in the unit receive a 5+ Ward save until the beginning of the caster&apos;s next turn.
+
+3. Gift of Life
+Casting Value: 7+
+Dying warriors that are lying broken on the battlefield are granted a new chance, their bodies are healed of all wounds and their strength is returned to them.
+
+Each unit in the player&apos;s army is given back one model that has been removed as a casualty during the game. The model is placed back in its original unit, with its full complement of Wounds. The spell has no effect on units that have been destroyed or fled off the table. All characters, chariots and models with 4 or more Wounds on their profile who have been wounded get one lost Wound back. This spell has no effect on war machines (but it can restore a lost crew member).
+
+4. Blessing of Valour
+Casting Value: 8+
+The prayers of the Truthsayer are heeded in the heavens and his warriors are filled with the strength and skills of the gods of hunting and battle.
+
+Remains in play. This spell can be cast on a friendly unit which is anywhere on the battlefield, even if it is engaged in close combat. If successfully cast, all models that are in the unit get a bonus of +1 to all their rolls to hit (both shooting and close combat attacks). Once it is cast, the Blessing remains in play until it is dispelled, or until the Wizard chooses to end it (which he can do at any time), attempts to cast another spell or is slain.
+
+5. Boon of Courage
+Casting Value: 8+
+The warriors hear the commanding voice of the Truthsayer in their minds, calling upon their honour and bidding them to fight on, no matter how desperate their situation has become.
+
+This spell can be cast on one friendly unit anywhere on the battlefield, even if it is engaged in close combat. If successfully cast, the unit is Unbreakable until the beginning of the caster&apos;s next turn.
+
+If cast on a fleeing unit, the unit immediately rallies, regardless of how many models are left in it.
+
+6. Voice of Command
+Casting Value: 9+
+Hearing the booming voice of the Truthsayer, an enemy regiment suddenly stops in its tracks, doubt filling their minds, hesitation paralysing their limbs.
+
+This spell can be cast on any enemy unit on the table. The unit must immediately take a Leadership test. If the test is failed, the unit immediately loses all its fighting spirit. The affected unit cannot move in its next Movement phase (except if the unit is subject to some form of compulsory movement, such as fleeing, stupidity, etc). In addition, the unit cannot shoot in its next Shooting phase. This spell has no effect on models that are Immune to Psychology.</description>
         </rule>
         <rule id="9e89-884e-13a1-978f" name="Level 3 Wizard" hidden="false">
           <description>Truthsayers are Level 3 Wizards. They always use spells from the Truthsayer spell list.</description>

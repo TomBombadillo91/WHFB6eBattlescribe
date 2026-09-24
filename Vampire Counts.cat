@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2c0-45b3-040e-fe0f" name="Vampire Counts" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2c0-45b3-040e-fe0f" name="Vampire Counts" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7d18-159a-be52-079b" name="Vampire" hidden="false"/>
     <categoryEntry id="72bd-3327-881f-a995" name="Von Carstein" hidden="false"/>
@@ -1649,9 +1649,7 @@ Models with this special rule resolve their attacks at Strength 4 during the tur
         <selectionEntry id="bd1f-0760-31b7-4cae" name="Von Carstein" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="a2f5-8353-7672-30ae" name="Von Carstein" hidden="false">
-              <description>Von Carsten Vampires are the archetypal Vampires of the Old World. Vampires&apos; characteristics and options in the army list are based on them, so they don&apos;t get any additional special Bloodline rules.
-
-Von Carstein Type</description>
+              <description>Von Carsten Vampires are the archetypal Vampires of the Old World. Vampires&apos; characteristics and options in the army list are based on them, so they don&apos;t get any additional special Bloodline rules.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -1667,9 +1665,7 @@ Von Carstein Type</description>
               <description>- +1 to the total rolled when trying to cast a spell.
 - Thralls can use Arcane items.
 - Cannot choose any mundane weapons or armour.
-- -2 to their Weapon Skill.
-
-Necrarch Type</description>
+- -2 to their Weapon Skill.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -1684,9 +1680,7 @@ Necrarch Type</description>
             <rule id="36ea-ad3f-56c0-4e5c" name="Blood Dragon" hidden="false">
               <description>- +2 to their Weapon Skill.
 - Lords and Counts automatically wear full plate armour (4+ armour save) and can cast spells whilst wearing armour, but they generate one less Power dice than their Magic level in their own Magic phase. They generate Dispel dice as normal.
-- The Blood Dragon with the highest Leadership in a combat must always issue challenges and must always accept enemy challenges if possible.
-
-Blood Dragon Type</description>
+- The Blood Dragon with the highest Leadership in a combat must always issue challenges and must always accept enemy challenges if possible.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -1705,9 +1699,7 @@ Blood Dragon Type</description>
 - Cannot choose any mundane weapons or armour.
 - Cannot use any magic item.
 - Always fight on foot.
-- Thralls cannot be given the Battle Standard.
-
-Strigoi Type</description>
+- Thralls cannot be given the Battle Standard.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -1734,9 +1726,7 @@ If a Lahmian Vampire has more than one of these powers, the selected model must 
 
 In the case of chariots, ridden monsters/chariots and similar models, take the test using the best Leadership value available. If the test is failed, the result will affect the entire model (crew, steeds, monster and riding character). Impact hits are applied before these tests are taken.
 
-Challenges are issued and accepted before these tests, and if the Vampire is involved in a challenge she can only use these powers on her opponent. In this case a chariot&apos;s crew and steeds would be allowed to exchange blows with the Vampire&apos;s unit, even if the character riding in the chariot has been seduced, dominated, etc.
-
-Lahmia Type</description>
+Challenges are issued and accepted before these tests, and if the Vampire is involved in a challenge she can only use these powers on her opponent. In this case a chariot&apos;s crew and steeds would be allowed to exchange blows with the Vampire&apos;s unit, even if the character riding in the chariot has been seduced, dominated, etc.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -1904,7 +1894,7 @@ The Movement of the Vampire is increased to 9 as long as he is moving on foot.</
           </constraints>
           <rules>
             <rule id="f3fb-59c1-fce2-2ac6" name="Red Fury" hidden="false">
-              <description>The Vampire has + 1 Attack.</description>
+              <description>The Vampire has +1 Attack.</description>
             </rule>
           </rules>
           <costs>
@@ -2497,7 +2487,64 @@ At the beginning of the Close Combat phase select one model in base contact with
         <selectionEntry id="d62b-327f-8207-6bbd" name="Necromancy" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="2d65-1337-b88a-1a55" name="Necromancy" hidden="false">
-              <description>Necromancy Lore</description>
+              <description>1. Invocation of Nehek
+Casting Value: 3+
+Buried deep within the earth of the Old World lie the bones of those who have fallen in countless battles. Undead wizard can awaken these warriors from their rest to serve him in an unholy afterlife.
+
+This spell can be used in three different ways - to add models to an existing unit, to create a new unit or to restore lost Wounds to a model. In all cases, it has a range of 18&quot;. The caster must declare if he is using the spell on an existing unit (declare target unit), to create a new unit (declare whether Zombies or Skeletons) or to restore lost Wounds (declare target model), as well as the Casting Value he is attempting (3+, 7+ or 11+), before he rolls the dice to cast.
+
+The higher the Casting Value chosen, the more effective will be the result of the spell if cast successfully (see below).
+
+Note that this spell can be cast only once per Magic phase, as normal, and not once per Casting Value.
+
+- Can be cast to add new models to an existing unit of Zombies or Skeletons. If successfully cast, choose one unit of Zombies or Skeletons (even if engaged in close combat) and then measure the range to it. If the unit is in range, the spell adds D6/2D6/3D6 models to the unit (add +1 per dice for Zombies), depending on the Difficulty Level chosen (see the table below). The new models will be armed and equipped exactly like the other models in the unit. Note that this can take the number of models in the unit above the maximum allowed in the army list. The Victory points value of the unit does not change.
+- Can be cast to create a new unit of Zombies or Skeletons. If successfully cast, choose any point within 18&quot; and place one model on it. Then form the rest of the models around it. The new unit will consist of D6/2D6/3D6 models (add +1 per dice for Zombies), depending on the Casting Value chosen (see the table below). Skeletons will be armed with a hand weapon and shield. Zombies will be armed with a hand weapon. If less than five models are created, the spell has failed to work and no models can be placed on the table. Units created in this way must be deployed at least 1&quot; away from any enemy, but may be in any formation and facing any direction. Immediately calculate the Victory points value of the new unit (at 6 points per Zombie or 8 points per Skeleton) and record it straight away.
+- Can be cast to restore lost Wounds to an Undead model with multiple Wounds on its profile. If successfully cast, choose one Undead model (even if engaged in close combat) and then measure the range to it. If the model is in range, the spell restores 1/2/3 Wounds to the target, depending on the Casting Value chosen, (see the table below). This spell cannot be used to take the Wounds of the model above the number it started the game with.
+
+Casting Value	Models Created	Wounds Restored
+3+	D6 Skeletons or D6+1 Zombies	1 Wound
+7+	2D6 Skeletons or 2D6+2 Zombies	2 Wounds
+11+	3D6 Skeletons or 3D6+3 Zombies	3 Wounds
+
+2. Hand of Dust
+Casting Value: 7+
+The Undead has the ability to cause anything he touches to age centuries within a second. As he grips his opponent tightly, the victim and all his possessions are instantly turned to dust which is scattered by the wind of ages.
+
+Remains in play. This spell can be cast by the Wizard on himself. It can be cast even if the Wizard is in close combat. Once it has been cast, the spell lasts until it is dispelled, or until the Wizard decides to end it (which he can do at any time), attempts to cast another spell or is slain.
+
+Whilst the spell is in play, the caster is reduced to a single Attack in close combat. If this attack hits, the enemy is killed automatically, with no armour saves allowed (this works exactly like a Killing Blow attack, with the only difference being that it can affect models of any size). The enemy can take a Ward save, if he has any, but if the wound is not saved the model is dead.
+
+3. Hellish Vigour
+Casting Value: 7+
+The Undead concentrates on animating the creatures under his control. They attack with such speed and ferocity that few can defend against their flurry of blows.
+
+Target one of your own Undead units within 18&quot; and which is in close combat. In the next Close Combat phase all models in the unit attacks first, even if they have been charged, are armed with Great Weapons and so on (even Zombies! This is the only exception to the Braindead rule), and can re-roll any missed To Hit rolls.
+
+4. Gaze of Nagash
+Casting Value: 8+
+Bolts of Dark Magic leap from the Undead spellcaster&apos;s eyes. Where the beams touch the victims flesh, their skin blackens and withers, sloughing away till the white gleam of bone is visible beneath.
+
+This is a magic missile with a range of 24&quot;. If successfully cast, the Gaze of Nagash hits its target and causes 2D6 Strength 4 hits.
+
+5. Vanhel&apos;s Danse Macabre
+Casting Value: 9+
+The Undead are filled with an unholy magical energy that causes them to stride across the battlefield with a speed that even most mortals are unable to match.
+
+This spell can be cast on a friendly Undead unit that is within 18&quot;, and which is not already engaged in close combat. The unit can immediately make a move of up to 8&quot; in the same way as a normal move made in the Movement phase (it can wheel, turn, change formation or even reform).
+
+The unit can charge an enemy within 8&quot; if opportunity permits and the same rules apply as for a normal charge (except that if the charge is failed the Undead will still move the full 8&quot;). A unit that is charged by means of Vanhel&apos;s Danse Macabre can react to the charge as normal and must take the appropriate Psychology tests.
+
+6. Curse of Years
+Casting Value: 10+
+The enemies of the Undead feel their limbs become heavy and their hair turns grey. They collapse, unable to support themselves as death catches up with them.
+
+Remains in play. The Curse of Years can be cast on any one unengaged enemy unit within 24&quot;.
+
+If successfully cast, the enemy swiftly starts to age. Roll a dice for each model in the affected unit. A model will suffer a wound on the roll of a 6+. No armour saves are allowed.
+
+Once it has been cast, the spell remains in play. It lasts until it is dispelled, or until the Wizard decides to end it (which he can do at any time), attempts to cast another spell or is slain. If not dispelled, at the beginning of the caster&apos;s next Magic phase, models in the affected unit suffer a wound on a 5+. In the caster&apos;s next Magic phase they will suffer a wound on a 4+ and so on, to a minimum of 2+. No armour saves are allowed.
+
+Characters who are part of a unit affected by this spell stop suffering from its effects if they leave the unit.</description>
             </rule>
           </rules>
           <costs>
