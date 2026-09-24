@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4ca8-2035-2f87-1bd7" name="WHFB 6th Edition" revision="29" battleScribeVersion="2.03" authorName="Tom Clare" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="4ca8-2035-2f87-1bd7" name="WHFB 6th Edition" revision="33" battleScribeVersion="2.03" authorName="Tom Clare" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="d9e7-add3-773e-ffab" name="BRB"/>
     <publication id="2c29-8521-dcc7-5337" name="Warhammer Chronicles 2003"/>
@@ -490,7 +490,39 @@ Note that a Dispel Scroll will not help if the spell has been cast with Irresist
         <rule id="7024-2978-a5b8-7165" name="Lore of Fire" hidden="false">
           <description>All of these spells are considered to be Fire attacks and cause double damage against flammable creatures.
 
-The Lore of Fire Lore</description>
+1. Fire Ball
+Casting Value: 5+
+The fire ball is a magic missile with a range of up to 24&quot;. If successfully cast, the Fire Ball hits its target and causes D6 Strength 4 hits.
+
+2. Flaming Sword of Rhuin
+Casting Value: 6+
+Remains in play. This spell can be cast by the Wizard on himself. It can be cast even if the Wizard is in close combat. Once it has been cast, the spell lasts until the Wizard attempts another spell.
+
+A magical flaming blade materializes in the Wizard&apos;s grasp. This counts as a magic weapon. The Wizard gains +1 additional Attack to his profile for the duration of the spell. All the Wizard&apos;s attacks will hit on a basic score of 2+ and he adds +3 to his Strength whilst using the Sword of Rhuin. Whilst he has the Flaming Sword, the Wizard must use it as his sole weapon, he cannot combine it with other weapons.
+
+3. Fiery Blast
+Casting Value: 8+
+The Fiery Blast is an especially dangerous magic missile - it is an upmarket version of the Fire Ball, being both more powerful and harder to cast. The Fiery Blast has a range of up to 24&quot;. If successfully cast, the Fiery Blast hits its target and causes 2D6 Strength 4 hits.
+
+4. Burning Head
+Casting Value: 9+
+A phantasmic flaming head shoots 18&quot; from the caster in a straight direct path, laughing insanely as it burns a trail of destruction in its way. Each model that lies in the direct path of the Burning Head suffers a Strength 4 hit.
+
+5. Conflagration of Doom
+Casting Value: 11+
+This can be cast on any enemy unit anywhere on the table. If successfully cast, the target bursts into flames taking D6 Strength 4 hits. The target can take further hits depending on how long the fire burns. To represent this both players roll a D6. If the casting player&apos;s dice score is lower than or equal to his opponent&apos;s, the flames go out and nothing else happens, but if he rolls higher, add the dice roll to the number of hits caused. Both players then roll a further D6 and repeat the process until the casting player rolls equal to or less than his opponent. Once the casting player fails to roll higher, the fire goes out and no further hits are caused.
+
+6. Wall of Fire
+Casting Value: 12+
+Remains in play. This spell has a range of 24&quot; and can be cast on an enemy unit visible to the caster which has no models (friend or foe) within 1&quot; of its front rank (walls. hedges and other scenic features don&apos;t matter). The spell cannot be cast on units with a 360° line of sight.
+
+A searing wall of flame suddenly rises in front of the unit. To represent this take some cotton wool or paper and place this in a line up to 1&quot; thick in front of the unit.
+
+The unit suffers 1 automatic hit for each model (including characters) in its front rank. Each hit is resolved with a Strength of 4.
+
+Once it is cast, the Wall of Fire remains where it is until it is dispelled, or until the Wizard chooses to end it (which he can do at any time), attempts to cast another spell or is slain. No further hits are caused by the Wall of Fire unless a unit tries to move through it, in which case each model that moves through the Wall of Fire suffers a further Strength 4 hit.
+
+The Wall of Fire does not block the line of sight of archers and chargers, nor does it reduce a unit&apos;s Movement rate.</description>
         </rule>
       </rules>
       <costs>
@@ -502,7 +534,29 @@ The Lore of Fire Lore</description>
         <rule id="c6c8-6225-afec-6763" name="Lore of Metal" hidden="false">
           <description>In the lands of Men, the Lore of Metal is more commonly known as Alchemy. It is practiced by many races, but few are as devoted to it as Men. If there is truth in common talk then there are many fortunes won by means of alchemical sorcery. The Alchemists of the Golden Order at Altdorf have the Emperor&apos;s ear in all matters of state and war – or so it is said by ordinary folk of the town.
 
-The Lore of Metal Lore</description>
+1. Rule of Burning Iron
+Casting Value: 3+
+Burning Iron is a magic missile with a range of up to 24&quot;. If successfully cast, the spell hits a single model (chosen by the caster) and causes 1 S3 hit if the target has no armour save or a save of 6, 1 S4 hit if the target has an armour save of 5+, and 1 S5 hit if the target has an armour save of 4+ or better. This is a Fire attack and causes double damage against flammable targets.
+
+2. Commandment of Brass
+Casting Value: 6+
+Lasts one turn. This spell has a range of 24&quot; and can be cast on an enemy war machine or chariot which is visible to the caster and which is not already engaged in close combat. If successfully cast, the machine cannot move or shoot until the end of its own following turn. If forced to flee for whatever reason, the spell is broken and the unit flees.
+
+3. Transmutation of Lead
+Casting Value: 8+
+This spell can be cast on an enemy unit that is within 24&quot;, and which is engaged in close combat. If successfully cast, the enemy&apos;s armour, weapons and other equipment are transmuted to lead for the duration of the ensuing Close Combat phase. The affected unit suffers a -1 to hit penalty in close combat, and armour saves suffer a -1 penalty during that turn&apos;s Close Combat phase.
+
+4. Distillation of Molten Silver
+Casting Value: 8+
+The Distillation of Molten Silver is a magic missile with a range of up to 24&quot;. If successfully cast, a squall of molten silver hits the target and causes 2D6 Strength 4 hits. This is a Fire attack and causes double damage against flammable targets.
+
+5. Law of Gold
+Casting Value: 9+
+This spell can be cast on an enemy unit that is within 24&quot; of the caster. The opposing player must nominate one magic item carried by any model in the unit. The caster rolls a D6: on the roll of 1-4 the item cannot be used until the end of enemy&apos;s next turn, on a 5 or 6 the item cannot be used for the rest of game. The Law of Gold has no effect on a unit that does not include any models with magic items.
+
+6. Bane of Forged Steel
+Casting Value: 11+
+This spell has a range of 12&quot; and can be cast on an enemy unit which is visible to the caster. If successfully cast, the enemy&apos;s weapons begin to crumble and rust away. No weapon bonuses or penalties apply to the affected unit for the remainder of the battle. For example, a unit wielding Great Swords will not get their +2 Strength bonus in combat for the rest of the battle, but will now not have to strike last. A unit with missile weapons may not shoot for the duration of the entire battle. Affected units are assumed to use their fist/claws, etc, and so cannot benefit from the rules for using two hand weapons or a hand weapon and shield. War machines and magic weapons cannot be affected by the Bane of Forged Steel - only ordinary weaponry carried by troops.</description>
         </rule>
       </rules>
       <costs>
@@ -514,7 +568,37 @@ The Lore of Metal Lore</description>
         <rule id="81ba-bf60-d544-9cd7" name="Lore of Shadow" hidden="false">
           <description>In the land of the Empire, Wizards of the Shadow call themselves Grey Wizards, as if to distance themselves from the sinister reputation of their sorcery. They are more often called Trickster Wizards by the common folk, who mistrust and fear them. Shadow Lore is the magic of deceit and illusion, of trickery, concealment and darkness.
 
-The Lore of Shadow Lore</description>
+1. Steed of Shadows
+Casting Value: 4+
+This spell may be cast upon the Wizard himself or any single friendly independent character model within 12&quot; of him - the spell can only be cast on a model with a Unit Strength of 1 (it won&apos;t work on a mounted model or a model riding in a chariot, for example).
+
+If successfully cast, the model can make a normal flight move of up to 20&quot;. The model can fly out of close combat if desired, but cannot fly into close combat unless positioned so that it could do so by making a normal aerial charge (for example, it must not be engaged in combat already and must be able to see the target).
+
+2. Creeping Death
+Casting Value: 6+
+The Creeping Death is a magic missile with a range of up to 24&quot;. If successfully cast, the Creeping Death hits its targets and causes D6 Strength 3 hits. No armour saves are allowed against wounds caused by the Creeping Death.
+
+3. Pelt of Midnight
+Casting Value: 7+
+Remains in play. This spell can be cast on a friendly unit that is within 24&quot; of the caster. If successfully cast, all subsequent shooting directed at the unit requires a 6 to hit. All weapons which use a Scatter dice to hit will scatter automatically when targeted at the unit.
+
+Once it is cast, the Pelt of Midnight continues to work until it is dispelled, or until the Wizard chooses to end it (which he can do at any time), attempts to cast another spell or is slain.
+
+4. Shades of Death
+Casting Value: 8+
+Remains in play. This spell affects a single friendly unit within 6&quot; of the Wizard which is not engaged in close combat. The unit now causes fear.
+
+Once it is cast, the Shades of Death continues to work until it is dispelled, or until the Wizard chooses to end it (which he can do at any time), attempts to case another spell or is slain.
+
+5. Unseen Lurker
+Casting Value: 10+
+This spell can be cast on a friendly unit that is within 24&quot;, and which is not already engaged in close combat. The unit can immediately make a move of up to 8&quot; in the same way as a normal move made in the Movement phase. The unit can charge an enemy within 8&quot; if opportunity permits, and the same rules apply as for a normal charge made during the Movement phase. The enemy can only respond by holding their ground - the Unseen Lurker conceals the charger&apos;s intent until it is too late to respond in any other way.
+
+6. Pit of Shades
+Casting Value: 11+
+The Pit of Shades can be cast on any one unengaged enemy unit anywhere on the table. If successfully cast, the ground falls away beneath the unit&apos;s feet toppling them to their doom.
+
+Take the 3&quot; template and place it over a single target enemy unit. All models in the target unit completely under the template are automatically hit and those touched by it are hit on a 4+ on a D6. Models hit suffer 1 Strength 3 hit. In addition, the player whose unit is affected rolls a D6: on a score of 1-3 the unit climbs out of the pit (this counts as moving for the purposes of shooting, etc) and moves at half speed next turn, on a score of 4-6 the unit is unaffected. The pit closes up after the unit has clambered out of it.</description>
         </rule>
       </rules>
       <costs>
@@ -526,7 +610,37 @@ The Lore of Shadow Lore</description>
         <rule id="11c9-1d6b-6097-f595" name="Lore of Light" hidden="false">
           <description>The Lore of Light is a magic of bright and radiant power, of the solar wind, and of life giving energy. Wizards who practice this art are sometimes called White Wizards or Hierophants. It is the magic of solar rituals, carefully guarded secrets and ancient ceremonies.
 
-The Lore of Light Lore</description>
+1. Pha&apos;s Illumination
+Casting Value: 5+
+Remains in play. This spell can be cast by the Wizard on himself. Once it has been cast, the spell lasts until the Wizard attempts another spell or until it is dispelled.
+
+The Wizard is swathed in power. Regardless of his characteristics, he has 3 Attacks and Strength 5 while this spell lasts. He cannot wield a weapon whilst using this spell. No magic weapons can be used to attack him whilst the spell lasts. Once cast, the spell lasts for the duration of the combat engagement until it is dispelled, until the Wizard chooses to end it (which he can do at any time), attempts to cast another spell or is slain.
+
+2. Burning Gaze
+Casting Value: 5+
+Shem&apos;s Burning Gaze is a magic missile with a range of up to 24&quot;. If successfully cast, the Burning Gaze hits its targets and causes D6 Strength 4 hits.
+
+Burning Gaze is a flaming attack and so causes double damage on flammable targets, etc.
+
+3. Dazzling Brightness
+Casting Value: 6+
+This spell can be cast on any enemy unit that is engaged in close combat and which is within 18&quot; of the caster. If successfully cast, the target unit is dazzled and its WS characteristic is reduced to 1 for the duration of that turn&apos;s Close Combat phase.
+
+4. Healing Hand
+Casting Value: 7+
+This spell can be cast upon the Wizard himself or upon any friendly model anywhere on the tabletop that has already suffered one or more wounds.
+
+If successfully cast, the model regains all its lost Wounds. In the case of a monster and its rider, choose one as the target of the spell. This spell has no effect on Undead models, Chaos Daemons, war machines, chariots or other unliving units.
+
+5. Guardian Light
+Casting Value: 8+
+Remains in play. This spell affects all friendly units that are within 12&quot; of the caster. If successfully cast, all these units are now Immune to Psychology, and fleeing units automatically rally.
+
+Once cast, the spell remains in play until it is dispelled, until the Wizard chooses to end it (which he can do at any time), attempts to cast another spell or is slain.
+
+6. Blinding Light
+Casting Value: 9+
+Lasts one turn. This spell can be cast on an enemy unit which is visible to and within 24&quot; of the caster, and which is not engaged in close combat. If successfully cast, the unit is momentarily blinded and its Movement characteristics is reduced by half (rounding down) and its WS and BS are reduced to 1. This lasts until the end of the unit&apos;s following turn.</description>
         </rule>
       </rules>
       <costs>
@@ -538,7 +652,41 @@ The Lore of Light Lore</description>
         <rule id="b257-f163-9a6e-9016" name="Lore of Life" hidden="false">
           <description>The Lore of Life is the magical lore of the growing earth and as such is bound to the changing seasons. Few creatures of any race understand the nature of growing things as do these Wizards. It is a form of magic that exists in all water and vegetation and which is strongest when it is close to places where rivers run and where woods and forests grow most abundantly.
 
-The Lore of Life Lore</description>
+1. Mistress of the Marsh
+Casting Value: 6+
+This spell cast be cast upon an enemy unit that is within 12&quot; of a river, stream, bog, or any other water feature on the tabletop which has been identified as such before the game. If there are no such features in range, it can be cast on it enemy unit within 6&quot; of the caster. It cannot be used against a unit that engaged in close combat. If successfully cast, the ground beneath the unit is turned to swamp and the unit moves at half speed until the end if its own following turn. If forced to flee, for whatever reason, the unit flees at half speed. This spell has no effect on flyers or ethereal creatures.
+
+The swamp disappears at the end of the opposing player&apos;s Magic phase.
+
+2. Father of the Thorn
+Casting Value: 7+
+The Father of the Thorn can be cast on an enemy unit within 24&quot; of the caster, which is not engaged in combat and which is visible to the caster. If successfully cast, thorns and briars shoot from the earth entangling limbs and tearing at flesh.
+
+The spell causes 2D6 Strength 3 hits.
+
+The thorns wither and disappear at the end of the Magic phase.
+
+3. The Howler Wind
+Casting Value: 7+
+Remains in play. This spell can be cast upon the Wizard himself. If successfully cast, no shooting with Strength 4 or less can be targeted at units within 12&quot; of the Wizard - even if some models in the unit are more than 12&quot; away. The howling wind engulfs the whole unit if any part of it is within 12&quot; of the caster. This doesn&apos;t prevent units from firing through or out of the affected area at target beyond. In addition, all enemy units within 12&quot; of the Wizard move at half speed due to the effect of the howling wind. Note that this move penalty only applies when actually within the affected area - enemy treat the entire zone as if it were difficult ground. Once cast, the spell lasts until dispelled, the Wizard chooses to end it (which he can do at any time), attempts to cast another spell or is slain.
+
+4. Master of the Wood
+Casting Value: 7+
+This spell can be cast upon an enemy unit that is within 12&quot; of a wood, copse or any other wooded feature on the tabletop which has been identified as such before the game. If there are no such features in range, it can be cast on any enemy unit within 6&quot; of the caster. It cannot be used against a unit that is engaged in close combat. If successfully cast, the unit is battered by the branches of trees if within a wood, or lashed at by roots which erupt from the ground if there is no wood nearby.
+
+This causes D6 Strength 4 hits on the unit, plus a further D6 Strength 4 hits if it is partially or wholly within the wood. This spell does not affect Dryads or Treemen. At the end of the Magic phase the trees are still again or the roots retract back into the earth.
+
+5. Master of Stone
+Casting Value: 8+
+This spell can be cast upon an enemy unit that is within 12&quot; of a hill, rocky outcrop. ruins or any area which has been identified as high ground, rocky or ruinous before the game. If there are no such features in range, it can be cast on any enemy unit within 6&quot; of the caster. It cannot be used against a unit that is engaged in close combat. If successfully cast, shards of stone fly against the unit.
+
+The spell causes D6 Strength 5 hits on the unit, plus a further D6 Strength 5 hits if the unit is partially or wholly within the feature.
+
+6. The Rain Lord
+Casting Value: 9+
+This spell can be cast on an enemy unit within 24&quot; and which is visible to the caster. If successfully cast, the target unit is enveloped in rain and gets a soaking.
+
+A soaked unit must roll a 4, 5 or 6 when attempting to shoot because bow strings become damp and useless while ropes stretch and don&apos;t work properly. A unit using gunpowder, including cannons, must roll a 6 in order to shoot. Dwarf Flame Cannons and any other shooting weapons powered by steam, blackpowder or flame must also roll a 6. If the roll is failed, the affected unit cannot shoot during that Shooting phase. Once affected a unit stays soaked for rest of game - this is not a magical effect, you are wet! A unit can only be soaked once.</description>
         </rule>
       </rules>
       <costs>
@@ -550,7 +698,43 @@ The Lore of Life Lore</description>
         <rule id="0458-d407-7832-a535" name="Lore of Death" hidden="false">
           <description>Though the Lore of Death, or Amethyst magic, is the most feared of sorceries, not all practitioners are evil or ill-intended. It is the magic of the bygone ages and draws its power deeply from the realm of the dead.
 
-The Lore of Death Lore</description>
+1. Dark Hand of Death
+Casting Value: 5+
+This is a magic missile with a range of up to 24&quot;. If successfully cast, the spell hits its target and causes D6 Strength 4 hits.
+
+2. Death Dealer
+Casting Value: 5+
+This spell can be cast on a friendly unit that is engaged in close combat and which is within 24&quot; of the caster. If successfully cast then models which fall casualty can fight back, stabbing at their enemy with their last strength.
+
+The spell lasts for the duration of that Turn&apos;s Close Combat phase. Fight the combat as normal. Any model in the affected unit which falls casualty during the combat may make one further attack with its basic Strength before it is removed - this is regardless of whether the model has already fought or not. In the case of mounted models, models riding chariots or monsters and so forth, only riders may strike back.
+
+3. Steal Soul
+Casting Value: 8+
+This spell can be cast on an enemy model within 12&quot;. If successfully cast, the victim&apos;s soul is torn and rendered by dark forces and sacrificed to the caster himself.
+
+The enemy model loses 1 Wound. No armour save is allowed. In addition, the casting Wizard gains 1 Wound for the duration of the battle. This spell can be used to increase the caster&apos;s Wounds characteristic beyond its normal maximum level, and can be used several times to increase the caster&apos;s Wounds even further. At the end of the battle, any stolen Wounds are lost - if the Wizard has no Wounds left once stolen Wounds are removed, he is slain.
+
+The spell cannot affect Undead, Chaos Daemons, and similar units which don&apos;t have a soul!
+
+4. Wind of Death
+Casting Value: 8+
+This is a magic missile with range of up to 24&quot;. If successfully cast, the spell hits its target and causes 2D6 Strength 4 hits.
+
+5. Drain Life
+Casting Value: 10+
+If cast successfully each enemy unit within 12&quot; of the Wizard is affected.
+
+Each unit takes D6 Strength 3 hits. No armour saves are allowed against a Drain Life spell. These hits are distributed exactly like hits from shooting.
+
+The spell cannot affect Undead, Chaos Daemons, or buildings and similar models, as they are not truly alive.
+
+6. Doom and Darkness!
+Casting Value: 12+
+Lasts one turn+. This spell can be cast upon an enemy unit which is within 24&quot; of and visible to the caster. If successfully cast, the unit is enshrouded by a black cloud of despair.
+
+For the duration of the turn the affected unit will suffer a -3 penalty to any Leadership test (including Break tests) it is required to take. At the start of its following turn, the unit must take and pass a Leadership test (at -3), otherwise it remains affected for the duration of that turn as well. At the end of the affected unit&apos;s following turn, the spell ceases to have any effect.
+
+The spell cannot affect Undead targets, Chaos Daemons or Unbreakable units. Units, immune to psychology are not affected either.</description>
         </rule>
       </rules>
       <costs>
@@ -562,7 +746,37 @@ The Lore of Death Lore</description>
         <rule id="7160-91b1-3786-8d86" name="Lore of Beasts" hidden="false">
           <description>The Lore of Beasts is the magic of Shamans and animal spirits. It is a sorcery of wild and primitive races, of creatures that shun the cities of Men, and of Men who have turned their backs upon the ways of their own kind.
 
-The Lore of Beasts Lore</description>
+1. The Oxen Stands
+Casting Value: 5+
+This spell can be cast on any friendly fleeing unit on the tabtetop. If successful, the unit is rallies immediately.
+
+2. The Eagle&apos;s Cry
+Casting Value: 6+
+This spell can be cast on an enemy cavalry unit, swarm, chariot or a single ridden or unridden monster which is within 24&quot; of the caster and which is not engaged in close combat. If successful, the creatures become momentarily wild and uncontrollable.
+
+The affected unit must take an immediate Leadership test. If passed, the unit suffers a -1 Movement penalty during their next Movement phase (-2&quot; if it marches or charges). The Movement of flyers is reduced to 12&quot;. If failed, the unit/monster immediately makes a compulsory move of 2D6&quot; directly towards its own side&apos;s table edge, but halts if this move brings it into contact with a friendly unit, impassable terrain, or within 1&quot; of any enemy. If the unit moves off the tabletop, it counts as having fled the battle.
+
+3. The Bear&apos;s Anger
+Casting Value: 6+
+Remains in play. This spell can be cast by the Wizard on himself while he is in close combat. He becomes as wild and powerful as a mighty bear. He adds +3 Attacks, +2 Strength, and +1 Toughness to his characteristics. He cannot wield a weapon whilst using this spell.
+
+Once cast, the spell lasts until the end of the next combat engagement which the Wizard takes part in, until it is dispelled, until the Wizard chooses to end it (which he can do at any time), attempts to cast another spell or is slain.
+
+4. The Crow&apos;s Feast
+Casting Value: 7+
+Corvos the Crow&apos;s Feast is a magic missile with a range of up to 24&quot;. If successfully cast, a flock of crows mobs the spell&apos;s target and causes 2D6 Strength 3 hits.
+
+5. The Beast Cowers
+Casting Value: 8+
+This spell can be cast on any enemy unit of cavalry, a chariot, a ridden monster, a lone monster such as a Great Eagle, or a swarm. The target of the spell must be on the tabletop and must be engaged in close combat.
+
+If successfully cast, any creatures in the unit (but not their riders), will cower and therefore require 6s to hit in that turn&apos;s Close Combat phase. If 6s are required anyway, the creatures may not attack.
+
+6. The Wolf Hunts
+Casting Value: 9+
+This spell can be cast on any friendly unit of cavalry, a chariot, a ridden monster, a monster on its own, or a swarm. The target must be within 24&quot; of the caster and must not be engaged in close combat.
+
+If the spell is cast successfully, the unit moves 2D6&quot; towards the nearest enemy that it can see. If no enemy are visible then it will not move. If in doubt as to which enemy unit is nearest, the caster may choose but must do so before rolling the distance. If the distance is sufficient to reach the enemy, the unit is deemed to have charged and all the normal charging rules apply, except that the enemy can only stand their ground - no other charge response is possible due to the speed of the spell.</description>
         </rule>
       </rules>
       <costs>
@@ -745,7 +959,7 @@ If the test is failed then all is not well. The following rules apply until the 
 2. If not in close combat, the unit momentarily forgets what it is doing. Move the unit directly forwards at half normal speed (for example, Trolls with Movement 6 would move 3&quot; forward). Any enemy troops encountered are automatically charged. If there are friends in the way, both units blunder into each other and their ranks become confused, in which case both units are pinned in place for the rest of the turn and neither may move further. This counts as compulsory movement and so occurs before other movement, but after charges have been declared (see the Movement section). Creatures within the unit that do not suffer from being stupid must also move as described - they are carried along by the movement of the rest of the unit and risk being trampled if they attempt to do otherwise.</description>
     </rule>
     <rule id="01c3-c8c6-431f-1c2b" name="Large Target" hidden="false">
-      <description>&gt; Note: This is a custom special rule that does not appear as a specified rule in the Main Rulebook. References to large targets appear frequently and this compiles the rules from To Hit Modifiers and Who Can Shoot and Line of Sight into a single instance that covers the features of large targets.
+      <description>Note: This is a custom special rule that does not appear as a specified rule in the Main Rulebook. References to large targets appear frequently and this compiles the rules from To Hit Modifiers and Who Can Shoot and Line of Sight into a single instance that covers the features of large targets.
 
 A large target is anything which in real life would be massively tall or which is especially bulky. Giants are large targets, for example, while Men, Orcs, Elves, Ogres, Cannons and the vast majority of troops are not. In every case, a creature&apos;s description in the relevant Army book will inform you whether it is a large target or not. Cavalry riders are not considered to be large targets if they are riding horses, wolves, boars or comparable beasts. Dragons, Greater Daemons and certain war machines are large targets. The following rules apply to large targets:
 
@@ -801,14 +1015,14 @@ Fire
 
 The flesh of a regenerating creature cannot regenerate if it has been burnt. If a regenerating creature or unit sustains one or more wounds from a flame attack it cannot regenerate any wounds during the remainder of the battle, not even those inflicted by ordinary weapons.
 
-Note**: In Warhammer Chronicles 2004, page 114 it was clarified Regeneration has no effect on successful Killing Blows.</description>
+Note: In Warhammer Chronicles 2004, page 114 it was clarified Regeneration has no effect on successful Killing Blows.</description>
     </rule>
     <rule id="773c-6c86-ae53-1cee" name="Killing Blow" hidden="false">
       <description>If a model with the Killing Blow special ability rolls a 6 when rolling to wound, he automatically slays his opponent without recourse to a saving throw, apart from Ward saves.
 
 This attack is only effective against roughly man-sized opponents such as Men, Orcs, Elves, Beastmen, etc. It has no effect on big creatures such as Ogres or Dragons, or things like swarms which consist of several creatures. It can be used against models mounted on steeds or monsters as long as the riders themselves are roughly man-sized.
 
-Note**: From Warhammer Annual 2002, Gav Thorpe clarified Regeneration has no effect on successful Killing Blows.</description>
+Note: From Warhammer Annual 2002, Gav Thorpe clarified Regeneration has no effect on successful Killing Blows.</description>
     </rule>
     <rule id="6e0c-4c98-a2c2-af0d" name="Magic Resistance" hidden="false">
       <description>A creature with magic resistance will be difficult to harm with magic. The number in the brackets indicates the maximum number of extra dice that may be rolled when trying to dispel each spell that affects the magically resistant creature. For details of dispelling see the Magic section.</description>
@@ -861,12 +1075,13 @@ A Musician model is placed in the front rank of its unit. His effect on the figh
     <rule id="1648-091e-ca90-e56d" name="Bow" hidden="false">
       <description>The bow, is carried by most races and used extensively in warfare. It is a compact, long-ranged weapon that is cheap to make and easy to maintain.
 
-Bow Profile</description>
+Range 24&quot;; Strength 3.</description>
     </rule>
     <rule id="cd70-2ed2-922d-0011" name="Crossbow" hidden="false">
       <description>A crossbow consists of a short, strong bowstave mounted on a wooden or steel stock. It takes a long time to load and wind a crossbow for each shot, but the crossbow bolt has tremendous range and power.
 
-Crossbow Profile</description>
+Range 30&quot;; Strength 4.
+Rules: move-or-fire.</description>
     </rule>
     <rule id="dad4-d7e5-09e8-3819" name="Flail" hidden="false">
       <description>Rules: +2 Strength bonus in the first turn of combat; requires two hands.</description>
@@ -889,12 +1104,14 @@ Rules: No special weapon rules apply to hand weapons but they do have the advant
 
 Handguns are not terribly reliable weapons, as occasionally the gun barrel tends to explode violently apart or the powder fails to ignite. Handguns, however, do have a long range and hit very hard, making a mockery of even the thickest armour.
 
-Handgun Profile</description>
+Range 24&quot;; Strength 4.
+Rules: move-or-fire; armour piercing.</description>
     </rule>
     <rule id="d8c8-edc7-35dd-2b4d" name="Javelin" hidden="false">
       <description>The javelin is a light spear designed for throwing, and javelin armed warriors often carry several to last them throughout the battle. The javelin is too flimsy to be used in hand-to-hand fighting. It is not a very common weapon as it has a short range, but the multitudinous reptilian skinks of Lustria use javelins extensively.
 
-Javelin Profile</description>
+Range 9&quot;; Strength as user.
+Rules: thrown weapon.</description>
     </rule>
     <rule id="7154-2d01-2d5c-c06c" name="Lance" hidden="false">
       <description>Rules: +2 Strength bonus in the first turn of combat when charging.</description>
@@ -902,7 +1119,7 @@ Javelin Profile</description>
     <rule id="c45c-2383-8be2-1152" name="Longbow" hidden="false">
       <description>A longbow is a dangerous weapon made of alternating layers of either yew or elm. A skilled archer can hit an enemy from three hundred paces.
 
-Longbow Profile</description>
+Range 30&quot;; Strength 3.</description>
     </rule>
     <rule id="505c-f8fe-ee87-d4c3" name="Morning Star" hidden="false">
       <description>This is a single-handed weapon that consists of one or more spiked balls on a chain. Like the larger flail it resembles, a morning star is a tiring weapon to use so its advantage lies in the first round of combat.
@@ -912,15 +1129,18 @@ Rules: +1 Strength bonus in the first turn of combat.</description>
     <rule id="11c6-d068-224a-5939" name="Repeater Crossbow" hidden="false">
       <description>Used almost exclusively by the Dark Elves of Naggaroth, the repeater crossbow is a lighter, less powerful type of crossbow that has a magazine of bolts which allows a single bolt to drop into place ready for firing as the string is drawn. A repeater crossbow can fire a hail of shots in the time it takes to shoot one ordinary crossbow bolt.
 
-Repeater Crossbow Profile</description>
+Range 24&quot;; Strength 3.
+Rules: 2x multiple shots.</description>
     </rule>
     <rule id="982a-e058-7b39-44d9" name="Sling" hidden="false">
-      <description>\* If enemy is within 9&quot;</description>
+      <description>Range 18&quot;; Strength 3.
+Rules: 2x multiple shots if the enemy is within 9&quot;.</description>
     </rule>
     <rule id="6566-55b1-e8b7-d3d8" name="Throwing Axe" hidden="false">
       <description>Note that throwing axes cannot be used in close combat — or if used they simply count as hand weapons. Normal axes carried as hand weapons cannot be thrown either!
 
-Throwing Axe Profile</description>
+Range 6&quot;; Strength as user.
+Rules: thrown weapon; +1 Strength bonus.</description>
     </rule>
   </sharedRules>
   <sharedInfoGroups>

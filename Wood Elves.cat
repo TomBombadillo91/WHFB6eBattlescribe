@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7bb5-70b8-0122-944c" name="Wood Elves" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7bb5-70b8-0122-944c" name="Wood Elves" revision="17" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="4f0e-c683-4011-68a9" name="Magic Bow" hidden="true"/>
     <categoryEntry id="3fee-c6b4-de1c-b33e" name="Magic Arrows" hidden="false"/>
@@ -1939,7 +1939,7 @@ Regardless of whether the Warhawk Riders choose to fall back or not, the enemy m
 Orion is Unbreakable. However, if he is beaten in combat, his essence will begin to fade. If Orion is beaten in combat, then for each point of combat resolution he loses by he also loses one wound. If Orion is within 6&quot; of a wood the number of wounds he loses is reduced by one (so, if he loses the combat by one and is within 6&quot; of a wood, he does not lose any wounds).</description>
         </rule>
         <rule id="8ecc-af94-c651-17f3" name="The Wild Hunt" hidden="false">
-          <description>As long as they have a Musician, when a unit of Wild Riders charges it causes fear until the start of the next Wood Elf turn.</description>
+          <description>In an army led by Orion, Wild Riders of Kurnous are a Core choice. An army led by Orion must include at least one unit of Wild Riders. In addition, in an army led by Orion, Glade Guard and Scouts count as Special units, and Waywatchers may not be taken at all.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4118,7 +4118,31 @@ This character benefits from the Forest Spirit special rules (and so may join un
         <selectionEntry id="49b7-a7e4-e1f3-4387" name="Lore of Athel Loren" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="634b-b6d2-7175-d488" name="Lore of Athel Loren" hidden="false">
-              <description>The Lore of Athel Loren Lore</description>
+              <description>1. Tree Singing
+Casting Value: 4+
+The mage encourages the spirits of Athel Loren to make the forests shift and begin moving. The spell may be cast on any wood within 18&quot; of the caster, provided there are no enemy models within it. The spell makes the chosen wood move D3 + 1&quot; inches in a direction nominated by the caster before rolling. The wood can contain friendly units, but the units must be entirely within the woods - if one or more models in the unit is outside the wood, then the spell cannot be targeted on that wood. Friendly troops within the woods are moved with it, but must end their turn at least 1&quot; away from enemy troops and count as having moved. The wood stops moving as soon as it comes in contact with any other unit or piece of terrain. A wood can be moved more than once in the same Magic phase.
+
+Alternatively, the spell can be used to inflict D6 Strength 5 hits on a single enemy unit that is even partially within a wood or similar terrain feature.
+
+2. Fury of the Forest
+Casting Value: 6+
+Twisted branches and thorns burst into spontaneous growth, attacking the enemies of Athel Loren. This spell may be cast upon a single unengaged enemy unit within 18&quot;. If successfully cast, the spell causes D6 Strength 4 hits. If the target is within 6&quot; of a wood, then this is increased to D6 Strength 5 hits.
+
+3. The Hidden Path
+Casting Value: 7+
+Using this spell, the caster moves a single friendly unit out of the corporeal world and beyond the reach of mortals. This spell may be cast upon a single unengaged friendly unit within 18&quot;. If the spell is successful, the unit treats all terrain as open ground and cannot be harmed by non-magical missile weapons until the start of the caster&apos;s next Magic phase. Should the unit become engaged in, close combat, the spell ends instantly.
+
+4. The Twilight Host
+Casting Value: 8+
+The mage weaves a powerful illusion, and ghostly grey shapes appear at the side of the Wood Elves. The Twilight Host may be cast upon any friendly unit within 18&quot; of the caster. This unit may be engaged in close combat. Until the caster&apos;s next Magic phase, the unit causes fear. If the unit would already cause fear, it instead causes terror until the caster&apos;s next Magic phase. A unit cannot cannot be affected by this spell twice in the same Magic phase.
+
+5. Ariel&apos;s Blessing
+Casting Value: 9+
+The caster calls upon the healing powers of Ariel, undoing even the most grievous injuries, and restoring life to those who have fallen. This spell may be cast upon a single friendly unit within 18&quot;, and may be targeted on a unit engaged in close combat (this could be the mage herself). This unit gains the Regeneration special rule until the start of the player&apos;s next Magic phase. This spell may be cast into combat.
+
+6. The Call of the Hunt
+Casting Value: 11+
+The spirit of Kurnous fills the target of the spell, infusing them with a part of his savagery, anger and power. This spell may be cast upon a single friendly unit within 18&quot;, and may be targeted on a unit engaged in close combat. If already engaged in combat, each model in the unit gains +1 Attack (does not affect steeds or ridden monsters). If the unit is not engaged in combat, it immediately makes a 2D6&quot; move towards the nearest enemy unit that it can see - if it can see no enemy unit, then it will move straight forwards (for skirmishers nominate a direction before rolling). A unit that moves in such a way cannot shoot that turn. If this move brings the unit into contact with an enemy, it counts as charging in the subsequent Close Combat phase. An enemy charged in such a way may only choose hold as a charge reaction and must take any Psychology tests incurred as normal.</description>
             </rule>
           </rules>
           <costs>
@@ -4170,7 +4194,7 @@ Each strike of a Wardancer&apos;s blade is made with uncanny precision, capable 
 
 Storm of Blades
 
-The Wardancers rain blow after blow upon their opponent, moving with such speed that the eye cannot follow each distinct cut and thrust. While they perform this dance, each model in the unit is granted + 1 Attack.
+The Wardancers rain blow after blow upon their opponent, moving with such speed that the eye cannot follow each distinct cut and thrust. While they perform this dance, each model in the unit is granted +1 Attack.
 
 The Shadows Coil
 

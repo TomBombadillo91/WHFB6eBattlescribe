@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b151-7d1c-4a96-e0d0" name="Dark Elves" revision="17" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b151-7d1c-4a96-e0d0" name="Dark Elves" revision="21" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7b32-9394-e778-467c" name="Poison" hidden="false"/>
     <categoryEntry id="16df-2ebd-e4f7-9984" name="Artifacts and Skills" hidden="false"/>
@@ -1853,7 +1853,7 @@ In hand-to-hand combat the guardians are assembled in front of the Cauldron in t
         <rule id="4daf-01a8-5998-1881" name="Controlled" hidden="false">
           <description>Each War Hydra is driven into battle by two Beastmaster Apprentices who direct it with lashes and long-tined goads. The two Apprentices must remain within 1&quot; of the War Hydra at all times. If the Apprentices are killed, the War Hydra must make a Monster Reaction test just like a ridden monster which loses its rider. A Beastmaster on foot may join the unit (replacing a lose Apprentice if you wish), but once the Hydra has taken a Monster Reaction test it always operates as an independent model. No other model may join a Hydra/Apprentice unit.
 
-Any shooting against the unit gains the + 1 to hit modifier for a large target. If there are any Apprentices visible to the firing unit, roll a D6 for each hit. On a roll of 1 to 4, the Hydra is hit, on a roll of 5 or 6 an Apprentice is hit. If there is no Line of sight to the Apprentices then all hits are worked out on the Hydra (so it&apos;s a good idea to hide them behind it in your movement phases!)
+Any shooting against the unit gains the +1 to hit modifier for a large target. If there are any Apprentices visible to the firing unit, roll a D6 for each hit. On a roll of 1 to 4, the Hydra is hit, on a roll of 5 or 6 an Apprentice is hit. If there is no Line of sight to the Apprentices then all hits are worked out on the Hydra (so it&apos;s a good idea to hide them behind it in your movement phases!)
 
 In close combat, the War Hydra and any surviving Apprentices are arranged just like a skirmishing unit and models fight with opponents in base contact as normal. The Apprentices are adept at using the bulk of the Hydra to protect themselves, so that all enemies who can choose to attack them or the Hydra must allocate their attacks against the Hydra. The unit may only charge enemies which the War Hydra could normally charge (within a 90° arc to its front).</description>
         </rule>
@@ -2359,7 +2359,7 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
             <rule id="37a8-b847-0cd2-8727" name="Armour of Midnight" hidden="false">
               <description>Forged from the hardest meteoric iron to be mined from the mountains of Naggardth, Malekith &apos;s armour is near impenetrable to mortal weapons.
 
-The Armour of Midnight is a suit of heavy armour. In addition Malekith has a 2 + Ward save against any non-magical attacks (ie, not spells or magic items). Also, he will never suffer more than one wound from a single hit, so war machines, magic items and other attacks that cause multiple wounds only ever cause one wound at a time. The Armour of Midnight does not prevent Malekith from casting spells.</description>
+The Armour of Midnight is a suit of heavy armour. In addition Malekith has a 2+ Ward save against any non-magical attacks (ie, not spells or magic items). Also, he will never suffer more than one wound from a single hit, so war machines, magic items and other attacks that cause multiple wounds only ever cause one wound at a time. The Armour of Midnight does not prevent Malekith from casting spells.</description>
             </rule>
           </rules>
           <costs>
@@ -2531,7 +2531,7 @@ The Armour of Midnight is a suit of heavy armour. In addition Malekith has a 2 +
           <description>At the start of any Dark Elf turn, Malus may drink his soporific potion and unleash the power of the daemon that resides within him. If he does this, it has the following effects that last for the remainder of the battle:
 
 - Malus is subject to frenzy and does not lose his frenzy even if beaten in combat.
-- Malus adds + I WS, + IS, + 2T and + 21.
+- Malus adds +1 WS, +1 S, +2 T and +2 I.
 - He may re-roll any failed Leadership test he is required to take (for spells, Break tests, etc).
 - If Malus is in base contact with a friendly model and not in contact with the enemy in any Close Combat phase (including your opponent&apos;s) roll a D6. On a roll of a 4+ he restrains his murderous rage. On a 3 or less he attacks one model in contact chosen by your opponent, resolved as if he was charging, The other model will strike back if it survives Malus&apos; attacks. No combat results are calculated and both models will act normally from the moment the attacks are finished.</description>
         </rule>
@@ -3029,7 +3029,8 @@ The Armour of Midnight is a suit of heavy armour. In addition Malekith has a 2 +
       </modifiers>
       <rules>
         <rule id="77b6-00dd-8fa1-f765" name="Swift Steed" hidden="false">
-          <description>&gt; In the Warhammer Chronicles 2004 Official Rules for Mounted Daemonettes, the Swift Steed rule listed the always strikes first rule instead of being listed under Tongue Attack.</description>
+          <description>Mounted Daemonettes count as Fast Cavalry. In addition, because of its preternatural dexterity, the mount always strikes first in close combat even agaisnt a charging enemy. If an opponent has the same ability, resolve the strikes in Initiative order - if these are the same, roll a D6 to see who strikes first.
+Note this ability applies only to the mount, not to the Daemonette rider.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3911,7 +3912,7 @@ Certain characters may ride in a chariot. They replace one of the crew, and the 
       </constraints>
       <rules>
         <rule id="b854-87dd-0604-855b" name="Mark of Slaanesh" hidden="false">
-          <description>Mark of Slaanesh Type</description>
+          <description>A unit or model with the Mark of Slaanesh is Immune to Psychology</description>
         </rule>
       </rules>
       <costs>
@@ -4070,7 +4071,7 @@ Models with the Mark of Slaanesh only. Whenever the bearer issues a challenge, t
       </constraints>
       <rules>
         <rule id="ec61-ca57-bbd8-9219" name="Whip of Pleasure" page="50" hidden="false">
-          <description>Models with the Mark of Slaanesh only. The wielder gains + 1 Attack, but he cannot carry a shield or banner. In addition, the wielder always strikes first in close combat. If any of the wielder&apos;s opponents also always strike first, revert to normal Initiative.</description>
+          <description>Models with the Mark of Slaanesh only. The wielder gains +1 Attack, but he cannot carry a shield or banner. In addition, the wielder always strikes first in close combat. If any of the wielder&apos;s opponents also always strike first, revert to normal Initiative.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -4355,7 +4356,7 @@ Blood Armour is treated as a suit of normal heavy armour (5+ save) and can be co
                 <rule id="3080-c050-985f-94c8" name="Armour of Living Death" hidden="false">
                   <description>It is claimed that anyone wearing this armour cannot die, that they are sustained by its magical energy. Unfortunately, they cannot remove the armour and are slowly driven insane.
 
-The Armour of Living Death counts as heavy armour, giving a 5 + Armour save, which can be combined with other armour as normal. In addition. the model has +1 Toughness and +1 Wound.</description>
+The Armour of Living Death counts as heavy armour, giving a 5+ Armour save, which can be combined with other armour as normal. In addition. the model has +1 Toughness and +1 Wound.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -5403,7 +5404,7 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
             <rule id="28ff-928b-64e5-c9a8" name="Manbane" hidden="false">
               <description>Manbane is one of the most lethal venoms ever devised, causing even the tiniest wound to bleed openly.
 
-A character with a weapon coated with Manbane always counts their Strength as one higher than their target&apos;s Toughness, unless their Strength would normally be more than this, up to a maximum of Strength 6. In effect, this means that they almost always wound opponents on a roll of 3 +. This modified Strength is also used to calculate Armour save modifiers.</description>
+A character with a weapon coated with Manbane always counts their Strength as one higher than their target&apos;s Toughness, unless their Strength would normally be more than this, up to a maximum of Strength 6. In effect, this means that they almost always wound opponents on a roll of 3+. This modified Strength is also used to calculate Armour save modifiers.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -5506,7 +5507,7 @@ The model is considered to have Poisoned Attacks.</description>
           </constraints>
           <rules>
             <rule id="6227-735d-1d78-8109" name="Rune of Khaine" hidden="false">
-              <description>The Rune of Khaine grants + 1 Attack to its bearer. A model marked with the Rune of Khaine must always pursue fleeing enemies.</description>
+              <description>The Rune of Khaine grants +1 Attack to its bearer. A model marked with the Rune of Khaine must always pursue fleeing enemies.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -5547,7 +5548,7 @@ Any one model ( chosen by a Dark Elf player) in base contact will lose one Attac
           </constraints>
           <rules>
             <rule id="fd95-3168-2f95-4732" name="Witchbrew" hidden="false">
-              <description>Hags only. The Hag and her unit drink the Witchbrew before the battle. Enemy units cannot claim the + 1 combat resolution bonuses for outnumbering, flank and rear attacks or higher ground.</description>
+              <description>Hags only. The Hag and her unit drink the Witchbrew before the battle. Enemy units cannot claim the +1 combat resolution bonuses for outnumbering, flank and rear attacks or higher ground.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -5608,7 +5609,29 @@ Any one model ( chosen by a Dark Elf player) in base contact will lose one Attac
           </modifiers>
           <rules>
             <rule id="0a26-0452-6f14-f263" name="Lore of Slaanesh" hidden="false">
-              <description>The Lore of Slaanesh Lore</description>
+              <description>1. Blissful Throes
+Casting Value: 6+
+A long whip of pure Chaos energy lashes out at the enemy with a delightful crack, leaving its victims wracked with pain, to the envy of the caster. This is a magic missile with 12&quot; range, inflicting D6 Strength 6 hits.
+
+2. Luxurious Torment
+Casting Value: 7+
+The targets are engulfed by a wave of hysteria and begin crying out and weeping, clawing at themselves and turning on their friends with their weapons. Cast on a single unit (friend or foe) within 24&quot;, which may be in close combat. The unit becomes subject to frenzy until defeated in combat (even if normally Immune to Psychology). In addition, while the unit is frenzied, it suffers D6 Strength 3 hits, distributed like shooting hits at the start of each subsequent turn (both players&apos;).
+
+3. Titillating Delusions
+Casting Value: 8+
+Remains in play. Slaanesh creates an illusion of the enemy&apos;s deepest desire, and they find it impossible to resist the urge to capture it. This may be cast on an unengaged enemy unit within 24&quot;. Mark a point on the tabletop and within the unit&apos;s line of sight for the illusion to appear. In the Remaining Moves part of their Movement phase the affected unit must move as directly and quickly as possible towards this point, but it will charge and fight any enemy unit that lies along this line of advance. The spell remains in play until the caster decides to end it (which he can do at any time), it is dispelled, the Sorcerer attempts to cast another spell, the caster is killed or the unit reaches the illusion marker.
+
+4. Delectable Torture
+Casting Value: 9+
+May be cast on an unengaged enemy character within 24&quot;. He will immediately attack the unit he is with (no combat resolution, but a Panic test may be caused if enough casualties are scored). If the victim is not inside a unit, he will immediately use any missile weapon he has available against a single visible friendly unit chosen by the Chaos player. Mounts are not affected by this spell.
+
+5. Enrapturing Spasms
+Casting Value: 10+
+Target an enemy unit within 18&quot;, even if engaged in combat. The models in the unit cannot voluntarily move in the Movement phase (though they can flee as normal) and cannot shoot, attack in close combat or cast spells (nor maintain Remains in Play spells, which will be immediately dispelled). They are hit automatically in close combat. The target unit is also Immune to Psychology as long as the spell is in play, but they take Break tests as normal and will flee if forced to. This spell has no effect on enemies already immune to psychology. The effects last until the start of the caster&apos;s next Magic phase.
+
+6. Delicious Excruciation
+Casting Value: 11+
+Remains in play. Target a friendly or enemy unit within 24&quot;, even if engaged in combat. The unit is Unbreakable for as long as the spell is in effect. This replaces the Instability rules for Daemons. The spell remains in play until the caster decides to end it (which he can do at any time), it is dispelled, the Sorcerer attempts to cast another spell or the caster is killed. If a unit that is fleeing, it automatically and immediately rallies.</description>
             </rule>
           </rules>
           <costs>
@@ -6202,7 +6225,9 @@ Bound Spell. Power Level 4. The banner contains a bound magic missile with range
     <rule id="875d-4215-a835-fac5" name="Repeater Crossbow" hidden="false">
       <description>Used almost exclusively by the Dark Elves of Naggaroth, the repeater crossbow is a lighter, less powerful type of crossbow that has a magazine of bolts which allows a single bolt to drop into place ready for firing as the string is drawn. A repeater crossbow can fire a hail of shots in the time it takes to shoot one ordinary crossbow bolt.
 
-Repeater Crossbow Profile</description>
+Range 24&quot;
+Strength	 3
+2x Multiple Shots</description>
     </rule>
     <rule id="2754-fd13-0dd8-92dc" name="Sea Dragon Cloak" hidden="false">
       <description>The Corsairs of the Dark Elf fleet wear heavy cloaks fashioned from the scales of the mighty sea dragons which accompany the ships. The cloak can be drawn tightly around the body when being fired at, acting as shield against missile fire. A Sea Dragon cloak adds +1 to the model&apos;s save in close combat, and +2 against ranged attacks (including spells, etc). It may be combined with other types of armour.</description>
@@ -6211,7 +6236,7 @@ Repeater Crossbow Profile</description>
       <description>Models with this special have thick scaly skin or hide, which acts like armour and makes them difficult to injure. A model riding a creature with this special rules counts +2 to his Armour save instead of the normal +1 for being mounted.</description>
     </rule>
     <rule id="f951-6ebd-1198-556b" name="The Dark Art" hidden="false">
-      <description>All practitioners of the Dark Arts are incredibly adept at manipulating the Winds of Magic in their rawest form, channelling energies that would disintegrate lesser beings. A Dark Elf magic user therefore adds + 1 to all of their casting rolls.</description>
+      <description>All practitioners of the Dark Arts are incredibly adept at manipulating the Winds of Magic in their rawest form, channelling energies that would disintegrate lesser beings. A Dark Elf magic user therefore adds +1 to all of their casting rolls.</description>
     </rule>
     <rule id="f4de-12ca-8cb6-0fd7" name="Frenzy (Witch Elves)" hidden="false">
       <description>Witch Elves (including Hags) are affected by the rules for frenzy. While frenzied, Witch Elves still hatre High Elves, although normally Immune to Psychology.</description>

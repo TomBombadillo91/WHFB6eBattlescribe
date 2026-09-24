@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="dfb1-1789-5d68-be54" name="Skaven" revision="19" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="dfb1-1789-5d68-be54" name="Skaven" revision="23" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="4f5c-498c-bd84-7e28" name="Clan Eshin" hidden="false"/>
     <categoryEntry id="befb-92ec-0667-152b" name="Clan Pestilens" hidden="false"/>
@@ -1746,8 +1746,6 @@ Poisoned Wind Globes are Warpstone Weapons.</description>
             <rule id="029f-4cb1-3a5f-2190" name="Tunnelling" hidden="false">
               <description>After both sides have set up (including Scouts), place a tunnel marker anywhere on the battlefield (a coin will do). At the beginning of each Skaven turn, except for the first, roll a D6 to determine if the Tunnelling Team emerge:
 
-Tunnelling Chart
-
 First turn	N/A
 Second turn	4+ to emerge
 Third turn	3+ to emerge
@@ -1760,7 +1758,12 @@ Once the final position of the marker has been established, replace the marker w
 
 If the marker is moved under an enemy unit, the Tunnelling Team will automatically engage it in close combat on the side that is closest to the marker (the team counts as charging). If the marker is moved under a friendly unit or impassable terrain, place the Tunnelling Team on the closest edge of the unit/obstacle. If the marker is moved off the battlefield, the team has got lost (as per result 3-4 on the Tunnelling Mishap table).
 
-If you roll a Misfire, roll a D6 and consult the Tunnelling Mishap table.</description>
+If you roll a Misfire, roll a D6 and consult the Tunnelling Mishap table:
+
+D6		Result
+1-2	Cave in!	The tunnel collapses and the team is killed. The enemy gets Victory points for its destruction.
+3-4	Where are we?	The team has got lost and emerges slightly away from their intended target, maybe in a pigsty, the lair of a huge monster or into the courtyard of a Bretonnian castle. The team does not take any part in the battle, but the enemy does not earn any Victory points for it.
+5-6	I told you to turn left!	The team almost made it, but went in the wrong direction for the last few hundred yards. Your opponent can place the marker anywhere on the battlefield and deploy the Skaven models as they emerge. The models cannot move in the Movement phase of the turn they emerge (except for fleeing if they fail a Terror or Panic test), because they are too busy trying to work out where they are and blaming each other for reading the map wrong.</description>
             </rule>
             <rule id="8f51-f47f-3c6b-c8e7" name="Suicide Mission" hidden="false">
               <description>Mission: Due to the dangers involved in tunnelling, characters will never join these teams.</description>
@@ -1925,7 +1928,9 @@ If you roll a Misfire, roll a D6 and consult the Tunnelling Mishap table.</descr
               <description>Jezzails are missile weapons with a maximum range of 36&quot; and Strength of 6. They are
 Move-or-Fire and Armour Piercing weapons.
 
-Jezzail Profile</description>
+Jezzails are Warpstone Weapons.
+
+Jezzails are the most reliable weapons developed by Clan Skryre (they&apos;re almost safe!). For each Jezzail that obtains a result of 1. on its roll to hit, roll another dice. If this second dice rolls a 2-6 the shot was a dud and all is fine, but if the result is a 1 the gun has a serious problem. To represent this, the Jezzail hits itself (roll to wound as normal).</description>
             </rule>
           </rules>
           <costs>
@@ -2412,7 +2417,7 @@ Fire of Tzeentch
 
 This is a magic missile with a range of 24&quot;. The range and line of sight are worked out from any model in the front rank. It inflicts D6 hits on the target unit. The Strength of the hits depends on the size of the casting unit:
 
-Fires of Tzeentch Chart
+Fires of Tzeentch
 
 Unit Size	Strength of Hits
 1-5	Strength 1
@@ -2528,7 +2533,17 @@ If the Doomwheel&apos;s movement is sufficient to move into contact wiht an enem
           <description>The Doomwheel deals D6+2 impact hits at Strength 5 when it charges into a combat.</description>
         </rule>
         <rule id="45af-4321-9847-79e6" name="Warp Lightning" hidden="false">
-          <description>Warp Lightning is a magic missile with a range of 24&quot; It can be cast at a casting value of 5+ or 9+ (declare before rolling the dice). If successfully cast, it hits its target and causes D6 Strength 5 hits at casting value 5+ or 2D6 Strength 5 hits at 9+. Each result of 1 that is rolled when determining the number of hits caused by any version of the spell hits the caster rather than the enemy. For example, if a 4 and a 1 are rolled to determine the 2D6 hits caused, the enemy suffers four hits and the caster suffers one.</description>
+          <description>In each Skaven shooting phase the Doomwheel can unleash D3 bolts of warp-lightning (roll in each Shooting phase). The Skaven player can choose not to release the warp-lightning.
+
+The power of the warp-lightning can be very unpredictable - each time roll an Artillery dice. If you roll a number then that is the Strength of all the lightning bolts this turn. Each of the bolts has a range of 3D6&quot; and will strike the nearest model in any direction - friend or foe! 
+The bolts of warp-lightning arc wildly so they ignore any terrain between them and the nearest target.
+If the Doomwheel is in contact with a unit or model don&apos;t bother rolling for range - the bolts will automatically hit the target in contact.
+
+If several targets are the same distance away the bolt will be attracted to the target with the best saving throw (since they have more metal armour on them).
+
+Each Bolt will only damage a single model, but the model struck suffers not one but D6 wounds. Against war engines, ridden monsters and the like the hit scored is randomized between the machine/creature and its crew.
+
+If you roll a misfire something has gone awry with the warpstone generator. The Doomwheel will fire three shots at full range and full power (so 18&quot; at Strength 10). After this te Doomwheel itself is destroyed and removed from play.</description>
         </rule>
         <rule id="77ed-8cd8-003d-e77b" name="Crew Attacks" hidden="false">
           <description>Chariot crew may fight against enemy in contact with the chariot whether to its front, side or rear. They strike blows in normal Initiative order and attack during a charge, exactly like other warriors. All crew (usually two) fight, including the driver.
@@ -2969,7 +2984,9 @@ Hidden Assassins are not placed on the table but are assumed to move with the un
 Hidden Assassins may be revealed at the beginning of any of your turns or at the start of any Close Combat phase. The player declares that his unit contains an Assassin and places the model amongst the ranks where it can fight, displacing a normal rank-and-file model (not a character, champion, musician or standard bearer) to the rearmost rank. If there are no such models in the front rank, the Assassin is placed in the second rank until there is enough room for him in the first rank. Assassins always strikes first in the round of close combat they are revealed, even against chargers. If an enemy model is also entitled to always strike first, the model with higher Initiative strikes first (roll a D6 if they have equal Initiative).</description>
         </rule>
         <rule id="d10a-d615-396e-d576" name="Leadership" hidden="false">
-          <description>Units in the army can never use their Leadership value and an Assassin can never be the General of the army (therefore your army must include at least one other character to act as the General).</description>
+          <description>The Master Assassin can always pass his Leadership value to all units of Night Runners and Gutter Runners within 12&quot; (ask your opponent to look away if you have to measure range when he is hidden, then measure range to the unit he is hidden in)
+
+Other units can only use his Leadership if he is not hidden.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3526,7 +3543,17 @@ The Bell&apos;s unit is reassured by the presence of the holy artefact and is th
 When casting spells from the Bell, the Grey Seer can measure a spell&apos;s range from any point of the Screaming Bell&apos;s carriage.</description>
         </rule>
         <rule id="a398-26ae-6288-980f" name="Screaming Bell" hidden="false">
-          <description>Screaming Bells are holy altars from which the Grey Seers preach to the the Skaven. The Bell is an ever-present symbol in the legends describing the creation of the Skaven race, and its sound reaches deep inside the evil hearts of the rat-men, inspiring awe and devotion. In battle the ominous sound of the Bell can be beard above the clamour of the flghting, a message of death for the rat-men&apos;s enemies and of victory for the Skaven.</description>
+          <description>The Screaming Bell is a large target and has a Unit Strength of 4 (5 with the Grey Seer).
+
+The Screaming Bell has a Ward save of 3+ representing hits that bounce off the indestructible Bell of the Horned One itself. The Grey Seer does not benefit from this save, but gets the normal 5+ armour save from being on a chariot, representing the shelter he gets from the Bell&apos;s carriage.
+
+Unsaved wounds caused by a hit with a Strength of 7 or more destroy the Screaming Bell automatically. On the other hand, every time one such wound is saved by the Bell&apos;s Ward save, the Screaming Bell will immediately ring with three dice as described below. Any new effects generated in this way replace effects that were lasting from a previous ringing of the Bell.
+
+The Screaming Bell and the unit pushing it have Magic Resistance (2).
+
+The Screaming Bell adds two dice to the Skaven pool of Power dice in the Skaven Magic phase. These dice can be used only by the Grey Seer.
+
+The Grey Seer can take advantage of his high position, drawing line of sight for his spells over the heads of the Bell&apos;s unit (remember, the Bell is a large target). In addition, he is free to cast spells all around, not only in the unit&apos;s line of sight.</description>
         </rule>
         <rule id="5504-15d8-c299-99fe" name="Missile Fire Against The Bell" hidden="false">
           <description>Enemies with a line of sight to the Screaming Bell may choose whether to target the Bell or its unit with their missile fire.
@@ -3541,8 +3568,6 @@ If the Grey Seer refuses a challenge, he can declare that he&apos;s hiding behin
         <rule id="d2a9-8e91-a757-7b12" name="Ringing The Bell" hidden="false">
           <description>In the Skaven Shooting phase, the striker can ring the Bell, even when it is engaged in close combat. First declare if you are going to roll one, two or three dice (ie, decide how much effort the striker is putting into hitting the Bell). Then roll them, add their results together and consult the chart below.
 
-Ringing the Bell Chart
-
 Score	Result
 1-3	No effect.
 4-5	The Bell and its unit cause fear until the next Skaven Shooting phase.
@@ -3556,7 +3581,7 @@ Score	Result
 
 If the dice rolled include a double or a treble result (two fours, or two fives, or three sixes, etc), something has gone wrong:
 
-Double/Treble Chart
+Double/Treble
 
 Double	The effect rolled on the chart still applies as normal. In addition, the distorted resonance of the Bell causes both the Grey Seer and the unit pushing the bell to suffer D3 Strength 2 hits each, with no armour saves allowed.
 Treble	The effect rolled on the chart does not apply and the Bell itself is destroyed! Remove the Screaming Bell model and place the Grey Seer on foot inside the unit. Both the Grey Seer and the unit pushing the Bell suffer D6 Strength 4 hits each, with no armour save allowed. Note that the Grey Seer also suffers the normal Strength 5 hit due to his &apos;chariot&apos; being destroyed.</description>
@@ -3692,7 +3717,7 @@ No armour saves are allowed against wounds caused by the Gouger.</description>
             <rule id="787c-5b4d-887f-febe" name="Weeping Blade" hidden="false">
               <description>This weapon weeps a black and corrosive venom which can burn through armour and slay with the merest touch.
 
-The wielder has + 1 Strength. Each unsaved wound is multiplied into D3 wounds.</description>
+The wielder has +1 Strength. Each unsaved wound is multiplied into D3 wounds.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -4152,8 +4177,6 @@ The Amulet confers to the bearer a 4+ Ward save. At the end of the game roll a D
             <rule id="8e78-e3f1-cb2d-9c4c" name="Skavenbrew" hidden="false">
               <description>A character can feed Skavenbrew to the unit he is with at the beginning of the battle. The Skavenbrew will have no effect on other, characters in the unit. Roll a D6 to determine the effect of the Skavenbrew:
 
-Skavenbrew Chart
-
 D6	Result
 1	No effect.
 2-3	The unit and the character are frenzied.
@@ -4546,8 +4569,6 @@ Weapon teams can never charge into close combat, even if frenzied.</description>
 
 Note that this model can stand &amp; shoot - fire the weapon as soon as the charge is declared, before the enemy moves.
 
-Warpfire Thrower Misfire Chart Chart
-
 D6	Result
 1-2	Kaboom! Place the iarge circular template centred on the barrel and resolve the hit as normal. After this, the team is automatically removed.
 3-4	The barrel catches fire! The team runs desperately 2D6&quot; in a random direction (the model with the barrel in front), stopping if it comes in contact with anything, then explodes. Place the small circular template over the barrel and resolve the hit as normal. After this, the team is automatically removed.
@@ -4572,8 +4593,6 @@ D6	Result
 You can continue to roll dice as long as you want, but if you roll a DOUBLE (ie, you roll a duplicate of one of the numbers already rolled), the Ratling Gun suffers some kind of malfunction while firing. As soon as you roll a double consult the Misfire Chart below.
 
 Note that Ratling Guns can stand &amp; shoot.
-
-Ratling Gun Misfire Chart Chart
 
 Double 1 or Double 2	Jammed! The pump powering the firing mechanism loses pressure before the crew can fire. No shots are fired this turn.
 Double 3 or Double 4	Whoops!!! The steam pump controls malfunction and a cloud of green steam surrounds the crew as the gun spins around wildly. Roll a Scatter dice - all the shots (including the ones rolled with the last dice, the one that has caused the Misfire) are fired in the direction shown by the arrow by the half-blinded and disoriented crew, hitting the first unit in their path within 15&quot;, friend or foe!
