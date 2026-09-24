@@ -26,6 +26,8 @@ _rec = REPO / "docs/wiki-decisions.json"
 if _rec.exists():
     for d in json.loads(_rec.read_text(encoding="utf-8"))["decisions"]:
         DEC[(d["file"], d["category"], d["name"], d["used_by"])] = d
+        # "Used by" shifts when a rule gains text, so also key without it
+        DEC.setdefault((d["file"], d["category"], d["name"]), d)
 
 
 def context_map(path):
@@ -151,7 +153,7 @@ for p in source_files(REPO):
 carried = []
 kept = []
 for r in rows:
-    d = DEC.get((r[3], r[0], r[1], r[2]))
+    d = DEC.get((r[3], r[0], r[1], r[2])) or DEC.get((r[3], r[0], r[1]))
     if d is None:
         kept.append(r + (None,))
     elif d["decision"] == "Needs more thought":

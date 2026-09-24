@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4b41-6842-9db5-f563" name="Tomb Kings" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4b41-6842-9db5-f563" name="Tomb Kings" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7d0c-5562-269f-0795" name="Tomb King General" hidden="false"/>
     <categoryEntry id="80b7-5608-88c2-552c" name="Settra&apos;s Army" hidden="false">
@@ -1728,6 +1728,13 @@ Counts as heavy armour. The bearer gains +1 Wound.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fec-7d8b-8853-3a46" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d3c2-155b-b4a4-3140" type="max"/>
               </constraints>
+              <rules>
+                <rule id="736c-7a8e-10c5-17e9" name="Armour of Eternity" hidden="false">
+                  <description>Forged from the bronze of Marak, cooled in the blood of the giant lybrasian scorpion and gilded with red gold from Lahmia, this ancient breastplate can turn aside even the strongest blow.
+
+Enemy models must re-roll successful rolls to wound against the character. Counts as light armour.</description>
+                </rule>
+              </rules>
               <categoryLinks>
                 <categoryLink id="551e-00c7-615d-20ba" name="Magic Armour" hidden="false" targetId="2963-aff1-28ca-7634" primary="false"/>
               </categoryLinks>

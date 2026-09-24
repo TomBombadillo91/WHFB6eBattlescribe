@@ -6,7 +6,6 @@ Sorted so the rows worth a human's time come first. A `mechanical-tag` row with 
 
 | Rule | id | Where | Reason | Wiki coverage |
 | --- | --- | --- | --- | --- |
-| Ethereal Steeds | `91aa-4512-eebd-a48c` | Vampire Counts.cat:3619 | `no-coverage` | none |
 | Giant | `38a2-1ccb-3994-4ae5` | Orcs and Goblins.cat:4250 | `deferred` | /unit/giant |
 | Skirmishers | `4c3d-1a6a-3977-0b53` | Warhammer Fantasy 6th Edition.gst:697 | `deferred` | /faq/skirmishers (+1 more) |
 | Fast Cavalry | `ab75-c6ec-0411-c924` | Warhammer Fantasy 6th Edition.gst:789 | `deferred` | /faq/fast-cavalry (+1 more) |
@@ -38,12 +37,12 @@ Sorted so the rows worth a human's time come first. A `mechanical-tag` row with 
 | Scaly Skin (5+) | `135a-1285-5d32-b32e` | Forces of Chaos.cat:7344 | `mechanical-tag` | none |
 | Scaly Skin (3+) | `2e1a-1b1f-f2b6-b5e1` | Forces of Chaos.cat:7887 | `mechanical-tag` | none |
 | Scaly Skin (3+) | `1cea-afe6-f8af-5ecc` | High Elves.cat:3491 | `mechanical-tag` | none |
-| Unit Strength 5 | `bfbd-79c5-8e8d-4942` | Ogre Kingdoms.cat:1466 | `mechanical-tag` | none |
+| Unit Strength 5 | `bfbd-79c5-8e8d-4942` | Ogre Kingdoms.cat:1459 | `mechanical-tag` | none |
 | Unit Strength 10 | `5b1b-57a3-26bf-19b8` | The Empire.cat:5276 | `mechanical-tag` | none |
 | Flying Unit (10") | `798c-7a75-09b6-d8fb` | Vampire Counts.cat:1063 | `mechanical-tag` | none |
-| Unit Strength 5 | `9ae8-dd7c-d59a-d3bb` | Vampire Counts.cat:1561 | `mechanical-tag` | none |
-| Single Model | `d9f7-cbb3-ced5-f103` | Vampire Counts.cat:1609 | `mechanical-tag` | none |
-| Scaly Skin (5+) | `9e0e-8201-0bdb-dd88` | Vampire Counts.cat:2624 | `mechanical-tag` | none |
+| Unit Strength 5 | `9ae8-dd7c-d59a-d3bb` | Vampire Counts.cat:1560 | `mechanical-tag` | none |
+| Single Model | `d9f7-cbb3-ced5-f103` | Vampire Counts.cat:1608 | `mechanical-tag` | none |
+| Scaly Skin (5+) | `9e0e-8201-0bdb-dd88` | Vampire Counts.cat:2623 | `mechanical-tag` | none |
 
 ## Undecided: the wiki has more than one page for the name
 

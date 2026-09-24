@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9534-aec7-1922-76f2" name="Orcs and Goblins" revision="17" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9534-aec7-1922-76f2" name="Orcs and Goblins" revision="18" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5b0c-07f2-6b72-7aa8" name="Orc" hidden="false"/>
     <categoryEntry id="2c47-226a-5465-6c16" name="Common Orc" hidden="false"/>
@@ -6643,7 +6643,9 @@ If an enemy model suffers one or more wounds (after saves) inflicted by the Curm
           </constraints>
           <rules>
             <rule id="2549-eaf0-5648-e2ef" name="Porko&apos;s Pigstikka" hidden="false">
-              <description>The Pigstikka gives the wielder +1 Strength on the turn he charges. In addition, on the turn he charges he also gets one extra Attack per rank in the enemy unit (up to a maximum of +3).</description>
+              <description>Most of the many spears that have been used by Porko&apos;s Boar Boyz lie shattered on the battlefields of the Old World, but not this one. In battle, the gleaming point of the Pigstikka pierces enemy armour with ease, skewering several foes with one strike; &quot;ready for later&quot; as Porko used to say, referring to the traditional after-battle barbecue.
+
+Mounted characters only. The Pigstikka gives the wielder +1 Strength on the turn he charges. In addition, on the turn he charges he also gets one extra Attack per rank in the enemy unit (up to a maximum of +3).</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -7158,7 +7160,7 @@ The &apos;Itty Ring contains the &apos;Eadbutt spell described in the spells of 
           </constraints>
           <rules>
             <rule id="bad5-661c-892f-b649" name="&apos;Eadbuttin&apos; &apos;At" hidden="false">
-              <description>May only be used in challenges. The wearer gets one extra Attack, made before all other blows are struck. This attack is made with the Killing Blow special ability, and is resolved at the wearer&apos;s normal Strength. Even if the opponent is killed by the &apos;eadbutt, the character wearing the &apos;At should still make his remaining attacks to calculate overkill for combat resolution.</description>
+              <description>Orcs only. May only be used in challenges. The wearer gets one extra Attack, made before all other blows are struck. This Attack is made with the Killing Blow special ability and is resolved at the wearer&apos;s normal Strength. Even if the opponent is killed by the &apos;eadbutt, the character wearing the &apos;At should still make his remaining attacks to calculate overkill for combat resolution.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -7281,7 +7283,9 @@ The &apos;Itty Ring contains the &apos;Eadbutt spell described in the spells of 
           </constraints>
           <rules>
             <rule id="43bc-5102-0261-cce9" name="Warboss Umm&apos;s Best Big Boss &apos;At" hidden="false">
-              <description>Magical Boss&apos;s &apos;at wot protects you - giz you a 5+ Ward Save dunnit.</description>
+              <description>Originally this rune-encrusted and rather squashed looking helmet belonged to a Dwarf king, or so legend tells. Although it is a boon in combat it is far from infallible, as its change in ownership attests.
+
+Magical Boss&apos;s &apos;at wot protects you - giz you a 5+ Ward save dunnit. May be worn in addition to normal or magical armour.</description>
             </rule>
           </rules>
           <categoryLinks>

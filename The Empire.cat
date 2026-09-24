@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="16" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="17" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <costTypes>
     <costType id="fada-3781-5bbe-4625" name=" Hull Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -5283,23 +5283,12 @@ Only then is the total score and its effects worked out. Including Miscasts and 
 
 Roll a dice for each Steam Point you are building up and total up the results of the dice rolled. If the total is equal to or less than the Steam Tank&apos;s current Hull Points, all is fine and you generate the SP you wanted. If you roll above the current Hull Points, the SP are generated but something has gone wrong and you have to roll a dice on the Malfunction chart and apply the result immediately.
 
-It is a good idea to place a dice on top or near the Tank to record how many SP it has available. As you use them throughout the turn, deduct the number of SP available by turning the dice so that it shows the SP remaining.
-
-Steam Points can be used during the Movement phase to move the Tank or during the Shooting phase to fire the Tank&apos;s gun (or guns!). All unused SP are lost at the end of the turn in which they are generated, so use them all if you can!
-
-Each action has a cost in Steam Points, as shown on the chart below:
-
-Action	SP
-Move forward (up to 3&quot;)	1
-Move backward (up to 2&quot;)	1
-Pivot on the spot (up to 90°)	1
-Grinding (once per turn)	1
-Fire hull weapon (once per turn)	2
-Fire turret weapon (once per turn)	1
-</description>
+It is a good idea to place a dice on top or near the Tank to record how many SP it has available. As you use them throughout the turn, deduct the number of SP available by turning the dice so that it shows the SP remaining.</description>
             </rule>
             <rule id="817b-182c-af94-da06" name="Shooting with the Steam Tank" hidden="false">
               <description>Once per turn, the Steam Tank can fire its hull-mounted weapon against targets in its 45° frontal arc (see diagram 1). This costs 2 SP and can be done even if the Tank has moved, as long as there are enough SP left.
+
+Once per turn, the Steam Tank can also fire its turret-mounted weapon against targets all around. This costs 1 SP and can be done even if the Tank has moved, as long as there is 1 SP left.
 
 Rotate the turret so that its gun is pointing towards the intended target. This is important if you are firing a gun that makes use of the Flame template, because it will determine the point where the template is positioned. If the turret is glued in place, just measure the distance of the barrel away from the turret in the intended direction and place the template there (basically, imagine that the turret has turned towards the target). The Steam Tank can fire both guns in the same turn, as long as there are enough SP left.
 
@@ -5333,24 +5322,22 @@ Units of skirmishers and characters with a Unit Strength of 1 or 2 cannot be cha
               <description>When shooting at the Tank, roll to hit normally (the Steam Tank is a Large Target), then determine if you have hit a &apos;Soft&apos; part (the boiler, an open hatch...) or a &apos;Hard&apos; part (armour plating).
 
 To do this, roll a dice for each hit on the following table:
-Location		Hard Hit		Soft Hit
-Front		1-5			6
-Side			1-4			5-6
-Rear		1-2			3-6
+
+The Steam Tank has a front, flanks and rear as shown on Diagram 4.
 
 Note: The top of the Steam Tank is considerably less armoured, so all attacks, including magical attacks, that hit from above will automatically hit Soft. If the central hole of a template weapon is entirely on the Tank it will also automatically hit Soft. Otherwise, they will cause a normal hit that has to be rolled on the Location table. The direction of the hit is the facing closest to the centre of the template. Determine the damage (ie, Hull Points loss) caused by the hit by adding the following set of factors:
-The score of a D6.
-The Strength of the hit.
-The result of the dice for any multiple wounds it causes (if the attack does not cause multiple wounds, nothing is added).
 
-If you have hit Soft, subtract 8 from the total you obtained.
-If you have hit Hard, subtract 10 from the total you obtained.
+- The score of a D6.
+- The Strength of the hit.
+- The result of the dice for any multiple wounds it causes (if the attack does not cause multiple wounds, nothing is added).
+- If you have hit Soft, subtract 8 from the total you obtained.
+- If you have hit Hard, subtract 10 from the total you obtained.
 
 That is:
 
-Soft hit damage = D6 + S + * - 8
+Soft hit damage = D6 + S + \* - 8
 
-Hard hit damage = D6 + S + * - 10
+Hard hit damage = D6 + S + \* - 10
 
 Eg: An arrow shot by a bow hits Soft. It will cause D6 + 3 + 0 - 8 points of damage (the O is because the arrow does not cause multiple wounds). You will need to roll a 6 to score a single point of damage on the Tank.
 

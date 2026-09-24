@@ -747,6 +747,438 @@
       "decision": "Leave as is",
       "chose": null,
       "note": "Leadership 8 is correct; the wiki's Mount of Slaanesh page has 9 in error."
+    },
+    {
+      "file": "Warhammer Fantasy 6th Edition.gst",
+      "category": "No wiki coverage",
+      "name": "Fly",
+      "used_by": "",
+      "decision": "Matched",
+      "chose": "/flyers/aerial-movement",
+      "note": "Read against the wiki: the same rule is there as /flyers/aerial-movement, under a different title."
+    },
+    {
+      "file": "Warhammer Fantasy 6th Edition.gst",
+      "category": "No wiki coverage",
+      "name": "Stone Thrower",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "Ogre Kingdoms.cat",
+      "category": "No wiki coverage",
+      "name": "Scrap Launcher",
+      "used_by": "",
+      "decision": "Matched",
+      "chose": "/special-rules/stone-thrower-scraplauncher",
+      "note": "Read against the wiki: the same rule is there as /special-rules/stone-thrower-scraplauncher, under a different title."
+    },
+    {
+      "file": "Ogre Kingdoms.cat",
+      "category": "No wiki coverage",
+      "name": "Slavegiant Attacks",
+      "used_by": "",
+      "decision": "Matched",
+      "chose": "/special-rules/slavegiant-special-attacks",
+      "note": "Read against the wiki: the same rule is there as /special-rules/slavegiant-special-attacks, under a different title."
+    },
+    {
+      "file": "Ogre Kingdoms.cat",
+      "category": "No wiki coverage",
+      "name": "Thunderous Charge",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "Ogre Kingdoms.cat",
+      "category": "No wiki coverage",
+      "name": "Rhinox Cavalry",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "Ogre Kingdoms.cat",
+      "category": "No wiki coverage",
+      "name": "Ironfists (Rhinox Riders)",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "Ogre Kingdoms.cat",
+      "category": "No wiki coverage",
+      "name": "Stump-Blades",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "Ogre Kingdoms.cat",
+      "category": "No wiki coverage",
+      "name": "Skrag the Slaughterer",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "Ogre Kingdoms.cat",
+      "category": "No wiki coverage",
+      "name": "Wallcrusher",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "Ogre Kingdoms.cat",
+      "category": "No wiki coverage",
+      "name": "Mawseeker",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "Orcs and Goblins.cat",
+      "category": "No wiki coverage",
+      "name": "Moving Fanatics into Obstacles",
+      "used_by": "",
+      "decision": "Matched",
+      "chose": "/special-rules/moving-into-obstacles",
+      "note": "Read against the wiki: the same rule is there as /special-rules/moving-into-obstacles, under a different title."
+    },
+    {
+      "file": "Orcs and Goblins.cat",
+      "category": "No wiki coverage",
+      "name": "Giant",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "Orcs and Goblins.cat",
+      "category": "No wiki coverage",
+      "name": "Giant Spiders",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "Orcs and Goblins.cat",
+      "category": "No wiki coverage",
+      "name": "The Blasted Banner",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "Orcs and Goblins.cat",
+      "category": "No wiki coverage",
+      "name": "Gobbla the Cave Squig",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "Orcs and Goblins.cat",
+      "category": "No wiki coverage",
+      "name": "Gobbla's Movement",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "Orcs and Goblins.cat",
+      "category": "No wiki coverage",
+      "name": "Insatiable Appetite",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "Orcs and Goblins.cat",
+      "category": "No wiki coverage",
+      "name": "Shooting at Skarsnik & Gobbla",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "Orcs and Goblins.cat",
+      "category": "No wiki coverage",
+      "name": "Skarsnik's Prodder",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "Orcs and Goblins.cat",
+      "category": "No wiki coverage",
+      "name": "'Eadbuttin' 'At",
+      "used_by": "",
+      "decision": "Matched",
+      "chose": "/magic-item/edbuttin-at",
+      "note": "Read against the wiki: the same rule is there as /magic-item/edbuttin-at, under a different title."
+    },
+    {
+      "file": "Orcs and Goblins.cat",
+      "category": "No wiki coverage",
+      "name": "Fungus Buster Brew",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "Orcs and Goblins.cat",
+      "category": "No wiki coverage",
+      "name": "Staff of Badumm",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "Orcs and Goblins.cat",
+      "category": "No wiki coverage",
+      "name": "Hate Dwarfs",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "Skaven.cat",
+      "category": "No wiki coverage",
+      "name": "High Ranking",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "Skaven.cat",
+      "category": "No wiki coverage",
+      "name": "Warlock Engineer",
+      "used_by": "",
+      "decision": "Matched",
+      "chose": "/magic/warlock-engineers",
+      "note": "Read against the wiki: the same rule is there as /magic/warlock-engineers, under a different title."
+    },
+    {
+      "file": "Skaven.cat",
+      "category": "No wiki coverage",
+      "name": "Beastmaster",
+      "used_by": "",
+      "decision": "Matched",
+      "chose": "/special-rules/beastmaster-skaven",
+      "note": "Read against the wiki: the same rule is there as /special-rules/beastmaster-skaven, under a different title."
+    },
+    {
+      "file": "Skaven.cat",
+      "category": "No wiki coverage",
+      "name": "Plague Rats",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "Skaven.cat",
+      "category": "No wiki coverage",
+      "name": "Stands Alone",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "Skaven.cat",
+      "category": "No wiki coverage",
+      "name": "Horned Rat Incarnate",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "Skaven.cat",
+      "category": "No wiki coverage",
+      "name": "Doom Glaive",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "Skaven.cat",
+      "category": "No wiki coverage",
+      "name": "Daemonic Instability",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "Skaven.cat",
+      "category": "No wiki coverage",
+      "name": "Vermin Lord",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "Skaven.cat",
+      "category": "No wiki coverage",
+      "name": "Doomwheel",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "Skaven.cat",
+      "category": "No wiki coverage",
+      "name": "Boneripper",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "Skaven.cat",
+      "category": "No wiki coverage",
+      "name": "Harbinger of Mutation",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "Skaven.cat",
+      "category": "No wiki coverage",
+      "name": "Warpfire Thrower Misfire",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "Skaven.cat",
+      "category": "No wiki coverage",
+      "name": "Ratling Gun Misfire",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "The Empire.cat",
+      "category": "No wiki coverage",
+      "name": "Electoral Banner",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+    },
+    {
+      "file": "The Empire.cat",
+      "category": "No wiki coverage",
+      "name": "Shooting with the Steam Tank",
+      "used_by": "",
+      "decision": "Matched",
+      "chose": "/special-rules/shooting-steam-tank",
+      "note": "Read against the wiki: the same rule is there as /special-rules/shooting-steam-tank, under a different title."
+    },
+    {
+      "file": "The Empire.cat",
+      "category": "No wiki coverage",
+      "name": "Charging with the Steam Tank",
+      "used_by": "",
+      "decision": "Matched",
+      "chose": "/special-rules/charging-steam-tank",
+      "note": "Read against the wiki: the same rule is there as /special-rules/charging-steam-tank, under a different title."
+    },
+    {
+      "file": "The Empire.cat",
+      "category": "No wiki coverage",
+      "name": "Shooting at the Steam Tank",
+      "used_by": "",
+      "decision": "Matched",
+      "chose": "/special-rules/shooting-against-the-steam-tank",
+      "note": "Read against the wiki: the same rule is there as /special-rules/shooting-against-the-steam-tank, under a different title."
+    },
+    {
+      "file": "The Empire.cat",
+      "category": "No wiki coverage",
+      "name": "Parent and Detachment Units",
+      "used_by": "",
+      "decision": "Needs more thought",
+      "chose": null,
+      "note": "The wiki's Detachment Rules page is 6,618 characters, the longest in the repo. Held back with the other long rules to be summarised rather than copied; the catalogue's 5,933-character version stands meanwhile."
+    },
+    {
+      "file": "The Empire.cat",
+      "category": "No wiki coverage",
+      "name": "Helm of the Skavenslayer",
+      "used_by": "",
+      "decision": "Matched",
+      "chose": "/magic-item/helm-of-the-skaven-slayer",
+      "note": "Read against the wiki: the same rule is there as /magic-item/helm-of-the-skaven-slayer, under a different title."
+    },
+    {
+      "file": "Tomb Kings.cat",
+      "category": "No wiki coverage",
+      "name": "Armour of Eternity",
+      "used_by": "",
+      "decision": "Matched",
+      "chose": "/magic-item/amour-of-eternity",
+      "note": "Read against the wiki: the same rule is there as /magic-item/amour-of-eternity, under a different title."
+    },
+    {
+      "file": "Wood Elves.cat",
+      "category": "No wiki coverage",
+      "name": "Strangle-Roots",
+      "used_by": "",
+      "decision": "Matched",
+      "chose": "/special-rules/strangle-root-attack",
+      "note": "Read against the wiki: the same rule is there as /special-rules/strangle-root-attack, under a different title."
+    },
+    {
+      "file": "Skaven.cat",
+      "category": "No wiki coverage",
+      "name": "Festering Chantor",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Verified against the army book: the rule text and the statline are both right. The wiki's page is the one in error."
+    },
+    {
+      "file": "Skaven.cat",
+      "category": "No wiki coverage",
+      "name": "Warlock Master",
+      "used_by": "",
+      "decision": "Leave as is",
+      "chose": null,
+      "note": "Verified against the army book. The wiki has no Warlock Master page, so there is nothing to match; the rule now carries the book's wording."
     }
   ]
 }
