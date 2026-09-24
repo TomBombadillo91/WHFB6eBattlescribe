@@ -836,7 +836,7 @@
       "used_by": "",
       "decision": "Leave as is",
       "chose": null,
-      "note": "Not among the wiki's six Ogre Big Names either; same as Mawseeker."
+      "note": "Confirmed against the army book: 15 points, and the text matches apart from a doubled s in Wallcrusherss, now corrected. Not one of the wiki's six Big Names."
     },
     {
       "file": "Ogre Kingdoms.cat",
@@ -845,7 +845,7 @@
       "used_by": "",
       "decision": "Leave as is",
       "chose": null,
-      "note": "The wiki's Ogre Big Names list has only six - Beastkiller, Deathcheater, Giantbreaker, Kineater, Longstrider, Mountaineater. Mawseeker is not among them, so it comes from another source. Catalogue text stands."
+      "note": "Confirmed against the army book: 10 points, text exact. Not one of the wiki's six Big Names."
     },
     {
       "file": "Orcs and Goblins.cat",
@@ -1095,9 +1095,9 @@
       "category": "No wiki coverage",
       "name": "Electoral Banner",
       "used_by": "",
-      "decision": "Leave as is",
-      "chose": null,
-      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+      "decision": "Matched",
+      "chose": "/special-rules/magic-banner",
+      "note": "The book calls this rule Magic Banner, on the State Troops entry, and the wiki has it at /special-rules/magic-banner word for word. Only the catalogue's name for it differs. An earlier pass found this page and wrongly dismissed it as a coincidence."
     },
     {
       "file": "The Empire.cat",

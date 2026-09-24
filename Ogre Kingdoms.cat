@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9817-5d62-aa33-69f5" name="Ogre Kingdoms" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9817-5d62-aa33-69f5" name="Ogre Kingdoms" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5fa5-4b26-a63e-0bef" name="Big Name" hidden="false"/>
     <categoryEntry id="a123-ef4a-523b-4159" name="Has Thiefstones" hidden="false"/>
@@ -2613,7 +2613,7 @@ An Ogre with the big name Longstrider adds 1 to his Movement rate.</description>
         <selectionEntry id="dca9-a36a-2399-ff23" name="Wallcrusher" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="72f0-7f8a-a045-dd48" name="Wallcrusher" hidden="false">
-              <description>Wallcrusherss do one additional impact hit on a successful Bull Charge. In addition, enemies gain no advantage from being behind a defended obstacle against a Wallcrusher - he is as likely to barge through it or even smash it down on top of them. This does not benefit a unit he joins.</description>
+              <description>Wallcrushers do one additional impact hit on a successful Bull Charge. In addition, enemies gain no advantage from being behind a defended obstacle against a Wallcrusher - he is as likely to barge through it or even smash it down on top of them. This does not benefit a unit he joins.</description>
             </rule>
           </rules>
           <categoryLinks>
