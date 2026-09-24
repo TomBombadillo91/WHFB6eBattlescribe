@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4ca8-2035-2f87-1bd7" name="WHFB 6th Edition" revision="32" battleScribeVersion="2.03" authorName="Tom Clare" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="4ca8-2035-2f87-1bd7" name="WHFB 6th Edition" revision="33" battleScribeVersion="2.03" authorName="Tom Clare" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="d9e7-add3-773e-ffab" name="BRB"/>
     <publication id="2c29-8521-dcc7-5337" name="Warhammer Chronicles 2003"/>
@@ -858,7 +858,7 @@ Note**: From Warhammer Annual 2002, Gav Thorpe clarified Regeneration has no eff
     <rule id="1a01-bd8c-93eb-8de9" name="Flammable" hidden="false">
       <description>Some creatures, such as Undead Mummies and Treemen, burn easily. A flammable creature hit by a flaming weapon or fiery spell will take double wounds, so every wound suffered by a flammable creature will be doubled to 2 wounds. Take any saves before multiplying the wounds.</description>
     </rule>
-    <rule id="ea74-4e81-f844-d146" name="Stone Thrower" hidden="false">
+    <rule id="ea74-4e81-f844-d146" name="Stone Thrower" publicationId="d9e7-add3-773e-ffab" page="120" hidden="false">
       <description>Work out the results of stone throwing in the Shooting phase. To work out damage you will need the small 3&quot; round template. The stone is not as big as the template of course (that would require a very large engine indeed) but it shatter on impact sending shards of sharp stone over a wide area.
 
 Pivot the stone thrower on the spot so that it is pointing in the direction it is going to shoot. The crew do not need to be able to see their target, but they must see that there are enemy in the direction they are firing. Then declare how far the rock is to be fired. Do this without measuring the distance to that target, so try to guess the range as accurately as possible. Once you have made your guess, place the template directly over that spot where you have guessed.
@@ -867,14 +867,23 @@ To decide whether the missile lands where it was aimed roll the Scatter dice and
 
 The Scatter dice is the dice marked with arrows on four sides and the HIT symbol on two sides. If a HIT is rolled then the missile lands exactly where it was aimed. If an arrow is rolled then the missile veers off in the direction shown by the arrow.
 
-A Misfire roll automatically cancels out the whole shot regardless of the Scatter dice result. If a number on the Artillery dice is rolled then this is the distance in inches the missile veers off target as shown by the arrow on the Scatter dice. Move the template the distance indicated in the direction shown by the arrow. If a HIT has been rolled then the numbers are ignored; a number simply indicates that the shot has not misfired.
+The Artillery dice is marked 2, 4, 6, 8, 10 and MISFIRE. If a Misfire has been rolled then something has gone wrong - roll a D6 and consult the Stone Thrower Misfire chart. A Misfire roll automatically cancels out the whole shot regardless of the Scatter dice result. If a number on the Artillery dice is rolled then this is the distance in inches the missile veers off target as shown by the arrow on the Scatter dice. Move the template the distance indicated in the direction shown by the arrow. If a HIT has been rolled then the numbers are ignored; a number simply indicates that the shot has not misfired.
 
 Stone Thrower Misfire Chart:
 1 - Destroyed! The engine cannot stand the strain placed upon it and breaks under the tension as it is fired. Bits of wood and metal fly all around, the stone tumbles to the ground splintering the engine and throwing debris into the air. The engine is destroyed and its crew slain or injured. Remove the engine and its crew.
 
-2-3 - Disabled: The normal smooth running of the machine and its crew is disrupted by some accident or freak occurrence. A rope snaps and lashes about wildly, a crewman sets the machine up wrongly so that it pulls itself apart, or maybe a careless operator has become entangled in the mechanism. The engine does nor shoot this turn and cannot fire next turn either while the damage is repaired. To help you remember, it is a good idea to turn the machine round to face away from the enemy. In addition, one of the crew is slain - caught by a snapping rope, entangled in the machinery, or thrown high into the air in place of the stone!
+2-3 - Disabled: The normal smooth running of the machine and its crew is disrupted by some accident or freak occurrence. A rope snaps and lashes about wildly, a crewman sets the machine up wrongly so that it pulls itself apart, or maybe a careless operator has become entangled in the mechanism. The engine does not shoot this turn and cannot fire next turn either while the damage is repaired. To help you remember, it is a good idea to turn the machine round to face away from the enemy. In addition, one of the crew is slain - caught by a snapping rope, entangled in the machinery, or thrown high into the air in place of the stone!
 
 4-6 - May not shoot: A minor fault prevents the machine shooting this turn. A crewman drops the stone as he lifts it into position, maybe a ratchet jams or a rope loosens. The machine is unharmed and may shoot as normal next turn.
+
+Damage:
+Once it is established where the stone lands damage can be worked out. Any model that lies completely under the template is hit automatically - models whose bases lie partially under the template are hit on a 4+. You will have to use your judgement and common sense to decide exactly which models lie under the template - sometimes it is not easy to judge precisely.
+
+Once it has been worked out which models are struck, work out damage in the usual way. Roll for each target to see whether it has suffered damage. Stone throwers have a Strength of 4 or more, so they cause damage on the roll of a 3+ or 4+ against most human or similarly sized targets. A damaging hit from a stone thrower causes D6 wounds, but as most creatures have only 1 Wound it is not necessary to take this dice roll. It is, however, useful when attacking characters and big monsters.
+
+Any single model which lies directly at the centre of the template suffers 1 automatic hit at twice the stone thrower&apos;s usual Strength - the stone lands directly on top of that model. This means that a stone thrower can potentially slay even a large monster or a powerful character.
+
+No armour saving throw is permitted against wounds from a stone thrower. Ward saves may be taken as normal.
 
 Loss of Crew:
 A stone thrower requires a full crew to work it properly – to carry stones, push then machine round to bear on its target, and so on. If one crewman is slain then the rest can just about get by without slowing up the machine noticeably. If two or more crewmen are slain then the remaining crew will be unable to cope and the stone thrower will have to miss a whole turn before it can shoot again. This is in addition to any penalty imposed by a Misfire result. Obviously, the engine requires at least one crewman to work, so the machine will become useless should they all be slain.</description>
@@ -886,15 +895,17 @@ The cannonball travels the distance that the player has nominated, plus the scor
 
 Remember the dice will always add at least 2&quot; to an estimate, and can add up to 10&quot;, so you should aim a few inches short of the target.
 
-Any model struck by a cannonball takes a Strength 10 hit resolved in the normal manner. If the cannonball wounds its target then it causes not 1 wound but D3 or D6 wounds depending on the size of the cannon. As most models have only 1 Wound anyway it will not be necessary to roll this extra dice, but it is important when it comes to rolling for heroes, big monsters, and engines of war which can take several wounds. Wounds caused by cannon shot cannot be saved by armour. If a cannonball hits a model which has several parts then resolve which part of the model is hit just like shooting with bows, etc.
-
-No armour saving throw is permitted for wounds caused by cannons. If a cannonball hits you, no amount of armour is going to do you any good. Ward saves can be taken as normal.
-
 Once it is established where the cannonball hits, place a small coin or other marker directly over the spot. The cannonball does not stop where it hits the ground but bounces straight forward and cuts a line through any targets in the way. To determine how far the cannonball bounces, roll the Artillery dice again and mark the spot where the cannonball comes to land. Any models between the points where the ball strikes the ground and where it eventually comes to land are hit by the flying cannonball. This line is considered to be a template for rules purposes (such as &quot;Look out, Sir!&quot; rolls).
 
 When a cannonball collides through a unit, only one model per rank is hit.
 
+Any model struck by a cannonball takes a Strength 10 hit resolved in the normal manner. If the cannonball wounds its target then it causes not 1 wound but D3 or D6 wounds depending on the size of the cannon - a cannon causes D3 wounds and a great cannon D6. As most models have only 1 Wound anyway it will not be necessary to roll this extra dice, but it is important when it comes to rolling for heroes, big monsters, and engines of war which can take several wounds. Wounds caused by cannon shot cannot be saved by armour. If a cannonball hits a model which has several parts then resolve which part of the model is hit just like shooting with bows, etc.
+
+No armour saving throw is permitted for wounds caused by cannons. If a cannonball hits you, no amount of armour is going to do you any good. Ward saves can be taken as normal.
+
 Instead of firing a normal shot, cannon crew can opt to fire grapeshot instead. Normal targeting rules apply. Grapeshot has a range of 8&quot;. If in range, the target suffers a number of hits equal to the roll of an Artillery dice, resolved at Strength 4, with a -2 Armour save modifier. Misfires occur as normal.
+
+The Artillery dice is rolled twice when a cannon is fired, so there are two chances of rolling a Misfire result. However, the two results will be different. If a Misfire result is rolled on the first dice, the cannon has literally misfired and may explode - roll a D6 and consult the Cannon Misfire chart. If a Misfire is rolled on the Bounce roll then this merely indicates that the ball has stuck in the ground and does not bounce.
 
 Cannon Misfire Chart:
 1 - Destroyed! The cannon explodes with a mighty crack. Shards of metal and wood fly in all directions leaving a hole in the ground and a cloud of black smoke. The cannon is destroyed and its crew slain or injured. Remove the cannon and its crew.
@@ -910,12 +921,19 @@ A cannon requires a full crew to work properly - to carry cannonballs, load gunp
 
 Obviously the cannon requires at least one crewman to work it, so the machine becomes useless should they all be slain.</description>
     </rule>
-    <rule id="3702-c42a-047c-af5f" name="Bolt Throwers" hidden="false">
+    <rule id="3702-c42a-047c-af5f" name="Bolt Throwers" publicationId="d9e7-add3-773e-ffab" page="124" hidden="false">
       <description>Bolt throwers are fired in the Shooting phase along with other missile weapons. To fire a bolt thrower it must first be turned on the spot so that it points towards its intended victim. The bolt travels straight forward and (hopefully) hits the first target in its path. In a unit of troops this will always be a regular trooper. Only if there are no rank-and-file troops in the first rank hit by the bolt will it be necessary to randomize which model in the front rank is hit.
 
 To determine whether the bolt strikes its target, roll a D6 to hit using the crew&apos;s BS in the same way as bow shots, crossbows, and other missile weapons. The usual modifiers apply, except no penalty is imposed for turning the machine, as it is designed to be used in this way. See the Shooting section for details.
 
-If a hit is scored work our damage as described below. If the shot misses then the bolt hits the ground or sails into the air and comes down harmlessly somewhere else.</description>
+If a hit is scored work our damage as described below. If the shot misses then the bolt hits the ground or sails into the air and comes down harmlessly somewhere else.
+
+A bolt thrower is a powerful weapon which can hurl its bolt through several ranks of troops, piercing each warrior in turn. If it hits then resolve damage against the target using the bolt thrower&apos;s full Strength of 6. If the model hit in the first rank is slain then the bolt hits the trooper in the second rank directly behind: resolve damage on the second model with a Strength of 5. If the second rank trooper is slain than a model in the third rank is hit: resolve damage with a Strength of 4. Continue to work out damage as the bolt pierces and slays a model in each rank, deducting -1 from the Strength for each rank pierced.
+
+A model damaged by a bolt thrower sustains not 1 but D3 wound, which means that even large monsters can be hurt or slain by a hit front a bolt thrower. Armour saves are not allowed for hits from a bolt thrower because the missiles are so fast and deadly that any armour is pierced along with its wearer. As saves are not taken, a target with only 1 Wound will be slain if it takes damage, there is no need to roll the D3 to decide the number of wounds. Remember that ward saves can be taken as normal against damage from a bolt thrower.
+
+Loss of Crew:
+Some bolt throwers have a crew of two and if one crewman is slain then the remaining crewmen can just about get by without slowing up the machine noticeably. Should a bolt thrower require a larger crew, then the loss of a second crewman will reduce its rate of fire to every second turn in the same way as for stone throwers and cannons.</description>
     </rule>
     <rule id="2381-ed16-2a32-cd12" name="Breath Weapon" hidden="false">
       <description>A model with a breath weapon may use it in the Shooting phase. Use the Flame template, placing the broad end over your intended target as you wish and the narrow end next to the creature&apos;s head. Any model that lies completely under the template is hit automatically - models whose bases lie partially under the template are hit on a 4+. The strength and any special effects of the breath weapon will be detailed in the entry for each individual creature. Characters under the template are eligible for &apos;Look out, Sir!&apos; rolls if they are in a unit.
