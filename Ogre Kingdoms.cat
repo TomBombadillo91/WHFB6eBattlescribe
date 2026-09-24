@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9817-5d62-aa33-69f5" name="Ogre Kingdoms" revision="16" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9817-5d62-aa33-69f5" name="Ogre Kingdoms" revision="17" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5fa5-4b26-a63e-0bef" name="Big Name" hidden="false"/>
     <categoryEntry id="a123-ef4a-523b-4159" name="Has Thiefstones" hidden="false"/>
@@ -1226,7 +1226,8 @@ Leadbelchers may both move and fire and stand &amp; shoot with their Leadbelcher
 
 Leadbelcher cannons can be used as Ogre clubs in close combat, regardless of whether they are loaded or not.
 
-Leadbelcher Cannon Profile</description>
+Range 12&quot;	Strength 4
+Armour Piercing, Multiple Shots (Artillery Dice)</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3382,7 +3383,8 @@ At the beginning of each close combat, Ogres equipped with ironfists may choose 
     <rule id="f60d-9bf0-6534-1c0a" name="Sharp Stuff" hidden="false">
       <description>Gnoblars generally carry around a number of small, sharp projectiles ranging from irate bristlehogs to sharpened horseshoes, for throwing at any enemies that get too close. For a Gnoblar, there&apos;s nothing quite like the satisfaction of hurling a jagged rock into an unprotected face.
 
-Sharp Stuff Profile</description>
+Range 8&quot; Strength 2
+2x Multiple Shots, Thrown Weapon</description>
     </rule>
     <rule id="6995-86b4-0431-95e7" name="Casting Gut Magic" hidden="false">
       <description>Each Butcher and Slaughtermaster knows all of the Gut Magic spells, as Butchers have a communal spiritual &apos;pool&apos; from which they take their magic. If a Gut Magic spell has already been successfully cast that phase and a second Butcher wishes to cast the same spell, the Casting level is doubled to 6+. If a third Butcher wants to cast the same spell that phase, the Casting level is tripled to 9+, and so on.

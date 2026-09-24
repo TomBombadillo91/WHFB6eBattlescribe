@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7010-abfa-dde5-6873" name="Daemonic Legions" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7010-abfa-dde5-6873" name="Daemonic Legions" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="37ff-905c-0f6b-9742" name="Mark of Chaos Undivided" hidden="false"/>
     <categoryEntry id="452e-f479-2264-b39d" name="Mark of Tzeentch" hidden="false"/>
@@ -53,8 +53,13 @@ Be&apos;lakor may re-roll all his failed rolls to hit, but must always pursue fl
         </rule>
         <rule id="2801-d71e-ea72-effb" name="Master of the Shadows" hidden="false">
           <description>Be&apos;lakor is a Level 4 Wizard. He knows the following spells:
+- Bolt of Dark Light
+- Nightmare
+- Curse of the Dark Master
+- Fog of Death
+- Coils of the Serpent
 
-Master of the Shadows Lore</description>
+See Storm of Chaos page 26. for spell details.</description>
         </rule>
       </rules>
       <infoLinks>

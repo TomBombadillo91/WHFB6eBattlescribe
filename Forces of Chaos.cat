@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="23" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="24" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="e8a8-d83e-c60c-3ad0" name="Hordes of Chaos"/>
     <publication id="dc3a-2511-d23a-deb3" name="Beasts of Chaos"/>
@@ -6371,7 +6371,7 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
           </modifiers>
           <rules>
             <rule id="edf8-3686-69ec-cd33" name="Mark of Khorne" hidden="false">
-              <description>Mark of Khorne Type</description>
+              <description>The Lord is subject to Frenzy. In addition, his presence on the battlefield adds one dice to the player&apos;s Dispel Dice pool.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -6417,7 +6417,7 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
           </modifiers>
           <rules>
             <rule id="d92a-4887-5e1f-3c1d" name="Mark of Tzeentch" hidden="false">
-              <description>Mark of Tzeentch Type</description>
+              <description>The Lord is a Level 4 Sorcerer and can cast spells whilst wearing mundane and/or magic armour.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -6450,7 +6450,7 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
           </modifiers>
           <rules>
             <rule id="bf16-672c-7cc2-2b2e" name="Mark of Nurgle" hidden="false">
-              <description>Mark of Nurgle</description>
+              <description>The Hero causes Fear and has +1 Wound</description>
             </rule>
           </rules>
           <infoLinks>
@@ -6486,7 +6486,7 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
           </modifiers>
           <rules>
             <rule id="7149-4c47-4167-fac2" name="Mark of Slaanesh" hidden="false">
-              <description>Mark of Slaanesh Type</description>
+              <description>The Lord is Immune to Psychology.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -6555,7 +6555,7 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
           </modifierGroups>
           <rules>
             <rule id="7c3b-0d1f-d5d8-2a9f" name="Mark of Khorne" hidden="false">
-              <description>Mark of Khorne Type</description>
+              <description>The Shaggoth is subject to Frenzy. In addition, his presence on the battlefield adds one dice to the player&apos;s Dispel Dice pool.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -6602,7 +6602,7 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
           </modifierGroups>
           <rules>
             <rule id="1f7c-04ae-d9e8-f7df" name="Mark of Tzeentch" hidden="false">
-              <description>Mark of Tzeentch Type</description>
+              <description>The Shaggoth is a Level 2 Sorcerer and can cast spells whilst wearing mundane and/or magic armour.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -6646,7 +6646,7 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
           </modifierGroups>
           <rules>
             <rule id="964d-a94d-9f90-1ef4" name="Mark of Nurgle" hidden="false">
-              <description>Mark of Nurgle</description>
+              <description>The Shaggoth has +1 Wound</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -6690,7 +6690,7 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
           </modifierGroups>
           <rules>
             <rule id="85a1-0a31-cb73-c5b8" name="Mark of Slaanesh" hidden="false">
-              <description>Mark of Slaanesh Type</description>
+              <description>The Daemon Prince always strikes first in close combat. If its opponent also has the ability to always strike then resolve their attacks in normal Initiative order.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -6745,7 +6745,7 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
           </modifiers>
           <rules>
             <rule id="c939-5be9-42e8-6c5e" name="Mark of Khorne" hidden="false">
-              <description>Mark of Khorne Type</description>
+              <description>The Exalted Daemon is subject to Frenzy. In addition, his presence on the battlefield adds one dice to the player&apos;s Dispel Dice pool.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -6781,7 +6781,7 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
           </modifiers>
           <rules>
             <rule id="cac3-4455-0519-d30c" name="Mark of Tzeentch" hidden="false">
-              <description>Mark of Tzeentch Type</description>
+              <description>The Exalted Daemon is a Level 2 Sorcerer.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -6814,7 +6814,7 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
           </modifiers>
           <rules>
             <rule id="3de4-6ba6-e451-fa7d" name="Mark of Nurgle" hidden="false">
-              <description>Mark of Nurgle</description>
+              <description>The Exalted Daemon has +1 Wound</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -6847,7 +6847,7 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
           </modifiers>
           <rules>
             <rule id="6e9e-f8fe-7338-52ba" name="Mark of Slaanesh" hidden="false">
-              <description>Mark of Slaanesh Type</description>
+              <description>The Exalted Daemon always strikes first in close combat. If its opponent also has the ability to always strike then resolve their attacks in normal Initiative order.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -6912,7 +6912,7 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
           </modifiers>
           <rules>
             <rule id="4e67-14f2-420c-22a7" name="Mark of Khorne" hidden="false">
-              <description>Mark of Khorne Type</description>
+              <description>The Hero is subject to Frenzy. In addition, his presence on the battlefield adds one dice to the player&apos;s Dispel Dice pool.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -6958,7 +6958,7 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
           </modifiers>
           <rules>
             <rule id="5b42-dca4-9739-c5d2" name="Mark of Tzeentch" hidden="false">
-              <description>Mark of Tzeentch Type</description>
+              <description>The Hero is a Level 2 Sorcerer and can cast spells whilst wearing mundane and/or magic armour.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -6991,7 +6991,7 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
           </modifiers>
           <rules>
             <rule id="a02a-43e5-bfbf-10d9" name="Mark of Nurgle" hidden="false">
-              <description>Mark of Nurgle</description>
+              <description>The Hero causes Fear and has +1 Wound</description>
             </rule>
           </rules>
           <infoLinks>
@@ -7027,7 +7027,7 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
           </modifiers>
           <rules>
             <rule id="ea15-36dd-70b7-3580" name="Mark of Slaanesh" hidden="false">
-              <description>Mark of Slaanesh Type</description>
+              <description>The Hero is Immune to Psychology.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -7096,7 +7096,7 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
           </modifiers>
           <rules>
             <rule id="fe3a-eb4d-dc50-bde5" name="Mark of Khorne" hidden="false">
-              <description>Mark of Khorne Type</description>
+              <description>The unit is subject to Frenzy. In addition, their presence on the battlefield adds one dice to the player&apos;s Dispel Dice pool.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -7143,7 +7143,7 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
           </modifiers>
           <rules>
             <rule id="30fc-17d0-9874-b3a2" name="Mark of Tzeentch" hidden="false">
-              <description>Mark of Tzeentch Type</description>
+              <description>In each Chaos Magic phase, the unit generates an extra Power dice. No dice are generated if the unit is fleeing.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -7187,7 +7187,7 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
           </modifiers>
           <rules>
             <rule id="9aa2-e61a-989f-c55b" name="Mark of Nurgle" hidden="false">
-              <description>Mark of Nurgle</description>
+              <description>The unit causes Fear</description>
             </rule>
           </rules>
           <infoLinks>
@@ -7234,7 +7234,7 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
           </modifiers>
           <rules>
             <rule id="ddf3-3ce8-74f0-7107" name="Mark of Slaanesh" hidden="false">
-              <description>Mark of Slaanesh Type</description>
+              <description>The unit is Immune to Psychology.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -7285,7 +7285,7 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
           </modifiers>
           <rules>
             <rule id="d006-6356-878c-8a93" name="Mark of Khorne" hidden="false">
-              <description>Mark of Khorne Type</description>
+              <description>The unit is subject to Frenzy. In addition, their presence on the battlefield adds one dice to the player&apos;s Dispel Dice pool.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -7314,7 +7314,7 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
           </modifiers>
           <rules>
             <rule id="d714-215e-3d58-0ddb" name="Mark of Tzeentch" hidden="false">
-              <description>Mark of Tzeentch Type</description>
+              <description>In each Chaos Magic phase, the unit generates an extra Power dice. No dice are generated if the unit is fleeing.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -7340,7 +7340,7 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
           </modifiers>
           <rules>
             <rule id="d872-532b-f1d4-eed7" name="Mark of Nurgle" hidden="false">
-              <description>Mark of Nurgle</description>
+              <description>The unit has a 5+ Scaly Skin save.</description>
             </rule>
             <rule id="135a-1285-5d32-b32e" name="Scaly Skin (5+)" hidden="false"/>
           </rules>
@@ -7367,7 +7367,7 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
           </modifiers>
           <rules>
             <rule id="f4db-ca22-ca11-d539" name="Mark of Slaanesh" hidden="false">
-              <description>Mark of Slaanesh Type</description>
+              <description>The unit is Immune to Psychology.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -8195,7 +8195,7 @@ No Armour saves are made against wounds caused by the Great Fang.</description>
               </constraints>
               <rules>
                 <rule id="3aed-a6ee-2df2-7a14" name="Mark of Khorne" hidden="false">
-                  <description>Mark of Khorne Type</description>
+                  <description>The Chariot&apos;s crew are subject to Frenzy. In addition, their presence on the battlefield adds one dice to the player&apos;s Dispel Dice pool.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -8226,7 +8226,7 @@ No Armour saves are made against wounds caused by the Great Fang.</description>
               </constraints>
               <rules>
                 <rule id="09f4-c121-739b-2708" name="Mark of Nurgle" hidden="false">
-                  <description>Mark of Nurgle</description>
+                  <description>The unit causes Fear</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -8257,7 +8257,7 @@ No Armour saves are made against wounds caused by the Great Fang.</description>
               </constraints>
               <rules>
                 <rule id="1e05-7ffa-cd2d-a82f" name="Mark of Slaanesh" hidden="false">
-                  <description>Mark of Slaanesh Type</description>
+                  <description>The unit is Immune to Psychology.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -8288,7 +8288,7 @@ No Armour saves are made against wounds caused by the Great Fang.</description>
               </constraints>
               <rules>
                 <rule id="7373-abb4-c72a-3ba0" name="Mark of Tzeentch" hidden="false">
-                  <description>Mark of Tzeentch Type</description>
+                  <description>In each Chaos Magic phase, the unit generates an extra Power dice. No dice are generated if the unit is fleeing.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -9975,7 +9975,7 @@ The Daemon has Magic Resistance (2).</description>
           </modifiers>
           <rules>
             <rule id="c11b-db4d-6911-ecfc" name="Mark of Khorne" hidden="false">
-              <description>Mark of Khorne Type</description>
+              <description>The Daemon Prince is subject to Frenzy. In addition, his presence on the battlefield adds one dice to the player&apos;s Dispel Dice pool.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -10011,7 +10011,7 @@ The Daemon has Magic Resistance (2).</description>
           </modifiers>
           <rules>
             <rule id="91fc-4b03-3ae9-2aeb" name="Mark of Tzeentch" hidden="false">
-              <description>Mark of Tzeentch Type</description>
+              <description>The Daemon Prince is a Level 4 Sorcerer.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -10044,7 +10044,7 @@ The Daemon has Magic Resistance (2).</description>
           </modifiers>
           <rules>
             <rule id="3fb3-6e0a-b7c0-35ac" name="Mark of Nurgle" hidden="false">
-              <description>Mark of Nurgle</description>
+              <description>The Daemon Prince has +1 Wound</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -10077,7 +10077,7 @@ The Daemon has Magic Resistance (2).</description>
           </modifiers>
           <rules>
             <rule id="f7c9-dc56-ee7f-2241" name="Mark of Slaanesh" hidden="false">
-              <description>Mark of Slaanesh Type</description>
+              <description>The Daemon Prince always strikes first in close combat. If its opponent also has the ability to always strike then resolve their attacks in normal Initiative order.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -10132,7 +10132,7 @@ The Daemon has Magic Resistance (2).</description>
           </modifiers>
           <rules>
             <rule id="4a1e-b50d-273c-0d21" name="Mark of Khorne" hidden="false">
-              <description>Mark of Khorne Type</description>
+              <description>The Doombull is subject to Frenzy. In addition, his presence on the battlefield adds one dice to the player&apos;s Dispel Dice pool.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -10168,7 +10168,7 @@ The Daemon has Magic Resistance (2).</description>
           </modifiers>
           <rules>
             <rule id="743b-5379-c560-bc5f" name="Mark of Tzeentch" hidden="false">
-              <description>Mark of Tzeentch Type</description>
+              <description>The Doombull is a Level 2 Sorcerer and can cast spells whilst wearing mundane and/or magic armour.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -10201,7 +10201,7 @@ The Daemon has Magic Resistance (2).</description>
           </modifiers>
           <rules>
             <rule id="a70a-255d-63a1-a483" name="Mark of Nurgle" hidden="false">
-              <description>Mark of Nurgle</description>
+              <description>The Doombull has +1 Wound</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -10234,7 +10234,7 @@ The Daemon has Magic Resistance (2).</description>
           </modifiers>
           <rules>
             <rule id="1df7-0152-bb7a-fc24" name="Mark of Slaanesh" hidden="false">
-              <description>Mark of Slaanesh Type</description>
+              <description>The Doombull is Immune to Psychology.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -10285,7 +10285,7 @@ The Daemon has Magic Resistance (2).</description>
           </modifiers>
           <rules>
             <rule id="5726-ffeb-8e59-6406" name="Mark of Khorne" hidden="false">
-              <description>Mark of Khorne Type</description>
+              <description>The Chariot&apos;s crew are subject to Frenzy. In addition, their presence on the battlefield adds one dice to the player&apos;s Dispel Dice pool.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -10314,7 +10314,7 @@ The Daemon has Magic Resistance (2).</description>
           </modifiers>
           <rules>
             <rule id="ed35-aa44-23dc-2fa1" name="Mark of Tzeentch" hidden="false">
-              <description>Mark of Tzeentch Type</description>
+              <description>In each Chaos Magic phase, the unit generates an extra Power dice. No dice are generated if the unit is fleeing.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -10340,7 +10340,7 @@ The Daemon has Magic Resistance (2).</description>
           </modifiers>
           <rules>
             <rule id="78c6-9db6-5c2a-fa3c" name="Mark of Nurgle" hidden="false">
-              <description>Mark of Nurgle</description>
+              <description>The unit causes Fear</description>
             </rule>
           </rules>
           <infoLinks>
@@ -10369,7 +10369,7 @@ The Daemon has Magic Resistance (2).</description>
           </modifiers>
           <rules>
             <rule id="3798-2f67-297c-9160" name="Mark of Slaanesh" hidden="false">
-              <description>Mark of Slaanesh Type</description>
+              <description>The unit is Immune to Psychology.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -10419,7 +10419,7 @@ The Daemon has Magic Resistance (2).</description>
           </modifiers>
           <rules>
             <rule id="bcf9-37e8-6dc9-a7bf" name="Mark of Khorne" hidden="false">
-              <description>Mark of Khorne Type</description>
+              <description>The unit is subject to Frenzy. In addition, their presence on the battlefield adds one dice to the player&apos;s Dispel Dice pool.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -10448,7 +10448,7 @@ The Daemon has Magic Resistance (2).</description>
           </modifiers>
           <rules>
             <rule id="afd9-c521-15b7-752e" name="Mark of Tzeentch" hidden="false">
-              <description>Mark of Tzeentch Type</description>
+              <description>In each Chaos Magic phase, the unit generates an extra Power dice. No dice are generated if the unit is fleeing.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -10474,7 +10474,7 @@ The Daemon has Magic Resistance (2).</description>
           </modifiers>
           <rules>
             <rule id="6888-f96d-142e-4957" name="Mark of Nurgle" hidden="false">
-              <description>Mark of Nurgle</description>
+              <description>The unit causes Fear</description>
             </rule>
           </rules>
           <infoLinks>
@@ -10503,7 +10503,7 @@ The Daemon has Magic Resistance (2).</description>
           </modifiers>
           <rules>
             <rule id="eb75-e79a-bca0-4bb6" name="Mark of Slaanesh" hidden="false">
-              <description>Mark of Slaanesh Type</description>
+              <description>The unit is Immune to Psychology.</description>
             </rule>
           </rules>
           <infoLinks>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b151-7d1c-4a96-e0d0" name="Dark Elves" revision="17" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b151-7d1c-4a96-e0d0" name="Dark Elves" revision="18" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7b32-9394-e778-467c" name="Poison" hidden="false"/>
     <categoryEntry id="16df-2ebd-e4f7-9984" name="Artifacts and Skills" hidden="false"/>
@@ -3911,7 +3911,7 @@ Certain characters may ride in a chariot. They replace one of the crew, and the 
       </constraints>
       <rules>
         <rule id="b854-87dd-0604-855b" name="Mark of Slaanesh" hidden="false">
-          <description>Mark of Slaanesh Type</description>
+          <description>A unit or model with the Mark of Slaanesh is Immune to Psychology</description>
         </rule>
       </rules>
       <costs>
@@ -6202,7 +6202,9 @@ Bound Spell. Power Level 4. The banner contains a bound magic missile with range
     <rule id="875d-4215-a835-fac5" name="Repeater Crossbow" hidden="false">
       <description>Used almost exclusively by the Dark Elves of Naggaroth, the repeater crossbow is a lighter, less powerful type of crossbow that has a magazine of bolts which allows a single bolt to drop into place ready for firing as the string is drawn. A repeater crossbow can fire a hail of shots in the time it takes to shoot one ordinary crossbow bolt.
 
-Repeater Crossbow Profile</description>
+Range 24&quot;
+Strength	 3
+2x Multiple Shots</description>
     </rule>
     <rule id="2754-fd13-0dd8-92dc" name="Sea Dragon Cloak" hidden="false">
       <description>The Corsairs of the Dark Elf fleet wear heavy cloaks fashioned from the scales of the mighty sea dragons which accompany the ships. The cloak can be drawn tightly around the body when being fired at, acting as shield against missile fire. A Sea Dragon cloak adds +1 to the model&apos;s save in close combat, and +2 against ranged attacks (including spells, etc). It may be combined with other types of armour.</description>
