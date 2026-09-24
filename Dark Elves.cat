@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b151-7d1c-4a96-e0d0" name="Dark Elves" revision="16" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b151-7d1c-4a96-e0d0" name="Dark Elves" revision="17" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7b32-9394-e778-467c" name="Poison" hidden="false"/>
     <categoryEntry id="16df-2ebd-e4f7-9984" name="Artifacts and Skills" hidden="false"/>
@@ -3062,7 +3062,7 @@ The Armour of Midnight is a suit of heavy armour. In addition Malekith has a 2 +
                 <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
               </characteristics>
             </profile>
-            <profile id="b51a-4178-c313-1f7b" name="Steed of Slaanesh" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+            <profile id="b51a-4178-c313-1f7b" name="Mount of Slaanesh" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
               <characteristics>
                 <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">10</characteristic>
                 <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>

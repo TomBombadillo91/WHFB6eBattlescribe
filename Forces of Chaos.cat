@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="21" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="22" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="e8a8-d83e-c60c-3ad0" name="Hordes of Chaos"/>
     <publication id="dc3a-2511-d23a-deb3" name="Beasts of Chaos"/>
@@ -5584,7 +5584,7 @@ D6	Result
                 <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
               </characteristics>
             </profile>
-            <profile id="0413-464b-3e93-fa7e" name="Steed of Slaanesh" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+            <profile id="0413-464b-3e93-fa7e" name="Mount of Slaanesh" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
               <characteristics>
                 <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">10</characteristic>
                 <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>

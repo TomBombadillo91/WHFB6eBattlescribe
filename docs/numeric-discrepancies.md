@@ -75,16 +75,6 @@ Statline rows compare only characteristics both sides state. A blank on either s
 | [Knight](https://6th.whfb.app/unit/knight) | Dark Elves.cat:1263 | BS | 4 | 3 |
 | [Knight](https://6th.whfb.app/unit/knight) | Dark Elves.cat:1263 | I | 5 | 3 |
 | [Knight](https://6th.whfb.app/unit/knight) | Dark Elves.cat:1263 | Ld | 9 | 8 |
-| [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Dark Elves.cat:3065 | WS | 3 | 4 |
-| [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Dark Elves.cat:3065 | S | 3 | 4 |
-| [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Dark Elves.cat:3065 | T | 3 | 4 |
-| [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Dark Elves.cat:3065 | W | 1 | 3 |
-| [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Dark Elves.cat:3065 | A | 1 | 2 |
-| [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Forces of Chaos.cat:5587 | WS | 3 | 4 |
-| [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Forces of Chaos.cat:5587 | S | 3 | 4 |
-| [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Forces of Chaos.cat:5587 | T | 3 | 4 |
-| [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Forces of Chaos.cat:5587 | W | 1 | 3 |
-| [Steed of Slaanesh](https://6th.whfb.app/unit/steed-of-slaanesh) | Forces of Chaos.cat:5587 | A | 1 | 2 |
 | [Knight](https://6th.whfb.app/unit/knight) | Dark Elves.cat:3275 | WS | 5 | 4 |
 | [Knight](https://6th.whfb.app/unit/knight) | Dark Elves.cat:3275 | S | 5 | 3 |
 | [Knight](https://6th.whfb.app/unit/knight) | Dark Elves.cat:3275 | T | 4 | 3 |
@@ -105,9 +95,11 @@ Statline rows compare only characteristics both sides state. A blank on either s
 | [Flesh Hound](https://6th.whfb.app/unit/flesh-hound) | Daemonic Legions.cat:1707 | Ld | 9 | 8 |
 | [Nurglings](https://6th.whfb.app/unit/nurglings) | Daemonic Legions.cat:1767 | Ld | 9 | 8 |
 | [Screamer](https://6th.whfb.app/unit/screamer) | Daemonic Legions.cat:1825 | Ld | 9 | 8 |
+| [Mount of Slaanesh](https://6th.whfb.app/unit/mount-of-slaanesh) | Dark Elves.cat:3065 | Ld | 8 | 9 |
 | [Bloodthirster](https://6th.whfb.app/unit/bloodthirster) | Forces of Chaos.cat:1483 | S | 7 | 6(7) |
 | [Troll](https://6th.whfb.app/unit/troll) | Forces of Chaos.cat:4549 | A | 4 | 3 |
 | [Chaos Giant](https://6th.whfb.app/unit/chaos-giant) | Forces of Chaos.cat:5429 | A | Special | * |
+| [Mount of Slaanesh](https://6th.whfb.app/unit/mount-of-slaanesh) | Forces of Chaos.cat:5587 | Ld | 8 | 9 |
 | [Giant](https://6th.whfb.app/unit/giant) | Orcs and Goblins.cat:4235 | A | Special | * |
 | [Skeleton](https://6th.whfb.app/unit/skeleton) | Tomb Kings.cat:663 | Ld | 5 | 3 |
 | [Skeleton](https://6th.whfb.app/unit/skeleton) | Tomb Kings.cat:765 | Ld | 5 | 3 |
