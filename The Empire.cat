@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="17" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <costTypes>
     <costType id="fada-3781-5bbe-4625" name=" Hull Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -106,18 +106,27 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="f8cf-aab9-0477-50c2" name="Lance" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="3338-0dcc-b91f-4c31" name="Lance" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2eaf-5137-2ff1-590b" name="Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="f8ba-36a1-1e0e-fa20" name="Hand Weapon" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5bcf-43ed-afca-44f3" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="5aee-b56a-18e8-f0fe" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -131,12 +140,18 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="d2cb-bd4a-1553-f7da" name="Handgun" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="0ea2-404a-c918-4d78" name="Handgun" hidden="false" targetId="9faf-8e95-aa25-b156" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="15.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9f97-b916-2b7d-e4aa" name="Longbow" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="a903-1682-fee6-4d14" name="Longbow" hidden="false" targetId="c45c-2383-8be2-1152" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="15.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -349,12 +364,18 @@ In addition, as long as a Templar Grand Master is with a unit of Knights of his 
           </constraints>
           <selectionEntries>
             <selectionEntry id="58ab-97be-195c-5143" name="Level 4" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="cb57-cd23-0762-14cd" name="Level 4" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="47ce-8326-d366-8ed3" name="Level 3" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="5af5-fa1f-638b-c52a" name="Level 3" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -488,24 +509,36 @@ In addition, as long as a Templar Grand Master is with a unit of Knights of his 
               </costs>
             </selectionEntry>
             <selectionEntry id="abe8-af37-f4ba-57da" name="Lance" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="92aa-98e0-8119-d9b3" name="Lance" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="49f9-60f9-fc6a-e683" name="Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="6416-e002-459b-33d2" name="Hand Weapon" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="53ee-a6a5-9aab-a123" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="129c-f507-7566-5ea1" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="95ae-765b-71be-c2b5" name="Halberd" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="8beb-a4ca-9fdf-d681" name="Halberd" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -554,12 +587,18 @@ In addition, as long as a Templar Grand Master is with a unit of Knights of his 
           </constraints>
           <selectionEntries>
             <selectionEntry id="050b-1d8e-db22-5fe8" name="Handgun" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="a4f9-a707-ccb6-e6b2" name="Handgun" hidden="false" targetId="9faf-8e95-aa25-b156" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8c75-da1d-e2eb-d830" name="Longbow" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="5c19-182d-4efc-27ac" name="Longbow" hidden="false" targetId="c45c-2383-8be2-1152" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -652,20 +691,22 @@ In addition, as long as a Templar Grand Master is with a unit of Knights of his 
           <description>Warrior Priests are blessed by Sigmar and can invoke the god&apos;s protection against the sorcerous powers of the enemy. As long as a Warrior Priest is on the battlefield, he adds one dice to the Empire player&apos;s Dispel dice pool during the enemy&apos;s Magic phase.</description>
         </rule>
         <rule id="d6dc-b8e3-9633-93ce" name="Prayers of Sigmar" hidden="false">
-          <description>Warrior Priests are granted exceptional powers by their divine patron. Not as powerful as the spells of the Battle Wizards, these Prayers are still very valuable on the battlefield.
-
-Once per Empire Magic phase, a Warrior Priest is allowed to use ONE prayer chosen from the Prayers of Sigmar list (see below). Prayers are cast exactly like Bound spells from magic items, with a Power Level of 3. They can be cast on the Priest himself or on any one character or unit champion within 12&quot; of the Priest. Prayers never affect a model&apos;s steed, and cannot be cast on Knights of the White Wolf or their Grand Master. Note that a Warrior Priest is never considered to be a Wizard.
+          <description>Once per Empire Magic phase, a Warrior Priest is allowed to use ONE prayer chosen from the Prayers of Sigmar list (see below). Prayers are cast exactly like Bound spells from magic items, with a Power Level of 3. They can be cast on the Priest himself or on any one character or unit champion within 12&quot; of the Priest. Prayers never affect a model&apos;s steed, and cannot be cast on Knights of the White Wolf or their Grand Master. Note that a Warrior Priest is never considered to be a Wizard.
 
 Hammer of Sigmar
+
 The model can re-roll failed rolls to wound: This Prayer lasts until it is dispelled or until the Warrior Priest attempts to cast another prayer. This Prayer has no effect on hits from magic weapons.
 
 Armour of Righteousness
+
 The model gets a 5+ ward save. This Prayer lasts until it is dispelled or until the Warrior Priest attempts to cast another Prayer. This Prayer has no effect if the model already has a Ward save.
 
 Healing Hand
+
 The model is immediately healed of all the wounds it has suffered during the battle up to that moment.
 
 Soulfire
+
 Centre the large 5&quot; template on the Warrior Priest. All Undead and Daemons hit by the template (work out which models are hit exactly the same way as you would do for a Mortar&apos;s hit) suffer a Strength 4 hit, with no armour save allowed. Soulfire can only be cast on the warrior Priest, not on other models.</description>
         </rule>
         <rule id="9eda-fc19-836c-c650" name="Righteous Fury" hidden="false">
@@ -715,6 +756,9 @@ Note that this power does not affect other characters (they are more difficult t
           </constraints>
           <selectionEntries>
             <selectionEntry id="a64e-cc24-d514-bb21" name="Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="033e-74f6-3f48-5326" name="Hand Weapon" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -811,9 +855,7 @@ Note that this power does not affect other characters (they are more difficult t
       </profiles>
       <rules>
         <rule id="6cf7-047e-9535-d3e6" name="Extra Crewman" hidden="false">
-          <description>An Engineer can also replace one crew member of a machine he joins (including Volley Guns). but if he is operating the machine. the Engineer cannot fire his own missile weapon.
-
-If a machine with an Engineer attached to it misfires and explodes. the Engineer will be killed with the rest of the crew if he replaced a crewman or used his re-roll ability during that turn.</description>
+          <description>If a machine with an Engineer attached to it misfires and explodes. the Engineer will be killed with the rest of the crew if he replaced a crewman or used his re-roll ability during that turn.</description>
         </rule>
         <rule id="c2ef-e0df-802a-b1d5" name="Master of Ballistics" hidden="false">
           <description>A Great Cannon or a Mortar (but not a volley Gun) which has been joined by a Master Engineer may re-roll either one Scatter dice or one Artillery dice per turn (not the roll to determine the distance bounced by a cannonball!). Note that if the Engineer uses his re-roll ability during the firing of the war machine he has joined, he will not he able to shoot with his own missile weapon in the same Shooting phase (he is too busy kicking the gunners around). Remember that you must fire all the weapons requiring you to guess the range before any normal shooting.
@@ -938,12 +980,18 @@ When firing his own missile weapon, an Engineer can always choose a different ta
           </constraints>
           <selectionEntries>
             <selectionEntry id="583f-77ad-fdea-d4cb" name="Level 2" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="0f14-ac1f-478b-bced" name="Level 2" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e752-d0fa-8b51-3d8f" name="Level 1" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="a8be-e58b-8d89-77f1" name="Level 1" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -1055,6 +1103,9 @@ When firing his own missile weapon, an Engineer can always choose a different ta
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38bc-40f1-20a0-fa58" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="0d24-2c1a-f9e0-b7c5" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -1313,6 +1364,9 @@ When firing his own missile weapon, an Engineer can always choose a different ta
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3137-0a6f-d73c-1111" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="1de4-3187-ddd0-d599" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -1430,6 +1484,9 @@ When firing his own missile weapon, an Engineer can always choose a different ta
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5473-39e9-46a7-d39e" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="d91c-5a4f-202b-1aa1" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -1482,6 +1539,9 @@ When firing his own missile weapon, an Engineer can always choose a different ta
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="e937-9a16-ff71-81b8" name="Handgun" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="761b-8739-7416-a63b" name="Handgun" hidden="false" targetId="9faf-8e95-aa25-b156" type="rule"/>
+                      </infoLinks>
                       <costs>
                         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
                         <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -1951,6 +2011,9 @@ When firing his own missile weapon, an Engineer can always choose a different ta
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da70-5767-3e63-4eb6" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="0c70-20ce-97bf-5471" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -2458,6 +2521,9 @@ When firing his own missile weapon, an Engineer can always choose a different ta
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb74-fe55-9346-e9eb" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="24e2-687d-713a-9e85" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -2962,6 +3028,9 @@ When firing his own missile weapon, an Engineer can always choose a different ta
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c21c-bf5f-773b-6c68" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="8b40-abaf-89dc-bafe" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -3507,6 +3576,11 @@ When firing his own missile weapon, an Engineer can always choose a different ta
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2a8e-6ae3-758c-45c5" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cef0-158a-ea72-3a6e" type="max"/>
           </constraints>
+          <rules>
+            <rule id="a64c-9d49-1671-4587" name="Knights of the Inner Circle" hidden="false">
+              <description>The unit may be upgraded to Knights of the Inner Circle, at the cost of +3 pts per model. The Knights and the First Knight in this unit are Strength 4.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
             <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -3520,6 +3594,9 @@ When firing his own missile weapon, an Engineer can always choose a different ta
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba1f-6da3-2c29-0f3f" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="f003-9a8d-8066-5cb1" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="8.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -3703,6 +3780,11 @@ When firing his own missile weapon, an Engineer can always choose a different ta
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e365-e5da-11dc-1892" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d947-0542-eb53-a994" type="max"/>
           </constraints>
+          <rules>
+            <rule id="9512-014e-2771-a944" name="Knights of the Inner Circle" hidden="false">
+              <description>The unit may be upgraded to Knights of the Inner Circle, at the cost of +3 pts per model. The Knights and the First Knight in this unit are Strength 4.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
             <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -3716,6 +3798,9 @@ When firing his own missile weapon, an Engineer can always choose a different ta
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2677-ea5e-10d5-ba87" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="4307-223a-21ba-2e3f" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="8.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -3884,6 +3969,9 @@ When firing his own missile weapon, an Engineer can always choose a different ta
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="def8-4bbe-bbb8-80d2" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="668d-94b1-18ca-6766" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
                 <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -4500,7 +4588,10 @@ When firing his own missile weapon, an Engineer can always choose a different ta
       </profiles>
       <rules>
         <rule id="5d29-0517-2eaa-a8a3" name="Mortar" hidden="false">
-          <description>Firing the Mortar
+          <description>Mortars are shorter, heavier weapons than cannons, designed to lob an explosive shell high into the air so that it drops down onto the target. A mortar shell is hollow and filled with gunpowder. The crew light the fuse before dropping the mortar shell into the Mortar. While a cannon ball may plough through a line of troops and kill three or four victims, a mortar shell explodes with a tremendous blast, scattering mud and bits of shell over a wide area. A well placed mortar shell can kill a great many victims at once.
+
+Firing the Mortar
+
 To fire a Mortar you need the large template (the 5&quot; diameter one), the Artillery dice, and the Scatter dice. First pivot the Mortar so that it is pointing in the direction you wish to fire. Note that the crew of the Mortar does need to see the target. Now declare how far you want to fire the mortar shell. You must do this without measuring, guessing the range as accurately as you can. You must guess a distance of between 12&quot; and 48&quot;.
 
 After guessing, place the centre of the large template directly over the spot you have guessed to.
@@ -4516,19 +4607,28 @@ If you roll a number on the Artillery dice then this is the distance in inches t
 If the Artillery dice rolls a MISFIRE, something has gone wrong - roll a D6 and consult the Misfire chart. A Misfire roll automatically cancels out the whole shot regardless of the Scatter dice result.
 
 Damage
+
 Once you have established where the mortar shell lands, damage can be worked out. Place the 5&apos; template centred on the spot where the shell landed. All models whose bases lie completely under the template are hit automatically by the blast. Models whose bases are partially under the template are hit on a 4+. It is a matter of judgement and common sense to judge which models lie under the template.
 
 Each model hit by the mortar shell takes a Strength 3 hit with a -1 Armour save modifier, causing 1 wound if it causes damage. Any single model directly under the template&apos;s central hole is always hit, even if its base is not entirely covered. Note that if the central hole covers equal proportions of two or more bases, players will need to roll a dice to determine which model counts as under the hole. The model under the hole takes a Strength 6 hit which causes D3 wounds, with no armour save allowed.
 
 Profiles
+
+Mortar Damage Chart
+
 Strength	Wounds	Armour Save
 Normal hit	3	1	-1
 Under the hole	6	D3	none
+
 The Movement rate is the speed the Mortar can be moved by a full crew. If any crew are slain, the slain, Mortar&apos;s speed is reduced proportionally. A Mortar cannot move and shoot in the same turn except to turn to face its target.
+
+Mortar Profile Chart
 
 Range	Movement	Toughness	Wounds
 12&quot;-48&quot;	As crew	7	3
+
 Loss of Crew
+
 A Mortar requires a crew of three to work it properly. Two crewmen can just about get by without reducing the rate of fire. If only one crewman remains, he will be unable to maintain the normal rate of fire and the Mortar will only be able to fire every other turn. If the Mortar has no crew at all, it is unable to fire.</description>
         </rule>
         <rule id="e231-3f68-6843-691c" name="Mortar Misfire Chart" hidden="false">
@@ -4603,29 +4703,33 @@ A Mortar requires a crew of three to work it properly. Two crewmen can just abou
       </profiles>
       <rules>
         <rule id="bfd6-c73d-12e6-d75a" name="Helblaster Volley Gun" hidden="false">
-          <description>The Helblaster Volley Gun has nine separate barrels, divided into three decks of three barrels, fixed on a circular crank. The advantage of the Helblaster is that it can fire several shots at once in a devastating volley. A full volley will rip through the toughest regiment causing immense casualties in the blink of an eye. The disadvantage of the Helblaster is that it is inclined to jam or misfire. In fact, the chances of being able to fire for a prolonged time are slim as the weapon is quite likely to malfunction.
-
-The Helblaster&apos;s barrels are organized in three groups of three. When the crew shoots, they pull the lever and discharge a group of three barrels. Then the crew will rotate the crank and place a new deck of three new barrels into firing position, while at the same time reloading the deck which just fired.
-
-Firing the Volley Gun
-The procedure for firing the Helblaster is as follows. The Volley Gun has a range of 24&quot;. First nominate your target and turn the Volley Gun to face it. Then fire your first shot. Each shot causes a variable number of hits as described below.
+          <description>The procedure for firing the Helblaster is as follows. The Volley Gun has a range of 24&quot;. First nominate your target and turn the Volley Gun to face it. Then fire your first shot. Each shot causes a variable number of hits as described below.
 
 Once you have worked out how many hits your first shot has caused, fire a second shot at the same target, then a third. At this point the crew needs to rotate the crank to place the second deck of barrels into firing position, so the next deck will be fired in your next Shooting phase.
 
-To work out how many hits are caused you will need the Artillery dice. Roll one Artillery dice for each shot in turn. If the target lies within 12&apos;, then the number rolled is the number of hits scored on the target. If the target lies more than 12&quot; away, the number of hits scored is half the number rolled (eg, a roll of 8 would equal 4 hits). Determine the number of hits from all of your shots before calculating the result then damage inflicted. If you roll a &apos;Misfire&apos; result then consult the Helblaster Misfire chart immediately, before rolling the Artillery dice for any remaining shots. Note that you must roll the dice for all three barrels even if the target happens to be out of range.
+To work out how many hits are caused you will need the Artillery dice. Roll one Artillery dice for each shot in turn. If the target lies within 12&quot;, then the number rolled is the number of hits scored on the target. If the target lies more than 12&quot; away, the number of hits scored is half the number rolled (eg, a roll of 8 would equal 4 hits). Determine the number of hits from all of your shots before calculating the result then damage inflicted. If you roll a &apos;Misfire&apos; result then consult the Helblaster Misfire chart immediately, before rolling the Artillery dice for any remaining shots. Note that you must roll the dice for all three barrels even if the target happens to be out of range.
 
 Damage
+
 Once you have fired the three barrels, you must roll for each hit to determine damage. The Helblaster has a Strength of 5 at short range and a Strength of 4 at long range. Roll to wound as normal. Saving throw modifiers are -3 at short range and -2 at long range because the Helblaster is a blackpowder weapon and therefore very good at penetrating armour.
 
 Profiles
+
+Helblaster Volley Gun Damage Chart
+
 Range	Hits/Shot	Strength	Armour Save
 0&quot;-12&quot;	Artillery dice	5	-3
 12&quot;-24&quot;	1/2 Artillery dice	4	-2
+
 The Volley Gun&apos;s Movement rate assumes it has a full crew if any crew are slain then its Movement is reduced proportionally. A Volley Gun cannot move and shoot except to turn to face its target.
+
+War Machine Profile Chart
 
 Movement	Toughness	Wounds
 As crew	7	3
+
 Loss of Crew
+
 A Helblaster Volley Gun requires a full crew of three crewmen to work properly. Two crewmen can just about cope without reducing the machine&apos;s rate of fire. If only one crewman remains to operate the Volley Gun by himself, then when the machine fires, the crewman must spend an entire turn preparing to fire again, reducing the weapon&apos;s rate of fire to once every other turn. If the Helblaster has no crew at all then it cannot fire.</description>
         </rule>
         <rule id="7250-5c24-86b7-d957" name="Helblaster Misfire Chart" hidden="false">
@@ -4865,12 +4969,28 @@ Flagellants may never be joined by any characters.</description>
           <description>The presence of Luthor in an army adds two dice to the Dispel dice instead of the normal one.</description>
         </rule>
         <rule id="6122-0eee-47ec-7a01" name="Prayer of Sigmar" hidden="false">
-          <description>Luthor can cast the Prayers as normal, but with a Power Level of 4!</description>
+          <description>Once per Empire Magic phase, a Warrior Priest is allowed to use ONE prayer chosen from the Prayers of Sigmar list (see below). Prayers are cast exactly like Bound spells from magic items, with a Power Level of 3. They can be cast on the Priest himself or on any one character or unit champion within 12&quot; of the Priest. Prayers never affect a model&apos;s steed, and cannot be cast on Knights of the White Wolf or their Grand Master. Note that a Warrior Priest is never considered to be a Wizard.
+
+Hammer of Sigmar
+
+The model can re-roll failed rolls to wound: This Prayer lasts until it is dispelled or until the Warrior Priest attempts to cast another prayer. This Prayer has no effect on hits from magic weapons.
+
+Armour of Righteousness
+
+The model gets a 5+ ward save. This Prayer lasts until it is dispelled or until the Warrior Priest attempts to cast another Prayer. This Prayer has no effect if the model already has a Ward save.
+
+Healing Hand
+
+The model is immediately healed of all the wounds it has suffered during the battle up to that moment.
+
+Soulfire
+
+Centre the large 5&quot; template on the Warrior Priest. All Undead and Daemons hit by the template (work out which models are hit exactly the same way as you would do for a Mortar&apos;s hit) suffer a Strength 4 hit, with no armour save allowed. Soulfire can only be cast on the warrior Priest, not on other models.</description>
         </rule>
         <rule id="7821-8f7e-09ef-352e" name="Righteous Fury" hidden="false">
-          <description>So strong is the faith and charisma of Luthor that, when he joins a unit, even characters in the unit and models who are normally Immune to Psychology will share Luthor&apos;s burning hatred for all blasphemies against Sigmar (Chaos Warriors, Beastmen, Daemons, Chaos Dwarfs, Khemrian Undead, Vampire Counts and Skaven).
+          <description>Warrior Priests and the unit they are with hate all models in any of the following armies: all Chaos (Chaos Warriors, Beastmen, Daemons and Chaos Dwarfs), all Undead (Khemri and Vampire Counts), all Skaven.
 
-Still, Luthor would never join units of warriors who are not devout to Sigmar, so he cannot join units of Knights of the White Wolf.</description>
+Note that this power does not affect other characters (they are more difficult to influence than the average soldier) and units Immune to Psychology are not affected by this power as well. Also note that Warrior Priests will never join units of warriors who are not devout to Sigmar, so they cannot join units of Knights of the White Wolf.</description>
         </rule>
         <rule id="4708-4b7d-32e3-3023" name="The Chosen of Sigmar" hidden="false">
           <description>Luthor has a 4+ Ward save and causes fear in the enemy.</description>
@@ -4897,6 +5017,9 @@ Still, Luthor would never join units of warriors who are not devout to Sigmar, s
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72c6-2ae1-0119-1f27" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ebf-0dbb-516e-553c" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="8177-8b48-44f3-be1a" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
             <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
@@ -5160,23 +5283,12 @@ Only then is the total score and its effects worked out. Including Miscasts and 
 
 Roll a dice for each Steam Point you are building up and total up the results of the dice rolled. If the total is equal to or less than the Steam Tank&apos;s current Hull Points, all is fine and you generate the SP you wanted. If you roll above the current Hull Points, the SP are generated but something has gone wrong and you have to roll a dice on the Malfunction chart and apply the result immediately.
 
-It is a good idea to place a dice on top or near the Tank to record how many SP it has available. As you use them throughout the turn, deduct the number of SP available by turning the dice so that it shows the SP remaining.
-
-Steam Points can be used during the Movement phase to move the Tank or during the Shooting phase to fire the Tank&apos;s gun (or guns!). All unused SP are lost at the end of the turn in which they are generated, so use them all if you can!
-
-Each action has a cost in Steam Points, as shown on the chart below:
-
-Action	SP
-Move forward (up to 3&quot;)	1
-Move backward (up to 2&quot;)	1
-Pivot on the spot (up to 90°)	1
-Grinding (once per turn)	1
-Fire hull weapon (once per turn)	2
-Fire turret weapon (once per turn)	1
-</description>
+It is a good idea to place a dice on top or near the Tank to record how many SP it has available. As you use them throughout the turn, deduct the number of SP available by turning the dice so that it shows the SP remaining.</description>
             </rule>
             <rule id="817b-182c-af94-da06" name="Shooting with the Steam Tank" hidden="false">
               <description>Once per turn, the Steam Tank can fire its hull-mounted weapon against targets in its 45° frontal arc (see diagram 1). This costs 2 SP and can be done even if the Tank has moved, as long as there are enough SP left.
+
+Once per turn, the Steam Tank can also fire its turret-mounted weapon against targets all around. This costs 1 SP and can be done even if the Tank has moved, as long as there is 1 SP left.
 
 Rotate the turret so that its gun is pointing towards the intended target. This is important if you are firing a gun that makes use of the Flame template, because it will determine the point where the template is positioned. If the turret is glued in place, just measure the distance of the barrel away from the turret in the intended direction and place the template there (basically, imagine that the turret has turned towards the target). The Steam Tank can fire both guns in the same turn, as long as there are enough SP left.
 
@@ -5210,24 +5322,22 @@ Units of skirmishers and characters with a Unit Strength of 1 or 2 cannot be cha
               <description>When shooting at the Tank, roll to hit normally (the Steam Tank is a Large Target), then determine if you have hit a &apos;Soft&apos; part (the boiler, an open hatch...) or a &apos;Hard&apos; part (armour plating).
 
 To do this, roll a dice for each hit on the following table:
-Location		Hard Hit		Soft Hit
-Front		1-5			6
-Side			1-4			5-6
-Rear		1-2			3-6
+
+The Steam Tank has a front, flanks and rear as shown on Diagram 4.
 
 Note: The top of the Steam Tank is considerably less armoured, so all attacks, including magical attacks, that hit from above will automatically hit Soft. If the central hole of a template weapon is entirely on the Tank it will also automatically hit Soft. Otherwise, they will cause a normal hit that has to be rolled on the Location table. The direction of the hit is the facing closest to the centre of the template. Determine the damage (ie, Hull Points loss) caused by the hit by adding the following set of factors:
-The score of a D6.
-The Strength of the hit.
-The result of the dice for any multiple wounds it causes (if the attack does not cause multiple wounds, nothing is added).
 
-If you have hit Soft, subtract 8 from the total you obtained.
-If you have hit Hard, subtract 10 from the total you obtained.
+- The score of a D6.
+- The Strength of the hit.
+- The result of the dice for any multiple wounds it causes (if the attack does not cause multiple wounds, nothing is added).
+- If you have hit Soft, subtract 8 from the total you obtained.
+- If you have hit Hard, subtract 10 from the total you obtained.
 
 That is:
 
-Soft hit damage = D6 + S + * - 8
+Soft hit damage = D6 + S + \* - 8
 
-Hard hit damage = D6 + S + * - 10
+Hard hit damage = D6 + S + \* - 10
 
 Eg: An arrow shot by a bow hits Soft. It will cause D6 + 3 + 0 - 8 points of damage (the O is because the arrow does not cause multiple wounds). You will need to roll a 6 to score a single point of damage on the Tank.
 
@@ -5260,11 +5370,11 @@ If the Tank loses the combat, enemies can lap around it as normal. Steam Tanks c
               <description>The Steam Tank does not stop moving when Fanatics are released. Move the Fanatics and then finish the Tank&apos;s movement as normal. If the Fanatics and the Tank come into contact, resolve the hits against the Tank as per shooting hits and then remove the Fanatic (squash!).</description>
             </rule>
             <rule id="1611-c490-b417-441a" name="Steam Tank Malfunction Chart" hidden="false">
-              <description>Dice Roll		Damage			Steam Points
-6			None			+1
-4-5			-D6 HP			-1
-2-3			-2D6 HP			-2
-1			-4D6 HP			-4</description>
+              <description>Dice Roll	Damage	SP
+6	None	+1
+4-5	-D6 Hull Pts	-1
+2-3	-2D6 Hull Pts	-2
+1	-4D6 Hull Pts	-4</description>
             </rule>
           </rules>
         </infoGroup>
@@ -5287,9 +5397,7 @@ If the Tank loses the combat, enemies can lap around it as normal. Steam Tanks c
             <selectionEntry id="134d-a704-2cb5-6991" name="Volley Gun" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
                 <rule id="6cd4-86d7-6baf-9ded" name="Volley Gun" hidden="false">
-                  <description>This works as a normal volley gun (see page 15 of the Empire book), with the following exceptions.
-
-Hits from the gun are:
+                  <description>Hits from the gun are:
 Strength 3, -1 save at long range;
 Strength 4, -2 save at short range.
 
@@ -5304,10 +5412,9 @@ If you roll a Misfire on any Artillery dice, roll a dice on the Helblaster Misfi
             <selectionEntry id="5b65-e643-7d44-c838" name="Main Cannon" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
                 <rule id="bd39-233b-9863-ec0e" name="Main Cannon" hidden="false">
-                  <description>This works as a normal cannon, with the following exceptions:
-
-Range	Strength	Damage	Saves
+                  <description>Range	Strength	Damage	Saves
 16&quot;	8	D3	no saves
+
 If you roll a Misfire on the first Artillery dice, the cannon does not fire and you must roll on the Steam Tank Malfunction chart. Apply any result immediately. In addition to the effects listed, if you roll a 1 on the chart the cannon is destroyed, and if you roll a 2-3 on the chart, the cannon cannot shoot in the following turn.
 
 The Steam Tank&apos;s main guns cannot fire grapeshot, but any enemy unit in base contact with the front of the steam Tank when the main cannon is fired (ie, standing in front of the muzzle!) suffers D6 Strength 3 hits with a -3 Armour save modifier from the overheated steam released.</description>
@@ -5321,11 +5428,48 @@ The Steam Tank&apos;s main guns cannot fire grapeshot, but any enemy unit in bas
             <selectionEntry id="6443-e3e1-948c-632c" name="Mortar &amp; Swivel Guns" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
                 <rule id="23fe-fe3d-5785-f7f3" name="Mortar" hidden="false">
-                  <description>This works as a normal mortar (see page 13 of the Empire book), except that the Steam Tank&apos;s mortar has a range of 6&quot;-24&quot;.
+                  <description>Mortars are shorter, heavier weapons than cannons, designed to lob an explosive shell high into the air so that it drops down onto the target. A mortar shell is hollow and filled with gunpowder. The crew light the fuse before dropping the mortar shell into the Mortar. While a cannon ball may plough through a line of troops and kill three or four victims, a mortar shell explodes with a tremendous blast, scattering mud and bits of shell over a wide area. A well placed mortar shell can kill a great many victims at once.
 
-If you roll a Misfire on the Artillery dice, the mortar does not fire and you must roll on the Steam Tank Malfunction chart. Apply all results immediately. In addition to the effects listed, if you roll a 1 on the chart the mortar is destroyed and if you roll a 2-3 on the chart the mortar cannot shoot in the following turn.
+Firing the Mortar
 
-In addition, the Tank is equipped with two swivel guns. When the Tank is not engaged in close combat, the crew can decide not to fire the mortar and fire the two swivel guns instead (this does not cost any Steam Points). Treat the guns as handguns with a Strength of 6 that always count as stationary, even if the Tank has moved. They can be fired at targets in the Tank&apos;s flank and front arcs. Remember that the crew has a Ballistic Skill of 4.</description>
+To fire a Mortar you need the large template (the 5&quot; diameter one), the Artillery dice, and the Scatter dice. First pivot the Mortar so that it is pointing in the direction you wish to fire. Note that the crew of the Mortar does need to see the target. Now declare how far you want to fire the mortar shell. You must do this without measuring, guessing the range as accurately as you can. You must guess a distance of between 12&quot; and 48&quot;.
+
+After guessing, place the centre of the large template directly over the spot you have guessed to.
+
+To see where the mortar shell lands roll both the Scatter dice and the Artillery dice.
+
+If the Scatter dice rolls a HIT then the shell lands exactly where it was aimed.
+
+If the Scatter dice rolls an arrow then the shell will veer off in the direction shown by the arrow.
+
+If you roll a number on the Artillery dice then this is the distance in inches the mortar shell veers off target as shown by the arrow on the Scatter dice. Move the template the distance indicated in the direction shown by the arrow. If a HIT was rolled on the Scatter dice then the numbers are ignored: a number simply indicates that the shot has not misfired.
+
+If the Artillery dice rolls a MISFIRE, something has gone wrong - roll a D6 and consult the Misfire chart. A Misfire roll automatically cancels out the whole shot regardless of the Scatter dice result.
+
+Damage
+
+Once you have established where the mortar shell lands, damage can be worked out. Place the 5&apos; template centred on the spot where the shell landed. All models whose bases lie completely under the template are hit automatically by the blast. Models whose bases are partially under the template are hit on a 4+. It is a matter of judgement and common sense to judge which models lie under the template.
+
+Each model hit by the mortar shell takes a Strength 3 hit with a -1 Armour save modifier, causing 1 wound if it causes damage. Any single model directly under the template&apos;s central hole is always hit, even if its base is not entirely covered. Note that if the central hole covers equal proportions of two or more bases, players will need to roll a dice to determine which model counts as under the hole. The model under the hole takes a Strength 6 hit which causes D3 wounds, with no armour save allowed.
+
+Profiles
+
+Mortar Damage Chart
+
+Strength	Wounds	Armour Save
+Normal hit	3	1	-1
+Under the hole	6	D3	none
+
+The Movement rate is the speed the Mortar can be moved by a full crew. If any crew are slain, the slain, Mortar&apos;s speed is reduced proportionally. A Mortar cannot move and shoot in the same turn except to turn to face its target.
+
+Mortar Profile Chart
+
+Range	Movement	Toughness	Wounds
+12&quot;-48&quot;	As crew	7	3
+
+Loss of Crew
+
+A Mortar requires a crew of three to work it properly. Two crewmen can just about get by without reducing the rate of fire. If only one crewman remains, he will be unable to maintain the normal rate of fire and the Mortar will only be able to fire every other turn. If the Mortar has no crew at all, it is unable to fire.</description>
                 </rule>
               </rules>
               <costs>
@@ -5360,11 +5504,12 @@ In addition, the Tank is equipped with two swivel guns. When the Tank is not eng
               </constraints>
               <rules>
                 <rule id="8673-03d4-28ca-e788" name="Steam Gun" hidden="false">
-                  <description>This gun releases a cloud of steam on the enemy, searing flesh and boiling warriors alive in their suits of armour. The steam gun uses the Flame template and has the following profile:
+                  <description>The Gyrocopter is armed with a steam-powered gun that unleashes a hail of lead bullets similar to a cannon&apos;s grapeshot. To represent the blast of the steam gun, use the Flame template. Place the template with the broad end over the target and the narrow end touching the muzzle of the gun. Any models completely under the template are automatically hit and models partially covered are hit on the roll of a 4+.
 
-Range	Strength	Damage	Saves
-Template	3	1	-3
-</description>
+Steam Gun Chart
+
+Range	Strength	Armour Save
+Steam Gun	Flame Template	3	-1</description>
                 </rule>
               </rules>
               <costs>
@@ -5385,27 +5530,18 @@ Template	3	1	-3
               </constraints>
               <rules>
                 <rule id="9d4c-c18f-de90-2ecf" name="Engineer&apos;s Fighting Platform" hidden="false">
-                  <description>Engineers are equipped with a series of different experimental weapons:
-
-A Hochland long rifle (see page 19 of the Empire book).
-
-A repeater handgun (see page 19 of the Empire book)
-
-A blunderbuss (move-or-fire, Flame template, S3, armour piercing).
-
-A hook halberd (requires two hands, +1 Strength, +2 Strength against cavalry models).
-
-A man-catcher (requires two hands, confers the Killing Blow ability to the wielder).
-
-A ball and chain (requires two hands, +3 Strength on the first turn of any combat).
+                  <description>- A Hochland long rifle (see page 19 of the Empire book).
+- A repeater handgun (see page 19 of the Empire book)
+- A blunderbuss (move-or-fire, Flame template, S3, armour piercing).
+- A hook halberd (requires two hands, +1 Strength, +2 Strength against  cavalry models).
+- A man-catcher (requires two hands, confers the Killing Blow ability to the wielder).
+- A ball and chain (requires two hands, +3 Strength on the first turn of any combat).
 
 The Engineers ride in the Steam Tank in the same way as a character would ride in a chariot. Follow the rules on page 127 for Characters in Chariots, summarised below:
 
-The Engineers have a +2 bonus to their Armour save, giving them a 4+ Armour save.
-
-When shooting at the Tank, roll a dice for each successful hit: a 6 hits the Engineers, otherwise continue with the normal procedure for a hit against the Steam Tank.
-
-In close combat the enemy can choose to attack either the Engineers or the Tank.
+- The Engineers have a +2 bonus to their Armour save, giving them a 4+ Armour save.
+- When shooting at the Tank, roll a dice for each successful hit: a 6 hits the Engineers, otherwise continue with the normal procedure for a hit against the Steam Tank.
+- In close combat the enemy can choose to attack either the Engineers or the Tank.
 
 The Engineers can fight normally against enemies in base contact with the Tank&apos;s front and flanks, but they cannot fight against enemies at the Tank&apos;s rear. Engineers armed with missile weapons must use their hand weapons when in base contact with the enemy, they cannot shoot in close combat. As long as the Steam Tank is operative, they count as Unbreakable, but if the Tank is destroyed, they scatter and flee (remove them). They always count as stationary and can therefore fire move-or-fire weapons even if the Tank has moved. Every time an Engineer is killed, the Empire player decides which one to remove as a casualty.</description>
                 </rule>
@@ -5484,7 +5620,9 @@ Note that the effects of combat resolution, panic and so on are worked out after
           </constraints>
           <rules>
             <rule id="7690-4e82-0cf2-f9ba" name="Armour of the Heldenhammer" hidden="false">
-              <description>The Armour of the Heldenhammer provides a 2 + Armour saving throw, and Magic Resistance (2). No model in base contact may cast spells (including friendly models) or use Bound Items.</description>
+              <description>Forged over two and a half thousand years ago for the Warrior-King Sigmar, this ancient gromril armour was never claimed by the founder of the Empire. Its many runes provide protection against attack and malign magic.
+
+The Armour of the Heldenhammer provides a 2 + Armour saving throw, and Magic Resistance (2). No model in base contact may cast spells (including friendly models) or use Bound Items.</description>
             </rule>
           </rules>
           <costs>
@@ -5627,7 +5765,9 @@ All friendly units within 18&quot; of the Emperor can always use his Leadership 
           </constraints>
           <rules>
             <rule id="a241-fa42-737c-35a6" name="Silver Seal" hidden="false">
-              <description>Gives a 4+ Ward save and Magic Resistance (3) to the Emperor and his mount. In addition, enemies suffer a -1 penalty on their rolls to hit the Emperor and his mount, with both close combat and shooting attacks.</description>
+              <description>The Silver Seal wards away harmful blows, and even countermands magic spells cast against the Emperor. The Warrior Mage Fredrik von Tarnus made the artefact for Magnus the Pious, after the Great War against Chaos.
+
+Gives a 4+ Ward save and Magic Resistance (3) to the Emperor and his mount. In addition, enemies suffer a -1 penalty on their rolls to hit the Emperor and his mount, with both close combat and shooting attacks.</description>
             </rule>
           </rules>
           <costs>
@@ -5666,7 +5806,7 @@ Note: During the events known as the Storm of Chaos, Ghal Maraz is wielded by th
             <selectionEntry id="b88c-159a-2e6e-b10f" name="Reikland Runefang" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
                 <rule id="97c9-ddc5-7ca0-82c6" name="Runefang" hidden="false">
-                  <description>All hits wound automatically. No armour saves allowed.</description>
+                  <description>Elector Counts only. All hits wound automatically. No armour saves allowed.</description>
                 </rule>
               </rules>
               <costs>
@@ -6085,7 +6225,9 @@ In its own Movement phase a Detachment may make a supporting charge by hitting t
           </constraints>
           <rules>
             <rule id="9c93-2dd7-2291-6003" name="Sigil of Sigmar" hidden="false">
-              <description>The Sigil of Sigmar adds one extra dice to all Dispel rolls against enemy spells that would affect its wearer or the unit he is with.</description>
+              <description>The symbol of Sigmar may take many forms such as a twin-tailed comet, hammer, crown or griffin.
+
+The Sigil of Sigmar adds one extra dice to all Dispel rolls against enemy spells that would affect its wearer or the unit he is with.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -6154,7 +6296,9 @@ In its own Movement phase a Detachment may make a supporting charge by hitting t
               </constraints>
               <rules>
                 <rule id="ce19-7afc-7b96-f24c" name="Armour of Meteoric Iron" hidden="false">
-                  <description>This suit of armour gives the bearer a 1+ armour save which cannot be improved by any means.</description>
+                  <description>This suit of armour, forged by the RuneSmiths of Zhufbar long ago, is today held in the Imperial armoury at Altdorf.
+
+This suit of armour gives the bearer a 1+ armour save which cannot be improved by any means.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -6171,7 +6315,9 @@ In its own Movement phase a Detachment may make a supporting charge by hitting t
               </constraints>
               <rules>
                 <rule id="3a9b-f564-7d3b-12a8" name="Armour of Tarnus" hidden="false">
-                  <description>Counts as light armour (armour save 6+) which can be combined with other equipment normally. If the wearer fails his armour save, he may make a 5+ Ward save. Wizards can wear this armour and cast spells.</description>
+                  <description>This armour was worn by the warrior-wizard Frederick von Tarnus.
+
+Counts as light armour (armour save 6+) which can be combined with other equipment normally. If the wearer fails his armour save, he may make a 5+ Ward save. Wizards can wear this armour and cast spells.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -6195,7 +6341,9 @@ In its own Movement phase a Detachment may make a supporting charge by hitting t
               </constraints>
               <rules>
                 <rule id="933f-2490-8751-ff07" name="The Gilded Armour" hidden="false">
-                  <description>Counts as heavy armour (armour save 5+) which can he combined with other equipment normally. Models attacking the wearer in close combat must pass a Strength test before rolling to hit for every Attack directed at the target (ie. roll equal to or less than its Strength on a D6, a 6 always fails). If the test is failed the Attack is lost.</description>
+                  <description>This golden suit of armour was a gift from the Elves of Ulthuan to Magnus the Pious after the Great War against Chaos. Any weapon brought to bear against the wearer is repelled by an invisible force.
+
+Counts as heavy armour (armour save 5+) which can he combined with other equipment normally. Models attacking the wearer in close combat must pass a Strength test before rolling to hit for every Attack directed at the target (ie. roll equal to or less than its Strength on a D6, a 6 always fails). If the test is failed the Attack is lost.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -6240,7 +6388,9 @@ In its own Movement phase a Detachment may make a supporting charge by hitting t
               </constraints>
               <rules>
                 <rule id="daba-2936-bbf1-3d59" name="Dawn Armour" hidden="false">
-                  <description>Counts as full plate armour (armour save 4+) which can be combined with other equipment normally. In addition the model can re-roll any failed armour save.</description>
+                  <description>An armour of burnished Estalian steel, enchanted by Gold Wizards so that any damage suffered by it disappears.
+
+Counts as full plate armour (armour save 4+) which can be combined with other equipment normally. In addition the model can re-roll any failed armour save.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -6308,7 +6458,9 @@ In its own Movement phase a Detachment may make a supporting charge by hitting t
               </constraints>
               <rules>
                 <rule id="c67f-21bb-957f-9275" name="Shield of the Gorgon" hidden="false">
-                  <description>This shield confers a 6+ armour save which can he combined with other equipment normally. The wearer can force one model in base contact to lose one Attack. In the case of models with different Attacks (eg. mounted models) the wearer chooses which Attack is lost. Special Attacks (like those of a Giant, impact hits and anything not included in the Attacks value on a model&apos;s profile) are not affected.</description>
+                  <description>The hideous head of the mythical creature known as the Gorgon is depicted on this shield in such detail that it seems alive. Even the fiercest enemies try to avoid its gaze which is rumoured to turn living creatures to stone.
+
+This shield confers a 6+ armour save which can he combined with other equipment normally. The wearer can force one model in base contact to lose one Attack. In the case of models with different Attacks (eg. mounted models) the wearer chooses which Attack is lost. Special Attacks (like those of a Giant, impact hits and anything not included in the Attacks value on a model&apos;s profile) are not affected.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -6436,7 +6588,9 @@ In its own Movement phase a Detachment may make a supporting charge by hitting t
               </constraints>
               <rules>
                 <rule id="6abe-6ff1-d6a0-3e55" name="Seal of Destruction" hidden="false">
-                  <description>One use only. The seal has the same effect as a Dispel scroll. In addition, roll a D6. On a result of 4+ the spell is removed from the caster&apos;s mind and he can no longer cast it. Spells cast from a Bound item will only be removed on the result of a 6.</description>
+                  <description>Once activated this seal can drain the knowledge of one spell from the mind of an enemy Wizard.
+
+One use only. The seal has the same effect as a Dispel scroll. In addition, roll a D6. On a result of 4+ the spell is removed from the caster&apos;s mind and he can no longer cast it. Spells cast from a Bound item will only be removed on the result of a 6.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -6544,7 +6698,9 @@ In its own Movement phase a Detachment may make a supporting charge by hitting t
           </constraints>
           <rules>
             <rule id="a4ed-a54c-d8b8-4043" name="Rod of Command" hidden="false">
-              <description>One use only. The character and the unit he is with will automatically pass the first Break test they have to take, regardless of modifiers and even if they would normally automatically fail their test (for example, losing a round of combat against an opponent that outnumbers them and causes fear). If the player forgets to use it, even if he rolls and passes the test, the item is still used up. Note that this item cannot he used by a character in the turn he refused a challenge and who is hiding at the back of the unit (who would pay heed to such a coward!).</description>
+              <description>When the battle seems lost, the bearer can summon the powers of the Rod to turn a rout into steadfast resistance.
+
+One use only. The character and the unit he is with will automatically pass the first Break test they have to take, regardless of modifiers and even if they would normally automatically fail their test (for example, losing a round of combat against an opponent that outnumbers them and causes fear). If the player forgets to use it, even if he rolls and passes the test, the item is still used up. Note that this item cannot he used by a character in the turn he refused a challenge and who is hiding at the back of the unit (who would pay heed to such a coward!).</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -6561,7 +6717,9 @@ In its own Movement phase a Detachment may make a supporting charge by hitting t
           </constraints>
           <rules>
             <rule id="f222-ed44-17dd-5a31" name="The Silver Horn" hidden="false">
-              <description>Bound Spell. Power Level 5. The Silver Horn may cast its spell once per Empire Magic phase. The spell requires no Power dice to cast, all the power required is provided by the Horn itself.
+              <description>This elegant hunting horn contains a potent spell. Friends who hear its note are filled with courage.
+
+Bound Spell. Power Level 5. The Silver Horn may cast its spell once per Empire Magic phase. The spell requires no Power dice to cast, all the power required is provided by the Horn itself.
 
 All friendly units that are fleeing anywhere on the battlefield will rally immediately.</description>
             </rule>
@@ -6580,7 +6738,9 @@ All friendly units that are fleeing anywhere on the battlefield will rally immed
           </constraints>
           <rules>
             <rule id="2158-cb0f-ab64-f5fa" name="The Orb Of Thunder" hidden="false">
-              <description>Bound Spell. Power Level 4. The Orb of Thunder spell may be cast once per Empire Magic phase. The spell requires no Power dice to cast, all the power required is provided by the Orb itself and the spell will last until dispelled.
+              <description>The Orb of Thunder contains a powerful spell that wreaks turmoil in the air.
+
+Bound Spell. Power Level 4. The Orb of Thunder spell may be cast once per Empire Magic phase. The spell requires no Power dice to cast, all the power required is provided by the Orb itself and the spell will last until dispelled.
 
 When the Orb of Thunder spell is in play, no flying creatures on the battlefield can use their ability to fly and will have to move on the ground at their normal Movement rate.</description>
             </rule>
@@ -6652,7 +6812,9 @@ The bearer can cast the captured spell in his own Magic phase by releasing it fr
           </constraints>
           <rules>
             <rule id="4996-1b7f-c1c7-9cac" name="Doomfire Ring" hidden="false">
-              <description>Bound Spell. Power Level 3. The Doomfire Ring may cast its Bound spell once per Magic phase like an ordinary spell. The spell requires no Power dice to cast, all the power required is provided by the Ring itself.
+              <description>The Doomfire Ring, node of iron and rubies, contains a spell that allows its master to cast fire upon his enemies.
+
+Bound Spell.  Power Level 3. The Doomfire Ring may cast its Bound spell once per Magic phase like an ordinary spell. The spell requires no Power dice to cast, all the power required is provided by the Ring itself.
 
 A flaming magic missile spurts from the Ring in a straight line up to 18” long striking the first unit in its path. The unit takes 1D6 Strength 3 hits.</description>
             </rule>
@@ -6671,7 +6833,7 @@ A flaming magic missile spurts from the Ring in a straight line up to 18” long
           </constraints>
           <rules>
             <rule id="bc02-4c80-bc1c-ac48" name="Van Horstmann&apos;s Speculum" hidden="false">
-              <description>When the wearer fights a challenge he can &apos;swap&apos; his base Strength, Toughness, Initiative and Attacks values with his enemy. He has the choice of not using the mirror, but if he does he must swap all characteristics for the duration of the challenge. So the wearer fights with his enemy&apos;s S, T, I and A whilst his enemy fights with the wearer&apos;s S. T, I and A.</description>
+              <description>When the wearer fights a challenge he can &apos;swap&apos; his base Strength, Toughness, Initiative and Attacks values with his enemy. He has the choice of not using the mirror, but if he does he must swap all characteristics for the duration of the challenge. So the wearer fights with his enemy&apos;s S, T, I and A whilst his enemy fights with the wearer&apos;s S, T, I and A.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -6769,7 +6931,9 @@ If a unit wishes to charge Knights carrying this banner, it must take a Leadersh
           </constraints>
           <rules>
             <rule id="96b7-67c0-54ad-15fb" name="Griffon Standard" hidden="false">
-              <description>A unit carrying the Griffon Standard counts double its normal rank bonus when it comes to working out combat results. If in a single rank, it has no advantage. However, if the unit is in two ranks it receives +2, in three ranks +4. and in four ranks (the maximum bonus) +6.
+              <description>The men of Reikland have carried this standard in many a battle. It rests in the Great Cathedral of Sigmar and is brought forth in times of war. A unit flying the Griffon Standard will resolutely stand its ground few foes can break them, no matter how many fall.
+
+A unit carrying the Griffon Standard counts double its normal rank bonus when it comes to working out combat results. If in a single rank, it has no advantage. However, if the unit is in two ranks it receives +2, in three ranks +4. and in four ranks (the maximum bonus) +6.
 
 The unit carrying the Griffon Standard will never pursue a fleeing enemy but will always hold its ground instead.</description>
             </rule>

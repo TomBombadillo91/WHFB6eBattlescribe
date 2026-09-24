@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2c0-45b3-040e-fe0f" name="Vampire Counts" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2c0-45b3-040e-fe0f" name="Vampire Counts" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7d18-159a-be52-079b" name="Vampire" hidden="false"/>
     <categoryEntry id="72bd-3327-881f-a995" name="Von Carstein" hidden="false"/>
-    <categoryEntry id="2591-c193-875b-6280" name="Lamia" hidden="false"/>
+    <categoryEntry id="2591-c193-875b-6280" name="Lahmia" hidden="false"/>
     <categoryEntry id="9b43-f995-3db9-e093" name="Strigoi" hidden="false"/>
     <categoryEntry id="9721-1538-e8d5-012b" name="Necrarch" hidden="false"/>
     <categoryEntry id="7dda-4704-1c61-e1ab" name="Blood Dragon" hidden="false"/>
@@ -99,6 +99,9 @@
                   </conditions>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="9e8f-f899-51b3-89ab" name="Level 2" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -111,6 +114,9 @@
                   </conditions>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="dec7-a274-19f9-c947" name="Level 3" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="50.0"/>
               </costs>
@@ -140,11 +146,17 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="6de6-4004-d055-cbab" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="9044-d575-62f3-2654" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="25a7-3a14-1d55-87ca" name="Lance" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="e29c-0c2c-312e-b9ed" name="Lance" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -273,6 +285,9 @@
                   </conditions>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="a1a6-bc92-a6d5-ac7d" name="Level 1" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -285,6 +300,9 @@
                   </conditions>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="7095-1d0c-f4b8-6481" name="Level 2" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
               </costs>
@@ -314,11 +332,17 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="55ce-d0c8-427d-5a7a" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="061d-1ff5-45bc-31d1" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c194-ede3-4649-d50a" name="Lance" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="180e-ccdc-66ac-462f" name="Lance" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -534,11 +558,17 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="a3d7-ef96-0bd6-0bc9" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="14a6-111f-a40a-80d9" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="cab0-785b-5498-9033" name="Lance" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="e1b7-67fb-3fdd-9708" name="Lance" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -686,16 +716,25 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="6f08-b351-aa0c-f619" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="0623-cbf7-799f-f1a4" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d3c5-5033-b455-cb05" name="Lance" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="b855-b249-679f-8ed4" name="Lance" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="cd47-43f0-ea2c-2f67" name="Halberd" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="e0b0-d111-a1a0-5c63" name="Halberd" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -741,6 +780,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf73-5d9d-f99e-a22a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9365-3403-5055-7051" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="6194-ca48-f884-4e5a" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -877,6 +919,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f064-5e69-0926-cb22" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="651b-19ae-4dfa-73a1" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
               </costs>
@@ -890,7 +935,9 @@
     </selectionEntry>
     <selectionEntry id="0da5-7c42-93a3-895a" name="Zombies" hidden="false" collective="false" import="true" type="unit">
       <rules>
-        <rule id="deb4-c8d3-3d8a-61de" name="Braindead" hidden="false"/>
+        <rule id="deb4-c8d3-3d8a-61de" name="Braindead" hidden="false">
+          <description>Zombies are so slow that their opponents always get to anticipate their clumsy attacks. To represent this, Zombies always strikes last in close combat (even when they charge, even after opponents armed with Great Weapons, and so on, always!). If Zombies are fighting other Zombies, roll a dice every turn to determine which unit attacks first.</description>
+        </rule>
       </rules>
       <categoryLinks>
         <categoryLink id="4c57-a0cc-ff45-789a" name="Core" hidden="false" targetId="62d3-efc6-6c2c-634e" primary="true"/>
@@ -936,6 +983,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ca6-485e-5932-9097" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="667e-bd6b-f970-75e5" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
               </costs>
@@ -949,7 +999,9 @@
     </selectionEntry>
     <selectionEntry id="c621-e2ba-f894-4794" name="Ghouls" hidden="false" collective="false" import="true" type="unit">
       <rules>
-        <rule id="9194-1e89-008b-443b" name="Scavengers" hidden="false"/>
+        <rule id="9194-1e89-008b-443b" name="Scavengers" hidden="false">
+          <description>Ghouls fight in undisciplined packs and have no hierarchy save the rule of the strongest. To represent this, Ghouls are skirmishers and cannot be joined by characters.</description>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink id="7a13-4abc-e43f-8544" name="Fear" hidden="false" targetId="03be-3e56-1332-bf56" type="rule"/>
@@ -1051,7 +1103,11 @@
     </selectionEntry>
     <selectionEntry id="f5ec-da94-2004-b9e5" name="Dire Wolves" hidden="false" collective="false" import="true" type="unit">
       <rules>
-        <rule id="6308-8964-d5c5-c3dc" name="Slavering Charge" hidden="false"/>
+        <rule id="6308-8964-d5c5-c3dc" name="Slavering Charge" hidden="false">
+          <description>These beasts overpower their enemies as they charge.
+
+Models with this special rule resolve their attacks at Strength 4 during the turn they charge.</description>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink id="9ae8-db53-2a4c-cc59" name="Fast Cavalry" hidden="false" targetId="ab75-c6ec-0411-c924" type="rule"/>
@@ -1155,6 +1211,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2aaf-ae75-c7b4-0683" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="8018-2078-c5a4-670b" name="Halberds" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1198,6 +1257,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5767-7683-1332-d19e" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="2277-05fb-0a38-be76" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -1223,7 +1285,6 @@
     <selectionEntry id="7542-dc35-21e5-40ab" name="Black Knights" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="3ea2-724a-1cbb-65f5" name="Wight Blades" hidden="false" targetId="b63b-1940-a3dc-2035" type="rule"/>
-        <infoLink id="b6a5-8ba7-1881-ce46" name="Ethereal Steeds" hidden="false" targetId="91aa-4512-eebd-a48c" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="254b-dfc1-e425-b886" name="New CategoryLink" hidden="false" targetId="4a3f-84d1-0495-6ecb" primary="true"/>
@@ -1281,6 +1342,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab70-8899-33f1-2d3f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f3e-d564-77a7-5320" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="2950-a6a5-16cb-d4ff" name="Lances" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1342,6 +1406,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d3d-1224-ce0a-2418" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="05c5-4ce2-8b1a-1e94" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="8.0"/>
               </costs>
@@ -1487,7 +1554,9 @@
         <rule id="ead5-2a22-d755-60b8" name="Ward Save (5+)" hidden="false">
           <description>This model has a 5+ Ward Save.</description>
         </rule>
-        <rule id="c048-e5b8-4fa8-9bf4" name="Evocation of Death" hidden="false"/>
+        <rule id="c048-e5b8-4fa8-9bf4" name="Evocation of Death" hidden="false">
+          <description>For every wound the Black Coach causes in close combat, it gains one extra wound immediately. This can restore a lost Wound and can even bring the Coach&apos;s total Wounds above the starting number. Fleeing units run down by the Coach de not count because not all enemies in the unit are actually killed; most of them scatter and escape the battlefield. When the Coach reaches a total of 10 more Wounds it will count as a scythed chariot, inflicting D6+1 impact hits. This effect lasts only as long as chariot has 10 or more Wounds.</description>
+        </rule>
         <rule id="9ae8-dd7c-d59a-d3bb" name="Unit Strength 5" hidden="false"/>
       </rules>
       <infoLinks>
@@ -1504,6 +1573,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b38-7dab-95f5-eb36" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="870d-f57e-153e-3bb6" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="a278-0f46-7aa2-5974" name="Great Weapon (Wraith)" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1530,7 +1602,9 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="75d9-2514-d14a-942f" name="Ghostly Howl" hidden="false"/>
+        <rule id="75d9-2514-d14a-942f" name="Ghostly Howl" hidden="false">
+          <description>The Ghostly Howl of a Banshee is used in the Shooting phase. A Banshee may use it even in the turn she has declared a charge or marched and even when engaged in close combat, but in this case she can Howl only against one of the units she is fighting (the Howl will affect only the target unit, even in a multiple fight). The attack has a range of 8&quot;. The Banshee can target any one unit within this range (even characters on their own that could not normally be targeted by shooting, but not characters inside units) and does not need a line of sight to the target. Roll 2D6+2 and deduct the Leadership value of the unit from the score. For each point by which the roll beats the target&apos;s Leadership, the target suffers 1 wound, distributed exactly like missile fire amongst the unit. So if you roll a 9, thereby obtaining a total of 11, and the target unit&apos;s Leadership is 8, the unit suffers 3 wounds. No armour saving throw is allowed against wounds caused by a Banshee&apos;s Howl, but units can use the superior Leadership of the character who is leading them or even the General&apos;s, if he is within 12&quot;. Units which are Immune to Psychology are not affected by the Howl. In the case of ridden chariots/monsters, war machines and similar units, use the highest Leadership value of the models involved to determine the number of wounds caused and then randomise each wound as for shooting hits (discard wounds hitting war machines).</description>
+        </rule>
         <rule id="d9f7-cbb3-ced5-f103" name="Single Model" hidden="false"/>
       </rules>
       <infoLinks>
@@ -1555,7 +1629,9 @@
         <selectionEntry id="bd1f-0760-31b7-4cae" name="Von Carstein" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="a2f5-8353-7672-30ae" name="Von Carstein" hidden="false">
-              <description>These are the archetypal vampires in the Old World so have no additional special rules.</description>
+              <description>Von Carsten Vampires are the archetypal Vampires of the Old World. Vampires&apos; characteristics and options in the army list are based on them, so they don&apos;t get any additional special Bloodline rules.
+
+Von Carstein Type</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -1568,10 +1644,12 @@
         <selectionEntry id="828c-420a-1657-f610" name="Necrarch" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="146b-ec0b-7820-6948" name="Necrarch" hidden="false">
-              <description>+1 to cast spells.
-Thralls can use Arcane Items.
-Cannot choose any mundane weapons or armour.
--2 to their Weapon Skill.</description>
+              <description>- +1 to the total rolled when trying to cast a spell.
+- Thralls can use Arcane items.
+- Cannot choose any mundane weapons or armour.
+- -2 to their Weapon Skill.
+
+Necrarch Type</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -1584,9 +1662,11 @@ Cannot choose any mundane weapons or armour.
         <selectionEntry id="a647-53a4-4175-d3f7" name="Blood Dragon" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="36ea-ad3f-56c0-4e5c" name="Blood Dragon" hidden="false">
-              <description>+2 Weapon Skill
-Lords and Counts automatically wear full plate armour (4+ armour save) and can cast spells whilst wearing armour, but generate one less Power dice than ususal.
-The Blood Dragon with the highest Leadership in a unit must always issue and accept challenges if possible.</description>
+              <description>- +2 to their Weapon Skill.
+- Lords and Counts automatically wear full plate armour (4+ armour save) and can cast spells whilst wearing armour, but they generate one less Power dice than their Magic level in their own Magic phase. They generate Dispel dice as normal.
+- The Blood Dragon with the highest Leadership in a combat must always issue challenges and must always accept enemy challenges if possible.
+
+Blood Dragon Type</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -1600,13 +1680,14 @@ The Blood Dragon with the highest Leadership in a unit must always issue and acc
         <selectionEntry id="db69-71de-7e4f-912a" name="Strigoi" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="15bc-418f-b41e-9c21" name="Strigoi" hidden="false">
-              <description>Lords and Counts have +1 Attack, are affected by Hatred (even though they are Immune to Psychology) and have a 5+ Ward save due to their great resilience.
+              <description>- Lords and Counts have +1 Attack, are affected by Hatred (even being Immune to Psychology) and have a 5+ Ward save due to their great resilience.
+- Thralls have +1 Attack, are affected by Hatred (even being Immune to Psychology) and have a 6+ Ward save due to their great resilience.
+- Cannot choose any mundane weapons or armour.
+- Cannot use any magic item.
+- Always fight on foot.
+- Thralls cannot be given the Battle Standard.
 
-Thralls have +1 Attack, are affected by Hatred (even though they are Immune to Psychology) and have a 6+ Ward save due to their great resilience.
-
-Cannot choose any mounts, mundane weapons, armour, and cannot use any magic items.
-
-Thralls cannot be given the Battle Standard.</description>
+Strigoi Type</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -1617,16 +1698,29 @@ Thralls cannot be given the Battle Standard.</description>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="155c-eb92-5f3c-fa84" name="Lamia" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="155c-eb92-5f3c-fa84" name="Lahmia" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
-            <rule id="6e2a-0c13-d577-787a" name="Lamia" hidden="false">
-              <description>+2 to their Initiative and -1 to their Weapon Skill.
-All models in base contact with one or more Lamia Vampires suffer a -1 to their Leadership. Work out which Ld value the model would use (its own, the General&apos;s, etc.) then reduce that number by 1.
-Cannot choose any mundane weapons or armour.</description>
+            <rule id="6e2a-0c13-d577-787a" name="Lahmia" hidden="false">
+              <description>- +2 to their Initiative.
+- All models in base contact with one or more Lahmia Vampires suffer a -1 to their Leadership. Work out which Ld value the model would use (its own, the General&apos;s, etc) and reduce that number by -1.
+- Cannot choose any mundane weapons or armour.
+- -1 to their Weapon Skill.
+
+Seduction, Domination, Transfix and Beguile
+
+Models which are Immune to Psychology (frenzied, Unbreakable, etc) are immune to these powers.
+
+If a Lahmian Vampire has more than one of these powers, the selected model must take a test for the most expensive power first. If the test is passed, the selected model must take the next most expensive test, and so on. If the test is failed, the model will be affected by the power and the Vampire can choose another model in base contact to take the next most expensive test, and so on. It follows that a model cannot be affected by more than one of these powers at the same time. If a model is in base contact with more than one Vampire, only one Vampire can use any of these powers against him in each turn (Lahmians are a jealous lot!).
+
+In the case of chariots, ridden monsters/chariots and similar models, take the test using the best Leadership value available. If the test is failed, the result will affect the entire model (crew, steeds, monster and riding character). Impact hits are applied before these tests are taken.
+
+Challenges are issued and accepted before these tests, and if the Vampire is involved in a challenge she can only use these powers on her opponent. In this case a chariot&apos;s crew and steeds would be allowed to exchange blows with the Vampire&apos;s unit, even if the character riding in the chariot has been seduced, dominated, etc.
+
+Lahmia Type</description>
             </rule>
           </rules>
           <categoryLinks>
-            <categoryLink id="5a53-3370-2362-8596" name="Lamian" hidden="false" targetId="2591-c193-875b-6280" primary="false"/>
+            <categoryLink id="5a53-3370-2362-8596" name="Lahmian" hidden="false" targetId="2591-c193-875b-6280" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
@@ -1659,6 +1753,11 @@ Cannot choose any mundane weapons or armour.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bb43-1fe3-f3f1-e408" type="max"/>
           </constraints>
+          <rules>
+            <rule id="22e3-d911-ffc1-69bc" name="Summon Bats" hidden="false">
+              <description>Once per game the Vampire can use this power at the start of one of his turns. He can choose to summon either a Bat Swarm (one base) or D3+1 Fell Bats. Immediately calculate the Victory points value of the new unit. The unit can enter from any table edge in the same way as a unit that had pursued an enemy off the field.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="65.0"/>
           </costs>
@@ -1679,6 +1778,11 @@ Cannot choose any mundane weapons or armour.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bd12-e61f-4a76-055c" type="max"/>
           </constraints>
+          <rules>
+            <rule id="3c7b-16de-f2c6-eb2c" name="Call Winds" hidden="false">
+              <description>At the beginning of each of his turns the Vampire can decide not to move in that Movement phase and attempt to call winds. Roll a dice: on a result of 1 nothing happens, on a 2 to 6 the Vampire summons a wild storm that will last until the beginning of his next turn. If he is engaged in close combat, wounded or killed, the storm ends immediately. The storm affects the entire battlefield. All shooting is at -1 to hit. All flying movement is impossible and flying creatures have to use their ground Movement value.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="55.0"/>
           </costs>
@@ -1694,6 +1798,13 @@ Cannot choose any mundane weapons or armour.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9aaf-bf22-168d-be17" type="max"/>
           </constraints>
+          <rules>
+            <rule id="0c59-c3da-fa8c-c17f" name="Walking Death" hidden="false">
+              <description>So powerful is the unholy presence of the Vampire that mere mortals are forced to flee in terror.
+
+The presence of one or more von Carsten Vampires with this power in a combat adds +1 to their side&apos;s combat resolution.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
           </costs>
@@ -1709,6 +1820,11 @@ Cannot choose any mundane weapons or armour.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fd2e-9816-ae67-416e" type="max"/>
           </constraints>
+          <rules>
+            <rule id="88ad-dc47-5b8c-5d51" name="Summon Wolves" hidden="false">
+              <description>Once per game, the Vampire can use this power at the start of one of his turns to summon D3 Dire Wolves. Immediately calculate the Victory points value of the new unit. The unit can enter from any table edge in the same way as a unit that has pursued an enemy off the field.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
           </costs>
@@ -1724,6 +1840,11 @@ Cannot choose any mundane weapons or armour.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3a44-9f2b-437b-8fff" type="max"/>
           </constraints>
+          <rules>
+            <rule id="780d-2a5c-84dd-f594" name="Aura of Dark Majesty" hidden="false">
+              <description>If the Vampire is the army&apos;s General, the normal range of 12&quot; for his troops to be able to march and use his Leadership is extended to 18&quot;.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
           </costs>
@@ -1739,6 +1860,13 @@ Cannot choose any mundane weapons or armour.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ba54-75a4-76de-1f15" type="max"/>
           </constraints>
+          <rules>
+            <rule id="e427-fdcd-067e-0415" name="Wolf Form" hidden="false">
+              <description>The Vampire can change his shape to that of a wolf.
+
+The Movement of the Vampire is increased to 9 as long as he is moving on foot.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
           </costs>
@@ -1754,6 +1882,11 @@ Cannot choose any mundane weapons or armour.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eaa4-08af-5a68-526f" type="max"/>
           </constraints>
+          <rules>
+            <rule id="f3fb-59c1-fce2-2ac6" name="Red Fury" hidden="false">
+              <description>The Vampire has + 1 Attack.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="30.0"/>
           </costs>
@@ -1769,6 +1902,11 @@ Cannot choose any mundane weapons or armour.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5da0-8665-6ade-c6d9" type="max"/>
           </constraints>
+          <rules>
+            <rule id="ddc2-a6a5-1d4e-7d99" name="Blademaster" hidden="false">
+              <description>The Vampire can choose one model in base contact with him at the beginning of the Close Combat phase. The chosen model will lose one of his Attacks, chosen by the Vampire if he has different kinds of attack (for example, from a riding beast, bite attacks, etc).</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="30.0"/>
           </costs>
@@ -1784,6 +1922,11 @@ Cannot choose any mundane weapons or armour.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d2ee-ac3f-b30d-e52d" type="max"/>
           </constraints>
+          <rules>
+            <rule id="c5c6-9db2-f2be-9bb2" name="Heart Piercing" hidden="false">
+              <description>The Vampire can re-roll missed close combat attacks in the first round of every combat.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
           </costs>
@@ -1799,6 +1942,11 @@ Cannot choose any mundane weapons or armour.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8a9e-bd84-8b5e-66d5" type="max"/>
           </constraints>
+          <rules>
+            <rule id="0001-cb3a-b4f0-ef71" name="Master Strike" hidden="false">
+              <description>The Vampire has the Killing Blow special rule.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
           </costs>
@@ -1814,6 +1962,11 @@ Cannot choose any mundane weapons or armour.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b020-c7cf-6624-9111" type="max"/>
           </constraints>
+          <rules>
+            <rule id="349f-5582-3812-0ed2" name="Strength of Steel" hidden="false">
+              <description>The Vampire has +1 Strength the turn he charges.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="15.0"/>
           </costs>
@@ -1829,6 +1982,11 @@ Cannot choose any mundane weapons or armour.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="af91-faaa-2c91-bc4d" type="max"/>
           </constraints>
+          <rules>
+            <rule id="6021-70a9-9a63-4e13" name="Honour or Death" hidden="false">
+              <description>At the start of a challenge, the enemy character selected to take on the Vampire must take a Leadership test before any blows are struck (a character Immune to Psychology is also immune to this effect). If the test is failed, the enemy character will change his mind and hide in the rear ranks, refusing to fight the Vampire (see Refusing a Challenge). Then the combat will proceed as normal, with no challenges fought that turn and the Vampire will be free to fight against any models he is in contact with.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
           </costs>
@@ -1844,6 +2002,13 @@ Cannot choose any mundane weapons or armour.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d2b5-2cf8-b20a-d0db" type="max"/>
           </constraints>
+          <rules>
+            <rule id="f1c1-ca4e-6171-42f6" name="Nehekhara&apos;s Noble Blood" hidden="false">
+              <description>The only thing the Necrarchs could take from their land was their necromantic lore. These secrets are found in the cursed scrolls bidden in the lairs of the oldest Lords of the Necrarch family.
+
+The Vampire has one extra Magic Level. A Thrall with this power is a Level 1 Wizard in all respects and can be the army&apos;s General.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="45.0"/>
           </costs>
@@ -1859,6 +2024,11 @@ Cannot choose any mundane weapons or armour.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="11ac-733f-188f-8f6d" type="max"/>
           </constraints>
+          <rules>
+            <rule id="f370-6893-2948-b2e3" name="The Awakening" hidden="false">
+              <description>Whenever the Vampire casts the Necromantic spell Invocation of Nehek he can add + D3 to the total number of Skeletons or Zombies created. For example, if he casts Level 2 Invocation, he can raise 2D6+ D3 Skeletons.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
           </costs>
@@ -1874,6 +2044,13 @@ Cannot choose any mundane weapons or armour.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="acd5-3a28-ec1c-25f1" type="max"/>
           </constraints>
+          <rules>
+            <rule id="2dbd-8335-8c84-6f9d" name="Dark Acolyte" hidden="false">
+              <description>Even the lowliest Necrarch follows the long and difficult path of the Necromancer.
+
+The presence of the Vampire on the battlefield adds one dice to the player&apos;s pile of Power dice (no effect on the Dispel dice).</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
           </costs>
@@ -1889,6 +2066,11 @@ Cannot choose any mundane weapons or armour.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b65e-b0c7-ce22-43b6" type="max"/>
           </constraints>
+          <rules>
+            <rule id="10f1-7c7c-84ea-f012" name="Unholy Cynosure" hidden="false">
+              <description>Once per game, the Vampire can re-roll one of the dice rolled to cast a spell. This can be used to negate a Miscast result or could cause an Irresistible Force result.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
           </costs>
@@ -1904,6 +2086,11 @@ Cannot choose any mundane weapons or armour.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2b6c-6e7d-c597-99f2" type="max"/>
           </constraints>
+          <rules>
+            <rule id="ac9f-66c1-3019-36c9" name="Master of the Black Arts" hidden="false">
+              <description>The range of all spells cast by the Vampire is increased by 6&quot;. This power won&apos;t affect spells without, a range (like Hand of Dust) nor the range of spells cast from bound spell items.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
           </costs>
@@ -1919,6 +2106,13 @@ Cannot choose any mundane weapons or armour.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9df2-2884-ab36-781b" type="max"/>
           </constraints>
+          <rules>
+            <rule id="3c03-a9dc-d57f-bf76" name="Forbidden Lore" hidden="false">
+              <description>Long must one study to gain knowledge of the netherworld, but time is no worry to an undying scholar.
+
+The Vampire knows one more spell than he is normally allowed. This does not increase his Magic Level.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="15.0"/>
           </costs>
@@ -1939,6 +2133,11 @@ Cannot choose any mundane weapons or armour.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b98b-fb74-b4e0-fda3" type="max"/>
           </constraints>
+          <rules>
+            <rule id="aab6-92ce-d925-084b" name="Curse of the Revenant" hidden="false">
+              <description>The Vampire has the Regeneration special rule.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="55.0"/>
           </costs>
@@ -1954,6 +2153,11 @@ Cannot choose any mundane weapons or armour.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1efc-455f-d644-2d05" type="max"/>
           </constraints>
+          <rules>
+            <rule id="b176-40db-d2a5-c648" name="Massive Monstrosity" hidden="false">
+              <description>The Vampire has +1 Wound on his profile.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="50.0"/>
           </costs>
@@ -1969,6 +2173,11 @@ Cannot choose any mundane weapons or armour.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2b28-4d4a-8841-0644" type="max"/>
           </constraints>
+          <rules>
+            <rule id="6c8c-0f37-c209-2708" name="Bat Form" hidden="false">
+              <description>The model has the Fly special rule.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="45.0"/>
           </costs>
@@ -1984,6 +2193,11 @@ Cannot choose any mundane weapons or armour.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3fa1-fd17-8ba2-b137" type="max"/>
           </constraints>
+          <rules>
+            <rule id="07d4-daa3-0ce8-3733" name="Infinite Hatred" hidden="false">
+              <description>The Vampire can re-roll all failed To Hit rolls.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="30.0"/>
           </costs>
@@ -1999,6 +2213,11 @@ Cannot choose any mundane weapons or armour.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0c28-c334-6720-aa4c" type="max"/>
           </constraints>
+          <rules>
+            <rule id="67a9-bf4b-72a8-1d73" name="Summon Ghouls" hidden="false">
+              <description>Once per game, the Vampire can use this power at the start of one of his turns to summon D3+1 Ghouls. Immediately calculate the Victory points value of the new unit. The unit can enter from any table edge in the same way as a unit that had pursued an enemy off the field.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
           </costs>
@@ -2014,6 +2233,11 @@ Cannot choose any mundane weapons or armour.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="29ae-49aa-b3da-d69d" type="max"/>
           </constraints>
+          <rules>
+            <rule id="da0a-09a5-5e19-ab12" name="Iron Sinews" hidden="false">
+              <description>The Vampire has +1 Strength on his profile.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
           </costs>
@@ -2034,6 +2258,11 @@ Cannot choose any mundane weapons or armour.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="10c5-104a-c6a6-5e84" type="max"/>
           </constraints>
+          <rules>
+            <rule id="8041-b4fe-d81c-ea2c" name="Seduction" hidden="false">
+              <description>At the beginning of the Close Combat phase select one model in base contact with the Vampire. The selected model must take a Leadership test. If the test is failed, the victim is controlled by the Vampire player in that Close Combat phase. The model will direct its attacks against his own side. The model cannot be attacked by either side in that Close Combat phase but, after combat resolution has been worked out, he reverts immediately to the original player&apos;s control and can therefore use his Leadership for any Break tests and can be broken and pursued as normal. If the model has no friendly models in base contact, it will count as being dominated (see the Domination power).</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="55.0"/>
           </costs>
@@ -2049,6 +2278,11 @@ Cannot choose any mundane weapons or armour.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1685-2016-e7e6-2ffb" type="max"/>
           </constraints>
+          <rules>
+            <rule id="f0f6-45dd-4681-d59c" name="Domination" hidden="false">
+              <description>At the beginning of the Close Combat phase select one model in base contact with the Vampire. The selected model must take a Leadership test. If the test is failed, the victim cannot attack in that Close Combat phase and all attacks directed against the victim will hit automatically.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="40.0"/>
           </costs>
@@ -2064,6 +2298,11 @@ Cannot choose any mundane weapons or armour.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a447-fe41-16d6-1489" type="max"/>
           </constraints>
+          <rules>
+            <rule id="2039-bc69-a44e-a30b" name="Quickblood" hidden="false">
+              <description>The Vampire has a Ward save of 5+.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="30.0"/>
           </costs>
@@ -2079,6 +2318,11 @@ Cannot choose any mundane weapons or armour.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4fde-bd44-4865-587c" type="max"/>
           </constraints>
+          <rules>
+            <rule id="0134-9e6f-4e0c-5f0f" name="Innocence Lost" hidden="false">
+              <description>The Vampire always attacks first in close combat, even if charged. If an enemy has the same power because of a magic item or spell, hits are resolved in order of Initiative. If the Vampire and her enemy have the same Initiative, roll a dice to decide who attacks first.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
           </costs>
@@ -2094,6 +2338,11 @@ Cannot choose any mundane weapons or armour.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d309-8ae7-2d22-1bb0" type="max"/>
           </constraints>
+          <rules>
+            <rule id="bea4-271b-327c-a857" name="Transfix" hidden="false">
+              <description>At the beginning of the Close Combat phase select one model in base contact with the Vampire The selected model must take a Leadership test. If the test is failed, the victim cannot attack in that Close Combat phase.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
           </costs>
@@ -2109,6 +2358,13 @@ Cannot choose any mundane weapons or armour.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="225b-624e-ccc7-862d" type="max"/>
           </constraints>
+          <rules>
+            <rule id="4c88-860b-2dcc-5e59" name="Beguile" hidden="false">
+              <description>What brute would dare to attack such a vulnerable lady?
+
+At the beginning of the Close Combat phase select one model in base contact with the Vampire. The selected model must take a Leadership test. If the test is failed, the victim cannot attack the Vampire in that Close Combat phase.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
           </costs>
@@ -2219,6 +2475,11 @@ Cannot choose any mundane weapons or armour.</description>
       </constraints>
       <selectionEntries>
         <selectionEntry id="d62b-327f-8207-6bbd" name="Necromancy" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="2d65-1337-b88a-1a55" name="Necromancy" hidden="false">
+              <description>Necromancy Lore</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -2285,7 +2546,7 @@ Cannot choose any mundane weapons or armour.</description>
           </profiles>
           <rules>
             <rule id="3d0e-4dfc-db58-2f37" name="Impale" hidden="false">
-              <description>Winged Nightmares gain a +1 Strength bonus in the turn they charge.</description>
+              <description>This model has a +1 Strength bonus when charging.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -2354,10 +2615,10 @@ Cannot choose any mundane weapons or armour.</description>
           </profiles>
           <rules>
             <rule id="02ac-3fed-b8bc-7d59" name="Pestilential Breath" hidden="false">
-              <description>Zombie Dragons have a Strength 2 Breath Weapon with a -3 armour save  modifier</description>
+              <description>Use the Flame template from the Warhammer game to represent the area covered by the Zombie Dragon&apos;s breath attack. Any model hit suffers a Strength 2 hit, with a -3 armour save modifier.</description>
             </rule>
             <rule id="6827-896f-0a8d-61e5" name="Cloud of Flies" hidden="false">
-              <description>Any enemy in base contact with a Zombie Dragon must deduct -1 from their To Hit rolls in close combat.</description>
+              <description>Any unit close combat with a unit or model with this special rule suffers a -1 To Hit penalty on its rolls to hit.</description>
             </rule>
             <rule id="9e0e-8201-0bdb-dd88" name="Scaly Skin (5+)" hidden="false"/>
           </rules>
@@ -2393,6 +2654,11 @@ Cannot choose any mundane weapons or armour.</description>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="88da-c4eb-339f-ef20" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a313-8e9a-47df-cefa" type="max"/>
           </constraints>
+          <rules>
+            <rule id="7330-8161-0414-d6f9" name="Hell Banner" hidden="false">
+              <description>All models in the unit cause terror. Remember that all models in this unit will cause fear in fear-causing models.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="fd92-5151-e9c1-9410" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -2405,6 +2671,11 @@ Cannot choose any mundane weapons or armour.</description>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fd8b-8bfc-d05e-f0c0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0db-1e0d-423c-6d5a" type="max"/>
           </constraints>
+          <rules>
+            <rule id="3619-990b-e1d8-f3ca" name="Banner of Doom" hidden="false">
+              <description>The unit has a 5+ Ward save against normal and magical missiles.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="67ab-d24e-9d0a-73d1" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -2417,6 +2688,11 @@ Cannot choose any mundane weapons or armour.</description>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4ef5-210a-64d9-8c68" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e025-4ddd-00e7-3622" type="max"/>
           </constraints>
+          <rules>
+            <rule id="66ad-8083-869f-595e" name="Banner of the Barrows" hidden="false">
+              <description>All Wights (Grave Guard, Black Knights and Wight Lords) in the unit carrying the Banner will hit the enemy on a 3+, regardless of relative Weapon Skills or any other modifier.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="f870-dde0-7323-5ca1" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -2429,6 +2705,13 @@ Cannot choose any mundane weapons or armour.</description>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d051-54bf-66b5-30c8" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a6d-013d-4c58-387c" type="max"/>
           </constraints>
+          <rules>
+            <rule id="be7b-e77e-f828-5329" name="Screaming Banner" hidden="false">
+              <description>Even the bravest warriors tremble at the thought of fighting the unit carrying this terrifying banner.
+
+Enemy units taking a Fear test caused by the unit carrying this Banner must roll one extra dice for their test and discard the one with the lowest result.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="ab97-3cc3-b925-faa5" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -2441,6 +2724,11 @@ Cannot choose any mundane weapons or armour.</description>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="87d8-52b9-d65c-98c2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1106-5bf5-c2d4-378a" type="max"/>
           </constraints>
+          <rules>
+            <rule id="305a-959e-af19-8861" name="Banner of the Dead Legion" hidden="false">
+              <description>Treat the unit carrying the Banner as if it had 1D6 higher Unit Strength than it actually does. Roll each time you need to calculate the Unit Strength. The result applies only for that phase (Movement, Magic, etc) and you will have to roll again in other phases when needed.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="e2b7-7e2e-fb30-54fc" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -2477,6 +2765,11 @@ Cannot choose any mundane weapons or armour.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc61-08ef-1119-ed96" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="57cb-e398-e736-307b" type="max"/>
           </constraints>
+          <rules>
+            <rule id="5752-5ee1-5af4-cdfd" name="Frostblade" hidden="false">
+              <description>Armour saving throws are not allowed against the Frostblade. Ward saves can be taken as normal. For every unsaved wound caused by this sword, the victim must take a Toughness test to resist its magic. If he fails, he is killed outright (remember that a 6 is always a failure). If the victim passes the test then he suffers damage from the blow as normal.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="f3b6-2ea2-5455-3563" name="Magic Weapon" hidden="false" targetId="e6e5-cff5-9987-d563" primary="false"/>
           </categoryLinks>
@@ -2496,6 +2789,11 @@ Cannot choose any mundane weapons or armour.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f410-a431-9ee8-f278" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f37e-4c8f-23a8-4b9e" type="max"/>
           </constraints>
+          <rules>
+            <rule id="1d38-3a66-496d-61ff" name="Blood Drinker" hidden="false">
+              <description>Vampires only. For every model killed in close combat the wearer immediately regenerates one lost Wound. This cannot take the character&apos;s Wounds characteristic above its initial value.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="f83f-26b5-bc8f-4666" name="Magic Weapon" hidden="false" targetId="e6e5-cff5-9987-d563" primary="false"/>
           </categoryLinks>
@@ -2527,6 +2825,11 @@ Cannot choose any mundane weapons or armour.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8068-0e1f-bc33-9142" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d94e-3599-10d7-451d" type="max"/>
           </constraints>
+          <rules>
+            <rule id="ef84-ead4-1732-0b3c" name="Black Axe of Krell" hidden="false">
+              <description>Can&apos;t be chosen by Necrarch or Lahmian Vampires. The Black Axe of Krell is a Great Weapon and follows all the rules for normal Great Weapons. Also, any model which suffers 1 or more wounds from the Black Axe must roll a D6 at the start of both its own and its enemy&apos;s Magic phases for the rest of the game. On a roll of 1 or 2 it suffers 1 more wound with no armour save allowed (a Ward save can be taken as normal).</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="ca25-7c3e-88e3-cd94" name="Magic Weapon" hidden="false" targetId="e6e5-cff5-9987-d563" primary="false"/>
           </categoryLinks>
@@ -2539,6 +2842,13 @@ Cannot choose any mundane weapons or armour.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1b7-39c4-7652-3319" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0d98-1770-bbb2-198c" type="max"/>
           </constraints>
+          <rules>
+            <rule id="691c-aa7f-3fc1-9cd0" name="Sword of Unholy Power" hidden="false">
+              <description>The Sword of Unholy Power brims with magical power which may be drawn upon by a disciple of the black arts.
+
+For each unsaved wound caused by the blade the player may immediately get a magic dice. This dice is added to his pile of Power or Dispel dice in the following Magic phase, (depending on whether it is his own turn or his enemy&apos;s).</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="696c-8090-ead4-cc0e" name="Magic Weapon" hidden="false" targetId="e6e5-cff5-9987-d563" primary="false"/>
           </categoryLinks>
@@ -2551,6 +2861,11 @@ Cannot choose any mundane weapons or armour.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8eeb-ecca-57de-0c18" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2848-8fb2-44d0-601c" type="max"/>
           </constraints>
+          <rules>
+            <rule id="99dc-edf6-a067-25d9" name="Tomb Blade" hidden="false">
+              <description>The full powers of this sword can be used only when the bearer has joined a unit of Skeletons or Zombies, otherwise it is treated as a magic weapon with no particular power. If the wielder slays a model with only 1 Wound on its starting profile with the Tomb Blade, then one Skeleton or Zombie is created in its place. Models created by the Tomb Blade are added to the unit which the bearer is in, armed exactly like the other rank-and-file models in the unit. The Victory points value of the unit is unaffected.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="db33-5998-fa84-56cb" name="Magic Weapon" hidden="false" targetId="e6e5-cff5-9987-d563" primary="false"/>
           </categoryLinks>
@@ -2575,6 +2890,11 @@ Cannot choose any mundane weapons or armour.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab73-7695-e089-464d" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="696e-37de-2d33-5c3d" type="max"/>
           </constraints>
+          <rules>
+            <rule id="1c18-2f1c-6c45-fe12" name="Asp Bow" hidden="false">
+              <description>Lahmian Vampires only. Range 24&quot;. The bearer can pick any target it can see (including a character/Champion in a unit, a war machine&apos;s crew, a chariot/monster rider etc), but if he uses this special ability he suffers a -1 to hit. Note that the normal -1 modifier for shooting at a single model does not apply (but other to hit modifiers do apply) and a character/Champion cannot benefit from the &quot;Look Out, Sir!&quot; rule. Hits are resolved at Strength 4 and count as Poisoned Attacks.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="8a15-b33d-da03-6ca8" name="Magic Weapon" hidden="false" targetId="e6e5-cff5-9987-d563" primary="false"/>
           </categoryLinks>
@@ -2594,6 +2914,11 @@ Cannot choose any mundane weapons or armour.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b08e-b5fa-52a8-3cb8" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8d54-4b7e-2d57-c44d" type="max"/>
           </constraints>
+          <rules>
+            <rule id="9392-5ec9-6114-4165" name="Sword of the Kings" hidden="false">
+              <description>Wight Lords only. This sword scores a Killing Blow on the result of a 5+.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="33d1-f496-8939-c1c6" name="Magic Weapon" hidden="false" targetId="e6e5-cff5-9987-d563" primary="false"/>
           </categoryLinks>
@@ -2675,6 +3000,11 @@ Cannot choose any mundane weapons or armour.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33c9-44f1-affd-f000" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3d4d-8910-791e-3158" type="max"/>
               </constraints>
+              <rules>
+                <rule id="10ec-6879-0cc1-c2d9" name="Wailing Helm" hidden="false">
+                  <description>Gives a 6+ armour save and may be worn in addition to normal armour. The wearer also causes terror.</description>
+                </rule>
+              </rules>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="50.0"/>
               </costs>
@@ -2707,6 +3037,13 @@ Cannot choose any mundane weapons or armour.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17cc-34a2-fdd6-cd43" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9333-4f24-893e-023a" type="max"/>
               </constraints>
+              <rules>
+                <rule id="d6cf-fb69-c362-3356" name="The Flayed Hauberk" hidden="false">
+                  <description>The design and dark red colour of this armour make the wearer disturbingly similar to a walking flayed body.
+
+Can&apos;t be chosen by Necrarch or Lahmian Vampires. 1+ armour save. This cannot be improved by any means.</description>
+                </rule>
+              </rules>
               <categoryLinks>
                 <categoryLink id="5601-3284-92b5-2151" name="Magic Armour" hidden="false" targetId="2963-aff1-28ca-7634" primary="false"/>
               </categoryLinks>
@@ -2719,6 +3056,11 @@ Cannot choose any mundane weapons or armour.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c32-9294-5151-a85b" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7763-b58b-7061-d153" type="max"/>
               </constraints>
+              <rules>
+                <rule id="7670-a388-70cb-e49c" name="Armour of Bone" hidden="false">
+                  <description>Gives a 5+ armour save and may be combined with other equipment. A Wizard can wear this armour without losing his ability to cast spells. When the wearer fails his first armour save (or if he&apos;s wounded by an attack against which he cannot take an armour save at all), the armour crumbles to dust and is destroyed, but the wound is ignored.</description>
+                </rule>
+              </rules>
               <categoryLinks>
                 <categoryLink id="5a1f-285d-1482-372e" name="Magic Armour" hidden="false" targetId="2963-aff1-28ca-7634" primary="false"/>
               </categoryLinks>
@@ -2837,6 +3179,11 @@ Cannot choose any mundane weapons or armour.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d1ce-b231-e6d0-e9a8" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ad73-3cd5-3555-1314" type="max"/>
               </constraints>
+              <rules>
+                <rule id="6c85-c7db-4412-9f5c" name="Black Periapt" hidden="false">
+                  <description>The Periapt allows the bearer to save one unused Power dice or Dispel dice at the end of any Magic phase and store it, to add it to his side&apos;s dice pool in the next Magic phase.</description>
+                </rule>
+              </rules>
               <categoryLinks>
                 <categoryLink id="a633-3604-b936-e3b4" name="Arcane Item" hidden="false" targetId="7cfd-b676-48e1-6eec" primary="false"/>
               </categoryLinks>
@@ -2861,6 +3208,13 @@ Cannot choose any mundane weapons or armour.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d2f9-c752-4628-779f" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4146-5ef9-2710-9526" type="max"/>
               </constraints>
+              <rules>
+                <rule id="a77c-cc5b-ec49-2355" name="Power Familiar" hidden="false">
+                  <description>A Power Familiar attracts raw magic power to its owner.
+
+Can&apos;t be chosen by Blood Dragon Vampires. The Familiar adds one dice to both the Power dice and the Dispel dice pool of the bearer&apos;s side.</description>
+                </rule>
+              </rules>
               <categoryLinks>
                 <categoryLink id="2355-701c-c9cc-4bd4" name="Arcane Item" hidden="false" targetId="7cfd-b676-48e1-6eec" primary="false"/>
               </categoryLinks>
@@ -2873,6 +3227,13 @@ Cannot choose any mundane weapons or armour.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8137-024f-578b-6367" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6dd7-51da-2815-ab7a" type="max"/>
               </constraints>
+              <rules>
+                <rule id="7289-7452-ad9b-1e1c" name="Skull Staff" hidden="false">
+                  <description>At the beginning of the bearer&apos;s Magic phase, the enemy must reveal all magic items carried by each one of his models within 12&quot; of the Skull Staff&apos;s bearer.
+
+In addition, thanks to the wise advice of the skull, after the bearer has rolled on the Miscast Table, he can choose to re-roll the dice. The second result applies.</description>
+                </rule>
+              </rules>
               <categoryLinks>
                 <categoryLink id="b7bd-7188-ca37-62a5" name="Arcane Item" hidden="false" targetId="7cfd-b676-48e1-6eec" primary="false"/>
               </categoryLinks>
@@ -2897,6 +3258,13 @@ Cannot choose any mundane weapons or armour.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5b2b-df63-d01f-53ac" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="42a4-7e79-3f2e-df28" type="max"/>
               </constraints>
+              <rules>
+                <rule id="c137-fec5-ce77-f0e8" name="Spell Familiar" hidden="false">
+                  <description>A Spell Familiar memories a spell on its master&apos;s behalf, offering its master a better choice of deadly spells to unleash in battle.
+
+Can&apos;t be chosen by Blood Dragon Vampires. The Familiar&apos;s owner knows one more spell than he is normally allowed. This does not increase his magic level.</description>
+                </rule>
+              </rules>
               <categoryLinks>
                 <categoryLink id="6e31-de24-df64-302f" name="Arcane Item" hidden="false" targetId="7cfd-b676-48e1-6eec" primary="false"/>
               </categoryLinks>
@@ -2909,6 +3277,13 @@ Cannot choose any mundane weapons or armour.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bd9b-55c5-424c-37bc" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="62dd-65dc-d713-9fdb" type="max"/>
               </constraints>
+              <rules>
+                <rule id="d728-5f50-dd42-c5f9" name="Staff of Damnation" hidden="false">
+                  <description>The Staff of Damnation contains a powerful spell that fills the Undead with renewed vigour.
+
+Bound Spell, Power Level 4. The bearer can release the powers of the staff once in each of his Magic phases. All Undead units within 12&quot; are affected by the Hellish Vigour spel.. Roll a D6 each time the Staff is used. On a roll of 1, the Staff is temporarily exhausted and can&apos;t be used again that battle.</description>
+                </rule>
+              </rules>
               <categoryLinks>
                 <categoryLink id="34cc-27c6-f66b-e434" name="Arcane Item" hidden="false" targetId="7cfd-b676-48e1-6eec" primary="false"/>
               </categoryLinks>
@@ -2933,6 +3308,11 @@ Cannot choose any mundane weapons or armour.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9e9b-264c-cce1-204f" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="50cd-27bb-f890-cbbb" type="max"/>
               </constraints>
+              <rules>
+                <rule id="a723-822b-6faa-11e3" name="Warrior Familiar" hidden="false">
+                  <description>Can&apos;t be chosen by Blood Dragon Vampires. At the beginning of the Close Combat phase, before blows are struck, the Familiar inflicts one Strength 5 hit on a single model chosen by the Wizard from among those in base contact with him.</description>
+                </rule>
+              </rules>
               <categoryLinks>
                 <categoryLink id="5f6c-335f-1507-3e48" name="Arcane Item" hidden="false" targetId="7cfd-b676-48e1-6eec" primary="false"/>
               </categoryLinks>
@@ -2957,6 +3337,13 @@ Cannot choose any mundane weapons or armour.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="35f4-403d-48c4-ef58" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b00c-347d-6d6f-6934" type="max"/>
               </constraints>
+              <rules>
+                <rule id="d35c-5aef-a886-7533" name="Book of Arkhan" hidden="false">
+                  <description>Bound Spell, Power Level 3. The bearer can release the Vanhel&apos;s Danse Macabre spell contained in the Book once per Magic phase like an ordinary spell. No power is necessary to cast the spell as the Book provides all the power required.
+
+Roll a D6 each time the Book is used. On a result of 1 its powers are temporarily exhausted and the Book cannot be used again that battle.</description>
+                </rule>
+              </rules>
               <categoryLinks>
                 <categoryLink id="5a53-88f6-cc8b-a0e4" name="Arcane Item" hidden="false" targetId="7cfd-b676-48e1-6eec" primary="false"/>
               </categoryLinks>
@@ -2992,6 +3379,15 @@ Cannot choose any mundane weapons or armour.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe8e-ddf2-088e-6545" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a886-336e-f324-1d67" type="max"/>
           </constraints>
+          <rules>
+            <rule id="2132-b609-733c-4f38" name="Rod of Flaming Death" hidden="false">
+              <description>The Rod contains a sinister spell of destruction which takes the shape of a flaming skull that hurtles against the enemy with a loud and terrifying scream.
+
+Bound Spell, Power Level 4. The bearer can cast the Rod&apos;s spell once in his Magic phase. The spell requires no Power dice to cast.
+
+A flaming magic missile with a range of 24&quot; and causing D3 Strength 4 hits spews from the staff. A unit taking at least one casualty must take a Panic test.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="b05f-349e-a3e5-3871" name="Enchanted Item" hidden="false" targetId="d8eb-f296-d241-3c6d" primary="false"/>
           </categoryLinks>
@@ -3004,6 +3400,11 @@ Cannot choose any mundane weapons or armour.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6db2-148b-7e59-ce56" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c766-da43-f857-cf2a" type="max"/>
           </constraints>
+          <rules>
+            <rule id="edd2-be15-68fa-99eb" name="Cursed Book" hidden="false">
+              <description>All enemy models within 6&quot; of the Book&apos;s bearer suffer a -1 penalty on their rolls to hit in close combat.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="06a4-892e-7eff-f8ff" name="Enchanted Item" hidden="false" targetId="d8eb-f296-d241-3c6d" primary="false"/>
           </categoryLinks>
@@ -3011,11 +3412,16 @@ Cannot choose any mundane weapons or armour.</description>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="50.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="57db-04f1-6213-a252" name="Cloak of Mists and Shadows" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="57db-04f1-6213-a252" name="Cloak of Mist and Shadows" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4c5-6b2e-48fe-06c3" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8a5c-a04b-a096-1a5f" type="max"/>
           </constraints>
+          <rules>
+            <rule id="7eab-ad7d-69d7-735b" name="Cloak of Mist and Shadows" hidden="false">
+              <description>This item can be used only by models on foot. The wearer is Ethereal for the entire game. He may cast spells in this form, but cannot use missile weapons nor strike blows in close combat, except against other Ethereal creatures.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="1fc7-dd83-8e9f-7b1d" name="Enchanted Item" hidden="false" targetId="d8eb-f296-d241-3c6d" primary="false"/>
           </categoryLinks>
@@ -3028,6 +3434,13 @@ Cannot choose any mundane weapons or armour.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e732-a292-d5ae-de81" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="74d4-6778-3aa8-f955" type="max"/>
           </constraints>
+          <rules>
+            <rule id="4839-aeed-51be-30e0" name="Talon of Death" hidden="false">
+              <description>All enemy models in base contact with the bearer of the Talon of Death automatically suffer 1 Strength 5 hit at the end of each of the bearer&apos;s Movement phases.
+
+If a character riding a monster/chariot is touching the bearer then both rider and the mount/chariot suffer 1 Strength 5 hit.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="a473-fa27-6dcc-45e2" name="Enchanted Item" hidden="false" targetId="d8eb-f296-d241-3c6d" primary="false"/>
           </categoryLinks>
@@ -3040,6 +3453,13 @@ Cannot choose any mundane weapons or armour.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd03-e552-6f38-8d66" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9b4f-64a8-57da-9192" type="max"/>
           </constraints>
+          <rules>
+            <rule id="5b35-65a4-9407-7b7a" name="Casket of Ages" hidden="false">
+              <description>Bound Spell, Power Level 3. One use only. The Casket may cast its spell once during the battle. The spell requires no Power dice to cast; all the power required is provided by the Casket itself.
+
+When the Casket&apos;s spell is cast, a model in base contact with the bearer (chosen by the bearer) suffers one wound. No armour save is allowed. If the wound is not saved, the victim must also take a Toughness test or die immediately, with no saves allowed whatsoever, not even Ward saves.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="e1bc-829f-28a0-eb04" name="Enchanted Item" hidden="false" targetId="d8eb-f296-d241-3c6d" primary="false"/>
           </categoryLinks>
@@ -3078,6 +3498,11 @@ Cannot choose any mundane weapons or armour.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4698-2e9a-23f1-6b9d" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5644-f777-836e-0d23" type="max"/>
           </constraints>
+          <rules>
+            <rule id="1e84-6165-7fef-dda2" name="The Carstein Ring" hidden="false">
+              <description>Von Carstein Vampires only. The model has a 4+ Ward save and the Regeneration special rule.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="7803-4b70-1bca-3973" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
           </categoryLinks>
@@ -3090,6 +3515,11 @@ Cannot choose any mundane weapons or armour.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64e8-f6e4-5023-d157" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a922-ee03-e37e-4cb3" type="max"/>
           </constraints>
+          <rules>
+            <rule id="6f8f-c3fd-54c2-2d88" name="Obsidian Amulet" hidden="false">
+              <description>The bearer has a 4+ Ward save against wounds caused by magic weapons, spells or indeed any form of magical attack. In addition, the ring confers Magic Resistance (1).</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="f56f-8eb5-67a3-32c5" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
           </categoryLinks>
@@ -3102,6 +3532,11 @@ Cannot choose any mundane weapons or armour.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96c6-4422-577a-2430" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e691-8b8c-58ec-8a5a" type="max"/>
           </constraints>
+          <rules>
+            <rule id="37d1-1984-a139-be28" name="Crown of the Damned" hidden="false">
+              <description>4+ Ward save. The wearer is subject to stupidity (even if the model is normally Immune to Psychology).</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="71c3-7b58-c6c7-20fd" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
           </categoryLinks>
@@ -3114,6 +3549,11 @@ Cannot choose any mundane weapons or armour.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed6c-c65f-43d1-003e" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ca9b-6812-bce4-e946" type="max"/>
           </constraints>
+          <rules>
+            <rule id="4570-ed23-0196-92ed" name="Wristbands of Black Gold" hidden="false">
+              <description>3+ Ward save against missile fire of any kind (including hits from war machines, template attacks, magic missiles, etc).</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="30c7-1680-15db-203a" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
           </categoryLinks>
@@ -3126,6 +3566,11 @@ Cannot choose any mundane weapons or armour.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44eb-4aae-761e-4f81" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6403-b502-9674-daad" type="max"/>
           </constraints>
+          <rules>
+            <rule id="7023-52d8-2779-65b2" name="Ring of the Night" hidden="false">
+              <description>5+ Ward save.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="dd9b-dd88-01b2-4290" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
           </categoryLinks>
@@ -3138,6 +3583,11 @@ Cannot choose any mundane weapons or armour.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bc8-5a06-e56b-833e" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d53f-005d-0134-855b" type="max"/>
           </constraints>
+          <rules>
+            <rule id="4693-0805-29a3-b340" name="The Gem of Blood" hidden="false">
+              <description>One use only. When the wearer suffers its first wound in close combat, the gem is activated. Roll a dice. On a result of 2+, the wound is saved and rebounded on the model who caused it, with no armour saves allowed. On a result of 1, the wound is not saved and the bearer suffers 1 additional wound, with no amour saves allowed.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="d2d4-69e0-9c04-6d89" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
           </categoryLinks>
@@ -3152,10 +3602,19 @@ Cannot choose any mundane weapons or armour.</description>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="ac02-2058-4acf-910f" name="Ethereal" hidden="false"/>
-    <rule id="b63b-1940-a3dc-2035" name="Wight Blades" hidden="false"/>
-    <rule id="5855-96df-81d6-05b0" name="Alive!" hidden="false"/>
-    <rule id="91aa-4512-eebd-a48c" name="Ethereal Steeds" hidden="false"/>
+    <rule id="ac02-2058-4acf-910f" name="Ethereal" hidden="false">
+      <description>Ethereal beings are insubstantial creatures which can move through solid objects. They therefore suffer no movement penalties for moving over difficult terrain or obstacles, or from other reductions to movement (such as the Anvil of Doom&apos;s Rune of Water or the Pit of Shades spell). They can move through buildings just as easily, but not through other units. They cannot, however, end their movement inside impassable terrain nor see through anything that would block the line of sight of normal units. Ethereal creatures block line of sight normally (the enemy cannot see through them).
+
+Because they are insubstantial, they can&apos;t be harmed in combat except by attacks from magical weapons, Daemons or other Ethereal creatures, though they can be affected by spells as normal. Ethereal creatures can still be beaten in close combat and suffer extra wounds as a consequence because combat results are not wholly dependent upon casualties.
+
+Note that if a Wraith rides a Nightmare, then the Nightmare will also be Ethereal.</description>
+    </rule>
+    <rule id="b63b-1940-a3dc-2035" name="Wight Blades" hidden="false">
+      <description>Wights are armed with evilly enchanted weapons. Any normal weapon carried by a Wight counts as a magic weapon (but all the normal rules for that weapon still apply). The weapon also has the Killing Blow special rule. Note that this rule does not apply to any magic weapon that a Wight Lord buys from the magic items list.</description>
+    </rule>
+    <rule id="5855-96df-81d6-05b0" name="Alive!" hidden="false">
+      <description>These models are not Undead and follow the normal rules for Psychology, Break tests, etc.</description>
+    </rule>
   </sharedRules>
   <sharedInfoGroups>
     <infoGroup id="5b4f-43ba-65c7-9bd2" name="Undead" hidden="false">

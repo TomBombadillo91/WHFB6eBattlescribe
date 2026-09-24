@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="3f17-868d-fac0-4c8d" name="First Among Equals" hidden="false">
       <constraints>
@@ -78,6 +78,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2650-0a19-13ca-f24c" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="bd12-5d38-5a97-9280" name="Longbow" hidden="false" targetId="c45c-2383-8be2-1152" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="15.0"/>
           </costs>
@@ -137,16 +140,25 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="6577-e641-d8de-3ea3" name="Lance" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="ddba-7a28-3303-a3be" name="Lance" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e80e-8b9d-d28b-30de" name="Halberd" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="c8df-13f5-4954-9258" name="Halberd" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9a4a-4776-d877-25c9" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="3534-42c1-85dd-6482" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -277,6 +289,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa77-c45b-ae2e-58f9" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="fc9a-35be-83ef-3846" name="Longbow" hidden="false" targetId="c45c-2383-8be2-1152" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
           </costs>
@@ -343,16 +358,25 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="4610-a17a-c1f6-1d68" name="Lance" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="d92e-e14b-989a-5e84" name="Lance" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0648-9578-316e-20fe" name="Halberd" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="f154-4336-ec82-ede2" name="Halberd" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5ea7-42e7-1904-8902" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="8cc4-7e4f-5f92-6b91" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -452,6 +476,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e174-5212-bcfd-8970" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="193c-75c1-241f-f5cf" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="2643-df61-afe9-4fe3" name="Longbows" hidden="false" targetId="c45c-2383-8be2-1152" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -464,6 +491,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4b6-12c8-ad38-c3a6" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="1b47-a901-1e2a-ffeb" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -528,6 +558,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="facb-0d1c-2095-e747" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc72-acd8-cca4-b2e9" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="f5a6-b57b-158c-ba41" name="Hand Weapons" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -590,6 +623,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba2b-9c33-e238-bd2d" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="aa2c-623d-2137-fe81" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -658,6 +694,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86a3-e496-4ffb-ff20" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="910f-8f58-68ca-6884" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="8af9-6342-2167-3de8" name="Hand Weapons" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -690,6 +729,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecd6-601d-cdf5-cdac" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="235c-78e4-e893-f135" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="98c7-24db-d8ef-070e" name="Bows" hidden="false" targetId="1648-091e-ca90-e56d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -735,6 +777,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7051-4307-b70b-70fc" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="01c5-bd96-5c03-162a" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="7.0"/>
               </costs>
@@ -797,6 +842,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a103-99f6-61c4-02cb" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f1d-c7a4-ca2f-33d1" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="3e6c-8e83-38e6-3fd9" name="Hand Weapons" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -851,6 +899,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecfa-dc99-0096-547a" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7599-7507-57dc-917f" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="ed4e-391d-ab29-cc3b" name="Lances" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -863,6 +914,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2425-49f7-a161-c58f" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="7d3e-d77f-7492-63cc" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="7.0"/>
               </costs>
@@ -960,6 +1014,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41a2-984e-c7a4-07cf" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d10c-4970-1da2-9805" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="befe-ba5c-38b0-e422" name="Hand Weapons" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -978,7 +1035,7 @@
                 <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
                 <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
                 <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
-                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2</characteristic>
                 <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
               </characteristics>
             </profile>
@@ -1007,6 +1064,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c46f-49f8-053b-8790" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="53d1-3c84-b3ab-ee83" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="7.0"/>
               </costs>
@@ -1033,7 +1093,7 @@
                     <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
                     <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
                     <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
-                    <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+                    <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2</characteristic>
                     <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
                   </characteristics>
                 </profile>
@@ -1084,6 +1144,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f05-b44a-bf54-48cf" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="d1e5-7503-7259-5e88" name="Bows" hidden="false" targetId="1648-091e-ca90-e56d" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -1111,6 +1174,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a557-e12a-0dd3-ec74" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="021f-d3d5-b486-52f5" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="dcfe-aa58-5290-7f1b" name="Lances" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1151,7 +1217,11 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2940-81d8-9467-47f6" type="max"/>
           </constraints>
           <rules>
-            <rule id="af84-32d4-1c4c-e1f5" name="Dragon Armour" hidden="false"/>
+            <rule id="af84-32d4-1c4c-e1f5" name="Dragon Armour" hidden="false">
+              <description>Forged in the heart of a volcano, this fine armour is enchanted to ward off the effects of Dragon breath.
+
+The model is immune to all breath attacks, and any fire-based attack (including spells from the Lore of Fire). Dragon armour also counts as heavy armour, giving a 5+ armour save.</description>
+            </rule>
           </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
@@ -1162,6 +1232,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a675-8314-5863-568e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4c4-11d8-4f53-f069" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="2afc-eb87-97a3-4196" name="Hand Weapons" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1183,6 +1256,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fac-f320-15b7-6524" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="a693-6ccc-e27f-fa19" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="9.0"/>
               </costs>
@@ -1262,6 +1338,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41c6-2377-b88f-3a01" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51c8-c181-9848-fc99" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="1b47-2d33-3ba4-00c4" name="Great Weapons" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1303,6 +1382,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2390-7cf1-9a79-40ca" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ad6-5ce1-018f-0391" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="4220-c441-b0b2-4c0c" name="Hand Weapons" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1315,6 +1397,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec96-ff05-9b23-bdd8" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="b35a-325b-a639-5a51" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -1397,6 +1482,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d9c-ce93-812e-015e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c4b-f0f5-8adf-e9aa" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="e977-7c43-a28f-c12c" name="Longbows" hidden="false" targetId="c45c-2383-8be2-1152" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1439,6 +1527,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd12-c4f8-dd30-b727" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea7e-fa3a-8f12-a2ea" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="fd30-b72d-e1b1-8229" name="Hand Weapons" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1509,6 +1600,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="470e-359d-d826-cf6a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f05b-aae0-43c0-4b71" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="9e8e-12bb-5839-df35" name="Halberds" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1550,6 +1644,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a41-7a8d-17eb-e0e6" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2a3-7560-efaa-2339" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="aa62-c5e0-2346-a80e" name="Hand Weapons" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1562,6 +1659,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="677f-f6e7-9315-aa38" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="fa1f-3f48-92d5-2b37" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="7.0"/>
               </costs>
@@ -1579,7 +1679,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5526-9d64-9aa1-860f" type="max"/>
               </constraints>
               <profiles>
-                <profile id="4ad4-d7fa-49de-c652" name="Bladelord" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+                <profile id="4ad4-d7fa-49de-c652" name="Keeper of the Flame" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
                   <characteristics>
                     <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
                     <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
@@ -1630,9 +1730,7 @@
         <rule id="1d83-79b5-8644-6f8f" name="Repeater Bolt Throwers" hidden="false">
           <description>A Repeater Bolt Thrower is a war machine and all the rules governing war machines apply. Repeater Bolt Throwers may either shoot a single bolt or they may fire multiple shots.
 
-If using the multiple shots option then the Repeater Bolt Thrower shoots six bolts in each Shooting phase. These shots are worked out exactly like shots from bows or crossbows, using the Ballistic Skill of the crew to determine whether the bolts hit or not. All bolts must be directed towards a single target. Multiple shots have a Range of 48&quot;, a Strength of 4, with armour saves suffering a -2 penalty.
-
-Note that Repeater Bolt Throwers do not suffer -1 to hit for fiing multiple shots.</description>
+If using the multiple shots option then the Repeater Bolt Thrower shoots six bolts in each Shooting phase. These shots are worked out exactly like shots from bows or crossbows, using the Ballistic Skill of the crew to determine whether the bolts hit or not. All bolts must be directed towards a single target. Multiple shots have a Range of 48&quot;, a Strength of 4, with armour saves suffering a -2 penalty.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -1673,7 +1771,11 @@ Note that Repeater Bolt Throwers do not suffer -1 to hit for fiing multiple shot
             </profile>
           </profiles>
           <rules>
-            <rule id="ef75-ab3e-8c6c-876d" name="Repeater Bolt Thrower" hidden="false"/>
+            <rule id="ef75-ab3e-8c6c-876d" name="Repeater Bolt Thrower" hidden="false">
+              <description>A Repeater Bolt Thrower is a war machine and all the rules governing war machines apply. Repeater Bolt Throwers may either shoot a single bolt or they may fire multiple shots.
+
+If using the multiple shots option then the Repeater Bolt Thrower shoots six bolts in each Shooting phase. These shots are worked out exactly like shots from bows or crossbows, using the Ballistic Skill of the crew to determine whether the bolts hit or not. All bolts must be directed towards a single target. Multiple shots have a Range of 48&quot;, a Strength of 4, with armour saves suffering a -2 penalty.</description>
+            </rule>
           </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="100.0"/>
@@ -1773,6 +1875,9 @@ Note that Repeater Bolt Throwers do not suffer -1 to hit for fiing multiple shot
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e43a-5830-a67d-3bd1" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e75b-af6d-9e54-ea06" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="17cb-e830-156e-f274" name="Hand Weapons" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1794,6 +1899,9 @@ Note that Repeater Bolt Throwers do not suffer -1 to hit for fiing multiple shot
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d9d-6c1d-e07c-08ab" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="6da4-0fd1-b388-b219" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="7.0"/>
               </costs>
@@ -1900,9 +2008,7 @@ Note that Repeater Bolt Throwers do not suffer -1 to hit for fiing multiple shot
       <description>When fighting against a Dark Elf army, all High Elves are immune to Panic.</description>
     </rule>
     <rule id="0122-3877-a6b3-7fe3" name="Intruige at Court" hidden="false">
-      <description>Though they are loyal to a fault, High Elves love intrigue and politics. Unfortunately, this sometimes means that their armies are trusted to the care of individuals on the basis of the political faction they follow rather than their ability to lead.
-
-The army&apos;s General is determined randomly. Before deployment, line up the character models and roll a dice. Count this number along the line - this is your General. If you roll over the number of characters in the army then the General is selected as normal instead. If you have six or more characters, choose five of them to line up, and then roll as above.</description>
+      <description>The army&apos;s General is determined randomly. Before deployment, line up the character models and roll a dice. Count this number along the line - this is your General. If you roll over the number of characters in the army then the General is selected as normal instead. If you have six or more characters, choose five of them to line up, and then roll as above.</description>
     </rule>
   </rules>
   <sharedSelectionEntries>
@@ -2186,7 +2292,9 @@ After each use, even if it was dispelled, roll a D6. On a roll of a 1 the power 
           </constraints>
           <rules>
             <rule id="8146-5367-05a7-351c" name="Ring of Corin" hidden="false">
-              <description>Bound Spell. Power level 4. The Ring of Corin may cast its Bound spell once per Magic phase like an ordinary spell. The spell requires no Power dice to cast, all the power required is provided by the ring itself.
+              <description>The origins of this spell are steeped in mystery, and no other artefacts of this powerful mage survive. However, few are the loremasters, wizards or warlocks that have not heard of it!
+
+Bound Spell. Power level 4. The Ring of Corin may cast its Bound spell once per Magic phase like an ordinary spell. The spell requires no Power dice to cast, all the power required is provided by the ring itself.
 
 The Ring of Corin contains the Vaul&apos;s Unmaking spell.</description>
             </rule>
@@ -2312,7 +2420,9 @@ The Ring of Corin contains the Vaul&apos;s Unmaking spell.</description>
               </constraints>
               <rules>
                 <rule id="46bc-03d2-b253-af71" name="Shadow Armour" hidden="false">
-                  <description>Counts as heavy armour (armour save 5+) which can be combined with other equipment normally. In addition, if the wearer is an independent character on foot then he is treated as having the Scout special rule. He may choose to deploy either at the same time as the other characters, or as a Scout (including setting up with a unit of Shadow Warriors).</description>
+                  <description>Forged by the bitter Shadow Warriors in their hidden camps, the shimmering Shadow Armour weighs almost nothing. It exists somewhere between the real world and that of magic, a fact which mages find quite alarming.
+
+Counts as heavy armour (armour save 5+) which can be combined with other equipment normally. In addition, if the wearer is an independent character on foot then he is treated as having the Scout special rule. He may choose to deploy either at the same time as the other characters, or as a Scout (including setting up with a unit of Shadow Warriors).</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -2355,7 +2465,9 @@ The Ring of Corin contains the Vaul&apos;s Unmaking spell.</description>
               </constraints>
               <rules>
                 <rule id="6e02-33be-a5e7-c158" name="Armour of the Gods" publicationId="2c29-8521-dcc7-5337" page="11" hidden="false">
-                  <description>The Armour of the Gods can only be worn by characters on foot, and can&apos;t be combined with other armour. It confers a 3+ Armour save. It also adds +1 to the wearer&apos;s Strength characteristic.</description>
+                  <description>This highly ornate armour is imbued with its own strength, which it grants to the wearer.
+
+The Armour of the Gods can only be worn by characters on foot, and can&apos;t be combined with other armour. It confers a 3+ Armour save. It also adds +1 to the wearer&apos;s Strength characteristic.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -2384,7 +2496,9 @@ The Ring of Corin contains the Vaul&apos;s Unmaking spell.</description>
               </constraints>
               <rules>
                 <rule id="49b5-be71-ff8d-0125" name="Armour of Stars" hidden="false">
-                  <description>May only be worn by a model on foot. Counts as light armour (armour save 6+) which can be combined with other equipment normally. If the wearer suffers an unsaved wound then one of the gems will burst into brilliant white light as he is instantly teleported 3D6&quot; in a random direction.
+                  <description>Decorated with hundreds of glittering gems on a background of deepest blue lacquer, the Armour of Stars is a wonder to behold.
+
+May only be worn by a model on foot. Counts as light armour (armour save 6+) which can be combined with other equipment normally. If the wearer suffers an unsaved wound then one of the gems will burst into brilliant white light as he is instantly teleported 3D6&quot; in a random direction.
 
 Note that this means that he can only suffer 1 unsaved wound in a round of close combat as he will be teleported away before the second can strike him. However, if he was struck by a Killing Blow or a weapon that does multiple wounds per hit (such as a cannon ball) then he would still suffer the instant death or multiplied wounds as normal before teleporting away.
 
@@ -2412,7 +2526,9 @@ If the model is teleported into another model or impassable terrain then simply 
               </constraints>
               <rules>
                 <rule id="bb6a-fac5-dd29-77af" name="Armour of Protection" hidden="false">
-                  <description>Counts as light armour (armour save 6+) which can be combined with other equipment normally. If the-wearer fails his armour save he may make a 4+ Ward save.</description>
+                  <description>This simple armour is adorned by a single Sarathai rune on the breastplate. The World Dragon itself is said to protect the wearer.
+
+Counts as light armour (armour save 6+) which can be combined with other equipment normally. If the-wearer fails his armour save he may make a 4+ Ward save.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -2429,8 +2545,10 @@ If the model is teleported into another model or impassable terrain then simply 
               </constraints>
               <rules>
                 <rule id="2df5-1fa3-3d0f-4133" name="Armour of Heroes" hidden="false">
-                  <description>Counts as heavy armour (armour save 5+) which can be combined with other equipment normally. In order to allocate close combat attacks against the wearer, an opponent must first pass a Leadership test. Test each Close Combat phase. If the test is failed, the enemy may attack another model in base contact instead. Models who are
-are immune to this effect also.</description>
+                  <description>This finely wrought suit of armour is made in an unusual style, not seen since the time before the Sundering. A character wearing this armour seems to shine with an inner light. Surely he is one of the ancient gods of battle!
+
+Counts as heavy armour (armour save 5+) which can be combined with other equipment normally. In order to allocate close combat attacks against the wearer, an opponent must first pass a Leadership test. Test each Close Combat phase. If the test is failed, the enemy may attack another model in base contact instead. Models who are 
+ are immune to this effect also.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -2816,7 +2934,7 @@ are immune to this effect also.</description>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="60.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b1da-c176-9bde-af73" name="Bow of the Searfarer" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b1da-c176-9bde-af73" name="Bow of the Seafarer" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -2829,7 +2947,7 @@ are immune to this effect also.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebc8-3eb0-7899-0abc" type="max"/>
           </constraints>
           <rules>
-            <rule id="675e-d0c1-2293-a7fe" name="Bow of the Searfarer" hidden="false">
+            <rule id="675e-d0c1-2293-a7fe" name="Bow of the Seafarer" hidden="false">
               <description>Treat the Bow of the Seafarer as a normal longbow with the following exception. Resolve a hit from this like a single bolt from a Bolt Thrower. Note that you may stand &amp; shoot with the Bow of the Seafarer.</description>
             </rule>
           </rules>
@@ -2875,7 +2993,9 @@ are immune to this effect also.</description>
           </constraints>
           <rules>
             <rule id="a548-1d87-f518-6dbd" name="Claw of Devastation" publicationId="2c29-8521-dcc7-5337" page="11" hidden="false">
-              <description>THe wielder may re-roll failed rolls to wound in close combat, and ignores Armour saves.</description>
+              <description>Shaped like a wickedly taloned claw, this magic weapon pulses with dark power, ripping apart armour and bone with equal ease.
+
+The wielder may re-roll failed rolls to wound in close combat, and ignores Armour saves.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -3125,7 +3245,9 @@ are immune to this effect also.</description>
               </constraints>
               <rules>
                 <rule id="b4c4-b252-fe0c-ec6b" name="Annulian Crystal" hidden="false">
-                  <description>During the enemy&apos;s Magic phase, the Crystal allows the High Elf player to remove one dice from the opponent&apos;s pile of Power dice and add it to his own Dispel dice pile.</description>
+                  <description>Dug from beneath the Annuli mountains, this crystal has been shaped by the magical vortex that swathes Albion, so that it draws magical energy towards it.
+
+During the enemy&apos;s Magic phase, the Crystal allows the High Elf player to remove one dice from the opponent&apos;s pile of Power dice and add it to his own Dispel dice pile.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -3221,16 +3343,20 @@ are immune to this effect also.</description>
               </costs>
             </selectionEntry>
             <selectionEntry id="bad1-10b0-b865-eb15" name="Power Stone" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="a53c-7232-1a9d-5c74" name="Power Stone" hidden="false" targetId="130f-0831-64a4-4e02" type="rule"/>
+              </infoLinks>
               <selectionEntries>
                 <selectionEntry id="c104-a378-49d9-57d3" name="Power Stone" publicationId="d9e7-add3-773e-ffab" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9f1-3140-6055-3962" type="min"/>
                   </constraints>
-                  <rules>
-                    <rule id="f3c3-b3ca-6200-f8be" name="Power Stone" hidden="false">
-                      <description>One use only. +2 dice to cast a spell.</description>
-                    </rule>
-                  </rules>
+              <infoLinks>
+                <infoLink id="bbc0-9181-d73e-9c10" name="Power Stone" hidden="false" targetId="130f-0831-64a4-4e02" type="rule"/>
+              </infoLinks>
+                  <infoLinks>
+                    <infoLink id="ef0f-fdfd-fd37-8701" name="Power Stone" hidden="false" targetId="130f-0831-64a4-4e02" type="rule"/>
+                  </infoLinks>
                   <categoryLinks>
                     <categoryLink id="1a97-2081-1301-7937" name="New CategoryLink" hidden="false" targetId="7cfd-b676-48e1-6eec" primary="true"/>
                     <categoryLink id="484a-51b4-661d-9104" name="Scroll" hidden="false" targetId="06f3-5988-1d55-db7c" primary="false"/>
@@ -3413,9 +3539,7 @@ are immune to this effect also.</description>
           </constraints>
           <rules>
             <rule id="43c0-2e7f-1661-6486" name="Pure of Heart" hidden="false">
-              <description>Though the Golden Age of the High Elves is a distant memory, then are still a few noble Elves those mere presence reminds those about them of the heroic past of their race. They embody all that is glorious about the Elves from before the tine of the Sundering and are a bittersweet reminder of former achievements.
-
-This Honour MUST be given to exactly one high Elf character. It costs no points.
+              <description>This Honour MUST be given to exactly one high Elf character. It costs no points.
 The character, and any unit he joins, is Immune to Panic. If the Pure of Heart character is killed, the High Elf player loses 100 Victory points from his total at the end of the battle. If the scenario does not use Victory points then the demise of the Pure of Heart character has no effect.</description>
             </rule>
           </rules>
@@ -3446,9 +3570,7 @@ The character, and any unit he joins, is Immune to Panic. If the Pure of Heart c
           </constraints>
           <rules>
             <rule id="b768-73d3-19fe-aec7" name="Loremaster" hidden="false">
-              <description>Sated by his training in the martial arts, this character has now embarked upon the path of the mage.
-
-The character is a Level 1 Wizard. Note that he may not cast spells if he is wearing armour (remember that barding for his steed will not affect his spell casting).</description>
+              <description>The character is a Level 1 Wizard. Note that he may not cast spells if he is wearing armour (remember that barding for his steed will not affect his spell casting).</description>
             </rule>
           </rules>
           <costs>
@@ -3461,9 +3583,7 @@ The character is a Level 1 Wizard. Note that he may not cast spells if he is wea
           </constraints>
           <rules>
             <rule id="5faa-256e-293e-db8d" name="Lion Guard" hidden="false">
-              <description>The hero is lauded amongst all Elvenkind for his total devotion to the protection of Ulthuan and his unswerving loyalty to the Phoenix King.
-
-The character comes equipped with a lion cloak. The character and any unit he leads is Stubborn. If you have a character with Lion Guard, then White Lions become a Special Choice for your army (but remain 0-1).</description>
+              <description>The character comes equipped with a lion cloak. The character and any unit he leads is Stubborn. If you have a character with Lion Guard, then White Lions become a Special Choice for your army (but remain 0-1).</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3480,9 +3600,7 @@ The character comes equipped with a lion cloak. The character and any unit he le
           </constraints>
           <rules>
             <rule id="7b20-bf15-f9d9-d0a5" name="Swordmaster" hidden="false">
-              <description>Trained by the adepts at the tower of Hoeth, the lethal skills of this warrior are justly fabled.
-
-The character is equipped with a great weapon and may not take a magic weapon. Instead of striking last in any turn he does not charge, the character will strike in Initiative order. The character also has the Killing Blow special rule.</description>
+              <description>The character is equipped with a great weapon and may not take a magic weapon. Instead of striking last in any turn he does not charge, the character will strike in Initiative order. The character also has the Killing Blow special rule.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3494,6 +3612,9 @@ The character is equipped with a great weapon and may not take a magic weapon. I
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc0f-c07c-14a7-155e" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="152a-11a1-d229-ee6d" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="52c6-3045-085e-2e33" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -3548,9 +3669,7 @@ Mage only. May choose his spells instead of rolling for them.</description>
           </constraints>
           <rules>
             <rule id="942a-00cb-b368-d6ff" name="Channeler" hidden="false">
-              <description>The mage acts as a conduit through which raw power flows.
-
-Mage only. May cast with a maximum of + 1 more Power dice than normal. For example, a Level 3 Mage may use up to five Power dice in an attempt to cast a spell (instead of the usual four).</description>
+              <description>Mage only. May cast with a maximum of + 1 more Power dice than normal. For example, a Level 3 Mage may use up to five Power dice in an attempt to cast a spell (instead of the usual four).</description>
             </rule>
           </rules>
           <costs>
@@ -3601,8 +3720,7 @@ Mage only. May cast with a maximum of + 1 more Power dice than normal. For examp
     <rule id="d572-b8fe-424a-4311" name="Dragon Armour" hidden="false">
       <description>Forged in the heart of a volcano, this fine armour is enchanted to ward off the effects of Dragon breath.
 
-The model is immune to all breath attacks, and any fire-band attack (including spells from the Lore of Fire). Dragon armour also counts as heavy armour, giving a 5+ armour save.
-</description>
+The model is immune to all breath attacks, and any fire-based attack (including spells from the Lore of Fire). Dragon armour also counts as heavy armour, giving a 5+ armour save.</description>
     </rule>
     <rule id="bdf5-319e-933e-4e77" name="Lion Cloak" hidden="false">
       <description>The white lion cloak that gives the White Lions of Chrace their name also gives them a +2 armour save versus missile fire. In close combat it is thrown cloak over the shoulder and offers no additional protection.</description>
@@ -3611,7 +3729,7 @@ The model is immune to all breath attacks, and any fire-band attack (including s
       <description>High Elf Mages get +1 to each attempt to dispel. Note that this bonus is not cumulative for having more than one High Elf Mage, so an army with two High Elf Mages will still only get +1 to dispel from this source. However, this bonus may still be combined with magic items as normal.</description>
     </rule>
     <rule id="eee4-1f3b-1339-bd99" name="Swordmaster" hidden="false">
-      <description>May use a Great weapon as deftly as a normal sword. Instead of striking last in any turn they don&apos;t charge, they strike in Initiative order. A Great weapon used by a Swordmaster will still strike blows with + 2 Strength.</description>
+      <description>The character is equipped with a great weapon and may not take a magic weapon. Instead of striking last in any turn he does not charge, the character will strike in Initiative order. The character also has the Killing Blow special rule.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b151-7d1c-4a96-e0d0" name="Dark Elves" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b151-7d1c-4a96-e0d0" name="Dark Elves" revision="17" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7b32-9394-e778-467c" name="Poison" hidden="false"/>
     <categoryEntry id="16df-2ebd-e4f7-9984" name="Artifacts and Skills" hidden="false"/>
@@ -53,11 +53,17 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="dc98-404a-c625-a346" name="Level 3" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="b61d-fd09-9208-b8b1" name="Level 3" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="741f-5cc9-4983-86f8" name="Level 4" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="8775-f375-e474-16ce" name="Level 4" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="40.0"/>
               </costs>
@@ -146,11 +152,17 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="6cc6-f4eb-869e-375e" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="9d47-a8a4-f71d-c755" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7b33-eea6-97a4-0636" name="Halberd" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="a120-c19a-238b-019f" name="Halberd" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -163,6 +175,9 @@
                   </conditions>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="4515-cbbf-191d-e980" name="Lance" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -287,11 +302,17 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="70aa-63a0-9fed-ef0a" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="a849-6bb5-41b9-e84b" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7900-82a4-b79a-0d04" name="Halberd" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="797a-5ee0-a500-5435" name="Halberd" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -304,6 +325,9 @@
                   </conditions>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="483f-7121-820e-b358" name="Lance" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -434,11 +458,17 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="abe0-8281-d8df-7530" name="Level 1" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="2008-74b6-f09b-98c3" name="Level 1" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="744f-95ac-3d48-0848" name="Level 2" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="c7ee-ad59-bd7a-111a" name="Level 2" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="40.0"/>
               </costs>
@@ -536,6 +566,9 @@
                   </conditions>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="89da-6aab-c0c3-f1e7" name="Lance" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -682,6 +715,9 @@ Hidden Assassins may be revealed at the beginning of any of your turns or at the
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d32e-8618-f3c6-ce20" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b2a-104b-9c9c-0400" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="e212-7e81-c502-1b18" name="Hand Weapons" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -728,6 +764,9 @@ Hidden Assassins may be revealed at the beginning of any of your turns or at the
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0165-9d17-6577-cdba" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="ef10-b908-66da-c264" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
               </costs>
@@ -836,7 +875,10 @@ Hidden Assassins may be revealed at the beginning of any of your turns or at the
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75a1-04b0-2e66-95e2" type="min"/>
           </constraints>
           <rules>
-            <rule id="3261-efac-8d3d-98e1" name="Sea Dragon Cloak" hidden="false"/>
+            <rule id="3261-efac-8d3d-98e1" name="Sea Dragon Cloak" hidden="false">
+              <description>The Corsairs of the Dark Elf fleet wear heavy cloaks fashioned from the scales of the mighty sea dragons which accompany the ships. The cloak can be drawn tightly around the body when being fired at, acting as shield against missile fire. A Sea Dragon cloak adds +1 to the model&apos;s save in close combat, and +2 against ranged attacks (including 
+spells, etc). It may be combined with other types of armour.</description>
+            </rule>
           </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
@@ -850,6 +892,9 @@ Hidden Assassins may be revealed at the beginning of any of your turns or at the
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da65-1688-da49-fba6" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="8c97-abca-60f4-5fd3" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
               </costs>
@@ -980,6 +1025,9 @@ Hidden Assassins may be revealed at the beginning of any of your turns or at the
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c8f-f302-f2f0-c5ef" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9a7-37a1-c7f3-c584" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="81dd-3329-670f-f1f2" name="Hand Weapons" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1010,6 +1058,9 @@ Hidden Assassins may be revealed at the beginning of any of your turns or at the
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a21a-5c72-3562-4a8b" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="d007-0db2-33e0-b0bf" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="7.0"/>
               </costs>
@@ -1149,6 +1200,9 @@ Hidden Assassins may be revealed at the beginning of any of your turns or at the
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cc9-cce3-bc8a-fe00" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="31e5-b6c0-346f-a013" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -1260,6 +1314,9 @@ Hidden Assassins may be revealed at the beginning of any of your turns or at the
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da95-3e40-7120-1b12" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1bb-9244-7092-e06a" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="949c-9dbf-a812-8ab2" name="Hand Weapons" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1269,6 +1326,9 @@ Hidden Assassins may be revealed at the beginning of any of your turns or at the
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="893d-f4c0-e91f-5c66" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2780-9026-cbdd-0082" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="abc8-89fb-e660-3cc9" name="Lances" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1304,6 +1364,9 @@ Hidden Assassins may be revealed at the beginning of any of your turns or at the
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a42a-a9eb-2f83-2bfd" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="1175-e155-2e83-c8e4" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="9.0"/>
               </costs>
@@ -1426,6 +1489,9 @@ Hidden Assassins may be revealed at the beginning of any of your turns or at the
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad5c-299d-8ad7-30c7" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="26b0-8e9a-d220-1b00" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -1532,7 +1598,7 @@ Hidden Assassins may be revealed at the beginning of any of your turns or at the
         <profile id="36ab-4346-f579-a096" name="Hag" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
             <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
-            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
             <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
             <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
             <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
@@ -1670,6 +1736,9 @@ In hand-to-hand combat the guardians are assembled in front of the Cauldron in t
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="804c-a971-5dca-9b0c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09ef-16d5-9af1-7cdd" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="1d6f-a3d3-6bf8-1716" name="Halberds" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1705,6 +1774,9 @@ In hand-to-hand combat the guardians are assembled in front of the Cauldron in t
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0850-86a0-c547-ce1f" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="b6d2-a7ba-ded6-b93f" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -2098,6 +2170,9 @@ You may choose the type of Veteran Hydra that joins your forces for this battle.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c622-8905-b988-9b6c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce90-fa3c-0b86-9571" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="e878-3728-e3ae-195a" name="Hand Weapons" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -2282,7 +2357,9 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
           </constraints>
           <rules>
             <rule id="37a8-b847-0cd2-8727" name="Armour of Midnight" hidden="false">
-              <description>The Armour of Midnight is a suit of heavy armour. In addition Malekith has a 2 + Ward save against any non-magical attacks (ie, not spells or magic items). Also, he will never suffer more than one wound from a single hit, so war machines, magic items and other attacks that cause multiple wounds only ever cause one wound at a time. The Armour of Midnight does not prevent Malekith from casting spells.</description>
+              <description>Forged from the hardest meteoric iron to be mined from the mountains of Naggardth, Malekith &apos;s armour is near impenetrable to mortal weapons.
+
+The Armour of Midnight is a suit of heavy armour. In addition Malekith has a 2 + Ward save against any non-magical attacks (ie, not spells or magic items). Also, he will never suffer more than one wound from a single hit, so war machines, magic items and other attacks that cause multiple wounds only ever cause one wound at a time. The Armour of Midnight does not prevent Malekith from casting spells.</description>
             </rule>
           </rules>
           <costs>
@@ -2453,13 +2530,10 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
         <rule id="e4b1-f2dd-7399-b852" name="Tz&apos;Arkan" hidden="false">
           <description>At the start of any Dark Elf turn, Malus may drink his soporific potion and unleash the power of the daemon that resides within him. If he does this, it has the following effects that last for the remainder of the battle:
 
-Malus is subject to frenzy and does not lose his frenzy even if beaten in combat.
-
-Malus adds + I WS, + IS, + 2T and + 21.
-
-He may re-roll any failed Leadership test he is required to take (for spells, Break tests, etc).
-
-If Malus is in base contact with a friendly model and not in contact with the enemy in any Close Combat phase (including your opponent&apos;s) roll a D6. On a roll of a 4+ he restrains his murderous rage. On a 3 or less he attacks one model in contact chosen by your opponent, resolved as if he was charging, The other model will strike back if it survives Malus&apos; attacks. No combat results are calculated and both models will act normally from the moment the attacks are finished.</description>
+- Malus is subject to frenzy and does not lose his frenzy even if beaten in combat.
+- Malus adds + I WS, + IS, + 2T and + 21.
+- He may re-roll any failed Leadership test he is required to take (for spells, Break tests, etc).
+- If Malus is in base contact with a friendly model and not in contact with the enemy in any Close Combat phase (including your opponent&apos;s) roll a D6. On a roll of a 4+ he restrains his murderous rage. On a 3 or less he attacks one model in contact chosen by your opponent, resolved as if he was charging, The other model will strike back if it survives Malus&apos; attacks. No combat results are calculated and both models will act normally from the moment the attacks are finished.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -2620,6 +2694,9 @@ If Malus is in base contact with a friendly model and not in contact with the en
           </constraints>
           <selectionEntries>
             <selectionEntry id="001c-9926-cc65-ef46" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="b5ec-3e51-6a51-e246" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -2630,11 +2707,17 @@ If Malus is in base contact with a friendly model and not in contact with the en
               </costs>
             </selectionEntry>
             <selectionEntry id="6aef-115e-0b48-536d" name="Flail" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="9d25-9450-a207-bd03" name="Flail" hidden="false" targetId="dad4-d7e5-09e8-3819" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="2.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="81c4-63bb-f208-0f2a" name="Halberd" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="f30f-f13e-1c04-9c32" name="Halberd" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -2873,6 +2956,9 @@ If Malus is in base contact with a friendly model and not in contact with the en
                   </repeats>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="519a-311a-1e54-de9f" name="Great Weapons" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -2885,6 +2971,9 @@ If Malus is in base contact with a friendly model and not in contact with the en
                   </repeats>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="af06-1283-c29a-66a7" name="Flails" hidden="false" targetId="dad4-d7e5-09e8-3819" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -2897,6 +2986,9 @@ If Malus is in base contact with a friendly model and not in contact with the en
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="613d-9798-a546-d5a8" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="1d87-3d56-dd0a-6b3a" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
               </costs>
@@ -2913,6 +3005,9 @@ If Malus is in base contact with a friendly model and not in contact with the en
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f3a-bce6-ba5e-a372" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="81dd-b3f8-219d-ff69" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
               </costs>
@@ -2934,8 +3029,7 @@ If Malus is in base contact with a friendly model and not in contact with the en
       </modifiers>
       <rules>
         <rule id="77b6-00dd-8fa1-f765" name="Swift Steed" hidden="false">
-          <description>Mounted Daemonettes count as Fast Cavalry. In addition, because of its preternatural dexterity, the mount always strikes first in close combat even agaisnt a charging enemy. If an opponent has the same ability, resolve the strikes in Initiative order - if these are the same, roll a D6 to see who strikes first.
-Note this ability applies only to the mount, not to the Daemonette rider.</description>
+          <description>&gt; In the Warhammer Chronicles 2004 Official Rules for Mounted Daemonettes, the Swift Steed rule listed the always strikes first rule instead of being listed under Tongue Attack.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2968,7 +3062,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
                 <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
               </characteristics>
             </profile>
-            <profile id="b51a-4178-c313-1f7b" name="Steed of Slaanesh" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+            <profile id="b51a-4178-c313-1f7b" name="Mount of Slaanesh" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
               <characteristics>
                 <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">10</characteristic>
                 <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
@@ -3065,6 +3159,9 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
                   </repeats>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="94d4-0786-911b-f777" name="Great Weapons" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -3089,6 +3186,9 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
                   </repeats>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="1187-09af-896b-e26d" name="Halberds" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -3101,6 +3201,9 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="430e-399a-382a-7237" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="51b5-6535-f8f9-d8aa" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -3117,6 +3220,9 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c52-a9af-55d2-954e" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="d127-d78d-ecd9-7bfd" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="12.0"/>
               </costs>
@@ -3213,6 +3319,9 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe74-0985-b961-ff90" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="f103-a523-7c98-b3e5" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
               </costs>
@@ -3229,6 +3338,9 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14eb-c446-a40e-a4c8" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="50ef-2452-f92c-ca3b" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
               </costs>
@@ -3292,11 +3404,13 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
           <rules>
             <rule id="93de-69ac-6d57-b7d9" name="Unit Strength 3" hidden="false"/>
             <rule id="abe5-f5f2-0f31-60a0" name="Special Movement" hidden="false">
-              <description>Spawn are moved in the Compulsory Movement part of the Movement phase, moving 2D6&quot; each turn. Nominate the direction the Spawn will move before rolling the dice, and the Spawn will move in a straight line. 
-If the Spawn&apos;s movement is sufficient to take it into an enemy unit then it counts as charging, following all the normal rules. The target may make a charge response as normal, counting the Movement value rolled as the Spawn&apos;s maximum charge distance (for the purposes of fleeing, standing and shooting, etc).</description>
+              <description>Spawn of Chaos are moved in the Compulsory Movement part of the Chaos player&apos;s 
+Movement phase, moving 2D6&quot; each turn. The player has no control over the distance moved, but must nominate in which direction the Spawn will move before rolling the dice (this must be in a straight line).
+
+If the Spawn&apos;s movement is sufficient to take it into an enemy unit then it counts as charging, following all of the normal rules. The target may make a charge response as normal, counting the Movement value rolled as the Spawn&apos;s maximum charge distance (for the purposes of fleeing, standing and shooting, etc).</description>
             </rule>
             <rule id="ca98-81e8-416f-c3df" name="Special Attacks" hidden="false">
-              <description>Chaos Spawn have a random number of attacks. This is rolled at the start of every Close Combat phase.</description>
+              <description>Models with this special rule have a random number of Attacks. Roll at the start of every Close Combat phase. Roll to hit and wound as normal.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3325,9 +3439,24 @@ If the Spawn&apos;s movement is sufficient to take it into an enemy unit then it
           </conditions>
         </modifier>
       </modifiers>
+      <profiles>
+        <profile id="f000-e9bd-8a60-2ee5" name="Druchii Annointed" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">8</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">7</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">5</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">9</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">5</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules>
         <rule id="e4eb-c07e-8779-beb9" name="5+ Annointed Ward Save" hidden="false">
-          <description>The Druchii Annointed has a 5+ Ward Save that does not save against magical attacks.</description>
+          <description>5+ Ward save against non-magical attacks.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3347,6 +3476,13 @@ If the Spawn&apos;s movement is sufficient to take it into an enemy unit then it
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c1e-38fa-e936-b9a6" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb5e-a2c0-2809-9d60" type="min"/>
           </constraints>
+          <rules>
+            <rule id="892e-905e-bdfd-d245" name="Chaos Armour" hidden="false">
+              <description>All-enclosing suits of Chaos Armour are the living gifts of the Dark Gods upon their Champions. They become part of the wearers body and can never be removed once put on.
+
+Chaos armour gives a 4+ armour save. It can be combined with other equipment as normal. Sorcerers can wear this armour and cast spells.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -3379,11 +3515,17 @@ If the Spawn&apos;s movement is sufficient to take it into an enemy unit then it
               </costs>
             </selectionEntry>
             <selectionEntry id="6b13-cbb2-79f9-f53c" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="793d-3394-cd0f-7d1c" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4910-aa52-1971-4c7c" name="Halberd" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="a151-b2e0-ab2f-0841" name="Halberd" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -3396,6 +3538,9 @@ If the Spawn&apos;s movement is sufficient to take it into an enemy unit then it
                   </conditions>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="6df8-a2df-f9b7-5c94" name="Lance" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -3566,6 +3711,9 @@ If the Spawn&apos;s movement is sufficient to take it into an enemy unit then it
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5773-9217-2ec3-1d0e" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="0eda-e877-010e-f65d" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -3730,6 +3878,9 @@ Certain characters may ride in a chariot. They replace one of the crew, and the 
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b812-569b-e775-35c0" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="4756-f14e-f47f-152e" name="Repeater Crossbows" hidden="false" targetId="11c6-d068-224a-5939" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
               </costs>
@@ -3760,7 +3911,7 @@ Certain characters may ride in a chariot. They replace one of the crew, and the 
       </constraints>
       <rules>
         <rule id="b854-87dd-0604-855b" name="Mark of Slaanesh" hidden="false">
-          <description>A unit or model with the Mark of Slaanesh is Immune to Psychology</description>
+          <description>Mark of Slaanesh Type</description>
         </rule>
       </rules>
       <costs>
@@ -3779,6 +3930,11 @@ Certain characters may ride in a chariot. They replace one of the crew, and the 
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5262-c66f-97cd-aedd" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0367-fb97-df2f-4c6a" type="max"/>
       </constraints>
+      <rules>
+        <rule id="37ea-5d0b-1a30-228d" name="Rapturous Standard" hidden="false">
+          <description>Characters or units with Mark of Slaanesh only. The model and any unit he is with count as having the Daemonic Gift - Soporific Musk.</description>
+        </rule>
+      </rules>
       <categoryLinks>
         <categoryLink id="7fb2-06cd-6c7f-b971" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
       </categoryLinks>
@@ -3798,6 +3954,13 @@ Certain characters may ride in a chariot. They replace one of the crew, and the 
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70d7-80f1-65d3-ac10" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7cf-5d49-f6c0-8c56" type="max"/>
       </constraints>
+      <rules>
+        <rule id="838a-c837-64de-cbcb" name="Bindings of Slaanesh" hidden="false">
+          <description>The Champion is blessed with a series of writhing chains and leather strips that have burrowed deep into his flesh. In combat, these bindings lash out, wrapping around the limbs of the Champion&apos;s foes and drawing them within range of his weapons.
+
+Models with the Mark of Slaanesh only. Whenever the bearer issues a challenge, the enemy cannot refuse it and the Chaos player may choose who will accept the challenge. The model forced to accept the challenge may be anywhere within the enemy unit, and even characters that would normally be in a position that would disallow them from accepting challenges (by not being in the fighting rank, for instance) may be forced into accepting the challenge. In the first round an enemy is ensnared, the bearer always strike last, regardless of any other factor, magic item or spell.</description>
+        </rule>
+      </rules>
       <categoryLinks>
         <categoryLink id="875c-0685-7b72-13f6" name="Enchanted Item" hidden="false" targetId="d8eb-f296-d241-3c6d" primary="false"/>
       </categoryLinks>
@@ -3817,6 +3980,11 @@ Certain characters may ride in a chariot. They replace one of the crew, and the 
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c12-a5f5-6fb7-4136" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cda8-57ef-1da6-65f6" type="max"/>
       </constraints>
+      <rules>
+        <rule id="4377-b067-14ae-8db5" name="Pendant of Slaanesh" hidden="false">
+          <description>Models with the Mark of Slaanesh only. For each Wound the character loses (after saving throws, etc), he gains an extra Attack for the rest of the battle.</description>
+        </rule>
+      </rules>
       <categoryLinks>
         <categoryLink id="ff47-fb88-1ce4-1c89" name="Enchanted Item" hidden="false" targetId="d8eb-f296-d241-3c6d" primary="false"/>
       </categoryLinks>
@@ -3836,6 +4004,11 @@ Certain characters may ride in a chariot. They replace one of the crew, and the 
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71e9-4948-40a0-50a2" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89b1-9ec4-886f-b987" type="max"/>
       </constraints>
+      <rules>
+        <rule id="187e-2bdb-9d48-8c35" name="Sceptre of Domination" hidden="false">
+          <description>Models with the Mark of Slaanesh only. Bound Spell. Power Level 6. One use only. The Sceptre of Domination contains the bound Slaanesh spell Delectable Torture.</description>
+        </rule>
+      </rules>
       <categoryLinks>
         <categoryLink id="54b4-2ed5-a3b3-9faa" name="Enchanted Item" hidden="false" targetId="d8eb-f296-d241-3c6d" primary="false"/>
       </categoryLinks>
@@ -3897,7 +4070,7 @@ Certain characters may ride in a chariot. They replace one of the crew, and the 
       </constraints>
       <rules>
         <rule id="ec61-ca57-bbd8-9219" name="Whip of Pleasure" page="50" hidden="false">
-          <description>The wielder gains +1 Attack but cannot carry a shield or banner. In addition, the wielder always strikes first in close combat. If any of the wielder&apos;s opponents also always strike first, revert to normal initiative order.</description>
+          <description>Models with the Mark of Slaanesh only. The wielder gains + 1 Attack, but he cannot carry a shield or banner. In addition, the wielder always strikes first in close combat. If any of the wielder&apos;s opponents also always strike first, revert to normal Initiative.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -3924,6 +4097,11 @@ Certain characters may ride in a chariot. They replace one of the crew, and the 
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3956-c6ac-a1b7-9e45" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9c0-ad27-0daf-6185" type="max"/>
       </constraints>
+      <rules>
+        <rule id="833c-3f04-d160-dcec" name="The Beguiling Gem" hidden="false">
+          <description>Characters with the Mark of Slaanesh only. All enemy models in base contact with the hearer of the Beguiling Gem must take a Leadership test at the start of every Close Combat phase. Any model which fails is transfixed and may not make any attacks that round, and any attacks made against it by the bearer will hit automatically.</description>
+        </rule>
+      </rules>
       <categoryLinks>
         <categoryLink id="08fd-51ff-780a-e41c" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
       </categoryLinks>
@@ -4041,8 +4219,7 @@ Certain characters may ride in a chariot. They replace one of the crew, and the 
           </constraints>
           <rules>
             <rule id="5a08-8694-cd16-e507" name="Wand of the Kharaidon" hidden="false">
-              <description>Bound Spell. Power Level 4.
-Once per Magic phase, the wielder may unleash the power of the Wand. This automatically casts the spell Doombolt. Each time iti is used, roll a dice: on a 1 its power is exhausted and it cannot be used for the remainted of the game.</description>
+              <description>Bound Spell. Power Level 4. Once per Magic phase, the wielder may unleash the power of the Wand. This automatically casts the spell Doombolt. Each time it is used, roll a dice: on a 1 its power is exhausted, and it cannot be used for the remainder of the game.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -4066,7 +4243,7 @@ Once per Magic phase, the wielder may unleash the power of the Wand. This automa
           </constraints>
           <rules>
             <rule id="d3a9-6462-56a3-2de1" name="The Cloak of Dark Souls" hidden="false">
-              <description>A character with the Cloak of Dark Souls may Scout, so long as thety are on foot.</description>
+              <description>A character with the Cloak of Dark Souls may Scout, so long as they are on foot.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -4083,8 +4260,7 @@ Once per Magic phase, the wielder may unleash the power of the Wand. This automa
           </constraints>
           <rules>
             <rule id="26f5-db6e-846c-0bda" name="Divine Eye" hidden="false">
-              <description>Enemy Scouts units may not deploy within 12&quot; of the bearer (this includes Scouts with additional deployment rules such as Chameleon Skinks).
-In addition, at the start of each of their turns the character may activate the Divine Eye. The eye will look into every enemy unit within 12&quot;. Your opponent must reveal the number of magic items in each affected unit (although he does not have to revveal what they are or who specifically is carrying them).</description>
+              <description>Enemy Scout units may not deploy within 12&quot; of the bearer (this includes Scouts with additional deployment rules such as Chameleon Skinks). In addition, at the start of each of their turns, the character may activate the Divine Eye. The Eye will look into every enemy unit within 12&quot;. Your opponent must reveal the number of magic items in each affected unit (although he does not have to reveal what they are or who specifically is carrying them).</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -4151,7 +4327,9 @@ In addition, at the start of each of their turns the character may activate the 
               </constraints>
               <rules>
                 <rule id="a017-a60c-6f5e-10bf" name="Blood Armour" hidden="false">
-                  <description>Blood Armour is treated as a suit of normal heavy armour (5+ save) and can be combined with other armour as normal. For every unsaved wound the wearer inflicts, their save is improved by 1 point (to 4+ then 3+, etc) up to a maximum total save of 1+.</description>
+                  <description>When anointed with the blood of the enemy, this armour becomes ever more endurable.
+
+Blood Armour is treated as a suit of normal heavy armour (5+ save) and can be combined with other armour as normal. For every unsaved wound the wearer inflicts, their save is improved by 1 point (to 4+ then 3+, etc) up to a maximum total save of 1+.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -4175,7 +4353,9 @@ In addition, at the start of each of their turns the character may activate the 
               </constraints>
               <rules>
                 <rule id="3080-c050-985f-94c8" name="Armour of Living Death" hidden="false">
-                  <description>The Armour of Living Death counts as heavy armour, giving a 5 + Armour save, which can be combined with other armour as normal. In addition. the model has +1 Toughness and +1 Wound.</description>
+                  <description>It is claimed that anyone wearing this armour cannot die, that they are sustained by its magical energy. Unfortunately, they cannot remove the armour and are slowly driven insane.
+
+The Armour of Living Death counts as heavy armour, giving a 5 + Armour save, which can be combined with other armour as normal. In addition. the model has +1 Toughness and +1 Wound.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -4199,7 +4379,9 @@ In addition, at the start of each of their turns the character may activate the 
               </constraints>
               <rules>
                 <rule id="f859-68b1-ea40-c2da" name="Armour of Eternal Servitude" hidden="false">
-                  <description>This light armour gives a basic 6+ save, which can be combined with other armour as normal. In addition, the wearer can Regenerate.</description>
+                  <description>Oaths of lovalty and dedication to Khaine were sworn at the time of the armour&apos;s forging, and the wearer is granted extended life to serve his god.
+
+This light armour gives a basic 6+ save, which can be combined with other armour as normal. In addition, the wearer can Regenerate.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -4251,7 +4433,9 @@ In addition, at the start of each of their turns the character may activate the 
               </constraints>
               <rules>
                 <rule id="7eba-164a-671c-b93f" name="Shield of Ghrond" hidden="false">
-                  <description>The Shield of Ghrond is treated like a normal shield. and in addition any hits the character suffers will be resolved with -1 Strength.</description>
+                  <description>Shaped into the leering face of an Ice Daemon, the shield of Ghrond is imbued with the power of the north wind which robs attacks of their force.
+
+The Shield of Ghrond is treated like a normal shield. and in addition any hits the character suffers will be resolved with -1 Strength.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -4280,7 +4464,9 @@ In addition, at the start of each of their turns the character may activate the 
           </constraints>
           <rules>
             <rule id="58f6-74ea-57c3-b193" name="Standard of Slaughter" hidden="false">
-              <description>One use only. The unit gains +D3 to its combat resolution the first time it charges.</description>
+              <description>Anointed with the blood of an Ulthuan Elf, this banner imbues the unit with a bitter determination.
+
+One use only. The unit gains +D3 to its combat resolution the first time it charges.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -4326,7 +4512,9 @@ In addition, at the start of each of their turns the character may activate the 
           </constraints>
           <rules>
             <rule id="26a6-19b4-e786-9b53" name="Dread Banner" hidden="false">
-              <description>The unit carrying this standard causes fear.</description>
+              <description>Such is the supernatural fear instilled by the visage of the Bloody-handed God upon this standard that few dare to even look at it.
+
+The unit carrying this standard causes fear.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4397,7 +4585,7 @@ In addition, at the start of each of their turns the character may activate the 
           </constraints>
           <rules>
             <rule id="468a-1dea-6eb7-d9a9" name="Soul Shadows Standard" hidden="false">
-              <description>The unit may make a flee response when charged (even if it is Immune to Psychology), and will immediately and automatically rally at the end of its flee movement, so long as it outruns the charger(s).</description>
+              <description>The unit may make a make a flee response when charged (even if Immune to Psychology), and will immediately and automatically rally at the end of its flee movement, so long as it outruns the charger(s).</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -4425,7 +4613,9 @@ In addition, at the start of each of their turns the character may activate the 
           </constraints>
           <rules>
             <rule id="43e0-c7a3-80b7-9601" name="Black Amulet" hidden="false">
-              <description>The wearer has a 5+ Ward save against close combat hits. If the wearer of the Black Amulet passes his Ward save then the attacking model suffers 1 wound instead. There is no save against such a rebounded wound, even from Wards.</description>
+              <description>Cast from the heartstone of a mountain tainted with the power of Dark Sorcery the Black Amulet is a lustrous polished stone of midnight hue, engraved with a single glowing rune.
+
+The wearer has a 5+ Ward save against close combat hits. If the wearer of the Black Amulet passes his Ward save then the attacking model suffers 1 wound instead. There is no save against such a rebounded wound, even from Wards.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -4459,7 +4649,9 @@ In addition, at the start of each of their turns the character may activate the 
           </constraints>
           <rules>
             <rule id="f1bf-e6aa-50aa-992d" name="Seal of Ghrond" hidden="false">
-              <description>The seal of Ghrond adds one dice to the Dispel dice pool of the army.</description>
+              <description>This iron seal carries the rune of Khaine in his aspect of the Iron Panther, the stalker of the void.
+
+The seal of Ghrond adds one dice to the Dispel dice pool of the army.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -4530,7 +4722,7 @@ In addition, at the start of each of their turns the character may activate the 
           </constraints>
           <rules>
             <rule id="2e54-1a06-895f-a458" name="Mystic Shield of Light" hidden="false">
-              <description>5+ Ward save. In addition, if the Ward save is successful against a close combat attack, the model that struck the character is stunned and reduced to WS1 euntil the end of the Close Combat phase.</description>
+              <description>5+ Ward save. In addition, if the Ward save is successful against a close combat attack, the model that struck the character is stunned and reduced to W1 until the end of the Close Combat phase.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -4599,7 +4791,9 @@ In addition, at the start of each of their turns the character may activate the 
           </constraints>
           <rules>
             <rule id="d6fe-3c6c-1589-25ad" name="Chill Blade" hidden="false">
-              <description>Any model wounded by a Chill Blade (after saves, etc) may not attack for the rest of that combat round.</description>
+              <description>The blade of this sword holds a terrible spell of coldness which seeps into the Dark Elf&apos;s victim, freezing their soul and temporarily paralysing them.
+
+Any model wounded by a Chill Blade (after saves, etc) may not attack for the rest of that combat round.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -4698,7 +4892,9 @@ In addition, at the start of each of their turns the character may activate the 
           </constraints>
           <rules>
             <rule id="3e62-bdc2-da4f-c165" name="Blade of Ruin" hidden="false">
-              <description>No Armour saves may be taken against hits from the Blade of Ruin. Ward saves may be taken as normal.</description>
+              <description>This magical sword can cleave through armour as if it were air.
+
+No Armour saves may be taken against hits from the Blade of Ruin. Ward saves may be taken as normal.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -4739,7 +4935,9 @@ In addition, at the start of each of their turns the character may activate the 
           </constraints>
           <rules>
             <rule id="fae1-2793-27e9-2718" name="Draich of Dark Power" hidden="false">
-              <description>+2 Strength. Killing Blow. Uses two hands.</description>
+              <description>This mighty two-handed, curved blade is deadly when wielded by a skilful swordsman, easily able to carve through armour and bone with deadly grace.
+
++2 Strength. Killing Blow. Uses two hands</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -4780,7 +4978,7 @@ In addition, at the start of each of their turns the character may activate the 
           </constraints>
           <rules>
             <rule id="92ca-d771-12e1-0d5e" name="Gauntlet of Power" hidden="false">
-              <description>The character becomes Strength 8 and enemy models may not make armour saves against blows struck by the Gauntlet. A character armed with the Gauntlet of Power strikes last (see page 89 of Warhammer).</description>
+              <description>The character becomes Strength 8 and enemy models may not make armour saves against blows struck by the Gauntlet. A character armed with the Gauntlet of Power strikes last.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -4853,7 +5051,9 @@ In addition, at the start of each of their turns the character may activate the 
           </constraints>
           <rules>
             <rule id="7a32-0ac2-6391-17d7" name="Soulstone" hidden="false">
-              <description>A Soulstone makes the Sorceress immune to the effects of her first Miscast. Note that a Miscast spell still fails regardless of the actual dice score rolled.</description>
+              <description>This gem holds the tortured soul of a sacrificed wizard. If a Sorceress is in danger of losing control of her magic she can feed the captured soul to Daemons to save herself.
+
+A Soulstone makes the Sorceress immune to the effects of her first Miscast. Note that a Miscast spell still fails regardless of the actual dice score rolled.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -5201,7 +5401,9 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
           </constraints>
           <rules>
             <rule id="28ff-928b-64e5-c9a8" name="Manbane" hidden="false">
-              <description>A character with a weapon coated with Manbane always counts their Strength as one higher than their target&apos;s Toughness, unless their Strength would normally be more than this, up to a maximum of Strength 6. In effect, this means that they almost always wound opponents on a roll of 3 +. This modified Strength is also used to calculate Armour save modifiers.</description>
+              <description>Manbane is one of the most lethal venoms ever devised, causing even the tiniest wound to bleed openly.
+
+A character with a weapon coated with Manbane always counts their Strength as one higher than their target&apos;s Toughness, unless their Strength would normally be more than this, up to a maximum of Strength 6. In effect, this means that they almost always wound opponents on a roll of 3 +. This modified Strength is also used to calculate Armour save modifiers.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -5217,7 +5419,9 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
           </constraints>
           <rules>
             <rule id="2f47-1e7b-5c20-2783" name="Dark Venom" hidden="false">
-              <description>The model is considered to have Poisoned Attacks.</description>
+              <description>Extracted from the poisonous reptiles of the bleak land of Naggaroth, Dark Venom is a deadly toxin. A weapon coated with Dark Venom will cause a mortal wound if it even merely scratches skin.
+
+The model is considered to have Poisoned Attacks.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -5318,7 +5522,9 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
           </constraints>
           <rules>
             <rule id="f1f7-2dfd-1cd1-4c96" name="Hand of Khaine" hidden="false">
-              <description>Any one model ( chosen by a Dark Elf player) in base contact will lose one Attack. Against mounted models, the Dark Elf player must choose either the mount/monster or the rider. If the model has several types of attack (an extra bite, for example) the Dark Elf player chooses which type of attack is lost. Models which are Immune to Psychology are not affected by the Hand of Khaine.</description>
+              <description>Tracing a complex pattern in the air, the Dark Elf entrances their victim, leaving him vulnerable and open to attack.
+
+Any one model ( chosen by a Dark Elf player) in base contact will lose one Attack. Against mounted models, the Dark Elf player must choose either the mount/monster or the rider. If the model has several types of attack (an extra bite, for example) the Dark Elf player chooses which type of attack is lost. Models which are Immune to Psychology are not affected by the Hand of Khaine.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -5400,6 +5606,11 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
               </conditions>
             </modifier>
           </modifiers>
+          <rules>
+            <rule id="0a26-0452-6f14-f263" name="Lore of Slaanesh" hidden="false">
+              <description>The Lore of Slaanesh Lore</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -5506,7 +5717,7 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
               </constraints>
               <rules>
                 <rule id="d609-380b-6514-7634" name="Chaos Runeshield" page="51" hidden="false">
-                  <description>The Chaos Runeshield negates the power of any magic weapons carried by models in base contact - treat them as ordinary non-magical weapons of their type.</description>
+                  <description>The Chaos Runeshield is treated like a normal shield. It also negates the power of any magic weapons carried by models in base contact - treat them as ordinary non-magical weapons of their type.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -5523,7 +5734,9 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
               </constraints>
               <rules>
                 <rule id="6ff2-4f41-d782-b28d" name="Armour of Tortured Souls" page="51" hidden="false">
-                  <description>Chaos Armour. The wearer has +1 Toughness against mundane attacks.</description>
+                  <description>This suit of armour is fully enclosed. Nothing remains of the wearer except his spirit and the spirits of those who wore the armour before him.
+
+The Armour of Tortured Souls is a suit of Chaos armour. The wearer counts as having +1 Toughness against mundane attacks (not spells or magic Items. etc).</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -5540,7 +5753,9 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
               </constraints>
               <rules>
                 <rule id="8d36-4931-50a6-f324" name="Armour of Damnation" page="51" hidden="false">
-                  <description>The Armour of Damnation is a suit of Chaos Armour. In addition, any model attacking the wearer in close combat must re-roll successful rolls to hit.</description>
+                  <description>This highly ornate suit of Chaos armour shimmers with unnatural energies that distort the position of the wearer so that the enemy&apos;s blows miss their mark.
+
+The Armour of Damnation is a suit Chaos armour. In addition, any model attacking the wearer in close combat must re-roll successful hits.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -5557,7 +5772,7 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
               </constraints>
               <rules>
                 <rule id="09c4-1bff-cf24-4fcf" name="Bane Shield" page="51" hidden="false">
-                  <description>For each successful armour save in close combat, the shield inflicts a Strength 4 hit on the model that struck the blow.</description>
+                  <description>The Bane Shield is treated like normal shield. In addition, for each successful armour save in close combat, the shield inflicts a Strength 4 hit on the model that struck the blow.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -5574,7 +5789,9 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
               </constraints>
               <rules>
                 <rule id="c786-ae6c-b628-e968" name="Crimson Armour of Dargan" hidden="false">
-                  <description>Chaos Armour. Any model wishing to attack the wearer in close combat must first pass a Leadership test or they may not attack that combat round.</description>
+                  <description>This armour emits a searing heat which blinds and burns those who dare raise a blade against it.
+
+The Crimson Armour is a suit of Chaos armour. In addition, any model wishing to attack the wearer in close combat must first pass a Leadership test or they may not attack that combat round.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -5591,7 +5808,9 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
               </constraints>
               <rules>
                 <rule id="81ec-b233-97d4-d952" name="Trollhide Armour" page="63" hidden="false">
-                  <description>Trollhide Armour counts as a suit of heavy armour. The wearer may also Regenerate except that lost wounds are only regained on a 6, rather than a 4+.</description>
+                  <description>Properly treated and inscribed with the correct sigils when Morrsleib is full in the sky, the Trollhide Armour confers some of the more gruesome abilities of its former occupant to the wearer.
+
+Trollhide Armour counts as a suit of heavy armour. The wearer may also Regenerate, except that lost Wounds are only regained on the roll of a 6, rather than a 4, 5 or 6.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -5628,7 +5847,7 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
               </constraints>
               <rules>
                 <rule id="a915-31cf-76d5-3eea" name="Slaughterer&apos;s Blade" page="63" hidden="false">
-                  <description>The Slaughterer&apos;s Blade counts as a Great Weapon in all respects. In addition, for each wound inflicted with the Slaughterer&apos;s Blade roll a D6. Each roll of a 4+ heals one lost Wound to the bearer (up to their starting Wounds total). Wounds regained this way do not count towards combat resolution.</description>
+                  <description>Characters on Foot only. The Slaughterer&apos;s Blade counts as a great weapon in all respects. In addition, for each wound inflicted with the Slaughterer&apos;s Blade, roll a 1D6 immediately. Each roll of a 4+ heals one lost Wound to the bearer (up to their starting Wounds total). Wounds regained in this way do not count towards combat resolution.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -5662,7 +5881,9 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
               </constraints>
               <rules>
                 <rule id="c97d-2e41-23c8-a279" name="Rending Sword" page="51" hidden="false">
-                  <description>A model wounded by the Rending Sword (after saves, etc.) loses not one but D3 wounds.</description>
+                  <description>The Rending Sword has gnarled teeth along its edge that rip and gnaw at armour and bone. As it is swung, the sword growls and snarls like a wild beast hungry for the taste of raw flesh.
+
+A model wounded by the Rending Sword (after saves. etc) loses not one but D3 wounds.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -5679,7 +5900,7 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
               </constraints>
               <rules>
                 <rule id="c001-0d59-22af-baa5" name="Soul Cleaver" page="51" hidden="false">
-                  <description>Any model wounded by the Soul Cleaver (after saves, etc.) must pass a Toughness test or suffer an additional wound (with no saves allowed)</description>
+                  <description>Any model wounded by the Soul Cleaver (after saves. etc) must pass a Toughness test or suffer an additional wound (with no saves allowed).</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -5696,7 +5917,9 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
               </constraints>
               <rules>
                 <rule id="88c2-407a-8af9-b003" name="Great Fang" page="61" hidden="false">
-                  <description>No Armour saves are allowed against wounds caused by the Great Fang.</description>
+                  <description>Carved from the tooth of a monstrous Shaggoth, the Great Fang tears through armour, bone and flesh with ease.
+
+No Armour saves are made against wounds caused by the Great Fang.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -5713,7 +5936,7 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
               </constraints>
               <rules>
                 <rule id="77a9-c5fd-890f-bf47" name="Berserker Sword" page="50" hidden="false">
-                  <description>The wielder of the Berserker Sword may make additional attacks in every Close Combat phase equal to half the Unit Strength of all enemy models in base contact (rounding up). If the bearer is in a challenge, only the Unit Strength of the opponent is counted.</description>
+                  <description>The wielder of the Berserker Sword may make additional attacks In every Close Combat phase. The number of additional attacks is equal to half the Unit Strength of all enemy models In base contact (rounding up). For example, a character in contact with two Ogres (combined Unit Strength of 6) would get 3 additional Attacks. If the bearer is involved in a challenge, only the Unit Strength of the opponent is counted.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -5730,7 +5953,7 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
               </constraints>
               <rules>
                 <rule id="8185-d6af-56be-4995" name="Blade of Blood" page="51" hidden="false">
-                  <description>For each unsaved wound caused by the Blade of Blood, the wielder may take a Strength test. If the test is passed the wielder gains +1 Wound. This may not increase his Wounds value above double its normal number of Wounds. If the test is failed, the wielder loses one Wound.</description>
+                  <description>For each unsaved wound which the Blade of Blood causes, the wielder may take a Strength test. If the test is passed, the wielder gains +1 Wound. This may not increase his Wounds value above double its normal number of Wounds. If the test is failed, the wielder loses one Wound.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -5760,6 +5983,11 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d03b-d45a-6ead-af29" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16e8-35f1-8f25-2d98" type="max"/>
               </constraints>
+              <rules>
+                <rule id="d9f3-b8d2-a2d4-8b5e" name="Crown of Everlasting Conquest" hidden="false">
+                  <description>The model gains the Regeneration ability.</description>
+                </rule>
+              </rules>
               <categoryLinks>
                 <categoryLink id="fde6-6d2f-33b3-434a" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
               </categoryLinks>
@@ -5772,6 +6000,11 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f466-6a84-c176-4fbd" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2be-f813-0f71-080d" type="max"/>
               </constraints>
+              <rules>
+                <rule id="179b-1665-7031-b54b" name="Amulet of Chaos" hidden="false">
+                  <description>At the start of every Chaos Magic phase, any enemy models in contact with the wearer must pass a Strength test or lose one wound, with no armour saves allowed.</description>
+                </rule>
+              </rules>
               <categoryLinks>
                 <categoryLink id="c003-8976-fc69-0936" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
               </categoryLinks>
@@ -5784,6 +6017,11 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7689-f770-ac16-ceae" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="161c-f004-48ba-4597" type="max"/>
               </constraints>
+              <rules>
+                <rule id="569c-2607-8d33-c891" name="Gaze of the Gods" hidden="false">
+                  <description>The model gains a +4 Ward save. If the model is fleeing at the start of a Chaos Magic phase, for any reason, the wrath of the Chaos gods is immediately visited upon them and they are turned into a Spawn, with the same number of wounds remaining as the character had. If you do not have a Spawn model to replace the character then he simply counts as slain. For Victory points purposes, the character is not counted as slain or below half Wounds unless the Spawn he has turned into is slain or is below half Wounds.</description>
+                </rule>
+              </rules>
               <categoryLinks>
                 <categoryLink id="4ed3-3421-b273-0b01" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
               </categoryLinks>
@@ -5809,6 +6047,11 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5113-d54a-3f44-c99f" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb68-2780-9a08-091d" type="max"/>
           </constraints>
+          <rules>
+            <rule id="e1f0-5ca3-ef83-f856" name="The Flesh Banner" hidden="false">
+              <description>At the end of each of your Magic phases, any enemy unit in base contact with the bearer of the banner suffers D6 Strength 4 hits, distributed as shooting hits.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="d6ba-7e86-c359-1286" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -5821,6 +6064,11 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="063d-9b48-2762-013c" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7877-c272-ff60-a83b" type="max"/>
           </constraints>
+          <rules>
+            <rule id="a5f3-e0cd-b788-b404" name="The Gore Banner" hidden="false">
+              <description>A unit with this banner may re-roll failed Panic tests.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="fb46-1b64-8d58-67dd" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -5833,6 +6081,13 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dad1-3c9f-efea-03c5" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="983e-dda0-0b07-2001" type="max"/>
           </constraints>
+          <rules>
+            <rule id="8314-ae4a-edea-cb2e" name="Banner of Wrath" hidden="false">
+              <description>The Banner of Wrath contains a potent spell that lashes the enemy with forks of magical lightning.
+
+Bound Spell. Power Level 4. The banner contains a bound magic missile with range 24&quot;, causing D6 Strength 4 hits.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="d5da-9b54-41fc-0271" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -5902,7 +6157,7 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
           </constraints>
           <rules>
             <rule id="ee52-6190-eac0-42fd" name="Quickening Blood" hidden="false">
-              <description>The Annointed always strikes first in close combat, even if charged or armed with a weapon that always strikes last. If any of the Annointed&apos;s opponents also always strike first, revert to normal Initiative.</description>
+              <description>The Anointed always strikes first in combat, even if charged or armed with a weapon that normally strikes last. If any of the Anointed&apos;s opponents also strike first, revert to normal Initiative.</description>
             </rule>
           </rules>
           <costs>
@@ -5916,7 +6171,7 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
           </constraints>
           <rules>
             <rule id="74c3-e869-ad56-43ac" name="Allure of Slaanesh" hidden="false">
-              <description>Any unit wishing to shoot the Annointed (or any unit he has joined) must first pass a Leadership test. If this test is failed, the unit may not shoot that turn.</description>
+              <description>Any unit wishing to shoot the Anointed (or any unit he has joined) must first pass a Leadership test. If this test is failed, the unit may not shoot that turn.</description>
             </rule>
           </rules>
           <costs>
@@ -5930,7 +6185,7 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
           </constraints>
           <rules>
             <rule id="bd26-ae9b-7a7a-f3ae" name="Avatar of Slaanesh" hidden="false">
-              <description>Any unit with the Mark of Slaanesh (including the Annointed himself) within 12&quot; may re-roll any failed Break tests.</description>
+              <description>Any unit with the Mark of Slaanesh (including the Anointed himself) within 12&quot; may re-roll any failed Break tests.</description>
             </rule>
           </rules>
           <costs>
@@ -5947,9 +6202,7 @@ Undead and Daemons are not affected by this additional penalty, nor are troops t
     <rule id="875d-4215-a835-fac5" name="Repeater Crossbow" hidden="false">
       <description>Used almost exclusively by the Dark Elves of Naggaroth, the repeater crossbow is a lighter, less powerful type of crossbow that has a magazine of bolts which allows a single bolt to drop into place ready for firing as the string is drawn. A repeater crossbow can fire a hail of shots in the time it takes to shoot one ordinary crossbow bolt.
 
-Range 24&quot;	
-Strength	 3
-2x Multiple Shots</description>
+Repeater Crossbow Profile</description>
     </rule>
     <rule id="2754-fd13-0dd8-92dc" name="Sea Dragon Cloak" hidden="false">
       <description>The Corsairs of the Dark Elf fleet wear heavy cloaks fashioned from the scales of the mighty sea dragons which accompany the ships. The cloak can be drawn tightly around the body when being fired at, acting as shield against missile fire. A Sea Dragon cloak adds +1 to the model&apos;s save in close combat, and +2 against ranged attacks (including spells, etc). It may be combined with other types of armour.</description>

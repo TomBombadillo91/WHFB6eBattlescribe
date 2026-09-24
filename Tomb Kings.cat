@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4b41-6842-9db5-f563" name="Tomb Kings" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4b41-6842-9db5-f563" name="Tomb Kings" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7d0c-5562-269f-0795" name="Tomb King General" hidden="false"/>
     <categoryEntry id="80b7-5608-88c2-552c" name="Settra&apos;s Army" hidden="false">
@@ -95,11 +95,17 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="8e0a-2d86-cf65-d730" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="ad7a-0742-6c8e-e04d" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a403-35e6-3bcc-3b31" name="Flail" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="1a93-8b1c-3980-57fb" name="Flail" hidden="false" targetId="dad4-d7e5-09e8-3819" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="3.0"/>
               </costs>
@@ -250,11 +256,17 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="18fa-a9f1-3713-aa47" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="93f8-964a-576c-02a7" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0047-9f93-7180-bddc" name="Flail" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="f4c4-4712-0889-7729" name="Flail" hidden="false" targetId="dad4-d7e5-09e8-3819" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="2.0"/>
               </costs>
@@ -353,7 +365,45 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="2189-5d67-c143-0af5" name="Battle Standard Bearer" hidden="false"/>
+        <rule id="2189-5d67-c143-0af5" name="Battle Standard Bearer" hidden="false">
+          <description>Skink Chiefs (two count as one choice, each may take up to 75 points of magic items)
+Skink Priest
+Saurus Scar Veteran
+
+Core
+
+Red Crested Skinks
+Skink Skirmishers\*
+Saurus Warriors
+0-1 Jungle Swarm
+Lesser Swarm\*
+
+Special
+
+Saurus Cavalry
+Kroxigor
+Terradons
+
+Rare
+
+Chameleon Skinks
+Salamander Hunting Packs
+Engine of the Gods
+
+---
+
+\ Does not count towards Core.*
+
+All units and characters that may take a Sacred Spawning must bear the Sacred Spawning of Sotek. Core units with this blessing remain Core, but if given a second Sacred Spawning are moved to Special.
+
+Skink Skirmishers and characters must purchase the Sacred Spawning of Sotek for +10 points per unit, and +10 points per character.
+
+Skink Priests in the Red Host must take their spells from the Lore of Beasts.
+
+Battle Standard Bearer
+
+One Skink Chief may carry the Battle Standard for +25 pts. A Skink Chief with the Battle Standard may not be the army&apos;s General. The Battle Standard Bearer cannot choose any extra non-magical weapons, nor may he use a shield. The Battle Standard Bearer may carry the Skavenpelt Banner, the Sign of Sotek, the Totem of Prophecy or the Jaguar Standard, but if he carries a magic banner he cannot carry any other magic items.</description>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink id="84d0-43a1-55bd-990f" name="Undead" hidden="false" targetId="d686-d7e2-d7a4-fc6c" type="infoGroup"/>
@@ -482,6 +532,11 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6c8-3c84-88c7-7dec" type="max"/>
           </constraints>
+          <rules>
+            <rule id="9975-f558-909a-6c2b" name="Blessing of the Asp" hidden="false">
+              <description>Units of Skeletal Bowmen, Skeletal Light Horsemen and Chariots in an army that includes Queen Khalida may be given the Blessing of the Asp at the cost of +2 points per model. All shooting by these units count as Poisoned Attacks.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -505,6 +560,9 @@
               <constraints>
                 <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="5ee1-5c3c-dc65-9c86" type="min"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="7281-fcc6-6ad8-fc34" name="Bows" hidden="false" targetId="1648-091e-ca90-e56d" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -534,6 +592,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9823-9284-fa21-d1f2" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="1b03-1413-b969-6d27" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
               </costs>
@@ -542,6 +603,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e6a-8fce-ca7a-4e69" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="23b8-8af7-bf89-875d" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
               </costs>
@@ -633,6 +697,11 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00fe-2c20-aa57-300c" type="max"/>
           </constraints>
+          <rules>
+            <rule id="9904-970c-4b32-6b9b" name="Blessing of the Asp" hidden="false">
+              <description>Units of Skeletal Bowmen, Skeletal Light Horsemen and Chariots in an army that includes Queen Khalida may be given the Blessing of the Asp at the cost of +2 points per model. All shooting by these units count as Poisoned Attacks.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -645,6 +714,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7635-a444-1f3b-6d1c" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="75e5-2a53-71c4-e1a8" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="14.0"/>
               </costs>
@@ -653,6 +725,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c8a-dfcd-f192-2ce6" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="da90-db1f-c7e8-23fa" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="7.0"/>
               </costs>
@@ -716,6 +791,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6c7-b176-5638-15ba" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="12fe-c183-c64d-53b3" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="14.0"/>
               </costs>
@@ -724,6 +802,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e13b-6cd4-e9c4-856a" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="f8aa-2da4-52ec-9547" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="7.0"/>
               </costs>
@@ -762,7 +843,9 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dc8-2b1a-b4ec-5ab8" type="max"/>
       </constraints>
       <rules>
-        <rule id="2340-b91a-6c6b-0275" name="Swarm" hidden="false"/>
+        <rule id="2340-b91a-6c6b-0275" name="Swarm" hidden="false">
+          <description>Tomb Swarms represent countless numbers of creatures on a single 40mm x40mm base. This base is treated as a single model with several Wounds and Attacks. A Tomb Swarm base fights at full effect until it has taken 5 Wounds at which point it is removed. Tomb Swarms are Unbreakable and cannot be joined by characters.</description>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink id="f1d5-fa78-d18d-5347" name="Undead" hidden="false" targetId="d686-d7e2-d7a4-fc6c" type="infoGroup"/>
@@ -836,14 +919,14 @@
             <profile id="7990-b5ae-4774-2cc3" name="Skeleton Crew" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
               <characteristics>
                 <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">-</characteristic>
-                <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
+                <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">2</characteristic>
                 <characteristic name="BS" typeId="22c7-799b-e07c-f32c">-</characteristic>
                 <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
                 <characteristic name="T" typeId="16d7-9f22-06d8-8427">-</characteristic>
                 <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">-</characteristic>
                 <characteristic name="I" typeId="b418-0e30-644f-1435">2</characteristic>
                 <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
-                <characteristic name="Ld" typeId="bbad-d421-400b-87c1">7</characteristic>
+                <characteristic name="Ld" typeId="bbad-d421-400b-87c1">3</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -872,6 +955,11 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1634-df4f-6400-a515" type="max"/>
           </constraints>
+          <rules>
+            <rule id="33ec-1bc2-630d-07b8" name="Blessing of the Asp" hidden="false">
+              <description>Units of Skeletal Bowmen, Skeletal Light Horsemen and Chariots in an army that includes Queen Khalida may be given the Blessing of the Asp at the cost of +2 points per model. All shooting by these units count as Poisoned Attacks.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -884,6 +972,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a47c-5731-a87a-d47c" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="5144-146f-211c-1fbf" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
               </costs>
@@ -892,6 +983,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81b9-558c-9315-fb42" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="171e-7b35-9d6c-567f" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
               </costs>
@@ -1004,6 +1098,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbaa-b246-59f0-2369" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="a623-fb50-a729-f0b6" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="12.0"/>
               </costs>
@@ -1012,6 +1109,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff17-1502-1fa2-4d65" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="f558-e754-b05d-24d0" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -1113,7 +1213,9 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="8a48-9fc8-2d6c-a73a" name="Screaming Skulls" hidden="false"/>
+        <rule id="8a48-9fc8-2d6c-a73a" name="Screaming Skulls" hidden="false">
+          <description>When screaming and flaming skulls land among the enemy it is a very unnerving experience for them! To represent this, any unit that suffers one or more wounds from a shooting attack by a Screaming Skull Catapult must take a Panic test. Because of the weird nature of the screaming skull ammunition, the catapult inflicts magical attacks, which also count as flaming attacks.</description>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink id="e336-7f7a-e8d4-275c" name="Undead" hidden="false" targetId="d686-d7e2-d7a4-fc6c" type="infoGroup"/>
@@ -1128,7 +1230,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6a7-ee05-a9be-d148" type="max"/>
           </constraints>
           <rules>
-            <rule id="023f-2b81-ddfe-d69e" name="Skulls of the Foe" hidden="false"/>
+            <rule id="023f-2b81-ddfe-d69e" name="Skulls of the Foe" hidden="false">
+              <description>Screaming Skull Catapults may be upgraded to allow them to hurl the skulls of the race they are fighting. So, a catapult with this upgrade can hurl Orc skulls at Orc enemies, or Dwarfish skulls at Dwarfs. This is even more terrifying than the catapult&apos;s usual ammunition, and any unit that must make a Panic test from the Screaming Skull Catapult suffer a -1 to their Leadership.</description>
+            </rule>
           </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
@@ -1191,7 +1295,9 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="a518-7bbc-a85d-d4ad" name="Unstoppable Assault" hidden="false"/>
+        <rule id="a518-7bbc-a85d-d4ad" name="Unstoppable Assault" hidden="false">
+          <description>For every wounding hit that the Bone Giant inflicts when it charges (before saving throws), the Bone Giant gets to make an additional attack. Such additional attacks also benefit from the Unstoppable Assault rule.</description>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink id="b5de-f5e5-343c-87ee" name="Undead" hidden="false" targetId="d686-d7e2-d7a4-fc6c" type="infoGroup"/>
@@ -1306,7 +1412,9 @@
           </constraints>
           <rules>
             <rule id="b5a1-96e2-18df-a8ff" name="The Armour of Golden Magnificence" hidden="false">
-              <description>Settra has a 2+ Armour saving throw. This saving throw is never modified to worse than a 4+, even if hit by an attack that normally allows no Armour save (such as a cannonball).</description>
+              <description>Settra wears a suit of age-old, kingly armour that was said to have been crafted and worn by the jackal god, Djaf, when he walked the land. It is impervious to the ravages of time, and nothing can tarnish this shining golden armour.
+
+Settra has a 2+ Armour saving throw. This saving throw is never modified to worse than a 4+, even if hit by an attack that normally allows no Armour save (such as a cannonball).</description>
             </rule>
           </rules>
           <costs>
@@ -1320,7 +1428,7 @@
           </constraints>
           <rules>
             <rule id="5b4e-c552-023b-26d8" name="The Crown of Nehekhara" hidden="false">
-              <description>This crown carries with it the blessing of all the gods and goddesses of Nehekhara, and is topped with a golden cobra that rears and spits whenever enemies are near. Settra and his chariot benefit from a 4+ Ward save. In addition, Settra causes terror.</description>
+              <description>Settra and his chariot benefit from a 4+ Ward save. In addition, Settra causes terror.</description>
             </rule>
           </rules>
           <costs>
@@ -1357,7 +1465,7 @@
           <description>Khalid may cast Horekhah&apos;s Incantation of Righteous Smiting once per Magic phase. It is automatically cast, and cannot be dispelled.</description>
         </rule>
         <rule id="9536-7927-894a-f75a" name="Incarnation of the Asp Goddess" hidden="false">
-          <description>All attacks made by Queen Khalida count as magical attacks and Poisoned Attacks, and she herself is immune to poison. In addition to this, any of her attacks that count as poisoned (so any 6s to hit), will inflict D3 wounds rather than 1 as well as wounding automatically.
+          <description>All attacks made by her count as magical attacks and Poisoned Attacks, and she herself is immune to poison. In addition to this, any of her attacks that count as poisoned (so any 6s to hit), will inflict D3 wounds rather than 1 as well as wounding automatically.
 
 The Queen moves with the swiftness of a striking asp, and will always strikes first in combat, even if she was charged. If her opponent also has this ability, resolve their attacks in Initiative order.</description>
         </rule>
@@ -1440,8 +1548,12 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
         </profile>
       </profiles>
       <rules>
-        <rule id="879b-5195-c126-e3ea" name="Light of Death" hidden="false"/>
-        <rule id="5ba6-9de2-a672-e6e9" name="Spirit-Souls" hidden="false"/>
+        <rule id="879b-5195-c126-e3ea" name="Light of Death" hidden="false">
+          <description>The Light of Death is released at the end of the Tomb King&apos;s Magic phase, so long as the Casket and its crew are not engaged in combat. It is cast like an incantation  with a Power Level of 2D6. If successfully cast, it affects all enemy units that can draw a line of sight to the Casket itself. Roll 2D6+2 and deduct the unit&apos;s Leadership from the total. The score is the number of wounds the unit suffers, with no Armour saves allowed, distributed as shooting hits. These hits count as magical attacks. Roll separately for each unit that can see the Casket.</description>
+        </rule>
+        <rule id="5ba6-9de2-a672-e6e9" name="Spirit-Souls" hidden="false">
+          <description>As long as the Casket of Souls is on the table, all enemy Wizards suffer -1 on their total Casting dice roll when casting spells. Note that this will have no effect if an Irresistible Force is rolled and cannot cause a Miscast.</description>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink id="c6ca-0fa8-8ece-fa37" name="Terror" hidden="false" targetId="3767-0d81-4db9-cda7" type="rule"/>
@@ -1571,6 +1683,13 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="782f-263b-bcaa-fbc0" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="902b-e59d-5b14-9fe7" type="max"/>
               </constraints>
+              <rules>
+                <rule id="0e66-a246-428f-ecc5" name="Scorpion Armour" hidden="false">
+                  <description>This armour is decorated with designs of the Scorpion God, and is infused with protective energies. The character can never suffer more than one wound due to combat resolution after any modifiers for being within 12&quot; of the Battle Standard, etc).
+
+If the wearer is with a unit, no more than half the wounds suffered due to combat resolution can be allocated against the character. For example, if the unit suffers four wounds, two wounds are lost by the unit and two wounds are allocated to the character of which one is ignored. Counts as heavy armour.</description>
+                </rule>
+              </rules>
               <categoryLinks>
                 <categoryLink id="604a-1921-a9ab-71b4" name="Magic Armour" hidden="false" targetId="2963-aff1-28ca-7634" primary="false"/>
               </categoryLinks>
@@ -1583,6 +1702,13 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="378d-0d8d-8650-aab6" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0f9b-3373-edf3-b4b7" type="max"/>
               </constraints>
+              <rules>
+                <rule id="7fa7-d49b-6f2a-6ea2" name="Armour of the Ages" hidden="false">
+                  <description>This armour imbues its wearer with the ability to continue fighting even when horrendously injured.
+
+Counts as heavy armour. The bearer gains +1 Wound.</description>
+                </rule>
+              </rules>
               <categoryLinks>
                 <categoryLink id="dd03-5de4-324c-911e" name="Magic Armour" hidden="false" targetId="2963-aff1-28ca-7634" primary="false"/>
               </categoryLinks>
@@ -1602,6 +1728,13 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fec-7d8b-8853-3a46" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d3c2-155b-b4a4-3140" type="max"/>
               </constraints>
+              <rules>
+                <rule id="736c-7a8e-10c5-17e9" name="Armour of Eternity" hidden="false">
+                  <description>Forged from the bronze of Marak, cooled in the blood of the giant lybrasian scorpion and gilded with red gold from Lahmia, this ancient breastplate can turn aside even the strongest blow.
+
+Enemy models must re-roll successful rolls to wound against the character. Counts as light armour.</description>
+                </rule>
+              </rules>
               <categoryLinks>
                 <categoryLink id="551e-00c7-615d-20ba" name="Magic Armour" hidden="false" targetId="2963-aff1-28ca-7634" primary="false"/>
               </categoryLinks>
@@ -1652,6 +1785,11 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dcb7-4ced-9116-f96a" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1933-2761-e66f-9fb2" type="max"/>
           </constraints>
+          <rules>
+            <rule id="ec2d-80fe-30d0-839f" name="Standard of the Sands" hidden="false">
+              <description>One use only. At the start of any of your opponent&apos;s turns, the Standard of the Sands may be activated. The opponent may not make any march moves (even Dwarfs!) during the Movement phase of that turn, although skirmishers and man-sized single models on foot may move as normal. In addition, all units attempting to rally suffer -1 to their Leadership for that player&apos;s turn only.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="8d99-9307-d78e-0531" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -1671,6 +1809,11 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="68a9-c031-81ae-3d9a" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c443-6a1e-102b-7af6" type="max"/>
           </constraints>
+          <rules>
+            <rule id="924c-9d5a-b30d-3f56" name="Banner of the Hidden Dead" hidden="false">
+              <description>One use only. At the beginning of the game, nominate one unit within your army that is to be hidden beneath the ground. This unit must be a Core Unit choice, and cannot cost more than 100 points. This unit is not deployed at the beginning of the game. The banner may be used to unearth the unit during the remaining moves part of any Tomb Kings Movement phase. The entire unit must be placed within 18&quot; of the Banner and at least 1&quot; away from any enemy models. It may move normally on the turn it appears.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="ce62-3987-e27b-bebf" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -1695,6 +1838,13 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e6b4-946a-2412-b2ef" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="09b2-6bef-c0d6-81ac" type="max"/>
           </constraints>
+          <rules>
+            <rule id="7efa-36eb-87ae-070d" name="Icon of the Sacred Eye" hidden="false">
+              <description>The arcane power of this stylised icon of the unblinking eye infuses the unit that carries it within their ranks, making their blows strike true.
+
+In the first round of every combat, all models in the unit (including steeds) get +1 to hit.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="cdea-4fda-d3cd-e925" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -1719,6 +1869,13 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="344b-d046-2ea3-d8cd" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="af86-ab76-d069-99cc" type="max"/>
           </constraints>
+          <rules>
+            <rule id="2866-8f4e-d747-c560" name="Mirage Standard" hidden="false">
+              <description>Imbued with the curses of a hundred Nehekharan widows, this banner leads the enemies&apos; minds astray, rendering them almost blind to where the unit bearing the banner actually is.
+
+Any missile weapons that roll to hit must re-roll all successful rolls to hit when firing against a unit that contains the Mirage Standard. Against missile weapons that do not require a roll to hit (such as cannons and stone throwers), all models in the unit containing the Mirage Standard gain a 5+ Ward save.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="24db-b6ea-4334-1e04" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -1743,6 +1900,11 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8c8f-eb01-2ad9-bbe8" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2485-1e7b-7ad0-1f25" type="max"/>
           </constraints>
+          <rules>
+            <rule id="2ff6-da0b-52bd-9637" name="Icon of Rakaph" hidden="false">
+              <description>Tomb Guard or Skeleton Warriors only. A unit of Tomb Guard or Skeleton Warriors containing this banner may make a free reform move at the start of its Movement phase. This is done before charges are declared, so that a unit with the Icon of Rakaph may charge on the turn it reforms.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="b129-bed1-af50-5a68" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -1755,6 +1917,11 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d007-0ad9-fdfd-3f2e" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bf2f-b4a9-3335-5134" type="max"/>
           </constraints>
+          <rules>
+            <rule id="fe2b-9ccf-060a-f0fb" name="Standard of the Cursing Word" hidden="false">
+              <description>Each enemy model in base contact with the Standard Bearer at the start of the Tomb Kings&apos; Magic phase must pass a Leadership test (on their own unmodified Ld) or lose a wound (with no Armour save allowed).</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="0e88-51cf-7ce6-5380" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -1767,6 +1934,11 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bed0-0021-70d2-234c" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3dc2-9fbc-7553-f3ed" type="max"/>
           </constraints>
+          <rules>
+            <rule id="6a20-76eb-2f61-541c" name="Banner of the Undying Legion" hidden="false">
+              <description>Bound Spell, Power Level 3. Casts Diedra&apos;s Incantation of Summoning. May only be cast on the unit containing the banner.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="bd25-a223-e72f-63ae" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -1789,6 +1961,11 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b0c7-0a85-78c6-c1f3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b993-6dd9-08ca-c218" type="max"/>
           </constraints>
+          <rules>
+            <rule id="149e-b157-ad36-ff73" name="Golden Ankhra" hidden="false">
+              <description>The model has a 4+ Ward save.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="c63b-35f9-2435-6566" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
           </categoryLinks>
@@ -1808,6 +1985,11 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1bc4-907c-91e0-d4cf" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5333-f3e6-00ec-48e0" type="max"/>
           </constraints>
+          <rules>
+            <rule id="4062-21ab-df86-426c" name="Crown of Kings" hidden="false">
+              <description>Tomb King only. The Crown of Kings enables the Tomb King to roll two D6 for his &quot;My Will Be Done!&quot; incantations and to choose the highest score.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="b5a6-fcc5-c1d0-65d6" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
           </categoryLinks>
@@ -1820,6 +2002,13 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c201-04fd-ad2e-008c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bfa-a41b-aa38-7d1e" type="max"/>
           </constraints>
+          <rules>
+            <rule id="c3a2-4ba9-a659-5265" name="Amulet of Pha-Stah" hidden="false">
+              <description>Any Arcane items, Enchanted items, Talismans or Runic Talismans belonging to enemy models in base contact with the wearer cease to function while they are in base contact.
+
+A character with this item cannot take any other magic items.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="b401-13e0-5846-b99c" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
           </categoryLinks>
@@ -1832,6 +2021,11 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="78a0-88c2-bce4-40ad" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42fc-481f-dfd8-057a" type="max"/>
           </constraints>
+          <rules>
+            <rule id="81d9-6535-344f-2c26" name="Collar of Shapesh" hidden="false">
+              <description>For each wound that the bearer suffers (after saves, etc, but before any multiple wounds are calculated) roll a D6. On a 4+ the wound is transferred to any friendly model within 4&quot; of the bearer&apos;s choosing If inflicted in combat, these wounds will still count for combat resolution. This second model may not make any Armour save or Ward save to avoid this automatic wound. If there is no friendly model within range, then the Collar of Shapesh has no effect.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="a130-de02-5c16-5f31" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
           </categoryLinks>
@@ -1862,6 +2056,11 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8b7b-38f7-9100-e60b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f06-e090-0e8f-91a5" type="max"/>
           </constraints>
+          <rules>
+            <rule id="4388-b69b-f250-a5af" name="Golden Eye of Rah-Nutt" hidden="false">
+              <description>Character in chariot only. The chariot itself gains a Ward save of 5+, which only works against hits struck against the chariot, and will not apply to the character. In addition, wounding hits of Strength 7 or more that would normally destroy the chariot automatically do normal damage instead.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="f469-f09d-c6af-cb24" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
           </categoryLinks>
@@ -1891,6 +2090,11 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="deaa-bd68-fde6-8701" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="21a9-5346-3619-d2d8" type="max"/>
           </constraints>
+          <rules>
+            <rule id="74b1-039c-4546-6f3e" name="Brooch of the Great Desert" hidden="false">
+              <description>One use only. As soon as an enemy spell is cast, the Brooch of the Great Desert may be used to automatically dispel it, just like a Dispel Scroll. Note that as with Dispel Scrolls, the Brooch cannot be used to dispel a spell that is cast with Irresistible Force.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="38f1-5ccc-4ff8-87d7" name="Enchanted Item" hidden="false" targetId="d8eb-f296-d241-3c6d" primary="false"/>
           </categoryLinks>
@@ -1903,6 +2107,11 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77c5-e267-d9f9-c093" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="83b9-ef56-c0c4-7e65" type="max"/>
           </constraints>
+          <rules>
+            <rule id="a3c3-ff9a-81af-9a33" name="Blue Khepra" hidden="false">
+              <description>The bearer and the unit he joins have Magic Resistance (2).</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="e220-380e-b74b-c27b" name="Enchanted Item" hidden="false" targetId="d8eb-f296-d241-3c6d" primary="false"/>
           </categoryLinks>
@@ -1915,6 +2124,11 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e07-37ce-cb34-3482" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8cf8-0828-79ab-3688" type="max"/>
           </constraints>
+          <rules>
+            <rule id="549e-8dc3-a1af-5a36" name="Death Mask of Kharnut" hidden="false">
+              <description>A model wearing this mask causes terror.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="cd8a-825c-edb3-bbcc" name="Enchanted Item" hidden="false" targetId="d8eb-f296-d241-3c6d" primary="false"/>
           </categoryLinks>
@@ -1945,6 +2159,11 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96bb-5ccd-dcf8-5ee0" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="761e-8860-1686-cbf5" type="max"/>
           </constraints>
+          <rules>
+            <rule id="39a2-e4d6-ac5f-adbf" name="Chariot of Fire" hidden="false">
+              <description>Character in chariot only. The character&apos;s chariot does D6+1 impact hits, rather than D3. Impact hits from the Chariot of Fire count as both magical attacks and flaming attacks.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="0703-146d-cd96-9b76" name="Enchanted Item" hidden="false" targetId="d8eb-f296-d241-3c6d" primary="false"/>
           </categoryLinks>
@@ -1964,6 +2183,11 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4247-6fcd-d7bd-3cab" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2be1-ffe4-d9b5-9895" type="max"/>
           </constraints>
+          <rules>
+            <rule id="613d-6c81-d7ce-7ab2" name="Cloak of the Dunes" hidden="false">
+              <description>Characters on foot only. The character can move as if flying, but may not charge whilst using this special movement. He pursues 3D6&quot;.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="1ff7-86a3-6b11-1571" name="Enchanted Item" hidden="false" targetId="d8eb-f296-d241-3c6d" primary="false"/>
           </categoryLinks>
@@ -1994,6 +2218,11 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3ce-3089-48ae-e382" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="14ba-4e4f-8123-f924" type="max"/>
           </constraints>
+          <rules>
+            <rule id="8217-7e6f-8f13-bc2c" name="Icon of Rulership" hidden="false">
+              <description>Character in chariot only. May be taken in addition to another item in the Enchanted Items list. The character&apos;s chariot has +1 Unit Strength (so will be worth a total Unit Strength of 5).</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="4dee-a18a-fca6-7a42" name="Enchanted Item" hidden="false" targetId="d8eb-f296-d241-3c6d" primary="false"/>
           </categoryLinks>
@@ -2006,6 +2235,11 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8307-2e72-14d5-d701" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dc24-e8ec-4272-fe5d" type="max"/>
           </constraints>
+          <rules>
+            <rule id="3cbe-e87f-835b-9ea7" name="Vambraces of the Sun" hidden="false">
+              <description>One model in base contact, chosen by the bearer, loses 1 Attack. Against mounted models, the Tomb Kings player must choose either the mount/monster or the rider. If the model has several types of attack, the Tomb Kings player chooses which type of attack is lost. This has no effect against foes which do not use their Attacks value in combat, such as Giants.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="9d42-762e-9d21-cc2c" name="Enchanted Item" hidden="false" targetId="d8eb-f296-d241-3c6d" primary="false"/>
           </categoryLinks>
@@ -2032,6 +2266,11 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8279-d207-5706-1272" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4983-d6eb-68e6-b1db" type="max"/>
           </constraints>
+          <rules>
+            <rule id="1efb-5299-75c5-ea19" name="Neferra&apos;s Plaques of Mighty Incantations" hidden="false">
+              <description>The Priest may re-roll the dice rolled for any Incantation he&apos;s cast. Either all of the dice must be re-rolled or none.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="8040-d229-a60c-fa59" name="Arcane Item" hidden="false" targetId="7cfd-b676-48e1-6eec" primary="false"/>
           </categoryLinks>
@@ -2044,6 +2283,11 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29a8-ce15-ee9a-59a0" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4941-e853-b1a6-d344" type="max"/>
           </constraints>
+          <rules>
+            <rule id="49dd-c36c-3908-7350" name="Staff of Mastery" hidden="false">
+              <description>The bearer adds +1 to the total rolled to determine the Power Level of his incantations.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="d68f-b2b9-f43e-9973" name="Arcane Item" hidden="false" targetId="7cfd-b676-48e1-6eec" primary="false"/>
           </categoryLinks>
@@ -2056,6 +2300,11 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f38-b627-2bc0-a36c" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a209-adb1-505e-dc99" type="max"/>
           </constraints>
+          <rules>
+            <rule id="6e01-f9b6-2cff-c72a" name="Hieratic Jar" hidden="false">
+              <description>One use only. The liche Priest may release the energy of the Hieratic Jar during any Magic phase, just after he has cast his normal incantations). The Jar allows him to use an extra incantation that phase.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="8b57-38aa-b707-c6e7" name="Arcane Item" hidden="false" targetId="7cfd-b676-48e1-6eec" primary="false"/>
           </categoryLinks>
@@ -2068,6 +2317,11 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ae0-caa0-aa1f-ec71" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="71bc-e862-87db-bf81" type="max"/>
           </constraints>
+          <rules>
+            <rule id="0553-d4c9-4c8e-8604" name="Enkhil&apos;s Kanopi" hidden="false">
+              <description>Bound Item, Power Level 4. If activated successfully, all Remains in Play spells on the tabletop are automatically dispelled.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="1539-2ff8-b99d-cc43" name="Arcane Item" hidden="false" targetId="7cfd-b676-48e1-6eec" primary="false"/>
           </categoryLinks>
@@ -2080,6 +2334,11 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a89c-49cd-ee30-9071" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="feba-69ad-b68f-5f26" type="max"/>
           </constraints>
+          <rules>
+            <rule id="eea7-5624-9080-9379" name="Staff of Ravening" hidden="false">
+              <description>Bound Item, Power Level 4. This spell is a magic missile with 18&quot; range. The targeted unit suffers 3D6 Strength 2 hits.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="24e3-5d90-5454-f9c8" name="Arcane Item" hidden="false" targetId="7cfd-b676-48e1-6eec" primary="false"/>
           </categoryLinks>
@@ -2114,6 +2373,13 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62bb-a08f-c7fa-f250" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4b17-45f9-9f4d-5406" type="max"/>
           </constraints>
+          <rules>
+            <rule id="232a-e271-6a52-95bf" name="Destroyer of Eternities" hidden="false">
+              <description>The bloodthirsty King Nekhesh first wielded this massive, ornate blade in battle, smashing his foes in all directions and severing limbs and heads with each swing It is said that those slain by its blade have no chance of reaching the afterlife, and it was thus greatly feared in ancient Nehekhara. The sword was also used to ritually execute captured foes of the king, and it can cleave through armour, muscle and bone with ease.
+
+Tomb King on foot only. Counts as a great weapon and has the Killing Blow special ability. The player may choose to attack normally with the Destroyer of Eternities or make a special attack If the special attack is chosen, all enemy models that are touching the Tomb King take two automatic hits. These hits do benefit from the special rules for great weapons and Killing Blow. If a target is riding a monster or a chariot, then both take two automatic hits. In a challenge, only the model engaged in the challenge counts as being in contact with the Tomb King.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="1021-c95a-68ad-08a9" name="Magic Weapon" hidden="false" targetId="e6e5-cff5-9987-d563" primary="false"/>
           </categoryLinks>
@@ -2138,6 +2404,13 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7957-0624-3645-d0ad" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="28ac-9b52-8bfa-8b53" type="max"/>
           </constraints>
+          <rules>
+            <rule id="476c-3204-bb48-a8b4" name="Crook and Flail of Radiance" hidden="false">
+              <description>These gleaming golden weapons represent the high status of the bearer, and all in his presence are humbled by the aura of majesty these weapons convey. Only the most powerful and influential leaders may bear these sacred symbols of rulership.
+
+Tomb King or Tomb Prince only. +1 Attack. Always strikes first. If another character has this ability, then resolve the order of attacks in Initiative order. Requires two hands.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="b8da-2cdd-cf57-4583" name="Magic Weapon" hidden="false" targetId="e6e5-cff5-9987-d563" primary="false"/>
           </categoryLinks>
@@ -2150,6 +2423,13 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6040-dd6e-7349-6eb4" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8aea-aa24-c2d4-cfae" type="max"/>
           </constraints>
+          <rules>
+            <rule id="e105-ce10-323d-064d" name="Blade of Setep" hidden="false">
+              <description>This highly ornamented curved sword belonged to King Setep of the 5th Khemrian Dynasty, and its edge shimmers with blue energy that can shatter armour.
+
+Normal armour cannot save against the Blade of Setep. If an enemy model hit by this sword wears magical armour, then the first hit is automatically discounted (do not roll to wound) but the magical armour is destroyed for the remainder of the battle. Resolve any further hits as normal.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="1379-52a1-684f-e08a" name="Magic Weapon" hidden="false" targetId="e6e5-cff5-9987-d563" primary="false"/>
           </categoryLinks>
@@ -2162,6 +2442,11 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1c4-a9e1-af1d-8081" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c65f-8109-fdd9-3652" type="max"/>
           </constraints>
+          <rules>
+            <rule id="bbbb-5d5d-c2ff-b34c" name="The Blade of Mourning" hidden="false">
+              <description>If a unit suffers at least one wound from the Blade and loses the combat, any negative modifiers to the unit&apos;s Leadership for the subsequent Break test are doubled.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="42cf-47b3-f290-3081" name="Magic Weapon" hidden="false" targetId="e6e5-cff5-9987-d563" primary="false"/>
           </categoryLinks>
@@ -2174,6 +2459,11 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41fe-91ca-e7b5-22c3" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9fd9-69d2-3b0e-e568" type="max"/>
           </constraints>
+          <rules>
+            <rule id="6f31-ebc2-38fc-cd05" name="Flail of Skulls" hidden="false">
+              <description>Counts as a flail. Each unsaved wound becomes two wounds.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="03db-9121-ceb3-755d" name="Magic Weapon" hidden="false" targetId="e6e5-cff5-9987-d563" primary="false"/>
           </categoryLinks>
@@ -2186,6 +2476,11 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e23f-9848-3add-5fd1" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="805d-a0bf-b5d4-1943" type="max"/>
           </constraints>
+          <rules>
+            <rule id="fd8c-6662-5f7c-09b8" name="Spear of Antarhak" hidden="false">
+              <description>Follows all of the normal rules for a spear. In addition, for every unsaved wound inflicted by the Spear of Antarhak, either the character, his chariot or a unit he is accompanying immediately regains 1 Wound as if Diedra&apos;s Incantation of Summoning has been cast on them. Note that wounds inflicted by the enemy and subsequently healed by the Spear still count for combat resolution.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="c233-34c4-9453-9e90" name="Magic Weapon" hidden="false" targetId="e6e5-cff5-9987-d563" primary="false"/>
           </categoryLinks>
@@ -2205,6 +2500,11 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aab3-8f04-a202-b6b2" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6dae-7379-d141-4608" type="max"/>
           </constraints>
+          <rules>
+            <rule id="984f-7718-6675-a3a6" name="Serpent Staff" hidden="false">
+              <description>High Liche Priests and Liche Priests only. Attacks with the Serpent Staff count as Poisoned Attacks. In addition, the model may re-roll any failed rolls to wound in close combat.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="9215-e950-132e-b9e0" name="Magic Weapon" hidden="false" targetId="e6e5-cff5-9987-d563" primary="false"/>
           </categoryLinks>
@@ -2222,13 +2522,52 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="f922-30e7-d241-9f8a" name="Arrows of the Asp" hidden="false"/>
-    <rule id="57ef-21d1-bf94-883b" name="My Will Be Done!" hidden="false"/>
-    <rule id="a55a-6454-270b-66b7" name="Incantations" hidden="false"/>
-    <rule id="d746-7f21-259a-e4a3" name="Undead Constructs" hidden="false"/>
-    <rule id="469a-8e42-10e9-9d3e" name="It Came From Below..." hidden="false"/>
-    <rule id="f47d-d273-b813-754a" name="Light Chariots" hidden="false"/>
-    <rule id="4416-ae17-ed00-346a" name="The Curse" hidden="false"/>
+    <rule id="f922-30e7-d241-9f8a" name="Arrows of the Asp" hidden="false">
+      <description>Undead models in a Tomb Kings army do not count any penalties or bonuses to hit when shooting.</description>
+    </rule>
+    <rule id="57ef-21d1-bf94-883b" name="My Will Be Done!" hidden="false">
+      <description>A Tomb King may cast two Incantations (either Mankara&apos;s Incantation of Urgency or Horekhah&apos;s Incantation of Righteous Smiting) at a Power Level of D6, using them either on himself and a unit he has joined or on any other friendly Tomb Kings unit within 6&quot;. He may cast the same Incantation twice.
+
+A Tomb Prince may cast Mankara&apos;s Incantation of Urgency or Horekhah&apos;s Incantation of Righteous Smiting during the Magic phase on himself, or himself and the unit he has joined if he is with a unit. This Incantation is cast at a Power Level of D6.</description>
+    </rule>
+    <rule id="a55a-6454-270b-66b7" name="Incantations" hidden="false">
+      <description>Incantations Lore</description>
+    </rule>
+    <rule id="d746-7f21-259a-e4a3" name="Undead Constructs" hidden="false">
+      <description>These models are not reanimated skeletons like the bulk of a Tomb King&apos;s army but bound by powerful magic placed inside their inanimate shells. As a result, they are more resilient than normal Undead and always count as if they are within 12&quot; of the Battle Standard, even if there is no Battle Standard on the table. If they actually are within 12&quot; of the Battle Standard then they will benefit from that as well, losing two less Wounds than they should from lost combats. In addition, Undead Constructs have a 5+ Armour save.</description>
+    </rule>
+    <rule id="469a-8e42-10e9-9d3e" name="It Came From Below..." hidden="false">
+      <description>After both sides have set up (including Scouts), place a marker (a coin will do) anywhere on the battlefield for each unit that is entombed in the sands. At the beginning of each Tomb Kings turn, except for the first, roll a D6 to determine if the creatures emerge:
+
+&quot;It Came From Below...&quot; Chart
+
+Turn	Result
+First turn	N/A
+Second turn	4+ to emerge
+Third turn	3+ to emerge
+Fourth turn	2+ to emerge
+Fifth turn	Emerge automatically
+
+When the creatures emerge, roll a Scatter dice and an Artillery dice. If you roll a Hit on the Scatter dice, the marker stays in place; if you roll an arrow, move the marker the distance indicated by the Artillery dice in the direction shown by the arrow.
+
+Once the final position of the marker has been established, replace the marker with one of the emerging unit&apos;s models and place all the other models in the unit within 2&quot; of the first one. They emerge at the beginning of the turn (this is the very first thing they do that turn) and can then act normally, and are even allowed to declare a charge!
+
+If the marker is moved under an enemy unit, the emerging Tomb Kings unit will automatically engage it in close combat on the side that is closest to the marker (the Tomb Kings unit counts as charging). If the marker is moved under a friendly unit or impassable terrain, place the Tomb Kings unit on the closest edge of the unit/obstacle. If the marker is moved off the battlefield, they are buried too deep (as per result 3-4 on the Mishap table).
+
+If you roll a Misfire, roll a D6 and consult the Mishap table.</description>
+    </rule>
+    <rule id="f47d-d273-b813-754a" name="Light Chariots" hidden="false">
+      <description>Light chariots cause D3 impact hits instead of D6.
+
+Light chariots have a Unit Strengthof 3 per model (4 if ridden by a character).
+
+Light chariots offer less protection to characters riding in them. When shooting against a character riding in a light chariot, attacks will hit the character on a 5+ instead of a 6, and a light chariot confers to the character a +1 Armour save instead of the normal +2 save.</description>
+    </rule>
+    <rule id="4416-ae17-ed00-346a" name="The Curse" hidden="false">
+      <description>The model responsible for the destruction of a Tomb King or Tomb Prince (ie, the model that causes the final wound) must immediately take a Leadership test. If the test is failed, the model will suffer D6 wounds that cannot be saved in any way (including Ward saves) nor Regenerated. If no single model can be identified as responsible for the Tomb King/Prince&apos;s destruction (eg, he is destroyed by missile fire from an entire unit, the unit responsible must pass a Leadership test or suffer D6 wounds randomised as missile hits. If the Tomb King/Prince was slain by a model riding a monster, randomise hits between the rider and his mount.
+
+If more than one unit is responsible for causing the last wound on a Tomb King/Prince at the same time (eg, he is destroyed by combat resolution in a multiple combat) then all guilty units must take the test as above!</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="7096-48c1-2e2f-a55e" name="Skeletal Steed" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
@@ -2261,7 +2600,9 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
   <sharedInfoGroups>
     <infoGroup id="cdc4-b7b0-75d2-d4e3" name="Tomb Blades" hidden="false">
       <rules>
-        <rule id="d7c0-bd05-b255-4580" name="Tomb Blades" hidden="false"/>
+        <rule id="d7c0-bd05-b255-4580" name="Tomb Blades" hidden="false">
+          <description>Any normal weapon carried by a Tomb Guard or Icon Bearer counts as a magic weapon (but all the normal rules for that weapon still apply). The weapon also has the Killing Blow special rule. Note that this rule does not apply to any magic weapon that an Icon Bearer takes from the magic items list.</description>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink id="9399-f900-0bb6-df91" name="Killing Blow" hidden="false" targetId="773c-6c86-ae53-1cee" type="rule"/>

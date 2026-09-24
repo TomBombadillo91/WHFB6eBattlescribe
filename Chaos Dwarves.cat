@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7236-6609-8f2a-760a" name="Chaos Dwarves" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7236-6609-8f2a-760a" name="Chaos Dwarves" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="d1fa-39bb-985e-3662" name="Bull Centaur Lord" hidden="false" collective="false" import="true" type="model">
       <constraints>
@@ -65,6 +65,9 @@
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="d3af-d933-a22f-19d4" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="88c6-c2a8-ac9d-59cf" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+                  </infoLinks>
                   <costs>
                     <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
                   </costs>
@@ -101,7 +104,7 @@
     </selectionEntry>
     <selectionEntry id="7fa5-b199-6fdd-5f77" name="Sorcerer Lord" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="c734-1a09-cc03-ada4" name="Chaos Dwarf Sorcerer" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+        <profile id="c734-1a09-cc03-ada4" name="Chaos Dwarf Sorcerer Lord" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
             <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">3</characteristic>
             <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
@@ -165,11 +168,17 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="3f3d-73ce-6516-4ac5" name="Level 3" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="785b-25ac-5e1e-be68" name="Level 3" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1d59-d088-d075-952a" name="Level 4" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="335b-eedf-0f86-7e13" name="Level 4" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
               </costs>
@@ -258,6 +267,9 @@
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="1b38-9845-f27a-b83d" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="2c3e-2844-b385-1a6c" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+                  </infoLinks>
                   <costs>
                     <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
                   </costs>
@@ -407,6 +419,9 @@
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="efc9-f72a-ac6b-44ca" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="79e2-d71d-04d8-f1af" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+                  </infoLinks>
                   <costs>
                     <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
                   </costs>
@@ -483,11 +498,17 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="677a-cb4e-351d-e8c9" name="Level 1" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="28b7-9b88-227e-64f8" name="Level 1" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="429f-ad1f-2288-c8a7" name="Level 2" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="0bea-d818-518d-d8c6" name="Level 2" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
               </costs>
@@ -523,7 +544,7 @@
             <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
             <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
             <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
-            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
             <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
             <characteristic name="I" typeId="b418-0e30-644f-1435">4</characteristic>
             <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
@@ -586,6 +607,9 @@
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="73d6-077c-7f71-5c77" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="9c57-2072-0d64-8af8" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+                  </infoLinks>
                   <costs>
                     <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
                   </costs>
@@ -694,6 +718,9 @@
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="c5fd-99c8-6595-875a" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="14be-8478-35bf-0898" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+                  </infoLinks>
                   <costs>
                     <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
                   </costs>
@@ -928,6 +955,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8de-4cae-800d-0186" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="3864-7a43-ba28-2daf" name="Bows" hidden="false" targetId="1648-091e-ca90-e56d" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -1004,7 +1034,7 @@
             </profile>
             <profile id="bb86-56a9-0107-4e8b" name="Hobgoblin Crew" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
               <characteristics>
-                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">3</characteristic>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
                 <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
                 <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
                 <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
@@ -1104,6 +1134,9 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="053a-6d24-be92-0865" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="5a8f-adde-499e-2bb0" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -1141,6 +1174,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddd3-878f-0e14-0843" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="f725-171e-27dd-6697" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="15.0"/>
               </costs>
@@ -1157,6 +1193,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02a7-33f2-9bcf-cbc8" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="d055-b8a1-1988-1d6f" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="15.0"/>
               </costs>
@@ -1285,6 +1324,11 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="308b-edc5-1c69-7d94" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e2b-ef0d-9574-3d73" type="max"/>
           </constraints>
+          <rules>
+            <rule id="6827-88de-16bd-bd06" name="Big&apos;Uns" hidden="false">
+              <description>Choose up to one unit allowed in the army to upgrade to Big&apos;Uns and pay the appropriate points. This may be a unit of Orc Boyz, Savage Orc Boyz, Orc Boar Boyz or Savage Orc Boar Boyz. Whichever type of unit you choose to upgrade you must have at least as many normal models of that type in other units before you take the Big&apos;Uns. You may only ever have one unit of Big&apos;Uns in any army. A unit of Big&apos;Uns may carry a magic standard worth up to 50 points. This is in addition to any magical banners that would normally be allowed to units of that type. So, for example. if your Big&apos;Uns are Boar Boyz then both they and one unit of normal Boar Boyz may take a magic banner.</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1359,6 +1403,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48f2-35af-28f7-cd51" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="a6b3-bd25-5e22-1e42" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
               </costs>
@@ -1452,6 +1499,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6097-0237-c043-043b" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="52fd-dc3c-8af0-e6c4" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
               </costs>
@@ -1551,6 +1601,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2df0-4b76-44be-a1f0" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="9c88-3265-8953-0281" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="8.0"/>
               </costs>
@@ -1567,6 +1620,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f643-ee59-4d59-c4e7" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="6f09-bc22-9298-fbde" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -1694,6 +1750,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="032c-e39e-d8b3-f77b" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="1ab8-dacf-bfcb-3397" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -1798,6 +1857,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec38-41c2-7ad8-9879" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="abbc-b8c8-5d67-071e" name="Bows" hidden="false" targetId="1648-091e-ca90-e56d" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -1833,7 +1895,7 @@
           </constraints>
           <rules>
             <rule id="73d0-650d-2665-5713" name="Obsidian Blade" hidden="false">
-              <description>No armour saves allowed. If the target takes an unsaved wound their armour and shield (including any magic armour and shields) are destroyed.</description>
+              <description>No Armour save allowed. If target takes an unsaved wound his armour and shield (including magic armour and shield) is destroyed.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -1850,7 +1912,7 @@
           </constraints>
           <rules>
             <rule id="8dce-7973-a820-4dbb" name="Black Hammer of Hashut" hidden="false">
-              <description>The wielder has +2 Strength. Flammable targets that take at least one wound from the Black Hammer of Hashut are automatically killed.</description>
+              <description>+2 Strength. Flammable targets are automatically killed if they take a single wound.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -1867,7 +1929,7 @@
           </constraints>
           <rules>
             <rule id="cffc-3171-a159-02b0" name="Dark Mace of Death" hidden="false">
-              <description>Once per battle the bearer may make a single special attack instead of rolling to hit, etc. as normal. All models in base contact (not the bearer&apos;s mount) take D3 automatic wounds with no armour saves allowed.</description>
+              <description>Once per battle bearer may make a single special attack instead of rolling to hit, etc as normal. All models in base contact (not the bearer&apos;s mount) take D3 wounds with no Armour save.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -1913,7 +1975,7 @@
               </constraints>
               <rules>
                 <rule id="3b86-40ca-9c8d-22a8" name="Armour of Gazrakh" hidden="false">
-                  <description>Gives the wearer a 1+ armour save that cannot be improved.</description>
+                  <description>Gives wearer a 1+ Armour save that cannot be improved.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -1930,7 +1992,7 @@
               </constraints>
               <rules>
                 <rule id="c32c-45dc-c59e-c366" name="Armour of the Furnace" hidden="false">
-                  <description>The wearer has a 4+ armour save and a 5+ ward save. The wearer and his mount are immune to fire based attacks and spells.</description>
+                  <description>Counts as wearing armour (4+ Armour save) 5+ Ward save. Wearer (and his mount) is immune to fire based attacks and spells.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -1977,7 +2039,7 @@
           </constraints>
           <rules>
             <rule id="522a-da44-6999-cc9d" name="Gauntlets of Bazhrakk the Cruel" hidden="false">
-              <description>The wearer has +1 Strength, but if they roll a 1 to hit the blow strikes a random friendly model in base contact instead (this can be the wearer&apos;s mount)</description>
+              <description>+1 Strength. If the wearer rolls a 1 to hit, this blow strikes a random friendly model in base contact instead. This could be his mount.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -1994,7 +2056,7 @@
           </constraints>
           <rules>
             <rule id="166b-da9e-2029-1300" name="Black Gem of Gnar" hidden="false">
-              <description>One use only. Can be activated at the beginning of either player&apos;s Close Comat phase, after challenges are issued and accepted. The bearer and one model in base contact (bearer&apos;s choice) may not attack or be attacked for the duration of that phase, nor may their steeds attack. Work out combat resolution as normal.</description>
+              <description>Can be activated at the beginning of either player&apos;s Close Combat phase, after challenges are issued and accepted. The bearer and one model in base contact (bearer&apos;s choice) may not attack or be attacked for the duration of that phase. Work out combat resolution as normal. Steeds may not attack either. One use only.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2025,7 +2087,7 @@
           </constraints>
           <rules>
             <rule id="9c95-ca69-7b73-ee2b" name="Talisman of Obsidian" hidden="false">
-              <description>Wearer cannot be affeced by spells at all (not even friendly spells) and obviously cannot cast any spells himself. Wizards in base contact cannot cast spells.</description>
+              <description>Wearer cannot be affected by spells at all (not even friendly spells), and obviously cannot cast any himself. Wizards in base contact cannot cast spells.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2052,7 +2114,7 @@
           </constraints>
           <rules>
             <rule id="27ac-2368-783c-bafd" name="Banner of Slavery" hidden="false">
-              <description>Orc, Goblin and Hobgoblin units within 12&quot; of the banner may re-roll any failed Psychology tests.</description>
+              <description>Orc, Goblin and Hobgoblin units within 12&quot; of the banner may re-roll any failed Psychology test.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -2117,7 +2179,7 @@
               </constraints>
               <rules>
                 <rule id="1548-e51f-4ebd-2e8f" name="Chalice of Darkness" hidden="false">
-                  <description>You may choose to roll a D3 at the start of either player&apos;s Magic phase. Remove this many dice from both player&apos;s magic pools.</description>
+                  <description>You may choose to roll a D3 at the start of either player&apos;s Magic phase. Remove this, many dice from both player&apos;s magic pools.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -2152,6 +2214,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9df3-9ebb-b6cd-2942" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="b16c-d865-a997-acfb" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
           </costs>
@@ -2168,6 +2233,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1073-880d-ffb7-c78f" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="461d-9b61-379b-60f5" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
           </costs>

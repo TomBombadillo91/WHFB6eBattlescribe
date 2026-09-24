@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3604-800a-4012-5da6" name="Dogs of War" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3604-800a-4012-5da6" name="Dogs of War" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5e7e-36e5-c0bf-c57c" name="Dogs of War" hidden="false"/>
     <categoryEntry id="c51c-ed7d-9669-006f" name="Regiment of Renown" hidden="false"/>
@@ -418,6 +418,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c133-b736-131e-8206" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="db2d-5592-5878-7782" name="Bows" hidden="false" targetId="1648-091e-ca90-e56d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -552,6 +555,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1074-14f7-ea29-93d8" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="e2e7-66b1-5204-3248" name="Great Weapons" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -622,6 +628,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="426e-79f8-1f64-9c14" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="1bd2-edf5-2ee4-6654" name="Great Weapons" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -637,6 +646,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cba-35db-abd3-b268" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="b506-43f7-36dd-22b2" name="Crossbows" hidden="false" targetId="cd70-2ed2-922d-0011" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -762,6 +774,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc63-6177-9423-0b99" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="ac35-2842-2df6-5e8f" name="Flails" hidden="false" targetId="dad4-d7e5-09e8-3819" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -777,6 +792,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="420c-18de-ae70-39e7" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="12fc-724a-de59-cb8b" name="Great Weapons" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -851,6 +869,21 @@
           <constraints>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30b3-5b54-f354-6758" type="min"/>
           </constraints>
+          <profiles>
+            <profile id="4ed6-15b1-ba2f-a73e" name="Bodyguard" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+                <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
+                <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
+                <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+                <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+                <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
+                <characteristic name="I" typeId="b418-0e30-644f-1435">2</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+                <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="9.0"/>
           </costs>
@@ -951,6 +984,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f345-8cb8-83e5-481d" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="6126-ff2d-2619-101f" name="Bows" hidden="false" targetId="1648-091e-ca90-e56d" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -999,6 +1035,21 @@
           </conditions>
         </modifier>
       </modifiers>
+      <profiles>
+        <profile id="3442-7968-ea0e-37c2" name="Hireling Wizard Lord" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">3</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="5a64-3c1e-3728-0bf4" name="Dogs of War" hidden="false" targetId="5e7e-36e5-c0bf-c57c" primary="false"/>
         <categoryLink id="4354-b91c-8b40-21fc" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
@@ -1076,6 +1127,21 @@
           </conditions>
         </modifier>
       </modifiers>
+      <profiles>
+        <profile id="fcff-06eb-2dc1-9f3d" name="Mercenary General" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">5</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">6</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="8453-0532-77a5-9ddc" name="Dogs of War" hidden="false" targetId="5e7e-36e5-c0bf-c57c" primary="false"/>
         <categoryLink id="282b-8a12-115c-b6a1" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
@@ -1101,6 +1167,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="732a-62ea-7141-3183" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="90b2-b564-1144-6acf" name="Halberd" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -1109,6 +1178,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66ec-14f6-d9dc-72c9" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="c791-d339-207a-b7d2" name="Morning Star" hidden="false" targetId="505c-f8fe-ee87-d4c3" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="3.0"/>
               </costs>
@@ -1124,6 +1196,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8272-a3c7-66a2-f784" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="5df8-080b-f40d-47b4" name="Lance" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -1154,6 +1229,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c232-040a-366d-57c5" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="2de6-3579-1747-9962" name="Longbow" hidden="false" targetId="c45c-2383-8be2-1152" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="15.0"/>
               </costs>
@@ -1170,6 +1248,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b70b-c869-2b39-4310" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="9640-a1f3-9556-e693" name="Crossbow" hidden="false" targetId="cd70-2ed2-922d-0011" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="15.0"/>
               </costs>
@@ -1275,6 +1356,21 @@
           </conditions>
         </modifier>
       </modifiers>
+      <profiles>
+        <profile id="7177-6b39-2093-c45a" name="Hireling Wizard" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">3</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="d883-6afd-6e7b-17e5" name="Dogs of War" hidden="false" targetId="5e7e-36e5-c0bf-c57c" primary="false"/>
         <categoryLink id="2932-25d4-e6b9-d691" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
@@ -1338,6 +1434,21 @@
           </conditions>
         </modifier>
       </modifiers>
+      <profiles>
+        <profile id="2637-c1ab-0f62-515c" name="Captain" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">5</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="d001-3eb7-fa6e-30d1" name="Dogs of War" hidden="false" targetId="5e7e-36e5-c0bf-c57c" primary="false"/>
         <categoryLink id="c05a-d905-3be1-8c1c" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
@@ -1371,6 +1482,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="334a-aec5-df34-fcf0" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="66c9-df01-e832-70c3" name="Morning Star" hidden="false" targetId="505c-f8fe-ee87-d4c3" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="2.0"/>
               </costs>
@@ -1386,6 +1500,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb4b-6f8e-5f82-155e" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="4042-b8f7-94d9-9356" name="Lance" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -1409,6 +1526,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a39c-88a5-0333-10b2" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="eabc-c8b4-6c03-27f2" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -1417,6 +1537,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3755-c3dd-1a7e-f752" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="6001-0667-a473-daca" name="Halberd" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -1432,6 +1555,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4621-b11f-827f-6c3b" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="33f5-ec08-2244-7dc7" name="Longbow" hidden="false" targetId="c45c-2383-8be2-1152" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
               </costs>
@@ -1448,6 +1574,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4909-4e4f-18d3-ee2b" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="e852-ac11-6298-0a20" name="Crossbow" hidden="false" targetId="cd70-2ed2-922d-0011" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
               </costs>
@@ -1562,6 +1691,21 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a9a0-1c19-1ce5-22e7" type="min"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0d84-a2cf-7d96-c08a" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="53f0-ac54-7631-1991" name="Paymaster" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">4</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="943d-81d5-3d5f-6f4d" name="Dogs of War" hidden="false" targetId="5e7e-36e5-c0bf-c57c" primary="false"/>
         <categoryLink id="7b37-a92c-2fe5-470c" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
@@ -1595,6 +1739,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46b8-ba11-cc53-4fb3" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="3d26-1697-606f-69e5" name="Morning Star" hidden="false" targetId="505c-f8fe-ee87-d4c3" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="2.0"/>
               </costs>
@@ -1610,6 +1757,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2ee-3b3f-6601-3f22" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="4e8f-83ac-55e5-6b7a" name="Lance" hidden="false" targetId="7154-2d01-2d5c-c06c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -1633,6 +1783,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7a8-6579-e85e-4a14" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="b927-b831-3c0a-a3e2" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -1641,6 +1794,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bab-23bf-426f-7993" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="0a74-b34e-9047-7159" name="Halberd" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -1656,6 +1812,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea7e-53bb-cd84-fd7d" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="2b35-b39a-dfcf-4c8a" name="Longbow" hidden="false" targetId="c45c-2383-8be2-1152" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
               </costs>
@@ -1672,6 +1831,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7212-4a27-bcdf-1597" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="2541-4ac1-b119-d6fb" name="Crossbow" hidden="false" targetId="cd70-2ed2-922d-0011" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
               </costs>
@@ -1819,6 +1981,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df9a-30f2-1acc-f73e" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9521-de30-7e3f-2f6a" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="ae76-9dbd-c6d1-9555" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1883,6 +2048,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8dd2-efe8-1298-b968" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f17b-b5c8-f065-8398" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="5321-f56c-890a-ef67" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1892,6 +2060,21 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5d2-39cc-ed41-db3a" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2a3-c219-0743-e7c9" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="6d1b-2159-3d67-8ac7" name="&apos;Ragged&apos; Ricco" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+                <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
+                <characteristic name="BS" typeId="22c7-799b-e07c-f32c">5</characteristic>
+                <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+                <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+                <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
+                <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
+                <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="72.0"/>
           </costs>
@@ -1959,6 +2142,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c89-e8da-fce9-2b29" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a848-513b-8231-fa50" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="fcb3-25d4-b655-702c" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -2023,6 +2209,21 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7606-dcf5-9b82-ea98" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5781-7289-8265-cd84" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="faa9-5605-72aa-d6ce" name="Roderigo Delmonte" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+                <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
+                <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
+                <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+                <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+                <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
+                <characteristic name="I" typeId="b418-0e30-644f-1435">4</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2</characteristic>
+                <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="44.0"/>
           </costs>
@@ -2032,6 +2233,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f53c-c283-4b43-5d39" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34f4-8cfc-6316-0172" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="98d9-5eb6-2820-5a6d" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -2157,10 +2361,7 @@
           </profiles>
           <rules>
             <rule id="2966-39b0-ac06-881c" name="Scimitar of Dakisir" hidden="false">
-              <description>Magic Weapon
-This scimitar is an heirloom of the tribal sheikhs of the Desert Dogs. It was forged centuries ago in the Kasbah of Dakisir, long ago sacked and ruined by the Undead. The blade is decorated with magical texts inlaid in gold.
-
-Thanks to his impressive weapon Sheikh Ahmed Shufti adds +1 Strength to blows he strikes and +2 Strength for blows struck in the turn in which he charges.</description>
+              <description>Thanks to his impressive weapon Sheikh Ahmed Shufti adds +1 Strength to blows he strikes and +2 Strength for blows struck in the turn in which he charges.</description>
             </rule>
           </rules>
           <costs>
@@ -2189,8 +2390,7 @@ Thanks to his impressive weapon Sheikh Ahmed Shufti adds +1 Strength to blows he
           </profiles>
           <rules>
             <rule id="26f5-8c00-4e9f-eb69" name="Black Banner of the Muktarhin" hidden="false">
-              <description>Magic Standard
-When calculating which side wins the combat, the banner adds+D3 to the Desert Dogs’ score.</description>
+              <description>When calculating which side wins the combat, the banner adds+D3 to the Desert Dogs’ score.</description>
             </rule>
           </rules>
           <costs>
@@ -2352,6 +2552,21 @@ Luca Brazanga is armed with a Hand Weapon, Pistol, Crossbow and Heavy Armour</de
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b14e-e87c-fcf7-8d8a" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6f1-947f-410c-b1a5" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="a3df-c159-8620-21e5" name="Voland" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+                <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
+                <characteristic name="BS" typeId="22c7-799b-e07c-f32c">5</characteristic>
+                <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+                <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+                <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
+                <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
+                <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="99.0"/>
           </costs>
@@ -2361,6 +2576,9 @@ Luca Brazanga is armed with a Hand Weapon, Pistol, Crossbow and Heavy Armour</de
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7245-570e-40b0-7f87" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6a7-b5c4-2a11-0ea8" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="b55e-62b5-904f-c3cf" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -2424,6 +2642,21 @@ Luca Brazanga is armed with a Hand Weapon, Pistol, Crossbow and Heavy Armour</de
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ad2-19dd-274d-bde4" type="min"/>
             <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcff-f72b-ddd4-38ed" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="9cdc-39d3-7807-b2c7" name="Hobgoblin" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+                <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
+                <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
+                <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
+                <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+                <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
+                <characteristic name="I" typeId="b418-0e30-644f-1435">2</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+                <characteristic name="Ld" typeId="bbad-d421-400b-87c1">6</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="15.0"/>
           </costs>
@@ -2451,6 +2684,9 @@ Luca Brazanga is armed with a Hand Weapon, Pistol, Crossbow and Heavy Armour</de
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e46-a10c-56a4-7119" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9444-2dc7-8057-c58a" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="0b59-5506-bfeb-06d2" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -2510,6 +2746,21 @@ Luca Brazanga is armed with a Hand Weapon, Pistol, Crossbow and Heavy Armour</de
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b6b-21e4-4274-8374" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2699-64a8-cdbc-2f3c" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="3fea-14e8-9d73-5ac0" name="Lumpin Croop" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+                <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
+                <characteristic name="BS" typeId="22c7-799b-e07c-f32c">5</characteristic>
+                <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
+                <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+                <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
+                <characteristic name="I" typeId="b418-0e30-644f-1435">6</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2</characteristic>
+                <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="55.0"/>
           </costs>
@@ -2519,6 +2770,21 @@ Luca Brazanga is armed with a Hand Weapon, Pistol, Crossbow and Heavy Armour</de
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a07-8379-cac4-17d5" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d227-f0b3-115c-085f" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="8568-38f1-7df8-dd9f" name="Ned Hamfist" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+                <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">2</characteristic>
+                <characteristic name="BS" typeId="22c7-799b-e07c-f32c">5</characteristic>
+                <characteristic name="S" typeId="0c58-1252-962d-8fcc">2</characteristic>
+                <characteristic name="T" typeId="16d7-9f22-06d8-8427">2</characteristic>
+                <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
+                <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+                <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="7.0"/>
           </costs>
@@ -2528,6 +2794,9 @@ Luca Brazanga is armed with a Hand Weapon, Pistol, Crossbow and Heavy Armour</de
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="369e-980a-5483-6e67" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8da9-7b44-b6a0-03de" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="772d-ec3c-4f8b-4062" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -2599,6 +2868,9 @@ Luca Brazanga is armed with a Hand Weapon, Pistol, Crossbow and Heavy Armour</de
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="179c-2f4c-3708-c757" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e90d-4756-ba48-ba5b" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="0bbe-305b-1e56-f05d" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -2680,6 +2952,9 @@ Luca Brazanga is armed with a Hand Weapon, Pistol, Crossbow and Heavy Armour</de
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a937-0699-bd33-26c9" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9103-e396-3665-cb93" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="903c-df3b-d0ac-e8bd" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -2722,6 +2997,21 @@ Luca Brazanga is armed with a Hand Weapon, Pistol, Crossbow and Heavy Armour</de
           </conditions>
         </modifier>
       </modifiers>
+      <profiles>
+        <profile id="8930-41ae-b13c-872f" name="Asarnil the Dragonlord" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">7</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">7</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="1226-0685-a18b-9860" name="New CategoryLink" hidden="false" targetId="a3af-995e-0cf1-7091" primary="true"/>
         <categoryLink id="8923-573c-7a3e-0cf7" name="Regiment of Renown" hidden="false" targetId="c51c-ed7d-9669-006f" primary="false"/>
@@ -2750,10 +3040,7 @@ Luca Brazanga is armed with a Hand Weapon, Pistol, Crossbow and Heavy Armour</de
           </profiles>
           <rules>
             <rule id="88a4-7bb2-6834-9021" name="Amulet of Dragonheart" hidden="false">
-              <description>Enchanted Item
-This amulet was one of the potent artefacts made by Caledor the Dragontamer for the Elven Dragon Princes. It is said that the gleaming gem hanging around Asarnil’s neck is a stone found at the heart of a mountain, blessed by Caledor the Dragontamer himself.
-
-The dazzling light of the Amulet of Dragonheart makes the shape of Asarnil and his Dragon appear blurry and vague, as if glanced through a haze. All missile attacks against Asarnil and his Dragon suffer a -1 to hit penalty.</description>
+              <description>The dazzling light of the Amulet of Dragonheart makes the shape of Asarnil and his Dragon appear blurry and vague, as if glanced through a haze. All missile attacks against Asarnil and his Dragon suffer a -1 to hit penalty.</description>
             </rule>
           </rules>
           <costs>
@@ -2857,16 +3144,101 @@ In addition, if rolling on the Monster Reaction chart for Deathfang add +1 to th
       </profiles>
       <rules>
         <rule id="abcd-4900-3b39-b338" name="Small Calibre" hidden="false">
-          <description>The maximum range you can guess is 24&quot;. The shots are Strength 7, D3 wounds, no Armour save.</description>
+          <description>The maximum range you can guess is 24&quot;. The shots are Strength 7, D3 wounds, no Armour save.
+
+Rapid Movement
+
+The Galloper Gun is harnessed to a warhorse ridden by one of the gunners. This enables the Gun and its entire crew to move 8&quot; (the remaining crew are assumed to jump on the harness and hitch a lift).
+The Galloper Guns may march move. 
+If the Galloper Gun is charged, the crew may hold or flee. If they flee, the Gun is assumed to be limbered up immediately without any movement penalty. If the Gun and crew are caught, they are destroyed.
+
+Close Combat
+
+The crew fight in hand-to-hand combat as normal. The mounted gunner fights as normal from horseback.
+
+Deployment
+
+The Guns are deployed as separate teams, each Gun and its crew operating as an independent unit. Bronzino must be deployed together with one team, but he can then ride from one team to another or operate on his own as a separate character. When he joins a team, he follows the normal rules for characters joining war machines.</description>
         </rule>
         <rule id="6f24-a681-3a27-f750" name="Rapid Movement" hidden="false">
-          <description>The Galloper Gun is harnessed to a warhorse ridden by one of the gunners. This enables the Gun and its entire crew to move 8&quot; (the remaining crew are assumed to jump on the harness and hitch a lift). The Galloper Guns may march move. If the Galloper Gun is charged, the crew may hold or flee. If they flee, the Gun is assumed to be limbered up immediately without any movement penalty. If the Gun and crew are caught, they are destroyed.</description>
+          <description>The maximum range you can guess is 24&quot;. The shots are Strength 7, D3 wounds, no Armour save.
+
+Rapid Movement
+
+The Galloper Gun is harnessed to a warhorse ridden by one of the gunners. This enables the Gun and its entire crew to move 8&quot; (the remaining crew are assumed to jump on the harness and hitch a lift).
+The Galloper Guns may march move. 
+If the Galloper Gun is charged, the crew may hold or flee. If they flee, the Gun is assumed to be limbered up immediately without any movement penalty. If the Gun and crew are caught, they are destroyed.
+
+Close Combat
+
+The crew fight in hand-to-hand combat as normal. The mounted gunner fights as normal from horseback.
+
+Deployment
+
+The Guns are deployed as separate teams, each Gun and its crew operating as an independent unit. Bronzino must be deployed together with one team, but he can then ride from one team to another or operate on his own as a separate character. When he joins a team, he follows the normal rules for characters joining war machines.</description>
         </rule>
         <rule id="35f5-4621-e0e0-d7f2" name="Deployment" hidden="false">
-          <description>The Guns are deployed as separate teams, each Gun and its crew operating as an independent unit. Bronzino must be deployed together with one team, but he can then ride from one team to another or operate on his own as a separate character. When he joins a team, he follows the normal rules for characters joining war machines.</description>
+          <description>In most scenarios, all the war machines in your army must be deployed at one time. They don&apos;t have to be deployed near each other, and there are no battery rules. Characters can be deployed with them when your characters are put on the table (such as Dwarf or Empire Engineers), not when the war machines are set up.
+
+War machines (or anyone else for that matter) cannot be deployed in impassable terrain. Now, this is where arguments start, as players think that different types of scenery would be impassable to war machines - we&apos;ve probably all heard someone say, &quot;How did that cannon get on top of that tower then? Air-lifted by Griffon was it?&quot; or similar. As with all terrain, there are no hard and fast rules to apply because people&apos;s collections can vary so much. However, it is always a good idea to go over the different scenery pieces on the battlefield before the game starts and say what type is what. Whilst doing this, it is worthwhile agreeing any areas where you feel war machines cannot deploy, thus saving debates once half your army is down and your whole deployment is based around setting up your Volley Gun in those rocks.</description>
         </rule>
         <rule id="9e26-c77c-33ec-abcc" name="Close Combat" hidden="false">
-          <description>The crew fight in hand-to-hand combat as normal. The mounted gunner fights as normal from horseback.</description>
+          <description>Once Shooting has been resolved it is time to deal with the brutal cut and thrust of close combat, hand-to-hand fighting or melee, as it&apos;s sometimes called. Once engaged in close combat, units cannot move or shoot missile weapons, they must stand toe-to-toe with their enemy until one side is destroyed or forced to flee. Regardless of which player&apos;s turn it is, all models that are in contact with the enemy must fight. The Close Combat phase is therefore an exception to the normal turn sequence in that both sides take part in the fighting.
+
+Like the Movement phase, the Close Combat phase follows a set order or sequence as outlined below.
+
+1. Fight Combats - Each unit involved in combat fights as explained in the rules that follow. Fight all the combats before working out results.
+2. Results - Work out which side has won each combat and by how much. The losing side will have lost by 1, 2 or more &apos;points&apos; as explained later.
+3. Break Tests - Each unit that loses in combat must take a Break test. Any units failing their Break test are deemed &apos;broken&apos; and a note is made or models are turned round to show this. Take all Break tests now.
+4. Panic Tests - If any friendly units have broken then units nearby must take a Panic test as described in the Psychology section. Take any required Panic tests now.
+5. Flee! - Units which have broken or failed their Panic test must flee away from their enemy. Move all newly fleeing troops now.
+6. Pursue - Units whose enemies have broken and fled that turn are allowed to pursue them and might possibly catch and destroy them.
+7. Redress Ranks - At the end of the Close Combat phase, formations are tidied up ready for the next phase.
+
+Contents
+
+- Combats
+- Who Strikes First
+- Which Models Fight
+- Hitting the Enemy
+- Cavalry (Close Combat)
+- Defended Obstacles
+- Wound (Close Combat)
+- Weapons Modifiers
+- Saves (Close Combat)
+- Regeneration and Killing Blow
+- Removing Casualties (Close Combat)
+- Excess Casualties
+- Results
+- Combat Results
+- Combat Resolution Bonuses
+- Outnumbering
+- Challenges (Combat Resolution)
+- Order of Combat Resolution
+- Losers Take a Break Test
+- Panic Tests for Breaks
+- Fleeing Troops
+- Move Fleeing Troops
+- Subsequent Actions of Fleeing Troops
+- Rallying (Close Combat)
+- Rally Test
+- Pursuit
+- Pursuit Move
+- Pursuit into Fresh Enemy
+- Pursuit into Enemy Chargers
+- Restraining Pursuit
+- Pursuit Off the Table
+- Redress the Ranks
+- Fleeing Units
+- Units Taking Casualties
+- Expand Frontage
+- Lapping Round
+- Combat Bonuses
+- Defeat in Combat
+- Which Models Can Fight
+- Overrun Rule
+- Overrun
+- Overrun Direction</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3012,7 +3384,7 @@ In addition, if rolling on the Monster Reaction chart for Deathfang add +1 to th
                 <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
                 <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
                 <characteristic name="I" typeId="b418-0e30-644f-1435">3</characteristic>
-                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
                 <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
               </characteristics>
             </profile>
@@ -3041,23 +3413,20 @@ In addition, if rolling on the Monster Reaction chart for Deathfang add +1 to th
       </modifiers>
       <rules>
         <rule id="3aaa-0c38-d683-5ca5" name="Giants of Albion" hidden="false">
-          <description>Cachtorr and Bologs are large targets and cause terror.
+          <description>Cachtorr and Bologs are  large targets and cause terror.
 
 Note that, although named, Cachtorr and Bologs do NOT count as being characters. Giants treat obstacles like open ground, but are prone to falling. Roll a D6 if they cross an obstacle or lose a round of combat. If you roll a 1 the Giant has fallen and can squash those underneath. Use the Scatter dice to see which direction he falls in, and the model itself as a template. Those underneath take a single S5 hit which causes D3 wounds. Giants may not attack and are hit automatically in hand-to-hand combat whilst on the ground. They are automatically killed if they break from combat while on the ground. It takes a Giant one turn to stand up. Giants also fall over when they die.
 
 In close combat you must roll a dice each round to determine what the Giant will do that turn. Against other large targets:
 
-On a roll of 1-3 Giants will Yell and Bawl (Giant does not attack, but enemy side automatically loses the fight by 2)
-
-On the roll of a 4-6 they will &apos;Eadbutt (D6 S6 hits, randomised like missile fire for ridden monsters)
+- On a roll of 1-3 Giants will Yell and Bawl (Giant does not attack, but enemy side automatically loses the fight by 2)
+- On the roll of a 4-6 they will &apos;Eadbutt (D6 S6 hits, randomised like missile fire for ridden monsters)
 
 Against smaller opponents:
 
-Giants will Yell and Bawl on the roll of a 1-2
-
-On the roll of a 3-4 they will Jump Up and Down (2D6 S6 hits on unit, randomised like missile fire, but first test to fall over – see above)
-
-On the roll of a 5-6 they will Swing With Club (D6 S6 hits on unit, randomised like missile fire).</description>
+- Giants will Yell and Bawl on the roll of a 1-2
+- On the roll of a 3-4 they will Jump Up and Down (2D6 S6 hits on unit, randomised like missile fire, but first test to fall over – see above)
+- On the roll of a 5-6 they will Swing With Club (D6 S6 hits on unit, randomised like missile fire).</description>
         </rule>
         <rule id="0fe2-5e8a-fc04-708a" name="Independent Models" hidden="false">
           <description>Hengus, Cachtorr and Bologs are individual models and move independently, though they may not join regiments. The enemy is awarded Victory points separately for each model slain. Hengus is worth 100 points and each Giant is worth 175 points.</description>
@@ -3217,6 +3586,21 @@ On the roll of a 5-6 they will Swing With Club (D6 S6 hits on unit, randomised l
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="066b-3354-b7ae-54d5" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d13-ac03-e2cc-9d21" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="3224-4a01-1653-f02b" name="Tichi-Huichi" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
+                <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
+                <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
+                <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+                <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+                <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
+                <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
+                <characteristic name="Ld" typeId="bbad-d421-400b-87c1">7</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="140.0"/>
           </costs>
@@ -3226,6 +3610,9 @@ On the roll of a 5-6 they will Swing With Club (D6 S6 hits on unit, randomised l
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8167-be25-d9b2-e4aa" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b2c-9280-555f-3970" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="9fe1-6039-4739-eec1" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -3311,6 +3698,9 @@ On the roll of a 5-6 they will Swing With Club (D6 S6 hits on unit, randomised l
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f99-3d96-6d82-031e" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39a4-2df1-bf14-5cef" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="b2f5-f744-21cb-1bce" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -3382,6 +3772,9 @@ On the roll of a 5-6 they will Swing With Club (D6 S6 hits on unit, randomised l
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8231-995b-70b0-14cd" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a5d-14cd-cebe-a9a9" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="5e0f-a521-4c12-e068" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -3471,9 +3864,7 @@ Beorg is a Were-Bear - he wears no armour and fights with his claws an teeth!</d
           </profiles>
           <rules>
             <rule id="ee24-7c1f-dacb-aef1" name="Bear Fang" hidden="false">
-              <description>Talisman
-This gigantic and ancient yellowed canine tooth is the sacred talisman of lordship amongst Beorg’s tribe. Beorg wears it about his neck.
-The talisman wards off blows that would otherwise harm its wearer, giving Beorg a Ward save of 4+.</description>
+              <description>The talisman wards off blows that would otherwise harm its wearer, giving Beorg a Ward save of 4+.</description>
             </rule>
           </rules>
           <costs>
@@ -3502,8 +3893,7 @@ The talisman wards off blows that would otherwise harm its wearer, giving Beorg 
           </profiles>
           <rules>
             <rule id="e783-fe37-bcb3-cbec" name="Bear Banner" hidden="false">
-              <description>Magic Standard
-Oerl carries the tribe’s totem into battle – an entire bear skin whose grizzly head leers out from the top. The skin’s power is immense, driving the warriors into a fury that is almost impossible to stop. To represent this, the entire unit receives a +1 to hit bonus in the initial round of each hand-to-hand combat.</description>
+              <description>Oerl carries the tribe’s totem into battle – an entire bear skin whose grizzly head leers out from the top. The skin’s power is immense, driving the warriors into a fury that is almost impossible to stop. To represent this, the entire unit receives a +1 to hit bonus in the initial round of each hand-to-hand combat.</description>
             </rule>
           </rules>
           <costs>
@@ -3625,10 +4015,24 @@ Oerl carries the tribe’s totem into battle – an entire bear skin whose grizz
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc35-ea25-2fa6-099f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e04e-52b1-d7db-d7af" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="f42c-33d9-c5a8-bc1e" name="Vespero" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+                <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
+                <characteristic name="BS" typeId="22c7-799b-e07c-f32c">5</characteristic>
+                <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+                <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+                <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
+                <characteristic name="I" typeId="b418-0e30-644f-1435">6</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
+                <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <rules>
             <rule id="cd60-5ab3-c25f-7b9b" name="Grimacing Death Mask" hidden="false">
-              <description>Enchanted Item
-The mask, which represents the grimacing face of death, is the last thing Vespero’s duelling opponents see before they meet their sudden end. To represent the scarifying effect of the mask, Vespero causes fear in the enemy.</description>
+              <description>The mask, which represents the grimacing face of death, is the last thing Vespero’s duelling opponents see before they meet their sudden end. To represent the scarifying effect of the mask, Vespero causes fear in the enemy.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3686,8 +4090,7 @@ The mask, which represents the grimacing face of death, is the last thing Vesper
       </profiles>
       <rules>
         <rule id="9de6-b22b-a631-cc2f" name="The Spiral" hidden="false">
-          <description>The symbol of the Dark Master and a feared sign of damnation. Few enemies dare look upon it.
-5+ Ward Save.</description>
+          <description>5+ Ward save.</description>
         </rule>
         <rule id="0a54-71dc-cf52-ca45" name="For Hire (Dark Emissary)" hidden="false">
           <description>A Dark Emissary can be hired as a Dogs of War unit. They may be hired by Dark Elves, Skaven, Chaos (all types including armies with a daemonic general), Vampire Counts, Tomb Kings, Dwarfs, Empire, Bretonnia (this is an exception to the normal rule), Dogs of War and Orcs &amp; Goblins.
@@ -3816,9 +4219,7 @@ The Bolt is a magic missile with a range of up to 18&quot;. If successfully cast
       </profiles>
       <rules>
         <rule id="3b4f-d515-95a2-a5b3" name="The Triskele" hidden="false">
-          <description>The magical symbol of their office, it also focuses positive energies onto Truthsayers, protecting them from harm.
-
-4+ Ward save.</description>
+          <description>4+ Ward save.</description>
         </rule>
         <rule id="f59e-e12e-9a2d-a307" name="For Hire (Truthsayer)" hidden="false">
           <description>A Truthsayer can be hired as a Dogs of War unit. They may be hired by Lizardmen, High Elves, Wood Elves, Dwarfs, Tomb Kings, Empire, Bretonnia (this is an exception to the normal rule), Dogs of War and Orcs &amp; Goblins.
@@ -3828,49 +4229,7 @@ A Truthsayer costs 265 points and uses up both a Rare choice and a Hero choice.
 If fighting alongside a Dwarf army containing an Anvil of Doom make two separate pools of Power dice in your own Magic phase: one pool to be used with the Anvil (D6+2 dice) and one to be used by the Truthsayer (two dice plus three for his Level). In your opponent&apos;s Magic phase, you can group all your Dispel dice into a single pool.</description>
         </rule>
         <rule id="3a09-57ec-3385-511b" name="Truthsayer Spell List" hidden="false">
-          <description>Elemental Power (Signature Spell)
-Casting Value: 6+
-Fenbeasts are elemental creatures which thrive on the magic which suffuses the isle of Albion. This can be boosted by magical energy from the Truthsayer or Dark Emissary.
-
-As well as their normal spells, Truthsayers and Dark Emissaries also have the Elemental Power spell, which is only of use on Fenbeasts. Pick a single Fenbeast within 18&quot; of the caster. The Fenbeast immediately gains D3 Wounds, up to its starting value of 4.
-
-1. Wings of Fate
-Casting Value: 5+
-The Truthsayer conjures a flock of enchanted birds to attack his enemies.
-
-The flock is a magic missile with a range of up to 24&quot;. If successfully cast, the flock hits its target and causes 2D6 Strength 2 hits.
-
-2. Light of Battle
-Casting Value: 6+
-A chosen regiment of warriors is protected by a shimmering barrier that deflects enemy missiles and blows.
-
-This spell can be cast on one friendly unit anywhere on the battlefield, even if engaged in close combat. All models in the unit receive a 5+ Ward save until the beginning of the caster&apos;s next turn.
-
-3. Gift of Life
-Casting Value: 7+
-Dying warriors that are lying broken on the battlefield are granted a new chance, their bodies are healed of all wounds and their strength is returned to them.
-
-Each unit in the player&apos;s army is given back one model that has been removed as a casualty during the game. The model is placed back in its original unit, with its full complement of Wounds. The spell has no effect on units that have been destroyed or fled off the table. All characters, chariots and models with 4 or more Wounds on their profile who have been wounded get one lost Wound back. This spell has no effect on war machines (but it can restore a lost crew member).
-
-4. Blessing of Valour
-Casting Value: 8+
-The prayers of the Truthsayer are heeded in the heavens and his warriors are filled with the strength and skills of the gods of hunting and battle.
-
-Remains in play. This spell can be cast on a friendly unit which is anywhere on the battlefield, even if it is engaged in close combat. If successfully cast, all models that are in the unit get a bonus of +1 to all their rolls to hit (both shooting and close combat attacks). Once it is cast, the Blessing remains in play until it is dispelled, or until the Wizard chooses to end it (which he can do at any time), attempts to cast another spell or is slain.
-
-5. Boon of Courage
-Casting Value: 8+
-The warriors hear the commanding voice of the Truthsayer in their minds, calling upon their honour and bidding them to fight on, no matter how desperate their situation has become.
-
-This spell can be cast on one friendly unit anywhere on the battlefield, even if it is engaged in close combat. If successfully cast, the unit is Unbreakable until the beginning of the caster&apos;s next turn.
-
-If cast on a fleeing unit, the unit immediately rallies, regardless of how many models are left in it.
-
-6. Voice of Command
-Casting Value: 9+
-Hearing the booming voice of the Truthsayer, an enemy regiment suddenly stops in its tracks, doubt filling their minds, hesitation paralysing their limbs.
-
-This spell can be cast on any enemy unit on the table. The unit must immediately take a Leadership test. If the test is failed, the unit immediately loses all its fighting spirit. The affected unit cannot move in its next Movement phase (except if the unit is subject to some form of compulsory movement, such as fleeing, stupidity, etc). In addition, the unit cannot shoot in its next Shooting phase. This spell has no effect on models that are Immune to Psychology.</description>
+          <description>Truthsayers&apos; Spell List Lore</description>
         </rule>
         <rule id="9e89-884e-13a1-978f" name="Level 3 Wizard" hidden="false">
           <description>Truthsayers are Level 3 Wizards. They always use spells from the Truthsayer spell list.</description>
@@ -3925,7 +4284,7 @@ This spell can be cast on any enemy unit on the table. The unit must immediately
       </constraints>
       <rules>
         <rule id="e552-fcd6-6396-8fec" name="For Hire (Fenbeasts)" hidden="false">
-          <description>Any army that includes a Truthsayer or Dark Emissary may field one or more Fenbeasts as Dogs of War. Up to 3 Fenbeasts may be included as a single Rare choice. No army may include more than 3 Fenbeasts.</description>
+          <description>These rules state which armies the regiment can fight for and its position (Core, Special, Rare) in the relevant lists.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -4011,6 +4370,9 @@ This spell can be cast on any enemy unit on the table. The unit must immediately
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5de4-b1fb-4691-1104" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="f3ad-f07e-0090-799a" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
           </costs>
@@ -4026,6 +4388,9 @@ This spell can be cast on any enemy unit on the table. The unit must immediately
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6c9a-a18d-e859-5c6e" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="8a33-19f7-713d-5605" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
           </costs>
@@ -4127,7 +4492,7 @@ This spell can be cast on any enemy unit on the table. The unit must immediately
       <characteristics>
         <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">8</characteristic>
         <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
-        <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
+        <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
         <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
         <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
         <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>

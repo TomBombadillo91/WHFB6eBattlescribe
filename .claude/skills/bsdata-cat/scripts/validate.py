@@ -4,7 +4,8 @@
 Catches the mistakes BattleScribe itself only reports at load time (or, worse,
 silently swallows): dangling targetId/childId references, malformed or
 duplicated IDs, characteristics that do not match the game system's profile
-type, out-of-order child elements, and Deploy/ drifting from the root files.
+type, elements written under a parent that cannot hold them, out-of-order
+child elements, and Deploy/ drifting from the root files.
 
 Usage:
     python validate.py                  # every .cat + the .gst
@@ -344,6 +345,35 @@ def check_profiles(df: DataFile, gst: DataFile | None, rep: Report) -> None:
                           f"{el.get('name')!r}, expected {expected!r}")
 
 
+def container_for(ctag: str) -> str:
+    """The wrapper a stray child almost always belongs in: rule -> rules."""
+    return ctag[:-1] + "ies" if ctag.endswith("y") else ctag + "s"
+
+
+def check_parentage(df: DataFile, rep: Report) -> None:
+    """Reject a child element its parent has no slot for.
+
+    Out-of-order children are cosmetic -- BattleScribe rewrites them on save --
+    but a child under the wrong parent is invalid, and check_order used to skip
+    silently over exactly that case. A <rule> written straight into a
+    <selectionEntry> instead of into its <rules> container validated clean and
+    was only caught by reading the diff.
+    """
+    for parent in df.root.iter():
+        ptag = strip_ns(parent.tag)
+        order = CHILD_ORDER.get(ptag)
+        if not order:
+            continue
+        for child in parent:
+            ctag = strip_ns(child.tag)
+            if ctag in order:
+                continue
+            hint = container_for(ctag)
+            fix = f"; it belongs in <{hint}>" if hint in order else ""
+            rep.error(f"{df.where(child)}: <{ptag}> cannot contain <{ctag}>{fix}. "
+                      f"BattleScribe allows {' > '.join(order)}")
+
+
 def check_order(df: DataFile, rep: Report) -> None:
     for parent in df.root.iter():
         ptag = strip_ns(parent.tag)
@@ -475,6 +505,7 @@ def main() -> int:
         check_ids(df, rep)
         check_references(df, linked_scope(df, by_id, gst), catalogue_ids, rep)
         check_profiles(df, gst, rep)
+        check_parentage(df, rep)
         check_order(df, rep)
         check_header(df, gst, rep)
 

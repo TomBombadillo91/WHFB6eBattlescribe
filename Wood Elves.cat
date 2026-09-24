@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7bb5-70b8-0122-944c" name="Wood Elves" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7bb5-70b8-0122-944c" name="Wood Elves" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="4f0e-c683-4011-68a9" name="Magic Bow" hidden="true"/>
     <categoryEntry id="3fee-c6b4-de1c-b33e" name="Magic Arrows" hidden="false"/>
@@ -55,6 +55,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b28a-3329-1c47-909a" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="764b-fdfb-021a-c4c1" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="553b-adbf-d358-1b22" name="Longbow" hidden="false" targetId="c45c-2383-8be2-1152" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -168,6 +171,9 @@
                   </conditionGroups>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="6542-3bf7-7bed-7526" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -259,6 +265,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f2d-e77d-b0d8-9495" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09e3-3130-096c-7656" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="0cf8-9bef-29d2-d7e9" name="Longbow" hidden="false" targetId="c45c-2383-8be2-1152" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -365,6 +374,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4ed-357a-ed14-1d13" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a040-7e7c-694f-12b7" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="0e47-0693-1513-4a92" name="Longbow" hidden="false" targetId="c45c-2383-8be2-1152" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -497,6 +509,9 @@
                   </conditionGroups>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="4360-6a00-14e7-926e" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -602,6 +617,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c00-9c3b-7b46-b28b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2faa-6536-abaa-6ef9" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="ec8e-f465-d265-c0b3" name="Longbow" hidden="false" targetId="c45c-2383-8be2-1152" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -719,6 +737,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb85-a773-3d95-99b6" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f1c-9d42-7cfa-de75" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="a51d-c7c4-28f7-4d84" name="Longbows" hidden="false" targetId="c45c-2383-8be2-1152" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -727,6 +748,21 @@
           <constraints>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e294-1905-9349-688c" type="min"/>
           </constraints>
+          <profiles>
+            <profile id="c2f0-328d-e134-8195" name="Glade Guard" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
+                <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
+                <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
+                <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
+                <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+                <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
+                <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+                <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="12.0"/>
           </costs>
@@ -747,6 +783,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45b3-8d86-8d7b-ef68" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="7739-da5b-fd59-d368" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -852,6 +891,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4b1-c2de-1b18-aec1" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99cb-69f1-fe18-737e" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="682a-232e-1731-33fb" name="Longbows" hidden="false" targetId="c45c-2383-8be2-1152" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -881,6 +923,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e424-1d61-0ae4-d6f1" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="a72d-4b11-0cd2-51d7" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -970,6 +1015,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1eac-e516-48ae-0d76" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b52-de34-7ab1-4c34" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="9cb5-0b1a-9cb1-bc6b" name="Longbows" hidden="false" targetId="c45c-2383-8be2-1152" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -990,6 +1038,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51cf-90c3-b316-a5c5" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="7e8a-2b98-3e69-bb8b" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="9.0"/>
               </costs>
@@ -1060,7 +1111,7 @@
       </profiles>
       <rules>
         <rule id="9152-3fc7-c7a2-57b1" name="Bodyguard" hidden="false">
-          <description>When joined by a Wood Elf Highborn or Noble, a unit of Eternal Guard is Stubborn.</description>
+          <description>As long as the army&apos;s General is with this unit, the unit is Stubborn.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1084,6 +1135,21 @@
           <constraints>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f220-bd08-85e6-13eb" type="min"/>
           </constraints>
+          <profiles>
+            <profile id="e90c-69f7-9e45-46fa" name="Eternal Guard" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
+                <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
+                <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
+                <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
+                <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+                <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
+                <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+                <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="12.0"/>
           </costs>
@@ -1104,6 +1170,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8b4-7847-2330-1150" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="3c53-d5f6-7707-87f5" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -1285,6 +1354,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dd6-2abf-5ab3-bc15" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="6d8f-af02-ca66-7ec4" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="7.0"/>
               </costs>
@@ -1355,6 +1427,21 @@
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="032c-4ead-d5a0-b205" type="min"/>
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72ef-e8c0-12b5-8309" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="f073-9462-3b76-5595" name="Tree Kin" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
+                <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
+                <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
+                <characteristic name="S" typeId="0c58-1252-962d-8fcc">5</characteristic>
+                <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
+                <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+                <characteristic name="I" typeId="b418-0e30-644f-1435">3</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
+                <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="65.0"/>
           </costs>
@@ -1484,6 +1571,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6793-5328-026f-c0ae" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0611-51bb-312b-848a" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="e810-4ba8-d320-0f15" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -1575,13 +1665,9 @@
 Regardless of whether the Warhawk Riders choose to fall back or not, the enemy must take a Break test as normal. If the Warhawk Riders elect to remain in combat then work out the results of the Break test and any pursuits as normal. This special ability may only be used on a turn that Warhawk Riders charge.</description>
         </rule>
         <rule id="fc0d-e52a-5fec-1870" name="Flying Cavalry" hidden="false">
-          <description>These units follow the rules for Units of Flyers as described in the main Warhammer rulebook with the following exceptions:
-
-Flying Cavalry are Unit Strength 2.
-
-They receive +1 to their Armour save for being mounted.
-
-They are affected by spells, etc, that would affect cavalry.</description>
+          <description>- Flying Cavalry are Unit Strength 2.
+- They receive +1 to their Armour save for being mounted.
+- They are affected by spells, etc, that would affect cavalry.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1615,6 +1701,9 @@ They are affected by spells, etc, that would affect cavalry.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69c6-91f2-4e36-d69b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69f8-9ebf-77b1-4174" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="26a4-7fc4-88b2-96a7" name="Longbows" hidden="false" targetId="c45c-2383-8be2-1152" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1697,6 +1786,9 @@ They are affected by spells, etc, that would affect cavalry.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38ac-343a-20c8-4379" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="817a-96ba-35ca-2c65" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="a6de-59a0-04ba-6261" name="Longbows" hidden="false" targetId="c45c-2383-8be2-1152" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -1842,10 +1934,12 @@ They are affected by spells, etc, that would affect cavalry.</description>
       </profiles>
       <rules>
         <rule id="950c-148f-907d-3017" name="Spirit of Kurnous" hidden="false">
-          <description>Orion is Unbreakable. However, if he is beaten in combat, his essence will begin to fade. If Orion is beaten in combat, then for each point of combat resolution he loses by he also loses one wound. If Orion is within 6&quot; of a wood the number of wounds he loses is reduced by one (so, if he loses the combat by one and is within 6&quot; of a wood, he does not lose any wounds).</description>
+          <description>The spirit of Kurnous infuses Orion. He has no understanding of fear, pain merely feeds his anger and he will not stop until his enemies are dead beneath his hooves.
+
+Orion is Unbreakable. However, if he is beaten in combat, his essence will begin to fade. If Orion is beaten in combat, then for each point of combat resolution he loses by he also loses one wound. If Orion is within 6&quot; of a wood the number of wounds he loses is reduced by one (so, if he loses the combat by one and is within 6&quot; of a wood, he does not lose any wounds).</description>
         </rule>
         <rule id="8ecc-af94-c651-17f3" name="The Wild Hunt" hidden="false">
-          <description>In an army led by Orion, Wild Riders of Kurnous are a Core choice. An army led by Orion must include at least one unit of Wild Riders. In addition, in an army led by Orion, Glade Guard and Scouts count as Special units, and Waywatchers may not be taken at all.</description>
+          <description>As long as they have a Musician, when a unit of Wild Riders charges it causes fear until the start of the next Wood Elf turn.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1867,7 +1961,9 @@ They are affected by spells, etc, that would affect cavalry.</description>
           </constraints>
           <rules>
             <rule id="036c-62e4-db90-ad58" name="Horn of the Wild Hunt" hidden="false">
-              <description>One use only. The first time Orion declares a charge, he sounds the Horn of the Wild Hunt. All enemies within 18&quot; of him (before he starts his charge move) must take a Panic test.</description>
+              <description>Orion carries an enormous hunting horn, crafted from the horn of a mighty forest creature. All who hear the blaring horn of Orion are filled with fear.
+
+One use only. The first time Orion declares a charge, he sounds the Horn of the Wild Hunt. All enemies within 18&quot; of him (before he starts his charge move) must take a Panic test.</description>
             </rule>
           </rules>
           <costs>
@@ -1937,7 +2033,9 @@ They are affected by spells, etc, that would affect cavalry.</description>
           </constraints>
           <rules>
             <rule id="b54a-3527-3600-784b" name="Cloak of Isha" hidden="false">
-              <description>The Cloak of Isha adds two Dispel dice to the Wood Elf Dispel dice pool.</description>
+              <description>The Cloak of Isha wards off evil magics and is woven from the leaves of the sacred rowan trees of the Grove of Isha by Ariel herself.
+
+The Cloak of Isha adds two Dispel dice to the Wood Elf Dispel dice pool.</description>
             </rule>
           </rules>
           <costs>
@@ -2233,7 +2331,9 @@ They are affected by spells, etc, that would affect cavalry.</description>
           </constraints>
           <rules>
             <rule id="a721-f4f1-2d29-400e" name="A Murder of Spites" hidden="false">
-              <description>The model gains +D6 attacks in close combat. These are worked out at the bearer&apos;s WS, and have an Initiative of 4 and a Strength of 2. In addition, these attacks count as magical, and are Poisoned Attacks.</description>
+              <description>Spites are vicious manifestations that take countless varied forms. Some have barbed, thorn-like limbs and razor sharp talons, others take the form of diminutive winged figures armed with tiny weapons. Some seem to be all teeth and talons, while others may hide their viciousness behind a façade of innocence and beauty. They hide within the cloaks of their hosts, or within the cracks and hollows of ancient Treemen, peeping out maliciously and ready to attack any who draw near.
+
+The model gains +D6 attacks in close combat. These are worked out at the bearer&apos;s WS, and have an Initiative of 4 and a Strength of 2. In addition, these attacks count as magical, and are Poisoned Attacks.</description>
             </rule>
           </rules>
           <costs>
@@ -2261,7 +2361,9 @@ They are affected by spells, etc, that would affect cavalry.</description>
           </constraints>
           <rules>
             <rule id="2ace-b1ac-6821-69cd" name="An Annoyance of Netlings" hidden="false">
-              <description>In a challenge, any enemy attempting to strike a character with an Annoyance of Netlings will only hit on 6s.</description>
+              <description>These spites commonly take the form of spider-like creatures, scurrying over their host with feverish abandon. Any enemy that attempts to strike a being that is under the protection of Netlings is likely to find their weapon snagged in a web of magical filaments.
+
+In a challenge, any enemy attempting to strike a character with an Annoyance of Netlings will only hit on 6s.</description>
             </rule>
           </rules>
           <costs>
@@ -2410,7 +2512,9 @@ They are affected by spells, etc, that would affect cavalry.</description>
               </constraints>
               <rules>
                 <rule id="ab7b-4804-59b4-9d15" name="Armour of the Fey" hidden="false">
-                  <description>Counts as light armour (6+ Armour Save)that can be combined with other equipment as normal. Against any magical close combat attacks, the wearer receives a 4+ Ward Save.</description>
+                  <description>In Bretonnia, there are tales of a solitary Elf knight who, when brought to battle, could not be slain, for his armour kept him safe against the lances and magical blades of his foes. Ultimately, so the tale recounts, this knight was slain by a peasant woman whom he had lured away from her family - his throat cut by a simple knife.
+
+Counts as light armour (6+ Armour Save)that can be combined with other equipment as normal. Against any magical close combat attacks, the wearer receives a 4+ Ward Save.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -2435,7 +2539,9 @@ They are affected by spells, etc, that would affect cavalry.</description>
               </constraints>
               <rules>
                 <rule id="d256-6ddd-a46e-36e8" name="Briarsheath" hidden="false">
-                  <description>Characters on foot only. Counts as light armour (6+ Armour Save) that can be combined with other equipment as normal. Enemies wishing to target the model wearing the Briarsheath with a shooting attack suffer an additional -1 to hit penalty. This is increased to -2 if the wearer is within a wood.</description>
+                  <description>The writhing thorns and brambles of this armour work their way into the bearer&apos;s surroundings, rendering him invisible to all but the most observant foe.
+
+Characters on foot only. Counts as light armour (6+ Armour Save) that can be combined with other equipment as normal. Enemies wishing to target the model wearing the Briarsheath with a shooting attack suffer an additional -1 to hit penalty. This is increased to -2 if the wearer is within a wood.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -2491,7 +2597,9 @@ They are affected by spells, etc, that would affect cavalry.</description>
               </constraints>
               <rules>
                 <rule id="8a7f-be63-7ca7-f842" name="The Oaken Armour" hidden="false">
-                  <description>Counts as light armour (6+ Armour Save) that can be combined with other equipment as normal. The Oaken Armour gives the wearer the Regeneration ability.</description>
+                  <description>Said to have been crafted by Daith himself, this armour binds the lifeforce of its bearer to that of Athel Loren, keeping them safe from harm.
+
+Counts as light armour (6+ Armour Save) that can be combined with other equipment as normal. The Oaken Armour gives the wearer the Regeneration ability.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -3079,7 +3187,9 @@ They are affected by spells, etc, that would affect cavalry.</description>
           </constraints>
           <rules>
             <rule id="eee2-f0ba-247d-e1c2" name="Arcane Bodkins" hidden="false">
-              <description>Magic arrows. No Armour Saves are allowed against Arcane Bodkins.</description>
+              <description>Whether plate, chain, or unnatural hide, no armour can shield against the enchantments that permeate these deadly barbs - if the firer&apos;s aim is true, the target is doomed.
+
+Magic arrows. No Armour Saves are allowed against Arcane Bodkins.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3394,7 +3504,9 @@ They are affected by spells, etc, that would affect cavalry.</description>
           </constraints>
           <rules>
             <rule id="dd22-2c60-734e-0fb4" name="Saemrath - the Banner of Zenith" hidden="false">
-              <description>The distance at which enemy models are prevented from marching by this unit is increased from 8&quot; to 12&quot;.</description>
+              <description>The Banner of the Zenith is said to reflect a portion of the radiance of the Lady Ariel, for it shines with such purity that none who mean harm to the Asrai may approach it.
+
+The distance at which enemy models are prevented from marching by this unit is increased from 8&quot; to 12&quot;.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -3447,7 +3559,9 @@ They are affected by spells, etc, that would affect cavalry.</description>
               </constraints>
               <rules>
                 <rule id="7db1-7629-1b42-cba7" name="Wand of Wych Elm" hidden="false">
-                  <description>This staff allows any Dispel attempt to be re-rolled.</description>
+                  <description>A stave fashioned from the innately magical Wych Elm tree is a much sought-after tool. With it, a mage can bend the winds of magic more freely to his will.
+
+This staff allows any Dispel attempt to be re-rolled.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -3725,7 +3839,7 @@ They are affected by spells, etc, that would affect cavalry.</description>
           </profiles>
           <rules>
             <rule id="05d3-f1f1-f130-5160" name="Impale" hidden="false">
-              <description>When a unicorn charges into combat it receives +2 to its Strength.</description>
+              <description>This model has a +1 Strength bonus when charging.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3770,7 +3884,11 @@ They are affected by spells, etc, that would affect cavalry.</description>
           </modifiers>
           <rules>
             <rule id="2178-5fe1-efa5-9795" name="Wardancer Kindred" hidden="false">
-              <description>The character loses their longbow, but gains the special rules Wardancer Weapons, Shadow Dances of Loec, Immune to Psychology and Talismanic Tattoos.
+              <description>Wood Elf Highborn: +50 points
+
+Wood Elf Noble: +30 points
+
+The character loses their longbow, but gains the special rules Wardancer Weapons, Shadow Dances of Loec, Immune to Psychology and Talismanic Tattoos.
 
 Wardancer characters may not wear any armour or be given magical weapons that are not classed as Wardancer Weapons. The character must fight on foot and cannot join any units except Wardancers - if they join a unit of Wardancers, then both the unit and the character(s) must use the same Shadow Dance.</description>
             </rule>
@@ -3805,7 +3923,11 @@ Wardancer characters may not wear any armour or be given magical weapons that ar
           </modifiers>
           <rules>
             <rule id="4316-a216-a1c8-09d0" name="Eternal Kindred" hidden="false">
-              <description>A character from an Eternal Kindred benefits from the Eternal Guard Fighting Style special rule, though this is lost if they choose any Magic Weapons or Magic Armour.</description>
+              <description>Wood Elf Highborn: +10 points
+
+Wood Elf Noble: +5 points
+
+A character from an Eternal Kindred benefits from the Eternal Guard Fighting Style special rule, though this is lost if they choose any Magic Weapons or Magic Armour.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3835,7 +3957,11 @@ Wardancer characters may not wear any armour or be given magical weapons that ar
           </modifiers>
           <rules>
             <rule id="4494-1bb5-f756-f77f" name="Alter Kindred" hidden="false">
-              <description>The character&apos;s Movement and Initiative are increased to 9 and his Attacks are increased by 1. However, he must fight on foot. A character from the Kindred of Laith-Kourn may not be the army general, nor may he join a unit.</description>
+              <description>Wood Elf Highborn: +35 points
+
+Wood Elf Noble: +25 points
+
+The character&apos;s Movement and Initiative are increased to 9 and his Attacks are increased by 1. However, he must fight on foot. A character from the Kindred of Laith-Kourn may not be the army general, nor may he join a unit.</description>
             </rule>
           </rules>
           <costs>
@@ -3862,7 +3988,11 @@ Wardancer characters may not wear any armour or be given magical weapons that ar
           </modifiers>
           <rules>
             <rule id="22d3-357d-27f7-517f" name="Scout Kindred" hidden="false">
-              <description>The character gains the Scout special rule. However, the character must fight on foot, and may not carry a great weapon.</description>
+              <description>Wood Elf Highborn: +25 points
+
+Wood Elf Noble: +15 points
+
+The character gains the Scout special rule. However, the character must fight on foot, and may not carry a great weapon.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3895,7 +4025,11 @@ Wardancer characters may not wear any armour or be given magical weapons that ar
           </constraints>
           <rules>
             <rule id="a966-eed4-894d-c6c2" name="Wild Rider Kindred" hidden="false">
-              <description>The character carries a spear and wears light armour. They may not choose any additional weapons or armour, though they may choose a magic spear or a suit of magical light armour to replace the respective item if they wish. They benefit from the Talismanic Tattoos, Fury of Kurnous and Forest Spirit special rules (and so may join units of Forest spirits). However, they must ride an Elven Steed or Great Stag (chosen at additional cost from the army list).</description>
+              <description>Wood Elf Highborn: +50 points
+
+Wood Elf Noble: +35 points
+
+The character carries a spear and wears light armour. They may not choose any additional weapons or armour, though they may choose a magic spear or a suit of magical light armour to replace the respective item if they wish. They benefit from the Talismanic Tattoos, Fury of Kurnous and Forest Spirit special rules (and so may join units of Forest spirits). However, they must ride an Elven Steed or Great Stag (chosen at additional cost from the army list).</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3927,7 +4061,11 @@ Wardancer characters may not wear any armour or be given magical weapons that ar
           </modifiers>
           <rules>
             <rule id="51e6-ab5f-aef8-e9db" name="Waywatcher Kindred" hidden="false">
-              <description>The character gains the special rules Lethal Shot and Forest Stalker. Note that the Lethal Shot rule only applies if the character is not using magical arrows or a magical bow. The character cannot wear any armour, carry a shield, nor carry any close combat weapon that requires two hands to use (such as a great weapon). Waywatcher characters must fight on foot.</description>
+              <description>Wood Elf Highborn: +45 points
+
+Wood Elf Noble: +35 points
+
+The character gains the special rules Lethal Shot and Forest Stalker. Note that the Lethal Shot rule only applies if the character is not using magical arrows or a magical bow. The character cannot wear any armour, carry a shield, nor carry any close combat weapon that requires two hands to use (such as a great weapon). Waywatcher characters must fight on foot.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3957,7 +4095,9 @@ Wardancer characters may not wear any armour or be given magical weapons that ar
           </constraints>
           <rules>
             <rule id="9621-edae-8a48-3151" name="Glamourweave Kindred" hidden="false">
-              <description>This character benefits from the Forest Spirit special rules (and so may join units of Forest Spirits). However, they must ride an Elven Steed or a Unicorn (chosen at an additional cost from the army list).</description>
+              <description>Spellweaver/Spellsinger: +20 points
+
+This character benefits from the Forest Spirit special rules (and so may join units of Forest Spirits). However, they must ride an Elven Steed or a Unicorn (chosen at an additional cost from the army list).</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3976,6 +4116,11 @@ Wardancer characters may not wear any armour or be given magical weapons that ar
       </constraints>
       <selectionEntries>
         <selectionEntry id="49b7-a7e4-e1f3-4387" name="Lore of Athel Loren" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="634b-b6d2-7175-d488" name="Lore of Athel Loren" hidden="false">
+              <description>The Lore of Athel Loren Lore</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -4020,15 +4165,19 @@ Wardancer characters may not wear any armour or be given magical weapons that ar
       <description>In each round of combat that they fight, Wardancers must choose one of the following Shadow Dances to perform. They cannot choose the same dance in two consecutive turns of the same combat engagement.
 
 Whirling Death
+
 Each strike of a Wardancer&apos;s blade is made with uncanny precision, capable of severing a head or piercing a heart with one deceptively elegant stroke. While performing this dance, the Wardancers have the Killing Blow special rule.
 
 Storm of Blades
+
 The Wardancers rain blow after blow upon their opponent, moving with such speed that the eye cannot follow each distinct cut and thrust. While they perform this dance, each model in the unit is granted + 1 Attack.
 
 The Shadows Coil
+
 With agile grace the Wardancers evade the clumsy attacks of their enemies, becoming almost impossible to strike. While performing this dance, the Wardancers have a 4+ Ward Save.
 
 Woven Mist
+
 The sinuous movements of this dance distract and confuse the enemy, allowing the Wardancers to strike before their foe can react. When performing this dance, each Wardancer reduces his or her total attacks by one but always strikes first in combat. If their opponent also has this ability, resolve attacks in Initiative order.</description>
     </rule>
     <rule id="302f-b741-1452-4688" name="Talismanic Tattoos" hidden="false">
@@ -4038,10 +4187,14 @@ The sinuous movements of this dance distract and confuse the enemy, allowing the
       <description>All non-magical arrows shot by models with the Lethal Shot special rule have the Killing Blow ability at short range.</description>
     </rule>
     <rule id="ceb4-6d9c-1fae-35da" name="Forest Stalkers" hidden="false">
-      <description>Either place them exactly like Scouts, but with no minimum distance between them and the enemy, or place them in sight of the enemy (even in the open), but more than 12&quot; away from them.</description>
+      <description>Clad in carefully woven raiments designed to help them vanish into the background, Waywatchers are almost impossible to spot. This means that the enemy suffers an additional -1 to hit modifier when shooting at them. In addition, Waywatchers are able to sneak up extremely close to their foes. Waywatchers are deployed at the same time as Scouts, and can be placed in one of two ways.
+
+Either place them exactly like Scouts, but with no minimum distance between them and the enemy, or place them in sight of the enemy (even in the open), but more than 12&quot; away from them.</description>
     </rule>
     <rule id="2e86-6d3c-f3a9-992a" name="The Fury of Kurnous" hidden="false">
-      <description>On any round of combat in which the Wild Riders did not charge they gain +1 Attack.</description>
+      <description>In combat, the spirit of Kurnous imbues the Wild Riders with deadly vigour.
+
+On any round of combat in which the Wild Riders did not charge they gain +1 Attack.</description>
     </rule>
     <rule id="5334-072a-d5f4-0ffd" name="Magic Arrows" hidden="false">
       <description>The Wood Elves make use of magic arrows. Magic arrows may be fired by normal or magic bows, with any exceptions noted. These arrows are counted as magical, and it is assumed that the a character has enough arrows to last the entire battle, unless stated otherwise.</description>
@@ -4066,15 +4219,10 @@ The sinuous movements of this dance distract and confuse the enemy, allowing the
     <infoGroup id="fbc1-98db-5307-258b" name="Forest Spirit" hidden="false">
       <rules>
         <rule id="2218-f830-140b-b798" name="Forest Spirit" hidden="false">
-          <description>The following rules apply to all creatures with the Forest Spirit special rule.
-
-Non-Forest Spirits may not join a Forest Spirit unit and vice versa. Treeman Ancients may never join units.
-
-Forest Spirits have a 5+ Ward Save. However, this save cannot be used against magical attacks (spells, magic weapons etc).
-
-All attacks by Forest Spirits count as being magical. This includes any special or ranged attacks they may have.
-
-Forest Spirits are Immune to Psychology.</description>
+          <description>- Non-Forest Spirits may not join a Forest Spirit unit and vice versa. Treeman Ancients may never join units.
+- Forest Spirits have a 5+ Ward Save. However, this save cannot be used against magical attacks (spells, magic weapons etc).
+- All attacks by Forest Spirits count as being magical. This includes any special or ranged attacks they may have.
+- Forest Spirits are Immune to Psychology.</description>
         </rule>
       </rules>
       <infoLinks>

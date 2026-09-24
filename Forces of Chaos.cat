@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="23" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="e8a8-d83e-c60c-3ad0" name="Hordes of Chaos"/>
     <publication id="dc3a-2511-d23a-deb3" name="Beasts of Chaos"/>
@@ -259,6 +259,9 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="f34c-544d-6948-c612" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="ddc7-2775-6864-bd84" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -432,6 +435,9 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="9e3a-f90e-180e-e97f" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="bf98-860c-3925-9267" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -1041,6 +1047,9 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="b5ce-6486-cbc9-a687" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="f1f3-c555-fd12-1f71" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="8.0"/>
               </costs>
@@ -1224,6 +1233,9 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="b570-195b-fec4-6164" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="6ca9-ed4e-9674-1bad" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -1234,11 +1246,17 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="b263-c73d-0e94-fef9" name="Halberd" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="cac9-b142-757d-0d2c" name="Halberd" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0c66-4c65-8ab0-5069" name="Flail" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="1b83-980f-04c0-598c" name="Flail" hidden="false" targetId="dad4-d7e5-09e8-3819" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="3.0"/>
               </costs>
@@ -1401,6 +1419,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd50-ba0c-720f-6982" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="1867-b99e-b83c-909e" name="Wizard Level" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="40.0"/>
           </costs>
@@ -1588,6 +1609,8 @@
         </profile>
       </profiles>
       <infoLinks>
+        <infoLink id="cf3e-0bdb-07e3-1618" name="Cloud of Flies" hidden="false" targetId="6b50-10ca-dd27-c712" type="rule"/>
+        <infoLink id="14f5-c447-f51d-172a" name="Stream of Corruption" hidden="false" targetId="cbfe-f7e6-7263-846f" type="rule"/>
         <infoLink id="54f3-ce86-7501-2fe7" name="Terror" hidden="false" targetId="3767-0d81-4db9-cda7" type="rule"/>
         <infoLink id="b221-b861-a996-6c5f" name="Daemonic" hidden="false" targetId="1d2a-5ef7-5722-e7d5" type="infoGroup"/>
         <infoLink id="9498-6b75-bdf4-6d3c" name="Large Target" hidden="false" targetId="01c3-c8c6-431f-1c2b" type="rule"/>
@@ -1673,7 +1696,7 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="0c60-db77-e55b-629a" name="Keeper of Secrets" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+        <profile id="0c60-db77-e55b-629a" name="Lord of Change" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
             <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
             <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
@@ -1790,12 +1813,13 @@
             <characteristic name="T" typeId="16d7-9f22-06d8-8427">6</characteristic>
             <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">6</characteristic>
             <characteristic name="I" typeId="b418-0e30-644f-1435">10</characteristic>
-            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">6</characteristic>
-            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">10</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">6</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
+        <infoLink id="7897-4d5a-8907-85d6" name="Aura of Slaanesh" hidden="false" targetId="d103-df69-44a8-2293" type="rule"/>
         <infoLink id="d53f-2c5e-b7b2-88da" name="Terror" hidden="false" targetId="3767-0d81-4db9-cda7" type="rule"/>
         <infoLink id="4379-cd7e-261b-625b" name="Daemonic" hidden="false" targetId="1d2a-5ef7-5722-e7d5" type="infoGroup"/>
         <infoLink id="7d7a-c56e-52f4-2c11" name="Large Target" hidden="false" targetId="01c3-c8c6-431f-1c2b" type="rule"/>
@@ -2008,6 +2032,9 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="dac0-bc78-f6b7-1ef6" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="183c-74f8-8ffc-89cf" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -2018,11 +2045,17 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="4ebe-ddd8-99cf-a40c" name="Flail" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="505a-296c-04d4-e0ba" name="Flail" hidden="false" targetId="dad4-d7e5-09e8-3819" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="2.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e1d5-005d-7416-5510" name="Halberd" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="135a-c5ea-3c71-e79a" name="Halberd" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -2185,6 +2218,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3a7-c010-3d80-7e20" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="2893-be27-d8c6-ef0c" name="Wizard Level" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="40.0"/>
           </costs>
@@ -2380,6 +2416,9 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="d7a2-ba06-c723-7ef1" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="dc3b-2eb7-4686-d026" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -2390,11 +2429,17 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="339b-cf25-a1d6-4b10" name="Flail" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="0550-fc11-fa1d-38ed" name="Flail" hidden="false" targetId="dad4-d7e5-09e8-3819" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="2.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1ab2-fe3f-8db0-3d81" name="Halberd" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="f8c3-bcdb-432a-f21e" name="Halberd" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="4.0"/>
               </costs>
@@ -2567,6 +2612,9 @@
                   </repeats>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="d360-2405-faeb-1b8b" name="Great Weapons" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -2591,6 +2639,9 @@
                   </repeats>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="b4ed-7c9a-1760-9697" name="Halberds" hidden="false" targetId="318c-0aad-5fdc-96c0" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -2603,6 +2654,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e91-1ac9-14b7-3f6d" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="9b2e-a592-813b-d3a0" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -2619,6 +2673,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acd1-58fc-9a22-52ec" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="bc24-b16d-d2d5-495b" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="12.0"/>
               </costs>
@@ -2739,6 +2796,9 @@
                   </repeats>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="fd25-78a8-720c-1a7d" name="Great Weapons" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -2751,6 +2811,9 @@
                   </repeats>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="6d6a-5085-5bde-bc00" name="Flails" hidden="false" targetId="dad4-d7e5-09e8-3819" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -2763,6 +2826,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d39d-2fde-8eb2-806f" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="f70b-7480-53b7-32c4" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
               </costs>
@@ -2779,6 +2845,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c24d-2f7f-348d-7198" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="4383-1614-3923-d9f3" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
               </costs>
@@ -2895,6 +2964,9 @@
                   </repeats>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="8500-6877-e0a1-3be8" name="Flails" hidden="false" targetId="dad4-d7e5-09e8-3819" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -2907,6 +2979,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c427-ff7b-1364-3f0e" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="f8b6-4488-76d1-1900" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -2923,6 +2998,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d72-ff6f-ec9e-6ca0" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="10d6-90d6-b09e-3287" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="12.0"/>
               </costs>
@@ -2942,6 +3020,9 @@
                   </repeats>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="a02b-1b3b-d368-573e" name="Javelins" hidden="false" targetId="d8c8-edc7-35dd-2b4d" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -2954,6 +3035,9 @@
                   </repeats>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="8f88-61f1-a396-d603" name="Throwing Axes" hidden="false" targetId="6566-55b1-e8b7-d3d8" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -3098,6 +3182,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e241-b8d9-834d-142c" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="b977-532d-26c9-2f90" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
               </costs>
@@ -3114,6 +3201,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f045-da1e-ba66-7893" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="d3bd-cb8c-c363-ce28" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
               </costs>
@@ -3280,6 +3370,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9d2-6bac-32e2-805c" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="1062-8044-bc30-8164" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="7.0"/>
               </costs>
@@ -3296,6 +3389,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6115-e749-ffe1-9840" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="a97d-631f-1bcf-ab6a" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="14.0"/>
               </costs>
@@ -3651,7 +3747,37 @@
             </profile>
           </profiles>
           <rules>
-            <rule id="b49c-23bf-8e60-799d" name="Spellcasters" hidden="false"/>
+            <rule id="b49c-23bf-8e60-799d" name="Spellcasters" hidden="false">
+              <description>Horrors can unleash the magical energies of their creator as blasts of power. These count as bound spells. All of the power is generated by the Horror themselves and no Magic dice are used. The casting value of the spell is equal to half the Horrors&apos; current U
+nit Strength (rounding down, to a minimum of 1). The Horrors may cast one of the following spell at the start of their Magic phase:
+
+Fire of Tzeentch
+
+This is a magic missile with a range of 24&quot;. The range and line of sight are worked out from any model in the front rank. It inflicts D6 hits on the target unit. The Strength of the hits depends on the size of the casting unit:
+
+Fires of Tzeentch Chart
+
+Unit Size	Strength of Hits
+1-5	Strength 1
+6-10	Strength 2
+11-15	Strength 3
+16-20	Strength 4
+21+	Strength 5
+
+Coruscation of Energy
+
+The Horrors unleash magical energy across the battlefield in a whirling vortex of power. This spell may be targeted on a single enemy unit within 12&quot; or, if they are in close combat, the Horrors must target one units they are fighting. Every model in the enemy unit suffers a Strength 3 hit.
+
+Uncontrollable Mutation
+
+The Horrors warp theworld around them, turning foes into twisted masses of pulsing flesh and bone before a newly born Horror springs from the corrupted mess. This can only be cast on a single enemy unit in base contact with the Horrors. Roll a D6 for each Horror in contact with the target unit. Each roll of a 6 slays an enemy model outright, with no Armour saves allowed. These hits are distributed among the model of the target unit just like shooting.
+
+The spell can only be cast on roughly man-sized or 
+smallers opponent and so cannot be cast on Ogres, Trolls, chariots, war engines (although the crew may be affected), monsters or character riding monsters etc. N
+ormal cavalry models may be targeted.
+
+Each enemy slain by this spell is turned into a Horror and added to the Horrors&apos; unit.</description>
+            </rule>
           </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="15.0"/>
@@ -3677,9 +3803,13 @@
             </profile>
           </profiles>
           <rules>
-            <rule id="0c79-a86d-4164-554f" name="Accompany Horrors" hidden="false"/>
+            <rule id="0c79-a86d-4164-554f" name="Accompany Horrors" hidden="false">
+              <description>Flamers must be deployed at the same time and within 5&quot; of the unit of Horrors they have been bought with. After that they are free to move as they like, and each counts as a separate unit for the rest of the game (including for the purpose of calculating Victory points). If a Flamer is more than 5&quot; away from a unit of Horrors at the end of any Chaos turn, it must immediately take a Leadership test. If the test is failed, the daemon is destroyed.</description>
+            </rule>
             <rule id="1381-7939-4dd5-331b" name="Single Model" hidden="false"/>
-            <rule id="35fa-22e6-1251-2680" name="Flames of Tzeentch" hidden="false"/>
+            <rule id="35fa-22e6-1251-2680" name="Flames of Tzeentch" hidden="false">
+              <description>Each Flamer can fire magical firebolts in the Shooting phase. These are treated as a thrown weapon with a range of 8&quot; and a Strength of 3. Each Flamer fires D6 bolts at the same target — roll to hit with each of them. Their bolts (as well as their close combat attacks) are flaming attacks.</description>
+            </rule>
           </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
@@ -3724,7 +3854,9 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3259-b8a4-87dd-c14e" type="max"/>
       </constraints>
       <rules>
-        <rule id="af40-aa88-0572-cd10" name="Slashing Attack" hidden="false"/>
+        <rule id="af40-aa88-0572-cd10" name="Slashing Attack" hidden="false">
+          <description>In any Chaos turn where the Chaos player hasn&apos;t declared a charge with them, Screamers can attack an enemy unit which is not inside a wood or a building by moving over it during the Remaining Moves part of their Movement phase. This inflicts an automatic Strength 3 hit per Screamer and the enemy cannot fight back — these hits count as missile hits and may force a Panic test. A Screamers unit may only use this special attack against one enemy unit per turn, even if they fly over more than one unit in that Movement phase.</description>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink id="340f-f7ec-b5a9-075b" name="Daemonic" hidden="false" targetId="1d2a-5ef7-5722-e7d5" type="infoGroup"/>
@@ -3863,11 +3995,13 @@
           <rules>
             <rule id="c44b-c698-e44c-9ed6" name="Unit Strength 3" hidden="false"/>
             <rule id="fe2d-8f26-87fc-2622" name="Special Movement" hidden="false">
-              <description>Spawn are moved in the Compulsory Movement part of the Movement phase, moving 2D6&quot; each turn. Nominate the direction the Spawn will move before rolling the dice, and the Spawn will move in a straight line. 
-If the Spawn&apos;s movement is sufficient to take it into an enemy unit then it counts as charging, following all the normal rules. The target may make a charge response as normal, counting the Movement value rolled as the Spawn&apos;s maximum charge distance (for the purposes of fleeing, standing and shooting, etc).</description>
+              <description>Spawn of Chaos are moved in the Compulsory Movement part of the Chaos player&apos;s 
+Movement phase, moving 2D6&quot; each turn. The player has no control over the distance moved, but must nominate in which direction the Spawn will move before rolling the dice (this must be in a straight line).
+
+If the Spawn&apos;s movement is sufficient to take it into an enemy unit then it counts as charging, following all of the normal rules. The target may make a charge response as normal, counting the Movement value rolled as the Spawn&apos;s maximum charge distance (for the purposes of fleeing, standing and shooting, etc).</description>
             </rule>
             <rule id="bbfa-c6d3-a35f-f740" name="Special Attacks" hidden="false">
-              <description>Chaos Spawn have a random number of attacks. This is rolled at the start of every Close Combat phase.</description>
+              <description>Models with this special rule have a random number of Attacks. Roll at the start of every Close Combat phase. Roll to hit and wound as normal.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3896,7 +4030,7 @@ If the Spawn&apos;s movement is sufficient to take it into an enemy unit then it
                   </modifiers>
                   <rules>
                     <rule id="6699-435c-ade6-13b6" name="Fiend of Slaanesh" hidden="false">
-                      <description>Movement 3D6</description>
+                      <description>A Fiend of Slaanesh has a Movement value of 3D6&quot;, Instead of 2D6&quot;.</description>
                     </rule>
                   </rules>
                   <categoryLinks>
@@ -3922,7 +4056,7 @@ If the Spawn&apos;s movement is sufficient to take it into an enemy unit then it
                   </modifiers>
                   <rules>
                     <rule id="de5b-724b-e262-d60d" name="Bloodbeast of Khorne" hidden="false">
-                      <description>Strength 5</description>
+                      <description>Spawn of the Blood God have +1 Strength (making them Strength 5).</description>
                     </rule>
                   </rules>
                   <categoryLinks>
@@ -3948,7 +4082,7 @@ If the Spawn&apos;s movement is sufficient to take it into an enemy unit then it
                   </modifiers>
                   <rules>
                     <rule id="286a-3dbd-914d-63ad" name="Beast of Nurgle" hidden="false">
-                      <description>Poisoned Attacks</description>
+                      <description>Beasts of Nurgle have Poisoned Attacks.</description>
                     </rule>
                   </rules>
                   <infoLinks>
@@ -3977,7 +4111,7 @@ If the Spawn&apos;s movement is sufficient to take it into an enemy unit then it
                   </modifiers>
                   <rules>
                     <rule id="bd3b-679d-0590-15b0" name="Firewyrn of Tzeentch" hidden="false">
-                      <description>Strength 3 Breath Weapon</description>
+                      <description>These creatures breathe magical flames. They have a Strength 3 breath weapon. If the Spawn is not engaged in combat, It will target the nearest enemy unit it can see (this is the Chaos player&apos;s choice in the case of two or more units being equidistant from the Spawn).</description>
                     </rule>
                   </rules>
                   <infoLinks>
@@ -4065,7 +4199,7 @@ If the Spawn&apos;s movement is sufficient to take it into an enemy unit then it
                 <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
                 <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
                 <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
-                <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+                <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
                 <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
                 <characteristic name="I" typeId="b418-0e30-644f-1435">3</characteristic>
                 <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
@@ -4103,6 +4237,9 @@ If the Spawn&apos;s movement is sufficient to take it into an enemy unit then it
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00f9-0ef8-cb91-131c" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="b10e-80c4-3aa4-538d" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
               </costs>
@@ -4253,6 +4390,9 @@ If the Spawn&apos;s movement is sufficient to take it into an enemy unit then it
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="826a-4422-9781-1f2e" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ab3-cb39-6af0-fef6" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="2736-268f-4d74-99bd" name="Great Weapons" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -4274,6 +4414,9 @@ If the Spawn&apos;s movement is sufficient to take it into an enemy unit then it
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dd7-ce41-66e4-38b7" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="f203-5eb2-30a0-d74f" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
               </costs>
@@ -4290,6 +4433,9 @@ If the Spawn&apos;s movement is sufficient to take it into an enemy unit then it
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65f2-7668-8d88-11d8" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="a2e0-bb8d-9f7e-51dc" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="12.0"/>
               </costs>
@@ -4380,7 +4526,11 @@ If the Spawn&apos;s movement is sufficient to take it into an enemy unit then it
     </selectionEntry>
     <selectionEntry id="11e9-830f-f26c-1de1" name="Chaos Trolls" hidden="false" collective="false" import="true" type="unit">
       <rules>
-        <rule id="2da6-b52d-788f-5ed9" name="Troll Vomit" hidden="false"/>
+        <rule id="2da6-b52d-788f-5ed9" name="Troll Vomit" hidden="false">
+          <description>A Troll&apos;s digestive fluid is the most corrosive thing known to science... and about the most revolting too. Trolls are able to vomit their stomach contents upon their enemies if they wish. A unit of Trolls can make Vomit Attacks instead of ordinary attacks during close combat.
+
+Instead of attacking normally the whole unit may elect to vomit on the enemy. As each Troll can make only 1 Vomit Attack at a time, as opposed to 3 ordinary Attacks, this means the unit gets fewer Attacks, although these always hit. Each model inflicts one automatic Strength 5 hit with no Armour saves allowed.</description>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink id="91c1-6135-d11d-5d69" name="Regenerate" hidden="false" targetId="7c7c-8683-ae17-d576" type="rule"/>
@@ -4473,6 +4623,9 @@ If the Spawn&apos;s movement is sufficient to take it into an enemy unit then it
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ead-ea98-1a93-f3ed" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="3105-0994-839f-8b79" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
               </costs>
@@ -4489,6 +4642,9 @@ If the Spawn&apos;s movement is sufficient to take it into an enemy unit then it
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2108-609c-6f0b-f1a4" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="8696-8a98-6fa3-483f" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
               </costs>
@@ -4520,6 +4676,9 @@ If the Spawn&apos;s movement is sufficient to take it into an enemy unit then it
                   </repeats>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="d715-9cba-912b-8045" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -4566,13 +4725,15 @@ If the Spawn&apos;s movement is sufficient to take it into an enemy unit then it
       </modifiers>
       <rules>
         <rule id="ba89-6828-b6a9-4738" name="Drunken" hidden="false">
-          <description>Roll a D6 for each centigor unit at the start of their turns, before charges are declared. On a roll of a 1, they must test for Stupidity that turn. On a 6 they become subject to Frenzy that turn, even if they have previously lost a round of combat. Remember that while subject to Stupidity or Frenzy they are immune to all other forms of psychology.</description>
+          <description>Centigors are inclined to drink vast quantities of noxious beer and looted wine and spirits before battle, working themselves up into a drunken frenzy. While this makes them heedless of danger, and can turn them into berserk fighters, it can also severely incapacitate them.
+
+Roll a D6 for each Centigor unit at the start of each of their turns, before charges are declared. On a roll of 1, they must test for stupidity that turn. On a roll of 2-5 the alcohol has no benefit or hindrance that turn. On a roll of 6 they become subject to frenzy for that turn (even if they have previously lost a round of combat). Remember that while subject to stupidity or frenzy they are immune to all other forms of psychology.</description>
         </rule>
         <rule id="5234-5b77-80a2-b23f" name="Trample" hidden="false">
-          <description>Centigors have an additional Attack, which does not benefit from weapon penalties or bonuses.</description>
+          <description>As well as their weapons, Centigors use their hooves and sheer size to crush the enemy. Centigors have an additional Attack, which does not benefit from weapon penalties or bonuses.</description>
         </rule>
         <rule id="0771-abc3-8a0a-2eae" name="Move Through Woods" hidden="false">
-          <description>Units of Centigors suffer no movement penalties for moving through wooded terrain.</description>
+          <description>Centigors are creatures of the dark forests, able to gallop along winding tracks and weave through the trees with great speed. Units of Centigors suffer no movement penalties for moving through wooded terrain.</description>
         </rule>
         <rule id="67ee-c014-3149-ac2e" name="Centigors" hidden="false">
           <description>Centigors are mounted on a cavalry base and are treated as cavalry in all respects except for the following:
@@ -4643,6 +4804,9 @@ They use cavalry rules for spears.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c47-2fcb-57e4-c238" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="f8f1-6563-e6c3-c2ee" name="Throwing Axes" hidden="false" targetId="6566-55b1-e8b7-d3d8" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -4664,6 +4828,9 @@ They use cavalry rules for spears.</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0862-dac0-bc0f-3641" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="bd7e-348e-bb55-b863" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="7.0"/>
               </costs>
@@ -4680,6 +4847,9 @@ They use cavalry rules for spears.</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c3f-fcf9-2a2c-26f6" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="4517-dd95-3cb6-e09a" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="14.0"/>
               </costs>
@@ -4723,7 +4893,7 @@ They use cavalry rules for spears.</description>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c86-05cf-a98f-8bae" type="min"/>
           </constraints>
           <profiles>
-            <profile id="5d32-d209-4dbc-df11" name="Centigor" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+            <profile id="5d32-d209-4dbc-df11" name="Minotaur" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
               <characteristics>
                 <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
                 <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
@@ -4772,6 +4942,9 @@ They use cavalry rules for spears.</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bcb-c91f-5b41-4da9" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="a2d8-bda2-9103-6abf" name="Champion" hidden="false" targetId="697c-46aa-691c-9c64" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
               </costs>
@@ -4809,6 +4982,9 @@ They use cavalry rules for spears.</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf93-c834-3412-06ce" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="87d6-d434-7ae2-8bcd" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -4914,6 +5090,9 @@ They use cavalry rules for spears.</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01a3-d649-4a69-6306" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="0300-89ab-26cc-8d41" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
               </costs>
@@ -5056,7 +5235,7 @@ They use cavalry rules for spears.</description>
           </constraints>
           <rules>
             <rule id="cf6c-791f-c68f-5cc9" name="Shaggoth Champion" hidden="false">
-              <description>A Shaggoth Champion is treated exactly like a Lord character (may be the army General, may issue challenges, etc.) and may be given Marks of Chaos.</description>
+              <description>The strongest Shaggoths battle each other for dominance, and the victor will emerge as a Champion of the Chaos gods. A Shaggoth Champion is treated exactly like a Lord character (may be the army General, issue challenges, etc,) and may be given Marks of Chaos.</description>
             </rule>
           </rules>
           <costs>
@@ -5082,6 +5261,9 @@ They use cavalry rules for spears.</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="720b-04ca-7173-7ec6" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="aac6-5867-0c1c-f8b4" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="8.0"/>
               </costs>
@@ -5260,35 +5442,54 @@ They use cavalry rules for spears.</description>
       </profiles>
       <rules>
         <rule id="fce6-5f3b-5791-ad2e" name="Ignore Little &apos;Un Panic" hidden="false">
-          <description>Giants ignore any unit of Cavalry-sized or smaller models for the purposes of Panic.</description>
+          <description>Giants expect smaller weedier folk to run away and would be disappointed if they didn&apos;t. Consequently, when a unit of cavalry-sized or smaller models, is destroyed, breaks or flees past, Giants do not need to test for panic.</description>
         </rule>
         <rule id="88e5-b5f3-29b4-92d9" name="Fall Over" hidden="false">
-          <description>A giant must test to see whether it falls over whenever:
-- It is beaten in close combat, before taking Break or Panic tests.
-- At the start of the Movement phase, if it is fleeing.
-- When it tries to cross an obstacle, test when the obstacle is reached.
-- If the Giant decides to Jump Up and Down on an enemy. Test immediately beforehand.
+          <description>A Giant must test to see whether it falls over if any of the following apply:
 
-To see if the Giant falls over, roll a D6. On a 1, the Giant falls over. If a Giant is slain, it falls over automatically.
+1. When it is beaten in close combat. Test once results are established but before taking Break or Panic tests.
+2. At the start of the Movement phase if it is fleeing.
+3. When it crosses an obstacle. Test when the obstacle is reached.
+4. If the Giant decides to Jump Up and Down on an enemy. Test immediately beforehand.
 
-The Giant falls in the direction determined by the Scatter dice - the arrow indicates the direction the Giant falls. Place the Falling Giant template with its feet at the model&apos;s base and it&apos;s head in the direction of the fall. Any models completely under the template are automatically hit, and models partly covered are hit on a 4+.
+To see if the Giant falls over roll a D6. If you score between 2 and 6 then the Giant sways slightly, but regains his balance and no harm is done. If the roll results in a 1 the Giant falls over. Obviously, if a Giant is slain then it falls over automatically.
 
-Any model hit take an automatic Strength 6 hit which causes D3 wounds. If the unit is in combat and the Giant has fallen over as a result of Jump Up and Down or Mutant Monstrosity, then the wounds inflicted count towards the combat result.
+To determine which direction the Giant falls, roll a Scatter dice - the arrow indicates the direction in which the Giant falls. Place the Falling Giant template with its feet at the model&apos;s base and its head in the direction of the fall. Any models lying completely under the template are automatically hit. Any models partly covered are hit on a 4+.
 
-A Giant that falls over suffers 1 automatic wound to itself with no save. If the Giant is in combat then this wound counts towards the combat result.
+Any model hit by a falling Giant automatically takes one Strength 6 hit which causes D3 wounds. These hits are resolved in the usual way. If the unit is in combat and the Giant has fallen over whilst attempting to Jump Up and Down, wounds inflicted by a falling Giant count towards the combat result.
 
-Once on the gound, a Giant may get up in his following movement phase, but may not otherwise move that turn. Whilst on the gound, a Giant may not attack, but he can still defend himself after a fashion - so the enemy must still roll to score hits on him.
+A Giant that falls over automatically suffers 1 wound itself. No armour saves apply to this wound. If the Giant is in combat then this wound counts towards the final combat result.
 
-If forced to flee whilst on the ground, the Giant is slain.
-If a Giant gets the opporunity to pursue his foes whilst he&apos;s on the gounnd, he stands up instead. 
-A Giant may attack the turn it stands up.</description>
+Once on the ground, a Giant may get up in his following Movement phase, but may not otherwise move that turn. Whilst on the ground a Giant may not attack, but he can still defend himself after a fashion so the enemy must still roll to score hits on him. If forced to flee whilst on the ground the Giant is slain - the enemy swarm over him and cut him to pieces. If the Giant gets the opportunity to pursue his foes whilst he&apos;s on the ground he stands up instead. A Giant may attack on the turn it stands up.</description>
         </rule>
-        <rule id="4af9-4858-7637-79bf" name="Giant Attacks" hidden="false"/>
+        <rule id="4af9-4858-7637-79bf" name="Giant Attacks" hidden="false">
+          <description>Giants do not attack in the same way as other creatures though they select their victims as normal. They are far too large and fractious to take orders, and much too scatterbrained to have any sort of coherent plan. In fact, once in combat even the Giant doesn&apos;t really know what he&apos;s going to do next! To determine what happens, each Close Combat phase roll a D6 on one of the following tables when it is the Giant&apos;s turn to fight. Which table you use depends on the size of the Giant&apos;s victim. When fighting characters riding monsters, decide whether to attack the rider or mount, as normal and use the appropriate table for the size of the target.
+
+Giant fighting big things (Ogres, Kroxigors, Minotaurs or similar sized or larger creatures including chariots):
+
+Big Things Chart Chart
+
+D6	Result
+1	Yell and Bawl
+2-4	Thump with Club
+5-6	&apos;Eadbutt
+
+Giant fighting anyone smaller than above:
+
+Man-sized Things Chart Chart
+
+D6	Result
+1	Yell and Bawl
+2	Jump Up and Down
+3	Pick Up and...
+4-6	Swing with Club</description>
+        </rule>
         <rule id="0f34-db8d-cd45-9071" name="Move Over Obstacles" hidden="false">
-          <description>Giants treat obstacles such as walls and fences as open ground when moving. However, when crossing such obstacles Giants must test to see if they Fall Over.</description>
+          <description>Giants have long limbs and move over normal sized obstacles such as walls and fences without breaking stride. Treat such obstacles as open ground when working out how far the Giant moves. However, when crossing such obstacles the player must test to see if the Giant falls over.</description>
         </rule>
       </rules>
       <infoLinks>
+        <infoLink id="3f9e-4a68-e94f-a224" name="Chaos Giant" hidden="false" targetId="69f3-6716-22ed-621f" type="infoGroup"/>
         <infoLink id="fd29-cc4f-342c-d481" name="Terror" hidden="false" targetId="3767-0d81-4db9-cda7" type="rule"/>
         <infoLink id="65bc-03fa-21b0-490d" name="Large Target" hidden="false" targetId="01c3-c8c6-431f-1c2b" type="rule"/>
         <infoLink id="d8d0-e299-174d-1696" name="Stubborn" hidden="false" targetId="1e41-936a-2bae-76cc" type="rule"/>
@@ -5303,8 +5504,7 @@ A Giant may attack the turn it stands up.</description>
           </constraints>
           <rules>
             <rule id="cc4e-1848-4904-264f" name="Mutant Monstrosity" hidden="false">
-              <description>A Mutant Monstrosity gains a Scaly Skin save of 5+.
-In addition, whenever the Giant attacks roll a D6. If this roll matches the special attack roll, the Giant recklessly falls onto the enemy! Treat this as Falling Down in all respects, except that the playerr controlling the Giant may choose the direction in which it falls.</description>
+              <description>If the Giant is a Mutant Monstrosity, it has been warped by the power of Chaos, perhaps sprouting extra arms, stone-like skin, multiple heads or any manner of strange mutations. A Mutant Monstrosity has 5+ Scaly Skin save.  After rolling to determine the Giant&apos;s special attack for a round of combat, roll another D6. If the score is the same as the special attack roll the Giant leaps recklessly onto the enemy! The Giant is treated as falling down in all respects, with the exception that the player controlling the Giant may choose in which direction it falls.</description>
             </rule>
           </rules>
           <costs>
@@ -5348,8 +5548,7 @@ In addition, whenever the Giant attacks roll a D6. If this roll matches the spec
       </modifierGroups>
       <rules>
         <rule id="6f72-b60c-92e6-90d6" name="Swift Steed" hidden="false">
-          <description>Mounted Daemonettes count as Fast Cavalry. In addition, because of its preternatural dexterity, the mount always strikes first in close combat even agaisnt a charging enemy. If an opponent has the same ability, resolve the strikes in Initiative order - if these are the same, roll a D6 to see who strikes first.
-Note this ability applies only to the mount, not to the Daemonette rider.</description>
+          <description>&gt; In the Warhammer Chronicles 2004 Official Rules for Mounted Daemonettes, the Swift Steed rule listed the always strikes first rule instead of being listed under Tongue Attack.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5386,7 +5585,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
                 <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
               </characteristics>
             </profile>
-            <profile id="0413-464b-3e93-fa7e" name="Steed of Slaanesh" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+            <profile id="0413-464b-3e93-fa7e" name="Mount of Slaanesh" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
               <characteristics>
                 <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">10</characteristic>
                 <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
@@ -5441,7 +5640,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
             <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">7</characteristic>
             <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
             <characteristic name="BS" typeId="22c7-799b-e07c-f32c">-</characteristic>
-            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
             <characteristic name="T" typeId="16d7-9f22-06d8-8427">-</characteristic>
             <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">-</characteristic>
             <characteristic name="I" typeId="b418-0e30-644f-1435">2</characteristic>
@@ -5819,7 +6018,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
             <characteristic name="Ld" typeId="bbad-d421-400b-87c1">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="358a-36d5-c935-7a66" name="Ungor" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+        <profile id="358a-36d5-c935-7a66" name="Ungor Crew" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
             <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">-</characteristic>
             <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
@@ -5868,7 +6067,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
       </profiles>
       <rules>
         <rule id="672e-a7a2-8756-d2e3" name="Tuskgor Charge" hidden="false">
-          <description>A charging Tuskgor receives a Strength bonus of +2.</description>
+          <description>A charging Tuskgor receives a Strength bonus of +2, giving it a Strength value of 5 during the turn in which it charges. Obviously this bonus applies to the Tuskgor and not to the Chariot or those riding in it.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5900,6 +6099,13 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b215-7cb9-5fcb-88ee" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f96-774b-7c24-533a" type="max"/>
       </constraints>
+      <rules>
+        <rule id="3c0b-0c40-db75-0b48" name="Axe of Khorne" hidden="false">
+          <description>The axe is the favoured weapon of Khorne, and this unholy blade screams with the power of the Daemon bound within it.
+
+A Daemon with an Axe of Khorne gains the Killing Blow ability. This gift cannot be combined with a Blade of the Ether gift.</description>
+        </rule>
+      </rules>
       <categoryLinks>
         <categoryLink id="66a9-e86a-11de-0fc5" name="Daemonic Gift" hidden="false" targetId="d855-0137-fb0f-b91c" primary="false"/>
       </categoryLinks>
@@ -5919,6 +6125,13 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de1a-07c7-43e6-097c" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28f4-eab8-1901-53f9" type="max"/>
       </constraints>
+      <rules>
+        <rule id="0a2e-070e-8be5-dda8" name="Armour of Khorne" hidden="false">
+          <description>The Daemon wears armour fashioned from materials unknown to mortals.
+
+The Daemon has an armour save of 4+ in addition to its Daemonic Aura.</description>
+        </rule>
+      </rules>
       <categoryLinks>
         <categoryLink id="8944-150b-832c-f69d" name="Daemonic Gift" hidden="false" targetId="d855-0137-fb0f-b91c" primary="false"/>
       </categoryLinks>
@@ -5938,6 +6151,11 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="165b-2ebf-88b8-df60" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08e2-be83-454c-ade3" type="max"/>
       </constraints>
+      <rules>
+        <rule id="57b3-23b1-40ac-655e" name="Might of Khorne" hidden="false">
+          <description>The Daemon has +1 Strength on its profile.</description>
+        </rule>
+      </rules>
       <categoryLinks>
         <categoryLink id="c2fa-4bfe-e69c-3754" name="Daemonic Gift" hidden="false" targetId="d855-0137-fb0f-b91c" primary="false"/>
       </categoryLinks>
@@ -5958,7 +6176,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c76-76df-eec5-fd58" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="ff6c-51d3-bbef-651c" name="Aura of Slaanesh" hidden="false" targetId="1998-c72e-fcd7-7491" type="rule"/>
+        <infoLink id="ff6c-51d3-bbef-651c" name="Aura of Slaanesh" hidden="false" targetId="d103-df69-44a8-2293" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1ada-f65f-3b75-dd5d" name="Daemonic Gift" hidden="false" targetId="d855-0137-fb0f-b91c" primary="false"/>
@@ -5979,6 +6197,11 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fda-2e15-bfbe-c556" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="199f-194e-3060-bd41" type="max"/>
       </constraints>
+      <rules>
+        <rule id="4c35-e6a4-8945-361f" name="Soporific Musk" hidden="false">
+          <description>Any model in base contact with one or more Daemons with Soporific Musk halve their WS and I (rounding up).</description>
+        </rule>
+      </rules>
       <categoryLinks>
         <categoryLink id="3c68-af65-420f-04b0" name="Daemonic Gift" hidden="false" targetId="d855-0137-fb0f-b91c" primary="false"/>
       </categoryLinks>
@@ -5998,6 +6221,11 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a57-77b1-b3a5-c36a" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0f8-d01f-26a9-19a0" type="max"/>
       </constraints>
+      <rules>
+        <rule id="8e50-e6e5-83a7-8b06" name="Tzeentch&apos;s Will" hidden="false">
+          <description>The Daemon may re-roll a single D6 once per turn. The re-roll entitle the player to take a single D6 (including one of the dice rolled as part of a 2D6, 3D6, etc) and roll it again. Any D6 can be re-rolled and can potentially cause Irresistible Force or avoid a Miscast. Remember that you cannot re-roll a dice more than once.</description>
+        </rule>
+      </rules>
       <categoryLinks>
         <categoryLink id="ce5d-29af-3f9a-8ec1" name="Daemonic Gift" hidden="false" targetId="d855-0137-fb0f-b91c" primary="false"/>
       </categoryLinks>
@@ -6017,6 +6245,13 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62b7-6198-8068-ac52" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8eb4-7d9a-a0ce-78b4" type="max"/>
       </constraints>
+      <rules>
+        <rule id="ed6a-3698-f700-2582" name="Spell Destroyer" hidden="false">
+          <description>The Daemon can wrench magical power from its foes using its own Chaos essence to attack the minds of enemy Wizards.
+
+Once per battle, the Daemon may automatically dispel one enemy spell, except one which has just been cast with Irresistible Force. In addition, roll a D6. On a roll of 4+, the enemy Wizard loses knowledge of that spell and may not cast it for the rest of the battle.</description>
+        </rule>
+      </rules>
       <categoryLinks>
         <categoryLink id="483c-8785-a51a-5460" name="Daemonic Gift" hidden="false" targetId="d855-0137-fb0f-b91c" primary="false"/>
       </categoryLinks>
@@ -6036,6 +6271,11 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4321-eb4c-56d9-bb2c" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b319-5493-d09e-2e9d" type="max"/>
       </constraints>
+      <rules>
+        <rule id="a767-098e-19b9-c3d4" name="Master of Sorcery" hidden="false">
+          <description>The Daemon has great magical knowledge and knows one more spell from the Lore of Tzeentch than it is normally allowed.</description>
+        </rule>
+      </rules>
       <categoryLinks>
         <categoryLink id="227e-740d-8e3b-8da6" name="Daemonic Gift" hidden="false" targetId="d855-0137-fb0f-b91c" primary="false"/>
       </categoryLinks>
@@ -6056,7 +6296,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac70-4b55-6954-747c" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="c7cc-2f0d-9bb3-e34e" name="Stream of Corruption" hidden="false" targetId="e22b-b02b-ee07-a116" type="rule"/>
+        <infoLink id="c7cc-2f0d-9bb3-e34e" name="Stream of Corruption" hidden="false" targetId="cbfe-f7e6-7263-846f" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="fb94-cb84-b4e8-deab" name="Daemonic Gift" hidden="false" targetId="d855-0137-fb0f-b91c" primary="false"/>
@@ -6078,7 +6318,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10b7-7a9b-6bc6-bc51" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="41e4-9904-270a-8dc5" name="Cloud of Flies" hidden="false" targetId="2a7e-10b0-12b7-51aa" type="rule"/>
+        <infoLink id="41e4-9904-270a-8dc5" name="Cloud of Flies" hidden="false" targetId="6b50-10ca-dd27-c712" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c57e-0b39-b671-eaf8" name="Daemonic Gift" hidden="false" targetId="d855-0137-fb0f-b91c" primary="false"/>
@@ -6131,7 +6371,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
           </modifiers>
           <rules>
             <rule id="edf8-3686-69ec-cd33" name="Mark of Khorne" hidden="false">
-              <description>The Lord is subject to Frenzy. In addition, his presence on the battlefield adds one dice to the player&apos;s Dispel Dice pool.</description>
+              <description>Mark of Khorne Type</description>
             </rule>
           </rules>
           <infoLinks>
@@ -6177,7 +6417,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
           </modifiers>
           <rules>
             <rule id="d92a-4887-5e1f-3c1d" name="Mark of Tzeentch" hidden="false">
-              <description>The Lord is a Level 4 Sorcerer and can cast spells whilst wearing mundane and/or magic armour.</description>
+              <description>Mark of Tzeentch Type</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -6210,7 +6450,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
           </modifiers>
           <rules>
             <rule id="bf16-672c-7cc2-2b2e" name="Mark of Nurgle" hidden="false">
-              <description>The Hero causes Fear and has +1 Wound</description>
+              <description>Mark of Nurgle</description>
             </rule>
           </rules>
           <infoLinks>
@@ -6246,7 +6486,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
           </modifiers>
           <rules>
             <rule id="7149-4c47-4167-fac2" name="Mark of Slaanesh" hidden="false">
-              <description>The Lord is Immune to Psychology.</description>
+              <description>Mark of Slaanesh Type</description>
             </rule>
           </rules>
           <infoLinks>
@@ -6315,7 +6555,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
           </modifierGroups>
           <rules>
             <rule id="7c3b-0d1f-d5d8-2a9f" name="Mark of Khorne" hidden="false">
-              <description>The Shaggoth is subject to Frenzy. In addition, his presence on the battlefield adds one dice to the player&apos;s Dispel Dice pool.</description>
+              <description>Mark of Khorne Type</description>
             </rule>
           </rules>
           <infoLinks>
@@ -6362,7 +6602,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
           </modifierGroups>
           <rules>
             <rule id="1f7c-04ae-d9e8-f7df" name="Mark of Tzeentch" hidden="false">
-              <description>The Shaggoth is a Level 2 Sorcerer and can cast spells whilst wearing mundane and/or magic armour.</description>
+              <description>Mark of Tzeentch Type</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -6406,7 +6646,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
           </modifierGroups>
           <rules>
             <rule id="964d-a94d-9f90-1ef4" name="Mark of Nurgle" hidden="false">
-              <description>The Shaggoth has +1 Wound</description>
+              <description>Mark of Nurgle</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -6450,7 +6690,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
           </modifierGroups>
           <rules>
             <rule id="85a1-0a31-cb73-c5b8" name="Mark of Slaanesh" hidden="false">
-              <description>The Daemon Prince always strikes first in close combat. If its opponent also has the ability to always strike then resolve their attacks in normal Initiative order.</description>
+              <description>Mark of Slaanesh Type</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -6505,7 +6745,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
           </modifiers>
           <rules>
             <rule id="c939-5be9-42e8-6c5e" name="Mark of Khorne" hidden="false">
-              <description>The Exalted Daemon is subject to Frenzy. In addition, his presence on the battlefield adds one dice to the player&apos;s Dispel Dice pool.</description>
+              <description>Mark of Khorne Type</description>
             </rule>
           </rules>
           <infoLinks>
@@ -6541,7 +6781,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
           </modifiers>
           <rules>
             <rule id="cac3-4455-0519-d30c" name="Mark of Tzeentch" hidden="false">
-              <description>The Exalted Daemon is a Level 2 Sorcerer.</description>
+              <description>Mark of Tzeentch Type</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -6574,7 +6814,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
           </modifiers>
           <rules>
             <rule id="3de4-6ba6-e451-fa7d" name="Mark of Nurgle" hidden="false">
-              <description>The Exalted Daemon has +1 Wound</description>
+              <description>Mark of Nurgle</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -6607,7 +6847,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
           </modifiers>
           <rules>
             <rule id="6e9e-f8fe-7338-52ba" name="Mark of Slaanesh" hidden="false">
-              <description>The Exalted Daemon always strikes first in close combat. If its opponent also has the ability to always strike then resolve their attacks in normal Initiative order.</description>
+              <description>Mark of Slaanesh Type</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -6672,7 +6912,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
           </modifiers>
           <rules>
             <rule id="4e67-14f2-420c-22a7" name="Mark of Khorne" hidden="false">
-              <description>The Hero is subject to Frenzy. In addition, his presence on the battlefield adds one dice to the player&apos;s Dispel Dice pool.</description>
+              <description>Mark of Khorne Type</description>
             </rule>
           </rules>
           <infoLinks>
@@ -6718,7 +6958,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
           </modifiers>
           <rules>
             <rule id="5b42-dca4-9739-c5d2" name="Mark of Tzeentch" hidden="false">
-              <description>The Hero is a Level 2 Sorcerer and can cast spells whilst wearing mundane and/or magic armour.</description>
+              <description>Mark of Tzeentch Type</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -6751,7 +6991,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
           </modifiers>
           <rules>
             <rule id="a02a-43e5-bfbf-10d9" name="Mark of Nurgle" hidden="false">
-              <description>The Hero causes Fear and has +1 Wound</description>
+              <description>Mark of Nurgle</description>
             </rule>
           </rules>
           <infoLinks>
@@ -6787,7 +7027,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
           </modifiers>
           <rules>
             <rule id="ea15-36dd-70b7-3580" name="Mark of Slaanesh" hidden="false">
-              <description>The Hero is Immune to Psychology.</description>
+              <description>Mark of Slaanesh Type</description>
             </rule>
           </rules>
           <infoLinks>
@@ -6856,7 +7096,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
           </modifiers>
           <rules>
             <rule id="fe3a-eb4d-dc50-bde5" name="Mark of Khorne" hidden="false">
-              <description>The unit is subject to Frenzy. In addition, their presence on the battlefield adds one dice to the player&apos;s Dispel Dice pool.</description>
+              <description>Mark of Khorne Type</description>
             </rule>
           </rules>
           <infoLinks>
@@ -6903,7 +7143,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
           </modifiers>
           <rules>
             <rule id="30fc-17d0-9874-b3a2" name="Mark of Tzeentch" hidden="false">
-              <description>In each Chaos Magic phase, the unit generates an extra Power dice. No dice are generated if the unit is fleeing.</description>
+              <description>Mark of Tzeentch Type</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -6947,7 +7187,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
           </modifiers>
           <rules>
             <rule id="9aa2-e61a-989f-c55b" name="Mark of Nurgle" hidden="false">
-              <description>The unit causes Fear</description>
+              <description>Mark of Nurgle</description>
             </rule>
           </rules>
           <infoLinks>
@@ -6994,7 +7234,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
           </modifiers>
           <rules>
             <rule id="ddf3-3ce8-74f0-7107" name="Mark of Slaanesh" hidden="false">
-              <description>The unit is Immune to Psychology.</description>
+              <description>Mark of Slaanesh Type</description>
             </rule>
           </rules>
           <infoLinks>
@@ -7045,7 +7285,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
           </modifiers>
           <rules>
             <rule id="d006-6356-878c-8a93" name="Mark of Khorne" hidden="false">
-              <description>The unit is subject to Frenzy. In addition, their presence on the battlefield adds one dice to the player&apos;s Dispel Dice pool.</description>
+              <description>Mark of Khorne Type</description>
             </rule>
           </rules>
           <infoLinks>
@@ -7074,7 +7314,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
           </modifiers>
           <rules>
             <rule id="d714-215e-3d58-0ddb" name="Mark of Tzeentch" hidden="false">
-              <description>In each Chaos Magic phase, the unit generates an extra Power dice. No dice are generated if the unit is fleeing.</description>
+              <description>Mark of Tzeentch Type</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -7100,7 +7340,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
           </modifiers>
           <rules>
             <rule id="d872-532b-f1d4-eed7" name="Mark of Nurgle" hidden="false">
-              <description>The unit has a 5+ Scaly Skin save.</description>
+              <description>Mark of Nurgle</description>
             </rule>
             <rule id="135a-1285-5d32-b32e" name="Scaly Skin (5+)" hidden="false"/>
           </rules>
@@ -7127,7 +7367,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
           </modifiers>
           <rules>
             <rule id="f4db-ca22-ca11-d539" name="Mark of Slaanesh" hidden="false">
-              <description>The unit is Immune to Psychology.</description>
+              <description>Mark of Slaanesh Type</description>
             </rule>
           </rules>
           <infoLinks>
@@ -7182,7 +7422,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
           </constraints>
           <rules>
             <rule id="5825-6a0d-0db3-ba61" name="Axes of Khorgor" publicationId="dc3a-2511-d23a-deb3" page="62" hidden="false">
-              <description>This pair of axes requires two hands to use. The bearer gains +1 Attack and may re-roll any missed hit rolls in close combat.</description>
+              <description>Characters on foot only. This pair of axes requires two hands to use. The bearer gains +1 Attack and may re-roll any missed rolls to hit in close combat.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -7206,10 +7446,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
           </constraints>
           <rules>
             <rule id="60f8-f2f9-b9e4-36d0" name="Sword of Change" publicationId="e8a8-d83e-c60c-3ad0" page="50" hidden="false">
-              <description>Roll a D6 every time an enemy character or monster is slain by the Sword of Change. On a 4+ the model is turned into a Chaos Spawn controlled by the Chaos player!
-Replace the model with a Chaos Spawn model. If the enemy is in a unit then the Spawn model is placed in contact with the unit on one of it&apos;s free sides (bearer&apos;s choice) and will fight as ormal in subsequent rounds. The Spawn starts with only D3 wounds.
-
-If you do not have a spare Chaos Spawn model the model is slain but the sword has no additional effect.</description>
+              <description>Roll a D6 every time an enemy character or monster is slain by the Sword of Change. On a roll of 1, 2 or 3 nothing happens. On a roll of 4 or more, the model is turned into a Chaos Spawn controlled by the Chaos player! Replace the model with a Chaos Spawn model. If you do not have a spare Chaos Spawn model the model is slain, but the sword has no additional effect. If the enemy is in a unit, then the Spawn model is placed in contact with the unit on one of its free sides (bearer&apos;s choice) and will fight as normal in subsequent combat rounds. The Chaos Spawn starts with only D3 Wounds.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -7233,9 +7470,11 @@ If you do not have a spare Chaos Spawn model the model is slain but the sword ha
           </constraints>
           <rules>
             <rule id="3997-184b-ae87-d4ea" name="The Bonecrusher Mace" publicationId="dc3a-2511-d23a-deb3" page="62" hidden="false">
-              <description>The Mace always wounds on a 2+. Armour saves are taken using the wielder&apos;s normal Strength.
+              <description>This massive, heavy club is ringed with bands of cursed iron. and carries enchantments of shattering and destruction. Though it lacks an edge with which to penetrate armour, those struck by it find their bones turn to powder under the sheer brute force of the blow. Even castle gates have fallen to this weapon in its long and bloody history.
 
-Against Castles, Empire Steam Tanks and in other situations where a wound roll is not taken, the wielder counts as having double its Strength characteristic (to a maximum of 10).</description>
+The Mace always wounds on a 2+. Armour saves are taken using the wielder&apos;s normal Strength.
+
+Against Castles, Empire Steam Tankks and in other situations where a roll to wound is not taken, the wielder counts as having double its Strength characteristic, to a maximum of 10.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -7300,7 +7539,7 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
           </constraints>
           <rules>
             <rule id="fc39-ff2a-09bf-ca5b" name="The Black Maul" publicationId="dc3a-2511-d23a-deb3" page="62" hidden="false">
-              <description>Adds +2 to the bearer&apos;s Strength, and the bearer is subject to Frenzy.</description>
+              <description>Adds +2 to the bearer&apos;s Strength, and the bearer is also subject to frenzy.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -7354,7 +7593,7 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
                   </conditions>
                 </modifier>
               </modifiers>
-              <description>A character with a Daemon Sword has the same WS, S, I and A as the Greater Daemon of their patron god. However, every roll of a 1 to hit in close combat means that the attack is resolved against the character instead of the enemy. Furthermore, the character can never re-roll unmodified 1 to hit in close combat, regardless of the source of the re-roll.</description>
+              <description>Models with a Mark of Chaos only (except the Mark of Chaos Undivided). A character with a Daemon Sword has the same WS, S, I and A as the Greater Daemon of their patron god (eg. a Champion of Khorne would have Weapon Skill 10, Strength 7, Initiative 10 and Attacks 7). However, every roll of a 1 to hit in close combat means that the attack is resolved against the character instead of the enemy. Furthermore. the character can never re-roll an unmodified 1 to hit in close combat, regardless of the source of the re-roll.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -7378,7 +7617,7 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
           </constraints>
           <rules>
             <rule id="c2a3-1b2e-069f-bed7" name="Hellfire Sword" publicationId="e8a8-d83e-c60c-3ad0" page="50" hidden="false">
-              <description>Any model wounded by the Hellfire Sword (after saves, etc.) bursts into flames and suffers an additional D6 wounds with no armour saves allowed. Attacks from the Hellfire Sword count as flaming.</description>
+              <description>Any model wounded by the Hellfire Sword (after saves, etc) bursts into flames and suffers an additional D6 wounds with no armour saves allowed. Attacks from the Hellfire Sword count as flaming for the purposes of Regeneration, etc.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -7402,7 +7641,7 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
           </constraints>
           <rules>
             <rule id="624c-e487-b4fd-e295" name="Chaos Runesword" publicationId="e8a8-d83e-c60c-3ad0" page="50" hidden="false">
-              <description>The wielder gains +1 Weapon Skill, Strength and Attack.</description>
+              <description>The wielder gains + 1 Weapon Skill, +1 Strength and +1 Attack.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -7437,7 +7676,7 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
           </constraints>
           <rules>
             <rule id="91df-1a8c-de3a-a95b" name="Whip of Pleasure" publicationId="e8a8-d83e-c60c-3ad0" page="50" hidden="false">
-              <description>The wielder gains +1 Attack but cannot carry a shield or banner. In addition, the wielder always strikes first in close combat. If any of the wielder&apos;s opponents also always strike first, revert to normal initiative order.</description>
+              <description>Models with the Mark of Slaanesh only. The wielder gains + 1 Attack, but he cannot carry a shield or banner. In addition, the wielder always strikes first in close combat. If any of the wielder&apos;s opponents also always strike first, revert to normal Initiative.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -7454,7 +7693,7 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
           </constraints>
           <rules>
             <rule id="382d-9baa-b78e-5eee" name="Berserker Sword" publicationId="e8a8-d83e-c60c-3ad0" page="50" hidden="false">
-              <description>The wielder of the Berserker Sword may make additional attacks in every Close Combat phase equal to half the Unit Strength of all enemy models in base contact (rounding up). If the bearer is in a challenge, only the Unit Strength of the opponent is counted.</description>
+              <description>The wielder of the Berserker Sword may make additional attacks In every Close Combat phase. The number of additional attacks is equal to half the Unit Strength of all enemy models In base contact (rounding up). For example, a character in contact with two Ogres (combined Unit Strength of 6) would get 3 additional Attacks. If the bearer is involved in a challenge, only the Unit Strength of the opponent is counted.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -7471,7 +7710,9 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
           </constraints>
           <rules>
             <rule id="1e88-797a-3be7-d4ca" name="Rending Sword" publicationId="e8a8-d83e-c60c-3ad0" page="51" hidden="false">
-              <description>A model wounded by the Rending Sword (after saves, etc.) loses not one but D3 wounds.</description>
+              <description>The Rending Sword has gnarled teeth along its edge that rip and gnaw at armour and bone. As it is swung, the sword growls and snarls like a wild beast hungry for the taste of raw flesh.
+
+A model wounded by the Rending Sword (after saves. etc) loses not one but D3 wounds.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -7488,7 +7729,7 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
           </constraints>
           <rules>
             <rule id="ae7b-8808-7436-45c2" name="Blade of Blood" publicationId="e8a8-d83e-c60c-3ad0" page="51" hidden="false">
-              <description>For each unsaved wound caused by the Blade of Blood, the wielder may take a Strength test. If the test is passed the wielder gains +1 Wound. This may not increase his Wounds value above double its normal number of Wounds. If the test is failed, the wielder loses one Wound.</description>
+              <description>For each unsaved wound which the Blade of Blood causes, the wielder may take a Strength test. If the test is passed, the wielder gains +1 Wound. This may not increase his Wounds value above double its normal number of Wounds. If the test is failed, the wielder loses one Wound.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -7512,7 +7753,7 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
           </constraints>
           <rules>
             <rule id="96b7-a4c5-1ce4-6f7f" name="Filth Mace" publicationId="e8a8-d83e-c60c-3ad0" page="51" hidden="false">
-              <description>All attacks with the Filth Mace count as Poisoned Attacks. In addition, if the bearer of the mace kills an enemy character in close combat, he will cause Terror for the rest of the game.</description>
+              <description>Models with the Mark of Nurgle only. All attacks with the Filth Mace count as Poisoned Attacks. In addition, If the bearer of the mace kills an enemy character in close combat, he will cause Terror for the rest of the game.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -7532,7 +7773,7 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
           </constraints>
           <rules>
             <rule id="933b-f107-7a5b-f502" name="Soul Cleaver" publicationId="e8a8-d83e-c60c-3ad0" page="51" hidden="false">
-              <description>Any model wounded by the Soul Cleaver (after saves, etc.) must pass a Toughness test or suffer an additional wound (with no saves allowed)</description>
+              <description>Any model wounded by the Soul Cleaver (after saves. etc) must pass a Toughness test or suffer an additional wound (with no saves allowed).</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -7556,7 +7797,7 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
           </constraints>
           <rules>
             <rule id="ec78-6a10-ec1e-8f9a" name="Axe of Khorne" publicationId="e8a8-d83e-c60c-3ad0" page="51" hidden="false">
-              <description>The bearer has the Killing Blow ability.</description>
+              <description>Models with the Mark of Khorne only. Confers on the bearer the Killing Blow ability.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -7576,7 +7817,9 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
           </constraints>
           <rules>
             <rule id="a3ff-9d81-3634-06c0" name="Great Fang" publicationId="dc3a-2511-d23a-deb3" page="61" hidden="false">
-              <description>No Armour saves are allowed against wounds caused by the Great Fang.</description>
+              <description>Carved from the tooth of a monstrous Shaggoth, the Great Fang tears through armour, bone and flesh with ease.
+
+No Armour saves are made against wounds caused by the Great Fang.</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -7643,7 +7886,9 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
           </profiles>
           <rules>
             <rule id="2e1a-1b1f-f2b6-b5e1" name="Scaly Skin (3+)" hidden="false"/>
-            <rule id="fc64-101f-c983-fdd9" name="Two Breath Weapons" hidden="false"/>
+            <rule id="fc64-101f-c983-fdd9" name="Two Breath Weapons" hidden="false">
+              <description>Chaos Dragons have two different Breath Weapons. A chaos Dragon may use both breath weapons in the same turn. Each turn, one head breathes fire, which is Strength 4 and the other breathes a cloud of corrosive gas, resolved at Strength 2 with a -3 to Armour saves.</description>
+            </rule>
           </rules>
           <infoLinks>
             <infoLink id="c1c5-de30-e8ef-00fd" name="Terror" hidden="false" targetId="3767-0d81-4db9-cda7" type="rule"/>
@@ -7790,7 +8035,9 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             </profile>
           </profiles>
           <rules>
-            <rule id="b8a3-42e9-98f5-4fa0" name="Floats (15&quot;)" hidden="false"/>
+            <rule id="b8a3-42e9-98f5-4fa0" name="Floats (15&quot;)" hidden="false">
+              <description>Discs of Tzeentch hover above the ground, allowing the Sorcerer to hurl spells over the heads of friend and foe alike. For tine of sight purpose only, a character on a Disc of Tzeentch counts as a Large Target. A Disc moves like a flyer, except that it maximum move is 15&quot; rather than 20&quot;.</description>
+            </rule>
           </rules>
           <infoLinks>
             <infoLink id="bd63-389a-140a-72b1" name="Daemonic" hidden="false" targetId="1d2a-5ef7-5722-e7d5" type="infoGroup"/>
@@ -7948,7 +8195,7 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
               </constraints>
               <rules>
                 <rule id="3aed-a6ee-2df2-7a14" name="Mark of Khorne" hidden="false">
-                  <description>The Chariot&apos;s crew are subject to Frenzy. In addition, their presence on the battlefield adds one dice to the player&apos;s Dispel Dice pool.</description>
+                  <description>Mark of Khorne Type</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -7979,7 +8226,7 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
               </constraints>
               <rules>
                 <rule id="09f4-c121-739b-2708" name="Mark of Nurgle" hidden="false">
-                  <description>The unit causes Fear</description>
+                  <description>Mark of Nurgle</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -8010,7 +8257,7 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
               </constraints>
               <rules>
                 <rule id="1e05-7ffa-cd2d-a82f" name="Mark of Slaanesh" hidden="false">
-                  <description>The unit is Immune to Psychology.</description>
+                  <description>Mark of Slaanesh Type</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -8041,7 +8288,7 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
               </constraints>
               <rules>
                 <rule id="7373-abb4-c72a-3ba0" name="Mark of Tzeentch" hidden="false">
-                  <description>In each Chaos Magic phase, the unit generates an extra Power dice. No dice are generated if the unit is fleeing.</description>
+                  <description>Mark of Tzeentch Type</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -8091,6 +8338,11 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f88c-8895-87b4-dd3b" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8352-1143-d2d8-a6c7" type="max"/>
           </constraints>
+          <rules>
+            <rule id="5453-f6ab-fad7-8c8f" name="Crown of Horns" hidden="false">
+              <description>Beasts of Chaos characters only. The bearer benefits from a 5+ Ward save and confers +1 to any attempts to rally to a unit he has joined in addition to other modifiers.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="b461-f348-196e-d527" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
           </categoryLinks>
@@ -8110,6 +8362,11 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9124-abc7-50cd-f1b8" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7ce-3254-72b9-21df" type="max"/>
           </constraints>
+          <rules>
+            <rule id="e4c6-f98d-6077-e7c1" name="Rune of the True Beast" hidden="false">
+              <description>Beasts of Chaos characters only. Ridden monsters, lone monsters, the steeds pulling chariots, cavalry mounts and swarms may never direct their attacks at a model bearing the Rune of the True Beast, although their riders may attack as normal.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="fe1c-3f08-9147-3623" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
           </categoryLinks>
@@ -8134,6 +8391,11 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b455-b926-d6d9-57c4" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9830-d405-1cd4-237a" type="max"/>
           </constraints>
+          <rules>
+            <rule id="1440-5080-f977-7de4" name="Horn of the Great Hunt" hidden="false">
+              <description>Beastlords and Wargors only. May only be given to the army General. When sounding an Ambush, all ambushing units may add +1 to their Leadership test for arriving on the battlefield.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="ae69-d0ef-95ec-ae71" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
           </categoryLinks>
@@ -8158,6 +8420,11 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a19-b184-26e7-a720" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ac5-77a9-0039-e170" type="max"/>
           </constraints>
+          <rules>
+            <rule id="6acb-3df4-25b5-2bca" name="The Beguiling Gem" hidden="false">
+              <description>Characters with the Mark of Slaanesh only. All enemy models in base contact with the hearer of the Beguiling Gem must take a Leadership test at the start of every Close Combat phase. Any model which fails is transfixed and may not make any attacks that round, and any attacks made against it by the bearer will hit automatically.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="049c-50ef-bddd-00ff" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
           </categoryLinks>
@@ -8177,6 +8444,13 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f203-9e12-379d-ffb8" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9370-a835-3701-6e79" type="max"/>
           </constraints>
+          <rules>
+            <rule id="cf6f-6c30-1ee6-27f5" name="The Dark Heart" hidden="false">
+              <description>This pulsating, dark red gemstone exudes a throbbing dark light and beats like a living heart. Those under the influence of its power are filled with a longing to kill, and will charge recklessly at the foe, filled with hate-fueled invigoration.
+
+Beasts of Chaos characters only. The character and any unit led by him adds +D3&quot; to their charge move. Roll after declaring charges — if the charge is failed, the models move their normal failed charge distance.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="2d56-26bf-ae28-69c6" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
           </categoryLinks>
@@ -8189,6 +8463,11 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="708d-19e4-2e5e-0687" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a803-75ff-2153-4c2c" type="max"/>
           </constraints>
+          <rules>
+            <rule id="c54a-9946-ab59-9bad" name="Bloodhunt Horn" hidden="false">
+              <description>One Use Only. Once per battle, the bearer can force a fleeing enemy unit within 12&quot; to automatically fall their Rally test. This must be declared before the test is made.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="30f3-30ad-704c-c796" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
           </categoryLinks>
@@ -8201,6 +8480,11 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="999c-eeb3-f24d-0f63" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0093-2bba-ca83-ab0e" type="max"/>
           </constraints>
+          <rules>
+            <rule id="4e5a-a4ce-bee4-794f" name="Crown of Everlasting Conquest" hidden="false">
+              <description>The model gains the Regeneration ability.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="fc5f-dc92-f485-c1d3" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
           </categoryLinks>
@@ -8213,6 +8497,11 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea02-6b0f-9d8d-bcab" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7b5-0f78-f898-7a60" type="max"/>
           </constraints>
+          <rules>
+            <rule id="f050-9fae-938d-afb9" name="Amulet of Chaos" hidden="false">
+              <description>At the start of every Chaos Magic phase, any enemy models in contact with the wearer must pass a Strength test or lose one wound, with no armour saves allowed.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="9507-8840-dc7e-29f8" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
           </categoryLinks>
@@ -8232,6 +8521,11 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c96-5f5b-934f-7131" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="607b-129a-b52d-f638" type="max"/>
           </constraints>
+          <rules>
+            <rule id="fe33-b4f3-2b6c-957d" name="Golden Eye of Tzeentch" hidden="false">
+              <description>Characters with the Mark of Tzeentch only. The model and his mount have a Ward save of 3+ against all normal and magical missiles.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="73ec-962e-9314-ecfa" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
           </categoryLinks>
@@ -8244,6 +8538,11 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92d8-0e5d-c60e-90da" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="931c-2f40-852a-2e9b" type="max"/>
           </constraints>
+          <rules>
+            <rule id="d777-6c61-fe73-cbbf" name="Gaze of the Gods" hidden="false">
+              <description>The model gains a +4 Ward save. If the model is fleeing at the start of a Chaos Magic phase, for any reason, the wrath of the Chaos gods is immediately visited upon them and they are turned into a Spawn, with the same number of wounds remaining as the character had. If you do not have a Spawn model to replace the character then he simply counts as slain. For Victory points purposes, the character is not counted as slain or below half Wounds unless the Spawn he has turned into is slain or is below half Wounds.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="dc17-0bd5-bdb1-1749" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
           </categoryLinks>
@@ -8263,6 +8562,11 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ea1-a519-bcf1-25da" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cada-c266-c387-2d06" type="max"/>
           </constraints>
+          <rules>
+            <rule id="8c44-89a3-c8bf-ad0b" name="Collar of Khorne" hidden="false">
+              <description>Models with the Mark of Khorne only. The model has Magic Resistance (2).</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="e745-8d61-4189-127f" name="Talisman" hidden="false" targetId="d777-f2f1-e0db-8e8e" primary="false"/>
           </categoryLinks>
@@ -8304,6 +8608,11 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="679e-4cf9-6e87-8119" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fff-a908-543d-ebc3" type="max"/>
           </constraints>
+          <rules>
+            <rule id="d436-b9bb-032d-98ef" name="Rod of Corruption" hidden="false">
+              <description>Models with the Mark of Nurgle only. Bound Spell. Power Level 4. One use only. Target any enemy unit on the tabletop. This unit becomes infected with Nurgle&apos;s Rot and suffers D6 Strength 2 hits, distributed as shooting hits amongst the models in the unit. At the start of the caster&apos;s next Magic phase, the unit takes 2D6 Strength 2 hits. At the start of the casters Magic phase after that it takes 3D6 Strength 2 hits. and so on. Once cast, Nurgle&apos;s Rot cannot he stopped.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="cd1f-a661-3492-86de" name="Enchanted Item" hidden="false" targetId="d8eb-f296-d241-3c6d" primary="false"/>
           </categoryLinks>
@@ -8323,6 +8632,13 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f7b-59f0-d3fb-840b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67da-e353-e594-9af5" type="max"/>
           </constraints>
+          <rules>
+            <rule id="510a-dd9e-fd3d-2e3c" name="Bindings of Slaanesh" hidden="false">
+              <description>The Champion is blessed with a series of writhing chains and leather strips that have burrowed deep into his flesh. In combat, these bindings lash out, wrapping around the limbs of the Champion&apos;s foes and drawing them within range of his weapons.
+
+Models with the Mark of Slaanesh only. Whenever the bearer issues a challenge, the enemy cannot refuse it and the Chaos player may choose who will accept the challenge. The model forced to accept the challenge may be anywhere within the enemy unit, and even characters that would normally be in a position that would disallow them from accepting challenges (by not being in the fighting rank, for instance) may be forced into accepting the challenge. In the first round an enemy is ensnared, the bearer always strike last, regardless of any other factor, magic item or spell.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="3b7d-2071-d2eb-7033" name="Enchanted Item" hidden="false" targetId="d8eb-f296-d241-3c6d" primary="false"/>
           </categoryLinks>
@@ -8353,6 +8669,11 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8af-0c34-9b81-ba5f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0850-0eb7-bb72-c36c" type="max"/>
           </constraints>
+          <rules>
+            <rule id="166a-1edc-39b8-e128" name="Book of Secrets" hidden="false">
+              <description>Not models with the Mark of Khorne. Non-Sorcerers only. The bearer is a Level 1 Sorcerer and knows a random spell from the Lore of Fire, Shadow or Death (Chaos player&apos;s choice). If the bearer miscasts, roll twice on the Miscast Table and apply both results.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="d5ef-2c1e-4e1a-ddaa" name="Enchanted Item" hidden="false" targetId="d8eb-f296-d241-3c6d" primary="false"/>
           </categoryLinks>
@@ -8365,6 +8686,11 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3abe-8ec4-7f7d-8c68" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1407-84cf-9218-a092" type="max"/>
           </constraints>
+          <rules>
+            <rule id="3ef3-f9c4-87e2-9f85" name="Chalice of Chaos" hidden="false">
+              <description>One use only. The bearer becomes Daemonic and follows all of the rules outlined in the Bestiary section. If the bearer is the army&apos;s General, he must lead a daemonic army. Remember, a daemonic character cannot join non-daemonic units. At the start of the battle he must take a Toughness test (remember that rolls of 6 always fail). If the test is failed, the bearer reduces his Wounds and Toughness by -1.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="7077-bedf-9e7a-26d6" name="Enchanted Item" hidden="false" targetId="d8eb-f296-d241-3c6d" primary="false"/>
           </categoryLinks>
@@ -8384,6 +8710,11 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="505c-b161-75fc-48e1" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c95e-b380-981b-6399" type="max"/>
           </constraints>
+          <rules>
+            <rule id="ca58-21e4-cc24-6f7f" name="Death&apos;s Head" hidden="false">
+              <description>Models with the Mark of Nurgle only. One use only. The model may throw the Death&apos;s Head in the Shooting phase. It is treated as a thrown weapon with a range of 12”. If the Death&apos;s Head hits, the enemy unit takes D6 hits, and affected models must pass a Toughness test or lose D3 wounds, with no armour saves allowed. Units taking any casualties from a Death&apos;s Head must take a Panic test.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="80db-6623-ab3b-3314" name="Enchanted Item" hidden="false" targetId="d8eb-f296-d241-3c6d" primary="false"/>
           </categoryLinks>
@@ -8403,6 +8734,11 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3484-ef44-a9ed-97d5" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8a8-ac47-a202-d7f9" type="max"/>
           </constraints>
+          <rules>
+            <rule id="bb50-07b3-0289-920a" name="Sceptre of Domination" hidden="false">
+              <description>Models with the Mark of Slaanesh only. Bound Spell. Power Level 6. One use only. The Sceptre of Domination contains the bound Slaanesh spell Delectable Torture.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="5d9e-2ead-0a8f-8375" name="Enchanted Item" hidden="false" targetId="d8eb-f296-d241-3c6d" primary="false"/>
           </categoryLinks>
@@ -8415,6 +8751,11 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5155-5c6a-213b-aacd" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a38-dabe-80c0-d2ee" type="max"/>
           </constraints>
+          <rules>
+            <rule id="5738-59c7-683c-2648" name="Helm of Many Eyes" hidden="false">
+              <description>The wearer always strikes first in close combat, even if charged or armed with a weapon that normally strikes last. If any of the wearer&apos;s opponents also strike first, revert to normal Initiative. The character Is also subject to stupidity (even if Immune to Psychology) due to the random and conflicting images that confront him.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="65e2-53b1-0d94-6959" name="Enchanted Item" hidden="false" targetId="d8eb-f296-d241-3c6d" primary="false"/>
           </categoryLinks>
@@ -8434,6 +8775,11 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f36-b7d3-56c6-1d18" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1501-bb67-264d-c04c" type="max"/>
           </constraints>
+          <rules>
+            <rule id="baf4-583f-6a0e-b42d" name="Mirror of Knowledge" hidden="false">
+              <description>Models with the Mark of Tzeentch only. The bearer can pick any enemy unit on the battlefield at the beginning of each of his Magic phases. The opponent must-reveal everything that is not apparent about the unit (magic items and their bearers, hidden Assassins and Fanatics, etc).</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="1e04-3d71-d8a1-5ba0" name="Enchanted Item" hidden="false" targetId="d8eb-f296-d241-3c6d" primary="false"/>
           </categoryLinks>
@@ -8453,6 +8799,11 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d33-c7b0-8945-b125" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eeb1-079f-696a-49a8" type="max"/>
           </constraints>
+          <rules>
+            <rule id="9f58-87f5-f6fe-56ef" name="Pendant of Slaanesh" hidden="false">
+              <description>Models with the Mark of Slaanesh only. For each Wound the character loses (after saving throws, etc), he gains an extra Attack for the rest of the battle.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="fa09-9445-68f7-376e" name="Enchanted Item" hidden="false" targetId="d8eb-f296-d241-3c6d" primary="false"/>
           </categoryLinks>
@@ -8481,6 +8832,11 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2af-2b40-e3bd-4703" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1685-66a2-373e-b986" type="max"/>
           </constraints>
+          <rules>
+            <rule id="6173-55a4-137f-ba19" name="The Beast Banner" hidden="false">
+              <description>All Beasts of Chaos models in the unit, including characters, gain +1 Attack when they charge.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="0350-ba22-938d-15ff" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -8493,6 +8849,11 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e19d-713c-d740-82db" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e1f-60fd-ca4d-83e7" type="max"/>
           </constraints>
+          <rules>
+            <rule id="b571-8243-0e10-bdcc" name="The Flesh Banner" hidden="false">
+              <description>At the end of each of your Magic phases, any enemy unit in base contact with the bearer of the banner suffers D6 Strength 4 hits, distributed as shooting hits.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="815e-4acb-d657-a2f6" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -8512,6 +8873,11 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaf2-024c-2db7-476a" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e5d-dc86-8461-63b6" type="max"/>
           </constraints>
+          <rules>
+            <rule id="eeeb-1b89-b401-6dfc" name="Vitriolic Totem" hidden="false">
+              <description>Beasts of Chaos only. All models in the unit bearing this totem count as having Poisoned Attacks. This will have no effect on characters wielding magic weapons.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="9abb-b5fd-ac7f-f8ef" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -8524,6 +8890,11 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f31e-cb1a-7fb6-6b43" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="883a-3aae-5761-116a" type="max"/>
           </constraints>
+          <rules>
+            <rule id="f29a-6590-a8f0-7b38" name="The Gore Banner" hidden="false">
+              <description>A unit with this banner may re-roll failed Panic tests.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="b1b7-7dc6-8afb-8bf7" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -8543,6 +8914,11 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6beb-3b8f-4250-88ea" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f33-200c-fc1f-7bb4" type="max"/>
           </constraints>
+          <rules>
+            <rule id="4b87-f723-6401-1384" name="Preyseeker" hidden="false">
+              <description>When using the Ambush special rule, the unit is able to re-roll its Leadership test for arriving on the battlefield if it is failed. The second roll stands.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="f96a-cc1d-e66b-0c29" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -8567,6 +8943,11 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bad-648c-c006-57ef" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e53-0bc9-797f-54ce" type="max"/>
           </constraints>
+          <rules>
+            <rule id="3a1c-031d-df80-545c" name="Banner of the Gods" hidden="false">
+              <description>Mark of Chaos Undivided only. All non-Daemonic friendly units within 6&quot; of the banner become Stubborn (even if normally Immune to Psychology).</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="a410-f8c2-a632-e7f2" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -8591,6 +8972,13 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a74-1ca9-53a9-d695" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22ca-d467-f2fd-bd27" type="max"/>
           </constraints>
+          <rules>
+            <rule id="3ad4-9feb-f61f-a472" name="Banner of Rage" hidden="false">
+              <description>This banner contaim the soul of the Blood God&apos;s most bloodthirsty champions. It radiates bloodlust, driving those who fight beneath it into a frenzy of destruction.
+
+Characters &amp; units with the Mark of Khorne only. The model and any unit they are with may re-roll failed Break tests and will not lose their frenzy if beaten in close combat.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="5e41-7abb-2eca-6ac3" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -8615,6 +9003,11 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbcd-60fd-c9e5-36fd" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d81e-3c97-a675-0da6" type="max"/>
           </constraints>
+          <rules>
+            <rule id="13e6-db94-df0a-6550" name="Plague Banner" hidden="false">
+              <description>Characters &amp; units with the Mark of Nurgle only. Any enemy model in contact with the banner bearer at the start of the Chaos Magic phase must pass a Toughness test or suffer a wound. Armour saves are not allowed. This banner has no effect on models with the Mark of Nurgle or Clan Pestilens Skaven.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="0912-1948-b82b-c93c" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -8639,6 +9032,13 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d73-643d-ed5c-43a9" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7aa-94dd-abe4-d76b" type="max"/>
           </constraints>
+          <rules>
+            <rule id="5434-55e0-bd28-978a" name="Blasted Standard" hidden="false">
+              <description>The Blasted Standard contains a mighty spell of protection. Those marching behind this banner are shielded by powerful magical flames.
+
+Characters and units with the Mark of Tzeentch only. Bound Spell. Power level 4. The banner contains the bound Tzeentch spell Yellow Fire of Transformation.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="340b-19c8-8856-96a0" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -8651,6 +9051,13 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0382-2797-ecdc-edab" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="277d-0d89-0d2c-85a1" type="max"/>
           </constraints>
+          <rules>
+            <rule id="a67b-e3da-f055-0f7c" name="Banner of Wrath" hidden="false">
+              <description>The Banner of Wrath contains a potent spell that lashes the enemy with forks of magical lightning.
+
+Bound Spell. Power Level 4. The banner contains a bound magic missile with range 24&quot;, causing D6 Strength 4 hits.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="46f4-b1d9-8ab7-6538" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -8675,6 +9082,11 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="815b-a622-b86d-4f9e" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54c5-cecb-0072-1971" type="max"/>
           </constraints>
+          <rules>
+            <rule id="e80e-e678-7544-dac8" name="Rapturous Standard" hidden="false">
+              <description>Characters or units with Mark of Slaanesh only. The model and any unit he is with count as having the Daemonic Gift - Soporific Musk.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="b308-8152-ff44-0701" name="Magic Banner" hidden="false" targetId="daeb-6ab0-83b2-8bf3" primary="false"/>
           </categoryLinks>
@@ -8725,7 +9137,9 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
               </constraints>
               <rules>
                 <rule id="5dd2-5f41-f5b0-f0a8" name="Armour of Damnation" publicationId="e8a8-d83e-c60c-3ad0" page="51" hidden="false">
-                  <description>The Armour of Damnation is a suit of Chaos Armour. In addition, any model attacking the wearer in close combat must re-roll successful rolls to hit.</description>
+                  <description>This highly ornate suit of Chaos armour shimmers with unnatural energies that distort the position of the wearer so that the enemy&apos;s blows miss their mark.
+
+The Armour of Damnation is a suit Chaos armour. In addition, any model attacking the wearer in close combat must re-roll successful hits.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -8754,7 +9168,9 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
               </constraints>
               <rules>
                 <rule id="dde7-8775-deb7-3e7b" name="Armour of Tortured Souls" publicationId="e8a8-d83e-c60c-3ad0" page="51" hidden="false">
-                  <description>Chaos Armour. The wearer has +1 Toughness against mundane attacks.</description>
+                  <description>This suit of armour is fully enclosed. Nothing remains of the wearer except his spirit and the spirits of those who wore the armour before him.
+
+The Armour of Tortured Souls is a suit of Chaos armour. The wearer counts as having +1 Toughness against mundane attacks (not spells or magic Items. etc).</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -8778,8 +9194,9 @@ Against Castles, Empire Steam Tanks and in other situations where a wound roll i
               </constraints>
               <rules>
                 <rule id="df14-b7c0-c17b-dfad" name="Chaos Armour" publicationId="dc3a-2511-d23a-deb3" page="63" hidden="false">
-                  <description>Chaos Armour gives a 4+ Armour save that may be combined with other equipment as normal (aside from light or heavy armour).
-A model may wear Chaos Armour and still cast spells.</description>
+                  <description>All-enclosing suits of Chaos Armour are the living gifts of the Dark Gods upon their Champions. They become part of the wearers body and can never be removed once put on.
+
+Chaos armour gives a 4+ armour save. It can be combined with other equipment as normal. Sorcerers can wear this armour and cast spells.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -8808,7 +9225,9 @@ A model may wear Chaos Armour and still cast spells.</description>
               </constraints>
               <rules>
                 <rule id="1824-9c9d-a282-b637" name="Crimson Armour of Dargan" hidden="false">
-                  <description>Chaos Armour. Any model wishing to attack the wearer in close combat must first pass a Leadership test or they may not attack that combat round.</description>
+                  <description>This armour emits a searing heat which blinds and burns those who dare raise a blade against it.
+
+The Crimson Armour is a suit of Chaos armour. In addition, any model wishing to attack the wearer in close combat must first pass a Leadership test or they may not attack that combat round.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -8842,7 +9261,7 @@ A model may wear Chaos Armour and still cast spells.</description>
               </constraints>
               <rules>
                 <rule id="b7f7-6cb5-6850-90a3" name="The Fur of Sharrgu" publicationId="dc3a-2511-d23a-deb3" page="63" hidden="false">
-                  <description>The pelt confers a 6+ Scaly Skin save that can be combined with normal armour. It also gives the bearer and any unit he joins Magic Resistance (1).</description>
+                  <description>Beasts of Chaos characters only. Adds +2 to the bearer&apos;s Armour save against missile fire (including magic missiles), up to a maximum Armour save of 1+.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -8873,7 +9292,9 @@ A model may wear Chaos Armour and still cast spells.</description>
               </constraints>
               <rules>
                 <rule id="9cf9-382f-1ca8-9788" name="Trollhide Armour" publicationId="dc3a-2511-d23a-deb3" page="63" hidden="false">
-                  <description>Trollhide Armour counts as a suit of heavy armour. The wearer may also Regenerate except that lost wounds are only regained on a 6, rather than a 4+.</description>
+                  <description>Properly treated and inscribed with the correct sigils when Morrsleib is full in the sky, the Trollhide Armour confers some of the more gruesome abilities of its former occupant to the wearer.
+
+Trollhide Armour counts as a suit of heavy armour. The wearer may also Regenerate, except that lost Wounds are only regained on the roll of a 6, rather than a 4, 5 or 6.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -8908,6 +9329,13 @@ A model may wear Chaos Armour and still cast spells.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d112-c1f6-d1c2-d12e" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d51-a176-fca8-219d" type="max"/>
               </constraints>
+              <rules>
+                <rule id="c8ac-0265-ed97-5d26" name="Pelt of the Dark Young" hidden="false">
+                  <description>After years of being smeared in blood, filth and excrement in the name of the Chaos gods, the Champion&apos;s pelt has mutated into an iron-hard cloak of gristle and hair that affords protection from both physical and magical attacks.
+
+Beasts of Chaos characters only. The Pelt confers a Scaly Skin 6+ save that can be combined with normal armour. It also gives the bearer and any unit he joins Magic Resistance (1).</description>
+                </rule>
+              </rules>
               <categoryLinks>
                 <categoryLink id="c27f-a3fd-2365-01db" name="Magic Armour" hidden="false" targetId="2963-aff1-28ca-7634" primary="false"/>
               </categoryLinks>
@@ -8958,8 +9386,9 @@ A model may wear Chaos Armour and still cast spells.</description>
               </constraints>
               <rules>
                 <rule id="329e-4562-0091-fc8a" name="Spelleater Shield" publicationId="e8a8-d83e-c60c-3ad0" page="51" hidden="false">
-                  <description>The bearer and any unit he is with has Magic Resistance (2).
-Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and is dispelled. On a 4+ the spell is destroyed and the enemy wizard may not cast it for the rest of the battle.</description>
+                  <description>The Spelleater Shield is made made daemonhide and adorned with symbols of power. When spells are cast against the bearer, it drains away their power.
+
+Models with the Mark of Khorne only. The Spelleater Shield is treated like a normal shield. In addition, it grants Magic Resistance (2) to the character and any unit he is with. Roll a D6 each time a spell is cast at the bearer of the Spelleater Shield and is dispelled. On a roll of 4 or more, the spell is destroyed and the enemy Wizard may not cast it for the rest of the battle.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -8998,7 +9427,7 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
               </constraints>
               <rules>
                 <rule id="5fc7-0687-b08a-664a" name="Chaos Runeshield" publicationId="e8a8-d83e-c60c-3ad0" page="51" hidden="false">
-                  <description>The Chaos Runeshield negates the power of any magic weapons carried by models in base contact - treat them as ordinary non-magical weapons of their type.</description>
+                  <description>The Chaos Runeshield is treated like a normal shield. It also negates the power of any magic weapons carried by models in base contact - treat them as ordinary non-magical weapons of their type.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -9034,7 +9463,7 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
               </constraints>
               <rules>
                 <rule id="9973-e0d8-b201-cc9b" name="Bane Shield" publicationId="e8a8-d83e-c60c-3ad0" page="51" hidden="false">
-                  <description>For each successful armour save in close combat, the shield inflicts a Strength 4 hit on the model that struck the blow.</description>
+                  <description>The Bane Shield is treated like normal shield. In addition, for each successful armour save in close combat, the shield inflicts a Strength 4 hit on the model that struck the blow.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -9150,6 +9579,11 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3566-ae1d-d87e-7ec0" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6189-8dd7-381d-62e3" type="max"/>
           </constraints>
+          <rules>
+            <rule id="2abd-5035-f02f-15b3" name="Unliving Idol" hidden="false">
+              <description>The Daemon counts as a Beasts General when choosing the army.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="24f8-2fc2-9d15-8eb3" name="Daemonic Gift" hidden="false" targetId="d855-0137-fb0f-b91c" primary="false"/>
           </categoryLinks>
@@ -9162,6 +9596,11 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e66-f4e2-04d7-eafb" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f4e-0120-034b-6e72" type="max"/>
           </constraints>
+          <rules>
+            <rule id="947e-5112-86c6-e6d3" name="Radiance of Dark Glory" hidden="false">
+              <description>The Daemon and any other Daemon units within 6&quot; suffer one less wound when defeated in combat. For example if a Daemon fails its instability test by 2, then it would only loses one wound.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="d1d9-ae90-622f-17b7" name="Daemonic Gift" hidden="false" targetId="d855-0137-fb0f-b91c" primary="false"/>
           </categoryLinks>
@@ -9174,6 +9613,11 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48f1-1d90-35b9-7c19" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db6a-54a5-6662-d433" type="max"/>
           </constraints>
+          <rules>
+            <rule id="8251-a834-4fef-f7fc" name="Chaos Disruption" hidden="false">
+              <description>Any shooting at the Daemon or the unit it is with suffers an additional -1 to hit penalty.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="c7cb-884a-eb38-43ee" name="Daemonic Gift" hidden="false" targetId="d855-0137-fb0f-b91c" primary="false"/>
           </categoryLinks>
@@ -9193,6 +9637,11 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d45c-59de-3d90-8e15" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aae7-873d-bc28-b368" type="max"/>
           </constraints>
+          <rules>
+            <rule id="02b7-36fd-abce-dd45" name="Master of Mortals" hidden="false">
+              <description>If the Daemon is the army General, Mortal units count as Core choices and Daemonic count as Special.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="ab8a-bf26-0f06-5208" name="Daemonic Gift" hidden="false" targetId="d855-0137-fb0f-b91c" primary="false"/>
           </categoryLinks>
@@ -9205,6 +9654,11 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eba1-8eab-0555-27f2" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80b5-b44e-de70-d0b7" type="max"/>
           </constraints>
+          <rules>
+            <rule id="edc7-df98-19f5-d1d1" name="Diabolic Splendour" hidden="false">
+              <description>The Daemonic Aura becomes a normal ward save so can be used against magical attacks. This is also conferred to any Daemon unit which he joins.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="73b1-54ee-5ec3-aa31" name="Daemonic Gift" hidden="false" targetId="d855-0137-fb0f-b91c" primary="false"/>
           </categoryLinks>
@@ -9217,6 +9671,11 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed6f-a467-b113-c9e2" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d820-3d3a-e633-1e53" type="max"/>
           </constraints>
+          <rules>
+            <rule id="b3a2-331d-de24-24fe" name="Soul Hunger" hidden="false">
+              <description>Re-roll missed close combat attacks in the first round of any combat.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="1624-24c0-7acf-e4bd" name="Daemonic Gift" hidden="false" targetId="d855-0137-fb0f-b91c" primary="false"/>
           </categoryLinks>
@@ -9229,6 +9688,13 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb8a-a0e1-00c0-fce1" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3dac-c20a-4349-baa2" type="max"/>
           </constraints>
+          <rules>
+            <rule id="c79c-91e2-b8f0-7ba8" name="Blade of the Ether" hidden="false">
+              <description>The Daemon wields a hell-forged weapon that exists partly in another dimension, by passing armour.
+
+The Daemons close combat attacks ignore armour saves.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="c2b7-34ad-798d-bbd3" name="Daemonic Gift" hidden="false" targetId="d855-0137-fb0f-b91c" primary="false"/>
           </categoryLinks>
@@ -9248,6 +9714,13 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dc1-e644-5605-f6a8" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0de3-e9ea-a1ca-e813" type="max"/>
           </constraints>
+          <rules>
+            <rule id="31ec-a238-dfa4-1833" name="Collar of Khorne" hidden="false">
+              <description>The Daemon wears a heavy studded collar as a mark of Khorne&apos;s protection again magic.
+
+The Daemon has Magic Resistance (2).</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="ca84-ed26-a7c1-5f79" name="Daemonic Gift" hidden="false" targetId="d855-0137-fb0f-b91c" primary="false"/>
           </categoryLinks>
@@ -9267,6 +9740,11 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f44-6d31-7b2d-ec6b" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1e9-054f-c861-a78d" type="max"/>
           </constraints>
+          <rules>
+            <rule id="3ecf-9068-2524-f2a3" name="Power Vortex" hidden="false">
+              <description>At any point during the Chaos Magic phase, the Daemon may give up Wounds to generate Power dice (with no saves of any kind allowed, no Ward saves, no Regeneration, etc). For each Wound sacrificed, the Daemon generate an extra D3 Power dice that turn which only it may use.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="936e-01cf-9503-1c7d" name="Daemonic Gift" hidden="false" targetId="d855-0137-fb0f-b91c" primary="false"/>
           </categoryLinks>
@@ -9291,6 +9769,11 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31f7-4237-783c-7967" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="940b-043e-aadc-3efc" type="max"/>
           </constraints>
+          <rules>
+            <rule id="08d2-424a-8f08-916a" name="Plague Flail" hidden="false">
+              <description>The Daemon&apos;s attacks count as Poisoned Attacks. This gift cannot be combined with a Blade of the Ether gift.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="d89b-890b-8b61-b00b" name="Daemonic Gift" hidden="false" targetId="d855-0137-fb0f-b91c" primary="false"/>
           </categoryLinks>
@@ -9310,6 +9793,11 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3310-791e-afc7-c0f4" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ccd-e348-ef2c-91b6" type="max"/>
           </constraints>
+          <rules>
+            <rule id="fa1a-5261-dc5a-46e2" name="Gaze of Acquiescence" hidden="false">
+              <description>At the beginning of the Close Combat phase, select one model in base contact with the Daemon. The target must pass a Leadership test or may not make attacks in that Close Combat phase. Models Immune to Psychology cannot be affected.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="6e90-9f1f-7d32-a314" name="Daemonic Gift" hidden="false" targetId="d855-0137-fb0f-b91c" primary="false"/>
           </categoryLinks>
@@ -9322,6 +9810,11 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9d2-eb60-46ec-825c" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a35-2b6c-1f92-42fa" type="max"/>
           </constraints>
+          <rules>
+            <rule id="1f6b-355e-2660-267b" name="Spell Breaker" hidden="false">
+              <description>Once per battle the Daemon may dispel one enemy spell, except one which has just been cast with Irresistible Force.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="9d21-4d7d-2070-c229" name="Daemonic Gift" hidden="false" targetId="d855-0137-fb0f-b91c" primary="false"/>
           </categoryLinks>
@@ -9357,6 +9850,11 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
               </conditions>
             </modifier>
           </modifiers>
+          <rules>
+            <rule id="a370-df22-5342-2b4e" name="Lore of Tzeentch" hidden="false">
+              <description>The Lore of Tzeentch Lore</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -9369,6 +9867,11 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
               </conditions>
             </modifier>
           </modifiers>
+          <rules>
+            <rule id="1d2e-dd6d-3336-6bd2" name="Lore of Nurgle" hidden="false">
+              <description>The Lore of Nurgle Lore</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -9381,6 +9884,11 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
               </conditions>
             </modifier>
           </modifiers>
+          <rules>
+            <rule id="0388-dd54-3f7d-85e9" name="Lore of Slaanesh" hidden="false">
+              <description>The Lore of Slaanesh Lore</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -9467,7 +9975,7 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
           </modifiers>
           <rules>
             <rule id="c11b-db4d-6911-ecfc" name="Mark of Khorne" hidden="false">
-              <description>The Daemon Prince is subject to Frenzy. In addition, his presence on the battlefield adds one dice to the player&apos;s Dispel Dice pool.</description>
+              <description>Mark of Khorne Type</description>
             </rule>
           </rules>
           <infoLinks>
@@ -9503,7 +10011,7 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
           </modifiers>
           <rules>
             <rule id="91fc-4b03-3ae9-2aeb" name="Mark of Tzeentch" hidden="false">
-              <description>The Daemon Prince is a Level 4 Sorcerer.</description>
+              <description>Mark of Tzeentch Type</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -9536,7 +10044,7 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
           </modifiers>
           <rules>
             <rule id="3fb3-6e0a-b7c0-35ac" name="Mark of Nurgle" hidden="false">
-              <description>The Daemon Prince has +1 Wound</description>
+              <description>Mark of Nurgle</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -9569,7 +10077,7 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
           </modifiers>
           <rules>
             <rule id="f7c9-dc56-ee7f-2241" name="Mark of Slaanesh" hidden="false">
-              <description>The Daemon Prince always strikes first in close combat. If its opponent also has the ability to always strike then resolve their attacks in normal Initiative order.</description>
+              <description>Mark of Slaanesh Type</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -9624,7 +10132,7 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
           </modifiers>
           <rules>
             <rule id="4a1e-b50d-273c-0d21" name="Mark of Khorne" hidden="false">
-              <description>The Doombull is subject to Frenzy. In addition, his presence on the battlefield adds one dice to the player&apos;s Dispel Dice pool.</description>
+              <description>Mark of Khorne Type</description>
             </rule>
           </rules>
           <infoLinks>
@@ -9660,7 +10168,7 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
           </modifiers>
           <rules>
             <rule id="743b-5379-c560-bc5f" name="Mark of Tzeentch" hidden="false">
-              <description>The Doombull is a Level 2 Sorcerer and can cast spells whilst wearing mundane and/or magic armour.</description>
+              <description>Mark of Tzeentch Type</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -9693,7 +10201,7 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
           </modifiers>
           <rules>
             <rule id="a70a-255d-63a1-a483" name="Mark of Nurgle" hidden="false">
-              <description>The Doombull has +1 Wound</description>
+              <description>Mark of Nurgle</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -9726,7 +10234,7 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
           </modifiers>
           <rules>
             <rule id="1df7-0152-bb7a-fc24" name="Mark of Slaanesh" hidden="false">
-              <description>The Doombull is Immune to Psychology.</description>
+              <description>Mark of Slaanesh Type</description>
             </rule>
           </rules>
           <infoLinks>
@@ -9777,7 +10285,7 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
           </modifiers>
           <rules>
             <rule id="5726-ffeb-8e59-6406" name="Mark of Khorne" hidden="false">
-              <description>The Chariot&apos;s crew are subject to Frenzy. In addition, their presence on the battlefield adds one dice to the player&apos;s Dispel Dice pool.</description>
+              <description>Mark of Khorne Type</description>
             </rule>
           </rules>
           <infoLinks>
@@ -9806,7 +10314,7 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
           </modifiers>
           <rules>
             <rule id="ed35-aa44-23dc-2fa1" name="Mark of Tzeentch" hidden="false">
-              <description>In each Chaos Magic phase, the unit generates an extra Power dice. No dice are generated if the unit is fleeing.</description>
+              <description>Mark of Tzeentch Type</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -9832,7 +10340,7 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
           </modifiers>
           <rules>
             <rule id="78c6-9db6-5c2a-fa3c" name="Mark of Nurgle" hidden="false">
-              <description>The unit causes Fear</description>
+              <description>Mark of Nurgle</description>
             </rule>
           </rules>
           <infoLinks>
@@ -9861,7 +10369,7 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
           </modifiers>
           <rules>
             <rule id="3798-2f67-297c-9160" name="Mark of Slaanesh" hidden="false">
-              <description>The unit is Immune to Psychology.</description>
+              <description>Mark of Slaanesh Type</description>
             </rule>
           </rules>
           <infoLinks>
@@ -9911,7 +10419,7 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
           </modifiers>
           <rules>
             <rule id="bcf9-37e8-6dc9-a7bf" name="Mark of Khorne" hidden="false">
-              <description>The unit is subject to Frenzy. In addition, their presence on the battlefield adds one dice to the player&apos;s Dispel Dice pool.</description>
+              <description>Mark of Khorne Type</description>
             </rule>
           </rules>
           <infoLinks>
@@ -9940,7 +10448,7 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
           </modifiers>
           <rules>
             <rule id="afd9-c521-15b7-752e" name="Mark of Tzeentch" hidden="false">
-              <description>In each Chaos Magic phase, the unit generates an extra Power dice. No dice are generated if the unit is fleeing.</description>
+              <description>Mark of Tzeentch Type</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -9966,7 +10474,7 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
           </modifiers>
           <rules>
             <rule id="6888-f96d-142e-4957" name="Mark of Nurgle" hidden="false">
-              <description>The unit causes Fear</description>
+              <description>Mark of Nurgle</description>
             </rule>
           </rules>
           <infoLinks>
@@ -9995,7 +10503,7 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
           </modifiers>
           <rules>
             <rule id="eb75-e79a-bca0-4bb6" name="Mark of Slaanesh" hidden="false">
-              <description>The unit is Immune to Psychology.</description>
+              <description>Mark of Slaanesh Type</description>
             </rule>
           </rules>
           <infoLinks>
@@ -10045,6 +10553,11 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a83-b951-33a5-efc4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f54f-347b-c4d6-60c9" type="max"/>
           </constraints>
+          <rules>
+            <rule id="a8f5-e2e5-0e14-392b" name="The Plague Chalice" hidden="false">
+              <description>Mark of Nurgle only - One Use Only. The Shaman may drink from the Chalice at the start of his Magic phase. He suffers an immediate Strength 4 hit that ignores Armour and Ward saves (Regeneration may be taken as normal). For the remainder of that Magic phase, any spell cast by the Shaman will be cast with Irresistible Force on a successful casting roll which includes any double, except a Miscast.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="2397-7267-5fee-6237" name="Arcane Item" hidden="false" targetId="7cfd-b676-48e1-6eec" primary="false"/>
           </categoryLinks>
@@ -10064,6 +10577,13 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5294-4208-6a2b-884f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b54-09c1-b389-e416" type="max"/>
           </constraints>
+          <rules>
+            <rule id="4616-1e0a-ce8a-626f" name="The Goretooth" hidden="false">
+              <description>Wrenched from the jaw of the legendary Doombull Grashak, the Goretooth is hung from a necklace of bones and tendons. It carries within it the savage hatred of this once-mighty Champion of Chaos, and the wearer constantly froths at the mouth, bloodshot eyes staring as be lumbers toward his prey.
+
+Beasts of Chaos characters only. The Goretooth confers hatred and the Bloodgreed special rules to the bearer. The bearer must replace one of his randomly rolled spells with The Bear&apos;s Anger, regardless of the lore he has chosen.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="c5e8-2619-4bf7-b523" name="Arcane Item" hidden="false" targetId="7cfd-b676-48e1-6eec" primary="false"/>
           </categoryLinks>
@@ -10088,6 +10608,11 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8450-0a84-3d69-3244" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edce-3d87-6643-0aef" type="max"/>
           </constraints>
+          <rules>
+            <rule id="2193-f7c8-04d1-6535" name="Staff of Darkoath" hidden="false">
+              <description>Counts as a braystaff. Also, the Shaman knows the following spell in addition to his other spells: The Wild Call</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="23ec-273e-d33a-ae41" name="Arcane Item" hidden="false" targetId="7cfd-b676-48e1-6eec" primary="false"/>
           </categoryLinks>
@@ -10112,6 +10637,11 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8313-2e73-025f-1775" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af13-0407-79c1-ad88" type="max"/>
           </constraints>
+          <rules>
+            <rule id="37de-32d9-35ae-5ed2" name="Staff of Change" hidden="false">
+              <description>Models with the Mark of Tzeentch only. The bearer can make a single re-roll of one or more dice rolled to cast or dispel a spell. The second result(s) stand. This can negate the effects of a Miscast and cause an Irresistible Force (and the equivalent results when dispelling). If the bearer casts a spell with Irresistible Force using the staff&apos;s re-roll ability, the staff will exhaust its power and cease working for the rest of the battle.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="7d12-d4dc-3244-8bdd" name="Arcane Item" hidden="false" targetId="7cfd-b676-48e1-6eec" primary="false"/>
           </categoryLinks>
@@ -10124,6 +10654,11 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b71-a7ad-d6e5-b1cd" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3408-9ddf-b36c-8cf5" type="max"/>
           </constraints>
+          <rules>
+            <rule id="6cdc-815e-bb5b-cff4" name="Skull of Katam" hidden="false">
+              <description>The bearer adds +1 to all Casting rolls.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="126d-74aa-245e-a0bf" name="Arcane Item" hidden="false" targetId="7cfd-b676-48e1-6eec" primary="false"/>
           </categoryLinks>
@@ -10136,6 +10671,13 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dba-c23a-4dc6-7c97" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5161-d771-1208-4f95" type="max"/>
           </constraints>
+          <rules>
+            <rule id="0812-38d5-8cfc-3246" name="Power Familiar" hidden="false">
+              <description>This familiar attracts raw magic power to its master.
+
+The Familiar adds one dice to both the Power dice and Dispel dice pool of the bearer&apos;s side.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="b0b6-f6a1-6964-0910" name="Arcane Item" hidden="false" targetId="7cfd-b676-48e1-6eec" primary="false"/>
           </categoryLinks>
@@ -10148,6 +10690,11 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3b0-d6a8-8490-c63a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9242-5fd2-a05c-b12f" type="max"/>
           </constraints>
+          <rules>
+            <rule id="acb5-b987-24a4-a2c8" name="Warrior Familiar" hidden="false">
+              <description>At the beginning of the Close Combat phase, before blows are struck, the Familiar inflicts one Strength 5 hit on a single model chosen by the Sorcerer from amongst those in base contact. Wounds inflicted do count cowards combat resolution.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="f5e9-f55b-a9d8-9a2d" name="Arcane Item" hidden="false" targetId="7cfd-b676-48e1-6eec" primary="false"/>
           </categoryLinks>
@@ -10160,6 +10707,13 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="525c-87b3-9c30-a767" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b946-045a-92ef-3bcc" type="max"/>
           </constraints>
+          <rules>
+            <rule id="be54-1bc8-ab43-97a9" name="Spell Familiar" hidden="false">
+              <description>A spell familiar memorises a spell on its master&apos;s behalf, offering the sorcerer a better choice of deadly magic to unleash in battle.
+
+The Familiar&apos;s owner knows one more spell than is normal for his level. This does not increase his Magic Level.</description>
+            </rule>
+          </rules>
           <categoryLinks>
             <categoryLink id="8391-d045-d247-b271" name="Arcane Item" hidden="false" targetId="7cfd-b676-48e1-6eec" primary="false"/>
           </categoryLinks>
@@ -10175,22 +10729,82 @@ Roll a D6 every time a spell is cast at the bearer of the Spelleater Shield and 
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="ca5f-978e-65f9-0564" name="Raiders" hidden="false"/>
-    <rule id="042e-ac58-600d-b7f6" name="Ambush" hidden="false"/>
-    <rule id="cee3-197c-c24e-627e" name="Bloodgreed" hidden="false">
-      <description>Minotaurs can never make an Overrun move, even if normally forced to do so by psychology or some other effect. However, Minotaurs pursue 3D6&quot; rather than 2D6&quot;.
-
-If a Doombull is with a non-Minotaur unit, then it&apos;s norrmal pursuit rate is used.</description>
+    <rule id="ca5f-978e-65f9-0564" name="Raiders" hidden="false">
+      <description>- They may only make a charge move if at least one quarter of the models in the unit are within normal charge range of the enemy unit.
+- They gain rank bonus for combat resolution Just like normal units, up to a maximum of +2.
+- When charging or charged, if the unit would normally form up less than four models wide, then it forms up four models wide (space permitting).
+- Units with the Raiders special rule may not be joined by characters who are not Raiders. Characters with the Raiders special rule may Join any unit they wish, but if they join a unit which does not have the Raiders special rule then they are treated exactly like any other character model.</description>
     </rule>
-    <rule id="2a7e-10b0-12b7-51aa" name="Cloud of Flies" hidden="false"/>
-    <rule id="e22b-b02b-ee07-a116" name="Stream of Corruption" hidden="false"/>
-    <rule id="1998-c72e-fcd7-7491" name="Aura of Slaanesh" hidden="false"/>
-    <rule id="da38-af45-b624-b4e8" name="Unruly" hidden="false"/>
+    <rule id="042e-ac58-600d-b7f6" name="Ambush" hidden="false">
+      <description>The Elves attacked the Dwarfs with arrows while remaining concealed in the trees and drew the reckless Dwarfs onwards, while the rest of the Wood Elf force closed in from behind. In these circumstances, the Wood Elves would not need to outnumber the Dwarfs and may even have been a smaller force.
+
+Despite forming a shield-wall, the Dwarfs were unable to fight their way back out of the ravine and were all slain.
+
+Overview
+
+In this scenario a smaller force takes advantage of surprise and better position to ambush a larger force.
+
+Armies
+
+Both armies are chosen using the Warhammer Army lists. The defender has 50% more points than the attacker (rounding fractions down). Eg, 1,500 points of attackers would face 2,250 points of defenders.
+
+Battlefield
+
+Set up the terrain in an agreed manner.
+
+Deployment
+
+1. The defender must set up their army first, in the deployment zone shown on the map. All units must face towards the same table edge. They do not have to deploy their Scouts until the attacker has set up their army.
+2. The attacker then deploys their army. At least one third of the attacker&apos;s units (not counting Scouts, characters and monsters) must be in each deployment zone.
+3. The defender then deploys any Scouts, followed by the attacker deploying their Scouting units.
+
+Who Goes First?
+
+The attacker goes first.
+
+Length of Game
+
+The game lasts for five turns.
+
+Victory Conditions
+
+Calculate Victory points for destroyed units and units below half strength. Do not award Victory points for anything else. The player with the highest Victory points total is the winner.
+
+Historical Re-fight
+
+The battle took place between Dwarfs and Wood Elves, in a ravine with heavily wooded sides. Other than this, the normal scenario rules apply.</description>
+    </rule>
+    <rule id="cee3-197c-c24e-627e" name="Bloodgreed" hidden="false">
+      <description>Minotaurs (and Doombulls) are known for their craving for flesh, and even in the heat of battle will stop to devour the fallen rather than continue to fight. A unit of Minotaurs, or a unit led by a Doombull, can never make an Overrun move, even if normally forced to do so by psychology or some other effect. However, Minotaurs (and Doombulls) pursue 3D6&quot;, rather than 2D6&quot;. If the Doombull is with a non­-Minotaur unit, then its normal pursuit rate is used.</description>
+    </rule>
+    <rule id="2a7e-10b0-12b7-51aa" name="Cloud of Flies" hidden="false">
+      <description>Any unit close combat with a unit or model with this special rule suffers a -1 To Hit penalty on its rolls to hit.</description>
+    </rule>
+    <rule id="e22b-b02b-ee07-a116" name="Stream of Corruption" hidden="false">
+      <description>Plaguebearers may choose to vomit forth a grotesque spew of entrails, maggots and filth. This is resolved differently to the Daemonic Gift of the same name. It is used in close combat instead of making normal attacks and allows the Plaguebearers to hit their opponents automatically. Attacks are resolved at Strength 3. All models in the unit must use the same kind of attack in a single combat round, although they may change their attack from round to round.</description>
+    </rule>
+    <rule id="1998-c72e-fcd7-7491" name="Aura of Slaanesh" hidden="false">
+      <description>Any enemy unit in base contact with one or more models with the Aura of Slaanesh reduces its Leadership value by -1 to a minimum of 2.</description>
+    </rule>
+    <rule id="da38-af45-b624-b4e8" name="Unruly" hidden="false">
+      <description>At the start of each Chaos Compulsory Movement phase, roll a 1D6 for each Unruly unit. On a roll of a 1, the unit&apos;s headstrong nature has got the better of it. If there is an enemy unit that can be charged using the normal rules, the Beastmen must charge (charging the closest unit if there is more than one legal target). If no charges are possible, the unit moves as quickly and directly as possible towards the nearest enemy.</description>
+    </rule>
     <rule id="efd7-e2f9-b9e4-0323" name="Storm Rage" hidden="false">
-      <description>Dragon Ogres are immune to all lightning-based attacks and spells. If for whatever reason, they are targeted by a lightning-based attack they suffer no effects and become Frenzied.</description>
+      <description>Dragon Ogres (and Shaggoths) bathe in lightning to invigorate themselves and extend their lives. They are immune to all lightning-based attacks and spells, for example, Skaven warp-lightning attacks and certain Lore of Heavens spells, such as Storm of Cronos and Forked Lightning. If for whatever reason, models with this rule are targeted by a lightning-based attack, they suffer no effects and become frenzied (even if normally Immune to Psychology).</description>
     </rule>
     <rule id="b849-ce16-a6e5-4088" name="Mark of Chaos Undivided" hidden="false">
       <description>The character, unit or chariot may re-roll failed Psychology tests.</description>
+    </rule>
+    <rule id="cbfe-f7e6-7263-846f" name="Stream of Corruption" hidden="false">
+      <description>In any of the Chaos player&apos;s Shooting phases that the Daemon is not in combat, it may unleash its Stream of Corruption. This is a breath attack. The attack is resolved at Strength 3, with a -2 armour saving throw modifier.</description>
+    </rule>
+    <rule id="6b50-10ca-dd27-c712" name="Cloud of Flies" hidden="false">
+      <description>A swarm of flies envelopes the Daemon, distracting the enemy by flying into eyes, ears and mouths, crawling under armour and clothing.
+
+Any unit In close combat with one or more models with a Cloud of Flies suffers a -1 modifier to its rolls to hit.</description>
+    </rule>
+    <rule id="d103-df69-44a8-2293" name="Aura of Slaanesh" hidden="false">
+      <description>Any enemy unit in base contact with one or more models with the Aura of Slaanesh reduces its Leadership by -1, to a minimum Leadership value of 2.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -10210,6 +10824,42 @@ If a Doombull is with a non-Minotaur unit, then it&apos;s norrmal pursuit rate i
   </sharedProfiles>
   <sharedInfoGroups>
     <infoGroup id="1d2a-5ef7-5722-e7d5" name="Daemonic" hidden="false"/>
+    <infoGroup id="69f3-6716-22ed-621f" name="Chaos Giant" hidden="false">
+      <rules>
+        <rule id="e588-6278-f75d-e462" name="Yell and Bawl" hidden="false">
+          <description>The Giant yells and bawls at the enemy. This is not a pleasant experience as Giants are deafeningly loud and tend towards poor oral hygiene. Neither the Giant nor models in contact him actually fight if they have not already done so this round, but the combat round is automatically won by the Giant&apos;s side. The enemy are automatically beaten and must take resultant Break tests with a -2 modifier.</description>
+        </rule>
+        <rule id="e346-6433-7072-9bdc" name="Jump Up and Down" hidden="false">
+          <description>The Giant jumps up and down vigorously on top of one enemy unit in base contact. Before he starts, the Giant must test to determine if he falls over. If he falls over, work out where he falls over. Assuming that he remains on his none too nimble feet, the Giant bounds up and down on the enemy unit, guffawing madly.
+
+The unit sustains 2D6 Strength 6 hits allocated as shooting hits. Work out damage and saves as usual. Giants enjoy jumping up and down on their enemies so much that a Giant that does so in one combat round will automatically do so in the following round if he is able to, assuming that he did not fall over in the previous round. A separate test is required at the start of each succeeding combat round to determine if the Giant falls over. A Giant that starts to Jump Up and Down will therefore continue to do so until he falls over or until the that combat comes to an end.</description>
+        </rule>
+        <rule id="0547-35db-cf55-bcfa" name="Swing with Club" hidden="false">
+          <description>The Giant swings his club across the enemy&apos;s ranks, knocking many targets to the floor. The Giant inflicts D6 Strength 6 hits on the target unit, allocated as shooting hits.</description>
+        </rule>
+        <rule id="6bb5-8a71-56c5-83fb" name="Thump with Club" hidden="false">
+          <description>Most Giants carry a big club, often a tree trunk or a big bone. If they have no weapon they will use their enormous fists. The Giant picks one model as his target and brings down his club with a single mighty stroke.
+
+The target may attempt to avoid the blow by taking and passing an Initiative test (use the lowest if the model has several different values). If avoided there is no effect. If failed the target is struck and takes 2D6 wounds with no armour save allowed. If a double is rolled the Giant&apos;s club embeds itself in the ground and the Giant cannot attack at all in the following round whilst he recovers his weapon (this ceases to apply if the combat ends before the next round).</description>
+        </rule>
+        <rule id="cffc-7c30-cd73-30ed" name="&apos;Eadbutt" hidden="false">
+          <description>The Giant head-butts his enemy, automatically inflicting 1 wound with no armour saves allowed. If the victim is wounded but not slain then he is dazed and loses all of his following attacks - if the target has not yet attacked that combat round he loses those Attacks, if he has already attacked he loses the following round&apos;s attacks.</description>
+        </rule>
+        <rule id="3d9f-e985-2120-0ae5" name="Pick Up and..." hidden="false">
+          <description>The Giant stoops down and selects a model (Giant player&apos;s choice) that is either in base contact or touching a model in base contact (Giants have a long reach). The target may make a single attack to try to fend off the Giant&apos;s clumsy hand. If this attack hits and wounds the Giant, the Giant&apos;s attack fails, otherwise the Giant grabs the model and the player rolls a D6 to see what happens next:
+
+Pick Up and... Chart
+
+D6		Result
+1	Stuff into Bag.	The Giant stuffs the victim into his lug along with sheep, cows and other plunder. The model is effectively a casualty and can do nothing whilst in the bag, but if the Giant should he slain any enemy trapped in his bag are freed unharmed at the end of the battle. Victory points are not awarded to the enemy for freed models.
+2	Throw Back into Combat.	The victim is hurled hack into his own unit like a living missile. This causes a wound on the victim with no saves of any kind allowed, and D6 Strength 3 hits on the unit.
+3	Hurl.	The victim is hurled into any enemy unit within 12&quot; of the Giant - randomly determine which. This causes a wound on the victim with no saves of any kind allowed, and D6 Strength 3 hits on the unit. Saves are taken as normal. If no enemy units are in range, treat this as a Throw Back into Combat result instead.
+4	Squash.	This doesn&apos;t really bear thinking about. Suffice to say the model becomes a casualty and is removed from the game.
+5	Eat.	The Giant gobbles his victim up, swallowing him whole. The model is removed from the game.
+6	Pick Another.	The Giant stuffs the victim hurriedly into his bag or under his shirt (or down his trousers if they&apos;re really unlucky) and attempts to pick up another victim. The second victim makes a single attack (as above) to avoid being picked up. If the Giant rolls a succession of 6s it is possible for him to amass a collection of trapped foes in his pockets and bags (not to mention down his trousers). Trapped models are effectively casualties, exactly as explained in the Stuff into Bag result described above.</description>
+        </rule>
+      </rules>
+    </infoGroup>
   </sharedInfoGroups>
   <catalogueLinks>
     <catalogueLink id="41b3-4d15-b0a9-7493" name="Dogs of War" targetId="3604-800a-4012-5da6" type="catalogue" importRootEntries="true"/>
