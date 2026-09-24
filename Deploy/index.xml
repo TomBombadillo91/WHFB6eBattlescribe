@@ -2,7 +2,7 @@
 <dataIndex battleScribeVersion="2.03" name="WHFB6eBattlescribe" indexUrl="https://raw.githubusercontent.com/TomRome2Rio/WHFB6eBattlescribe/main/Deploy/index.bsi" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
   <dataIndexEntries>
     <dataIndexEntry filePath="Warhammer Fantasy 6th Edition.gstz" dataType="gamesystem" dataId="4ca8-2035-2f87-1bd7" dataName="WHFB 6th Edition" dataBattleScribeVersion="2.03" dataRevision="37"/>
-    <dataIndexEntry filePath="Bretonnians.catz" dataType="catalogue" dataId="05b9-5022-67cd-4fd3" dataName="Bretonnians" dataBattleScribeVersion="2.03" dataRevision="12"/>
+    <dataIndexEntry filePath="Bretonnians.catz" dataType="catalogue" dataId="05b9-5022-67cd-4fd3" dataName="Bretonnians" dataBattleScribeVersion="2.03" dataRevision="13"/>
     <dataIndexEntry filePath="Chaos Dwarves.catz" dataType="catalogue" dataId="7236-6609-8f2a-760a" dataName="Chaos Dwarves" dataBattleScribeVersion="2.03" dataRevision="11"/>
     <dataIndexEntry filePath="Daemonic Legions.catz" dataType="catalogue" dataId="7010-abfa-dde5-6873" dataName="Daemonic Legions" dataBattleScribeVersion="2.03" dataRevision="14"/>
     <dataIndexEntry filePath="Dark Elves.catz" dataType="catalogue" dataId="b151-7d1c-4a96-e0d0" dataName="Dark Elves" dataBattleScribeVersion="2.03" dataRevision="21"/>
@@ -15,7 +15,7 @@
     <dataIndexEntry filePath="Orcs and Goblins.catz" dataType="catalogue" dataId="9534-aec7-1922-76f2" dataName="Orcs and Goblins" dataBattleScribeVersion="2.03" dataRevision="23"/>
     <dataIndexEntry filePath="Skaven.catz" dataType="catalogue" dataId="dfb1-1789-5d68-be54" dataName="Skaven" dataBattleScribeVersion="2.03" dataRevision="23"/>
     <dataIndexEntry filePath="The Empire.catz" dataType="catalogue" dataId="f49f-f614-5cfb-004a" dataName="The Empire" dataBattleScribeVersion="2.03" dataRevision="20"/>
-    <dataIndexEntry filePath="Tomb Kings.catz" dataType="catalogue" dataId="4b41-6842-9db5-f563" dataName="Tomb Kings" dataBattleScribeVersion="2.03" dataRevision="15"/>
+    <dataIndexEntry filePath="Tomb Kings.catz" dataType="catalogue" dataId="4b41-6842-9db5-f563" dataName="Tomb Kings" dataBattleScribeVersion="2.03" dataRevision="16"/>
     <dataIndexEntry filePath="Vampire Counts.catz" dataType="catalogue" dataId="c2c0-45b3-040e-fe0f" dataName="Vampire Counts" dataBattleScribeVersion="2.03" dataRevision="15"/>
     <dataIndexEntry filePath="Wood Elves.catz" dataType="catalogue" dataId="7bb5-70b8-0122-944c" dataName="Wood Elves" dataBattleScribeVersion="2.03" dataRevision="17"/>
   </dataIndexEntries>
