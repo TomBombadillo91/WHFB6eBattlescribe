@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4ca8-2035-2f87-1bd7" name="WHFB 6th Edition" revision="33" battleScribeVersion="2.03" authorName="Tom Clare" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="4ca8-2035-2f87-1bd7" name="WHFB 6th Edition" revision="34" battleScribeVersion="2.03" authorName="Tom Clare" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="d9e7-add3-773e-ffab" name="BRB"/>
     <publication id="2c29-8521-dcc7-5337" name="Warhammer Chronicles 2003"/>
@@ -869,13 +869,6 @@ The Scatter dice is the dice marked with arrows on four sides and the HIT symbol
 
 The Artillery dice is marked 2, 4, 6, 8, 10 and MISFIRE. If a Misfire has been rolled then something has gone wrong - roll a D6 and consult the Stone Thrower Misfire chart. A Misfire roll automatically cancels out the whole shot regardless of the Scatter dice result. If a number on the Artillery dice is rolled then this is the distance in inches the missile veers off target as shown by the arrow on the Scatter dice. Move the template the distance indicated in the direction shown by the arrow. If a HIT has been rolled then the numbers are ignored; a number simply indicates that the shot has not misfired.
 
-Stone Thrower Misfire Chart:
-1 - Destroyed! The engine cannot stand the strain placed upon it and breaks under the tension as it is fired. Bits of wood and metal fly all around, the stone tumbles to the ground splintering the engine and throwing debris into the air. The engine is destroyed and its crew slain or injured. Remove the engine and its crew.
-
-2-3 - Disabled: The normal smooth running of the machine and its crew is disrupted by some accident or freak occurrence. A rope snaps and lashes about wildly, a crewman sets the machine up wrongly so that it pulls itself apart, or maybe a careless operator has become entangled in the mechanism. The engine does not shoot this turn and cannot fire next turn either while the damage is repaired. To help you remember, it is a good idea to turn the machine round to face away from the enemy. In addition, one of the crew is slain - caught by a snapping rope, entangled in the machinery, or thrown high into the air in place of the stone!
-
-4-6 - May not shoot: A minor fault prevents the machine shooting this turn. A crewman drops the stone as he lifts it into position, maybe a ratchet jams or a rope loosens. The machine is unharmed and may shoot as normal next turn.
-
 Damage:
 Once it is established where the stone lands damage can be worked out. Any model that lies completely under the template is hit automatically - models whose bases lie partially under the template are hit on a 4+. You will have to use your judgement and common sense to decide exactly which models lie under the template - sometimes it is not easy to judge precisely.
 
@@ -887,6 +880,12 @@ No armour saving throw is permitted against wounds from a stone thrower. Ward sa
 
 Loss of Crew:
 A stone thrower requires a full crew to work it properly – to carry stones, push then machine round to bear on its target, and so on. If one crewman is slain then the rest can just about get by without slowing up the machine noticeably. If two or more crewmen are slain then the remaining crew will be unable to cope and the stone thrower will have to miss a whole turn before it can shoot again. This is in addition to any penalty imposed by a Misfire result. Obviously, the engine requires at least one crewman to work, so the machine will become useless should they all be slain.</description>
+    </rule>
+    <rule id="d4c8-556b-9d58-4ca8" name="Stone Thrower Misfire Chart" publicationId="d9e7-add3-773e-ffab" page="120" hidden="false">
+      <description>D6		Result
+1	Destroyed!	The engine cannot stand the strain placed upon it and breaks under the tension as it is fired. Bits of wood and metal fly all around, the stone tumbles to the ground splintering the engine and throwing debris into the air. The engine is destroyed and its crew slain or injured. Remove the engine and its crew.
+2-3	Disabled.	The normal smooth running of the machine and its crew is disrupted by some accident or freak occurrence. A rope snaps and lashes about wildly, a crewman sets the machine up wrongly so that it pulls itself apart, or maybe a careless operator has become entangled in the mechanism. The engine does not shoot this turn and cannot fire next turn either while the damage is repaired. To help you remember, it is a good idea to turn the machine round to face away from the enemy. In addition, one of the crew is slain - caught by a snapping rope, entangled in the machinery, or thrown high into the air in place of the stone!
+4-6	May not shoot.	A minor fault prevents the machine shooting this turn. A crewman drops the stone as he lifts it into position, maybe a ratchet jams or a rope loosens. The machine is unharmed and may shoot as normal next turn.</description>
     </rule>
     <rule id="95df-6c33-fb3e-c966" name="Cannon" publicationId="d9e7-add3-773e-ffab" page="122" hidden="false">
       <description>Cannons are fired in the Shooting phase. To fire a cannon, it must first be turned on the spot so it points in the direction of the target which must be within line of sight but otherwise is not limited by targeting restrictions. Then the player must declare how far the cannon is going to shoot - eg, 24&quot;, 30&quot;, 32&quot;, etc.
@@ -907,19 +906,18 @@ Instead of firing a normal shot, cannon crew can opt to fire grapeshot instead. 
 
 The Artillery dice is rolled twice when a cannon is fired, so there are two chances of rolling a Misfire result. However, the two results will be different. If a Misfire result is rolled on the first dice, the cannon has literally misfired and may explode - roll a D6 and consult the Cannon Misfire chart. If a Misfire is rolled on the Bounce roll then this merely indicates that the ball has stuck in the ground and does not bounce.
 
-Cannon Misfire Chart:
-1 - Destroyed! The cannon explodes with a mighty crack. Shards of metal and wood fly in all directions leaving a hole in the ground and a cloud of black smoke. The cannon is destroyed and its crew slain or injured. Remove the cannon and its crew.
-
-2-3 - Malfunction: The powder fails to ignite and the cannon does not fire. The crew must remove the ball and powder before the cannon can shoot again - which takes another turn. The cannon therefore cannot fire either this turn or the next turn. It is a good idea to turn the cannon round to indicate this.
-
-4-6 - May not shoot: A minor fault prevents the cannon from firing this turn, perhaps the fuse is not set properly or maybe the crewmen mishandle the loading procedure. The cannon is unharmed and may shoot as normal next turn.
-
-If you roll a Misfire on your Bounce roll then the cannon is unharmed, the misfire result merely indicates that the cannon ball has struck in the ground where it hits. If the shot lands on top of a model then that particular model is hit as normal, but there is no further bounce damage.
-
 Loss of Crew:
 A cannon requires a full crew to work properly - to carry cannonballs, load gunpowder, push the machine round to bear on its target, and so on. If one crewman is slain then. the rest can just about get by without reducing the rate of fire. If two or more crewmen are slain than the remaining crew will be unable to cope, so when it shoots the cannon must miss a whole turn before it can shoot again. This is in addition to any penalty imposed by a Misfire result.
 
 Obviously the cannon requires at least one crewman to work it, so the machine becomes useless should they all be slain.</description>
+    </rule>
+    <rule id="f957-e84a-67fd-28cc" name="Cannon Misfire Chart" publicationId="d9e7-add3-773e-ffab" page="123" hidden="false">
+      <description>D6		Result
+1	Destroyed!	The cannon explodes with a mighty crack. Shards of metal and wood fly in all directions leaving a hole in the ground and a cloud of black smoke. The cannon is destroyed and its crew slain or injured. Remove the cannon and its crew.
+2-3	Malfunction.	The powder fails to ignite and the cannon does not fire. The crew must remove the ball and powder before the cannon can shoot again - which takes another turn. The cannon therefore cannot fire either this turn or the next turn. It is a good idea to turn the cannon round to indicate this.
+4-6	May not shoot.	A minor fault prevents the cannon from firing this turn, perhaps the fuse is not set properly or maybe the crewmen mishandle the loading procedure. The cannon is unharmed and may shoot as normal next turn.
+
+If you roll a Misfire on your Bounce roll then the cannon is unharmed, the misfire result merely indicates that the cannon ball has struck in the ground where it hits. If the shot lands on top of a model then that particular model is hit as normal, but there is no further bounce damage.</description>
     </rule>
     <rule id="3702-c42a-047c-af5f" name="Bolt Throwers" publicationId="d9e7-add3-773e-ffab" page="124" hidden="false">
       <description>Bolt throwers are fired in the Shooting phase along with other missile weapons. To fire a bolt thrower it must first be turned on the spot so that it points towards its intended victim. The bolt travels straight forward and (hopefully) hits the first target in its path. In a unit of troops this will always be a regular trooper. Only if there are no rank-and-file troops in the first rank hit by the bolt will it be necessary to randomize which model in the front rank is hit.

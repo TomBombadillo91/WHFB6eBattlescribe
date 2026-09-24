@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="e0a8-8253-1a27-7620" name="Engineering Rune" hidden="false">
       <rules>
@@ -1774,6 +1774,7 @@ In the Movement phase of the turn when they arrive, Miners can enter the battlef
       </profiles>
       <infoLinks>
         <infoLink id="eb20-fece-a43f-94c7" name="Cannon" hidden="false" targetId="95df-6c33-fb3e-c966" type="rule"/>
+        <infoLink id="73a7-78bd-bc9b-6a8e" name="Cannon Misfire Chart" hidden="false" targetId="f957-e84a-67fd-28cc" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ab66-64f2-1aea-b97e" name="New CategoryLink" hidden="false" targetId="4a3f-84d1-0495-6ecb" primary="true"/>
@@ -1897,6 +1898,7 @@ In the Movement phase of the turn when they arrive, Miners can enter the battlef
       </profiles>
       <infoLinks>
         <infoLink id="8515-2a5b-0003-8f21" name="Stone Thrower" hidden="false" targetId="ea74-4e81-f844-d146" type="rule"/>
+        <infoLink id="1b00-e5c9-2335-d63a" name="Stone Thrower Misfire Chart" hidden="false" targetId="d4c8-556b-9d58-4ca8" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a468-40bc-ecb5-19f7" name="New CategoryLink" hidden="false" targetId="4a3f-84d1-0495-6ecb" primary="true"/>

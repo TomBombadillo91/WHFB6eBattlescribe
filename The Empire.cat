@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="17" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="18" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <costTypes>
     <costType id="fada-3781-5bbe-4625" name=" Hull Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -4822,6 +4822,7 @@ A Helblaster Volley Gun requires a full crew of three crewmen to work properly. 
       </profiles>
       <infoLinks>
         <infoLink id="d8cd-1992-9258-111b" name="Cannon" hidden="false" targetId="95df-6c33-fb3e-c966" type="rule"/>
+        <infoLink id="00d1-87cb-48f2-7bef" name="Cannon Misfire Chart" hidden="false" targetId="f957-e84a-67fd-28cc" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8412-d82e-cd27-33e6" name="New CategoryLink" hidden="false" targetId="4a3f-84d1-0495-6ecb" primary="true"/>

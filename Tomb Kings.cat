@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4b41-6842-9db5-f563" name="Tomb Kings" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4b41-6842-9db5-f563" name="Tomb Kings" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7d0c-5562-269f-0795" name="Tomb King General" hidden="false"/>
     <categoryEntry id="80b7-5608-88c2-552c" name="Settra&apos;s Army" hidden="false">
@@ -1220,6 +1220,7 @@ One Skink Chief may carry the Battle Standard for +25 pts. A Skink Chief with th
       <infoLinks>
         <infoLink id="e336-7f7a-e8d4-275c" name="Undead" hidden="false" targetId="be0c-7908-5478-2187" type="infoGroup"/>
         <infoLink id="4dc0-a73c-80f3-ce37" name="Stone Thrower" hidden="false" targetId="ea74-4e81-f844-d146" type="rule"/>
+        <infoLink id="b8b7-ed65-506f-9d7b" name="Stone Thrower Misfire Chart" hidden="false" targetId="d4c8-556b-9d58-4ca8" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="53e2-8137-ea4a-35cc" name="Rare" hidden="false" targetId="a3af-995e-0cf1-7091" primary="true"/>

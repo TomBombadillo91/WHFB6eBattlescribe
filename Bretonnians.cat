@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="05b9-5022-67cd-4fd3" name="Bretonnians" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="05b9-5022-67cd-4fd3" name="Bretonnians" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="ff93-67ff-9b17-d51d" name="Grail Vow" hidden="false">
       <rules>
@@ -1660,6 +1660,7 @@ In addition, the presence of the Grail Reliquae means that the entire unit will 
           </profiles>
           <infoLinks>
             <infoLink id="9a34-05b9-900b-24ff" name="Stone Thrower" hidden="false" targetId="ea74-4e81-f844-d146" type="rule"/>
+            <infoLink id="6481-900a-ee07-f1ec" name="Stone Thrower Misfire Chart" hidden="false" targetId="d4c8-556b-9d58-4ca8" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
@@ -1710,6 +1711,7 @@ In addition, the presence of the Grail Reliquae means that the entire unit will 
           </profiles>
           <infoLinks>
             <infoLink id="eeaf-bc84-cd5e-1879" name="Stone Thrower" hidden="false" targetId="ea74-4e81-f844-d146" type="rule"/>
+            <infoLink id="2a8f-d029-fea4-9e64" name="Stone Thrower Misfire Chart" hidden="false" targetId="d4c8-556b-9d58-4ca8" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
