@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9817-5d62-aa33-69f5" name="Ogre Kingdoms" revision="22" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9817-5d62-aa33-69f5" name="Ogre Kingdoms" revision="23" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5fa5-4b26-a63e-0bef" name="Big Name" hidden="false"/>
     <categoryEntry id="a123-ef4a-523b-4159" name="Has Thiefstones" hidden="false"/>
@@ -1466,6 +1466,7 @@ A Scraplauncher is a manic construction of metal, wood, Gnoblar and cave-beast, 
         <infoLink id="c541-660b-eac3-958d" name="Fear" hidden="false" targetId="03be-3e56-1332-bf56" type="rule"/>
         <infoLink id="d549-26f3-6492-633c" name="Chariot" hidden="false" targetId="4bb1-dfab-2824-bad1" type="rule"/>
         <infoLink id="f17c-d46e-c36f-4c2b" name="Stone Thrower" hidden="false" targetId="ea74-4e81-f844-d146" type="rule"/>
+        <infoLink id="46cc-0cec-9ace-e12a" name="Stone Thrower Misfire Chart" hidden="false" targetId="d4c8-556b-9d58-4ca8" type="rule"/>
         <infoLink id="6bde-224e-ef7b-0b5c" name="Killing Blow" hidden="false" targetId="773c-6c86-ae53-1cee" type="rule"/>
       </infoLinks>
       <categoryLinks>

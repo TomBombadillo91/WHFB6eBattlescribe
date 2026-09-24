@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4ca8-2035-2f87-1bd7" name="WHFB 6th Edition" revision="33" battleScribeVersion="2.03" authorName="Tom Clare" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="4ca8-2035-2f87-1bd7" name="WHFB 6th Edition" revision="37" battleScribeVersion="2.03" authorName="Tom Clare" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="d9e7-add3-773e-ffab" name="BRB"/>
     <publication id="2c29-8521-dcc7-5337" name="Warhammer Chronicles 2003"/>
@@ -816,17 +816,17 @@ Note that a spell cast with a Power Stone can never be cast with Irresistible Fo
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d47-6a9c-133b-4a47" type="min"/>
           </constraints>
-      <rules>
-        <rule id="8b10-0186-fa23-f4cc" name="Power Stones" hidden="false">
-          <description>The Power Stone is imbued with a powerful magical invocation. When it is held out by a Wizard before he casts a spell, the effect is to enhance the efficacy of the magic. A further two dice are added to the Casting roll. Note that using a Power Stone will allow a Wizard to use more Power dice than he is normally permitted. For example, a First Level Wizard may read a Power Stone and thus use four Power dice to cast a spell (2 basic + 2 from a Power Stone). A Power Stone can only be used once - after one use its power is exhausted.
+          <rules>
+            <rule id="8b10-0186-fa23-f4cc" name="Power Stones" hidden="false">
+              <description>The Power Stone is imbued with a powerful magical invocation. When it is held out by a Wizard before he casts a spell, the effect is to enhance the efficacy of the magic. A further two dice are added to the Casting roll. Note that using a Power Stone will allow a Wizard to use more Power dice than he is normally permitted. For example, a First Level Wizard may read a Power Stone and thus use four Power dice to cast a spell (2 basic + 2 from a Power Stone). A Power Stone can only be used once - after one use its power is exhausted.
 
 Using a Power Stone will bring any spell in play cast earlier by that Wizard to an end in the same way as casting a new spell by ordinary means.
 
 As with scrolls, Power Stones are not unique items - they are prepared by a Wizard prior to battle and it is quite possible for several Wizards to carry Power Stones, and for a Wizard to carry more than one. However, only one Power Stone can be used to enhance a spell.
 
 Note that a spell cast with a Power Stone can never be cast with Irresistible Force, though it can be Miscast.</description>
-        </rule>
-      </rules>
+            </rule>
+          </rules>
         </entryLink>
       </entryLinks>
       <costs>
@@ -908,7 +908,21 @@ Note that a spell cast with a Power Stone can never be cast with Irresistible Fo
 
 Alternatively, Scouts can be placed on the controlling player&apos;s deployment zone like any other troops, after deployment of both main armies is finished.</description>
     </rule>
-    <rule id="4c3d-1a6a-3977-0b53" name="Skirmishers" hidden="false"/>
+    <rule id="4c3d-1a6a-3977-0b53" name="Skirmishers" hidden="false">
+      <description>Formation. Skirmishers move as a loose group rather than in ranks and files, with models up to 1&quot; apart. If casualties split the group, the player must reform it in his next Movement phase.
+
+Movement. Skirmishers move up to double their Movement characteristic at all times, even within 8&quot; of the enemy. This doubled rate is not doubled again to charge or march. Their standard Movement is still used for flee and pursuit distances.
+
+Manoeuvring. Skirmishing models move like individual characters. The unit never turns or wheels; each model moves in any direction without penalty, and must end within 1&quot; of the group.
+
+Terrain. Skirmishers suffer no movement penalty for crossing obstacles or moving through difficult or very difficult ground.
+
+Shooting. Skirmishers may shoot in any direction. They do not block the line of sight of their own unit, including a character who has joined them, but a skirmishing unit does block line of sight to other units. An enemy shooting at skirmishers suffers -1 to hit; this applies only once, even if a character is with the unit. A skirmisher that moved faster than its standard Movement may not shoot that turn.
+
+Close combat. Skirmishers may charge any enemy visible to at least one model, and form up into a fighting line. In combat they never receive a rank bonus, and do not negate an enemy&apos;s rank bonus by charging its flank or rear. Once formed up they do have flanks and a rear, which count for combat resolution bonuses if the skirmisher unit is subsequently charged by another enemy unit. They overrun straight ahead, as other units do.
+
+Characters. Only a roughly man-sized character on foot may join a skirmishing unit.</description>
+    </rule>
     <rule id="d168-689e-84dd-9b7e" name="Poisoned Attacks" hidden="false">
       <description>A warrior with poisoned attacks will wound his target automatically if he scores a 6 when determining whether he hits his opponent in the Shooting or Close Combat phases. Armour saves are taken as normal. Unliving targets (such as war machines) are immune to poison as are some troop types. These are clearly defined in their description.</description>
     </rule>
@@ -1000,8 +1014,36 @@ Troops fighting in close combat with a hated foe may re-roll any misses When the
 
 Troops who hate their enemy must always pursue them if they flee. They cannot attempt to avoid pursuit by testing their Leadership as other troops can. They must even pursue if behind a defended obstacle.</description>
     </rule>
-    <rule id="ab75-c6ec-0411-c924" name="Fast Cavalry" hidden="false"/>
-    <rule id="4bb1-dfab-2824-bad1" name="Chariot" hidden="false"/>
+    <rule id="ab75-c6ec-0411-c924" name="Fast Cavalry" hidden="false">
+      <description>Fast cavalry use regular formations and follow all the normal rules for units, including penalties in difficult terrain, except as follows. They never receive a rank bonus.
+
+Free reform. Unless it charges, a fast cavalry unit may reform as many times as you wish during its Movement phase with no penalty to its Move distance. No model may move further than its maximum Move despite the free reform.
+
+Shooting. Fast cavalry may shoot all round, regardless of the direction the models face. For charging, stand &amp; shoot reactions and the like, the models must face the enemy as normal. They may shoot even when marching or reforming; the usual -1 to hit for moving applies.
+
+Fleeing and rallying. A fast cavalry unit that flees as a charge reaction and then rallies at the beginning of its next turn may reform facing in any direction and is free to move that Movement phase. If the chargers fail to catch it, their charge fails as normal; if the flee move does not carry it beyond the chargers&apos; reach, the unit is destroyed as normal.
+
+Characters. A character may join a fast cavalry unit and move with it, but does not benefit from any of the special shooting rules.</description>
+    </rule>
+    <rule id="4bb1-dfab-2824-bad1" name="Chariot" hidden="false">
+      <description>The model. A chariot, its crew and the creatures pulling it are a single model - in effect a unit of one, moving and fighting like a character or a large monster. It has separate characteristics for the chariot, the crew and the creatures. A chariot&apos;s Unit Strength equals its Wounds characteristic, or its Wounds +1 if a character is riding it. Spells that move individual models cannot move a chariot.
+
+Movement. A chariot moves at the speed of the creatures pulling it. It may never march, but doubles its move to charge. It does not turn or wheel and may face any direction without penalty, though it still needs line of sight to declare a charge.
+
+Terrain. A chariot may not voluntarily cross obstacles or difficult terrain, except a bridge or ford that is safe to cross. If forced into such terrain it suffers D6 Strength 6 hits, resolved against the chariot.
+
+Impact hits. A charging chariot inflicts D6 hits at its own Strength, +1 with scythed wheels. These are resolved before close combat begins; models killed by them do not fight, and the wounds count towards combat resolution.
+
+Attacks. All crew fight, including the driver, against enemies to the front, side or rear, in normal Initiative order. The creatures pulling the chariot may attack only enemies directly in front of them. The chariot has no Weapon Skill of its own - use the highest of its crew. Crew may shoot as normal, at -1 to hit if the chariot moved.
+
+Damage. A chariot has a single pool of Wounds covering the chariot, crew and creatures; when the last is lost, remove the model. Any wound caused by a hit of Strength 7 or more destroys the chariot outright, with no armour save. Shooting is resolved against the chariot as against any unit, at +1 to hit if it is a Large Target.
+
+Characters. A character rides a chariot as he would a large monster. Shots are randomised: on a 6 the character is hit. He uses either his own armour save +2 or the chariot&apos;s, whichever is better. In close combat the attacker chooses whether to strike the chariot or the character. A character in a chariot may issue or accept a challenge, fighting as though on foot - impact hits and crew and creature attacks are worked against the enemy unit rather than the challenge, unless the enemy character was alone when the chariot charged.
+
+Flee and pursuit. Chariots flee and pursue as ordinary troops, at 2D6&quot; or 3D6&quot; by speed, and are destroyed if caught.
+
+Upgrades. Extra crewman: +1 crew attack. Extra steed: +1 steed attack. Scythed wheels: +1 impact hit.</description>
+    </rule>
     <rule id="7c7c-8683-ae17-d576" name="Regeneration" hidden="false">
       <description>A creature with this ability may try to regenerate any wound on a D6 roll of 4+. Only one attempt may be made on each wound to regenerate it.
 
@@ -1030,14 +1072,80 @@ Note: From Warhammer Annual 2002, Gav Thorpe clarified Regeneration has no effec
     <rule id="1a01-bd8c-93eb-8de9" name="Flammable" hidden="false">
       <description>Some creatures, such as Undead Mummies and Treemen, burn easily. A flammable creature hit by a flaming weapon or fiery spell will take double wounds, so every wound suffered by a flammable creature will be doubled to 2 wounds. Take any saves before multiplying the wounds.</description>
     </rule>
-    <rule id="ea74-4e81-f844-d146" name="Stone Thrower" hidden="false"/>
-    <rule id="95df-6c33-fb3e-c966" name="Cannon" hidden="false"/>
-    <rule id="3702-c42a-047c-af5f" name="Bolt Throwers" hidden="false">
+    <rule id="ea74-4e81-f844-d146" name="Stone Thrower" publicationId="d9e7-add3-773e-ffab" page="120" hidden="false">
+      <description>Work out the results of stone throwing in the Shooting phase. To work out damage you will need the small 3&quot; round template. The stone is not as big as the template of course (that would require a very large engine indeed) but it shatter on impact sending shards of sharp stone over a wide area.
+
+Pivot the stone thrower on the spot so that it is pointing in the direction it is going to shoot. The crew do not need to be able to see their target, but they must see that there are enemy in the direction they are firing. Then declare how far the rock is to be fired. Do this without measuring the distance to that target, so try to guess the range as accurately as possible. Once you have made your guess, place the template directly over that spot where you have guessed.
+
+To decide whether the missile lands where it was aimed roll the Scatter dice and the Artillery dice.
+
+The Scatter dice is the dice marked with arrows on four sides and the HIT symbol on two sides. If a HIT is rolled then the missile lands exactly where it was aimed. If an arrow is rolled then the missile veers off in the direction shown by the arrow.
+
+The Artillery dice is marked 2, 4, 6, 8, 10 and MISFIRE. If a Misfire has been rolled then something has gone wrong - roll a D6 and consult the Stone Thrower Misfire chart. A Misfire roll automatically cancels out the whole shot regardless of the Scatter dice result. If a number on the Artillery dice is rolled then this is the distance in inches the missile veers off target as shown by the arrow on the Scatter dice. Move the template the distance indicated in the direction shown by the arrow. If a HIT has been rolled then the numbers are ignored; a number simply indicates that the shot has not misfired.
+
+Damage:
+Once it is established where the stone lands damage can be worked out. Any model that lies completely under the template is hit automatically - models whose bases lie partially under the template are hit on a 4+. You will have to use your judgement and common sense to decide exactly which models lie under the template - sometimes it is not easy to judge precisely.
+
+Once it has been worked out which models are struck, work out damage in the usual way. Roll for each target to see whether it has suffered damage. Stone throwers have a Strength of 4 or more, so they cause damage on the roll of a 3+ or 4+ against most human or similarly sized targets. A damaging hit from a stone thrower causes D6 wounds, but as most creatures have only 1 Wound it is not necessary to take this dice roll. It is, however, useful when attacking characters and big monsters.
+
+Any single model which lies directly at the centre of the template suffers 1 automatic hit at twice the stone thrower&apos;s usual Strength - the stone lands directly on top of that model. This means that a stone thrower can potentially slay even a large monster or a powerful character.
+
+No armour saving throw is permitted against wounds from a stone thrower. Ward saves may be taken as normal.
+
+Loss of Crew:
+A stone thrower requires a full crew to work it properly – to carry stones, push then machine round to bear on its target, and so on. If one crewman is slain then the rest can just about get by without slowing up the machine noticeably. If two or more crewmen are slain then the remaining crew will be unable to cope and the stone thrower will have to miss a whole turn before it can shoot again. This is in addition to any penalty imposed by a Misfire result. Obviously, the engine requires at least one crewman to work, so the machine will become useless should they all be slain.</description>
+    </rule>
+    <rule id="d4c8-556b-9d58-4ca8" name="Stone Thrower Misfire Chart" publicationId="d9e7-add3-773e-ffab" page="120" hidden="false">
+      <description>D6		Result
+1	Destroyed!	The engine cannot stand the strain placed upon it and breaks under the tension as it is fired. Bits of wood and metal fly all around, the stone tumbles to the ground splintering the engine and throwing debris into the air. The engine is destroyed and its crew slain or injured. Remove the engine and its crew.
+2-3	Disabled.	The normal smooth running of the machine and its crew is disrupted by some accident or freak occurrence. A rope snaps and lashes about wildly, a crewman sets the machine up wrongly so that it pulls itself apart, or maybe a careless operator has become entangled in the mechanism. The engine does not shoot this turn and cannot fire next turn either while the damage is repaired. To help you remember, it is a good idea to turn the machine round to face away from the enemy. In addition, one of the crew is slain - caught by a snapping rope, entangled in the machinery, or thrown high into the air in place of the stone!
+4-6	May not shoot.	A minor fault prevents the machine shooting this turn. A crewman drops the stone as he lifts it into position, maybe a ratchet jams or a rope loosens. The machine is unharmed and may shoot as normal next turn.</description>
+    </rule>
+    <rule id="95df-6c33-fb3e-c966" name="Cannon" publicationId="d9e7-add3-773e-ffab" page="122" hidden="false">
+      <description>Cannons are fired in the Shooting phase. To fire a cannon, it must first be turned on the spot so it points in the direction of the target which must be within line of sight but otherwise is not limited by targeting restrictions. Then the player must declare how far the cannon is going to shoot - eg, 24&quot;, 30&quot;, 32&quot;, etc.
+
+The cannonball travels the distance that the player has nominated, plus the score from the Artillery dice. Roll this dice and add the score to the distance that has been declared. The cannonball travels the total distance towards the target and will either land short, pass straight over, or hit depending on how accurately the player guessed the range and what effect the dice has.
+
+Remember the dice will always add at least 2&quot; to an estimate, and can add up to 10&quot;, so you should aim a few inches short of the target.
+
+Once it is established where the cannonball hits, place a small coin or other marker directly over the spot. The cannonball does not stop where it hits the ground but bounces straight forward and cuts a line through any targets in the way. To determine how far the cannonball bounces, roll the Artillery dice again and mark the spot where the cannonball comes to land. Any models between the points where the ball strikes the ground and where it eventually comes to land are hit by the flying cannonball. This line is considered to be a template for rules purposes (such as &quot;Look out, Sir!&quot; rolls).
+
+When a cannonball collides through a unit, only one model per rank is hit.
+
+Any model struck by a cannonball takes a Strength 10 hit resolved in the normal manner. If the cannonball wounds its target then it causes not 1 wound but D3 or D6 wounds depending on the size of the cannon - a cannon causes D3 wounds and a great cannon D6. As most models have only 1 Wound anyway it will not be necessary to roll this extra dice, but it is important when it comes to rolling for heroes, big monsters, and engines of war which can take several wounds. Wounds caused by cannon shot cannot be saved by armour. If a cannonball hits a model which has several parts then resolve which part of the model is hit just like shooting with bows, etc.
+
+No armour saving throw is permitted for wounds caused by cannons. If a cannonball hits you, no amount of armour is going to do you any good. Ward saves can be taken as normal.
+
+Instead of firing a normal shot, cannon crew can opt to fire grapeshot instead. Normal targeting rules apply. Grapeshot has a range of 8&quot;. If in range, the target suffers a number of hits equal to the roll of an Artillery dice, resolved at Strength 4, with a -2 Armour save modifier. Misfires occur as normal.
+
+The Artillery dice is rolled twice when a cannon is fired, so there are two chances of rolling a Misfire result. However, the two results will be different. If a Misfire result is rolled on the first dice, the cannon has literally misfired and may explode - roll a D6 and consult the Cannon Misfire chart. If a Misfire is rolled on the Bounce roll then this merely indicates that the ball has stuck in the ground and does not bounce.
+
+Loss of Crew:
+A cannon requires a full crew to work properly - to carry cannonballs, load gunpowder, push the machine round to bear on its target, and so on. If one crewman is slain then. the rest can just about get by without reducing the rate of fire. If two or more crewmen are slain than the remaining crew will be unable to cope, so when it shoots the cannon must miss a whole turn before it can shoot again. This is in addition to any penalty imposed by a Misfire result.
+
+Obviously the cannon requires at least one crewman to work it, so the machine becomes useless should they all be slain.</description>
+    </rule>
+    <rule id="f957-e84a-67fd-28cc" name="Cannon Misfire Chart" publicationId="d9e7-add3-773e-ffab" page="123" hidden="false">
+      <description>D6		Result
+1	Destroyed!	The cannon explodes with a mighty crack. Shards of metal and wood fly in all directions leaving a hole in the ground and a cloud of black smoke. The cannon is destroyed and its crew slain or injured. Remove the cannon and its crew.
+2-3	Malfunction.	The powder fails to ignite and the cannon does not fire. The crew must remove the ball and powder before the cannon can shoot again - which takes another turn. The cannon therefore cannot fire either this turn or the next turn. It is a good idea to turn the cannon round to indicate this.
+4-6	May not shoot.	A minor fault prevents the cannon from firing this turn, perhaps the fuse is not set properly or maybe the crewmen mishandle the loading procedure. The cannon is unharmed and may shoot as normal next turn.
+
+If you roll a Misfire on your Bounce roll then the cannon is unharmed, the misfire result merely indicates that the cannon ball has struck in the ground where it hits. If the shot lands on top of a model then that particular model is hit as normal, but there is no further bounce damage.</description>
+    </rule>
+    <rule id="3702-c42a-047c-af5f" name="Bolt Throwers" publicationId="d9e7-add3-773e-ffab" page="124" hidden="false">
       <description>Bolt throwers are fired in the Shooting phase along with other missile weapons. To fire a bolt thrower it must first be turned on the spot so that it points towards its intended victim. The bolt travels straight forward and (hopefully) hits the first target in its path. In a unit of troops this will always be a regular trooper. Only if there are no rank-and-file troops in the first rank hit by the bolt will it be necessary to randomize which model in the front rank is hit.
 
 To determine whether the bolt strikes its target, roll a D6 to hit using the crew&apos;s BS in the same way as bow shots, crossbows, and other missile weapons. The usual modifiers apply, except no penalty is imposed for turning the machine, as it is designed to be used in this way. See the Shooting section for details.
 
-If a hit is scored work our damage as described below. If the shot misses then the bolt hits the ground or sails into the air and comes down harmlessly somewhere else.</description>
+If a hit is scored work our damage as described below. If the shot misses then the bolt hits the ground or sails into the air and comes down harmlessly somewhere else.
+
+A bolt thrower is a powerful weapon which can hurl its bolt through several ranks of troops, piercing each warrior in turn. If it hits then resolve damage against the target using the bolt thrower&apos;s full Strength of 6. If the model hit in the first rank is slain then the bolt hits the trooper in the second rank directly behind: resolve damage on the second model with a Strength of 5. If the second rank trooper is slain than a model in the third rank is hit: resolve damage with a Strength of 4. Continue to work out damage as the bolt pierces and slays a model in each rank, deducting -1 from the Strength for each rank pierced.
+
+A model damaged by a bolt thrower sustains not 1 but D3 wound, which means that even large monsters can be hurt or slain by a hit front a bolt thrower. Armour saves are not allowed for hits from a bolt thrower because the missiles are so fast and deadly that any armour is pierced along with its wearer. As saves are not taken, a target with only 1 Wound will be slain if it takes damage, there is no need to roll the D3 to decide the number of wounds. Remember that ward saves can be taken as normal against damage from a bolt thrower.
+
+Loss of Crew:
+Some bolt throwers have a crew of two and if one crewman is slain then the remaining crewmen can just about get by without slowing up the machine noticeably. Should a bolt thrower require a larger crew, then the loss of a second crewman will reduce its rate of fire to every second turn in the same way as for stone throwers and cannons.</description>
     </rule>
     <rule id="2381-ed16-2a32-cd12" name="Breath Weapon" hidden="false">
       <description>A model with a breath weapon may use it in the Shooting phase. Use the Flame template, placing the broad end over your intended target as you wish and the narrow end next to the creature&apos;s head. Any model that lies completely under the template is hit automatically - models whose bases lie partially under the template are hit on a 4+. The strength and any special effects of the breath weapon will be detailed in the entry for each individual creature. Characters under the template are eligible for &apos;Look out, Sir!&apos; rolls if they are in a unit.
@@ -1072,34 +1180,34 @@ A Musician model is placed in the front rank of its unit. His effect on the figh
     <rule id="697c-46aa-691c-9c64" name="Champion (Warhammer Glossary)" hidden="false">
       <description>Champions are a special type of character who must always be with a unit. Champions must be placed in the front rank of the unit that they are with.</description>
     </rule>
-    <rule id="1648-091e-ca90-e56d" name="Bow" hidden="false">
+    <rule id="1648-091e-ca90-e56d" name="Bow" publicationId="d9e7-add3-773e-ffab" page="92" hidden="false">
       <description>The bow, is carried by most races and used extensively in warfare. It is a compact, long-ranged weapon that is cheap to make and easy to maintain.
 
 Range 24&quot;; Strength 3.</description>
     </rule>
-    <rule id="cd70-2ed2-922d-0011" name="Crossbow" hidden="false">
+    <rule id="cd70-2ed2-922d-0011" name="Crossbow" publicationId="d9e7-add3-773e-ffab" page="92" hidden="false">
       <description>A crossbow consists of a short, strong bowstave mounted on a wooden or steel stock. It takes a long time to load and wind a crossbow for each shot, but the crossbow bolt has tremendous range and power.
 
 Range 30&quot;; Strength 4.
 Rules: move-or-fire.</description>
     </rule>
-    <rule id="dad4-d7e5-09e8-3819" name="Flail" hidden="false">
+    <rule id="dad4-d7e5-09e8-3819" name="Flail" publicationId="d9e7-add3-773e-ffab" page="92" hidden="false">
       <description>Rules: +2 Strength bonus in the first turn of combat; requires two hands.</description>
     </rule>
-    <rule id="e020-fa73-42e2-ad20" name="Great Weapon" hidden="false">
+    <rule id="e020-fa73-42e2-ad20" name="Great Weapon" publicationId="d9e7-add3-773e-ffab" page="92" hidden="false">
       <description>Great weapons are especially large and heavy weapons that are wielded with both hands. As well as great swords this includes similarly heavy great hammer, great axes and the like. A blow from a great weapon can cut a foe in haIf and break apart the thickest armour.
 
 Rules: +2 Strength bonus; requires two hands; strikes last.</description>
     </rule>
-    <rule id="318c-0aad-5fdc-96c0" name="Halberd" hidden="false">
+    <rule id="318c-0aad-5fdc-96c0" name="Halberd" publicationId="d9e7-add3-773e-ffab" page="92" hidden="false">
       <description>Rules: +1 Strength bonus; requires two hands.</description>
     </rule>
-    <rule id="3eb5-f0b5-1e94-0eef" name="Hand Weapon" hidden="false">
+    <rule id="3eb5-f0b5-1e94-0eef" name="Hand Weapon" publicationId="d9e7-add3-773e-ffab" page="92" hidden="false">
       <description>Unless specifically noted otherwise, all models are assumed to be carrying a hand weapon of some kind. The term &apos;hand weapon&apos; is used to describe any weapon held in one hand and not otherwise covered by the rules. As such it includes swords. axes clubs, maces, etc.
 
 Rules: No special weapon rules apply to hand weapons but they do have the advantage that they can be used in combination with each other (see Fighting with a Weapon in Each Hand) or with a shield (see Fighting with a Hand Weapon and Shield).</description>
     </rule>
-    <rule id="9faf-8e95-aa25-b156" name="Handgun" hidden="false">
+    <rule id="9faf-8e95-aa25-b156" name="Handgun" publicationId="d9e7-add3-773e-ffab" page="92" hidden="false">
       <description>A handgun is a simple firearm consisting of a metal barrel mounted on a wooden stock. The gunpowder charge is ignited by poking a length of burning cord, or match as it is called, into a small touchhole. Some of the more advanced versions made by Dwarfs have levers and springs which hold the burning match and triggers which release the firing mechanism and fire the gun.
 
 Handguns are not terribly reliable weapons, as occasionally the gun barrel tends to explode violently apart or the powder fails to ignite. Handguns, however, do have a long range and hit very hard, making a mockery of even the thickest armour.
@@ -1107,36 +1215,36 @@ Handguns are not terribly reliable weapons, as occasionally the gun barrel tends
 Range 24&quot;; Strength 4.
 Rules: move-or-fire; armour piercing.</description>
     </rule>
-    <rule id="d8c8-edc7-35dd-2b4d" name="Javelin" hidden="false">
+    <rule id="d8c8-edc7-35dd-2b4d" name="Javelin" publicationId="d9e7-add3-773e-ffab" page="92" hidden="false">
       <description>The javelin is a light spear designed for throwing, and javelin armed warriors often carry several to last them throughout the battle. The javelin is too flimsy to be used in hand-to-hand fighting. It is not a very common weapon as it has a short range, but the multitudinous reptilian skinks of Lustria use javelins extensively.
 
-Range 9&quot;; Strength as user.
+Range 8&quot;; Strength as user.
 Rules: thrown weapon.</description>
     </rule>
-    <rule id="7154-2d01-2d5c-c06c" name="Lance" hidden="false">
+    <rule id="7154-2d01-2d5c-c06c" name="Lance" publicationId="d9e7-add3-773e-ffab" page="92" hidden="false">
       <description>Rules: +2 Strength bonus in the first turn of combat when charging.</description>
     </rule>
-    <rule id="c45c-2383-8be2-1152" name="Longbow" hidden="false">
+    <rule id="c45c-2383-8be2-1152" name="Longbow" publicationId="d9e7-add3-773e-ffab" page="92" hidden="false">
       <description>A longbow is a dangerous weapon made of alternating layers of either yew or elm. A skilled archer can hit an enemy from three hundred paces.
 
 Range 30&quot;; Strength 3.</description>
     </rule>
-    <rule id="505c-f8fe-ee87-d4c3" name="Morning Star" hidden="false">
+    <rule id="505c-f8fe-ee87-d4c3" name="Morning Star" publicationId="d9e7-add3-773e-ffab" page="92" hidden="false">
       <description>This is a single-handed weapon that consists of one or more spiked balls on a chain. Like the larger flail it resembles, a morning star is a tiring weapon to use so its advantage lies in the first round of combat.
 
 Rules: +1 Strength bonus in the first turn of combat.</description>
     </rule>
-    <rule id="11c6-d068-224a-5939" name="Repeater Crossbow" hidden="false">
+    <rule id="11c6-d068-224a-5939" name="Repeater Crossbow" publicationId="d9e7-add3-773e-ffab" page="92" hidden="false">
       <description>Used almost exclusively by the Dark Elves of Naggaroth, the repeater crossbow is a lighter, less powerful type of crossbow that has a magazine of bolts which allows a single bolt to drop into place ready for firing as the string is drawn. A repeater crossbow can fire a hail of shots in the time it takes to shoot one ordinary crossbow bolt.
 
 Range 24&quot;; Strength 3.
 Rules: 2x multiple shots.</description>
     </rule>
-    <rule id="982a-e058-7b39-44d9" name="Sling" hidden="false">
+    <rule id="982a-e058-7b39-44d9" name="Sling" publicationId="d9e7-add3-773e-ffab" page="92" hidden="false">
       <description>Range 18&quot;; Strength 3.
 Rules: 2x multiple shots if the enemy is within 9&quot;.</description>
     </rule>
-    <rule id="6566-55b1-e8b7-d3d8" name="Throwing Axe" hidden="false">
+    <rule id="6566-55b1-e8b7-d3d8" name="Throwing Axe" publicationId="d9e7-add3-773e-ffab" page="92" hidden="false">
       <description>Note that throwing axes cannot be used in close combat — or if used they simply count as hand weapons. Normal axes carried as hand weapons cannot be thrown either!
 
 Range 6&quot;; Strength as user.
@@ -1144,15 +1252,6 @@ Rules: thrown weapon; +1 Strength bonus.</description>
     </rule>
   </sharedRules>
   <sharedInfoGroups>
-    <infoGroup id="d686-d7e2-d7a4-fc6c" name="Undead" hidden="false">
-      <rules>
-        <rule id="a353-f74d-4ba0-ddf4" name="Undead" hidden="false"/>
-      </rules>
-      <infoLinks>
-        <infoLink id="01d9-f99c-8b82-897a" name="Fear" hidden="false" targetId="03be-3e56-1332-bf56" type="rule"/>
-        <infoLink id="4a19-8c47-1dd9-359f" name="Immune to Psychology" hidden="false" targetId="512a-5ae5-c6cb-b82a" type="rule"/>
-      </infoLinks>
-    </infoGroup>
     <infoGroup id="3e93-6230-180b-9a1c" name="Swarm" hidden="false">
       <infoLinks>
         <infoLink id="c71f-2aa1-9f76-3b73" name="Unbreakable" hidden="false" targetId="f6c9-ac44-1d7c-ed6e" type="rule"/>

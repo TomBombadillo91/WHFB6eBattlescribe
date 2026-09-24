@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3604-800a-4012-5da6" name="Dogs of War" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3604-800a-4012-5da6" name="Dogs of War" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5e7e-36e5-c0bf-c57c" name="Dogs of War" hidden="false"/>
     <categoryEntry id="c51c-ed7d-9669-006f" name="Regiment of Renown" hidden="false"/>
@@ -3244,6 +3244,7 @@ Contents
       <infoLinks>
         <infoLink id="ae39-1cca-652c-792b" name="Warhorse" hidden="false" targetId="701b-d746-e193-e223" type="profile"/>
         <infoLink id="0fad-6eda-a1d3-a5b9" name="Cannon" hidden="false" targetId="95df-6c33-fb3e-c966" type="rule"/>
+        <infoLink id="a5fd-76e0-43a4-8bd9" name="Cannon Misfire Chart" hidden="false" targetId="f957-e84a-67fd-28cc" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b326-eeef-cd34-0e38" name="New CategoryLink" hidden="false" targetId="a3af-995e-0cf1-7091" primary="true"/>
@@ -3773,6 +3774,7 @@ Against smaller opponents:
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a5d-14cd-cebe-a9a9" type="max"/>
           </constraints>
           <infoLinks>
+            <infoLink id="4e8f-7acd-6938-4b33" name="Undead" hidden="false" targetId="3210-86ee-7e25-f5c5" type="infoGroup"/>
             <infoLink id="5e0f-a521-4c12-e068" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
           </infoLinks>
           <costs>
@@ -4544,6 +4546,30 @@ This spell can be cast on any enemy unit on the table. The unit must immediately
       </characteristics>
     </profile>
   </sharedProfiles>
+  <sharedInfoGroups>
+    <infoGroup id="3210-86ee-7e25-f5c5" name="Undead" hidden="false">
+      <rules>
+        <rule id="1306-7849-3e07-c6b7" name="Leader" hidden="false">
+          <description>If Richter is killed, the Cursed Company will quickly begin to crumble to dust. At the end of the phase when Richter is killed, and at the beginning of each of their turns thereafter, the Cursed Company must take a Leadership test. If the test is failed, the unit suffers a number of wounds equal to the number they failed the Leadership test by. No saves of any kind are allowed against these wounds.</description>
+        </rule>
+        <rule id="5739-14f2-e04e-d937" name="Break Tests" hidden="false">
+          <description>The Cursed Company cannot be broken. If the Cursed Company is beaten in combat, it suffers one extra wound for every point they lost the combat by, with no saves of any kind allowed (remember that with the Banner of Malediction, this number is reduced by one).</description>
+        </rule>
+        <rule id="90e2-3915-f16d-0071" name="Immune to Psychology" hidden="false">
+          <description>The Cursed Company is Immune to Psychology. The only exception to this is that Richter Kreugar hates Undead.</description>
+        </rule>
+        <rule id="f536-6f33-c02f-450c" name="Charge Reactions" hidden="false">
+          <description>The Cursed Company can only react by holding their ground.</description>
+        </rule>
+        <rule id="ff6b-fe6e-e1f7-229b" name="Marching" hidden="false">
+          <description>The Cursed Company can march as long as Richter is still alive. If Richter dies, the Cursed Company cannot make march moves.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="9e19-0e2e-5092-b285" name="Fear" hidden="false" targetId="03be-3e56-1332-bf56" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+  </sharedInfoGroups>
   <catalogueLinks>
     <catalogueLink id="dc65-df59-5bcd-c77b" name="Ogre Kingdoms" targetId="9817-5d62-aa33-69f5" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
