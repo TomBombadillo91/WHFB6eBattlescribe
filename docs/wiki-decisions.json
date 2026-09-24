@@ -971,7 +971,7 @@
       "used_by": "",
       "decision": "Leave as is",
       "chose": null,
-      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+      "note": "Verified against the army book scan; reworded to the book's, which also clears a grammar slip ('does not contains')."
     },
     {
       "file": "Skaven.cat",
@@ -998,7 +998,7 @@
       "used_by": "",
       "decision": "Leave as is",
       "chose": null,
-      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+      "note": "Verified against the Rat Swarm scan. The +20 points per base is already modelled by an increment modifier with a repeat, so only the text needed the Clan Pestilens wording."
     },
     {
       "file": "Skaven.cat",
@@ -1052,7 +1052,7 @@
       "used_by": "",
       "decision": "Leave as is",
       "chose": null,
-      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+      "note": "Verified against the Doomwheel scan (CJ#49): 150 points, crewed by one Skaven Driver, drawn by Giant Rats, 5+ armour save, treated as a chariot. Movement is 3D6, consistent between the profile and the Movement rule."
     },
     {
       "file": "Skaven.cat",
@@ -1061,7 +1061,7 @@
       "used_by": "",
       "decision": "Leave as is",
       "chose": null,
-      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+      "note": "Statline verified against /unit/boneripper - M5 WS3 BS- S5 T5 W3 I2 A3 Ld10 matches exactly. The wiki page carries no rules text, so the armour save and talons line is still unconfirmed."
     },
     {
       "file": "Skaven.cat",
@@ -1070,7 +1070,7 @@
       "used_by": "",
       "decision": "Leave as is",
       "chose": null,
-      "note": "Read against the wiki: no page covers this. It is army-book specific and the catalogue's text reads correctly."
+      "note": "Verified against the army book scan: 65 points and M6 WS3 BS3 S3 T3 W2 I4 A1 Ld6 both match. The profile was named 'Harbiner of Mutation', now corrected, and the rule reworded to the book's."
     },
     {
       "file": "Skaven.cat",
