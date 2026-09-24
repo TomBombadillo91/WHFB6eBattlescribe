@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4ca8-2035-2f87-1bd7" name="WHFB 6th Edition" revision="30" battleScribeVersion="2.03" authorName="Tom Clare" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="4ca8-2035-2f87-1bd7" name="WHFB 6th Edition" revision="31" battleScribeVersion="2.03" authorName="Tom Clare" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="d9e7-add3-773e-ffab" name="BRB"/>
     <publication id="2c29-8521-dcc7-5337" name="Warhammer Chronicles 2003"/>
@@ -974,15 +974,6 @@ Throwing Axe Profile</description>
     </rule>
   </sharedRules>
   <sharedInfoGroups>
-    <infoGroup id="d686-d7e2-d7a4-fc6c" name="Undead" hidden="false">
-      <rules>
-        <rule id="a353-f74d-4ba0-ddf4" name="Undead" hidden="false"/>
-      </rules>
-      <infoLinks>
-        <infoLink id="01d9-f99c-8b82-897a" name="Fear" hidden="false" targetId="03be-3e56-1332-bf56" type="rule"/>
-        <infoLink id="4a19-8c47-1dd9-359f" name="Immune to Psychology" hidden="false" targetId="512a-5ae5-c6cb-b82a" type="rule"/>
-      </infoLinks>
-    </infoGroup>
     <infoGroup id="3e93-6230-180b-9a1c" name="Swarm" hidden="false">
       <infoLinks>
         <infoLink id="c71f-2aa1-9f76-3b73" name="Unbreakable" hidden="false" targetId="f6c9-ac44-1d7c-ed6e" type="rule"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4b41-6842-9db5-f563" name="Tomb Kings" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4b41-6842-9db5-f563" name="Tomb Kings" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7d0c-5562-269f-0795" name="Tomb King General" hidden="false"/>
     <categoryEntry id="80b7-5608-88c2-552c" name="Settra&apos;s Army" hidden="false">
@@ -40,7 +40,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="9099-7735-fc48-bd23" name="Undead" hidden="false" targetId="d686-d7e2-d7a4-fc6c" type="infoGroup"/>
+        <infoLink id="9099-7735-fc48-bd23" name="Undead" hidden="false" targetId="be0c-7908-5478-2187" type="infoGroup"/>
         <infoLink id="be44-d16d-e56f-09ae" name="Flammable" hidden="false" targetId="1a01-bd8c-93eb-8de9" type="rule"/>
         <infoLink id="fa35-4191-f19e-a23c" name="The Curse" hidden="false" targetId="4416-ae17-ed00-346a" type="rule"/>
         <infoLink id="60bb-9c71-ed31-6aca" name="My Will Be Done!" hidden="false" targetId="57ef-21d1-bf94-883b" type="rule"/>
@@ -158,7 +158,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="c82a-4842-ca3d-9208" name="Undead" hidden="false" targetId="d686-d7e2-d7a4-fc6c" type="infoGroup"/>
+        <infoLink id="c82a-4842-ca3d-9208" name="Undead" hidden="false" targetId="be0c-7908-5478-2187" type="infoGroup"/>
         <infoLink id="c1f8-fdf7-cd3f-d8f5" name="Incantations" hidden="false" targetId="a55a-6454-270b-66b7" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -201,7 +201,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="4af6-bec9-2d0a-8267" name="Undead" hidden="false" targetId="d686-d7e2-d7a4-fc6c" type="infoGroup"/>
+        <infoLink id="4af6-bec9-2d0a-8267" name="Undead" hidden="false" targetId="be0c-7908-5478-2187" type="infoGroup"/>
         <infoLink id="adf4-bfee-c7ba-6930" name="Flammable" hidden="false" targetId="1a01-bd8c-93eb-8de9" type="rule"/>
         <infoLink id="9135-4089-8d8c-9c8e" name="The Curse" hidden="false" targetId="4416-ae17-ed00-346a" type="rule"/>
         <infoLink id="5198-0e4b-711c-7880" name="My Will Be Done!" hidden="false" targetId="57ef-21d1-bf94-883b" type="rule"/>
@@ -319,7 +319,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="0ec0-2ac1-7389-7fa7" name="Undead" hidden="false" targetId="d686-d7e2-d7a4-fc6c" type="infoGroup"/>
+        <infoLink id="0ec0-2ac1-7389-7fa7" name="Undead" hidden="false" targetId="be0c-7908-5478-2187" type="infoGroup"/>
         <infoLink id="1b6c-bd63-1333-7a0c" name="Incantations" hidden="false" targetId="a55a-6454-270b-66b7" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -406,7 +406,7 @@ One Skink Chief may carry the Battle Standard for +25 pts. A Skink Chief with th
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="84d0-43a1-55bd-990f" name="Undead" hidden="false" targetId="d686-d7e2-d7a4-fc6c" type="infoGroup"/>
+        <infoLink id="84d0-43a1-55bd-990f" name="Undead" hidden="false" targetId="be0c-7908-5478-2187" type="infoGroup"/>
         <infoLink id="58c7-98bd-6e41-87bd" name="Tomb Blades" hidden="false" targetId="cdc4-b7b0-75d2-d4e3" type="infoGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -457,7 +457,7 @@ One Skink Chief may carry the Battle Standard for +25 pts. A Skink Chief with th
     </selectionEntry>
     <selectionEntry id="8f5b-1301-fc70-8b8f" name="Skeleton Warriors" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="a66c-8e2e-a45b-5492" name="Undead" hidden="false" targetId="d686-d7e2-d7a4-fc6c" type="infoGroup"/>
+        <infoLink id="a66c-8e2e-a45b-5492" name="Undead" hidden="false" targetId="be0c-7908-5478-2187" type="infoGroup"/>
         <infoLink id="b795-f546-b077-ef98" name="Arrows of the Asp" hidden="false" targetId="f922-30e7-d241-9f8a" type="rule">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -646,7 +646,7 @@ One Skink Chief may carry the Battle Standard for +25 pts. A Skink Chief with th
     </selectionEntry>
     <selectionEntry id="ea49-042d-1b23-0f12" name="Skeleton Light Horsemen" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="b95f-c51e-d2b3-06e6" name="Undead" hidden="false" targetId="d686-d7e2-d7a4-fc6c" type="infoGroup"/>
+        <infoLink id="b95f-c51e-d2b3-06e6" name="Undead" hidden="false" targetId="be0c-7908-5478-2187" type="infoGroup"/>
         <infoLink id="f6f4-34cf-57de-36eb" name="Arrows of the Asp" hidden="false" targetId="f922-30e7-d241-9f8a" type="rule"/>
         <infoLink id="51f1-febc-b484-5964" name="Fast Cavalry" hidden="false" targetId="ab75-c6ec-0411-c924" type="rule"/>
       </infoLinks>
@@ -749,7 +749,7 @@ One Skink Chief may carry the Battle Standard for +25 pts. A Skink Chief with th
     </selectionEntry>
     <selectionEntry id="2f42-57c6-e929-756c" name="Skeleton Heavy Horsemen" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="738f-3804-f36b-25af" name="Undead" hidden="false" targetId="d686-d7e2-d7a4-fc6c" type="infoGroup"/>
+        <infoLink id="738f-3804-f36b-25af" name="Undead" hidden="false" targetId="be0c-7908-5478-2187" type="infoGroup"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="50f7-fed8-5536-8d48" name="Core" hidden="false" targetId="62d3-efc6-6c2c-634e" primary="true"/>
@@ -848,7 +848,7 @@ One Skink Chief may carry the Battle Standard for +25 pts. A Skink Chief with th
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="f1d5-fa78-d18d-5347" name="Undead" hidden="false" targetId="d686-d7e2-d7a4-fc6c" type="infoGroup"/>
+        <infoLink id="f1d5-fa78-d18d-5347" name="Undead" hidden="false" targetId="be0c-7908-5478-2187" type="infoGroup"/>
         <infoLink id="4064-85df-02be-d563" name="Skirmishers" hidden="false" targetId="4c3d-1a6a-3977-0b53" type="rule"/>
         <infoLink id="d8de-5a08-9e7e-05b9" name="It Came From Below..." hidden="false" targetId="469a-8e42-10e9-9d3e" type="rule"/>
         <infoLink id="b465-d511-4404-2f21" name="Poisoned Attacks" hidden="false" targetId="d168-689e-84dd-9b7e" type="rule"/>
@@ -900,7 +900,7 @@ One Skink Chief may carry the Battle Standard for +25 pts. A Skink Chief with th
         </modifierGroup>
       </modifierGroups>
       <infoLinks>
-        <infoLink id="2f16-4855-d708-0ba3" name="Undead" hidden="false" targetId="d686-d7e2-d7a4-fc6c" type="infoGroup"/>
+        <infoLink id="2f16-4855-d708-0ba3" name="Undead" hidden="false" targetId="be0c-7908-5478-2187" type="infoGroup"/>
         <infoLink id="4db3-e275-b870-e956" name="Arrows of the Asp" hidden="false" targetId="f922-30e7-d241-9f8a" type="rule"/>
         <infoLink id="7306-2fe4-e646-d9c0" name="Chariot" hidden="false" targetId="4bb1-dfab-2824-bad1" type="rule"/>
       </infoLinks>
@@ -1021,7 +1021,7 @@ One Skink Chief may carry the Battle Standard for +25 pts. A Skink Chief with th
     </selectionEntry>
     <selectionEntry id="17e5-7c4a-4fb6-8c7d" name="Ushabti" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="2528-95d6-f459-296b" name="Undead" hidden="false" targetId="d686-d7e2-d7a4-fc6c" type="infoGroup"/>
+        <infoLink id="2528-95d6-f459-296b" name="Undead" hidden="false" targetId="be0c-7908-5478-2187" type="infoGroup"/>
         <infoLink id="a5ad-cb23-9152-d73b" name="Undead Constructs" hidden="false" targetId="d746-7f21-259a-e4a3" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1058,7 +1058,7 @@ One Skink Chief may carry the Battle Standard for +25 pts. A Skink Chief with th
     </selectionEntry>
     <selectionEntry id="67a7-9bf3-f787-f973" name="Tomb Guard" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="0436-afcc-4434-5fdb" name="Undead" hidden="false" targetId="d686-d7e2-d7a4-fc6c" type="infoGroup"/>
+        <infoLink id="0436-afcc-4434-5fdb" name="Undead" hidden="false" targetId="be0c-7908-5478-2187" type="infoGroup"/>
         <infoLink id="757b-fb54-24db-133b" name="Tomb Blades" hidden="false" targetId="cdc4-b7b0-75d2-d4e3" type="infoGroup"/>
       </infoLinks>
       <categoryLinks>
@@ -1147,7 +1147,7 @@ One Skink Chief may carry the Battle Standard for +25 pts. A Skink Chief with th
     </selectionEntry>
     <selectionEntry id="e6bd-a3ba-b387-f7e2" name="Carrion" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="bc95-f206-e19b-554b" name="Undead" hidden="false" targetId="d686-d7e2-d7a4-fc6c" type="infoGroup"/>
+        <infoLink id="bc95-f206-e19b-554b" name="Undead" hidden="false" targetId="be0c-7908-5478-2187" type="infoGroup"/>
         <infoLink id="4fa7-7d1b-b474-678f" name="Fly" hidden="false" targetId="87db-2d4c-3fa6-6a26" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1218,7 +1218,7 @@ One Skink Chief may carry the Battle Standard for +25 pts. A Skink Chief with th
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="e336-7f7a-e8d4-275c" name="Undead" hidden="false" targetId="d686-d7e2-d7a4-fc6c" type="infoGroup"/>
+        <infoLink id="e336-7f7a-e8d4-275c" name="Undead" hidden="false" targetId="be0c-7908-5478-2187" type="infoGroup"/>
         <infoLink id="4dc0-a73c-80f3-ce37" name="Stone Thrower" hidden="false" targetId="ea74-4e81-f844-d146" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1260,7 +1260,7 @@ One Skink Chief may carry the Battle Standard for +25 pts. A Skink Chief with th
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="57dd-f65a-d396-83cb" name="Undead" hidden="false" targetId="d686-d7e2-d7a4-fc6c" type="infoGroup"/>
+        <infoLink id="57dd-f65a-d396-83cb" name="Undead" hidden="false" targetId="be0c-7908-5478-2187" type="infoGroup"/>
         <infoLink id="4b27-cb3b-e325-e841" name="It Came From Below..." hidden="false" targetId="469a-8e42-10e9-9d3e" type="rule"/>
         <infoLink id="480a-8cc7-7a6c-1fb0" name="Killing Blow" hidden="false" targetId="773c-6c86-ae53-1cee" type="rule"/>
         <infoLink id="1f0d-c823-2556-518f" name="Poisoned Attacks" hidden="false" targetId="d168-689e-84dd-9b7e" type="rule"/>
@@ -1300,7 +1300,7 @@ One Skink Chief may carry the Battle Standard for +25 pts. A Skink Chief with th
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="b5de-f5e5-343c-87ee" name="Undead" hidden="false" targetId="d686-d7e2-d7a4-fc6c" type="infoGroup"/>
+        <infoLink id="b5de-f5e5-343c-87ee" name="Undead" hidden="false" targetId="be0c-7908-5478-2187" type="infoGroup"/>
         <infoLink id="3765-b16a-04eb-6788" name="Undead Constructs" hidden="false" targetId="d746-7f21-259a-e4a3" type="rule"/>
         <infoLink id="ffba-7d0b-9e70-01d3" name="Large Target" hidden="false" targetId="01c3-c8c6-431f-1c2b" type="rule"/>
         <infoLink id="3f7b-9e26-06b6-1639" name="Terror" hidden="false" targetId="3767-0d81-4db9-cda7" type="rule"/>
@@ -1362,7 +1362,7 @@ One Skink Chief may carry the Battle Standard for +25 pts. A Skink Chief with th
         <infoLink id="d9af-44b5-8411-cbcf" name="Skeletal Steed" hidden="false" targetId="7096-48c1-2e2f-a55e" type="profile"/>
         <infoLink id="fc91-ad7f-c00c-8843" name="Terror" hidden="false" targetId="3767-0d81-4db9-cda7" type="rule"/>
         <infoLink id="6c3a-ab19-6135-92eb" name="Flammable" hidden="false" targetId="1a01-bd8c-93eb-8de9" type="rule"/>
-        <infoLink id="1f3c-f5e0-4f0c-5566" name="Undead" hidden="false" targetId="d686-d7e2-d7a4-fc6c" type="infoGroup"/>
+        <infoLink id="1f3c-f5e0-4f0c-5566" name="Undead" hidden="false" targetId="be0c-7908-5478-2187" type="infoGroup"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ad19-87a7-7a2f-9f41" name="Additional Lord Choice" hidden="false" targetId="0daf-8d53-eadf-d10f" primary="false"/>
@@ -1482,7 +1482,7 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
       <infoLinks>
         <infoLink id="99f6-ef6b-502d-9852" name="Flammable" hidden="false" targetId="1a01-bd8c-93eb-8de9" type="rule"/>
         <infoLink id="bb2e-b40a-9cbb-ef3b" name="The Curse" hidden="false" targetId="4416-ae17-ed00-346a" type="rule"/>
-        <infoLink id="2ca2-6ad8-210b-d26c" name="Undead" hidden="false" targetId="d686-d7e2-d7a4-fc6c" type="infoGroup"/>
+        <infoLink id="2ca2-6ad8-210b-d26c" name="Undead" hidden="false" targetId="be0c-7908-5478-2187" type="infoGroup"/>
         <infoLink id="42ac-2556-8e8c-95fd" name="Regenerate" hidden="false" targetId="7c7c-8683-ae17-d576" type="rule"/>
         <infoLink id="a15d-59a5-6695-aeab" name="Terror" hidden="false" targetId="3767-0d81-4db9-cda7" type="rule"/>
         <infoLink id="170a-d37c-5f84-fa3d" name="Poisoned Attacks" hidden="false" targetId="d168-689e-84dd-9b7e" type="rule"/>
@@ -1558,7 +1558,7 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
       <infoLinks>
         <infoLink id="c6ca-0fa8-8ece-fa37" name="Terror" hidden="false" targetId="3767-0d81-4db9-cda7" type="rule"/>
         <infoLink id="c4e0-529b-dae9-7a62" name="Tomb Blades" hidden="false" targetId="cdc4-b7b0-75d2-d4e3" type="infoGroup"/>
-        <infoLink id="d12c-09cd-c45a-fb79" name="Undead" hidden="false" targetId="d686-d7e2-d7a4-fc6c" type="infoGroup"/>
+        <infoLink id="d12c-09cd-c45a-fb79" name="Undead" hidden="false" targetId="be0c-7908-5478-2187" type="infoGroup"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="752e-7bed-b296-6bfc" name="New CategoryLink" hidden="false" targetId="a3af-995e-0cf1-7091" primary="true"/>
@@ -2606,6 +2606,36 @@ If more than one unit is responsible for causing the last wound on a Tomb King/P
       </rules>
       <infoLinks>
         <infoLink id="9399-f900-0bb6-df91" name="Killing Blow" hidden="false" targetId="773c-6c86-ae53-1cee" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="be0c-7908-5478-2187" name="Undead" hidden="false">
+      <rules>
+        <rule id="07bb-ce91-93f0-7c55" name="The General" hidden="false">
+          <description>The army must include at least one Tomb King or Tomb Prince, who will be the army&apos;s General. If the army includes more than one Tomb King or Prince, the one with the highest Leadership will be the General. In the case of two or more characters having the same Leadership value, the player can decide which will be the General. Remember to tell your opponent which model is the General at the beginning of the battle.</description>
+        </rule>
+        <rule id="85eb-c392-a5b0-bca5" name="The Hierophant" hidden="false">
+          <description>The army must include at least one Liche Priest or High Priest who will be the army&apos;s Hierophant, the one responsible for the awakening of the entire army from their ancient slumber.
+
+If the army includes more than one Liche Priest or High Priest, the one with the highest Leadership will be the Hierophant. In the case of two or more characters having the same Leadership, the player can decide which is the Hierophant. Remember to tell your opponent which model is the Hierophant at the beginning of the battle.
+
+If the Hierophant is destroyed, the Undead in the army will start to slowly crumble to dust. To represent this, at the end of the phase when the Hierophant is killed, and at the beginning of every Undead turn thereafter, all Undead units on the battlefield must take a Leadership test. If the test is failed, the unit suffers a number of wounds equal to the number they failed the Leadership test by. No saves of any kind (not even Ward saves or Regeneration) are allowed against such wounds. Eg, a unit of Skeletons (Ld 3) takes the test and rolls a 7 - the unit suffers 4 wounds (7-3=4). Characters never suffer wounds because of a destroved Hierophant. Units can use the Leadership of a character leading the unit for this test or the General&apos;s Leadership if he&apos;s within 12&quot; as normal. If a character is riding in a chariot and he is not with a unit of chariots, his chariot has to take this test but it can use the character&apos;s Leadership value. The Hierophant has to be destroyed (ie, permanently removed from the table) for this rule to take effect.</description>
+        </rule>
+        <rule id="e6eb-ec70-b75f-c202" name="Break Tests" hidden="false">
+          <description>Undead cannot be broken, but Undead units beaten in combat suffer one additional wound for every point they lose the combat by (no saves of any kind, not even Regeneration or Ward saves, are allowed against such wounds). If characters are present in the unit, or if they are riding in a chariot, the controlling player can decide how to allocate the wounds among the unit, the chariot and the characters. In multiple combats, each Undead unit on the losing side suffers one additional wound for every point their side has lost the combat by. If an Undead unit is wiped out by combat resolution in the first turn of a combat, the enemy gets the option to make an overrun move as normal.</description>
+        </rule>
+        <rule id="924d-b165-7fa0-aafe" name="Battle Standard" hidden="false">
+          <description>Undead that are within 12&quot; of their Battle Standard suffer one less wound than they normally would when defeated in combat. Eg, a unit of Skeletons loses a combat by 3. They should lose three extra Skeletons but, because the Battle Standard is within 12&quot;, they only lose two models.</description>
+        </rule>
+        <rule id="31d3-2e0c-5267-f3c1" name="Marching" hidden="false">
+          <description>Undead cannot make a march move.</description>
+        </rule>
+        <rule id="984e-e5b5-4fed-310e" name="Charge Reactions" hidden="false">
+          <description>Undead can react to charges only by holding.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="44c1-68ad-9328-f0d5" name="Fear" hidden="false" targetId="03be-3e56-1332-bf56" type="rule"/>
+        <infoLink id="a74c-d35f-265e-d30e" name="Immune to Psychology" hidden="false" targetId="512a-5ae5-c6cb-b82a" type="rule"/>
       </infoLinks>
     </infoGroup>
   </sharedInfoGroups>

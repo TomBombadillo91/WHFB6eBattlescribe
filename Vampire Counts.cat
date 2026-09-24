@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2c0-45b3-040e-fe0f" name="Vampire Counts" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2c0-45b3-040e-fe0f" name="Vampire Counts" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7d18-159a-be52-079b" name="Vampire" hidden="false"/>
     <categoryEntry id="72bd-3327-881f-a995" name="Von Carstein" hidden="false"/>
@@ -100,6 +100,7 @@
                 </modifier>
               </modifiers>
               <infoLinks>
+                <infoLink id="6979-ee57-1d86-bc8b" name="Undead" hidden="false" targetId="5b4f-43ba-65c7-9bd2" type="infoGroup"/>
                 <infoLink id="9e8f-f899-51b3-89ab" name="Level 2" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
               </infoLinks>
               <costs>
@@ -286,6 +287,7 @@
                 </modifier>
               </modifiers>
               <infoLinks>
+                <infoLink id="17ce-fc72-72d6-07f5" name="Undead" hidden="false" targetId="5b4f-43ba-65c7-9bd2" type="infoGroup"/>
                 <infoLink id="a1a6-bc92-a6d5-ac7d" name="Level 1" hidden="false" targetId="afee-6689-856e-2974" type="rule"/>
               </infoLinks>
               <costs>
@@ -389,6 +391,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="c090-1c16-48fe-24b9" name="Undead" hidden="false" targetId="5b4f-43ba-65c7-9bd2" type="infoGroup"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="d267-f7db-6709-6e00" name="Wizard" hidden="false" targetId="eb46-88d4-eb41-2549" primary="false"/>
         <categoryLink id="d08a-cb53-c650-dc71" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
@@ -559,6 +564,7 @@
           <selectionEntries>
             <selectionEntry id="a3d7-ef96-0bd6-0bc9" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
+                <infoLink id="9856-e073-482c-8b2d" name="Undead" hidden="false" targetId="5b4f-43ba-65c7-9bd2" type="infoGroup"/>
                 <infoLink id="14a6-111f-a40a-80d9" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
               </infoLinks>
               <costs>
@@ -646,6 +652,7 @@
         </profile>
       </profiles>
       <infoLinks>
+        <infoLink id="4ae6-25bf-c7d9-fd50" name="Undead" hidden="false" targetId="5b4f-43ba-65c7-9bd2" type="infoGroup"/>
         <infoLink id="0bf2-4a86-fc1e-f873" name="Wight Blades" hidden="false" targetId="b63b-1940-a3dc-2035" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -768,6 +775,7 @@
         </profile>
       </profiles>
       <infoLinks>
+        <infoLink id="8620-8003-d7b8-303f" name="Undead" hidden="false" targetId="5b4f-43ba-65c7-9bd2" type="infoGroup"/>
         <infoLink id="d610-3727-563f-c58e" name="Ethereal" hidden="false" targetId="ac02-2058-4acf-910f" type="rule"/>
         <infoLink id="95b9-ef8a-0b17-9325" name="Terror" hidden="false" targetId="3767-0d81-4db9-cda7" type="rule"/>
       </infoLinks>
@@ -812,6 +820,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="eaf2-f34b-3d00-a285" name="Undead" hidden="false" targetId="5b4f-43ba-65c7-9bd2" type="infoGroup"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="b563-5704-68a5-7960" name="New CategoryLink" hidden="false" targetId="5694-61f3-6913-6154" primary="true"/>
         <categoryLink id="8f16-81ff-ce3a-5885" name="Wizard" hidden="false" targetId="eb46-88d4-eb41-2549" primary="false"/>
@@ -920,6 +931,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f064-5e69-0926-cb22" type="max"/>
               </constraints>
               <infoLinks>
+                <infoLink id="6b6d-365c-1504-fdb2" name="Undead" hidden="false" targetId="5b4f-43ba-65c7-9bd2" type="infoGroup"/>
                 <infoLink id="651b-19ae-4dfa-73a1" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
               </infoLinks>
               <costs>
@@ -984,6 +996,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ca6-485e-5932-9097" type="max"/>
               </constraints>
               <infoLinks>
+                <infoLink id="c285-988a-8f1b-dcc5" name="Undead" hidden="false" targetId="5b4f-43ba-65c7-9bd2" type="infoGroup"/>
                 <infoLink id="667e-bd6b-f970-75e5" name="Musician" hidden="false" targetId="f7df-1ae0-6688-5c38" type="rule"/>
               </infoLinks>
               <costs>
@@ -1110,6 +1123,7 @@ Models with this special rule resolve their attacks at Strength 4 during the tur
         </rule>
       </rules>
       <infoLinks>
+        <infoLink id="bf09-e557-9159-ffce" name="Undead" hidden="false" targetId="5b4f-43ba-65c7-9bd2" type="infoGroup"/>
         <infoLink id="9ae8-db53-2a4c-cc59" name="Fast Cavalry" hidden="false" targetId="ab75-c6ec-0411-c924" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1161,6 +1175,7 @@ Models with this special rule resolve their attacks at Strength 4 during the tur
     </selectionEntry>
     <selectionEntry id="9e9a-c538-7a02-1847" name="Grave Guard" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
+        <infoLink id="9cf2-0b7b-bdb8-60de" name="Undead" hidden="false" targetId="5b4f-43ba-65c7-9bd2" type="infoGroup"/>
         <infoLink id="4f8a-bb34-06f4-bb97" name="Wight Blades" hidden="false" targetId="b63b-1940-a3dc-2035" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1284,6 +1299,7 @@ Models with this special rule resolve their attacks at Strength 4 during the tur
     </selectionEntry>
     <selectionEntry id="7542-dc35-21e5-40ab" name="Black Knights" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
+        <infoLink id="06e1-30f4-15cc-1642" name="Undead" hidden="false" targetId="5b4f-43ba-65c7-9bd2" type="infoGroup"/>
         <infoLink id="3ea2-724a-1cbb-65f5" name="Wight Blades" hidden="false" targetId="b63b-1940-a3dc-2035" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1433,6 +1449,7 @@ Models with this special rule resolve their attacks at Strength 4 during the tur
     </selectionEntry>
     <selectionEntry id="aed8-f9ca-fcd5-e7b6" name="Fell Bats" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
+        <infoLink id="70e1-747c-eddf-58b0" name="Undead" hidden="false" targetId="5b4f-43ba-65c7-9bd2" type="infoGroup"/>
         <infoLink id="d455-16ac-9dab-4d7f" name="Fly" hidden="false" targetId="87db-2d4c-3fa6-6a26" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1473,6 +1490,7 @@ Models with this special rule resolve their attacks at Strength 4 during the tur
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7e1d-b368-04b3-e5cb" type="max"/>
       </constraints>
       <infoLinks>
+        <infoLink id="8c8c-7d8e-2de8-34ae" name="Undead" hidden="false" targetId="5b4f-43ba-65c7-9bd2" type="infoGroup"/>
         <infoLink id="b91f-1f03-767d-ac2b" name="Ethereal" hidden="false" targetId="ac02-2058-4acf-910f" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1560,6 +1578,7 @@ Models with this special rule resolve their attacks at Strength 4 during the tur
         <rule id="9ae8-dd7c-d59a-d3bb" name="Unit Strength 5" hidden="false"/>
       </rules>
       <infoLinks>
+        <infoLink id="03f8-c2f3-d580-e863" name="Undead" hidden="false" targetId="5b4f-43ba-65c7-9bd2" type="infoGroup"/>
         <infoLink id="3099-f31f-937c-9872" name="Terror" hidden="false" targetId="3767-0d81-4db9-cda7" type="rule"/>
         <infoLink id="ddc0-cf49-c4d1-3a00" name="Large Target" hidden="false" targetId="01c3-c8c6-431f-1c2b" type="rule"/>
         <infoLink id="b5e8-c8a1-0e20-3de2" name="Chariot" hidden="false" targetId="4bb1-dfab-2824-bad1" type="rule"/>
@@ -1608,6 +1627,7 @@ Models with this special rule resolve their attacks at Strength 4 during the tur
         <rule id="d9f7-cbb3-ced5-f103" name="Single Model" hidden="false"/>
       </rules>
       <infoLinks>
+        <infoLink id="aabc-e376-75d3-8803" name="Undead" hidden="false" targetId="5b4f-43ba-65c7-9bd2" type="infoGroup"/>
         <infoLink id="510e-126a-e1ec-528f" name="Terror" hidden="false" targetId="3767-0d81-4db9-cda7" type="rule"/>
         <infoLink id="3ef1-8997-3f6e-0b6f" name="Ethereal" hidden="false" targetId="ac02-2058-4acf-910f" type="rule"/>
       </infoLinks>
@@ -3618,8 +3638,28 @@ Note that if a Wraith rides a Nightmare, then the Nightmare will also be Etherea
   </sharedRules>
   <sharedInfoGroups>
     <infoGroup id="5b4f-43ba-65c7-9bd2" name="Undead" hidden="false">
+      <rules>
+        <rule id="9c9b-2d0b-2cdf-ac63" name="The General" hidden="false">
+          <description>The army must include at least one Wizard (ie, a model with the entry &apos;Magic&apos; in its army list box) who will be the army&apos;s General If the army includes more than one Wizard, the one with the highest Leadership will be the General. In the case of two or more characters having the same Leadership, the player can decide. Remember to tell your opponent which model is the General at the beginning of the battle.
+
+If the General is destroyed, the Undead in the army will start to slowly crumble to dust. To represent this, at the end of the phase when the General is killed and at the beginning of every Undead turn thereafter, all Undead units on the battlefield must take a Leadership test. If the test is failed, the unit suffers a number of wounds equal to the number they failed the Leadership test by. No saves of any kind (not even Ward saves) are allowed against such wounds. Eg, a unit of Skeletons (Ld 3) takes the test and rolls a 7: the unit suffers 4 wounds (7-3=4). Characters never suffer wounds because of a destroyed General. Units can use the Leadership of a character leading the unit for this test, as normal. Winged Nightmares and Zombie Dragons do have to take this test, but can use their rider&apos;s Leadership. Note that if the General is taken below one Wound, but manages to regenerate enough Wounds to come back, this rule does not apply. The General has to be dead (ie, removed from the table) for this rule to take effect.</description>
+        </rule>
+        <rule id="e202-01b1-96f3-5793" name="Break Tests" hidden="false">
+          <description>Undead cannot be broken, but Undead units beaten in combat suffer one additional wound for every point they lose the combat by (no saves of any kind, not even Regeneration or Ward saves, are allowed against such wounds). If characters are present in the unit, or if they are riding a monster, the controlling player can decide how to allocate the wounds among the unit, the monster and the characters. In multiple combats, each Undead unit on the losing side suffers one additional wound for every point their side has lost the combat by. If an Undead unit is wiped out by combat resolution in the first turn of a combat, the enemy gets the option to make an overrun move as normal.</description>
+        </rule>
+        <rule id="0bdf-5f5e-c93d-49e5" name="Battle Standard" hidden="false">
+          <description>Undead that are within 12&quot; of their Battle Standard suffer one less wound than they normally would when defeated in combat. Eg, a unit of Skeletons loses a combat by 3. They should lose three extra Skeletons but because the Battle Standard is within 12&quot; they only lose two extra models.</description>
+        </rule>
+        <rule id="7e3a-a56f-0045-ebc8" name="Charge Reactions" hidden="false">
+          <description>Undead can react to charges only by holding their ground.</description>
+        </rule>
+        <rule id="fce1-5cae-1ab3-2861" name="Marching" hidden="false">
+          <description>Undead cannot make a march move unless they are characters or are within 12&quot; of the General at the start of their Movement phase. Note that all the normal rules for marching will apply (for example, the presence of the enemy within 8&quot; still stops them from marching, etc).</description>
+        </rule>
+      </rules>
       <infoLinks>
-        <infoLink id="a93f-fa04-80fe-4414" name="Fear" hidden="false" targetId="03be-3e56-1332-bf56" type="rule"/>
+        <infoLink id="1576-310c-ae3e-e8dc" name="Fear" hidden="false" targetId="03be-3e56-1332-bf56" type="rule"/>
+        <infoLink id="7293-d0e6-679d-8db5" name="Immune to Psychology" hidden="false" targetId="512a-5ae5-c6cb-b82a" type="rule"/>
       </infoLinks>
     </infoGroup>
   </sharedInfoGroups>
