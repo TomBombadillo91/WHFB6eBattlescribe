@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3604-800a-4012-5da6" name="Dogs of War" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3604-800a-4012-5da6" name="Dogs of War" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5e7e-36e5-c0bf-c57c" name="Dogs of War" hidden="false"/>
     <categoryEntry id="c51c-ed7d-9669-006f" name="Regiment of Renown" hidden="false"/>
@@ -3091,7 +3091,7 @@ Luca Brazanga is armed with a Hand Weapon, Pistol, Crossbow and Heavy Armour</de
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f9fe-5a77-74c8-7238" name="Golfang&apos;s Ogres" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f9fe-5a77-74c8-7238" name="Golgfag&apos;s Ogres" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -3169,13 +3169,13 @@ Luca Brazanga is armed with a Hand Weapon, Pistol, Crossbow and Heavy Armour</de
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="45.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8eb0-ca1d-7ce0-8963" name="Golfang" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="8eb0-ca1d-7ce0-8963" name="Golgfag" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8107-8b42-c0b0-0376" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3082-9a6e-a2d7-9e79" type="max"/>
           </constraints>
           <profiles>
-            <profile id="bfff-0ba8-3afd-be8c" name="Golfang" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+            <profile id="bfff-0ba8-3afd-be8c" name="Golgfag" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
               <characteristics>
                 <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
                 <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
@@ -4185,13 +4185,13 @@ Against smaller opponents:
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2d82-a000-053b-4b37" name="Richter Kruegar" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="2d82-a000-053b-4b37" name="Richter Kreugar" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64c5-4f26-b222-30b1" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="080c-94d7-3935-018a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="dab4-be32-0e49-b0ba" name="Richter Kruegar" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+            <profile id="dab4-be32-0e49-b0ba" name="Richter Kreugar" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
               <characteristics>
                 <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
                 <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
