@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="19" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="20" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="e0a8-8253-1a27-7620" name="Engineering Rune" hidden="false">
       <rules>
@@ -2212,7 +2212,7 @@ The Organ Gun requires a full crew of three Dwarfs to work it properly. If one c
         <categoryLink id="1e8b-7caf-3d40-9c72" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="781c-c42e-e28e-d1d0" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
         <categoryLink id="f8f7-89ae-bdb6-e701" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
-        <categoryLink id="0a9c-2c9c-8a69-cd5e" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
+        <categoryLink id="0a9c-2c9c-8a69-cd5e" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b379-4d84-2444-8970" name="Axe of Retribution" hidden="false" collective="false" import="true" type="upgrade">
@@ -2318,7 +2318,7 @@ In battle, this has the effect of allowing friendly units within 12&quot; of Kin
         <categoryLink id="5c79-5529-a2ae-0ebc" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="232e-9928-d616-3876" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
         <categoryLink id="6703-92fc-c113-ac4e" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
-        <categoryLink id="e3d4-fc0b-56c2-c1eb" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
+        <categoryLink id="e3d4-fc0b-56c2-c1eb" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3839-85f7-fa2b-41f6" name="Axe of Dargo" hidden="false" collective="false" import="true" type="upgrade">
@@ -2411,7 +2411,7 @@ While Kraggi is alive Thorek gains one extra dice per turn to cast runes with. H
         <categoryLink id="63d4-f19d-be20-ce1e" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="7e65-52f0-c3b9-1355" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
         <categoryLink id="46e6-a8c0-a5ac-415e" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
-        <categoryLink id="7b25-1c17-b8eb-b680" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
+        <categoryLink id="7b25-1c17-b8eb-b680" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3ccd-e9ad-d65e-8627" name="Klad Brakak" hidden="false" collective="false" import="true" type="upgrade">

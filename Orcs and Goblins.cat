@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9534-aec7-1922-76f2" name="Orcs and Goblins" revision="30" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9534-aec7-1922-76f2" name="Orcs and Goblins" revision="31" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5b0c-07f2-6b72-7aa8" name="Orc" hidden="false"/>
     <categoryEntry id="2c47-226a-5465-6c16" name="Common Orc" hidden="false"/>
@@ -6120,9 +6120,6 @@ Treat the Prodder&apos;s blasts as bound spells with a power level of 3. Each bl
         </profile>
       </profiles>
       <rules>
-        <rule id="6ddd-94cc-89a9-5aaa" name="Army List" hidden="false">
-          <description>Azhag uses up two of your Hero choices, not one. BattleScribe counts him against a single Hero slot, so the second must be tracked by hand.</description>
-        </rule>
       </rules>
       <infoLinks>
         <infoLink id="756b-f307-e66e-dbfe" name="Ignore Goblin Panic" hidden="false" targetId="c3bd-5b38-8c9a-72ff" type="rule"/>
@@ -6133,7 +6130,7 @@ Treat the Prodder&apos;s blasts as bound spells with a power level of 3. Each bl
         <categoryLink id="eb7e-0f82-6a36-c825" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="e481-980b-f5c3-66fe" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
         <categoryLink id="58a4-83c9-1e9a-e597" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
-        <categoryLink id="fb2c-c399-93f4-72ba" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
+        <categoryLink id="fb2c-c399-93f4-72ba" name="Two Additional Hero Choices" hidden="false" targetId="9dc5-bbce-5738-84e8" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1d00-f328-412a-66c8" name="Slagga&apos;s Sword of Slashin&apos;" hidden="false" collective="false" import="true" type="upgrade">
@@ -6205,9 +6202,6 @@ Treat Azhag as a Level 2 Orc Shaman for purposes of casting and dispelling spell
         </profile>
       </profiles>
       <rules>
-        <rule id="3f7d-4f40-c565-9423" name="Army List" hidden="false">
-          <description>Borgut takes up two of your Hero choices, not one; BattleScribe counts him against a single Hero slot, so the second must be tracked by hand. He must also be the army&apos;s General unless Grimgor Ironhide is present.</description>
-        </rule>
         <rule id="f78c-2f25-39b3-bf4c" name="The Facebeater" hidden="false">
           <description>If Borgut fights in a challenge, then at the beginning of the first Close Combat phase of the challenge, he can smash his thick Orc skull into the face of his opponent or any monstrous mount they may be riding (note this does not include steeds). This is in addition to his normal attacks, and is resolved before any other attacks in the challenge. If the attack hits, it is worked out at Strength 7 and if the recipient of Borgut&apos;s &apos;eadbutt suffers a wound then he/she/it counts as WS1 for the rest of the Close Combat phase and will attack last, regardless of charging, magic items or any other bonuses. If this mighty &apos;eadbutt kills his opponent, Borgut should still make his remaining attacks to calculate overkill for the purposes of combat resolution.</description>
         </rule>
@@ -6226,6 +6220,7 @@ Treat Azhag as a Level 2 Orc Shaman for purposes of casting and dispelling spell
         <categoryLink id="b0e2-9fe9-11ea-ef8d" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="74b8-354b-5878-f4fc" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
         <categoryLink id="342c-9e3e-3818-bc37" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
+        <categoryLink id="3937-bcd3-1e10-78a1" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="a5eb-e7cb-9504-25a5" name="&apos;&apos;&apos;Ardlad&apos;&apos;s Axe o&apos;&apos; Doom&apos;" hidden="false" collective="false" import="true" type="upgrade">
@@ -6253,6 +6248,26 @@ Orcs only. Gives the wearer a 1+ armour save that cannot be improved.</descripti
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="dde0-3103-9a2d-3d2e" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="5773-acd4-7cea-27b9" value="0.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="038a-0b40-2b1b-16a4" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="3df2-bd2f-1b87-b506" value="0.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="038a-0b40-2b1b-16a4" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5773-acd4-7cea-27b9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3df2-bd2f-1b87-b506" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="175.0"/>
       </costs>
