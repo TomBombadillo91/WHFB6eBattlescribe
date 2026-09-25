@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="35" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="36" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="e8a8-d83e-c60c-3ad0" name="Hordes of Chaos"/>
     <publication id="dc3a-2511-d23a-deb3" name="Beasts of Chaos"/>
@@ -6052,10 +6052,12 @@ With his sword and axe, Crom is a whirlwind of destruction, his attacks striking
 
 Crom uses his shield expertly, forcing his opponent back and blocking any attempt to launch an attack. If Crom fights with sword and shield he gets the normal + 1 to his Armour save for using a hand weapon and shield. In addition, if he fights with sword and shield in a challenge, any special rules applying to Crom&apos;s opponent&apos;s weapon are completely nullified; in other words his opponents always count as using a single hand weapon regardless of their actual equipment. This applies to both magical and mundane equipment.</description>
         </rule>
+        <rule id="b63b-4116-3974-c4dc" name="Chaos Armour" hidden="false">
+          <description>All-enclosing suits of Chaos Armour are the living gifts of the Dark Gods upon their Champions. They become part of the wearers body and can never be removed once put on.
+
+Chaos armour gives a 4+ armour save. It can be combined with other equipment as normal. Sorcerers can wear this armour and cast spells.</description>
+        </rule>
       </rules>
-      <infoLinks>
-        <infoLink id="b9de-5147-7e80-274e" name="Chaos Armour" hidden="false" targetId="df14-b7c0-c17b-dfad" type="rule"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="543f-c92a-8f4a-7068" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="b365-c9db-6c61-8332" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>

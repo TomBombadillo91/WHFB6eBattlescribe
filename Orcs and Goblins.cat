@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9534-aec7-1922-76f2" name="Orcs and Goblins" revision="34" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9534-aec7-1922-76f2" name="Orcs and Goblins" revision="36" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5b0c-07f2-6b72-7aa8" name="Orc" hidden="false"/>
     <categoryEntry id="2c47-226a-5465-6c16" name="Common Orc" hidden="false"/>
@@ -4248,8 +4248,6 @@ If a Doom Diver launch should misfire then roll a D6 and consult the misfire cha
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-      </rules>
       <infoLinks>
         <infoLink id="a174-c1c4-791f-6fbd" name="Ignore Greenskin Panic" hidden="false" targetId="e016-5778-ae98-4d68" type="rule"/>
         <infoLink id="ca34-3527-e71b-58aa" name="Terror" hidden="false" targetId="3767-0d81-4db9-cda7" type="rule"/>
@@ -6138,12 +6136,9 @@ Treat the Prodder&apos;s blasts as bound spells with a power level of 3. Each bl
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-      </rules>
       <infoLinks>
         <infoLink id="756b-f307-e66e-dbfe" name="Ignore Goblin Panic" hidden="false" targetId="c3bd-5b38-8c9a-72ff" type="rule"/>
         <infoLink id="8c01-1886-ffbd-1b85" name="Quell Animosity" hidden="false" targetId="54d8-2a0c-e609-a983" type="rule"/>
-        <infoLink id="cd68-0841-b03f-30d1" name="He&apos;s da Boss" hidden="false" targetId="5bf2-e38b-88bb-7958" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="eb7e-0f82-6a36-c825" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
@@ -6156,6 +6151,9 @@ Treat the Prodder&apos;s blasts as bound spells with a power level of 3. Each bl
           <rules>
             <rule id="5975-0c61-1c14-033e" name="Slagga&apos;s Sword of Slashin&apos;" hidden="false">
               <description>The Sword confers +1 Strength to all close combat Attacks made by Azhag the Slaughterer. In addition, no armour saves are allowed against wounds caused by the Sword of Slashin&apos;</description>
+            </rule>
+            <rule id="dd54-60e2-29f4-0d72" name="He&apos;s da Boss" hidden="false">
+              <description>This model must be your General, regardless of the Leadership value of any other characters in your army.</description>
             </rule>
           </rules>
           <costs>

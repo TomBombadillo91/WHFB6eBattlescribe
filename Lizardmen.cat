@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d9da-11c6-1a8c-4472" name="Lizardmen" revision="31" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d9da-11c6-1a8c-4472" name="Lizardmen" revision="32" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Unit profiles and magic item text are complete. Not yet included: the special characters other than Lord Kroak (Kroq-Gar, Tehenhauin), and Engine of the Gods, Arcanodon and Horned One.</readme>
   <categoryEntries>
     <categoryEntry id="361c-7d6f-fc45-5312" name="Skink" hidden="false"/>
@@ -1911,11 +1911,13 @@ Kroq-Gar has a 5+ Ward save.
 
 If Kroq-Gar is wounded in close combat and does not pass his Ward save, then whoever struck the blow immediately suffers an automatic Strength 5 hit.</description>
         </rule>
+        <rule id="5524-d93e-ab83-392e" name="Ultimate Predator" hidden="false">
+          <description>Against large targets, each wound that the Carnosaur inflicts does D3 wounds rather than 1.</description>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink id="28bb-c80f-0697-ce1d" name="Scaly Skin" hidden="false" targetId="7eca-56b9-d1c7-c7c8" type="rule"/>
         <infoLink id="3ca7-47f3-54a4-54b9" name="Large Target" hidden="false" targetId="01c3-c8c6-431f-1c2b" type="rule"/>
-        <infoLink id="196b-edcb-f2b1-8ecc" name="Ultimate Predator" hidden="false" targetId="0979-2536-972b-a0c1" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b577-70a8-4cfc-ec19" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>

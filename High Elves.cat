@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="26" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="27" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="3f17-868d-fac0-4c8d" name="First Among Equals" hidden="false">
       <constraints>
@@ -2067,10 +2067,10 @@ In battle Malhandir counts as a monster. Malhandir wears barding which gives him
         <rule id="a8e4-6125-799a-5044" name="Champion of Ulthuan" hidden="false">
           <description>Tyrion is always the army&apos;s General. This overrides Intrigue at Court: the General is not determined randomly in an army that includes him.</description>
         </rule>
+        <rule id="cd96-3860-7785-0230" name="Stoic" hidden="false">
+          <description>When fighting against a Dark Elf army, all High Elves are immune to Panic.</description>
+        </rule>
       </rules>
-      <infoLinks>
-        <infoLink id="325d-da49-0720-427e" name="Stoic" hidden="false" targetId="278c-a80d-b3aa-e8aa" type="rule"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="83c3-8493-9007-990e" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="5748-4948-90ab-0498" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
@@ -2198,10 +2198,10 @@ Alarielle always strikes first in close combat. If an enemy also has this abilit
         <rule id="905b-2907-aa52-b303" name="The Everqueen" hidden="false">
           <description>If her Handmaidens are included in the army Alarielle must lead the unit, and cannot voluntarily leave it.</description>
         </rule>
+        <rule id="ff86-5ed3-cafc-8db1" name="Stoic" hidden="false">
+          <description>When fighting against a Dark Elf army, all High Elves are immune to Panic.</description>
+        </rule>
       </rules>
-      <infoLinks>
-        <infoLink id="e986-81b6-55c6-99bf" name="Stoic" hidden="false" targetId="278c-a80d-b3aa-e8aa" type="rule"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="c310-8469-6df9-670b" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="fe1b-9686-278f-5832" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
@@ -2394,9 +2394,11 @@ In battle it is used as any other Breath Weapon. Those hit by it suffer a Streng
 
 Minaithnir is fanatically loyal to his  master. If lmrik is slain, Minaithnir will become subject to the rules for frenzy, but will otherwise remain under the control of the High Elf player. Note also that Minaithnir&apos;s profile is better than normal Dragons.</description>
         </rule>
+        <rule id="f198-4834-634b-d7e0" name="Stoic" hidden="false">
+          <description>When fighting against a Dark Elf army, all High Elves are immune to Panic.</description>
+        </rule>
       </rules>
       <infoLinks>
-        <infoLink id="51cc-410e-77e3-3dca" name="Stoic" hidden="false" targetId="278c-a80d-b3aa-e8aa" type="rule"/>
         <infoLink id="8bd7-c345-40f0-6aff" name="Large Target" hidden="false" targetId="01c3-c8c6-431f-1c2b" type="rule"/>
         <infoLink id="cd8b-de50-c38c-83ed" name="Scaly Skin" hidden="false" targetId="7eca-56b9-d1c7-c7c8" type="rule"/>
       </infoLinks>
@@ -2537,10 +2539,10 @@ Note, however, that the number of Wounds on the profiles refers to starting Woun
 
 As soon as Teclis is reduced to 1 Wound he gets a 2+ Ward save for the rest of the battle. Note that if an attack will inflict multiple wounds, for example a cannon ball, then Teclis will only get this special Ward save if he has already been reduced to 1 Wound before he is hit.</description>
         </rule>
+        <rule id="9353-a4d0-680f-234d" name="Stoic" hidden="false">
+          <description>When fighting against a Dark Elf army, all High Elves are immune to Panic.</description>
+        </rule>
       </rules>
-      <infoLinks>
-        <infoLink id="7bf8-a4ea-9dee-016d" name="Stoic" hidden="false" targetId="278c-a80d-b3aa-e8aa" type="rule"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="32e0-38a9-841f-f69e" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="6819-9171-58dd-aa9b" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
@@ -2627,9 +2629,11 @@ Ten Handmaidens, including the unit&apos;s Champion, Musician and Standard Beare
 
 If Alarielle is with her Handmaidens then the whole unit becomes Unbreakable.</description>
         </rule>
+        <rule id="d0b3-e025-eab4-1826" name="Stoic" hidden="false">
+          <description>When fighting against a Dark Elf army, all High Elves are immune to Panic.</description>
+        </rule>
       </rules>
       <infoLinks>
-        <infoLink id="c186-3446-18a6-3c27" name="Stoic" hidden="false" targetId="278c-a80d-b3aa-e8aa" type="rule"/>
         <infoLink id="3457-c1c4-673c-0f9f" name="Immune to Psychology" hidden="false" targetId="512a-5ae5-c6cb-b82a" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -4141,20 +4145,40 @@ During the enemy&apos;s Magic phase, the Crystal allows the High Elf player to r
               </costs>
             </selectionEntry>
             <selectionEntry id="bad1-10b0-b865-eb15" name="Power Stone" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="a53c-7232-1a9d-5c74" name="Power Stone" hidden="false" targetId="130f-0831-64a4-4e02" type="rule"/>
-              </infoLinks>
               <selectionEntries>
                 <selectionEntry id="c104-a378-49d9-57d3" name="Power Stone" publicationId="d9e7-add3-773e-ffab" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9f1-3140-6055-3962" type="min"/>
                   </constraints>
-              <infoLinks>
-                <infoLink id="bbc0-9181-d73e-9c10" name="Power Stone" hidden="false" targetId="130f-0831-64a4-4e02" type="rule"/>
-              </infoLinks>
-                  <infoLinks>
-                    <infoLink id="ef0f-fdfd-fd37-8701" name="Power Stone" hidden="false" targetId="130f-0831-64a4-4e02" type="rule"/>
-                  </infoLinks>
+                  <rules>
+                    <rule id="44ee-0f5b-7f89-a128" name="Power Stone" hidden="false">
+                      <description>The Power Stone is imbued with a powerful magical invocation. When it is held out by a Wizard before he casts a spell, the effect is to enhance the efficacy of the magic. A further two dice are added to the Casting roll. Note that using a Power Stone will allow a Wizard to use more Power dice than he is normally permitted. For example, a First Level Wizard may read a Power Stone and thus use four Power dice to cast a spell (2 basic + 2 from a Power Stone). A Power Stone can only be used once - after one use its power is exhausted.
+
+Using a Power Stone will bring any spell in play cast earlier by that Wizard to an end in the same way as casting a new spell by ordinary means.
+
+As with scrolls, Power Stones are not unique items - they are prepared by a Wizard prior to battle and it is quite possible for several Wizards to carry Power Stones, and for a Wizard to carry more than one. However, only one Power Stone can be used to enhance a spell.
+
+Note that a spell cast with a Power Stone can never be cast with Irresistible Force, though it can be Miscast.</description>
+                    </rule>
+                    <rule id="03d8-d15f-d4d0-eb78" name="Power Stone" hidden="false">
+                      <description>The Power Stone is imbued with a powerful magical invocation. When it is held out by a Wizard before he casts a spell, the effect is to enhance the efficacy of the magic. A further two dice are added to the Casting roll. Note that using a Power Stone will allow a Wizard to use more Power dice than he is normally permitted. For example, a First Level Wizard may read a Power Stone and thus use four Power dice to cast a spell (2 basic + 2 from a Power Stone). A Power Stone can only be used once - after one use its power is exhausted.
+
+Using a Power Stone will bring any spell in play cast earlier by that Wizard to an end in the same way as casting a new spell by ordinary means.
+
+As with scrolls, Power Stones are not unique items - they are prepared by a Wizard prior to battle and it is quite possible for several Wizards to carry Power Stones, and for a Wizard to carry more than one. However, only one Power Stone can be used to enhance a spell.
+
+Note that a spell cast with a Power Stone can never be cast with Irresistible Force, though it can be Miscast.</description>
+                    </rule>
+                    <rule id="2fa5-990e-12f7-c2cc" name="Power Stone" hidden="false">
+                      <description>The Power Stone is imbued with a powerful magical invocation. When it is held out by a Wizard before he casts a spell, the effect is to enhance the efficacy of the magic. A further two dice are added to the Casting roll. Note that using a Power Stone will allow a Wizard to use more Power dice than he is normally permitted. For example, a First Level Wizard may read a Power Stone and thus use four Power dice to cast a spell (2 basic + 2 from a Power Stone). A Power Stone can only be used once - after one use its power is exhausted.
+
+Using a Power Stone will bring any spell in play cast earlier by that Wizard to an end in the same way as casting a new spell by ordinary means.
+
+As with scrolls, Power Stones are not unique items - they are prepared by a Wizard prior to battle and it is quite possible for several Wizards to carry Power Stones, and for a Wizard to carry more than one. However, only one Power Stone can be used to enhance a spell.
+
+Note that a spell cast with a Power Stone can never be cast with Irresistible Force, though it can be Miscast.</description>
+                    </rule>
+                  </rules>
                   <categoryLinks>
                     <categoryLink id="1a97-2081-1301-7937" name="New CategoryLink" hidden="false" targetId="7cfd-b676-48e1-6eec" primary="true"/>
                     <categoryLink id="484a-51b4-661d-9104" name="Scroll" hidden="false" targetId="06f3-5988-1d55-db7c" primary="false"/>

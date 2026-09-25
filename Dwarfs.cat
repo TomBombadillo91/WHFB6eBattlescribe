@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="21" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="22" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="e0a8-8253-1a27-7620" name="Engineering Rune" hidden="false">
       <rules>
@@ -2211,12 +2211,16 @@ The Organ Gun requires a full crew of three Dwarfs to work it properly. If one c
         <rule id="657c-9d52-c2fb-1a2d" name="Traditional Army" hidden="false">
           <description>Alrik doesn&apos;t trust the unusual machineries of the Engineers&apos; Guild and only rarely includes them in his army. lf Alrik is in the army then Gyrocopters, Flame Cannons and Organ Guns cost twice the points they do normally. ln addition, your army cannot have more models armed with a handgun than a crossbow.</description>
         </rule>
+        <rule id="2887-1c28-6957-e9c2" name="Ancestral Grudge" hidden="false">
+          <description>Dwarfs hate all types of Orcs, Goblins and Snotlings, including Night Goblins, Black Orcs, Hobgoblins... In fact all greenskins of any description!</description>
+        </rule>
+        <rule id="bb04-62bf-9fed-d964" name="Relentless" hidden="false">
+          <description>Dwarf units may march even if there are enemy within 8&quot;.</description>
+        </rule>
+        <rule id="b832-9d45-2804-2bcd" name="Resolute" hidden="false">
+          <description>Dwarfs (including Chaos Dwarfs) flee and pursue 2D6-1&quot; Instead of the normal 2D6&quot;.</description>
+        </rule>
       </rules>
-      <infoLinks>
-        <infoLink id="0736-b868-38ef-7963" name="Ancestral Grudge" hidden="false" targetId="0440-4012-380d-eda9" type="rule"/>
-        <infoLink id="0da8-baf5-1c66-4424" name="Relentless" hidden="false" targetId="4f63-f575-8d2e-72ee" type="rule"/>
-        <infoLink id="9c5c-5c2d-6cd3-72ec" name="Resolute" hidden="false" targetId="6159-f693-9239-0f8d" type="rule"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="1e8b-7caf-3d40-9c72" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="781c-c42e-e28e-d1d0" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
@@ -2324,12 +2328,16 @@ In battle, this has the effect of allowing friendly units within 12&quot; of Kin
         <rule id="8243-e583-562e-3039" name="Slayer King" hidden="false">
           <description>As Slayer King, Ungrim is bound by the Slayer Oath. He benefits from the Slayer special rule  Hates Greenskins and is Unbreakable. The other Slayer rules do not apply.</description>
         </rule>
+        <rule id="7575-8ebf-a5f9-009d" name="Ancestral Grudge" hidden="false">
+          <description>Dwarfs hate all types of Orcs, Goblins and Snotlings, including Night Goblins, Black Orcs, Hobgoblins... In fact all greenskins of any description!</description>
+        </rule>
+        <rule id="4e78-21ea-8b0b-db25" name="Relentless" hidden="false">
+          <description>Dwarf units may march even if there are enemy within 8&quot;.</description>
+        </rule>
+        <rule id="5919-b111-9c8c-0df7" name="Resolute" hidden="false">
+          <description>Dwarfs (including Chaos Dwarfs) flee and pursue 2D6-1&quot; Instead of the normal 2D6&quot;.</description>
+        </rule>
       </rules>
-      <infoLinks>
-        <infoLink id="64de-c07a-4043-c844" name="Ancestral Grudge" hidden="false" targetId="0440-4012-380d-eda9" type="rule"/>
-        <infoLink id="9850-42ce-e4b2-4090" name="Relentless" hidden="false" targetId="4f63-f575-8d2e-72ee" type="rule"/>
-        <infoLink id="097b-9187-b78a-5690" name="Resolute" hidden="false" targetId="6159-f693-9239-0f8d" type="rule"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="5c79-5529-a2ae-0ebc" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="232e-9928-d616-3876" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
@@ -2423,11 +2431,17 @@ Kraggi is treated as a unit Champion and fights with his forge tongs (counts as 
 
 While Kraggi is alive Thorek gains one extra dice per turn to cast runes with. However, it&apos;s important to keep track of which one this is (by using a different coloured dice, for example) because if this extra dice rolls a 1 Kraggi has done something wrong and the rune is miscast.</description>
         </rule>
+        <rule id="773c-93fb-4f93-a71e" name="Ancestral Grudge" hidden="false">
+          <description>Dwarfs hate all types of Orcs, Goblins and Snotlings, including Night Goblins, Black Orcs, Hobgoblins... In fact all greenskins of any description!</description>
+        </rule>
+        <rule id="1e93-3c63-b956-5cd5" name="Relentless" hidden="false">
+          <description>Dwarf units may march even if there are enemy within 8&quot;.</description>
+        </rule>
+        <rule id="ac16-cc46-0a43-ec5f" name="Resolute" hidden="false">
+          <description>Dwarfs (including Chaos Dwarfs) flee and pursue 2D6-1&quot; Instead of the normal 2D6&quot;.</description>
+        </rule>
       </rules>
       <infoLinks>
-        <infoLink id="8b76-154f-d4ab-83a3" name="Ancestral Grudge" hidden="false" targetId="0440-4012-380d-eda9" type="rule"/>
-        <infoLink id="1e35-0584-6380-a4a4" name="Relentless" hidden="false" targetId="4f63-f575-8d2e-72ee" type="rule"/>
-        <infoLink id="2c45-68a1-0b1a-9dad" name="Resolute" hidden="false" targetId="6159-f693-9239-0f8d" type="rule"/>
         <infoLink id="aa41-6791-936a-ffa5" name="Rune Lore" hidden="false" targetId="8158-0867-cf89-976d" type="rule"/>
       </infoLinks>
       <categoryLinks>
