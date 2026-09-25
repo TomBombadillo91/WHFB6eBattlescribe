@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="17" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="18" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="e0a8-8253-1a27-7620" name="Engineering Rune" hidden="false">
       <rules>
@@ -2193,11 +2193,6 @@ The Organ Gun requires a full crew of three Dwarfs to work it properly. If one c
         </profile>
       </profiles>
       <rules>
-        <rule id="b316-1483-73e6-06db" name="Special Character" hidden="false">
-          <description>Alrik Ranulfsson counts as a Lord choice and in addition takes up one of your Hero choices as well. He must be the army&apos;s General.
-
-If Alrik is taken, Gyrocopters, Flame Cannons and Organ Guns cost double points, and the army may not include more Thunderer models than Crossbowmen models.</description>
-        </rule>
         <rule id="df6b-0c08-58e6-5c74" name="Lord of the Hold" hidden="false">
           <description>If Alrik is included in your army he must be your army General.</description>
         </rule>
@@ -2364,21 +2359,21 @@ In battle, this has the effect of allowing friendly units within 12&quot; of Kin
             <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
             <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
             <characteristic name="I" typeId="b418-0e30-644f-1435">3</characteristic>
-            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2 (3)</characteristic>
             <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
           </characteristics>
         </profile>
         <profile id="c8f8-3ef9-fda5-0d57" name="Kraggi" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
             <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">3</characteristic>
-            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
-            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
-            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
-            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
-            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
-            <characteristic name="I" typeId="b418-0e30-644f-1435">3</characteristic>
-            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2</characteristic>
-            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">2</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
           </characteristics>
         </profile>
       </profiles>
