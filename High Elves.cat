@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="16" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="3f17-868d-fac0-4c8d" name="First Among Equals" hidden="false">
       <constraints>
@@ -3689,7 +3689,700 @@ Mage only. May choose his spells instead of rolling for them.</description>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="9774-01ac-4f53-784d" name="Tyrion" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="9c85-c7cf-44ed-f5e0" name="Tyrion" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">9</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">7</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">4</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">10</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2db3-50ee-e564-d33b" name="Malhandir" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">10</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="c8ec-fbef-6bdd-9024" name="Scaffold - points needed" hidden="false">
+          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        </rule>
+        <rule id="ed4c-5e8a-23e9-3603" name="Intrigue at Court" hidden="false">
+          <description>Though they are loyal to a fault, High Elves love intrigue and politics. Unfortunately, this sometimes means that their armies are trusted to the care of individuals on the basis of the political faction they follow rather than their ability to lead.
+
+The army&apos;s General is determined randomly. Before deployment, line up the character models and roll a dice. Count this number along the line - this is your General. If you roll over the number of characters in the army then the General is selected as normal instead. If you have six or more characters, choose five of them to line up, and then roll as above.</description>
+        </rule>
+        <rule id="1867-5e10-2217-f41a" name="Riposte" hidden="false">
+          <description>Tyrion is an expert at turning aside his foes&apos; attacks, avoiding their blows and counter-attacking before they can react.
+
+Tyrion parries the first enemy hit against him per Close Combat phase and it has no effect. In addition, assuming Tyrion is still alive after all other attacks have been made, he may make a single extra attack of his own back against the model that he parried. This attack is in addition to those normally allowed to Tyrion and follows all of the rules for Tyrion&apos;s attacks. This has no effect on special attacks which do not use the model&apos;s Attacks characteristic (such as a Night Goblin Fanatic or a Giant).</description>
+        </rule>
+        <rule id="d2c6-775a-6691-e72a" name="Feint" hidden="false">
+          <description>Tyrion is nimble and lithe, twisting easily past his opponent&apos;s guard and turning suddenly to attack from unpredictable angles.
+
+Tyrion may re-roll any failed rolls to hit on the first turn of each close combat.</description>
+        </rule>
+        <rule id="790f-c0b4-b326-7352" name="Curse of Aenarion" hidden="false">
+          <description>TEXT NOT AVAILABLE. The wiki page for this rule does not load and is not in the scrape; Tyrion&apos;s version differs from the Teclis one, so it has been left to be filled from the army book rather than guessed.</description>
+        </rule>
+        <rule id="8946-90bd-7062-42a9" name="Malhandir" hidden="false">
+          <description>Tyrion rides a huge steed, in fact the largest and noblest Elven steed born since the father of horses himself.
+
+In battle Malhandir counts as a monster. Malhandir wears barding which gives him a 5+ armour save.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="325d-da49-0720-427e" name="Stoic" hidden="false" targetId="278c-a80d-b3aa-e8aa" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="83c3-8493-9007-990e" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="5748-4948-90ab-0498" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="94e4-3f62-6c8e-24ef" name="Sunfang" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="fe3f-5994-9fb7-360f" name="Sunfang" hidden="false">
+              <description>The Runesword of Tyrion is a fearsome weapon, easily able to cleave through flesh and armour alike. It is also known as Sunfang for the gleaming runes that shimmer up and down its length, blazing with the captured fires of the sun.
+
+Once per battle in his own Magic phase, Tyrion may use Sunfang to cast the Bound Spell, Power Level 6, Fury of Khaine. The spell requires no Power dice to cast, all the power required is provided by Sunfang itself.
+
+Sunfang also gives Tyrion + 3 Strength at all times.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e59b-6849-e974-fdbf" name="Dragon Armour of Aenarion" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="4f27-c09a-00b3-e323" name="Dragon Armour of Aenarion" hidden="false">
+              <description>This mighty armour was forged on Vaul&apos;s Anvil long ago to protect Aenarion, the first Phoenix King, in the great wars against Chaos
+
+Gives Tyrion a 1+ armour save. In addition, Tyrion gets a 4+ Ward save.
+
+With the exceptions of this improved save, the Dragon Armour of Aenarion follows the normal rules for Dragon Armour.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="42d1-9700-0630-eb54" name="Heart of Avelorn" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="c1f4-c7a8-8725-0250" name="Heart of Avelorn" hidden="false">
+              <description>This highly polished ruby glows slightly with an inner light and is warm to the touch. It was gifted to Tyrion by the Everqueen for his great bravery.
+
+If Tyrion is slain, the Heart bursts into a thousand pieces in a flash of dazzling white light. This rush of magical energy returns Tyrion to life with 1 Wound. Obviously it will only work once.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8ec2-782a-6f68-ad27" name="Alarielle" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1a02-2a6d-990d-1c05" name="Alarielle" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">5</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">8</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="c2b9-0026-661a-19c6" name="Scaffold - points needed" hidden="false">
+          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        </rule>
+        <rule id="9812-b78a-3c2f-7961" name="Intrigue at Court" hidden="false">
+          <description>Though they are loyal to a fault, High Elves love intrigue and politics. Unfortunately, this sometimes means that their armies are trusted to the care of individuals on the basis of the political faction they follow rather than their ability to lead.
+
+The army&apos;s General is determined randomly. Before deployment, line up the character models and roll a dice. Count this number along the line - this is your General. If you roll over the number of characters in the army then the General is selected as normal instead. If you have six or more characters, choose five of them to line up, and then roll as above.</description>
+        </rule>
+        <rule id="c818-6e8a-aab0-db34" name="High Elf Mages" hidden="false">
+          <description>High Elves are far better attuned to the ebb and flow of the winds of magic than other races and can sense dangerous changes almost before they happen.
+
+High Elf Mages get +1 to each attempt to dispel. 
+Note that this bonus is not cumulative for having more than one High Elf Mage, so an army with two High Elf Mages will still only get +1 to dispel from this source. However, this bonus may still be combined with magic items as normal.</description>
+        </rule>
+        <rule id="8436-3d57-7f26-b4ba" name="High Mage" hidden="false">
+          <description>Alarielle follows all the rules for a High Mage. In addition, she knows all of the High Magic spells, and also all of the spells from the Lore of Life and may use either or both in the Magic phase.</description>
+        </rule>
+        <rule id="0a24-4085-0dee-6942" name="Boon of Isha" hidden="false">
+          <description>At the start of the High Elf Shooting phase and at the start of the High Elf Close Combat phase, Alarielle may grant the Boon of Isha to a friendly unit within 12&quot;. The unit adds +1 to all of its rolls to hit for that phase. In addition, any shooting or close combat attacks made by the unit count as magical for that phase.</description>
+        </rule>
+        <rule id="5a6e-31b5-fb85-2d40" name="Chaos Bane" hidden="false">
+          <description>Any Daemonic unit (including Daemonic monsters and characters) that starts the Magic phase with a model within 6&quot; of Alarielle is affected by the aura of law and harmony that surrounds her. Each unit in range suffers D6 Strength 5 hits that count as magical attacks.
+
+In addition, roll a D6 for each magic item belonging to a model from a Chaos, Skaven or Undead army within 6&quot; of Alarielle at the start of the Magic phase. The magic item is destroyed on a D6 roll of a 6 (roll for each item separately).</description>
+        </rule>
+        <rule id="7cef-3ffc-3035-ba59" name="The Touch of the Everqueen" hidden="false">
+          <description>Alarielle does not fight as such, for she is the embodiment of peace rather than war. However, her lightest touch can stun a foe for a moment, disorientating them with a blinding flash of light.
+
+Alarielle always strikes first in close combat. If an enemy also has this ability, the models strike in Initiative order (roll off in the case of equal Initiative values). If Alarielle hits her target, then no to wound roll is made. Instead the enemy model may make no attacks that turn, and any other models attacking it hit automatically that phase. In the case of a mounted model (on a chariot or monster, for example), Alarielle must roll to hit against the highest Weapon Skill, but if she hits then the entire model is affected, including any special attacks, impact hits, etc.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="e986-81b6-55c6-99bf" name="Stoic" hidden="false" targetId="278c-a80d-b3aa-e8aa" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c310-8469-6df9-670b" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="fe1b-9686-278f-5832" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="057c-c062-0672-841b" name="Shieldstone of Isha" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="c786-99af-24f0-80a1" name="Shieldstone of Isha" hidden="false">
+              <description>Upon her breast Alarielle wears a gemstone of unmatched beauty and craftsmanship. As old as Ulthuan itself, the Shieldstone pulses with light and can deflect blows from the enemy.
+
+Alarielle has a 4+ Ward save.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="49d4-f5d6-2e30-c3f0" name="Star of Avelorn" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="f7e0-1347-5cf7-cbfb" name="Star of Avelorn" hidden="false">
+              <description>About her noble brow, Alarielle wears a diadem of pure ithilmar into which is set a radiant gem. This was given to the first Everqueen, Astarielle, by Aenarion, and it is said that the gem contains a star from the heavens, placed there by the goddess Isha.
+
+At the start of the High Elf turn, Alarielle may use the Star to heal a wounded High Elf character within 12&quot;. If there are no wounded characters in range, she may use the Star to heal herself. Roll a D6 for each wound lost on the target character; on a roll of a 4+ the wound is restored.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b05f-2e4e-35fa-19a4" name="Stave of Avelorn" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="1d21-96ed-5390-c061" name="Stave of Avelorn" hidden="false">
+              <description>This is the symbol of the Everqueen, and the icon of her rulership over the land. It is an ancient heirloom, dating back to the time of Aenarion, but now much of its power has gone, drained away by the magical vortex created during the time of the Sundering.
+
+Once in each High Elf Magic phase, you may choose to unleash one of Alarielle&apos;s spells through the Stave of Avelorn. This may be a spell she has already cast that turn. This spell is treated exactly like a Bound Spell, and has a Power Level of 5.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8f20-4cd8-f33f-b1f8" name="Eltharion" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="9898-4214-144c-24dc" name="Eltharion" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">8</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">6</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">8</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d05b-561f-7ad2-0c09" name="Scaffold - points needed" hidden="false">
+          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        </rule>
+        <rule id="f41d-1ae0-8667-6340" name="Great Leap" hidden="false">
+          <description>Eltharion is immensely acrobatic, and is able to jump high through the air to reach his foes.
+
+At the start of any round of combat, before attacks are allocated or challenges issued, Eltharion may be moved to anywhere in the same combat (even leaving one unit and joining another, or becoming an independent character). He may not use this to position himself out of combat, or if he is already involved in a challenge.</description>
+        </rule>
+        <rule id="81f0-df02-0d5e-9efe" name="Impenetrable Defence" hidden="false">
+          <description>Eltharion&apos;s senses and foresight are so keen, he can now react even faster than when he could see, enabling him to predict the enemy&apos;s attacks and even deflect incoming arrows.
+
+Eltharion has a 5+ Ward save to represent this, and in addition, Killing Blow has no effect on Eltharion (simply treat To Wound rolls of 6 as a successful wound).</description>
+        </rule>
+        <rule id="cfc5-918a-d2de-cda0" name="Intrigue at Court (Eltharion)" hidden="false">
+          <description>There is no need to roll for Intrigue at Court if you take Eltharion he is automatically the army General. The only exception to this is if Tyrion is also present, in which case Eltharion will defer to Tyrion&apos;s superior battlefield knowledge and skills.</description>
+        </rule>
+        <rule id="fdec-0bb7-563d-94a0" name="Lord of Hoeth" hidden="false">
+          <description>In the White Tower, Eltharion is now second only to Belannear himself. and often commands the army of Hoth. If Eltharion is your General, Swordmasters are no longer a 0-1 choice.</description>
+        </rule>
+        <rule id="e611-ae15-54f9-f1d2" name="Psychology (Eltharion)" hidden="false">
+          <description>Eltharion hates Orcs and Goblins and Dark Elves, but is otherwise Immune to Psychology. Any unit of Swordmasters joined by Eltharion becomes stubborn.</description>
+        </rule>
+        <rule id="6d9f-d6e2-725f-7323" name="The Dark Within" hidden="false">
+          <description>Eltharion is a very troubled soul, and his thirst for revenge can drive him to rash acts.
+
+Eltharion and any unit he leads must declare a charge if there is an enemy within range, and can never test to restrain pursuit.</description>
+        </rule>
+        <rule id="5b06-d119-212b-35fc" name="The White Sword" hidden="false">
+          <description>Eltharion has been taught by the Master of the White Tower of Hoth, and wields one of the long, two-handed blades of the Swordmasters. Clad in the pure white robes of the Order and cutting through the foe with ease, Eltharion is now called the White Sword by many Dark Elves who have seen him. So great is Eltharion&apos;s skill, he can use a number of fighting styles, each of which has a different effect on his rules.
+
+At the start of each round of combat, Eltharion must declare which fighting style he is using for that whole round. Note that the White Sword is not a magic weapon, nor is it a normal great weapon. Only the rules listed below apply to Eltharion&apos;s attacks.
+
+### Way of the Willow Branch
+
+Eltharion&apos;s body twists and contorts like a reed in the wind, and his sword deflects incoming blows with astounding speed, making him virtually impossible to hit. Any close combat attacks against Eltharion require 6s to hit, before any other modifications, and regardless of relative Weapons Skills or any other special rules.
+
+### Way of the Winter Breeze
+
+Weaving his sword in a bewildering, swirling arc, Eltharion is able to guide his blade through even the most steadfast defence. Eltharion attacks at +1 to hit in close combat.
+
+### Way of the Swooping Eagle
+
+Eltharion summons all of his speed and might into a few deadly blows. Eltharion&apos;s attacks are resolved at +2 Strength.
+
+### Way of the Breaking Storm
+
+Unleashing his speed and strength in a flurry of blistering attacks, Eltharion rains down blow after blow on the enemy. Eltharion gains +2 Attacks.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="618c-057e-e239-607f" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="a9c3-1969-be7f-9a28" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="771b-cb22-5c8a-5552" name="Imrik" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="084a-567e-d2a7-5c70" name="Imrik" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">8</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">6</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">9</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3f59-0489-adb7-cf60" name="Minaithnir" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">7</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">6</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">6</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">7</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">3</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">5</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b656-7998-f7b5-b316" name="Scaffold - points needed" hidden="false">
+          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        </rule>
+        <rule id="fde0-8d07-bceb-4d9f" name="Intrigue at Court" hidden="false">
+          <description>Though they are loyal to a fault, High Elves love intrigue and politics. Unfortunately, this sometimes means that their armies are trusted to the care of individuals on the basis of the political faction they follow rather than their ability to lead.
+
+The army&apos;s General is determined randomly. Before deployment, line up the character models and roll a dice. Count this number along the line - this is your General. If you roll over the number of characters in the army then the General is selected as normal instead. If you have six or more characters, choose five of them to line up, and then roll as above.</description>
+        </rule>
+        <rule id="c81b-08e7-92c5-da84" name="Dragonkin" hidden="false">
+          <description>For millennia lmrik has learnt the lore and languages of dragons. He has walked the deep caves where the great beats sleep and dream, and even the most proud and mighty firedrakes obey his every word.
+
+No Dragons will fight lmrik. If they are in base contact with other models (and not in a challenge) then they fight them instead, otherwise they may do nothing. They may, of course, fight Minaithnir if he is still alive.</description>
+        </rule>
+        <rule id="c161-7073-dd37-5fc1" name="Breathe Fire (High Elves)" hidden="false">
+          <description>The fiery breath of Dragons is legendary in its properties. It is terribly destructive, yet is also fabled to have heated the forges of the smiths of Vaul as they crafted the finest magical blades ever known.
+
+In battle it is used as any other Breath Weapon. Those hit by it suffer a Strength 4 hit. In addition, a unit that suffers casualties from Dragon&apos;s breath must take an immediate Panic test.</description>
+        </rule>
+        <rule id="07a4-11c1-49f1-76d1" name="Minaithnir" hidden="false">
+          <description>Imrik rides the majestic dragon Minaithnir. They have a mutual bond between them - the last of the true Dragon Princes, and one of the last of the dragons.
+
+Minaithnir is fanatically loyal to his  master. If lmrik is slain, Minaithnir will become subject to the rules for frenzy, but will otherwise remain under the control of the High Elf player. Note also that Minaithnir&apos;s profile is better than normal Dragons.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="51cc-410e-77e3-3dca" name="Stoic" hidden="false" targetId="278c-a80d-b3aa-e8aa" type="rule"/>
+        <infoLink id="8bd7-c345-40f0-6aff" name="Large Target" hidden="false" targetId="01c3-c8c6-431f-1c2b" type="rule"/>
+        <infoLink id="cd8b-de50-c38c-83ed" name="Scaly Skin" hidden="false" targetId="7eca-56b9-d1c7-c7c8" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1bc1-d5c5-a250-608d" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="ee62-dcd7-d0ae-3702" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1310-4a69-9bf0-de55" name="Star Lance" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="2413-585b-c5c8-3e86" name="Star Lance" hidden="false">
+              <description>The tip of this deadly weapon is forged from the heart of a fallen star. With a blade of such keenness no armour can protect Imrik&apos;s foes.
+
+On the turn he charges, lmrik gets + 3 Strength, with no armour saves allowed.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7e52-7a91-5f76-8ee3" name="Armour of Caledor" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="6c43-2ac4-840a-e4ae" name="Armour of Caledor" hidden="false">
+              <description>For well over four thousand years the masters of the house of Caledor have worn this armour in battle.
+
+Gives lmrik a 2+ armour save.
+
+With the exceptions of this improved save, the Armour of Caledor follows the normal rules for Dragon armour.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="45d0-bd97-a99b-3166" name="&apos;Dragonhorn &apos;" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="2553-b8b3-bc75-ff59" name="&apos;Dragonhorn &apos;" hidden="false">
+              <description>This war horn was made from the horn of an ancient dragon, gifted to lmrik&apos;s distant ancestors in elder days. The dying fire drake summoned all his remaining power to enchant his remaining, unbroken horn as he lay bleeding in the aftermath of the Battle of the Glade of Tears.
+
+Once per battle, at the start of any of his own turns, lmrik may sound the Dragonhorn. This fills his army with pride, and until the start of his next turn, all friendly High Elf units may re-roll any Leadership-based tests they may be required to take. This includes all Psychology, Break and Rally test.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3877-bfa7-f469-5eb9" name="Teclis (Sariour)" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="8542-623d-a276-1dde" name="Teclis (Sariour)" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">2</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d5cc-8045-84f5-bd66" name="Scaffold - points needed" hidden="false">
+          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        </rule>
+        <rule id="c5ff-c0ac-f1d2-dc56" name="Two profiles" hidden="false">
+          <description>Teclis has two profiles depending on which staff he carries. Both are shown here; use the one matching the configuration you have chosen.</description>
+        </rule>
+        <rule id="1633-cfaf-1b6a-9935" name="Intrigue at Court" hidden="false">
+          <description>Though they are loyal to a fault, High Elves love intrigue and politics. Unfortunately, this sometimes means that their armies are trusted to the care of individuals on the basis of the political faction they follow rather than their ability to lead.
+
+The army&apos;s General is determined randomly. Before deployment, line up the character models and roll a dice. Count this number along the line - this is your General. If you roll over the number of characters in the army then the General is selected as normal instead. If you have six or more characters, choose five of them to line up, and then roll as above.</description>
+        </rule>
+        <rule id="219e-6416-3859-d931" name="High Elf Mages" hidden="false">
+          <description>High Elves are far better attuned to the ebb and flow of the winds of magic than other races and can sense dangerous changes almost before they happen.
+
+High Elf Mages get +1 to each attempt to dispel. 
+Note that this bonus is not cumulative for having more than one High Elf Mage, so an army with two High Elf Mages will still only get +1 to dispel from this source. However, this bonus may still be combined with magic items as normal.</description>
+        </rule>
+        <rule id="c14a-812e-655b-1e05" name="High Loremaster" hidden="false">
+          <description>Teclis is the most powerful mage in this age of the world. He is master of the foremost mages of the High Elves and has studied in their secret libraries for more than an entire human lifetime.
+
+Obviously Teclis is far more potent than a normal mage and the following rules apply to him:
+
+Teclis begins the battle as a Level 4 Wizard and as long as the last potion he drank was Sariour, this will remain the case. However, while he is under the influence of Charoi he will only count as a Level 1 Wizard. If he imbibes his draught of Sariour he will return to being a Level 4 Wizard. Teclis may use either High Magic or any of the lores from the Warhammer rulebook. Whatever lore he chooses, Teclis will know all six spells, regardless of his current level.
+
+Teclis may re-roll all dice for spell effects. For example, if he casts Fury of Khaine he may re-roll the dice to see how many hits are caused and then re-roll any which fail to wound.
+
+Instead of the normal definition of the circumstances that end a remains in play spell, when Teclis casts such a spell it will remain in play until it is dispelled, or until he chooses to end it (which he can do at any time), attempts to cast the same spell again or is slain. This means that Teclis can maintain more than one &apos;remains in play&apos; spell at a time.</description>
+        </rule>
+        <rule id="7868-39f8-0b25-a382" name="Potions of Inner Strength" hidden="false">
+          <description>Since his sickly childhood, Teclis has carried supplies of these revitalising tonics wherever he goes. Both sparkle in the light as if the Loremaster had captured stars to brew his potion, but whilst Sariour is a golden, sunlike yellow, Charoi is the deepest blue of night.
+
+You will note that Teclis has two profiles instead of the normal one. Which profile you use depends on which of the potions Teclis drank last. He only takes one draught of each potion with him to battle, so you can only use each type once.
+
+At the start of the battle, Teclis will be under the effects of the potion of Sariour. At any time he may choose to drink the potion of Charoi.
+
+Note, however, that the number of Wounds on the profiles refers to starting Wounds. For example, if Teclis suffers a wound before he drinks Charoi then he will not go back to 3 Wounds when he does so.</description>
+        </rule>
+        <rule id="744c-15bd-a628-f737" name="Curse of Aenarion (Teclis)" hidden="false">
+          <description>Teclis is descended from the first of the Phoenix Kings: the doomed Aenarion. As such he is tainted by the cursed blood of his ancestor. This curse leaves Teclis physically frail, indeed he would never have survived to maturity if it had not been for the curative powers of the magical brews he drinks daily. However, all of Aenarion&apos;s line are destined for greatness, and as such Teclis is also marked by the hand of Fate. Quite what is ultimately destined for Techs and his brother Tyrion is a secret hidden to even the most potent seer, but their glorious deeds in defence of their homeland are already the stuff of legend.
+
+As soon as Teclis is reduced to 1 Wound he gets a 2+ Ward save for the rest of the battle. Note that if an attack will inflict multiple wounds, for example a cannon ball, then Teclis will only get this special Ward save if he has already been reduced to 1 Wound before he is hit.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="7bf8-a4ea-9dee-016d" name="Stoic" hidden="false" targetId="278c-a80d-b3aa-e8aa" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="32e0-38a9-841f-f69e" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="6819-9171-58dd-aa9b" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="87bf-8bd6-57db-15ba" name="Sword of Teclis" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="f5ad-f57e-6715-ff04" name="Sword of Teclis" hidden="false">
+              <description>This sword was forged by Teclis himself, a weapon to protect himself as he began the quest for his brother Tyrion and the Everqueen.
+
+All hits from the Sword of Teclis wound on a roll of 2+ and armour saves may not be taken.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="86d1-d8dd-84dd-aa63" name="War Crown of Saphery" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="b020-a9c4-8fc9-1640" name="War Crown of Saphery" hidden="false">
+              <description>The War Crown is an ancient symbol of the magical realm of Saphery, seldom seen outside the walls of the White Tower unless in times of peril. It was gifted to Teclis by the former High Loremaster on the eve of the young mage&apos;s departure on the quest for his brother, Tyrion.
+
+Any spell which is normally limited to a specific range in inches is now of unlimited range. Spells that only affect the caster, all units within a certain range of the caster or may already be cast anywhere are not altered. Note that this does not mean that he can cast spells at targets that are out of sight if the spell normally requires line of sight.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9133-bf41-76bc-4eb2" name="Moon Staff of Lileath" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="39a1-2c36-510d-3676" name="Moon Staff of Lileath" hidden="false">
+              <description>A sturdy wooden staff is the traditional symbol of the mage, often being ensorcelled with cunning wizardries to aid the spellcaster in his work. This elaborate staff channels the power of the moon goddess, strengthening Teclis and filling him with magical energy.
+
+The staff gives Teclis 1 extra dice in each Magic phase (including enemy Magic phases).
+
+In addition, once per battle, at the start of his own Magic phase, Teclis may draw on the full power of the staff. On the turn he does this, the number of dice granted by the Staff increases from one to D6. Unfortunately, this temporarily drains the power of the staff so it will cease to provide any additional dice for the rest of the battle.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0c0a-c9be-89bf-c8e2" name="Scroll of Hoeth" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="f095-7448-c866-a9fa" name="Scroll of Hoeth" hidden="false">
+              <description>Though clearly ancient and seemingly fragile, this well worn heirloom has seen a thousand battles and will see many more.
+
+When the enemy casts a spell, Teclis may read the Scroll of Hoeth aloud as he might read a Dispel scroll and with the same effect. In addition, both Teclis and the caster roll a D6; if Teclis scores higher, the spell is removed from the mind of the caster and cannot be used for the rest of the game. One use per battle.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a05b-8bca-82eb-003c" name="Teclis (Charoi)" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="5b1c-0af2-44a1-c4c2" name="Teclis (Charoi)" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">6</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="206b-46c2-939c-cd0a" name="Scaffold - points needed" hidden="false">
+          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        </rule>
+        <rule id="eb53-58ff-8005-a41d" name="Two profiles" hidden="false">
+          <description>Teclis has two profiles depending on which staff he carries. Both are shown here; use the one matching the configuration you have chosen.</description>
+        </rule>
+        <rule id="613d-2e48-543f-8936" name="Intrigue at Court" hidden="false">
+          <description>Though they are loyal to a fault, High Elves love intrigue and politics. Unfortunately, this sometimes means that their armies are trusted to the care of individuals on the basis of the political faction they follow rather than their ability to lead.
+
+The army&apos;s General is determined randomly. Before deployment, line up the character models and roll a dice. Count this number along the line - this is your General. If you roll over the number of characters in the army then the General is selected as normal instead. If you have six or more characters, choose five of them to line up, and then roll as above.</description>
+        </rule>
+        <rule id="ee16-98b9-aaaa-df41" name="High Elf Mages" hidden="false">
+          <description>High Elves are far better attuned to the ebb and flow of the winds of magic than other races and can sense dangerous changes almost before they happen.
+
+High Elf Mages get +1 to each attempt to dispel. 
+Note that this bonus is not cumulative for having more than one High Elf Mage, so an army with two High Elf Mages will still only get +1 to dispel from this source. However, this bonus may still be combined with magic items as normal.</description>
+        </rule>
+        <rule id="9169-a744-ec76-9c76" name="High Loremaster" hidden="false">
+          <description>Teclis is the most powerful mage in this age of the world. He is master of the foremost mages of the High Elves and has studied in their secret libraries for more than an entire human lifetime.
+
+Obviously Teclis is far more potent than a normal mage and the following rules apply to him:
+
+Teclis begins the battle as a Level 4 Wizard and as long as the last potion he drank was Sariour, this will remain the case. However, while he is under the influence of Charoi he will only count as a Level 1 Wizard. If he imbibes his draught of Sariour he will return to being a Level 4 Wizard. Teclis may use either High Magic or any of the lores from the Warhammer rulebook. Whatever lore he chooses, Teclis will know all six spells, regardless of his current level.
+
+Teclis may re-roll all dice for spell effects. For example, if he casts Fury of Khaine he may re-roll the dice to see how many hits are caused and then re-roll any which fail to wound.
+
+Instead of the normal definition of the circumstances that end a remains in play spell, when Teclis casts such a spell it will remain in play until it is dispelled, or until he chooses to end it (which he can do at any time), attempts to cast the same spell again or is slain. This means that Teclis can maintain more than one &apos;remains in play&apos; spell at a time.</description>
+        </rule>
+        <rule id="aeb5-1338-af4c-eb16" name="Potions of Inner Strength" hidden="false">
+          <description>Since his sickly childhood, Teclis has carried supplies of these revitalising tonics wherever he goes. Both sparkle in the light as if the Loremaster had captured stars to brew his potion, but whilst Sariour is a golden, sunlike yellow, Charoi is the deepest blue of night.
+
+You will note that Teclis has two profiles instead of the normal one. Which profile you use depends on which of the potions Teclis drank last. He only takes one draught of each potion with him to battle, so you can only use each type once.
+
+At the start of the battle, Teclis will be under the effects of the potion of Sariour. At any time he may choose to drink the potion of Charoi.
+
+Note, however, that the number of Wounds on the profiles refers to starting Wounds. For example, if Teclis suffers a wound before he drinks Charoi then he will not go back to 3 Wounds when he does so.</description>
+        </rule>
+        <rule id="dd2f-c957-8c16-2411" name="Curse of Aenarion (Teclis)" hidden="false">
+          <description>Teclis is descended from the first of the Phoenix Kings: the doomed Aenarion. As such he is tainted by the cursed blood of his ancestor. This curse leaves Teclis physically frail, indeed he would never have survived to maturity if it had not been for the curative powers of the magical brews he drinks daily. However, all of Aenarion&apos;s line are destined for greatness, and as such Teclis is also marked by the hand of Fate. Quite what is ultimately destined for Techs and his brother Tyrion is a secret hidden to even the most potent seer, but their glorious deeds in defence of their homeland are already the stuff of legend.
+
+As soon as Teclis is reduced to 1 Wound he gets a 2+ Ward save for the rest of the battle. Note that if an attack will inflict multiple wounds, for example a cannon ball, then Teclis will only get this special Ward save if he has already been reduced to 1 Wound before he is hit.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="9e2b-448b-6cbf-2977" name="Stoic" hidden="false" targetId="278c-a80d-b3aa-e8aa" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4e9a-d38a-4a35-ce10" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="9fb7-ff23-3917-61b8" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3de1-300d-69f1-262e" name="Sword of Teclis" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="c867-9466-9d69-e11a" name="Sword of Teclis" hidden="false">
+              <description>This sword was forged by Teclis himself, a weapon to protect himself as he began the quest for his brother Tyrion and the Everqueen.
+
+All hits from the Sword of Teclis wound on a roll of 2+ and armour saves may not be taken.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5e6c-d370-54a6-b36b" name="War Crown of Saphery" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="2cc2-5b8e-c571-5d73" name="War Crown of Saphery" hidden="false">
+              <description>The War Crown is an ancient symbol of the magical realm of Saphery, seldom seen outside the walls of the White Tower unless in times of peril. It was gifted to Teclis by the former High Loremaster on the eve of the young mage&apos;s departure on the quest for his brother, Tyrion.
+
+Any spell which is normally limited to a specific range in inches is now of unlimited range. Spells that only affect the caster, all units within a certain range of the caster or may already be cast anywhere are not altered. Note that this does not mean that he can cast spells at targets that are out of sight if the spell normally requires line of sight.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d4ed-53ad-8642-d593" name="Moon Staff of Lileath" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="b492-4a04-4d5c-1ecc" name="Moon Staff of Lileath" hidden="false">
+              <description>A sturdy wooden staff is the traditional symbol of the mage, often being ensorcelled with cunning wizardries to aid the spellcaster in his work. This elaborate staff channels the power of the moon goddess, strengthening Teclis and filling him with magical energy.
+
+The staff gives Teclis 1 extra dice in each Magic phase (including enemy Magic phases).
+
+In addition, once per battle, at the start of his own Magic phase, Teclis may draw on the full power of the staff. On the turn he does this, the number of dice granted by the Staff increases from one to D6. Unfortunately, this temporarily drains the power of the staff so it will cease to provide any additional dice for the rest of the battle.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d428-195d-c55d-4ff8" name="Scroll of Hoeth" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="eb0a-b71d-95c1-d479" name="Scroll of Hoeth" hidden="false">
+              <description>Though clearly ancient and seemingly fragile, this well worn heirloom has seen a thousand battles and will see many more.
+
+When the enemy casts a spell, Teclis may read the Scroll of Hoeth aloud as he might read a Dispel scroll and with the same effect. In addition, both Teclis and the caster roll a D6; if Teclis scores higher, the spell is removed from the mind of the caster and cannot be used for the rest of the game. One use per battle.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="275f-2406-47f7-8f7e" name="Handmaiden of the Everqueen" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="7e5c-686c-1eae-eb64" name="Handmaiden of the Everqueen" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">5</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">6</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2c9e-01c6-9082-abc8" name="Scaffold - points needed" hidden="false">
+          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="c186-3446-18a6-3c27" name="Stoic" hidden="false" targetId="278c-a80d-b3aa-e8aa" type="rule"/>
+        <infoLink id="3457-c1c4-673c-0f9f" name="Immune to Psychology" hidden="false" targetId="512a-5ae5-c6cb-b82a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3d5c-f617-c4b4-03b4" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="d62a-dee2-8810-1220" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ea76-0e7e-de81-d154" name="The Banner of Avelorn" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="25d0-f923-fd49-8c38" name="The Banner of Avelorn" hidden="false">
+              <description>Woven from living leaves and the hair of the Handmaidens of the Everqueen, this Banner is a stunningly beautiful creation of the Elves of Avelorn.
+
+So beautiful is the Banner of Avelorn that any enemy wishing to charge the Handmaidens must first pass a Leadership test. If the test is failed, the chargers stand in their place, transfixed by the magic. The Handmaidens must declare their charge reaction before the test is made. Note that the banner has no effect on troops that are Immune to Psychology.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3b5c-4649-a585-f70f" name="The Horn of Isha" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="1f5d-38d3-fda9-0e0c" name="The Horn of Isha" hidden="false">
+              <description>The Horn of Isha is made out of single pearl-white conch shell, and its sound summons the favour of Isha.
+
+Once per battle, at the beginning of any High Elf Shooting phase or of any Close Combat phase (own or enemy&apos;s), the High Elf player may declare that the Musician will blow the Horn of Isha. This will allow the Handmaidens to either fight with 2. Attacks (in the Close Combat phase) or shoot twice (in the Shooting phase).</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
       <entryLinks>
         <entryLink id="7030-517c-dea9-cae0" name="Lore of Beasts" hidden="false" collective="false" import="true" targetId="afbd-2b69-4e54-2863" type="selectionEntry"/>
         <entryLink id="8543-3fea-5ddc-20ac" name="Lore of Death" hidden="false" collective="false" import="true" targetId="adb8-37e0-7609-365b" type="selectionEntry"/>

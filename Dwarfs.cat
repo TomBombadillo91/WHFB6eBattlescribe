@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="e0a8-8253-1a27-7620" name="Engineering Rune" hidden="false">
       <rules>
@@ -3600,7 +3600,460 @@ Runesmiths/Runelords only - one use only. This rune works exactly like a Rune of
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="6e41-7c9e-bc5a-d6c7" name="Thorgrim Grudgebearer" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="d1b2-a2ca-a78d-76d7" name="Thorgrim Grudgebearer" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">3</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">8</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">4</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">4</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="fe83-0cdc-4e37-2b1a" name="Scaffold - points needed" hidden="false">
+          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="f0e8-3c00-b76f-2c95" name="Ancestral Grudge" hidden="false" targetId="0440-4012-380d-eda9" type="rule"/>
+        <infoLink id="fa73-3046-19ac-0015" name="Relentless" hidden="false" targetId="4f63-f575-8d2e-72ee" type="rule"/>
+        <infoLink id="55ab-086d-826e-0d40" name="Resolute" hidden="false" targetId="6159-f693-9239-0f8d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f5fd-0472-4db0-04e6" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="dfc0-d708-d307-ceef" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a26a-6b2d-737c-7298" name="Axe of Grimnir" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="c267-e381-f89a-0a08" name="Axe of Grimnir" hidden="false">
+              <description>This axe bears the Master Rune of Skalf Blackhammer (automatically wounds), a Rune of Fury (+1 Attack), and a Grudge Rune (nominate a character or monster, re-roll to hit against this model).
+
+In addition, armour cannot save against hits from the Axe of Grimnir. Ward saves are taken as normal.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2d80-a92e-3646-2aaa" name="Armour of Skaldour" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="9a1c-a6bd-fe3d-7606" name="Armour of Skaldour" hidden="false">
+              <description>This bears the Master Rune of Gromril (1+ armour save) and the Master Rune of Spite (4+ Ward save). It also has the Rune of the Furnace (immune to fire attacks).</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="caef-df17-e944-ae65" name="Dragon Crown of Karaz" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="2fbb-a04b-53fe-c0fb" name="Dragon Crown of Karaz" hidden="false">
+              <description>Thorgrim and any unit he is with is immune to all psychology except hatred and becoming stubborn.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="edc6-de65-76d5-71c5" name="Dammaz Kron" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="b3ad-763e-fa7e-edf6" name="Dammaz Kron" hidden="false">
+              <description>The Great Book of Grudges means that Thorgrim and any unit within 12&quot; of him hate all foes.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="86fd-7681-30b2-7d23" name="Throne of Power" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="ceba-c912-dcc5-b671" name="Throne of Power" hidden="false">
+              <description>The Throne of Power is carried by four sturdy veterans, which give Thorgrim an additional four normal WS5, S4 attacks. Any attacks against the Throne must be resolved against Thorgrim himself. When joining a unit, the Throne takes up the same space as ordinary rank-and-file models for the purposes of formation, rank bonus and so on. The Throne has Magic Resistance (2).</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4106-9cfc-a1b9-8bcf" name="Ungrim Ironfist" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="96ea-fd81-83cc-8a5d" name="Ungrim Ironfist" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">3</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">7</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3(4)</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="cb84-b6bf-ec1b-44b6" name="Scaffold - points needed" hidden="false">
+          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        </rule>
+        <rule id="8243-e583-562e-3039" name="Slayer King" hidden="false">
+          <description>As Slayer King, Ungrim is bound by the Slayer Oath. He benefits from the Slayer special rule  Hates Greenskins and is Unbreakable. The other Slayer rules do not apply.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="64de-c07a-4043-c844" name="Ancestral Grudge" hidden="false" targetId="0440-4012-380d-eda9" type="rule"/>
+        <infoLink id="9850-42ce-e4b2-4090" name="Relentless" hidden="false" targetId="4f63-f575-8d2e-72ee" type="rule"/>
+        <infoLink id="097b-9187-b78a-5690" name="Resolute" hidden="false" targetId="6159-f693-9239-0f8d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5c79-5529-a2ae-0ebc" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="232e-9928-d616-3876" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3839-85f7-fa2b-41f6" name="Axe of Dargo" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="3cef-002a-f6f2-a844" name="Axe of Dargo" hidden="false">
+              <description>This is inscribed with the Master Rune of Smiting. Any enemy wounded by the Axe of Dargo (after saves, etc), loses not one wound but D6 wounds. In addition, it bears a Rune of Parrying which means that one model in base contact (chosen by the Dwarf player) loses 1 Attack in close combat. This has no effect against special attacks, such as a Night Goblin Fanatic, or a Treeman&apos;s Tree Whack.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d045-11cf-ee1f-fa69" name="The Slayer Crown" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="cc93-a327-571f-f256" name="The Slayer Crown" hidden="false">
+              <description>This bears a Rune of Fortitude (+1 Wound) and a Rune of Stone (increasing his Armour save to 3+).</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="421b-4f5d-327d-8c17" name="Dragon Cloak" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="46d5-a21d-16e2-b457" name="Dragon Cloak" hidden="false">
+              <description>The Dragon Cloak bears the Master Rune of Spite (4+ Ward save), a Rune of the Furnace (immune to fire attacks) and a Rune of Luck (one re-roll per battle).</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f3f2-7435-0cec-866f" name="Alrik Ranulfsson" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1963-1b0b-052e-eb9a" name="Alrik Ranulfsson" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">3</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">7</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">5</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">4</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">6</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b316-1483-73e6-06db" name="Scaffold - points needed" hidden="false">
+          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        </rule>
+        <rule id="df6b-0c08-58e6-5c74" name="Lord of the Hold" hidden="false">
+          <description>If Alrik is included in your army he must be your army General.</description>
+        </rule>
+        <rule id="6e35-98fa-9548-50c2" name="Shield Bearers" hidden="false">
+          <description>Alrik is carried into battle on the Great Shield of his ancestors. This make him very easy to see and so friendly Dwarfs within 18&quot; of him may use his Leadership value, rather than those within 12&quot; as normal. The fighting abilities of the Royal Shield Bearers are included in the characteristics for Alrik himself as all three fight as a single model.</description>
+        </rule>
+        <rule id="657c-9d52-c2fb-1a2d" name="Traditional Army" hidden="false">
+          <description>Alrik doesn&apos;t trust the unusual machineries of the Engineers&apos; Guild and only rarely includes them in his army. lf Alrik is in the army then Gyrocopters, Flame Cannons and Organ Guns cost twice the points they do normally. ln addition, your army cannot have more models armed with a handgun than a crossbow.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="0736-b868-38ef-7963" name="Ancestral Grudge" hidden="false" targetId="0440-4012-380d-eda9" type="rule"/>
+        <infoLink id="0da8-baf5-1c66-4424" name="Relentless" hidden="false" targetId="4f63-f575-8d2e-72ee" type="rule"/>
+        <infoLink id="9c5c-5c2d-6cd3-72ec" name="Resolute" hidden="false" targetId="6159-f693-9239-0f8d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1e8b-7caf-3d40-9c72" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="781c-c42e-e28e-d1d0" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b379-4d84-2444-8970" name="Axe of Retribution" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="7047-a99e-2587-77b7" name="Axe of Retribution" hidden="false">
+              <description>As the Karak-Hirn Dwarfs fight their enemies, the bright flash of silver is easily seen as the Axe of Retribution rises and falls in deadly arcs. Alrik had this axe made especially for his crusade to avenge the wrongs done to his Hold, and he has s
+worn nor to let it rest until they have all been struck from the Book of Grudges.
+
+The Axe of Retribution has been inscribed with the Grudge Rune and the Breaking Rune.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f808-512d-d5ef-ca93" name="Hrappi-klad" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="6bf3-4834-6f68-5af8" name="Hrappi-klad" hidden="false">
+              <description>Suits of heavy golden armour are the traditional battle garb of the King of Karak Hirn and his Shield Bearers. They are plain and unadorned in the functional manner of the Dwarfs, but the protection they offer is far greater than any suit of finely filigreed Elven armour.
+
+This heavy armour give Alrik and his Bearer a 4+ Armour save. lt has also been marked with the Rune of Shielding.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d5f2-2ba5-7966-9f8f" name="Kurgaz&apos;s Shield" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="2512-c96e-9015-d5fe" name="Kurgaz&apos;s Shield" hidden="false">
+              <description>This ancient shield bears a protective magical rune, but is of tremendous size and is far too heavy use normally. However, since it is a valued heirloom of their founder, the Kings of Karak-Hirn still take it to battle – nowadays a a fighting platform borne by two of their strongest followers.
+
+The shield gives Alrik and his Royal Shield Bearers a 5+ Ward save.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bfd9-5a53-7baa-2e27" name="Helm of Eagles" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="9ab0-e7c8-771d-da58" name="Helm of Eagles" hidden="false">
+              <description>he cunningly wrought runes on this ancient battle-helm give the wearer the sharp eyesight of the hunting eagle as he soars above his prey. No lurking assassins can hide from him, nor secrets be held from him while he wears this helm.
+
+Alrik can see the details of enemy troop wherever they are on the battlefield. At the start of each Dwarf turn (before declaring charges, ere), Alrik may gaze at one enemy unit. Your opponent must reveal any hidden troops within the unit (such as Assassins or Night Goblin Fanatic) as well as all magic items carried by models within the unit.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ad42-463a-c0be-b82c" name="Karak-Hirn&apos;s Book of Grudges" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="0aaa-d9e2-ef29-5ecf" name="Karak-Hirn&apos;s Book of Grudges" hidden="false">
+              <description>The Great Book of Grudges, Dammaz Kron i held by the High King Thorgrim Grudgebearer, but this is not the only such book. In fact, each Hold has their own book, as indeed do many individual Dwarfs. Actually this i only one volume of the many that comprise Karak­Hirn&apos;s collection of grudges. However, this is a unique volume because all the grudges described in its pages have been avenged!
+
+In battle, this has the effect of allowing friendly units within 12&quot; of King Alrik to re-roll failed break rests, just like an army standard. However, it is not actually an army standard and therefore gives no combat resolution bonus and cannot be captured by the enemy for extra victory points.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0596-d36d-fa49-7326" name="Garagrim Ironfist" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="000d-6f7d-84e6-5014" name="Garagrim Ironfist" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">3</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">3</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4(5)</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="1976-aa4c-b5c0-dd81" name="Scaffold - points needed" hidden="false">
+          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        </rule>
+        <rule id="c941-edbd-377a-4c16" name="Axes of Kadrin" hidden="false">
+          <description>Chained to Garagrim&apos;s wrists so he will never lose them, these twin axes were given to him by his father on his coming-of-age. Each is inscribed with a Grudge Rune and the Master Rune of Skalf Blackhammer.
+
+If you wish, when Garagrim makes a charge he may attack like a Doomseeker rather than normally (including the effects of the axes&apos; runes and his Slayer skills).
+
+In subsequent rounds he can only attack normally, though he gains one extra attack for carrying the paired axes, as noted in his profile. He makes his normal attacks for the purposes of Deathblow.</description>
+        </rule>
+        <rule id="3908-87ac-4317-f418" name="The War-mourner" hidden="false">
+          <description>As War-mourner, it is Garagrim&apos;s duty to tend the Shrine of Grimnir, allowing him to open up the temple&apos;s store of ancient rune axes left as tribute by Slayers making a pilgrimage to Karak Kadrin.
+
+Giant Slayers in an army led by Garagrim may be given a single weapon rune worth no more than 25 points. The Rule of Pride still applies to these weapons.
+
+Remember that a model with a rune axe loses the normal benefits of a great weapon or additional hand weapon.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="c9c8-9f43-baa4-682b" name="Ancestral Grudge" hidden="false" targetId="0440-4012-380d-eda9" type="rule"/>
+        <infoLink id="770a-a2fb-f88f-6b92" name="Relentless" hidden="false" targetId="4f63-f575-8d2e-72ee" type="rule"/>
+        <infoLink id="00d2-075a-2b48-ead2" name="Resolute" hidden="false" targetId="6159-f693-9239-0f8d" type="rule"/>
+        <infoLink id="c9b3-a520-4d83-9818" name="Slayer" hidden="false" targetId="a550-e8c9-b0ba-0242" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="86f7-5a73-3dda-7c11" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="cf64-e8ab-b7d0-2c65" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6778-5830-bf13-3f2e" name="Vampireslayer" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="b982-5c2a-b6ba-6cb0" name="Vampireslayer" hidden="false">
+              <description>Against enemies with Toughness 5 or higher, any unsaved wound inflicted by the Slayer becomes D6 wounds.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="45.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c27b-68cd-1183-a241" name="Beastslayer" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="7b58-7034-12f5-3d55" name="Beastslayer" hidden="false">
+              <description>Each wound inflicted by the Slayer counts double towards that round&apos;s Combat Resolution (excluding Wounds from Overkill in a challenge).</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f800-367a-0d7b-9508" name="Deathblow" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="1bb1-b940-0380-3f8b" name="Deathblow" hidden="false">
+              <description>If the slayer is killed in close combat, he immediately makes all his attacks before being removed as a casualty (even if he has already attacked that round).</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2744-5db3-b467-2ea2" name="Kraggi" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="9246-6841-655a-6f63" name="Kraggi" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">3</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">3</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="51de-b290-f597-62db" name="Scaffold - points needed" hidden="false">
+          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        </rule>
+        <rule id="aeee-70ab-3ced-2483" name="Assistant at the Forge" hidden="false">
+          <description>Kraggi. the best of Thorek&apos; assistants, accompanies him to battle and helps him by preparing some of the runes. Most of the time this is a big help and speeds things up, but occasionally his lack of experience (he&apos;s hardly been smithing a century) lets him down and he makes a mistake.
+
+Kraggi is treated as a unit Champion and fights with his forge tongs (counts as a hand weapon) and wears an apron to protect him from the intense heat (light armour).
+
+While Kraggi is alive Thorek gains one extra dice per turn to cast runes with. However, it&apos;s important to keep track of which one this is (by using a different coloured dice, for example) because if this extra dice rolls a 1 Kraggi has done something wrong and the rune is miscast.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="ed96-3872-d144-9750" name="Ancestral Grudge" hidden="false" targetId="0440-4012-380d-eda9" type="rule"/>
+        <infoLink id="4bb2-dca1-7dc6-4c73" name="Relentless" hidden="false" targetId="4f63-f575-8d2e-72ee" type="rule"/>
+        <infoLink id="75cb-2adc-0cc0-50b7" name="Resolute" hidden="false" targetId="6159-f693-9239-0f8d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8ca0-3c1b-c371-f14c" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="57d9-f3f4-9f7e-5ee1" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7894-2f69-159c-b8e1" name="Thorek Ironbrow" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="6f41-42a0-5c25-520b" name="Thorek Ironbrow" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">3</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">3</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="816e-ddd8-f883-1e8d" name="Scaffold - points needed" hidden="false">
+          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        </rule>
+        <rule id="2a4a-4ae1-5ee5-61be" name="Assistant at the Forge" hidden="false">
+          <description>Kraggi. the best of Thorek&apos; assistants, accompanies him to battle and helps him by preparing some of the runes. Most of the time this is a big help and speeds things up, but occasionally his lack of experience (he&apos;s hardly been smithing a century) lets him down and he makes a mistake.
+
+Kraggi is treated as a unit Champion and fights with his forge tongs (counts as a hand weapon) and wears an apron to protect him from the intense heat (light armour).
+
+While Kraggi is alive Thorek gains one extra dice per turn to cast runes with. However, it&apos;s important to keep track of which one this is (by using a different coloured dice, for example) because if this extra dice rolls a 1 Kraggi has done something wrong and the rune is miscast.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="8b76-154f-d4ab-83a3" name="Ancestral Grudge" hidden="false" targetId="0440-4012-380d-eda9" type="rule"/>
+        <infoLink id="1e35-0584-6380-a4a4" name="Relentless" hidden="false" targetId="4f63-f575-8d2e-72ee" type="rule"/>
+        <infoLink id="2c45-68a1-0b1a-9dad" name="Resolute" hidden="false" targetId="6159-f693-9239-0f8d" type="rule"/>
+        <infoLink id="aa41-6791-936a-ffa5" name="Rune Lore" hidden="false" targetId="8158-0867-cf89-976d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="63d4-f19d-be20-ce1e" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="7e65-52f0-c3b9-1355" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3ccd-e9ad-d65e-8627" name="Klad Brakak" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="1940-6882-48c0-8a67" name="Klad Brakak" hidden="false">
+              <description>Thorek&apos;s anvil-headed hammer is a formidable weapon of war as well as a useful tool. In his position as Master of the Weapon Smiths of Karak Azul he ha access to a vast amount of ancient rune lore. From his researches and experiments, he has designed a new rune which he has struck onto his hammer. This rune is unique to Thorek&apos;s hammer, Klad Brakak, as he only made it a couple of centuries ago and wants to give it a fair trial before using it again.
+
+In battle it is easy to find Thorek as his hammer shatters armour when it strikes, making a sound like thunder. No Armour saves are allowed against Klad Brakak and if the target fails its Ward save (or does not have one) then any armour they were wearing and shield they were carrying are destroyed. This includes magical armour and shields.
+
+In addition, Klad Brakak bear the Rune of Fury which gives Thorek + 1 Attack</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0e82-0cb1-11a5-f40a" name="Thorek&apos;s rune-armour" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="39df-4b13-34a6-1b32" name="Thorek&apos;s rune-armour" hidden="false">
+              <description>This is inscribed with the Master Rune of Gromril.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="9c8a-6982-79b5-43e7" name="Runic Items" hidden="false" collective="false" import="true">
       <modifiers>

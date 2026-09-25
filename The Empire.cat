@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="20" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="21" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <costTypes>
     <costType id="fada-3781-5bbe-4625" name=" Hull Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -7001,7 +7001,289 @@ The unit carrying the Griffon Standard will never pursue a fleeing enemy but wil
             <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="33f7-6e3a-ef7b-0067" name="Volkmar the Grim" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="06d7-614f-dc75-5be4" name="Volkmar the Grim" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">4</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3e9e-e57f-f943-6d56" name="War Altar" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">-</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">-</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">-</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">5</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">6</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">5</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">-</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">-</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="fdf0-df13-d1c7-b798" name="Scaffold - points needed" hidden="false">
+          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        </rule>
+        <rule id="14ba-93af-db49-31ed" name="Warrior Priest (Volkmar the Grim)" hidden="false">
+          <description>All the rules that normally apply to an Empire Warrior Priest also apply to the Theogonist (see page 16 of the Empire Book), with the exception that his Prayers of Sigmar have a Power Level of 4.</description>
+        </rule>
+        <rule id="f34a-bb3e-da19-927b" name="The War Altar" hidden="false">
+          <description>The War Altar exudes raw power which banishes all thought of fear or panic. So long as the War Altar is on the table and not fleeing, the Grand Theogonist and any Empire unit within 12&quot; are Immune to Psychology, except that they will hate all Chaos, Undead and Skaven (as per the Righteous Fury special rule).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1547-1d7f-f550-61ad" name="Blessings of Sigmar" hidden="false" targetId="79bc-f253-6aec-406d" type="rule"/>
+        <infoLink id="68e4-8fb5-3965-6122" name="Righteous Fury" hidden="false" targetId="9eda-fc19-836c-c650" type="rule"/>
+        <infoLink id="5180-5486-b6b3-a14a" name="Prayers of Sigmar" hidden="false" targetId="d6dc-b8e3-9633-93ce" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="79e1-964d-86b8-3da9" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="c2c1-80ad-7325-9a5b" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c5c2-99e6-5a8a-0095" name="The Jade Griffon" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="ec40-c20f-4b81-43a4" name="The Jade Griffon" hidden="false">
+              <description>This is a huge piece of carved jade that hangs upon the Grand Theogonist&apos;s chest. It draws magical power from the War Altar and glows with a green inner light.
+
+If the Grand Theogonist suffers harm the Jade Griffon uses the power of the War Altar to instantly heal him. Unless the Grand Theogonist is killed outright, the Jade Griffon will enable him to sustain wounds which would kill an ordinary man. The effect of the Jade Griffon is worked out at the end of each Movement, Shooting and Close Combat phase. If the Grand Theogonist has suffered any wounds but has not been killed then all his wounds are instantly healed. If the Theogonist is killed outright during magic, shooting, hand-to-hand fighting, or at any other time, the Jade Griffon is powerless to save him. This means that in order to slay the Theogonist, the enemy must inflict the full 3 wounds on him before the end of the next Magic, Shooting or Close Combat phase.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="84ba-3578-a470-b765" name="The Horn of Sigismund" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="5338-9366-7460-3994" name="The Horn of Sigismund" hidden="false">
+              <description>The Emperor Sigismund was given this huge enchanted horn by the Dwarfs after the Battle of Grimgrill Dale. After the death of Sigismund during the Siege of Altdorf, the horn passed into the keeping of the Temple of Sigmar. It has remained in the temple ever since, and is blown three times on the anniversary of the death of Sigismund as a solemn reminder of the dark days when the Empire was ravaged by Orcs and Altdorf was almost destroyed. When the War Altar goes to battle the Horn of Sigismund is taken as well. The Horn is sounded by the Theogonist as the War Altar charges into combat.
+
+When the War Altar charges into combat (and only when it charges) the sounding of the Horn strikes terror into the charged enemy unit. Terror is caused on the charged unit exactly as described in the Warhammer rulebook. Note that this only affects the unit being charged, and not any other enemy units within 6&quot;.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7b2e-ea5b-3aba-8352" name="The Staff of Command" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="a619-611b-2450-f61a" name="The Staff of Command" hidden="false">
+              <description>The Staff of Command is the Grand Theogonist&apos;s badge of office, drawing power from the War Altar and passing it into the Grand Theogonist to give him incredible strength.
+
+The Grand Theogonist may add +2 to his Strength. If the War Altar is destroyed then the Staff of Command is useless and all bonuses are lost.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4b05-81f6-c401-7af5" name="Valten, Champion of Sigmar" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="f1a7-21b0-9741-143a" name="Valten, Champion of Sigmar" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">5</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="228e-5093-3561-48cb" name="Scaffold - points needed" hidden="false">
+          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1a8a-30fb-4cbd-ad95" name="Against the Odds" hidden="false" targetId="4048-2040-a6fa-992b" type="rule"/>
+        <infoLink id="b629-ab8d-4833-3656" name="Awesome Presence" hidden="false" targetId="0693-9fc5-a17d-058b" type="rule"/>
+        <infoLink id="d207-dad3-74fd-1053" name="Iron Resolve" hidden="false" targetId="d823-69a4-8baf-7fda" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4905-8d42-5767-9c24" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="59fc-fda3-431e-f5e6" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3673-8480-5303-980c" name="Ar-Ulric Emil Valgeir" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="5311-c330-42f0-e75a" name="Ar-Ulric Emil Valgeir" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="109d-dbeb-028c-8f2f" name="Scaffold - points needed" hidden="false">
+          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        </rule>
+        <rule id="e6b6-4c4a-b6a1-c560" name="Blessing of Ulric" hidden="false">
+          <description>The presence of the Priest adds one dice to the Dispel pool of the army. Ar-Ulric&apos;s Blessing adds two Dispel dice rather than one.</description>
+        </rule>
+        <rule id="f0ba-5716-1106-02cd" name="Crush the Weak" hidden="false">
+          <description>Ulric detests weakness and cowardice. This character and any unit he leads hate models with a basic Leadership characteristic of 6 or lower, even if normally Immune to Psychology. This has no effect on other characters in the unit or on the model&apos;s mount.</description>
+        </rule>
+        <rule id="bc37-c3d1-2191-fe09" name="Prayers of Ulric" hidden="false">
+          <description>In each Magic phase, the Priest can use one of the following Prayers, counting it as a Bound Spell with a Power Level of 3. Ar-Ulric&apos;s fervour and will-power is such that he may use two Prayers in every Magic phase, although he may only use each Prayer once successfully:
+
+## Battle Howl
+
+Remains in play until dispelled or the Priest attempts to use another Prayer. As long as the Battle Howl is in effect, the Priest and any unit he leads add D3&quot; to their charge moves. If the charge is failed, the extra movement is wasted; make a normal move towards the target as normal.
+
+## Destruction
+
+Every enemy model in base contact with the Priest suffers a single Strength 4 hit.
+
+## Winter&apos;s Chill
+
+Any units engaged in close combat with the Priest or the unit he is with must take a Leadership test. If failed, they suffer a -1 penalty to hit in the next Close Combat phase. Note that this is not a psychology test.
+
+## Fury of Ulric
+
+Remains in play until dispelled or the Priest attempts to use another Prayer. The Priest and any unit he leads become immune to fear, terror and panic.</description>
+        </rule>
+        <rule id="60a1-c348-106a-b2b1" name="Favour of the Winter Wolf" hidden="false">
+          <description>Ar-Ulric&apos;s divinely granted powers are greater than any other priest of Ulric. He adds two Dispel dice to his army&apos;s dice pool rather than one. He may use two Prayers in each Magic phase, although he may only use each Prayer once successfully. Finally, his Remains in Play prayers are not ended when he attempts to use another prayer. Such prayers will remain in play until they are dispelled, he attempts the same prayer again, is slain, or ends it himself (which he may do at any time). This means that Ar-Ulric may maintain more than one Remains in Play prayer at a time.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="522a-9f4f-2984-feeb" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="a0b7-aedc-2cfb-a155" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4a2f-3a93-d7fc-2276" name="Hammer-axe of Skoll" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="19b1-4f2c-abe5-167f" name="Hammer-axe of Skoll" hidden="false">
+              <description>Before the battle begins, you must roll a D6 and consult the table below to see what power the Wolf God has imparted to the Hammer-axe of Skoll. Regardless of the result, the Hammer-axe of Skoll is always considered a magical weapon.
+
+Hammer-axe of Skoll Chart
+
+| D6 | Result |
+| --- | --- |
+| 1-3 | The Hammer-axe adds +2 to Ar-Ulric&apos;s Strength. |
+| 4-5 | The Hammer-axe grants Ar-Ulric the Killing Blow special ability. |
+| 6 | The Hammer-axe adds +2 to Ar-Ulric&apos;s Strength and, in addition, adds D3 to his Attacks on any turn he charges. |</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c6b7-b6e7-0f82-89e1" name="Wolfplate Armour" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="9c0d-5ae2-3426-61df" name="Wolfplate Armour" hidden="false">
+              <description>The Wolfplate armour confers a 4+ Armour save, a 5+ Ward save and Magic Resistance (1).
+
+In addition, Ar-Ulric and any unit he accompanies are immune to all fire based attacks, whether magical or not.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ec59-0428-61da-26a1" name="Ice Dagger" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="cf5a-2143-d869-d147" name="Ice Dagger" hidden="false">
+              <description>The Ice Dagger is not a weapon, but an icon of Ulric as the savagery of the piercing winter chill. It is usually worn on a chain around the neck.
+
+The Ice Dagger is a powerful icon of Ulric&apos;s wrath, and the Priest draws strength from the faith and courage of those around him. The Priest bearing the Ice Dagger may add the current rank bonus of the unit he accompanies to the Power Level of his Prayers. The rank bonus may only be added once; there is no further bonus for additional Ice Daggers.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="dad0-0c80-aa8e-b164" name="Fang of the Winter Wolf" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="bb89-eaa3-b629-c8b8" name="Fang of the Winter Wolf" hidden="false">
+              <description>A Fang of the Winter Wolf is a tooth taken from one of the largest wolves of the Drakwald Forest and blessed by Ar-Ulric himself. They are said to be potent talismans, and possession of one instils a priest with supreme confidence.
+
+One use only. Before using a Prayer, a Priest of Ulric may declare he is using his Fang of the Winter Wolf. The Prayer counts as being cast with Irresistible Force, in the same way as a magic spell cast with two dice rolls of 6.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3b85-b206-e2d5-ed73" name="Boris Todbringer" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="8aed-f256-2745-1209" name="Boris Todbringer" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">1</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f150-74da-5ada-8e1f" name="Scaffold - points needed" hidden="false">
+          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        </rule>
+        <rule id="6bfe-27eb-8623-8e55" name="Elector Count of Middenland" hidden="false">
+          <description>Boris Todbringer is the Elector Count of Middenland. As such, one unit of Halberdiers, Spearmen or Swordsmen in the army may carry a magic banner worth up to 50 points.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="72dc-b190-14de-30f1" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="7aa8-423a-dbf4-b6e4" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ee00-7ea1-598d-304d" name="Talisman of Ulric" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="1be7-50e5-b693-e2df" name="Talisman of Ulric" hidden="false">
+              <description>At the start of every player turn, unless he has been removed as a casualty, Boris Todbringer instantly recovers any lost wounds, up to his starting total of 3. In addition, the Talisman is infused with the power and courage of Ulric, granting Boris Todbringer Magic Resistance (1) and this Talisman also makes him Immune to Psychology.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
       <entryLinks>
         <entryLink id="a0be-3b64-d0bf-c142" name="War Banner" hidden="false" collective="false" import="true" targetId="862d-4fba-1966-3f2f" type="selectionEntry"/>
       </entryLinks>

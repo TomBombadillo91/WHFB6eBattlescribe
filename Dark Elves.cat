@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b151-7d1c-4a96-e0d0" name="Dark Elves" revision="21" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b151-7d1c-4a96-e0d0" name="Dark Elves" revision="22" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7b32-9394-e778-467c" name="Poison" hidden="false"/>
     <categoryEntry id="16df-2ebd-e4f7-9984" name="Artifacts and Skills" hidden="false"/>
@@ -6215,7 +6215,195 @@ Bound Spell. Power Level 4. The banner contains a bound magic missile with range
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="f6e1-08ba-df05-11ef" name="Rakarth" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="fb07-6cab-7c36-5ef0" name="Rakarth" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">5</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">7</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="3506-1931-38a3-7a33" name="Scaffold - points needed" hidden="false">
+          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        </rule>
+        <rule id="17a5-3d1b-abff-99e0" name="Beastlord" hidden="false">
+          <description>Any friendly monster taking a Monster Reaction test within 12&quot; of Rakarth will always pass the required Leadership test. If the Beastlord is slain whilst riding his Black Dragon Bracchus, the Dragon does not need to take a Monster Reaction test and will fight on as normal.
+
+In addition, a monster that is beaten in hand to hand combat by Rakarth is assumed to be dominated by the Beastlord and will come under his control. This only applies to ridden monsters, and only once the rider is killed. The monster does not flee, but rather is moved back from Rakarth an inch, and is considered to be a part of the Dark Elf player&apos;s army immediately. The monster will remain under Rakarth&apos;s control for the remainder of the game. If Rakarth is killed then any monsters under his control revert to the control of their original owner. If Rakarth survives the battle, then any monsters under his control are assumed to be destroyed in regards for working out Victory Points. Note that an enemy does not get any Victory Points for killing a monster enslaved in such a way by Rakarth.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="4c0a-d038-1a54-d755" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="9a4f-cb27-07ac-84ca" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f607-e2fd-c5e4-0bea" name="Whip of Agony" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="ae16-3480-1e72-6cf7" name="Whip of Agony" hidden="false">
+              <description>At the beginning of any close combat phase, Rakarth may make a special attack with his magical weapon, the Whip of Agony. This attack always strikes first first. If an enemy model is also entitled to always strike first, the model with the higher Initiative strikes first (roll a D6 if they have equal Initiative). Rakarth makes a single attack with the Whip. Roll to hit as normal. If the attack hits, do not roll to wound like normal. Rather, the enemy model must take an immediate Leadership test. Ridden monsters must test on their own Leadership value. If that test is failed, they are overcome with pain, and must roll 6s to score hits in that round of close combat. After this special attack has been made, the combat continues as normal, and Rakarth may attack with his normal attacks.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f514-2cc0-874d-e34b" name="Beast Armour of Karond Kar" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="2a97-5511-67d2-2243" name="Beast Armour of Karond Kar" hidden="false">
+              <description>1+ Armour save. This cannot be improved by any means.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3b05-89ba-27d1-bd9d" name="Shadowblade" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="f9f8-858e-88ec-9f02" name="Shadowblade" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">10</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">10</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">10</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">6</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="c96c-39d0-2715-c658" name="Scaffold - points needed" hidden="false">
+          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        </rule>
+        <rule id="6fb4-8d22-bfc6-99d8" name="Hidden (Dark Elves)" hidden="false">
+          <description>If you wish, any Assassin in your army may start the game hidden in one of the following units: Witch Elves, Warriors, Corsairs, Executioners or Black Guard. Alternatively, he may deploy as a Scout.
+
+Hidden Assassins are not placed on the table, but are assumed to move along with whatever unit they are with. At the start of the game, make a note of which unit they are hidden in. If the unit is wiped out or flees off the table before the Assassin is revealed then the Assassin is lost and Victory points are scored as normal. Before he is revealed, there is no other way the Assassin can be harmed.
+
+Hidden Assassins may be revealed at the beginning of any of your turns or at the start of any Close Combat phase. The player declares that his unit contains an Assassin and places the model amongst the ranks where he can fight, displacing a normal rank-and-file model. If there are no such models in the front rank, the Assassin is placed in the second rank until there is enough room for him in the first rank. Assassins always strike first in the round of hand-to-hand combat they are revealed, even against chargers. If an enemy model is also entitled to always strikes first, the model with higher Initiative strikes first (roll a D6 if they have equal Initiative).</description>
+        </rule>
+        <rule id="6835-532a-6add-f6a0" name="Leadership (Assassins)" hidden="false">
+          <description>Assassins are not great leaders, but are ruthless and highly disciplined warriors.
+
+Units in the army can never use their Leadership value and an Assassin can never be the General of the army (therefore your army must include at least one other character to act as the General).</description>
+        </rule>
+        <rule id="65e2-835c-7a28-1f0e" name="Master of Assassins" hidden="false">
+          <description>Shadowblade is treated as an Assassin in all respects, with the exception of his Hidden rules. Shadowblade may be deployed in one of four ways: as normal; as a Scout (within a unit of Shades if you desire); using the Hidden rues on page 11 of the Dark Elves Armies book; inside the enemy army. If he chooses to deploy in the enemy army, the following rules are used. After your opponent has deployed, secretly write down within which enemy unit Shadowblade has attempted to conceal himself. This must be a roughly man-sized infantry unit, or war machine crew (and includes Goblins, Dwarfs, Halflings and such, but nothing larger than man-sized - even Shadowblade cannot make himself look like an Ogre...).
+
+At the start of each of the opposing army&apos;s turns, roll a D6. On a roll of a 2+, he is still undiscovered. On a roll of a 1, the enemy have seen through his disguise and he is placed on the table. Alternatively, at the start of any Dark Elf turn, Shadowblade can be revealed voluntarily. Regardless of how he is revealed, use the following method to place him on the table. Reveal to your opponent within which unit Shadowblade was hiding. Shadowblade replaces one of the models in the unit (he was killed before the battle), remove one ordinary unit member (not a Command model or character). Place Shadowblade anywhere in contact with the unit. If he is revealed voluntarily, Shadowblade counts as charging that turn; if he was discovered then the enemy count as charging. Shadowblade may drink his Potion of Strength at the start of a turn in which he was voluntarily revealed.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="711a-25aa-411e-c305" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="86f5-2e4b-5e6b-25e4" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f292-4e2a-1bad-f75f" name="Heart of Woe" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="a208-1558-f890-b58f" name="Heart of Woe" hidden="false">
+              <description>The Heart of Woe is a large ruby that beats like a living heart. Should the bearer be slain, the crystal shatters into thousands of jagged shards, slaying those responsible for their death and leaving no remains to be identified.
+
+If Shadowblade is slain, centre the large blast marker over his final position. Any model fully under is automatically hit, while models partially under are hit on a roll of 4+. Models hit by the exploding Heart of Woe take a Strength 3 hit.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="55a7-eadc-a003-c28c" name="Potion of Strength" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="a533-ad60-7560-aaa3" name="Potion of Strength" hidden="false">
+              <description>A potent magical brew created from Troll blood and the heart of a Griffon.
+
+Shadowblade may drink this at the start of any turn and it lasts until the start of the next player&apos;s turn. While in effect, the Potion gives Shadowblade +3 Strength.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cccf-b359-4800-9bc0" name="Dance of Doom" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="60ed-735d-09df-1081" name="Dance of Doom" hidden="false">
+              <description>The sinuous Dance of Doom can enthrall even the most steely disciplined Swordmaster and be used to dodge the fastest shot or blow.
+
+The model has a 5+ Ward save.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="39dd-641b-32df-0e7a" name="Touch of Death" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="a39c-fd17-48ff-3e0f" name="Touch of Death" hidden="false">
+              <description>The Adepts of Death school the servants of Khaine to learn the points on a body which kill instantly.
+
+The model has the Killing Blow special ability.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="629b-31ef-f060-a15c" name="Hand of Khaine (Artefact and Skill)" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="e3d3-247d-8799-941f" name="Hand of Khaine (Artefact and Skill)" hidden="false">
+              <description>Tracing a complex pattern in the air, the Dark Elf entrances their victim, leaving him vulnerable and open to attack.
+
+Any one model ( chosen by a Dark Elf player) in base contact will lose one Attack. Against mounted models, the Dark Elf player must choose either the mount/monster or the rider. If the model has several types of attack (an extra bite, for example) the Dark Elf player chooses which type of attack is lost. Models which are Immune to Psychology are not affected by the Hand of Khaine.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="91c5-aade-1949-beab" name="Cry of War" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="6eda-de21-a0ea-6303" name="Cry of War" hidden="false">
+              <description>By screeching one of the seventeen secret names of Khaine, the warrior freezes enemies with horror.
+
+A unit charged by a warrior with a Cry of War must pass a Leadership test or reduce their Weapon Skill by -1 (to a minimum of 1) for the duration of that Close Combat phase.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="49db-838a-0886-838e" name="Dark Venom" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="17b9-99f2-5713-f45f" name="Dark Venom" hidden="false">
+              <description>Extracted from the poisonous reptiles of the bleak land of Naggaroth, Dark Venom is a deadly toxin. A weapon coated with Dark Venom will cause a mortal wound if it even merely scratches skin.
+
+The model is considered to have Poisoned Attacks.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>

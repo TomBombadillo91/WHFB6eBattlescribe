@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="28" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="29" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="e8a8-d83e-c60c-3ad0" name="Hordes of Chaos"/>
     <publication id="dc3a-2511-d23a-deb3" name="Beasts of Chaos"/>
@@ -10792,7 +10792,134 @@ The Familiar&apos;s owner knows one more spell than is normal for his level. Thi
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="15.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
+        <selectionEntry id="244d-7ed3-4f7b-b6f9" name="Be&apos;lakor" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="ca06-b393-10d7-101c" name="Be&apos;lakor" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">9</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">5</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">5</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">9</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">5</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d837-360e-1440-c5df" name="Scaffold - points needed" hidden="false">
+          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        </rule>
+        <rule id="fb8b-4e44-c3fc-28ba" name="Daemonic" hidden="false">
+          <description>The following rules apply to all Daemonic creatures. Non-Daemonic models may not join a Daemonic unit, and a Daemonic model may not join a non-Daemonic unit. The only exception to this is a character riding a Daemonic Mount, Steed of Slaanesh, Juggernaut of Khorne or Disc of Tzeentch.
+
+## Instability and Break Tests
+
+When daemons lose a round of combat they must take a special Daemonic Instability test instead of a Break test. In multiple combats, each Daemonic unit must test separately. Use the following procedure to take a Daemonic Instability test:
+
+1. Calculate combat resolution as normal.
+2. Roll 2D6 and compare this to the daemons&apos; Leadership value, with no combat resolution modifers. If the roll is higher, the daemons lose their grip on the mortal world and disappear from the battlefield. They count as destroyed.
+3. If the unit does not Instantly disappear, compare the dice roll to their Leadership value, taking into account any modifiers for combat resolution. For each point the unit fails its instability test by, the unit suffers one additional wound. No saves of any kind are allowed against these wounds, including Ward saves, Regeneration, etc. If characters are present in the unit, the controlling player can decide how to allocate wounds between the character&apos;s and the unit.
+4. If a Daemonic unit is wiped out by instability in the first round of combat, the enemy may overrun as normal.
+
+Example: A unit of Bloodletters loses a combat by 4. The controlling player scores 7 on his 2D6 roll. This is lower than their Leadership of 8, so they don&apos;t disappear totally. However, because combat resolution modifiers count for Daemonic Instability, their Leadership is reduced to 4 for the second part of the test. This means that the Bloodletters have failed the test by 3, as so the unit suffers three wounds.
+
+## Immune to Psychology
+
+Daemons are Immune to Psychology.
+
+## Fear
+
+Daemons are otherworldly entities that cause fear.
+
+## Daemonic Aura
+
+Daemons are not of mortal flesh and have some immunity to mundane weapons. Daemons get a 5+ Ward save. However, this Ward save cannot be used against magical attacks (ie, spells and magic items).
+
+## Daemonic Attacks
+
+Being corporeal manifestations of Chaos, Daemons&apos; attacks are magical and can wound ethereal creatures. etc. This includes any special or ranged attacks they may have.</description>
+        </rule>
+        <rule id="1c45-89c7-4fd2-8634" name="Whispers in the Darkness" hidden="false">
+          <description>All enemies suffer -1 on all attempts to rally. Enemies within 6&quot; of Be&apos;lakor suffer -1 to any Leadership-based tests they take (so an enemy within G&quot; of Be&apos;lakor suffers -2 to rally!).</description>
+        </rule>
+        <rule id="819f-b333-1b16-227e" name="Night Wards" hidden="false">
+          <description>Any spells directed at Be&apos;lakor will be Miscast on the roll of any double (if a spell is cast at him with Irresistible Force, it will be cast with Irresistible Force, then the wizard will suffer an immediate Miscast).</description>
+        </rule>
+        <rule id="ddf8-d8ab-9b15-4eec" name="Eternal Terror" hidden="false">
+          <description>Be&apos;lakor causes terror. However, so terrifying is he that a unit must take a Terror test every time they are charged or wish to charge Be&apos;lakor, or if he is within 6&quot; of them at the start of their turn, even if they have already passed a Terror test earlier in the game.</description>
+        </rule>
+        <rule id="552e-9a17-32bc-8e39" name="Shadow-shroud" hidden="false">
+          <description>All enemy shooting aimed at Be&apos;lakor, or any unit in his army, suffer -1 to hit.</description>
+        </rule>
+        <rule id="c488-d0eb-fa0b-bc30" name="Insurmountable Rage" hidden="false">
+          <description>At the start of each turn, Belakor must take a Leadership test - if this is failed, then he must charge an enemy if there is one in range that he can see. If there are no valid enemies for him to charge, he must move towards the closest enemy model, stopping 1&quot; away from them if his movement would take him further.
+
+Be&apos;lakor may re-roll all his failed rolls to hit, but must always pursue fleeing enemies that he breaks in combat.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="625a-4e93-c28f-eb87" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="764e-45f7-6022-3791" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="330e-21f6-acc9-b3ba" name="Vardek Crom" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="23a7-3459-59bb-3b60" name="Vardek Crom" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">9</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">5</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">8</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">5</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="bc2b-7f4d-a9fb-d660" name="Scaffold - points needed" hidden="false">
+          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        </rule>
+        <rule id="01e7-7448-c94f-7f24" name="Master of Chaos Undivided" hidden="false">
+          <description>Undivided, and the vast majority of his troops celebrate Chaos in its purest, undiluted form. An army led by Crom the Conqueror has the following special rules:
+
+- Units of Chaos Warriors or Knights bearing any Mark other than Chaos Undivided count as Special units. Any unit of Chaos Warriors or Knights bearing any Mark other than Chaos Undivided which has been upgraded to Chosen counts as a rare choice.
+- Daemons of all types also count as Rare units.
+- All Marauder and Marauder Horsemen units may have the Mark of Chaos Undivided for free. They may not be given any other Marks</description>
+        </rule>
+        <rule id="193d-773f-8d03-48dd" name="Immense Pride" hidden="false">
+          <description>Crom is a true warrior, a master of single combat. He has defeated many chieftains in single combat to gain leadership of their tribes, each victory increasing an already considerable pride.
+
+Crom must always accept a challenge if one is issued.</description>
+        </rule>
+        <rule id="d717-bc8d-12d9-6c4d" name="The Way of the Warrior" hidden="false">
+          <description>The Conqueror is supremely skilled in many styles of fighting, be it with sword and axe, or sword and shield.
+
+With his sword and axe, Crom is a whirlwind of destruction, his attacks striking with such power that his opponents are torn apart by the storm of blows. If Crom fights with a sword and axe then he gains +1 Attack for an additional hand weapon as normal. In addition, if he fights with a sword and axe in a challenge, Crom may make an additional attack for each wounding hit he makes (before saving throws).
+
+Crom uses his shield expertly, forcing his opponent back and blocking any attempt to launch an attack. If Crom fights with sword and shield he gets the normal + 1 to his Armour save for using a hand weapon and shield. In addition, if he fights with sword and shield in a challenge, any special rules applying to Crom&apos;s opponent&apos;s weapon are completely nullified; in other words his opponents always count as using a single hand weapon regardless of their actual equipment. This applies to both magical and mundane equipment.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="b9de-5147-7e80-274e" name="Chaos Armour" hidden="false" targetId="df14-b7c0-c17b-dfad" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="543f-c92a-8f4a-7068" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="b365-c9db-6c61-8332" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
       <entryLinks>
         <entryLink id="6e86-e77a-a7e9-7eff" name="Staff of Sorcery" hidden="false" collective="false" import="true" targetId="0871-b449-88b1-0a33" type="selectionEntry"/>
         <entryLink id="b8ff-004a-cd52-64c0" name="Power Stone" hidden="false" collective="false" import="true" targetId="2be9-2fdd-98db-e42c" type="selectionEntry"/>

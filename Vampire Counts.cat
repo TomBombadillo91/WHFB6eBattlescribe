@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2c0-45b3-040e-fe0f" name="Vampire Counts" revision="16" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2c0-45b3-040e-fe0f" name="Vampire Counts" revision="17" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7d18-159a-be52-079b" name="Vampire" hidden="false"/>
     <categoryEntry id="72bd-3327-881f-a995" name="Von Carstein" hidden="false"/>
@@ -3669,7 +3669,657 @@ When the Casket&apos;s spell is cast, a model in base contact with the bearer (c
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="28a6-b503-f76d-f861" name="Vlad von Carstein" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="5c3c-9202-31c1-a33a" name="Vlad von Carstein" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">9</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">6</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">5</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">4</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">8</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">5</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="1633-e7a7-b46b-7e36" name="Scaffold - points needed" hidden="false">
+          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        </rule>
+        <rule id="29ae-404c-f751-66c1" name="Undead (Vampire Counts)" hidden="false">
+          <description>All models mentioned in the Vampire Counts Armies book are Undead, with the exception of Ghouls and Bat Swarms which are alive and follow the normal Warhammer rules (eg, they can use the General&apos;s Leadership, re-roll Break tests if the Battle Standard is within 12&quot;, etc)
+
+Note that the Undead special rules for Vampire Counts armies are slightly different from those for the Tomb Kings armies due to the differences in the magic animating them.
+
+All Undead have the following special rules:
+
+## The General
+
+The army must include at least one Wizard (ie, a model with the entry &apos;Magic&apos; in its army list box) who will be the army&apos;s General If the army includes more than one Wizard, the one with the highest Leadership will be the General. In the case of two or more characters having the same Leadership, the player can decide. Remember to tell your opponent which model is the General at the beginning of the battle.
+
+If the General is destroyed, the Undead in the army will start to slowly crumble to dust. To represent this, at the end of the phase when the General is killed and at the beginning of every Undead turn thereafter, all Undead units on the battlefield must take a Leadership test. If the test is failed, the unit suffers a number of wounds equal to the number they failed the Leadership test by. No saves of any kind (not even Ward saves) are allowed against such wounds. Eg, a unit of Skeletons (Ld 3) takes the test and rolls a 7: the unit suffers 4 wounds (7-3=4). Characters never suffer wounds because of a destroyed General. Units can use the Leadership of a character leading the unit for this test, as normal. Winged Nightmares and Zombie Dragons do have to take this test, but can use their rider&apos;s Leadership. Note that if the General is taken below one Wound, but manages to regenerate enough Wounds to come back, this rule does not apply. The General has to be dead (ie, removed from the table) for this rule to take effect.
+
+## Break Tests
+
+Undead cannot be broken, but Undead units beaten in combat suffer one additional wound for every point they lose the combat by (no saves of any kind, not even Regeneration or Ward saves, are allowed against such wounds). If characters are present in the unit, or if they are riding a monster, the controlling player can decide how to allocate the wounds among the unit, the monster and the characters. In multiple combats, each Undead unit on the losing side suffers one additional wound for every point their side has lost the combat by. If an Undead unit is wiped out by combat resolution in the first turn of a combat, the enemy gets the option to make an overrun move as normal.
+
+## Battle Standard
+
+Undead that are within 12&quot; of their Battle Standard suffer one less wound than they normally would when defeated in combat. Eg, a unit of Skeletons loses a combat by 3. They should lose three extra Skeletons but because the Battle Standard is within 12&quot; they only lose two extra models.
+
+## Immune to Psychology
+
+Undead are Immune to Psychology.
+
+## Charge Reactions
+
+Undead can react to charges only by holding their ground.
+
+## Marching
+
+Undead cannot make a march move unless they are characters or are within 12&quot; of the General at the start of their Movement phase. Note that all the normal rules for marching will apply (for example, the presence of the enemy within 8&quot; still stops them from marching, etc).
+
+## Cause Fear
+
+Undead cause fear.</description>
+        </rule>
+        <rule id="aad0-2f01-c94b-fd01" name="Walking Death (Vlad von Carstein)" hidden="false">
+          <description>Vlad&apos;s Walking Death is a +2 combat resolution instead of the normal +1!</description>
+        </rule>
+        <rule id="b5c8-b691-4cbc-2c28" name="Undying Love" hidden="false">
+          <description>If Isabella is killed, Vlad will be overcome by grief and go into a berserk fury. For the rest of the battle he will be subject to both hatred and frenzy. If Vlad is killed then exactly the same special rules apply to Isabella: ie, she becomes subject to frenzy and hatred.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="0918-d43f-797a-271c" name="Necromancy" hidden="false" targetId="2d65-1337-b88a-1a55" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="02f9-144f-8331-f392" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="5804-c4eb-7ab4-9540" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="904b-1d73-6c96-a360" name="Wailing Blade" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="84e5-5958-d3c1-1e96" name="Wailing Blade" hidden="false">
+              <description>The blade of this evil sword is never satisfied with the amount of blood it drinks and constantly emits a piercing scream, demanding more.
+
+The model wielding this screaming weapon causes terror. In addition, no armour saves are allowed against wounds caused by the Wailing Blade.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1a36-566a-2632-100c" name="The Carstein Ring" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="36e0-2237-8482-5165" name="The Carstein Ring" hidden="false">
+              <description>An ancient heirloom of the twisted reigning house of Sylvania, this ring is known to make a Vampire carrying it almost impossible to kill.
+
+Von Carstein Vampires only. The model has a 4+ Ward save and the Regeneration special rule.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="100.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c398-0182-7b76-ccfc" name="Summon Bats" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="3de8-1ae2-4d7a-1071" name="Summon Bats" hidden="false">
+              <description>The Vampire produces a bestial howl that awakens dark creatures and beckons them to his aid.
+
+Once per game the Vampire can use this power at the start of one of his turns. He can choose to summon either a Bat Swarm (one base) or D3+1 Fell Bats. Immediately calculate the Victory points value of the new unit. The unit can enter from any table edge in the same way as a unit that had pursued an enemy off the field.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="65.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7613-c62c-8326-348e" name="Call Winds" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="2f6e-7c08-a8ac-5ebc" name="Call Winds" hidden="false">
+              <description>The anger of a von Carstein is so powerful that even the sky reflects it.
+
+At the beginning of each of his turns the Vampire can decide not to move in that Movement phase and attempt to call winds. Roll a dice: on a result of 1 nothing happens, on a 2 to 6 the Vampire summons a wild storm that will last until the beginning of his next turn. If he is engaged in close combat, wounded or killed, the storm ends immediately. The storm affects the entire battlefield. All shooting is at -1 to hit. All flying movement is impossible and flying creatures have to use their ground Movement value.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="55.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="08b0-9038-ff5d-5241" name="Spectral Attendants" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="1ad1-ce1e-484f-dd1c" name="Spectral Attendants" hidden="false">
+              <description>This Vampire is accompanied by countless ghostly followers, an immortal remnant of innumerable victims. Though too weak to directly affect the material world, their chill voices resonate through the winds of magic, preventing those attuned to the mystic arts from focusing their powers.
+
+Army of Sylvania only. One per army. While this Vampire is alive and on the tabletop, all enemy Wizards suffer a -1 penalty on their casting roll. Note that this has no effect if an Irresistible Force is rolled and cannot cause a Miscast.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="95d9-7bf2-f6c8-de53" name="Walking Death" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="119e-5643-afa6-70e3" name="Walking Death" hidden="false">
+              <description>So powerful is the unholy presence of the Vampire that mere mortals are forced to flee in terror.
+
+The presence of one or more von Carsten Vampires with this power in a combat adds +1 to their side&apos;s combat resolution.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="499b-2d5c-0ae7-3f2c" name="Aura of Dark Majesty" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="9a7e-893f-d062-6783" name="Aura of Dark Majesty" hidden="false">
+              <description>The von Carsteins are the most authoritative of the Vampires, the best generals among their kind.
+
+If the Vampire is the army&apos;s General, the normal range of 12&quot; for his troops to be able to march and use his Leadership is extended to 18&quot;.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="963d-54a2-85ac-373f" name="Summon Wolves" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="dfbe-2e7d-119e-66d4" name="Summon Wolves" hidden="false">
+              <description>These beasts are slaves to the implacable will of the von Carstein blood.
+
+Once per game, the Vampire can use this power at the start of one of his turns to summon D3 Dire Wolves. Immediately calculate the Victory points value of the new unit. The unit can enter from any table edge in the same way as a unit that has pursued an enemy off the field.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e951-ecae-81b2-d3c5" name="Wolf Form" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="4b9c-8c8f-f2e9-90c4" name="Wolf Form" hidden="false">
+              <description>The Vampire can change his shape to that of a wolf.
+
+The Movement of the Vampire is increased to 9 as long as he is moving on foot.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="193e-1956-e08e-5ca4" name="Earthbind" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="f538-c075-8e4d-e99f" name="Earthbind" hidden="false">
+              <description>In Sylvania, the land and its masters have become inextricably bound together, giving some von Carsteins a measure of protection against hostile magics.
+
+Army of Sylvania only. This Vampire has Magic Resistance (1).</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c125-4586-dbad-8792" name="Wolf Lord" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="5f42-fcad-1529-b601" name="Wolf Lord" hidden="false">
+              <description>Upon his home soil this Vampire has an almost unparalleled mastery of the Dark Arts, able to reanimate Dire Wolves with but a thought.
+
+Army of Sylvania only. This Vampire may use the spell Invocation of Nehek to add to and raise new units of Dire Wolves, in addition to Skeletons and Zombies, raising D3/2D3/3D3 Wolves according to the Power Level. Note that this does not apply to units raised from Grave markers.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c24a-eaf2-ad08-f037" name="Isabella von Carstein" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1b42-cfef-303f-fd20" name="Isabella von Carstein" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">5</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">6</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0e2c-2ec8-c818-999b" name="Scaffold - points needed" hidden="false">
+          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        </rule>
+        <rule id="b44d-7e63-65d5-dd52" name="Undead (Vampire Counts)" hidden="false">
+          <description>All models mentioned in the Vampire Counts Armies book are Undead, with the exception of Ghouls and Bat Swarms which are alive and follow the normal Warhammer rules (eg, they can use the General&apos;s Leadership, re-roll Break tests if the Battle Standard is within 12&quot;, etc)
+
+Note that the Undead special rules for Vampire Counts armies are slightly different from those for the Tomb Kings armies due to the differences in the magic animating them.
+
+All Undead have the following special rules:
+
+## The General
+
+The army must include at least one Wizard (ie, a model with the entry &apos;Magic&apos; in its army list box) who will be the army&apos;s General If the army includes more than one Wizard, the one with the highest Leadership will be the General. In the case of two or more characters having the same Leadership, the player can decide. Remember to tell your opponent which model is the General at the beginning of the battle.
+
+If the General is destroyed, the Undead in the army will start to slowly crumble to dust. To represent this, at the end of the phase when the General is killed and at the beginning of every Undead turn thereafter, all Undead units on the battlefield must take a Leadership test. If the test is failed, the unit suffers a number of wounds equal to the number they failed the Leadership test by. No saves of any kind (not even Ward saves) are allowed against such wounds. Eg, a unit of Skeletons (Ld 3) takes the test and rolls a 7: the unit suffers 4 wounds (7-3=4). Characters never suffer wounds because of a destroyed General. Units can use the Leadership of a character leading the unit for this test, as normal. Winged Nightmares and Zombie Dragons do have to take this test, but can use their rider&apos;s Leadership. Note that if the General is taken below one Wound, but manages to regenerate enough Wounds to come back, this rule does not apply. The General has to be dead (ie, removed from the table) for this rule to take effect.
+
+## Break Tests
+
+Undead cannot be broken, but Undead units beaten in combat suffer one additional wound for every point they lose the combat by (no saves of any kind, not even Regeneration or Ward saves, are allowed against such wounds). If characters are present in the unit, or if they are riding a monster, the controlling player can decide how to allocate the wounds among the unit, the monster and the characters. In multiple combats, each Undead unit on the losing side suffers one additional wound for every point their side has lost the combat by. If an Undead unit is wiped out by combat resolution in the first turn of a combat, the enemy gets the option to make an overrun move as normal.
+
+## Battle Standard
+
+Undead that are within 12&quot; of their Battle Standard suffer one less wound than they normally would when defeated in combat. Eg, a unit of Skeletons loses a combat by 3. They should lose three extra Skeletons but because the Battle Standard is within 12&quot; they only lose two extra models.
+
+## Immune to Psychology
+
+Undead are Immune to Psychology.
+
+## Charge Reactions
+
+Undead can react to charges only by holding their ground.
+
+## Marching
+
+Undead cannot make a march move unless they are characters or are within 12&quot; of the General at the start of their Movement phase. Note that all the normal rules for marching will apply (for example, the presence of the enemy within 8&quot; still stops them from marching, etc).
+
+## Cause Fear
+
+Undead cause fear.</description>
+        </rule>
+        <rule id="328c-d21e-f7e0-2654" name="Undying Love" hidden="false">
+          <description>If Isabella is killed, Vlad will be overcome by grief and go into a berserk fury. For the rest of the battle he will be subject to both hatred and frenzy. If Vlad is killed then exactly the same special rules apply to Isabella: ie, she becomes subject to frenzy and hatred.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="a83a-378c-918d-bd41" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="c837-3690-adff-6cc5" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="56e9-ee8c-a217-30b1" name="Unholy Chalice" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="3666-18b3-c1fc-9c13" name="Unholy Chalice" hidden="false">
+              <description>Blood is constantly flowing from this infamous symbol of evil. Isabella can drink from it to heal her wounds.
+
+The Unholy chalice confers a 4+ Ward save against ranged attacks only (missiles and spells), it has no effect against close combat attacks.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="05d0-7df0-e167-78d5" name="Call Winds" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="946a-d583-70c2-fe73" name="Call Winds" hidden="false">
+              <description>The anger of a von Carstein is so powerful that even the sky reflects it.
+
+At the beginning of each of his turns the Vampire can decide not to move in that Movement phase and attempt to call winds. Roll a dice: on a result of 1 nothing happens, on a 2 to 6 the Vampire summons a wild storm that will last until the beginning of his next turn. If he is engaged in close combat, wounded or killed, the storm ends immediately. The storm affects the entire battlefield. All shooting is at -1 to hit. All flying movement is impossible and flying creatures have to use their ground Movement value.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="55.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="72cd-22aa-3c08-590c" name="Transfix" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="d097-6085-becc-d85e" name="Transfix" hidden="false">
+              <description>The Vampire is so beautiful that a mere mortal&apos;s will to fight immediately disappears before her.
+
+At the beginning of the Close Combat phase select one model in base contact with the Vampire The selected model must take a Leadership test. If the test is failed, the victim cannot attack in that Close Combat phase.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9314-bae9-2d73-7edb" name="Mannfred von Carstein" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="fdf9-e787-87d7-903d" name="Mannfred von Carstein" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">7</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">5</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">5</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">4</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">8</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">5</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="3615-c5d4-14b0-e988" name="Scaffold - points needed" hidden="false">
+          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        </rule>
+        <rule id="e0b9-0779-27ce-afc0" name="Undead (Vampire Counts)" hidden="false">
+          <description>All models mentioned in the Vampire Counts Armies book are Undead, with the exception of Ghouls and Bat Swarms which are alive and follow the normal Warhammer rules (eg, they can use the General&apos;s Leadership, re-roll Break tests if the Battle Standard is within 12&quot;, etc)
+
+Note that the Undead special rules for Vampire Counts armies are slightly different from those for the Tomb Kings armies due to the differences in the magic animating them.
+
+All Undead have the following special rules:
+
+## The General
+
+The army must include at least one Wizard (ie, a model with the entry &apos;Magic&apos; in its army list box) who will be the army&apos;s General If the army includes more than one Wizard, the one with the highest Leadership will be the General. In the case of two or more characters having the same Leadership, the player can decide. Remember to tell your opponent which model is the General at the beginning of the battle.
+
+If the General is destroyed, the Undead in the army will start to slowly crumble to dust. To represent this, at the end of the phase when the General is killed and at the beginning of every Undead turn thereafter, all Undead units on the battlefield must take a Leadership test. If the test is failed, the unit suffers a number of wounds equal to the number they failed the Leadership test by. No saves of any kind (not even Ward saves) are allowed against such wounds. Eg, a unit of Skeletons (Ld 3) takes the test and rolls a 7: the unit suffers 4 wounds (7-3=4). Characters never suffer wounds because of a destroyed General. Units can use the Leadership of a character leading the unit for this test, as normal. Winged Nightmares and Zombie Dragons do have to take this test, but can use their rider&apos;s Leadership. Note that if the General is taken below one Wound, but manages to regenerate enough Wounds to come back, this rule does not apply. The General has to be dead (ie, removed from the table) for this rule to take effect.
+
+## Break Tests
+
+Undead cannot be broken, but Undead units beaten in combat suffer one additional wound for every point they lose the combat by (no saves of any kind, not even Regeneration or Ward saves, are allowed against such wounds). If characters are present in the unit, or if they are riding a monster, the controlling player can decide how to allocate the wounds among the unit, the monster and the characters. In multiple combats, each Undead unit on the losing side suffers one additional wound for every point their side has lost the combat by. If an Undead unit is wiped out by combat resolution in the first turn of a combat, the enemy gets the option to make an overrun move as normal.
+
+## Battle Standard
+
+Undead that are within 12&quot; of their Battle Standard suffer one less wound than they normally would when defeated in combat. Eg, a unit of Skeletons loses a combat by 3. They should lose three extra Skeletons but because the Battle Standard is within 12&quot; they only lose two extra models.
+
+## Immune to Psychology
+
+Undead are Immune to Psychology.
+
+## Charge Reactions
+
+Undead can react to charges only by holding their ground.
+
+## Marching
+
+Undead cannot make a march move unless they are characters or are within 12&quot; of the General at the start of their Movement phase. Note that all the normal rules for marching will apply (for example, the presence of the enemy within 8&quot; still stops them from marching, etc).
+
+## Cause Fear
+
+Undead cause fear.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="4b73-3c6f-8d83-66a2" name="Necromancy" hidden="false" targetId="2d65-1337-b88a-1a55" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="bb71-b0c1-990e-db28" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="1a0f-e8e2-e8f6-2358" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0931-8922-312f-3cac" name="Sword of Unholy Power" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="1578-5ef9-6211-7fa8" name="Sword of Unholy Power" hidden="false">
+              <description>The Sword of Unholy Power brims with magical power which may be drawn upon by a disciple of the black arts.
+
+For each unsaved wound caused by the blade the player may immediately get a magic dice. This dice is added to his pile of Power or Dispel dice in the following Magic phase, (depending on whether it is his own turn or his enemy&apos;s).</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="40.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="42fa-4441-67d3-1e85" name="Cloak of Darkness" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="49f9-1624-db82-64ab" name="Cloak of Darkness" hidden="false">
+              <description>This mantle has been enchanted by Mannfred himself and is one of the most powerful magical defences ever created.
+
+This cloak provides Mannfred with a 3+ Ward save.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4abe-8bc9-093d-bfd1" name="Ebony Staff" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="05f3-3051-d8c6-5f7c" name="Ebony Staff" hidden="false">
+              <description>The Ebony Staff, also known as the Black Staff of Undeath, is a powerful tool of evil. Mannfred risked everything to retrieve it from a Chaos servant&apos;s fortress.
+
+This staff allows Mannfred to cast one spell for free in each of his Magic phases. The spell is cast with a Power Level equal to its casting value and can be dispelled normally.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2e8d-126e-ff55-fc36" name="Call Winds" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="1044-d1ff-75ae-4d85" name="Call Winds" hidden="false">
+              <description>The anger of a von Carstein is so powerful that even the sky reflects it.
+
+At the beginning of each of his turns the Vampire can decide not to move in that Movement phase and attempt to call winds. Roll a dice: on a result of 1 nothing happens, on a 2 to 6 the Vampire summons a wild storm that will last until the beginning of his next turn. If he is engaged in close combat, wounded or killed, the storm ends immediately. The storm affects the entire battlefield. All shooting is at -1 to hit. All flying movement is impossible and flying creatures have to use their ground Movement value.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="55.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ebf5-9a9d-b709-7a7d" name="Aura of Dark Majesty" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="b635-762c-119b-c2c3" name="Aura of Dark Majesty" hidden="false">
+              <description>The von Carsteins are the most authoritative of the Vampires, the best generals among their kind.
+
+If the Vampire is the army&apos;s General, the normal range of 12&quot; for his troops to be able to march and use his Leadership is extended to 18&quot;.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4cc5-5c74-3a3d-1190" name="Summon Wolves" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="934a-97fc-f090-b5af" name="Summon Wolves" hidden="false">
+              <description>These beasts are slaves to the implacable will of the von Carstein blood.
+
+Once per game, the Vampire can use this power at the start of one of his turns to summon D3 Dire Wolves. Immediately calculate the Victory points value of the new unit. The unit can enter from any table edge in the same way as a unit that has pursued an enemy off the field.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b679-1d1f-4e3d-91cc" name="Zacharias the Everliving" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="9dce-5a12-ac4f-6c14" name="Zacharias the Everliving" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">6</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">5</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">4</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">8</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">5</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6e60-dbb6-5ba7-0931" name="Scaffold - points needed" hidden="false">
+          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        </rule>
+        <rule id="ca04-46ae-f13d-1bf6" name="Undead (Vampire Counts)" hidden="false">
+          <description>All models mentioned in the Vampire Counts Armies book are Undead, with the exception of Ghouls and Bat Swarms which are alive and follow the normal Warhammer rules (eg, they can use the General&apos;s Leadership, re-roll Break tests if the Battle Standard is within 12&quot;, etc)
+
+Note that the Undead special rules for Vampire Counts armies are slightly different from those for the Tomb Kings armies due to the differences in the magic animating them.
+
+All Undead have the following special rules:
+
+## The General
+
+The army must include at least one Wizard (ie, a model with the entry &apos;Magic&apos; in its army list box) who will be the army&apos;s General If the army includes more than one Wizard, the one with the highest Leadership will be the General. In the case of two or more characters having the same Leadership, the player can decide. Remember to tell your opponent which model is the General at the beginning of the battle.
+
+If the General is destroyed, the Undead in the army will start to slowly crumble to dust. To represent this, at the end of the phase when the General is killed and at the beginning of every Undead turn thereafter, all Undead units on the battlefield must take a Leadership test. If the test is failed, the unit suffers a number of wounds equal to the number they failed the Leadership test by. No saves of any kind (not even Ward saves) are allowed against such wounds. Eg, a unit of Skeletons (Ld 3) takes the test and rolls a 7: the unit suffers 4 wounds (7-3=4). Characters never suffer wounds because of a destroyed General. Units can use the Leadership of a character leading the unit for this test, as normal. Winged Nightmares and Zombie Dragons do have to take this test, but can use their rider&apos;s Leadership. Note that if the General is taken below one Wound, but manages to regenerate enough Wounds to come back, this rule does not apply. The General has to be dead (ie, removed from the table) for this rule to take effect.
+
+## Break Tests
+
+Undead cannot be broken, but Undead units beaten in combat suffer one additional wound for every point they lose the combat by (no saves of any kind, not even Regeneration or Ward saves, are allowed against such wounds). If characters are present in the unit, or if they are riding a monster, the controlling player can decide how to allocate the wounds among the unit, the monster and the characters. In multiple combats, each Undead unit on the losing side suffers one additional wound for every point their side has lost the combat by. If an Undead unit is wiped out by combat resolution in the first turn of a combat, the enemy gets the option to make an overrun move as normal.
+
+## Battle Standard
+
+Undead that are within 12&quot; of their Battle Standard suffer one less wound than they normally would when defeated in combat. Eg, a unit of Skeletons loses a combat by 3. They should lose three extra Skeletons but because the Battle Standard is within 12&quot; they only lose two extra models.
+
+## Immune to Psychology
+
+Undead are Immune to Psychology.
+
+## Charge Reactions
+
+Undead can react to charges only by holding their ground.
+
+## Marching
+
+Undead cannot make a march move unless they are characters or are within 12&quot; of the General at the start of their Movement phase. Note that all the normal rules for marching will apply (for example, the presence of the enemy within 8&quot; still stops them from marching, etc).
+
+## Cause Fear
+
+Undead cause fear.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="bcf8-166c-9ab5-ed6f" name="Necromancy" hidden="false" targetId="2d65-1337-b88a-1a55" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="968f-e10e-c72b-d02b" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="e3bf-bad8-b613-7299" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4b52-65b3-3b64-67cd" name="Circlet of Rathek" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="7c45-a150-ebaf-75cf" name="Circlet of Rathek" hidden="false">
+              <description>The jewel in the centre of this unholy object has the power of invoking on the bearer the protection of the gods of lost Nehekhara.
+
+The circlet confers a 4+ Ward save to Zacharias.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a539-b74b-f490-f1a3" name="Book of Nagash" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="7aeb-4644-49c5-59cd" name="Book of Nagash" hidden="false">
+              <description>The nine Books of Nagash contain the ultimate secrets of Necromancy.
+
+The Book gives Zacharias one extra spell. In addition he can decide to cast Invocation of Nehek on a 15+ Casting Value. If cast successfully, the spell will raise 4D6 Skeletons or 4D6+4 Zombies, or heal 4 Wounds on an Undead model.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ea05-d24a-2bff-b937" name="Scrolls of Semhtep" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="ec13-5bcc-117d-55ad" name="Scrolls of Semhtep" hidden="false">
+              <description>The long formulas written in these arcane papyri trigger powerful counterspells.
+
+Zacharias carries an unlimited number of these scrolls (they count as Dispel Scrolls). He can use one of them in each of the opposing player&apos;s Magic phases.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3626-f9a6-3ad9-c762" name="Staff of Kaphamon" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="eafd-647f-93f1-e8d4" name="Staff of Kaphamon" hidden="false">
+              <description>This ancient artefact was found by the nomads of Araby under the sands of the Great Desert.
+
+Casts Dark Hand of Death once per bearer&apos;s Magic phase. Power Level 4.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d629-bc26-50ce-e969" name="Nehekhara&apos;s Noble Blood" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="a20a-d6a9-8a08-1934" name="Nehekhara&apos;s Noble Blood" hidden="false">
+              <description>The only thing the Necrarchs could take from their land was their necromantic lore. These secrets are found in the cursed scrolls bidden in the lairs of the oldest Lords of the Necrarch family.
+
+The Vampire has one extra Magic Level. A Thrall with this power is a Level 1 Wizard in all respects and can be the army&apos;s General.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="45.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2d16-07f2-723f-4531" name="The Awakening" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="7c87-0d20-4394-1249" name="The Awakening" hidden="false">
+              <description>The Vampire can sense the remains of long-dead warriors and awaken them to bolster his unholy ranks.
+
+Whenever the Vampire casts the Necromantic spell Invocation of Nehek he can add + D3 to the total number of Skeletons or Zombies created. For example, if he casts Level 2 Invocation, he can raise 2D6+ D3 Skeletons.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4e40-ba58-3b38-44fe" name="Dark Acolyte" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="e6bd-7966-742b-e394" name="Dark Acolyte" hidden="false">
+              <description>Even the lowliest Necrarch follows the long and difficult path of the Necromancer.
+
+The presence of the Vampire on the battlefield adds one dice to the player&apos;s pile of Power dice (no effect on the Dispel dice).</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d0bc-8b99-5946-ab40" name="Master of the Black Arts" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="56d5-f95c-c7df-231f" name="Master of the Black Arts" hidden="false">
+              <description>Who can match the magical ability of a creature so ancient that its teacher might have been the Great Necromancer himself!
+
+The range of all spells cast by the Vampire is increased by 6&quot;. This power won&apos;t affect spells without, a range (like Hand of Dust) nor the range of spells cast from bound spell items.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d466-53c6-1e90-d831" name="Unholy Cynosure" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="6846-5ef4-21a6-c0fa" name="Unholy Cynosure" hidden="false">
+              <description>The Necrarch can focus his power into a different plane to forsee the future and change the present.
+
+Once per game, the Vampire can re-roll one of the dice rolled to cast a spell. This can be used to negate a Miscast result or could cause an Irresistible Force result.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2f6a-f1ae-791a-19d9" name="Forbidden Lore" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="fd3c-767b-968d-fdc3" name="Forbidden Lore" hidden="false">
+              <description>Long must one study to gain knowledge of the netherworld, but time is no worry to an undying scholar.
+
+The Vampire knows one more spell than he is normally allowed. This does not increase his Magic Level.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
       <entryLinks>
         <entryLink id="6aae-9b24-635f-f6fc" name="Talisman of Protection" hidden="false" collective="false" import="true" targetId="0187-c1bd-3c63-16b4" type="selectionEntry"/>
       </entryLinks>

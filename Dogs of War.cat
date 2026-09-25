@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3604-800a-4012-5da6" name="Dogs of War" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3604-800a-4012-5da6" name="Dogs of War" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5e7e-36e5-c0bf-c57c" name="Dogs of War" hidden="false"/>
     <categoryEntry id="c51c-ed7d-9669-006f" name="Regiment of Renown" hidden="false"/>
@@ -4934,7 +4934,408 @@ This spell can be cast on any enemy unit on the table. The unit must immediately
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="f969-c1d6-b8a7-83c2" name="Borgio the Besieger" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="18e8-ac31-fc18-a0d6" name="Borgio the Besieger" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">5</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="35c4-77ba-4669-0d45" name="Scaffold - points needed" hidden="false">
+          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        </rule>
+        <rule id="fd02-b990-3639-0c1c" name="Difficult to Slay" hidden="false">
+          <description>Borgio the Besieger has an almost unnatural ability to withstand pain and injury. If he is reduced to zero wounds, then do not remove the model, but lay it on its side and leave it in place. At the end of the phase, roll a D6. On a 1-3, he is removed as a casualty as normal. On a roll of 4 or more, he stands back up again with a single Wound remaining.</description>
+        </rule>
+        <rule id="2b18-79b9-6414-f543" name="Beloved General" hidden="false">
+          <description>Borgio the Besieger was beloved by his men, and the people of Miragliano. To represent this, any friendly unit within 18&quot; may test on Borgio&apos;s Leadership. This rule replaces the normal rules for Generals found in the Warhammer rulebook.</description>
+        </rule>
+        <rule id="3c5d-5144-ef9e-9a35" name="Magic Banner (Borgio the Besieger)" hidden="false">
+          <description>Borgio the Besieger is the Merchant Prince of Miragliano, and, because of this, one unit of Pikemen or Heavy Cavalry may carry a 50 point Magic Standard. This rule does not apply to Regiments of Renown.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="ca1c-123a-6a69-eeaf" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="ebb7-2dbd-1686-9367" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e2f1-b07c-98f0-7605" name="Mace of Might" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="5961-60f1-957f-e176" name="Mace of Might" hidden="false">
+              <description>Borgio made this weapon out of a cannon ball that hit him square in the chest, yet did not kill him. From that point on it has become his good luck charm.
+
+If Borgio rolls a 6 to hit with this weapon, that hit will be at Strength 10.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bf67-a7ea-5028-58ac" name="Armour of Brazen Bronze" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="5ae2-b97d-ec44-67b4" name="Armour of Brazen Bronze" hidden="false">
+              <description>This counts as a suit of heavy armour that also conveys a Ward save of 5+.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4a5b-d6d6-500e-71d7" name="Monstrous Mask Helm" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="5880-ed6f-fa42-fac8" name="Monstrous Mask Helm" hidden="false">
+              <description>This Helm causes fear.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d0af-541d-e285-9021" name="Ghazak Khan" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="9b50-65a8-a43d-4d6c" name="Ghazak Khan" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">7</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">6</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">6</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1944-a244-2360-689b" name="Warghan" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">9</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">5</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">4</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b244-f468-938d-97a2" name="Scaffold - points needed" hidden="false">
+          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        </rule>
+        <rule id="1dea-2256-0c70-1d65" name="Warghan" hidden="false">
+          <description>Warghan is a monstrous wolf that Ghazak Khan uses as a mount. Warghan causes fear, has thick fur giving it a 4+ armour save, and counts as a monstrous mount.</description>
+        </rule>
+        <rule id="108b-07ab-a86f-0b42" name="War Cry of the Steppes" hidden="false">
+          <description>When Gazhak Khan charges, he lets out a mighty war cry that freezes the hearts of his enemies. To represent this, any unit that he charges will not be able to stand and fire or flee as a Charge response. This does not affect a unit that is immune to psychology.</description>
+        </rule>
+        <rule id="9b22-b2a1-3e1a-e889" name="Quell Animosity" hidden="false">
+          <description>Models with this special rule do not test for Animosity. Furthermore, the stem scowls and menacing sneers of the model are so threatening that a unit which fails an Animosity test when led by a Character with this rule, or within 6&quot; of a model with this rule, will ignore the roll and must immediately roll again. If this second roll is also failed then a roll on the Animosity table is taken as usual. If the models with this rule are fleeing then they cannot quell Animosity in other units nearby.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="7cf8-2282-7efe-895b" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="6d59-d321-be7c-59ab" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="42d9-12b1-0fb8-2553" name="The Red Scimitar" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="2d51-9b97-6a14-dbf7" name="The Red Scimitar" hidden="false">
+              <description>This sword has a -3 save modifier and any model wounded by it loses D3 wounds rather than just one.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a9db-6d4a-727a-921e" name="Daemonhead Helmet" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="a423-257d-2624-737c" name="Daemonhead Helmet" hidden="false">
+              <description>A powerful wind demon is magically bound to defend the wearer of this helmet it he is ever wounded. To represent this, once Ghazak Khan has lost a wound, he gains a 4+ Ward save and Magic Resistance (1) for the remainder of the battle.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="88f0-9c48-7724-4636" name="Lorenzo Lupo" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="279a-e326-ced2-2f3f" name="Lorenzo Lupo" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">5</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">6</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="707e-cf9b-52de-8ef9" name="Scaffold - points needed" hidden="false">
+          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        </rule>
+        <rule id="10ed-44f0-1bc1-2d0c" name="Fights on Foot" hidden="false">
+          <description>Lorenzo is a very eccentric man, in that he prefers to fight on foot in the style of his ancestors. He always takes his place at the front ranks of his pikemen or leads his soldiers on his men-of-war. This is very inspiring to his men, and they are eager to fight for and defend their Merchant Prince. To represent this, when Lorenzo is in the front rank of any infantry regiment (including Regiments of Renown) he adds +1 to the combat resolution for that unit. If, for any reason he leaves the front rank, they lose that bonus.</description>
+        </rule>
+        <rule id="bb9f-99cd-bf91-7ebe" name="Mighty Athlete" hidden="false">
+          <description>Lorenzo follows many of the classical athletic pursuits that his ancestors practised, and as a result he is a very well-built, muscular man. He regularly rows across the Tilean Sea, wrestles the mightiest opponents or runs from one end of his princedom to the other. To represent this, roll a D6 to determine which pursuit he has been following prior to joining the army.
+
+Mighty Athlete Chart
+
+| D6 | Pursuit | Effect |
+| --- | --- | --- |
+| 1-2 | Running | +1 Toughness |
+| 3-4 | Wrestling | +1 Attack |
+| 5-6 | Rowing | +1 Strength |</description>
+        </rule>
+        <rule id="bbc5-d51f-6bec-303f" name="Magic Banner (Lorenzo Lupo)" hidden="false">
+          <description>Lorenzo Lupo is the Merchant Prince of Luccini, and, because of this, one unit of Pikemen or Heavy Cavalry may carry a 50 point Magic Standard. This rule does not apply to Regiments of Renown.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="4e1e-f94f-3756-a8aa" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="aaf4-53be-77c0-beb3" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d174-328e-46e7-3b6b" name="The Sword of Lucan" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="0390-1b35-ad1c-884f" name="The Sword of Lucan" hidden="false">
+              <description>This sword has the ability to ignore armour saves.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7634-acaf-b004-d89a" name="Shield of Myrmidia" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="b17d-7693-fd93-c621" name="Shield of Myrmidia" hidden="false">
+              <description>This shield has a 6+ armour save which is combined with other armour as normal. In addition, every enemy model in base-to-base contact with Lorenzo loses one Attack.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b91b-adf1-47e5-6aa8" name="Ring of Luccina" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="370c-8b54-a3b6-c87a" name="Ring of Luccina" hidden="false">
+              <description>This is a Bound Spell with Power Level 5. This spell requires no power to cast; all the power needed is in the ring itself. When cast, all fleeing friendly troops within 8&quot; of Lorenzo will rally automatically.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2614-a43c-8f12-f1d3" name="Lucrezzia Belladonna" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="9555-024c-0246-d125" name="Lucrezzia Belladonna" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">3</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="4429-5f49-9996-7250" name="Scaffold - points needed" hidden="false">
+          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        </rule>
+        <rule id="f10d-008a-273d-f819" name="Stunning Beauty" hidden="false">
+          <description>Lucrezzia Belladonna&apos;s beauty has an amazing effect on the human mercenaries in the army. To represent this, any human unit within 8&quot; of her automatically rally - they stop fleeing and rally as soon as they are within 8&quot; This affects fleeing troops during the opponent&apos;s turn as well. This does not affect any troops that are immune to psychology.</description>
+        </rule>
+        <rule id="cd44-b99d-cc63-5555" name="Expert Poisoner" hidden="false">
+          <description>Lucrezzia Belladonna is rumoured to be an expert at preparing poisons. No one has ever lived to tell if this true or not. To represent this poisonous skill, use the following rules:
+
+## Lucrezzia&apos;s Kiss
+
+She has been known to kiss the weapons of a hero who she takes as her champion. To represent this, any one character or unit Champion gains Killing Blow due to the potency of the poison in her lipstick.
+
+## Stiletto Dagger
+
+All of Lucrezzia&apos;s attacks are Poisoned Attacks. She also carries a stiletto dagger which counts as an additional hand weapon.
+
+## Potion of Pavona
+
+At the beginning of the battle, Lucrezzia may give the potion to any one character, unit Champion, or take it herself. Roll a D6 and if you roll 2+ choose that number of that model&apos;s characteristics to improve by +1. For example, You roll a 4 and you choose to improve the model&apos;s WS, T, W, and I. You cannot apply this bonus to the model&apos;s Leadership and cannot increase a characteristic by more than one. If you roll a 1, the model loses one wound; if this kills the model then it counts as a casualty for all purposes.
+
+## Phial of Poison
+
+Lucrezzia hires an &apos;agent&apos; prior to every battle. This agent will sneak into the enemy camp and attempt to poison the enemy leaders. To represent this, roll a D6 at the beginning of the battle for each enemy character. A roll of 4+ means than the character has been poisoned and starts the battle with one Wound less thar normal.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="2994-1740-ff4a-250e" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="124b-7be5-8174-a123" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="83b6-7731-887d-f9c9" name="Mydas the Mean" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="8a8d-6343-0e52-f427" name="Mydas the Mean" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">-</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">-</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">-</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">-</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">-</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3f6d-4606-b849-5840" name="Bodyguard (Mydas the Mean)" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">4</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f95f-a2da-812c-6ada" name="Pay Chest" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">-</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">-</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">-</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">-</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">-</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6b07-fa18-092c-72d0" name="Sheikh Yadosh" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">2</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">2</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">2</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2bc3-c424-f8d3-11f1" name="Scaffold - points needed" hidden="false">
+          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        </rule>
+        <rule id="5b3b-720f-1bcf-e46a" name="The Pay Chest" hidden="false">
+          <description>The pay chest is taken into battle so that Paymaster Mydas can keep an eye on its whereabouts. Sheikh Yadosh, a wealthy Arabian moneylender who has accompanied Mydas since his days in Sartosa, is given the task of keeping the pay chest secure during battle. Placed on a light carriage ridden by Sheikh Yadosh, the pay chest inspires acts of heroism and bravery amongst mercenaries, hoping that by such acts they will be paid a bonus.
+
+The pay chest counts as a chariot in all respects, with the following exceptions. When the pay chest charges into combat, it inflicts only D3 impact hits. Also, any friendly units within 6&quot; of the pay chest may re-roll any failed Psychology tests. The pay chest has an armour save of 5+. The pay chest may act as a separate unit from Mydas and his bodyguard on the battlefield.</description>
+        </rule>
+        <rule id="a5ca-afe6-9490-f3c2" name="Paymaster" hidden="false">
+          <description>A Dogs of War army must include a Paymaster. The Paymaster may not be the army&apos;s General.
+
+The Paymaster is the man responsible for the cash which will be used to pay the army. He always carries with him the keys of the pay chest and that makes him at least as important as the General in the eyes of the mercenaries. To represent this, his key is treated exactly like a Battle Standard (+1 combat resolution, re-roll Break tests within 12&quot;, can be captured by the enemy if he&apos;s killed, etc). In addition, if the Paymaster is killed, every unit in the army must take a Panic test at the end of that phase. From that point on, every unit in the army will hate the enemy unit that captured the Paymaster&apos;s key.</description>
+        </rule>
+        <rule id="2841-8b2f-6330-0ade" name="Mydas&apos; Bodyguard" hidden="false">
+          <description>This bodyguard, made up of hand-picked galley slaves from pirate men-of-war, always accompanies Mydas the Mean. These bodyguards were freed from their former masters by a very generous portion of gold, and they are all deeply grateful for their freedom and are ferociously loyal to the Paymaster. All of these men are very large, muscular, bronzed and hardened by years of labour as oarsmen in a man-of-war.
+
+The following rules apply:
+
+The bodyguards must be at least 9 models strong, not including Mydas and Sheikh Yadosh. The points cost for the first 9 models are included in the points cost above. You may add up to 15 more models at 11 points, for each additional model.
+
+The Bodyguards are equipped with heavy armour, halberds, and hand weapons.
+
+The Bodyguards have a Standard Bearer and a Musician.
+
+The entire Bodyguard unit is stubborn as long as Paymaster Mydas is alive.
+
+No other character in the army may join Mydas&apos; Bodyguards.
+
+When setting up, deploy Mydas and his Bodyguards at the same time as other characters.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="18e3-c534-626a-8b31" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="87d1-deee-3e17-9ec1" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6a06-3c93-82d5-36a9" name="The Crest of Mydas" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="2daa-91bb-0417-2ad7" name="The Crest of Mydas" hidden="false">
+              <description>A priest of Myrmidia forged the runes on the Crest of Mydas. Mydas the Mean mounted this item onto the lock of his pay chest as a good luck charm. When he goes into battle his weapons and those of his men glow with a dull golden light. To represent this, every attack from this unit counts as magical, thus able to wound ethereal creatures and so on.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5e71-de8f-ebcb-9b05" name="Treasure Map" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="9df6-19a6-7bc6-ecb6" name="Treasure Map" hidden="false">
+              <description>Mydas has drawn a map to all of his hidden pay chests on the back of a piece of parchment inscribed with a number of Lizardman glyphs on the reverse side. The parchment contains a trust spell, which empowers the holder to be trusted by those who would otherwise do him harm.
+
+The map has different effects for each battle; roll a D6 to determine the effect.
+
+Treasure Map Chart
+
+| D6 | Result |
+| --- | --- |
+| 1-2 | Mydas&apos;s Bodyguards add + 1 to their combat resolution. |
+| 3-4 | Any friendly unit may use Mydas&apos;s Paymaster Battle Standard ability up to 18&quot; from Mydas instead of the normal 12&quot;. |
+| 5-6 | One friendly unit chosen at the start of the battle has a +1 to hit in close combat for the rest of the battle. |</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="126b-0343-8d32-06e7" name="Magic Items" hidden="false" collective="false" import="true">
       <modifiers>
