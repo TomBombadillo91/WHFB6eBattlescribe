@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="33" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="35" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <costTypes>
     <costType id="fada-3781-5bbe-4625" name=" Hull Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -5551,6 +5551,11 @@ The Engineers can fight normally against enemies in base contact with the Tank&a
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e070-e63d-0932-3669" type="equalTo"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="5577-9d91-a402-6ea6" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6330-3167-6079-da68" type="atLeast"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5577-9d91-a402-6ea6" type="max"/>
@@ -5782,6 +5787,11 @@ Gives a 4+ Ward save and Magic Resistance (3) to the Emperor and his mount. In a
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e070-e63d-0932-3669" type="equalTo"/>
                   </conditions>
                 </modifier>
+                <modifier type="set" field="1be3-d094-28ef-c1eb" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6330-3167-6079-da68" type="atLeast"/>
+                  </conditions>
+                </modifier>
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1be3-d094-28ef-c1eb" type="max"/>
@@ -5838,6 +5848,11 @@ Note: During the events known as the Storm of Chaos, Ghal Maraz is wielded by th
         <modifier type="set" field="b5a9-626a-1d8a-1267" value="0.0">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="99ae-40ac-02ca-ec85" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="b5a9-626a-1d8a-1267" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6330-3167-6079-da68" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -6191,6 +6206,84 @@ One use only. Before using a Prayer, a Priest of Ulric may declare he is using h
       </selectionEntry>
     </selectionEntries>
   </selectionEntry>
+    <selectionEntry id="6330-3167-6079-da68" name="Valten, Chosen of Sigmar" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="f481-93fd-9e36-8c19" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4b05-81f6-c401-7af5" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="f481-93fd-9e36-8c19" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="99ae-40ac-02ca-ec85" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f481-93fd-9e36-8c19" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="610e-c160-a376-7a91" name="Valten, Chosen of Sigmar" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">5</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c2d8-05ae-4f16-cdb7" name="Barded Warhorse" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">8 (7)</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">3</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ed25-5628-9a98-bede" name="Against the Odds" hidden="false" targetId="6e04-5c66-0414-a4b0" type="rule"/>
+        <infoLink id="6888-3ee7-3bee-1ab9" name="Awesome Presence" hidden="false" targetId="62a5-0dee-5986-cd3f" type="rule"/>
+        <infoLink id="bebd-3c5b-143a-fa7b" name="Iron Resolve" hidden="false" targetId="a611-96f8-d83e-1380" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9c53-2456-f6f3-95ce" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="9e4d-10e5-22b2-c68e" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="9d90-d90d-392d-841b" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="188b-b1f0-43df-1e4a" name="Two Additional Hero Choices" hidden="false" targetId="9dc5-bbce-5738-84e8" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a439-134a-23a0-9b64" name="Ghal Maraz" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="69d0-a014-0f20-d471" name="Ghal Maraz" hidden="false">
+              <description>The Hammer of Sigmar grants its wielder +2 Attacks. Any hits wound automatically and no Armour saves are allowed. Each unsaved wound becomes D3 wounds.
+
+Note: During the events known as the Storm of Chaos, Ghal Maraz is wielded by the Exalted of Sigmar; Valten. If Valten is in the same army as Karl Franz, the Emperor must be armed with his Runefang.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9890-8a18-5864-4ade" name="Full Plate Armour" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="490.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <rules>
     <rule id="bb8c-0886-553f-e858" name="Parent and Detachment Units" hidden="false">
