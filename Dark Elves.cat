@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b151-7d1c-4a96-e0d0" name="Dark Elves" revision="26" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b151-7d1c-4a96-e0d0" name="Dark Elves" revision="27" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7b32-9394-e778-467c" name="Poison" hidden="false"/>
     <categoryEntry id="16df-2ebd-e4f7-9984" name="Artifacts and Skills" hidden="false"/>
@@ -3781,9 +3781,6 @@ Chaos armour gives a 4+ armour save. It can be combined with other equipment as 
         </profile>
       </profiles>
       <rules>
-        <rule id="3506-1931-38a3-7a33" name="Special Character" hidden="false">
-          <description>Rakarth can be fielded in a Dark Elf army. He counts as a Lord choice and in addition takes up one of your Hero choices as well. He must be fielded exactly as described here and may not be given any additional equipment.</description>
-        </rule>
         <rule id="17a5-3d1b-abff-99e0" name="Beastlord" hidden="false">
           <description>Any friendly monster taking a Monster Reaction test within 12&quot; of Rakarth will always pass the required Leadership test. If the Beastlord is slain whilst riding his Black Dragon Bracchus, the Dragon does not need to take a Monster Reaction test and will fight on as normal.
 
@@ -3793,6 +3790,8 @@ In addition, a monster that is beaten in hand to hand combat by Rakarth is assum
       <categoryLinks>
         <categoryLink id="4c0a-d038-1a54-d755" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="9a4f-cb27-07ac-84ca" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="c09c-e889-30b6-b377" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="b23b-93b3-4c3b-967d" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f607-e2fd-c5e4-0bea" name="Whip of Agony" hidden="false" collective="false" import="true" type="upgrade">
@@ -3837,9 +3836,6 @@ In addition, a monster that is beaten in hand to hand combat by Rakarth is assum
         </profile>
       </profiles>
       <rules>
-        <rule id="c96c-39d0-2715-c658" name="Special Character" hidden="false">
-          <description>Shadowblade can be fielded in a Dark Elf army and counts as a Lord choice. He must be fielded exactly as described here and may not be given any additional equipment. Like all Assassins, he may not be the army&apos;s General.</description>
-        </rule>
         <rule id="6fb4-8d22-bfc6-99d8" name="Hidden (Dark Elves)" hidden="false">
           <description>If you wish, any Assassin in your army may start the game hidden in one of the following units: Witch Elves, Warriors, Corsairs, Executioners or Black Guard. Alternatively, he may deploy as a Scout.
 
@@ -3861,6 +3857,7 @@ At the start of each of the opposing army&apos;s turns, roll a D6. On a roll of 
       <categoryLinks>
         <categoryLink id="711a-25aa-411e-c305" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="86f5-2e4b-5e6b-25e4" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="cb18-4a36-f1c6-9218" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f292-4e2a-1bad-f75f" name="Heart of Woe" hidden="false" collective="false" import="true" type="upgrade">

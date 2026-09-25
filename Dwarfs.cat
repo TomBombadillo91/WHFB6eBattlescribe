@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="18" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="19" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="e0a8-8253-1a27-7620" name="Engineering Rune" hidden="false">
       <rules>
@@ -2211,6 +2211,8 @@ The Organ Gun requires a full crew of three Dwarfs to work it properly. If one c
       <categoryLinks>
         <categoryLink id="1e8b-7caf-3d40-9c72" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="781c-c42e-e28e-d1d0" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="f8f7-89ae-bdb6-e701" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="0a9c-2c9c-8a69-cd5e" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b379-4d84-2444-8970" name="Axe of Retribution" hidden="false" collective="false" import="true" type="upgrade">
@@ -2275,6 +2277,13 @@ In battle, this has the effect of allowing friendly units within 12&quot; of Kin
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="a0e9-fc8d-122b-8961" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f173-318d-3308-7d32" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="425.0"/>
       </costs>
@@ -2296,9 +2305,6 @@ In battle, this has the effect of allowing friendly units within 12&quot; of Kin
         </profile>
       </profiles>
       <rules>
-        <rule id="cb84-b6bf-ec1b-44b6" name="Special Character" hidden="false">
-          <description>Ungrim Ironfist is the Slayer King and can be fielded in a Dwarf army. He counts as a Lord choice and in addition takes up one of your Hero choices as well. He must be fielded exactly as described here and may not be given any additional equipment. He must be the army&apos;s General if taken.</description>
-        </rule>
         <rule id="8243-e583-562e-3039" name="Slayer King" hidden="false">
           <description>As Slayer King, Ungrim is bound by the Slayer Oath. He benefits from the Slayer special rule  Hates Greenskins and is Unbreakable. The other Slayer rules do not apply.</description>
         </rule>
@@ -2311,6 +2317,8 @@ In battle, this has the effect of allowing friendly units within 12&quot; of Kin
       <categoryLinks>
         <categoryLink id="5c79-5529-a2ae-0ebc" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="232e-9928-d616-3876" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="6703-92fc-c113-ac4e" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="e3d4-fc0b-56c2-c1eb" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3839-85f7-fa2b-41f6" name="Axe of Dargo" hidden="false" collective="false" import="true" type="upgrade">
@@ -2344,6 +2352,13 @@ In battle, this has the effect of allowing friendly units within 12&quot; of Kin
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="4105-3992-54c0-1694" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a3e-f7ae-58c2-88af" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="465.0"/>
       </costs>
@@ -2378,11 +2393,6 @@ In battle, this has the effect of allowing friendly units within 12&quot; of Kin
         </profile>
       </profiles>
       <rules>
-        <rule id="816e-ddd8-f883-1e8d" name="Special Character" hidden="false">
-          <description>Thorek Ironbrow counts as a Lord choice and in addition takes up one of your Hero choices as well.
-
-Thorek is accompanied by his apprentice Kraggi and by the Anvil of Doom; Kraggi is not a separate character and is included in Thorek&apos;s cost.</description>
-        </rule>
         <rule id="2a4a-4ae1-5ee5-61be" name="Assistant at the Forge" hidden="false">
           <description>Kraggi. the best of Thorek&apos; assistants, accompanies him to battle and helps him by preparing some of the runes. Most of the time this is a big help and speeds things up, but occasionally his lack of experience (he&apos;s hardly been smithing a century) lets him down and he makes a mistake.
 
@@ -2400,6 +2410,8 @@ While Kraggi is alive Thorek gains one extra dice per turn to cast runes with. H
       <categoryLinks>
         <categoryLink id="63d4-f19d-be20-ce1e" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="7e65-52f0-c3b9-1355" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="46e6-a8c0-a5ac-415e" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="7b25-1c17-b8eb-b680" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3ccd-e9ad-d65e-8627" name="Klad Brakak" hidden="false" collective="false" import="true" type="upgrade">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="33" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="34" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="e8a8-d83e-c60c-3ad0" name="Hordes of Chaos"/>
     <publication id="dc3a-2511-d23a-deb3" name="Beasts of Chaos"/>
@@ -5993,9 +5993,6 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
         </profile>
       </profiles>
       <rules>
-        <rule id="bc2b-7f4d-a9fb-d660" name="Special Character" hidden="false">
-          <description>Crom is a Lord choice and if taken must always be your army General. He must be used exactly as presented here and may not be given additional equipment.</description>
-        </rule>
         <rule id="01e7-7448-c94f-7f24" name="Master of Chaos Undivided" hidden="false">
           <description>Undivided, and the vast majority of his troops celebrate Chaos in its purest, undiluted form. An army led by Crom the Conqueror has the following special rules:
 
@@ -6022,7 +6019,15 @@ Crom uses his shield expertly, forcing his opponent back and blocking any attemp
       <categoryLinks>
         <categoryLink id="543f-c92a-8f4a-7068" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="b365-c9db-6c61-8332" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="1136-4ae8-7d3d-323e" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="2a31-45f9-0e65-c718" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13f1-c1a0-9bdd-e8c5" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="230.0"/>
       </costs>
