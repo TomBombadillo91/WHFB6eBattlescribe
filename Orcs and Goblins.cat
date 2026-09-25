@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9534-aec7-1922-76f2" name="Orcs and Goblins" revision="36" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9534-aec7-1922-76f2" name="Orcs and Goblins" revision="37" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5b0c-07f2-6b72-7aa8" name="Orc" hidden="false"/>
     <categoryEntry id="2c47-226a-5465-6c16" name="Common Orc" hidden="false"/>
@@ -4969,13 +4969,11 @@ score a hit regardless of how slimy he is.</description>
         <rule id="f0c6-efc9-e904-7a82" name="Awesome Fighter" hidden="false">
           <description>Grimgor fights with a bloodthirsty and merciless efficiency that is all but unstoppable. Consequently, if Grimgor is still alive at the end of a close combat round in which he fought, add +2 to the combat resolution of his unit in addition to all normal bonuses. However, if this bonus applies then such is his foes&apos; rush to put as much distance as possible between themselves and the rampaging monster, that enemy units which do break and flee will move 3D6&quot; regardless of their normal Movement rate. If they fail to rally, subsequent flee moves will be at their normal rate.</description>
         </rule>
-        <rule id="5bf2-e38b-88bb-7958" name="He&apos;s da Boss" hidden="false">
-          <description>This model must be your General, regardless of the Leadership value of any other characters in your army.</description>
-        </rule>
       </rules>
       <infoLinks>
         <infoLink id="8c55-b428-6444-43e6" name="Ignore Greenskin Panic" hidden="false" targetId="e016-5778-ae98-4d68" type="rule"/>
         <infoLink id="13d2-f398-6783-b575" name="Quell Animosity" hidden="false" targetId="54d8-2a0c-e609-a983" type="rule"/>
+        <infoLink id="04b8-bdfe-0746-0e9b" name="He&apos;s da Boss" hidden="false" targetId="91df-eb32-b4e1-6b86" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="393d-492d-2355-6a17" name="Black Orc" hidden="false" targetId="91f1-50bd-0c9c-e22c" primary="false"/>
@@ -6152,10 +6150,10 @@ Treat the Prodder&apos;s blasts as bound spells with a power level of 3. Each bl
             <rule id="5975-0c61-1c14-033e" name="Slagga&apos;s Sword of Slashin&apos;" hidden="false">
               <description>The Sword confers +1 Strength to all close combat Attacks made by Azhag the Slaughterer. In addition, no armour saves are allowed against wounds caused by the Sword of Slashin&apos;</description>
             </rule>
-            <rule id="dd54-60e2-29f4-0d72" name="He&apos;s da Boss" hidden="false">
-              <description>This model must be your General, regardless of the Leadership value of any other characters in your army.</description>
-            </rule>
           </rules>
+          <infoLinks>
+            <infoLink id="2732-798f-5d5b-c5ea" name="He&apos;s da Boss" hidden="false" targetId="91df-eb32-b4e1-6b86" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -8023,6 +8021,9 @@ At the end of the Start of the Turn phase in each of your turns you must test fo
     </rule>
     <rule id="4ede-d695-8f38-4b1e" name="Thick Skinned" hidden="false">
       <description>Models with this special have thick scaly skin or hide, which acts like armour and makes them difficult to injure. A model riding a creature with this special rules counts +2 to his Armour save instead of the normal +1 for being mounted.</description>
+    </rule>
+    <rule id="91df-eb32-b4e1-6b86" name="He&apos;s da Boss" hidden="false">
+      <description>This model must be your General, regardless of the Leadership value of any other characters in your army.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

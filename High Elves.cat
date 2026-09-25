@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="27" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="29" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="3f17-868d-fac0-4c8d" name="First Among Equals" hidden="false">
       <constraints>
@@ -2041,11 +2041,6 @@ If using the multiple shots option then the Repeater Bolt Thrower shoots six bol
         </profile>
       </profiles>
       <rules>
-        <rule id="ed4c-5e8a-23e9-3603" name="Intrigue at Court" hidden="false">
-          <description>Though they are loyal to a fault, High Elves love intrigue and politics. Unfortunately, this sometimes means that their armies are trusted to the care of individuals on the basis of the political faction they follow rather than their ability to lead.
-
-The army&apos;s General is determined randomly. Before deployment, line up the character models and roll a dice. Count this number along the line - this is your General. If you roll over the number of characters in the army then the General is selected as normal instead. If you have six or more characters, choose five of them to line up, and then roll as above.</description>
-        </rule>
         <rule id="1867-5e10-2217-f41a" name="Riposte" hidden="false">
           <description>Tyrion is an expert at turning aside his foes&apos; attacks, avoiding their blows and counter-attacking before they can react.
 
@@ -2066,9 +2061,6 @@ In battle Malhandir counts as a monster. Malhandir wears barding which gives him
         </rule>
         <rule id="a8e4-6125-799a-5044" name="Champion of Ulthuan" hidden="false">
           <description>Tyrion is always the army&apos;s General. This overrides Intrigue at Court: the General is not determined randomly in an army that includes him.</description>
-        </rule>
-        <rule id="cd96-3860-7785-0230" name="Stoic" hidden="false">
-          <description>When fighting against a Dark Elf army, all High Elves are immune to Panic.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -2168,17 +2160,6 @@ If Tyrion is slain, the Heart bursts into a thousand pieces in a flash of dazzli
         </profile>
       </profiles>
       <rules>
-        <rule id="9812-b78a-3c2f-7961" name="Intrigue at Court" hidden="false">
-          <description>Though they are loyal to a fault, High Elves love intrigue and politics. Unfortunately, this sometimes means that their armies are trusted to the care of individuals on the basis of the political faction they follow rather than their ability to lead.
-
-The army&apos;s General is determined randomly. Before deployment, line up the character models and roll a dice. Count this number along the line - this is your General. If you roll over the number of characters in the army then the General is selected as normal instead. If you have six or more characters, choose five of them to line up, and then roll as above.</description>
-        </rule>
-        <rule id="c818-6e8a-aab0-db34" name="High Elf Mages" hidden="false">
-          <description>High Elves are far better attuned to the ebb and flow of the winds of magic than other races and can sense dangerous changes almost before they happen.
-
-High Elf Mages get +1 to each attempt to dispel. 
-Note that this bonus is not cumulative for having more than one High Elf Mage, so an army with two High Elf Mages will still only get +1 to dispel from this source. However, this bonus may still be combined with magic items as normal.</description>
-        </rule>
         <rule id="8436-3d57-7f26-b4ba" name="High Mage" hidden="false">
           <description>Alarielle follows all the rules for a High Mage. In addition, she knows all of the High Magic spells, and also all of the spells from the Lore of Life and may use either or both in the Magic phase.</description>
         </rule>
@@ -2198,10 +2179,10 @@ Alarielle always strikes first in close combat. If an enemy also has this abilit
         <rule id="905b-2907-aa52-b303" name="The Everqueen" hidden="false">
           <description>If her Handmaidens are included in the army Alarielle must lead the unit, and cannot voluntarily leave it.</description>
         </rule>
-        <rule id="ff86-5ed3-cafc-8db1" name="Stoic" hidden="false">
-          <description>When fighting against a Dark Elf army, all High Elves are immune to Panic.</description>
-        </rule>
       </rules>
+      <infoLinks>
+        <infoLink id="2635-11f5-2c30-3b52" name="High Elf Mages" hidden="false" targetId="a50a-7b68-d0f2-8f95" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="c310-8469-6df9-670b" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="fe1b-9686-278f-5832" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
@@ -2374,11 +2355,6 @@ Unleashing his speed and strength in a flurry of blistering attacks, Eltharion r
         </profile>
       </profiles>
       <rules>
-        <rule id="fde0-8d07-bceb-4d9f" name="Intrigue at Court" hidden="false">
-          <description>Though they are loyal to a fault, High Elves love intrigue and politics. Unfortunately, this sometimes means that their armies are trusted to the care of individuals on the basis of the political faction they follow rather than their ability to lead.
-
-The army&apos;s General is determined randomly. Before deployment, line up the character models and roll a dice. Count this number along the line - this is your General. If you roll over the number of characters in the army then the General is selected as normal instead. If you have six or more characters, choose five of them to line up, and then roll as above.</description>
-        </rule>
         <rule id="c81b-08e7-92c5-da84" name="Dragonkin" hidden="false">
           <description>For millennia lmrik has learnt the lore and languages of dragons. He has walked the deep caves where the great beats sleep and dream, and even the most proud and mighty firedrakes obey his every word.
 
@@ -2393,9 +2369,6 @@ In battle it is used as any other Breath Weapon. Those hit by it suffer a Streng
           <description>Imrik rides the majestic dragon Minaithnir. They have a mutual bond between them - the last of the true Dragon Princes, and one of the last of the dragons.
 
 Minaithnir is fanatically loyal to his  master. If lmrik is slain, Minaithnir will become subject to the rules for frenzy, but will otherwise remain under the control of the High Elf player. Note also that Minaithnir&apos;s profile is better than normal Dragons.</description>
-        </rule>
-        <rule id="f198-4834-634b-d7e0" name="Stoic" hidden="false">
-          <description>When fighting against a Dark Elf army, all High Elves are immune to Panic.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2503,17 +2476,6 @@ Once per battle, at the start of any of his own turns, lmrik may sound the Drago
         </profile>
       </profiles>
       <rules>
-        <rule id="1633-cfaf-1b6a-9935" name="Intrigue at Court" hidden="false">
-          <description>Though they are loyal to a fault, High Elves love intrigue and politics. Unfortunately, this sometimes means that their armies are trusted to the care of individuals on the basis of the political faction they follow rather than their ability to lead.
-
-The army&apos;s General is determined randomly. Before deployment, line up the character models and roll a dice. Count this number along the line - this is your General. If you roll over the number of characters in the army then the General is selected as normal instead. If you have six or more characters, choose five of them to line up, and then roll as above.</description>
-        </rule>
-        <rule id="219e-6416-3859-d931" name="High Elf Mages" hidden="false">
-          <description>High Elves are far better attuned to the ebb and flow of the winds of magic than other races and can sense dangerous changes almost before they happen.
-
-High Elf Mages get +1 to each attempt to dispel. 
-Note that this bonus is not cumulative for having more than one High Elf Mage, so an army with two High Elf Mages will still only get +1 to dispel from this source. However, this bonus may still be combined with magic items as normal.</description>
-        </rule>
         <rule id="c14a-812e-655b-1e05" name="High Loremaster" hidden="false">
           <description>Teclis is the most powerful mage in this age of the world. He is master of the foremost mages of the High Elves and has studied in their secret libraries for more than an entire human lifetime.
 
@@ -2539,10 +2501,10 @@ Note, however, that the number of Wounds on the profiles refers to starting Woun
 
 As soon as Teclis is reduced to 1 Wound he gets a 2+ Ward save for the rest of the battle. Note that if an attack will inflict multiple wounds, for example a cannon ball, then Teclis will only get this special Ward save if he has already been reduced to 1 Wound before he is hit.</description>
         </rule>
-        <rule id="9353-a4d0-680f-234d" name="Stoic" hidden="false">
-          <description>When fighting against a Dark Elf army, all High Elves are immune to Panic.</description>
-        </rule>
       </rules>
+      <infoLinks>
+        <infoLink id="f1c9-3863-266b-5009" name="High Elf Mages" hidden="false" targetId="a50a-7b68-d0f2-8f95" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="32e0-38a9-841f-f69e" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="6819-9171-58dd-aa9b" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
@@ -2628,9 +2590,6 @@ When the enemy casts a spell, Teclis may read the Scroll of Hoeth aloud as he mi
 Ten Handmaidens, including the unit&apos;s Champion, Musician and Standard Bearer, cost 300 points. This is the minimum size of the unit; extra Handmaidens can be added at +20 points per model.
 
 If Alarielle is with her Handmaidens then the whole unit becomes Unbreakable.</description>
-        </rule>
-        <rule id="d0b3-e025-eab4-1826" name="Stoic" hidden="false">
-          <description>When fighting against a Dark Elf army, all High Elves are immune to Panic.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2809,7 +2768,7 @@ Once per battle, at the beginning of any High Elf Shooting phase or of any Close
     <rule id="278c-a80d-b3aa-e8aa" name="Stoic" hidden="false">
       <description>When fighting against a Dark Elf army, all High Elves are immune to Panic.</description>
     </rule>
-    <rule id="0122-3877-a6b3-7fe3" name="Intruige at Court" hidden="false">
+    <rule id="0122-3877-a6b3-7fe3" name="Intrigue at Court" hidden="false">
       <description>The army&apos;s General is determined randomly. Before deployment, line up the character models and roll a dice. Count this number along the line - this is your General. If you roll over the number of characters in the army then the General is selected as normal instead. If you have six or more characters, choose five of them to line up, and then roll as above.</description>
     </rule>
   </rules>
@@ -4552,6 +4511,12 @@ The model is immune to all breath attacks, and any fire-based attack (including 
     </rule>
     <rule id="eee4-1f3b-1339-bd99" name="Swordmaster" hidden="false">
       <description>The character is equipped with a great weapon and may not take a magic weapon. Instead of striking last in any turn he does not charge, the character will strike in Initiative order. The character also has the Killing Blow special rule.</description>
+    </rule>
+    <rule id="a50a-7b68-d0f2-8f95" name="High Elf Mages" hidden="false">
+      <description>High Elves are far better attuned to the ebb and flow of the winds of magic than other races and can sense dangerous changes almost before they happen.
+
+High Elf Mages get +1 to each attempt to dispel. 
+Note that this bonus is not cumulative for having more than one High Elf Mage, so an army with two High Elf Mages will still only get +1 to dispel from this source. However, this bonus may still be combined with magic items as normal.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

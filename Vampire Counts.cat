@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2c0-45b3-040e-fe0f" name="Vampire Counts" revision="26" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2c0-45b3-040e-fe0f" name="Vampire Counts" revision="27" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7d18-159a-be52-079b" name="Vampire" hidden="false"/>
     <categoryEntry id="72bd-3327-881f-a995" name="Von Carstein" hidden="false"/>
@@ -1664,110 +1664,15 @@ Models with this special rule resolve their attacks at Strength 4 during the tur
         </profile>
       </profiles>
       <rules>
-        <rule id="29ae-404c-f751-66c1" name="Undead (Vampire Counts)" hidden="false">
-          <description>All models mentioned in the Vampire Counts Armies book are Undead, with the exception of Ghouls and Bat Swarms which are alive and follow the normal Warhammer rules (eg, they can use the General&apos;s Leadership, re-roll Break tests if the Battle Standard is within 12&quot;, etc)
-
-Note that the Undead special rules for Vampire Counts armies are slightly different from those for the Tomb Kings armies due to the differences in the magic animating them.
-
-All Undead have the following special rules:
-
-## The General
-
-The army must include at least one Wizard (ie, a model with the entry &apos;Magic&apos; in its army list box) who will be the army&apos;s General If the army includes more than one Wizard, the one with the highest Leadership will be the General. In the case of two or more characters having the same Leadership, the player can decide. Remember to tell your opponent which model is the General at the beginning of the battle.
-
-If the General is destroyed, the Undead in the army will start to slowly crumble to dust. To represent this, at the end of the phase when the General is killed and at the beginning of every Undead turn thereafter, all Undead units on the battlefield must take a Leadership test. If the test is failed, the unit suffers a number of wounds equal to the number they failed the Leadership test by. No saves of any kind (not even Ward saves) are allowed against such wounds. Eg, a unit of Skeletons (Ld 3) takes the test and rolls a 7: the unit suffers 4 wounds (7-3=4). Characters never suffer wounds because of a destroyed General. Units can use the Leadership of a character leading the unit for this test, as normal. Winged Nightmares and Zombie Dragons do have to take this test, but can use their rider&apos;s Leadership. Note that if the General is taken below one Wound, but manages to regenerate enough Wounds to come back, this rule does not apply. The General has to be dead (ie, removed from the table) for this rule to take effect.
-
-## Break Tests
-
-Undead cannot be broken, but Undead units beaten in combat suffer one additional wound for every point they lose the combat by (no saves of any kind, not even Regeneration or Ward saves, are allowed against such wounds). If characters are present in the unit, or if they are riding a monster, the controlling player can decide how to allocate the wounds among the unit, the monster and the characters. In multiple combats, each Undead unit on the losing side suffers one additional wound for every point their side has lost the combat by. If an Undead unit is wiped out by combat resolution in the first turn of a combat, the enemy gets the option to make an overrun move as normal.
-
-## Battle Standard
-
-Undead that are within 12&quot; of their Battle Standard suffer one less wound than they normally would when defeated in combat. Eg, a unit of Skeletons loses a combat by 3. They should lose three extra Skeletons but because the Battle Standard is within 12&quot; they only lose two extra models.
-
-## Immune to Psychology
-
-Undead are Immune to Psychology.
-
-## Charge Reactions
-
-Undead can react to charges only by holding their ground.
-
-## Marching
-
-Undead cannot make a march move unless they are characters or are within 12&quot; of the General at the start of their Movement phase. Note that all the normal rules for marching will apply (for example, the presence of the enemy within 8&quot; still stops them from marching, etc).
-
-## Cause Fear
-
-Undead cause fear.</description>
-        </rule>
         <rule id="aad0-2f01-c94b-fd01" name="Walking Death (Vlad von Carstein)" hidden="false">
           <description>Vlad&apos;s Walking Death is a +2 combat resolution instead of the normal +1!</description>
         </rule>
-        <rule id="b5c8-b691-4cbc-2c28" name="Undying Love" hidden="false">
-          <description>If Isabella is killed, Vlad will be overcome by grief and go into a berserk fury. For the rest of the battle he will be subject to both hatred and frenzy. If Vlad is killed then exactly the same special rules apply to Isabella: ie, she becomes subject to frenzy and hatred.</description>
-        </rule>
-        <rule id="4b17-d209-fdd3-5553" name="Necromancy" hidden="false">
-          <description>1. Invocation of Nehek
-Casting Value: 3+
-Buried deep within the earth of the Old World lie the bones of those who have fallen in countless battles. Undead wizard can awaken these warriors from their rest to serve him in an unholy afterlife.
-
-This spell can be used in three different ways - to add models to an existing unit, to create a new unit or to restore lost Wounds to a model. In all cases, it has a range of 18&quot;. The caster must declare if he is using the spell on an existing unit (declare target unit), to create a new unit (declare whether Zombies or Skeletons) or to restore lost Wounds (declare target model), as well as the Casting Value he is attempting (3+, 7+ or 11+), before he rolls the dice to cast.
-
-The higher the Casting Value chosen, the more effective will be the result of the spell if cast successfully (see below).
-
-Note that this spell can be cast only once per Magic phase, as normal, and not once per Casting Value.
-
-- Can be cast to add new models to an existing unit of Zombies or Skeletons. If successfully cast, choose one unit of Zombies or Skeletons (even if engaged in close combat) and then measure the range to it. If the unit is in range, the spell adds D6/2D6/3D6 models to the unit (add +1 per dice for Zombies), depending on the Difficulty Level chosen (see the table below). The new models will be armed and equipped exactly like the other models in the unit. Note that this can take the number of models in the unit above the maximum allowed in the army list. The Victory points value of the unit does not change.
-- Can be cast to create a new unit of Zombies or Skeletons. If successfully cast, choose any point within 18&quot; and place one model on it. Then form the rest of the models around it. The new unit will consist of D6/2D6/3D6 models (add +1 per dice for Zombies), depending on the Casting Value chosen (see the table below). Skeletons will be armed with a hand weapon and shield. Zombies will be armed with a hand weapon. If less than five models are created, the spell has failed to work and no models can be placed on the table. Units created in this way must be deployed at least 1&quot; away from any enemy, but may be in any formation and facing any direction. Immediately calculate the Victory points value of the new unit (at 6 points per Zombie or 8 points per Skeleton) and record it straight away.
-- Can be cast to restore lost Wounds to an Undead model with multiple Wounds on its profile. If successfully cast, choose one Undead model (even if engaged in close combat) and then measure the range to it. If the model is in range, the spell restores 1/2/3 Wounds to the target, depending on the Casting Value chosen, (see the table below). This spell cannot be used to take the Wounds of the model above the number it started the game with.
-
-Casting Value	Models Created	Wounds Restored
-3+	D6 Skeletons or D6+1 Zombies	1 Wound
-7+	2D6 Skeletons or 2D6+2 Zombies	2 Wounds
-11+	3D6 Skeletons or 3D6+3 Zombies	3 Wounds
-
-2. Hand of Dust
-Casting Value: 7+
-The Undead has the ability to cause anything he touches to age centuries within a second. As he grips his opponent tightly, the victim and all his possessions are instantly turned to dust which is scattered by the wind of ages.
-
-Remains in play. This spell can be cast by the Wizard on himself. It can be cast even if the Wizard is in close combat. Once it has been cast, the spell lasts until it is dispelled, or until the Wizard decides to end it (which he can do at any time), attempts to cast another spell or is slain.
-
-Whilst the spell is in play, the caster is reduced to a single Attack in close combat. If this attack hits, the enemy is killed automatically, with no armour saves allowed (this works exactly like a Killing Blow attack, with the only difference being that it can affect models of any size). The enemy can take a Ward save, if he has any, but if the wound is not saved the model is dead.
-
-3. Hellish Vigour
-Casting Value: 7+
-The Undead concentrates on animating the creatures under his control. They attack with such speed and ferocity that few can defend against their flurry of blows.
-
-Target one of your own Undead units within 18&quot; and which is in close combat. In the next Close Combat phase all models in the unit attacks first, even if they have been charged, are armed with Great Weapons and so on (even Zombies! This is the only exception to the Braindead rule), and can re-roll any missed To Hit rolls.
-
-4. Gaze of Nagash
-Casting Value: 8+
-Bolts of Dark Magic leap from the Undead spellcaster&apos;s eyes. Where the beams touch the victims flesh, their skin blackens and withers, sloughing away till the white gleam of bone is visible beneath.
-
-This is a magic missile with a range of 24&quot;. If successfully cast, the Gaze of Nagash hits its target and causes 2D6 Strength 4 hits.
-
-5. Vanhel&apos;s Danse Macabre
-Casting Value: 9+
-The Undead are filled with an unholy magical energy that causes them to stride across the battlefield with a speed that even most mortals are unable to match.
-
-This spell can be cast on a friendly Undead unit that is within 18&quot;, and which is not already engaged in close combat. The unit can immediately make a move of up to 8&quot; in the same way as a normal move made in the Movement phase (it can wheel, turn, change formation or even reform).
-
-The unit can charge an enemy within 8&quot; if opportunity permits and the same rules apply as for a normal charge (except that if the charge is failed the Undead will still move the full 8&quot;). A unit that is charged by means of Vanhel&apos;s Danse Macabre can react to the charge as normal and must take the appropriate Psychology tests.
-
-6. Curse of Years
-Casting Value: 10+
-The enemies of the Undead feel their limbs become heavy and their hair turns grey. They collapse, unable to support themselves as death catches up with them.
-
-Remains in play. The Curse of Years can be cast on any one unengaged enemy unit within 24&quot;.
-
-If successfully cast, the enemy swiftly starts to age. Roll a dice for each model in the affected unit. A model will suffer a wound on the roll of a 6+. No armour saves are allowed.
-
-Once it has been cast, the spell remains in play. It lasts until it is dispelled, or until the Wizard decides to end it (which he can do at any time), attempts to cast another spell or is slain. If not dispelled, at the beginning of the caster&apos;s next Magic phase, models in the affected unit suffer a wound on a 5+. In the caster&apos;s next Magic phase they will suffer a wound on a 4+ and so on, to a minimum of 2+. No armour saves are allowed.
-
-Characters who are part of a unit affected by this spell stop suffering from its effects if they leave the unit.</description>
-        </rule>
       </rules>
+      <infoLinks>
+        <infoLink id="d677-707e-614b-fe84" name="Necromancy" hidden="false" targetId="098a-81e9-8e39-dbcc" type="rule"/>
+        <infoLink id="5ca6-12f3-114b-bbaa" name="Undead (Vampire Counts)" hidden="false" targetId="0606-f560-7f2e-30e9" type="rule"/>
+        <infoLink id="5eec-66ed-b4fd-a26f" name="Undying Love" hidden="false" targetId="f2c1-cbde-3a2e-92cd" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="02f9-144f-8331-f392" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="5804-c4eb-7ab4-9540" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
@@ -1927,47 +1832,11 @@ Army of Sylvania only. This Vampire may use the spell Invocation of Nehek to add
             <rule id="0e2c-2ec8-c818-999b" name="Scaffold - points needed" hidden="false">
               <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
             </rule>
-            <rule id="b44d-7e63-65d5-dd52" name="Undead (Vampire Counts)" hidden="false">
-              <description>All models mentioned in the Vampire Counts Armies book are Undead, with the exception of Ghouls and Bat Swarms which are alive and follow the normal Warhammer rules (eg, they can use the General&apos;s Leadership, re-roll Break tests if the Battle Standard is within 12&quot;, etc)
-
-Note that the Undead special rules for Vampire Counts armies are slightly different from those for the Tomb Kings armies due to the differences in the magic animating them.
-
-All Undead have the following special rules:
-
-## The General
-
-The army must include at least one Wizard (ie, a model with the entry &apos;Magic&apos; in its army list box) who will be the army&apos;s General If the army includes more than one Wizard, the one with the highest Leadership will be the General. In the case of two or more characters having the same Leadership, the player can decide. Remember to tell your opponent which model is the General at the beginning of the battle.
-
-If the General is destroyed, the Undead in the army will start to slowly crumble to dust. To represent this, at the end of the phase when the General is killed and at the beginning of every Undead turn thereafter, all Undead units on the battlefield must take a Leadership test. If the test is failed, the unit suffers a number of wounds equal to the number they failed the Leadership test by. No saves of any kind (not even Ward saves) are allowed against such wounds. Eg, a unit of Skeletons (Ld 3) takes the test and rolls a 7: the unit suffers 4 wounds (7-3=4). Characters never suffer wounds because of a destroyed General. Units can use the Leadership of a character leading the unit for this test, as normal. Winged Nightmares and Zombie Dragons do have to take this test, but can use their rider&apos;s Leadership. Note that if the General is taken below one Wound, but manages to regenerate enough Wounds to come back, this rule does not apply. The General has to be dead (ie, removed from the table) for this rule to take effect.
-
-## Break Tests
-
-Undead cannot be broken, but Undead units beaten in combat suffer one additional wound for every point they lose the combat by (no saves of any kind, not even Regeneration or Ward saves, are allowed against such wounds). If characters are present in the unit, or if they are riding a monster, the controlling player can decide how to allocate the wounds among the unit, the monster and the characters. In multiple combats, each Undead unit on the losing side suffers one additional wound for every point their side has lost the combat by. If an Undead unit is wiped out by combat resolution in the first turn of a combat, the enemy gets the option to make an overrun move as normal.
-
-## Battle Standard
-
-Undead that are within 12&quot; of their Battle Standard suffer one less wound than they normally would when defeated in combat. Eg, a unit of Skeletons loses a combat by 3. They should lose three extra Skeletons but because the Battle Standard is within 12&quot; they only lose two extra models.
-
-## Immune to Psychology
-
-Undead are Immune to Psychology.
-
-## Charge Reactions
-
-Undead can react to charges only by holding their ground.
-
-## Marching
-
-Undead cannot make a march move unless they are characters or are within 12&quot; of the General at the start of their Movement phase. Note that all the normal rules for marching will apply (for example, the presence of the enemy within 8&quot; still stops them from marching, etc).
-
-## Cause Fear
-
-Undead cause fear.</description>
-            </rule>
-            <rule id="328c-d21e-f7e0-2654" name="Undying Love" hidden="false">
-              <description>If Isabella is killed, Vlad will be overcome by grief and go into a berserk fury. For the rest of the battle he will be subject to both hatred and frenzy. If Vlad is killed then exactly the same special rules apply to Isabella: ie, she becomes subject to frenzy and hatred.</description>
-            </rule>
           </rules>
+          <infoLinks>
+            <infoLink id="794c-4e0a-6fa1-dca2" name="Undead (Vampire Counts)" hidden="false" targetId="0606-f560-7f2e-30e9" type="rule"/>
+            <infoLink id="2178-b060-e2ab-1bb5" name="Undying Love" hidden="false" targetId="f2c1-cbde-3a2e-92cd" type="rule"/>
+          </infoLinks>
           <categoryLinks>
             <categoryLink id="a83a-378c-918d-bd41" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
             <categoryLink id="c837-3690-adff-6cc5" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
@@ -2049,105 +1918,10 @@ At the beginning of the Close Combat phase select one model in base contact with
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="e0b9-0779-27ce-afc0" name="Undead (Vampire Counts)" hidden="false">
-          <description>All models mentioned in the Vampire Counts Armies book are Undead, with the exception of Ghouls and Bat Swarms which are alive and follow the normal Warhammer rules (eg, they can use the General&apos;s Leadership, re-roll Break tests if the Battle Standard is within 12&quot;, etc)
-
-Note that the Undead special rules for Vampire Counts armies are slightly different from those for the Tomb Kings armies due to the differences in the magic animating them.
-
-All Undead have the following special rules:
-
-## The General
-
-The army must include at least one Wizard (ie, a model with the entry &apos;Magic&apos; in its army list box) who will be the army&apos;s General If the army includes more than one Wizard, the one with the highest Leadership will be the General. In the case of two or more characters having the same Leadership, the player can decide. Remember to tell your opponent which model is the General at the beginning of the battle.
-
-If the General is destroyed, the Undead in the army will start to slowly crumble to dust. To represent this, at the end of the phase when the General is killed and at the beginning of every Undead turn thereafter, all Undead units on the battlefield must take a Leadership test. If the test is failed, the unit suffers a number of wounds equal to the number they failed the Leadership test by. No saves of any kind (not even Ward saves) are allowed against such wounds. Eg, a unit of Skeletons (Ld 3) takes the test and rolls a 7: the unit suffers 4 wounds (7-3=4). Characters never suffer wounds because of a destroyed General. Units can use the Leadership of a character leading the unit for this test, as normal. Winged Nightmares and Zombie Dragons do have to take this test, but can use their rider&apos;s Leadership. Note that if the General is taken below one Wound, but manages to regenerate enough Wounds to come back, this rule does not apply. The General has to be dead (ie, removed from the table) for this rule to take effect.
-
-## Break Tests
-
-Undead cannot be broken, but Undead units beaten in combat suffer one additional wound for every point they lose the combat by (no saves of any kind, not even Regeneration or Ward saves, are allowed against such wounds). If characters are present in the unit, or if they are riding a monster, the controlling player can decide how to allocate the wounds among the unit, the monster and the characters. In multiple combats, each Undead unit on the losing side suffers one additional wound for every point their side has lost the combat by. If an Undead unit is wiped out by combat resolution in the first turn of a combat, the enemy gets the option to make an overrun move as normal.
-
-## Battle Standard
-
-Undead that are within 12&quot; of their Battle Standard suffer one less wound than they normally would when defeated in combat. Eg, a unit of Skeletons loses a combat by 3. They should lose three extra Skeletons but because the Battle Standard is within 12&quot; they only lose two extra models.
-
-## Immune to Psychology
-
-Undead are Immune to Psychology.
-
-## Charge Reactions
-
-Undead can react to charges only by holding their ground.
-
-## Marching
-
-Undead cannot make a march move unless they are characters or are within 12&quot; of the General at the start of their Movement phase. Note that all the normal rules for marching will apply (for example, the presence of the enemy within 8&quot; still stops them from marching, etc).
-
-## Cause Fear
-
-Undead cause fear.</description>
-        </rule>
-        <rule id="54dc-122e-1e3a-63a2" name="Necromancy" hidden="false">
-          <description>1. Invocation of Nehek
-Casting Value: 3+
-Buried deep within the earth of the Old World lie the bones of those who have fallen in countless battles. Undead wizard can awaken these warriors from their rest to serve him in an unholy afterlife.
-
-This spell can be used in three different ways - to add models to an existing unit, to create a new unit or to restore lost Wounds to a model. In all cases, it has a range of 18&quot;. The caster must declare if he is using the spell on an existing unit (declare target unit), to create a new unit (declare whether Zombies or Skeletons) or to restore lost Wounds (declare target model), as well as the Casting Value he is attempting (3+, 7+ or 11+), before he rolls the dice to cast.
-
-The higher the Casting Value chosen, the more effective will be the result of the spell if cast successfully (see below).
-
-Note that this spell can be cast only once per Magic phase, as normal, and not once per Casting Value.
-
-- Can be cast to add new models to an existing unit of Zombies or Skeletons. If successfully cast, choose one unit of Zombies or Skeletons (even if engaged in close combat) and then measure the range to it. If the unit is in range, the spell adds D6/2D6/3D6 models to the unit (add +1 per dice for Zombies), depending on the Difficulty Level chosen (see the table below). The new models will be armed and equipped exactly like the other models in the unit. Note that this can take the number of models in the unit above the maximum allowed in the army list. The Victory points value of the unit does not change.
-- Can be cast to create a new unit of Zombies or Skeletons. If successfully cast, choose any point within 18&quot; and place one model on it. Then form the rest of the models around it. The new unit will consist of D6/2D6/3D6 models (add +1 per dice for Zombies), depending on the Casting Value chosen (see the table below). Skeletons will be armed with a hand weapon and shield. Zombies will be armed with a hand weapon. If less than five models are created, the spell has failed to work and no models can be placed on the table. Units created in this way must be deployed at least 1&quot; away from any enemy, but may be in any formation and facing any direction. Immediately calculate the Victory points value of the new unit (at 6 points per Zombie or 8 points per Skeleton) and record it straight away.
-- Can be cast to restore lost Wounds to an Undead model with multiple Wounds on its profile. If successfully cast, choose one Undead model (even if engaged in close combat) and then measure the range to it. If the model is in range, the spell restores 1/2/3 Wounds to the target, depending on the Casting Value chosen, (see the table below). This spell cannot be used to take the Wounds of the model above the number it started the game with.
-
-Casting Value	Models Created	Wounds Restored
-3+	D6 Skeletons or D6+1 Zombies	1 Wound
-7+	2D6 Skeletons or 2D6+2 Zombies	2 Wounds
-11+	3D6 Skeletons or 3D6+3 Zombies	3 Wounds
-
-2. Hand of Dust
-Casting Value: 7+
-The Undead has the ability to cause anything he touches to age centuries within a second. As he grips his opponent tightly, the victim and all his possessions are instantly turned to dust which is scattered by the wind of ages.
-
-Remains in play. This spell can be cast by the Wizard on himself. It can be cast even if the Wizard is in close combat. Once it has been cast, the spell lasts until it is dispelled, or until the Wizard decides to end it (which he can do at any time), attempts to cast another spell or is slain.
-
-Whilst the spell is in play, the caster is reduced to a single Attack in close combat. If this attack hits, the enemy is killed automatically, with no armour saves allowed (this works exactly like a Killing Blow attack, with the only difference being that it can affect models of any size). The enemy can take a Ward save, if he has any, but if the wound is not saved the model is dead.
-
-3. Hellish Vigour
-Casting Value: 7+
-The Undead concentrates on animating the creatures under his control. They attack with such speed and ferocity that few can defend against their flurry of blows.
-
-Target one of your own Undead units within 18&quot; and which is in close combat. In the next Close Combat phase all models in the unit attacks first, even if they have been charged, are armed with Great Weapons and so on (even Zombies! This is the only exception to the Braindead rule), and can re-roll any missed To Hit rolls.
-
-4. Gaze of Nagash
-Casting Value: 8+
-Bolts of Dark Magic leap from the Undead spellcaster&apos;s eyes. Where the beams touch the victims flesh, their skin blackens and withers, sloughing away till the white gleam of bone is visible beneath.
-
-This is a magic missile with a range of 24&quot;. If successfully cast, the Gaze of Nagash hits its target and causes 2D6 Strength 4 hits.
-
-5. Vanhel&apos;s Danse Macabre
-Casting Value: 9+
-The Undead are filled with an unholy magical energy that causes them to stride across the battlefield with a speed that even most mortals are unable to match.
-
-This spell can be cast on a friendly Undead unit that is within 18&quot;, and which is not already engaged in close combat. The unit can immediately make a move of up to 8&quot; in the same way as a normal move made in the Movement phase (it can wheel, turn, change formation or even reform).
-
-The unit can charge an enemy within 8&quot; if opportunity permits and the same rules apply as for a normal charge (except that if the charge is failed the Undead will still move the full 8&quot;). A unit that is charged by means of Vanhel&apos;s Danse Macabre can react to the charge as normal and must take the appropriate Psychology tests.
-
-6. Curse of Years
-Casting Value: 10+
-The enemies of the Undead feel their limbs become heavy and their hair turns grey. They collapse, unable to support themselves as death catches up with them.
-
-Remains in play. The Curse of Years can be cast on any one unengaged enemy unit within 24&quot;.
-
-If successfully cast, the enemy swiftly starts to age. Roll a dice for each model in the affected unit. A model will suffer a wound on the roll of a 6+. No armour saves are allowed.
-
-Once it has been cast, the spell remains in play. It lasts until it is dispelled, or until the Wizard decides to end it (which he can do at any time), attempts to cast another spell or is slain. If not dispelled, at the beginning of the caster&apos;s next Magic phase, models in the affected unit suffer a wound on a 5+. In the caster&apos;s next Magic phase they will suffer a wound on a 4+ and so on, to a minimum of 2+. No armour saves are allowed.
-
-Characters who are part of a unit affected by this spell stop suffering from its effects if they leave the unit.</description>
-        </rule>
-      </rules>
+      <infoLinks>
+        <infoLink id="16ec-1fa4-0aed-4255" name="Necromancy" hidden="false" targetId="098a-81e9-8e39-dbcc" type="rule"/>
+        <infoLink id="9113-ad9d-19ed-3d0b" name="Undead (Vampire Counts)" hidden="false" targetId="0606-f560-7f2e-30e9" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="bb71-b0c1-990e-db28" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="1a0f-e8e2-e8f6-2358" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
@@ -2250,105 +2024,10 @@ Once per game, the Vampire can use this power at the start of one of his turns t
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="ca04-46ae-f13d-1bf6" name="Undead (Vampire Counts)" hidden="false">
-          <description>All models mentioned in the Vampire Counts Armies book are Undead, with the exception of Ghouls and Bat Swarms which are alive and follow the normal Warhammer rules (eg, they can use the General&apos;s Leadership, re-roll Break tests if the Battle Standard is within 12&quot;, etc)
-
-Note that the Undead special rules for Vampire Counts armies are slightly different from those for the Tomb Kings armies due to the differences in the magic animating them.
-
-All Undead have the following special rules:
-
-## The General
-
-The army must include at least one Wizard (ie, a model with the entry &apos;Magic&apos; in its army list box) who will be the army&apos;s General If the army includes more than one Wizard, the one with the highest Leadership will be the General. In the case of two or more characters having the same Leadership, the player can decide. Remember to tell your opponent which model is the General at the beginning of the battle.
-
-If the General is destroyed, the Undead in the army will start to slowly crumble to dust. To represent this, at the end of the phase when the General is killed and at the beginning of every Undead turn thereafter, all Undead units on the battlefield must take a Leadership test. If the test is failed, the unit suffers a number of wounds equal to the number they failed the Leadership test by. No saves of any kind (not even Ward saves) are allowed against such wounds. Eg, a unit of Skeletons (Ld 3) takes the test and rolls a 7: the unit suffers 4 wounds (7-3=4). Characters never suffer wounds because of a destroyed General. Units can use the Leadership of a character leading the unit for this test, as normal. Winged Nightmares and Zombie Dragons do have to take this test, but can use their rider&apos;s Leadership. Note that if the General is taken below one Wound, but manages to regenerate enough Wounds to come back, this rule does not apply. The General has to be dead (ie, removed from the table) for this rule to take effect.
-
-## Break Tests
-
-Undead cannot be broken, but Undead units beaten in combat suffer one additional wound for every point they lose the combat by (no saves of any kind, not even Regeneration or Ward saves, are allowed against such wounds). If characters are present in the unit, or if they are riding a monster, the controlling player can decide how to allocate the wounds among the unit, the monster and the characters. In multiple combats, each Undead unit on the losing side suffers one additional wound for every point their side has lost the combat by. If an Undead unit is wiped out by combat resolution in the first turn of a combat, the enemy gets the option to make an overrun move as normal.
-
-## Battle Standard
-
-Undead that are within 12&quot; of their Battle Standard suffer one less wound than they normally would when defeated in combat. Eg, a unit of Skeletons loses a combat by 3. They should lose three extra Skeletons but because the Battle Standard is within 12&quot; they only lose two extra models.
-
-## Immune to Psychology
-
-Undead are Immune to Psychology.
-
-## Charge Reactions
-
-Undead can react to charges only by holding their ground.
-
-## Marching
-
-Undead cannot make a march move unless they are characters or are within 12&quot; of the General at the start of their Movement phase. Note that all the normal rules for marching will apply (for example, the presence of the enemy within 8&quot; still stops them from marching, etc).
-
-## Cause Fear
-
-Undead cause fear.</description>
-        </rule>
-        <rule id="9321-a155-23c0-cfe0" name="Necromancy" hidden="false">
-          <description>1. Invocation of Nehek
-Casting Value: 3+
-Buried deep within the earth of the Old World lie the bones of those who have fallen in countless battles. Undead wizard can awaken these warriors from their rest to serve him in an unholy afterlife.
-
-This spell can be used in three different ways - to add models to an existing unit, to create a new unit or to restore lost Wounds to a model. In all cases, it has a range of 18&quot;. The caster must declare if he is using the spell on an existing unit (declare target unit), to create a new unit (declare whether Zombies or Skeletons) or to restore lost Wounds (declare target model), as well as the Casting Value he is attempting (3+, 7+ or 11+), before he rolls the dice to cast.
-
-The higher the Casting Value chosen, the more effective will be the result of the spell if cast successfully (see below).
-
-Note that this spell can be cast only once per Magic phase, as normal, and not once per Casting Value.
-
-- Can be cast to add new models to an existing unit of Zombies or Skeletons. If successfully cast, choose one unit of Zombies or Skeletons (even if engaged in close combat) and then measure the range to it. If the unit is in range, the spell adds D6/2D6/3D6 models to the unit (add +1 per dice for Zombies), depending on the Difficulty Level chosen (see the table below). The new models will be armed and equipped exactly like the other models in the unit. Note that this can take the number of models in the unit above the maximum allowed in the army list. The Victory points value of the unit does not change.
-- Can be cast to create a new unit of Zombies or Skeletons. If successfully cast, choose any point within 18&quot; and place one model on it. Then form the rest of the models around it. The new unit will consist of D6/2D6/3D6 models (add +1 per dice for Zombies), depending on the Casting Value chosen (see the table below). Skeletons will be armed with a hand weapon and shield. Zombies will be armed with a hand weapon. If less than five models are created, the spell has failed to work and no models can be placed on the table. Units created in this way must be deployed at least 1&quot; away from any enemy, but may be in any formation and facing any direction. Immediately calculate the Victory points value of the new unit (at 6 points per Zombie or 8 points per Skeleton) and record it straight away.
-- Can be cast to restore lost Wounds to an Undead model with multiple Wounds on its profile. If successfully cast, choose one Undead model (even if engaged in close combat) and then measure the range to it. If the model is in range, the spell restores 1/2/3 Wounds to the target, depending on the Casting Value chosen, (see the table below). This spell cannot be used to take the Wounds of the model above the number it started the game with.
-
-Casting Value	Models Created	Wounds Restored
-3+	D6 Skeletons or D6+1 Zombies	1 Wound
-7+	2D6 Skeletons or 2D6+2 Zombies	2 Wounds
-11+	3D6 Skeletons or 3D6+3 Zombies	3 Wounds
-
-2. Hand of Dust
-Casting Value: 7+
-The Undead has the ability to cause anything he touches to age centuries within a second. As he grips his opponent tightly, the victim and all his possessions are instantly turned to dust which is scattered by the wind of ages.
-
-Remains in play. This spell can be cast by the Wizard on himself. It can be cast even if the Wizard is in close combat. Once it has been cast, the spell lasts until it is dispelled, or until the Wizard decides to end it (which he can do at any time), attempts to cast another spell or is slain.
-
-Whilst the spell is in play, the caster is reduced to a single Attack in close combat. If this attack hits, the enemy is killed automatically, with no armour saves allowed (this works exactly like a Killing Blow attack, with the only difference being that it can affect models of any size). The enemy can take a Ward save, if he has any, but if the wound is not saved the model is dead.
-
-3. Hellish Vigour
-Casting Value: 7+
-The Undead concentrates on animating the creatures under his control. They attack with such speed and ferocity that few can defend against their flurry of blows.
-
-Target one of your own Undead units within 18&quot; and which is in close combat. In the next Close Combat phase all models in the unit attacks first, even if they have been charged, are armed with Great Weapons and so on (even Zombies! This is the only exception to the Braindead rule), and can re-roll any missed To Hit rolls.
-
-4. Gaze of Nagash
-Casting Value: 8+
-Bolts of Dark Magic leap from the Undead spellcaster&apos;s eyes. Where the beams touch the victims flesh, their skin blackens and withers, sloughing away till the white gleam of bone is visible beneath.
-
-This is a magic missile with a range of 24&quot;. If successfully cast, the Gaze of Nagash hits its target and causes 2D6 Strength 4 hits.
-
-5. Vanhel&apos;s Danse Macabre
-Casting Value: 9+
-The Undead are filled with an unholy magical energy that causes them to stride across the battlefield with a speed that even most mortals are unable to match.
-
-This spell can be cast on a friendly Undead unit that is within 18&quot;, and which is not already engaged in close combat. The unit can immediately make a move of up to 8&quot; in the same way as a normal move made in the Movement phase (it can wheel, turn, change formation or even reform).
-
-The unit can charge an enemy within 8&quot; if opportunity permits and the same rules apply as for a normal charge (except that if the charge is failed the Undead will still move the full 8&quot;). A unit that is charged by means of Vanhel&apos;s Danse Macabre can react to the charge as normal and must take the appropriate Psychology tests.
-
-6. Curse of Years
-Casting Value: 10+
-The enemies of the Undead feel their limbs become heavy and their hair turns grey. They collapse, unable to support themselves as death catches up with them.
-
-Remains in play. The Curse of Years can be cast on any one unengaged enemy unit within 24&quot;.
-
-If successfully cast, the enemy swiftly starts to age. Roll a dice for each model in the affected unit. A model will suffer a wound on the roll of a 6+. No armour saves are allowed.
-
-Once it has been cast, the spell remains in play. It lasts until it is dispelled, or until the Wizard decides to end it (which he can do at any time), attempts to cast another spell or is slain. If not dispelled, at the beginning of the caster&apos;s next Magic phase, models in the affected unit suffer a wound on a 5+. In the caster&apos;s next Magic phase they will suffer a wound on a 4+ and so on, to a minimum of 2+. No armour saves are allowed.
-
-Characters who are part of a unit affected by this spell stop suffering from its effects if they leave the unit.</description>
-        </rule>
-      </rules>
+      <infoLinks>
+        <infoLink id="1f06-21b3-3baf-3c5c" name="Necromancy" hidden="false" targetId="098a-81e9-8e39-dbcc" type="rule"/>
+        <infoLink id="9571-3bf3-5acd-e0ad" name="Undead (Vampire Counts)" hidden="false" targetId="0606-f560-7f2e-30e9" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="968f-e10e-c72b-d02b" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="e3bf-bad8-b613-7299" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
@@ -3362,68 +3041,9 @@ At the beginning of the Close Combat phase select one model in base contact with
       </constraints>
       <selectionEntries>
         <selectionEntry id="d62b-327f-8207-6bbd" name="Necromancy" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="2d65-1337-b88a-1a55" name="Necromancy" hidden="false">
-              <description>1. Invocation of Nehek
-Casting Value: 3+
-Buried deep within the earth of the Old World lie the bones of those who have fallen in countless battles. Undead wizard can awaken these warriors from their rest to serve him in an unholy afterlife.
-
-This spell can be used in three different ways - to add models to an existing unit, to create a new unit or to restore lost Wounds to a model. In all cases, it has a range of 18&quot;. The caster must declare if he is using the spell on an existing unit (declare target unit), to create a new unit (declare whether Zombies or Skeletons) or to restore lost Wounds (declare target model), as well as the Casting Value he is attempting (3+, 7+ or 11+), before he rolls the dice to cast.
-
-The higher the Casting Value chosen, the more effective will be the result of the spell if cast successfully (see below).
-
-Note that this spell can be cast only once per Magic phase, as normal, and not once per Casting Value.
-
-- Can be cast to add new models to an existing unit of Zombies or Skeletons. If successfully cast, choose one unit of Zombies or Skeletons (even if engaged in close combat) and then measure the range to it. If the unit is in range, the spell adds D6/2D6/3D6 models to the unit (add +1 per dice for Zombies), depending on the Difficulty Level chosen (see the table below). The new models will be armed and equipped exactly like the other models in the unit. Note that this can take the number of models in the unit above the maximum allowed in the army list. The Victory points value of the unit does not change.
-- Can be cast to create a new unit of Zombies or Skeletons. If successfully cast, choose any point within 18&quot; and place one model on it. Then form the rest of the models around it. The new unit will consist of D6/2D6/3D6 models (add +1 per dice for Zombies), depending on the Casting Value chosen (see the table below). Skeletons will be armed with a hand weapon and shield. Zombies will be armed with a hand weapon. If less than five models are created, the spell has failed to work and no models can be placed on the table. Units created in this way must be deployed at least 1&quot; away from any enemy, but may be in any formation and facing any direction. Immediately calculate the Victory points value of the new unit (at 6 points per Zombie or 8 points per Skeleton) and record it straight away.
-- Can be cast to restore lost Wounds to an Undead model with multiple Wounds on its profile. If successfully cast, choose one Undead model (even if engaged in close combat) and then measure the range to it. If the model is in range, the spell restores 1/2/3 Wounds to the target, depending on the Casting Value chosen, (see the table below). This spell cannot be used to take the Wounds of the model above the number it started the game with.
-
-Casting Value	Models Created	Wounds Restored
-3+	D6 Skeletons or D6+1 Zombies	1 Wound
-7+	2D6 Skeletons or 2D6+2 Zombies	2 Wounds
-11+	3D6 Skeletons or 3D6+3 Zombies	3 Wounds
-
-2. Hand of Dust
-Casting Value: 7+
-The Undead has the ability to cause anything he touches to age centuries within a second. As he grips his opponent tightly, the victim and all his possessions are instantly turned to dust which is scattered by the wind of ages.
-
-Remains in play. This spell can be cast by the Wizard on himself. It can be cast even if the Wizard is in close combat. Once it has been cast, the spell lasts until it is dispelled, or until the Wizard decides to end it (which he can do at any time), attempts to cast another spell or is slain.
-
-Whilst the spell is in play, the caster is reduced to a single Attack in close combat. If this attack hits, the enemy is killed automatically, with no armour saves allowed (this works exactly like a Killing Blow attack, with the only difference being that it can affect models of any size). The enemy can take a Ward save, if he has any, but if the wound is not saved the model is dead.
-
-3. Hellish Vigour
-Casting Value: 7+
-The Undead concentrates on animating the creatures under his control. They attack with such speed and ferocity that few can defend against their flurry of blows.
-
-Target one of your own Undead units within 18&quot; and which is in close combat. In the next Close Combat phase all models in the unit attacks first, even if they have been charged, are armed with Great Weapons and so on (even Zombies! This is the only exception to the Braindead rule), and can re-roll any missed To Hit rolls.
-
-4. Gaze of Nagash
-Casting Value: 8+
-Bolts of Dark Magic leap from the Undead spellcaster&apos;s eyes. Where the beams touch the victims flesh, their skin blackens and withers, sloughing away till the white gleam of bone is visible beneath.
-
-This is a magic missile with a range of 24&quot;. If successfully cast, the Gaze of Nagash hits its target and causes 2D6 Strength 4 hits.
-
-5. Vanhel&apos;s Danse Macabre
-Casting Value: 9+
-The Undead are filled with an unholy magical energy that causes them to stride across the battlefield with a speed that even most mortals are unable to match.
-
-This spell can be cast on a friendly Undead unit that is within 18&quot;, and which is not already engaged in close combat. The unit can immediately make a move of up to 8&quot; in the same way as a normal move made in the Movement phase (it can wheel, turn, change formation or even reform).
-
-The unit can charge an enemy within 8&quot; if opportunity permits and the same rules apply as for a normal charge (except that if the charge is failed the Undead will still move the full 8&quot;). A unit that is charged by means of Vanhel&apos;s Danse Macabre can react to the charge as normal and must take the appropriate Psychology tests.
-
-6. Curse of Years
-Casting Value: 10+
-The enemies of the Undead feel their limbs become heavy and their hair turns grey. They collapse, unable to support themselves as death catches up with them.
-
-Remains in play. The Curse of Years can be cast on any one unengaged enemy unit within 24&quot;.
-
-If successfully cast, the enemy swiftly starts to age. Roll a dice for each model in the affected unit. A model will suffer a wound on the roll of a 6+. No armour saves are allowed.
-
-Once it has been cast, the spell remains in play. It lasts until it is dispelled, or until the Wizard decides to end it (which he can do at any time), attempts to cast another spell or is slain. If not dispelled, at the beginning of the caster&apos;s next Magic phase, models in the affected unit suffer a wound on a 5+. In the caster&apos;s next Magic phase they will suffer a wound on a 4+ and so on, to a minimum of 2+. No armour saves are allowed.
-
-Characters who are part of a unit affected by this spell stop suffering from its effects if they leave the unit.</description>
-            </rule>
-          </rules>
+          <infoLinks>
+            <infoLink id="3e81-6a11-047c-e61f" name="Necromancy" hidden="false" targetId="098a-81e9-8e39-dbcc" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
@@ -4565,6 +4185,106 @@ Note that if a Wraith rides a Nightmare, then the Nightmare will also be Etherea
     </rule>
     <rule id="5855-96df-81d6-05b0" name="Alive!" hidden="false">
       <description>These models are not Undead and follow the normal rules for Psychology, Break tests, etc.</description>
+    </rule>
+    <rule id="098a-81e9-8e39-dbcc" name="Necromancy" hidden="false">
+      <description>1. Invocation of Nehek
+Casting Value: 3+
+Buried deep within the earth of the Old World lie the bones of those who have fallen in countless battles. Undead wizard can awaken these warriors from their rest to serve him in an unholy afterlife.
+
+This spell can be used in three different ways - to add models to an existing unit, to create a new unit or to restore lost Wounds to a model. In all cases, it has a range of 18&quot;. The caster must declare if he is using the spell on an existing unit (declare target unit), to create a new unit (declare whether Zombies or Skeletons) or to restore lost Wounds (declare target model), as well as the Casting Value he is attempting (3+, 7+ or 11+), before he rolls the dice to cast.
+
+The higher the Casting Value chosen, the more effective will be the result of the spell if cast successfully (see below).
+
+Note that this spell can be cast only once per Magic phase, as normal, and not once per Casting Value.
+
+- Can be cast to add new models to an existing unit of Zombies or Skeletons. If successfully cast, choose one unit of Zombies or Skeletons (even if engaged in close combat) and then measure the range to it. If the unit is in range, the spell adds D6/2D6/3D6 models to the unit (add +1 per dice for Zombies), depending on the Difficulty Level chosen (see the table below). The new models will be armed and equipped exactly like the other models in the unit. Note that this can take the number of models in the unit above the maximum allowed in the army list. The Victory points value of the unit does not change.
+- Can be cast to create a new unit of Zombies or Skeletons. If successfully cast, choose any point within 18&quot; and place one model on it. Then form the rest of the models around it. The new unit will consist of D6/2D6/3D6 models (add +1 per dice for Zombies), depending on the Casting Value chosen (see the table below). Skeletons will be armed with a hand weapon and shield. Zombies will be armed with a hand weapon. If less than five models are created, the spell has failed to work and no models can be placed on the table. Units created in this way must be deployed at least 1&quot; away from any enemy, but may be in any formation and facing any direction. Immediately calculate the Victory points value of the new unit (at 6 points per Zombie or 8 points per Skeleton) and record it straight away.
+- Can be cast to restore lost Wounds to an Undead model with multiple Wounds on its profile. If successfully cast, choose one Undead model (even if engaged in close combat) and then measure the range to it. If the model is in range, the spell restores 1/2/3 Wounds to the target, depending on the Casting Value chosen, (see the table below). This spell cannot be used to take the Wounds of the model above the number it started the game with.
+
+Casting Value	Models Created	Wounds Restored
+3+	D6 Skeletons or D6+1 Zombies	1 Wound
+7+	2D6 Skeletons or 2D6+2 Zombies	2 Wounds
+11+	3D6 Skeletons or 3D6+3 Zombies	3 Wounds
+
+2. Hand of Dust
+Casting Value: 7+
+The Undead has the ability to cause anything he touches to age centuries within a second. As he grips his opponent tightly, the victim and all his possessions are instantly turned to dust which is scattered by the wind of ages.
+
+Remains in play. This spell can be cast by the Wizard on himself. It can be cast even if the Wizard is in close combat. Once it has been cast, the spell lasts until it is dispelled, or until the Wizard decides to end it (which he can do at any time), attempts to cast another spell or is slain.
+
+Whilst the spell is in play, the caster is reduced to a single Attack in close combat. If this attack hits, the enemy is killed automatically, with no armour saves allowed (this works exactly like a Killing Blow attack, with the only difference being that it can affect models of any size). The enemy can take a Ward save, if he has any, but if the wound is not saved the model is dead.
+
+3. Hellish Vigour
+Casting Value: 7+
+The Undead concentrates on animating the creatures under his control. They attack with such speed and ferocity that few can defend against their flurry of blows.
+
+Target one of your own Undead units within 18&quot; and which is in close combat. In the next Close Combat phase all models in the unit attacks first, even if they have been charged, are armed with Great Weapons and so on (even Zombies! This is the only exception to the Braindead rule), and can re-roll any missed To Hit rolls.
+
+4. Gaze of Nagash
+Casting Value: 8+
+Bolts of Dark Magic leap from the Undead spellcaster&apos;s eyes. Where the beams touch the victims flesh, their skin blackens and withers, sloughing away till the white gleam of bone is visible beneath.
+
+This is a magic missile with a range of 24&quot;. If successfully cast, the Gaze of Nagash hits its target and causes 2D6 Strength 4 hits.
+
+5. Vanhel&apos;s Danse Macabre
+Casting Value: 9+
+The Undead are filled with an unholy magical energy that causes them to stride across the battlefield with a speed that even most mortals are unable to match.
+
+This spell can be cast on a friendly Undead unit that is within 18&quot;, and which is not already engaged in close combat. The unit can immediately make a move of up to 8&quot; in the same way as a normal move made in the Movement phase (it can wheel, turn, change formation or even reform).
+
+The unit can charge an enemy within 8&quot; if opportunity permits and the same rules apply as for a normal charge (except that if the charge is failed the Undead will still move the full 8&quot;). A unit that is charged by means of Vanhel&apos;s Danse Macabre can react to the charge as normal and must take the appropriate Psychology tests.
+
+6. Curse of Years
+Casting Value: 10+
+The enemies of the Undead feel their limbs become heavy and their hair turns grey. They collapse, unable to support themselves as death catches up with them.
+
+Remains in play. The Curse of Years can be cast on any one unengaged enemy unit within 24&quot;.
+
+If successfully cast, the enemy swiftly starts to age. Roll a dice for each model in the affected unit. A model will suffer a wound on the roll of a 6+. No armour saves are allowed.
+
+Once it has been cast, the spell remains in play. It lasts until it is dispelled, or until the Wizard decides to end it (which he can do at any time), attempts to cast another spell or is slain. If not dispelled, at the beginning of the caster&apos;s next Magic phase, models in the affected unit suffer a wound on a 5+. In the caster&apos;s next Magic phase they will suffer a wound on a 4+ and so on, to a minimum of 2+. No armour saves are allowed.
+
+Characters who are part of a unit affected by this spell stop suffering from its effects if they leave the unit.</description>
+    </rule>
+    <rule id="0606-f560-7f2e-30e9" name="Undead (Vampire Counts)" hidden="false">
+      <description>All models mentioned in the Vampire Counts Armies book are Undead, with the exception of Ghouls and Bat Swarms which are alive and follow the normal Warhammer rules (eg, they can use the General&apos;s Leadership, re-roll Break tests if the Battle Standard is within 12&quot;, etc)
+
+Note that the Undead special rules for Vampire Counts armies are slightly different from those for the Tomb Kings armies due to the differences in the magic animating them.
+
+All Undead have the following special rules:
+
+## The General
+
+The army must include at least one Wizard (ie, a model with the entry &apos;Magic&apos; in its army list box) who will be the army&apos;s General If the army includes more than one Wizard, the one with the highest Leadership will be the General. In the case of two or more characters having the same Leadership, the player can decide. Remember to tell your opponent which model is the General at the beginning of the battle.
+
+If the General is destroyed, the Undead in the army will start to slowly crumble to dust. To represent this, at the end of the phase when the General is killed and at the beginning of every Undead turn thereafter, all Undead units on the battlefield must take a Leadership test. If the test is failed, the unit suffers a number of wounds equal to the number they failed the Leadership test by. No saves of any kind (not even Ward saves) are allowed against such wounds. Eg, a unit of Skeletons (Ld 3) takes the test and rolls a 7: the unit suffers 4 wounds (7-3=4). Characters never suffer wounds because of a destroyed General. Units can use the Leadership of a character leading the unit for this test, as normal. Winged Nightmares and Zombie Dragons do have to take this test, but can use their rider&apos;s Leadership. Note that if the General is taken below one Wound, but manages to regenerate enough Wounds to come back, this rule does not apply. The General has to be dead (ie, removed from the table) for this rule to take effect.
+
+## Break Tests
+
+Undead cannot be broken, but Undead units beaten in combat suffer one additional wound for every point they lose the combat by (no saves of any kind, not even Regeneration or Ward saves, are allowed against such wounds). If characters are present in the unit, or if they are riding a monster, the controlling player can decide how to allocate the wounds among the unit, the monster and the characters. In multiple combats, each Undead unit on the losing side suffers one additional wound for every point their side has lost the combat by. If an Undead unit is wiped out by combat resolution in the first turn of a combat, the enemy gets the option to make an overrun move as normal.
+
+## Battle Standard
+
+Undead that are within 12&quot; of their Battle Standard suffer one less wound than they normally would when defeated in combat. Eg, a unit of Skeletons loses a combat by 3. They should lose three extra Skeletons but because the Battle Standard is within 12&quot; they only lose two extra models.
+
+## Immune to Psychology
+
+Undead are Immune to Psychology.
+
+## Charge Reactions
+
+Undead can react to charges only by holding their ground.
+
+## Marching
+
+Undead cannot make a march move unless they are characters or are within 12&quot; of the General at the start of their Movement phase. Note that all the normal rules for marching will apply (for example, the presence of the enemy within 8&quot; still stops them from marching, etc).
+
+## Cause Fear
+
+Undead cause fear.</description>
+    </rule>
+    <rule id="f2c1-cbde-3a2e-92cd" name="Undying Love" hidden="false">
+      <description>If Isabella is killed, Vlad will be overcome by grief and go into a berserk fury. For the rest of the battle he will be subject to both hatred and frenzy. If Vlad is killed then exactly the same special rules apply to Isabella: ie, she becomes subject to frenzy and hatred.</description>
     </rule>
   </sharedRules>
   <sharedInfoGroups>

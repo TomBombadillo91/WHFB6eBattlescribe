@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="32" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="33" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <costTypes>
     <costType id="fada-3781-5bbe-4625" name=" Hull Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -688,35 +688,6 @@ In addition, as long as a Templar Grand Master is with a unit of Knights of his 
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="79bc-f253-6aec-406d" name="Blessings of Sigmar" hidden="false">
-          <description>Warrior Priests are blessed by Sigmar and can invoke the god&apos;s protection against the sorcerous powers of the enemy. As long as a Warrior Priest is on the battlefield, he adds one dice to the Empire player&apos;s Dispel dice pool during the enemy&apos;s Magic phase.</description>
-        </rule>
-        <rule id="d6dc-b8e3-9633-93ce" name="Prayers of Sigmar" hidden="false">
-          <description>Once per Empire Magic phase, a Warrior Priest is allowed to use ONE prayer chosen from the Prayers of Sigmar list (see below). Prayers are cast exactly like Bound spells from magic items, with a Power Level of 3. They can be cast on the Priest himself or on any one character or unit champion within 12&quot; of the Priest. Prayers never affect a model&apos;s steed, and cannot be cast on Knights of the White Wolf or their Grand Master. Note that a Warrior Priest is never considered to be a Wizard.
-
-Hammer of Sigmar
-
-The model can re-roll failed rolls to wound: This Prayer lasts until it is dispelled or until the Warrior Priest attempts to cast another prayer. This Prayer has no effect on hits from magic weapons.
-
-Armour of Righteousness
-
-The model gets a 5+ ward save. This Prayer lasts until it is dispelled or until the Warrior Priest attempts to cast another Prayer. This Prayer has no effect if the model already has a Ward save.
-
-Healing Hand
-
-The model is immediately healed of all the wounds it has suffered during the battle up to that moment.
-
-Soulfire
-
-Centre the large 5&quot; template on the Warrior Priest. All Undead and Daemons hit by the template (work out which models are hit exactly the same way as you would do for a Mortar&apos;s hit) suffer a Strength 4 hit, with no armour save allowed. Soulfire can only be cast on the warrior Priest, not on other models.</description>
-        </rule>
-        <rule id="9eda-fc19-836c-c650" name="Righteous Fury" hidden="false">
-          <description>Warrior Priests and the unit they are with hate all models in any of the following armies: all Chaos (Chaos Warriors, Beastmen, Daemons and Chaos Dwarfs), all Undead (Khemri and Vampire Counts), all Skaven.
-
-Note that this power does not affect other characters (they are more difficult to influence than the average soldier) and units Immune to Psychology are not affected by this power as well. Also note that Warrior Priests will never join units of warriors who are not devout to Sigmar, so they cannot join units of Knights of the White Wolf.</description>
-        </rule>
-      </rules>
       <categoryLinks>
         <categoryLink id="d485-a153-15ff-4c51" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="3106-fa79-25e1-03d7" name="New CategoryLink" hidden="false" targetId="5694-61f3-6913-6154" primary="true"/>
@@ -760,6 +731,9 @@ Note that this power does not affect other characters (they are more difficult t
             <selectionEntry id="a64e-cc24-d514-bb21" name="Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="033e-74f6-3f48-5326" name="Hand Weapon" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+                <infoLink id="7f84-71c0-1adc-d764" name="Blessings of Sigmar" hidden="false" targetId="606b-2946-e8e7-0bc3" type="rule"/>
+                <infoLink id="9496-3460-acb2-0bba" name="Prayers of Sigmar" hidden="false" targetId="50e3-6972-88fa-5fcb" type="rule"/>
+                <infoLink id="8db1-65ca-5aa6-4a5e" name="Righteous Fury" hidden="false" targetId="c093-874e-7414-4a8a" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
@@ -4987,11 +4961,6 @@ Soulfire
 
 Centre the large 5&quot; template on the Warrior Priest. All Undead and Daemons hit by the template (work out which models are hit exactly the same way as you would do for a Mortar&apos;s hit) suffer a Strength 4 hit, with no armour save allowed. Soulfire can only be cast on the warrior Priest, not on other models.</description>
         </rule>
-        <rule id="7821-8f7e-09ef-352e" name="Righteous Fury" hidden="false">
-          <description>Warrior Priests and the unit they are with hate all models in any of the following armies: all Chaos (Chaos Warriors, Beastmen, Daemons and Chaos Dwarfs), all Undead (Khemri and Vampire Counts), all Skaven.
-
-Note that this power does not affect other characters (they are more difficult to influence than the average soldier) and units Immune to Psychology are not affected by this power as well. Also note that Warrior Priests will never join units of warriors who are not devout to Sigmar, so they cannot join units of Knights of the White Wolf.</description>
-        </rule>
         <rule id="4708-4b7d-32e3-3023" name="The Chosen of Sigmar" hidden="false">
           <description>Luthor has a 4+ Ward save and causes fear in the enemy.</description>
         </rule>
@@ -5019,6 +4988,7 @@ Note that this power does not affect other characters (they are more difficult t
           </constraints>
           <infoLinks>
             <infoLink id="8177-8b48-44f3-be1a" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+            <infoLink id="53b2-12c0-f237-728c" name="Righteous Fury" hidden="false" targetId="c093-874e-7414-4a8a" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
@@ -5613,25 +5583,11 @@ The Engineers can fight normally against enemies in base contact with the Tank&a
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="4048-2040-a6fa-992b" name="Against the Odds" hidden="false">
-          <description>Enemy units can never gain the combat resolution bonus points for flank or rear attacks, or for outnumbering, in a combat involving Valten. In addition, Valten and any unit he leads is Immune to Psychology. The only exception is that they always count as being stubborn.</description>
-        </rule>
-        <rule id="0693-9fc5-a17d-058b" name="Awesome Presence" hidden="false">
-          <description>Wounds inflicted by Valten in close combat are counted towards the Empire combat resolution score of any combat within 12&quot; of him, not just the one he is taking part in.
-
-When wielding Ghal Maraz, the number of wounds passed on to other combats within 12&quot; is the number inflicted before multiplying the effects of the hammer. The total number of wounds caused still count for the combat Valten is fighting in. For example, Valten is fighting a unit of Minotaurs. He inflicts 3 wounds, which cause 2, 3 and 3 wounds respectively. For his combat, he adds 8 to the Combat Resolution total. For other combats within 12&quot; he only adds 3 to the Combat Resolution total.
-
-Valten may not be your army General unless he has the highest Leadership value in the army; if there are characters in the army with the same Leadership as Valten, one of those characters will always be the General instead. Even if Valten is the General, units within 12&quot; of him may not use his Leadership as they would normally be able to - the Awesome Presence rule replaces this.</description>
-        </rule>
-        <rule id="d823-69a4-8baf-7fda" name="Iron Resolve" hidden="false">
-          <description>Valten has a 5+ Ward save.
-
-In addition, if Valten is killed, take a Leadership test for him at the end of that phase. If he passes, his astounding strength of will allows him to ignore the wound and continue fighting. He remains alive on 1 Wound, and the wounds that killed him are discounted.
-
-Note that the effects of combat resolution, panic and so on are worked out after determining whether Valten recovers. This rule does not apply if he is fleeing and is run down by chargers or pursuers, or hit with a Killing Blow.</description>
-        </rule>
-      </rules>
+      <infoLinks>
+        <infoLink id="be42-c490-c86e-ff56" name="Against the Odds" hidden="false" targetId="6e04-5c66-0414-a4b0" type="rule"/>
+        <infoLink id="0b9d-f89c-3f09-b117" name="Awesome Presence" hidden="false" targetId="62a5-0dee-5986-cd3f" type="rule"/>
+        <infoLink id="fe50-dc77-6319-201e" name="Iron Resolve" hidden="false" targetId="a611-96f8-d83e-1380" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="22c6-54cb-86e1-e9b3" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="2073-7780-c923-8e23" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
@@ -5903,25 +5859,11 @@ Note: During the events known as the Storm of Chaos, Ghal Maraz is wielded by th
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="08b3-e6e0-dceb-07ef" name="Against the Odds" hidden="false">
-          <description>Enemy units can never gain the combat resolution bonus points for flank or rear attacks, or for outnumbering, in a combat involving Valten. In addition, Valten and any unit he leads is Immune to Psychology. The only exception is that they always count as being stubborn.</description>
-        </rule>
-        <rule id="eea0-9e9e-c5da-19af" name="Awesome Presence" hidden="false">
-          <description>Wounds inflicted by Valten in close combat are counted towards the Empire combat resolution score of any combat within 12&quot; of him, not just the one he is taking part in.
-
-When wielding Ghal Maraz, the number of wounds passed on to other combats within 12&quot; is the number inflicted before multiplying the effects of the hammer. The total number of wounds caused still count for the combat Valten is fighting in. For example, Valten is fighting a unit of Minotaurs. He inflicts 3 wounds, which cause 2, 3 and 3 wounds respectively. For his combat, he adds 8 to the Combat Resolution total. For other combats within 12&quot; he only adds 3 to the Combat Resolution total.
-
-Valten may not be your army General unless he has the highest Leadership value in the army; if there are characters in the army with the same Leadership as Valten, one of those characters will always be the General instead. Even if Valten is the General, units within 12&quot; of him may not use his Leadership as they would normally be able to - the Awesome Presence rule replaces this.</description>
-        </rule>
-        <rule id="db0a-1a65-afe8-c1ac" name="Iron Resolve" hidden="false">
-          <description>Valten has a 5+ Ward save.
-
-In addition, if Valten is killed, take a Leadership test for him at the end of that phase. If he passes, his astounding strength of will allows him to ignore the wound and continue fighting. He remains alive on 1 Wound, and the wounds that killed him are discounted.
-
-Note that the effects of combat resolution, panic and so on are worked out after determining whether Valten recovers. This rule does not apply if he is fleeing and is run down by chargers or pursuers, or hit with a Killing Blow.</description>
-        </rule>
-      </rules>
+      <infoLinks>
+        <infoLink id="5e85-aea5-1fec-7335" name="Against the Odds" hidden="false" targetId="6e04-5c66-0414-a4b0" type="rule"/>
+        <infoLink id="2b03-3a78-28c0-4ab0" name="Awesome Presence" hidden="false" targetId="62a5-0dee-5986-cd3f" type="rule"/>
+        <infoLink id="a87a-f63c-6688-1785" name="Iron Resolve" hidden="false" targetId="a611-96f8-d83e-1380" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="4905-8d42-5767-9c24" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="59fc-fda3-431e-f5e6" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
@@ -5978,34 +5920,12 @@ Note that the effects of combat resolution, panic and so on are worked out after
         <rule id="f34a-bb3e-da19-927b" name="The War Altar" hidden="false">
           <description>The War Altar exudes raw power which banishes all thought of fear or panic. So long as the War Altar is on the table and not fleeing, the Grand Theogonist and any Empire unit within 12&quot; are Immune to Psychology, except that they will hate all Chaos, Undead and Skaven (as per the Righteous Fury special rule).</description>
         </rule>
-        <rule id="4d09-2e5c-8558-2bc2" name="Blessings of Sigmar" hidden="false">
-          <description>Warrior Priests are blessed by Sigmar and can invoke the god&apos;s protection against the sorcerous powers of the enemy. As long as a Warrior Priest is on the battlefield, he adds one dice to the Empire player&apos;s Dispel dice pool during the enemy&apos;s Magic phase.</description>
-        </rule>
-        <rule id="71d2-3af5-4e08-2542" name="Righteous Fury" hidden="false">
-          <description>Warrior Priests and the unit they are with hate all models in any of the following armies: all Chaos (Chaos Warriors, Beastmen, Daemons and Chaos Dwarfs), all Undead (Khemri and Vampire Counts), all Skaven.
-
-Note that this power does not affect other characters (they are more difficult to influence than the average soldier) and units Immune to Psychology are not affected by this power as well. Also note that Warrior Priests will never join units of warriors who are not devout to Sigmar, so they cannot join units of Knights of the White Wolf.</description>
-        </rule>
-        <rule id="9c1f-122e-84ff-13dd" name="Prayers of Sigmar" hidden="false">
-          <description>Once per Empire Magic phase, a Warrior Priest is allowed to use ONE prayer chosen from the Prayers of Sigmar list (see below). Prayers are cast exactly like Bound spells from magic items, with a Power Level of 3. They can be cast on the Priest himself or on any one character or unit champion within 12&quot; of the Priest. Prayers never affect a model&apos;s steed, and cannot be cast on Knights of the White Wolf or their Grand Master. Note that a Warrior Priest is never considered to be a Wizard.
-
-Hammer of Sigmar
-
-The model can re-roll failed rolls to wound: This Prayer lasts until it is dispelled or until the Warrior Priest attempts to cast another prayer. This Prayer has no effect on hits from magic weapons.
-
-Armour of Righteousness
-
-The model gets a 5+ ward save. This Prayer lasts until it is dispelled or until the Warrior Priest attempts to cast another Prayer. This Prayer has no effect if the model already has a Ward save.
-
-Healing Hand
-
-The model is immediately healed of all the wounds it has suffered during the battle up to that moment.
-
-Soulfire
-
-Centre the large 5&quot; template on the Warrior Priest. All Undead and Daemons hit by the template (work out which models are hit exactly the same way as you would do for a Mortar&apos;s hit) suffer a Strength 4 hit, with no armour save allowed. Soulfire can only be cast on the warrior Priest, not on other models.</description>
-        </rule>
       </rules>
+      <infoLinks>
+        <infoLink id="5e64-ffb9-3493-2afb" name="Blessings of Sigmar" hidden="false" targetId="606b-2946-e8e7-0bc3" type="rule"/>
+        <infoLink id="42e1-ce0a-405c-8396" name="Prayers of Sigmar" hidden="false" targetId="50e3-6972-88fa-5fcb" type="rule"/>
+        <infoLink id="5378-b2e4-f7e1-7f50" name="Righteous Fury" hidden="false" targetId="c093-874e-7414-4a8a" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="79e1-964d-86b8-3da9" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="c2c1-80ad-7325-9a5b" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
@@ -7457,7 +7377,53 @@ The unit carrying the Griffon Standard will never pursue a fleeing enemy but wil
         <entryLink id="a0be-3b64-d0bf-c142" name="War Banner" hidden="false" collective="false" import="true" targetId="862d-4fba-1966-3f2f" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-  </sharedSelectionEntryGroups>
+  </sharedSelectionEntryGroups>  <sharedRules>
+    <rule id="6e04-5c66-0414-a4b0" name="Against the Odds" hidden="false">
+      <description>Enemy units can never gain the combat resolution bonus points for flank or rear attacks, or for outnumbering, in a combat involving Valten. In addition, Valten and any unit he leads is Immune to Psychology. The only exception is that they always count as being stubborn.</description>
+    </rule>
+    <rule id="62a5-0dee-5986-cd3f" name="Awesome Presence" hidden="false">
+      <description>Wounds inflicted by Valten in close combat are counted towards the Empire combat resolution score of any combat within 12&quot; of him, not just the one he is taking part in.
+
+When wielding Ghal Maraz, the number of wounds passed on to other combats within 12&quot; is the number inflicted before multiplying the effects of the hammer. The total number of wounds caused still count for the combat Valten is fighting in. For example, Valten is fighting a unit of Minotaurs. He inflicts 3 wounds, which cause 2, 3 and 3 wounds respectively. For his combat, he adds 8 to the Combat Resolution total. For other combats within 12&quot; he only adds 3 to the Combat Resolution total.
+
+Valten may not be your army General unless he has the highest Leadership value in the army; if there are characters in the army with the same Leadership as Valten, one of those characters will always be the General instead. Even if Valten is the General, units within 12&quot; of him may not use his Leadership as they would normally be able to - the Awesome Presence rule replaces this.</description>
+    </rule>
+    <rule id="a611-96f8-d83e-1380" name="Iron Resolve" hidden="false">
+      <description>Valten has a 5+ Ward save.
+
+In addition, if Valten is killed, take a Leadership test for him at the end of that phase. If he passes, his astounding strength of will allows him to ignore the wound and continue fighting. He remains alive on 1 Wound, and the wounds that killed him are discounted.
+
+Note that the effects of combat resolution, panic and so on are worked out after determining whether Valten recovers. This rule does not apply if he is fleeing and is run down by chargers or pursuers, or hit with a Killing Blow.</description>
+    </rule>
+    <rule id="606b-2946-e8e7-0bc3" name="Blessings of Sigmar" hidden="false">
+      <description>Warrior Priests are blessed by Sigmar and can invoke the god&apos;s protection against the sorcerous powers of the enemy. As long as a Warrior Priest is on the battlefield, he adds one dice to the Empire player&apos;s Dispel dice pool during the enemy&apos;s Magic phase.</description>
+    </rule>
+    <rule id="50e3-6972-88fa-5fcb" name="Prayers of Sigmar" hidden="false">
+      <description>Once per Empire Magic phase, a Warrior Priest is allowed to use ONE prayer chosen from the Prayers of Sigmar list (see below). Prayers are cast exactly like Bound spells from magic items, with a Power Level of 3. They can be cast on the Priest himself or on any one character or unit champion within 12&quot; of the Priest. Prayers never affect a model&apos;s steed, and cannot be cast on Knights of the White Wolf or their Grand Master. Note that a Warrior Priest is never considered to be a Wizard.
+
+Hammer of Sigmar
+
+The model can re-roll failed rolls to wound: This Prayer lasts until it is dispelled or until the Warrior Priest attempts to cast another prayer. This Prayer has no effect on hits from magic weapons.
+
+Armour of Righteousness
+
+The model gets a 5+ ward save. This Prayer lasts until it is dispelled or until the Warrior Priest attempts to cast another Prayer. This Prayer has no effect if the model already has a Ward save.
+
+Healing Hand
+
+The model is immediately healed of all the wounds it has suffered during the battle up to that moment.
+
+Soulfire
+
+Centre the large 5&quot; template on the Warrior Priest. All Undead and Daemons hit by the template (work out which models are hit exactly the same way as you would do for a Mortar&apos;s hit) suffer a Strength 4 hit, with no armour save allowed. Soulfire can only be cast on the warrior Priest, not on other models.</description>
+    </rule>
+    <rule id="c093-874e-7414-4a8a" name="Righteous Fury" hidden="false">
+      <description>Warrior Priests and the unit they are with hate all models in any of the following armies: all Chaos (Chaos Warriors, Beastmen, Daemons and Chaos Dwarfs), all Undead (Khemri and Vampire Counts), all Skaven.
+
+Note that this power does not affect other characters (they are more difficult to influence than the average soldier) and units Immune to Psychology are not affected by this power as well. Also note that Warrior Priests will never join units of warriors who are not devout to Sigmar, so they cannot join units of Knights of the White Wolf.</description>
+    </rule>
+  </sharedRules>
+
   <sharedProfiles>
     <profile id="c329-5a8b-ae72-6058" name="Warhorse" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
       <characteristics>
