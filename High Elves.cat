@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="20" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="22" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="3f17-868d-fac0-4c8d" name="First Among Equals" hidden="false">
       <constraints>
@@ -2032,9 +2032,6 @@ If using the multiple shots option then the Repeater Bolt Thrower shoots six bol
         </profile>
       </profiles>
       <rules>
-        <rule id="c8ec-fbef-6bdd-9024" name="Scaffold - points needed" hidden="false">
-          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
-        </rule>
         <rule id="ed4c-5e8a-23e9-3603" name="Intrigue at Court" hidden="false">
           <description>Though they are loyal to a fault, High Elves love intrigue and politics. Unfortunately, this sometimes means that their armies are trusted to the care of individuals on the basis of the political faction they follow rather than their ability to lead.
 
@@ -2058,6 +2055,9 @@ Tyrion may re-roll any failed rolls to hit on the first turn of each close comba
 
 In battle Malhandir counts as a monster. Malhandir wears barding which gives him a 5+ armour save.</description>
         </rule>
+        <rule id="a8e4-6125-799a-5044" name="Champion of Ulthuan" hidden="false">
+          <description>Tyrion is always the army&apos;s General. This overrides Intrigue at Court: the General is not determined randomly in an army that includes him.</description>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink id="325d-da49-0720-427e" name="Stoic" hidden="false" targetId="278c-a80d-b3aa-e8aa" type="rule"/>
@@ -2065,6 +2065,8 @@ In battle Malhandir counts as a monster. Malhandir wears barding which gives him
       <categoryLinks>
         <categoryLink id="83c3-8493-9007-990e" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="5748-4948-90ab-0498" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="2d28-0597-b290-1441" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="fb68-99d8-2ca1-e361" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="94e4-3f62-6c8e-24ef" name="Sunfang" hidden="false" collective="false" import="true" type="upgrade">
@@ -2107,9 +2109,30 @@ If Tyrion is slain, the Heart bursts into a thousand pieces in a flash of dazzli
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="0f77-d780-d5d5-fc35" name="Malhandir" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="894b-f417-b9a9-28a7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c69f-0687-98fc-ce13" type="min"/>
+          </constraints>
+          <rules>
+            <rule id="6441-bfd3-5164-1e53" name="Malhandir" hidden="false">
+              <description>Tyrion always rides Malhandir. Malhandir is priced separately only so the points can be tracked during a game; he is not optional.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="206a-c989-025c-62ed" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9629-7bf9-e0f1-0972" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="550.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8ec2-782a-6f68-ad27" name="Alarielle" hidden="false" collective="false" import="true" type="model">
@@ -2129,9 +2152,6 @@ If Tyrion is slain, the Heart bursts into a thousand pieces in a flash of dazzli
         </profile>
       </profiles>
       <rules>
-        <rule id="c2b9-0026-661a-19c6" name="Scaffold - points needed" hidden="false">
-          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
-        </rule>
         <rule id="9812-b78a-3c2f-7961" name="Intrigue at Court" hidden="false">
           <description>Though they are loyal to a fault, High Elves love intrigue and politics. Unfortunately, this sometimes means that their armies are trusted to the care of individuals on the basis of the political faction they follow rather than their ability to lead.
 
@@ -2159,6 +2179,9 @@ In addition, roll a D6 for each magic item belonging to a model from a Chaos, Sk
 
 Alarielle always strikes first in close combat. If an enemy also has this ability, the models strike in Initiative order (roll off in the case of equal Initiative values). If Alarielle hits her target, then no to wound roll is made. Instead the enemy model may make no attacks that turn, and any other models attacking it hit automatically that phase. In the case of a mounted model (on a chariot or monster, for example), Alarielle must roll to hit against the highest Weapon Skill, but if she hits then the entire model is affected, including any special attacks, impact hits, etc.</description>
         </rule>
+        <rule id="905b-2907-aa52-b303" name="The Everqueen" hidden="false">
+          <description>Alarielle counts as a Lord choice and takes up one of your Hero choices as well. She can never be the army&apos;s General. If her Handmaidens are included in the army she must lead the unit, and cannot voluntarily leave it.</description>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink id="e986-81b6-55c6-99bf" name="Stoic" hidden="false" targetId="278c-a80d-b3aa-e8aa" type="rule"/>
@@ -2166,6 +2189,8 @@ Alarielle always strikes first in close combat. If an enemy also has this abilit
       <categoryLinks>
         <categoryLink id="c310-8469-6df9-670b" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="fe1b-9686-278f-5832" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="2a84-b529-ad65-1873" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="e6fb-4d45-548a-f5e0" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="057c-c062-0672-841b" name="Shieldstone of Isha" hidden="false" collective="false" import="true" type="upgrade">
@@ -2206,7 +2231,7 @@ Once in each High Elf Magic phase, you may choose to unleash one of Alarielle&ap
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="515.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8f20-4cd8-f33f-b1f8" name="Eltharion" hidden="false" collective="false" import="true" type="model">
@@ -2313,9 +2338,6 @@ Unleashing his speed and strength in a flurry of blistering attacks, Eltharion r
         </profile>
       </profiles>
       <rules>
-        <rule id="b656-7998-f7b5-b316" name="Scaffold - points needed" hidden="false">
-          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
-        </rule>
         <rule id="fde0-8d07-bceb-4d9f" name="Intrigue at Court" hidden="false">
           <description>Though they are loyal to a fault, High Elves love intrigue and politics. Unfortunately, this sometimes means that their armies are trusted to the care of individuals on the basis of the political faction they follow rather than their ability to lead.
 
@@ -2336,6 +2358,9 @@ In battle it is used as any other Breath Weapon. Those hit by it suffer a Streng
 
 Minaithnir is fanatically loyal to his  master. If lmrik is slain, Minaithnir will become subject to the rules for frenzy, but will otherwise remain under the control of the High Elf player. Note also that Minaithnir&apos;s profile is better than normal Dragons.</description>
         </rule>
+        <rule id="55df-9293-5961-0162" name="Army List" hidden="false">
+          <description>Imrik uses up two of your Hero choices, not one. BattleScribe counts him against a single Hero slot, so the second must be tracked by hand.</description>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink id="51cc-410e-77e3-3dca" name="Stoic" hidden="false" targetId="278c-a80d-b3aa-e8aa" type="rule"/>
@@ -2345,6 +2370,8 @@ Minaithnir is fanatically loyal to his  master. If lmrik is slain, Minaithnir wi
       <categoryLinks>
         <categoryLink id="1bc1-d5c5-a250-608d" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="ee62-dcd7-d0ae-3702" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="1de3-1d35-1051-1ef1" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="8f9a-2d89-8069-0999" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1310-4a69-9bf0-de55" name="Star Lance" hidden="false" collective="false" import="true" type="upgrade">
@@ -2385,12 +2412,26 @@ Once per battle, at the start of any of his own turns, lmrik may sound the Drago
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="5d92-54cf-bea3-c086" name="Minaithnir" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ec0-31c1-3b1f-df17" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92b2-0746-189b-988a" type="min"/>
+          </constraints>
+          <rules>
+            <rule id="26cc-c112-d5ea-ec5e" name="Minaithnir" hidden="false">
+              <description>Imrik always rides Minaithnir. Minaithnir is priced separately only so the points can be tracked during a game; he is not optional.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="340.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="355.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3877-bfa7-f469-5eb9" name="Teclis (Sariour)" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="3877-bfa7-f469-5eb9" name="Teclis" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="8542-623d-a276-1dde" name="Teclis (Sariour)" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -2405,14 +2446,21 @@ Once per battle, at the start of any of his own turns, lmrik may sound the Drago
             <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
           </characteristics>
         </profile>
+        <profile id="2a37-4323-f1b8-ffd9" name="Teclis (Charoi)" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">6</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <rules>
-        <rule id="d5cc-8045-84f5-bd66" name="Scaffold - points needed" hidden="false">
-          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
-        </rule>
-        <rule id="c5ff-c0ac-f1d2-dc56" name="Two profiles" hidden="false">
-          <description>Teclis has two profiles depending on which staff he carries. Both are shown here; use the one matching the configuration you have chosen.</description>
-        </rule>
         <rule id="1633-cfaf-1b6a-9935" name="Intrigue at Court" hidden="false">
           <description>Though they are loyal to a fault, High Elves love intrigue and politics. Unfortunately, this sometimes means that their armies are trusted to the care of individuals on the basis of the political faction they follow rather than their ability to lead.
 
@@ -2456,6 +2504,8 @@ As soon as Teclis is reduced to 1 Wound he gets a 2+ Ward save for the rest of t
       <categoryLinks>
         <categoryLink id="32e0-38a9-841f-f69e" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="6819-9171-58dd-aa9b" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="c8a4-002b-05a9-8090" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="1a09-1ecd-8813-1d65" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="87bf-8bd6-57db-15ba" name="Sword of Teclis" hidden="false" collective="false" import="true" type="upgrade">
@@ -2510,133 +2560,10 @@ When the enemy casts a spell, Teclis may read the Scroll of Hoeth aloud as he mi
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="630.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a05b-8bca-82eb-003c" name="Teclis (Charoi)" hidden="false" collective="false" import="true" type="model">
-      <profiles>
-        <profile id="5b1c-0af2-44a1-c4c2" name="Teclis (Charoi)" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
-          <characteristics>
-            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
-            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
-            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
-            <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
-            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
-            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
-            <characteristic name="I" typeId="b418-0e30-644f-1435">6</characteristic>
-            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
-            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="206b-46c2-939c-cd0a" name="Scaffold - points needed" hidden="false">
-          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
-        </rule>
-        <rule id="eb53-58ff-8005-a41d" name="Two profiles" hidden="false">
-          <description>Teclis has two profiles depending on which staff he carries. Both are shown here; use the one matching the configuration you have chosen.</description>
-        </rule>
-        <rule id="613d-2e48-543f-8936" name="Intrigue at Court" hidden="false">
-          <description>Though they are loyal to a fault, High Elves love intrigue and politics. Unfortunately, this sometimes means that their armies are trusted to the care of individuals on the basis of the political faction they follow rather than their ability to lead.
-
-The army&apos;s General is determined randomly. Before deployment, line up the character models and roll a dice. Count this number along the line - this is your General. If you roll over the number of characters in the army then the General is selected as normal instead. If you have six or more characters, choose five of them to line up, and then roll as above.</description>
-        </rule>
-        <rule id="ee16-98b9-aaaa-df41" name="High Elf Mages" hidden="false">
-          <description>High Elves are far better attuned to the ebb and flow of the winds of magic than other races and can sense dangerous changes almost before they happen.
-
-High Elf Mages get +1 to each attempt to dispel. 
-Note that this bonus is not cumulative for having more than one High Elf Mage, so an army with two High Elf Mages will still only get +1 to dispel from this source. However, this bonus may still be combined with magic items as normal.</description>
-        </rule>
-        <rule id="9169-a744-ec76-9c76" name="High Loremaster" hidden="false">
-          <description>Teclis is the most powerful mage in this age of the world. He is master of the foremost mages of the High Elves and has studied in their secret libraries for more than an entire human lifetime.
-
-Obviously Teclis is far more potent than a normal mage and the following rules apply to him:
-
-Teclis begins the battle as a Level 4 Wizard and as long as the last potion he drank was Sariour, this will remain the case. However, while he is under the influence of Charoi he will only count as a Level 1 Wizard. If he imbibes his draught of Sariour he will return to being a Level 4 Wizard. Teclis may use either High Magic or any of the lores from the Warhammer rulebook. Whatever lore he chooses, Teclis will know all six spells, regardless of his current level.
-
-Teclis may re-roll all dice for spell effects. For example, if he casts Fury of Khaine he may re-roll the dice to see how many hits are caused and then re-roll any which fail to wound.
-
-Instead of the normal definition of the circumstances that end a remains in play spell, when Teclis casts such a spell it will remain in play until it is dispelled, or until he chooses to end it (which he can do at any time), attempts to cast the same spell again or is slain. This means that Teclis can maintain more than one &apos;remains in play&apos; spell at a time.</description>
-        </rule>
-        <rule id="aeb5-1338-af4c-eb16" name="Potions of Inner Strength" hidden="false">
-          <description>Since his sickly childhood, Teclis has carried supplies of these revitalising tonics wherever he goes. Both sparkle in the light as if the Loremaster had captured stars to brew his potion, but whilst Sariour is a golden, sunlike yellow, Charoi is the deepest blue of night.
-
-You will note that Teclis has two profiles instead of the normal one. Which profile you use depends on which of the potions Teclis drank last. He only takes one draught of each potion with him to battle, so you can only use each type once.
-
-At the start of the battle, Teclis will be under the effects of the potion of Sariour. At any time he may choose to drink the potion of Charoi.
-
-Note, however, that the number of Wounds on the profiles refers to starting Wounds. For example, if Teclis suffers a wound before he drinks Charoi then he will not go back to 3 Wounds when he does so.</description>
-        </rule>
-        <rule id="dd2f-c957-8c16-2411" name="Curse of Aenarion (Teclis)" hidden="false">
-          <description>Teclis is descended from the first of the Phoenix Kings: the doomed Aenarion. As such he is tainted by the cursed blood of his ancestor. This curse leaves Teclis physically frail, indeed he would never have survived to maturity if it had not been for the curative powers of the magical brews he drinks daily. However, all of Aenarion&apos;s line are destined for greatness, and as such Teclis is also marked by the hand of Fate. Quite what is ultimately destined for Techs and his brother Tyrion is a secret hidden to even the most potent seer, but their glorious deeds in defence of their homeland are already the stuff of legend.
-
-As soon as Teclis is reduced to 1 Wound he gets a 2+ Ward save for the rest of the battle. Note that if an attack will inflict multiple wounds, for example a cannon ball, then Teclis will only get this special Ward save if he has already been reduced to 1 Wound before he is hit.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="9e2b-448b-6cbf-2977" name="Stoic" hidden="false" targetId="278c-a80d-b3aa-e8aa" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="4e9a-d38a-4a35-ce10" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
-        <categoryLink id="9fb7-ff23-3917-61b8" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="3de1-300d-69f1-262e" name="Sword of Teclis" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="c867-9466-9d69-e11a" name="Sword of Teclis" hidden="false">
-              <description>This sword was forged by Teclis himself, a weapon to protect himself as he began the quest for his brother Tyrion and the Everqueen.
-
-All hits from the Sword of Teclis wound on a roll of 2+ and armour saves may not be taken.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="5e6c-d370-54a6-b36b" name="War Crown of Saphery" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="2cc2-5b8e-c571-5d73" name="War Crown of Saphery" hidden="false">
-              <description>The War Crown is an ancient symbol of the magical realm of Saphery, seldom seen outside the walls of the White Tower unless in times of peril. It was gifted to Teclis by the former High Loremaster on the eve of the young mage&apos;s departure on the quest for his brother, Tyrion.
-
-Any spell which is normally limited to a specific range in inches is now of unlimited range. Spells that only affect the caster, all units within a certain range of the caster or may already be cast anywhere are not altered. Note that this does not mean that he can cast spells at targets that are out of sight if the spell normally requires line of sight.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d4ed-53ad-8642-d593" name="Moon Staff of Lileath" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="b492-4a04-4d5c-1ecc" name="Moon Staff of Lileath" hidden="false">
-              <description>A sturdy wooden staff is the traditional symbol of the mage, often being ensorcelled with cunning wizardries to aid the spellcaster in his work. This elaborate staff channels the power of the moon goddess, strengthening Teclis and filling him with magical energy.
-
-The staff gives Teclis 1 extra dice in each Magic phase (including enemy Magic phases).
-
-In addition, once per battle, at the start of his own Magic phase, Teclis may draw on the full power of the staff. On the turn he does this, the number of dice granted by the Staff increases from one to D6. Unfortunately, this temporarily drains the power of the staff so it will cease to provide any additional dice for the rest of the battle.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d428-195d-c55d-4ff8" name="Scroll of Hoeth" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="eb0a-b71d-95c1-d479" name="Scroll of Hoeth" hidden="false">
-              <description>Though clearly ancient and seemingly fragile, this well worn heirloom has seen a thousand battles and will see many more.
-
-When the enemy casts a spell, Teclis may read the Scroll of Hoeth aloud as he might read a Dispel scroll and with the same effect. In addition, both Teclis and the caster roll a D6; if Teclis scores higher, the spell is removed from the mind of the caster and cannot be used for the rest of the game. One use per battle.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="275f-2406-47f7-8f7e" name="Handmaiden of the Everqueen" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="275f-2406-47f7-8f7e" name="Handmaidens of the Everqueen" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="7e5c-686c-1eae-eb64" name="Handmaiden of the Everqueen" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -2653,8 +2580,12 @@ When the enemy casts a spell, Teclis may read the Scroll of Hoeth aloud as he mi
         </profile>
       </profiles>
       <rules>
-        <rule id="2c9e-01c6-9082-abc8" name="Scaffold - points needed" hidden="false">
-          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        <rule id="789c-6117-55f0-11e7" name="Handmaidens of the Everqueen" hidden="false">
+          <description>The Handmaidens of the Everqueen can be fielded as a Rare troop choice in a High Elf army. They must be fielded exactly as presented here and no extra equipment or magic items can be bought for them.
+
+Ten Handmaidens, including the unit&apos;s Champion, Musician and Standard Bearer, cost 300 points. This is the minimum size of the unit; extra Handmaidens can be added at +20 points per model.
+
+If Alarielle is with her Handmaidens then the whole unit becomes Unbreakable.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2662,8 +2593,7 @@ When the enemy casts a spell, Teclis may read the Scroll of Hoeth aloud as he mi
         <infoLink id="3457-c1c4-673c-0f9f" name="Immune to Psychology" hidden="false" targetId="512a-5ae5-c6cb-b82a" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="3d5c-f617-c4b4-03b4" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
-        <categoryLink id="d62a-dee2-8810-1220" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="6493-7743-9aef-621a" name="Rare" hidden="false" targetId="a3af-995e-0cf1-7091" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ea76-0e7e-de81-d154" name="The Banner of Avelorn" hidden="false" collective="false" import="true" type="upgrade">
@@ -2690,9 +2620,19 @@ Once per battle, at the beginning of any High Elf Shooting phase or of any Close
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="12bc-8d52-e2a7-4b62" name="Additional Handmaiden" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="dd02-f850-b6a4-ed3d" name="Additional Handmaiden" hidden="false">
+              <description>Handmaidens beyond the first ten, at +20 points each.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="300.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
