@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="05b9-5022-67cd-4fd3" name="Bretonnians" revision="17" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="05b9-5022-67cd-4fd3" name="Bretonnians" revision="20" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="ff93-67ff-9b17-d51d" name="Grail Vow" hidden="false">
       <rules>
@@ -2087,6 +2087,127 @@ The Toad Familiar adds one dice to both the Power dice and the Dispel dice pool 
       </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="480.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="02a0-4fc7-0c75-7ddd" name="Louen Leoncoeur" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1c6b-3042-a658-21b7" name="Louen Leoncoeur" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">7</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">5</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">7</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">5</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9b6f-ad6a-43b8-f5bd" name="Beaquis" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">8</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">5</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">4</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">6</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f9f8-08ab-a52d-410e" name="Special Character" hidden="false">
+          <description>Louen Leoncoeur counts as a Lord choice and uses up one of your Hero choices as well. He must be the army&apos;s General. He must be fielded exactly as described and may not be given additional equipment.
+
+If Louen is taken, Grail Knights are no longer limited to one unit, but Men-at-arms and Peasant Bowmen become Special choices rather than Core.</description>
+        </rule>
+        <rule id="810a-1113-3d3b-1ef6" name="Beloved Son of Bretonnia" hidden="false">
+          <description>lf Louen is removed as a casualty, all Bretonnian units must take a Panic test. Such is the determination to reclaim their fallen ruler that all Bretonnian troops count as Stubborn for the rest of the battle, even if normally Immune to Psychology.</description>
+        </rule>
+        <rule id="ef13-bbb8-7edf-870a" name="The Army of the King" hidden="false">
+          <description>When Louen goes to war, the finest warriors of Bretonnia march with him. The 0-1 restriction on Grail Knights is lifted when Louen is me General. However, Men-at-arms and Bowmen become Special choices.</description>
+        </rule>
+        <rule id="23dd-7a9f-ecba-772a" name="The Grail Vow" hidden="false">
+          <description>&apos;…That which is sacrosanct I shall preserve. That which is sublime I will protect. That which threatens, I will destroy, for my holy wrath will know no bounds…&apos;
+
+Knights with the Grail Vow are Immune to Psychology, and cannot be joined by characters that have The Knight&apos;s Vow or The Questing Vow.
+
+Any model with the Grail Vow always starts the game with The Blessing of the Lady, regardless of whether or not the Bretonnian army prays. All attacks made by models with the Grail Vow count as magical, though this does not affect the Knight’s mount.</description>
+        </rule>
+        <rule id="1549-b3ab-c2da-4526" name="The Lady’s Champion" hidden="false">
+          <description>Leoncoeur bears a blessing even more potent than others who have sipped from the Grail. He will always have the Blessing of the Lady, even if the army did not pray. In addition to the Ward save he receives from the Blessing, Leoncoeur has Regeneration. However, the Lady&apos;s code is so integral to his nature that if Leoncoeur flees for any reason, fails to rally or refuses a challenge, he will immediately take a wound with no saves of any kind allowed and will lose the Blessing. He will, however, maintain his Regeneration special ability.</description>
+        </rule>
+        <rule id="a22c-81a6-52a6-79d0" name="The Puissant Virtue" hidden="false">
+          <description>Whilst fighting in challenges, Louen can re-roll any failed rolls to hit or to wound, but must always accept the second result. Louen also counts as having the Virtue of Purity.</description>
+        </rule>
+        <rule id="3d69-0f94-1a2f-21e1" name="Beaquis the Hippogryph" hidden="false">
+          <description>As with all Hyppogryphs, Beaquis can Fly, is a Large Target and causes terror. Such is the bond of loyalty between the beast and its master that Beaquis will always count as rolling a 6 on the Monster Reaction table in the event of his master&apos;s death. No Leadership test is taken if Louen is slain.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="d43a-22b9-944d-149b" name="Large Target" hidden="false" targetId="01c3-c8c6-431f-1c2b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="beb2-c52d-5f33-1039" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="7b5b-5037-03d0-f393" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3f92-71ac-bd10-1b60" name="The Sword of Couronne" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="f9d8-b27a-030f-fa1f" name="The Sword of Couronne" hidden="false">
+              <description>This powerful heirloom was forged from the finest Bretonnian silverine, and was quenched in the mirrorpools of the great forest. It catches the sun&apos;s rays and magnifies them, da=ling Louen&apos;s enemies as he charges into battle.
+
+The sword confers + 1 Strength. In addition, any foe in base contact with Louen at the beginning of any Close Combat phase must take a Leadership test. If this is failed, that model may make no attacks this round and will be hit automatically</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="11fe-6416-87f6-3f6b" name="The Lion’s Shield" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="e610-1095-76f3-2e08" name="The Lion’s Shield" hidden="false">
+              <description>King Louen carries the shield that has protected him since the first days of his knighthood. Over the years it has been worked by Bretonnia&apos;s greatest artisans and enchanted by powerful prophetesses to become a mighty artefact.
+
+Counts as a normal shield. In addition, Louen has a Magic Resistance value equal to the total number of dice used in the casting of any spell that affects him. This can exceed the normal limit for Magic Resistance; for example, if a Fireball is targeted at Louen using four dice to cast, he will have Magic Resistance (4) for the purposes of dispelling that spell! Against Bound Spell, Louen has Magic Resistance (1).</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2a69-065b-0912-66f2" name="The Crown of Bretonnia" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="9e70-c784-f7f6-6353" name="The Crown of Bretonnia" hidden="false">
+              <description>Blessed by a kiss from the Lady, this crown has been an ancient symbol of leadership since the coronation of Gilles&apos; son, King Louis the Rash. It shines with a golden light just as intense as the day it was bequeathed to the Bretonnians.
+
+Friendly troops may use Louen Leoncoeur&apos;s Leadership characteristic when he is within 18&quot; instead of the usual 12&quot;. Any unit with line of sight to him is immune to panic.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4097-2013-91ad-93c9" name="Beaquis" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="774d-8714-52ad-22b2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d001-a902-dcfb-9649" type="min"/>
+          </constraints>
+          <rules>
+            <rule id="d6b4-fff1-df7e-93b8" name="Beaquis" hidden="false">
+              <description>Louen Leoncoeur always rides Beaquis, the royal hippogryph. Beaquis is priced separately only so the points can be tracked during a game; he is not optional.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="200.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="528.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -5268,127 +5389,6 @@ The enemy cannot choose the stand &amp; shoot reaction against the unit carrying
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="200.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="02a0-4fc7-0c75-7ddd" name="Louen Leoncoeur" hidden="false" collective="false" import="true" type="model">
-      <profiles>
-        <profile id="1c6b-3042-a658-21b7" name="Louen Leoncoeur" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
-          <characteristics>
-            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
-            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">7</characteristic>
-            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">5</characteristic>
-            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
-            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
-            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
-            <characteristic name="I" typeId="b418-0e30-644f-1435">7</characteristic>
-            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">5</characteristic>
-            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="9b6f-ad6a-43b8-f5bd" name="Beaquis" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
-          <characteristics>
-            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">8</characteristic>
-            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
-            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
-            <characteristic name="S" typeId="0c58-1252-962d-8fcc">5</characteristic>
-            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
-            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">4</characteristic>
-            <characteristic name="I" typeId="b418-0e30-644f-1435">6</characteristic>
-            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
-            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="f9f8-08ab-a52d-410e" name="Special Character" hidden="false">
-          <description>Louen Leoncoeur counts as a Lord choice and uses up one of your Hero choices as well. He must be the army&apos;s General. He must be fielded exactly as described and may not be given additional equipment.
-
-If Louen is taken, Grail Knights are no longer limited to one unit, but Men-at-arms and Peasant Bowmen become Special choices rather than Core.</description>
-        </rule>
-        <rule id="810a-1113-3d3b-1ef6" name="Beloved Son of Bretonnia" hidden="false">
-          <description>lf Louen is removed as a casualty, all Bretonnian units must take a Panic test. Such is the determination to reclaim their fallen ruler that all Bretonnian troops count as Stubborn for the rest of the battle, even if normally Immune to Psychology.</description>
-        </rule>
-        <rule id="ef13-bbb8-7edf-870a" name="The Army of the King" hidden="false">
-          <description>When Louen goes to war, the finest warriors of Bretonnia march with him. The 0-1 restriction on Grail Knights is lifted when Louen is me General. However, Men-at-arms and Bowmen become Special choices.</description>
-        </rule>
-        <rule id="23dd-7a9f-ecba-772a" name="The Grail Vow" hidden="false">
-          <description>&apos;…That which is sacrosanct I shall preserve. That which is sublime I will protect. That which threatens, I will destroy, for my holy wrath will know no bounds…&apos;
-
-Knights with the Grail Vow are Immune to Psychology, and cannot be joined by characters that have The Knight&apos;s Vow or The Questing Vow.
-
-Any model with the Grail Vow always starts the game with The Blessing of the Lady, regardless of whether or not the Bretonnian army prays. All attacks made by models with the Grail Vow count as magical, though this does not affect the Knight’s mount.</description>
-        </rule>
-        <rule id="1549-b3ab-c2da-4526" name="The Lady’s Champion" hidden="false">
-          <description>Leoncoeur bears a blessing even more potent than others who have sipped from the Grail. He will always have the Blessing of the Lady, even if the army did not pray. In addition to the Ward save he receives from the Blessing, Leoncoeur has Regeneration. However, the Lady&apos;s code is so integral to his nature that if Leoncoeur flees for any reason, fails to rally or refuses a challenge, he will immediately take a wound with no saves of any kind allowed and will lose the Blessing. He will, however, maintain his Regeneration special ability.</description>
-        </rule>
-        <rule id="a22c-81a6-52a6-79d0" name="The Puissant Virtue" hidden="false">
-          <description>Whilst fighting in challenges, Louen can re-roll any failed rolls to hit or to wound, but must always accept the second result. Louen also counts as having the Virtue of Purity.</description>
-        </rule>
-        <rule id="3d69-0f94-1a2f-21e1" name="Beaquis the Hippogryph" hidden="false">
-          <description>As with all Hyppogryphs, Beaquis can Fly, is a Large Target and causes terror. Such is the bond of loyalty between the beast and its master that Beaquis will always count as rolling a 6 on the Monster Reaction table in the event of his master&apos;s death. No Leadership test is taken if Louen is slain.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="d43a-22b9-944d-149b" name="Large Target" hidden="false" targetId="01c3-c8c6-431f-1c2b" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="beb2-c52d-5f33-1039" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
-        <categoryLink id="7b5b-5037-03d0-f393" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="3f92-71ac-bd10-1b60" name="The Sword of Couronne" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="f9d8-b27a-030f-fa1f" name="The Sword of Couronne" hidden="false">
-              <description>This powerful heirloom was forged from the finest Bretonnian silverine, and was quenched in the mirrorpools of the great forest. It catches the sun&apos;s rays and magnifies them, da=ling Louen&apos;s enemies as he charges into battle.
-
-The sword confers + 1 Strength. In addition, any foe in base contact with Louen at the beginning of any Close Combat phase must take a Leadership test. If this is failed, that model may make no attacks this round and will be hit automatically</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="11fe-6416-87f6-3f6b" name="The Lion’s Shield" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="e610-1095-76f3-2e08" name="The Lion’s Shield" hidden="false">
-              <description>King Louen carries the shield that has protected him since the first days of his knighthood. Over the years it has been worked by Bretonnia&apos;s greatest artisans and enchanted by powerful prophetesses to become a mighty artefact.
-
-Counts as a normal shield. In addition, Louen has a Magic Resistance value equal to the total number of dice used in the casting of any spell that affects him. This can exceed the normal limit for Magic Resistance; for example, if a Fireball is targeted at Louen using four dice to cast, he will have Magic Resistance (4) for the purposes of dispelling that spell! Against Bound Spell, Louen has Magic Resistance (1).</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="2a69-065b-0912-66f2" name="The Crown of Bretonnia" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="9e70-c784-f7f6-6353" name="The Crown of Bretonnia" hidden="false">
-              <description>Blessed by a kiss from the Lady, this crown has been an ancient symbol of leadership since the coronation of Gilles&apos; son, King Louis the Rash. It shines with a golden light just as intense as the day it was bequeathed to the Bretonnians.
-
-Friendly troops may use Louen Leoncoeur&apos;s Leadership characteristic when he is within 18&quot; instead of the usual 12&quot;. Any unit with line of sight to him is immune to panic.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="4097-2013-91ad-93c9" name="Beaquis" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="774d-8714-52ad-22b2" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d001-a902-dcfb-9649" type="min"/>
-          </constraints>
-          <rules>
-            <rule id="d6b4-fff1-df7e-93b8" name="Beaquis" hidden="false">
-              <description>Louen Leoncoeur always rides Beaquis, the royal hippogryph. Beaquis is priced separately only so the points can be tracked during a game; he is not optional.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="200.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="528.0"/>
-      </costs>
-    </selectionEntry>
   </selectionEntries>
       <entryLinks>
         <entryLink id="d111-7d13-dc5a-183e" name="Royal Pegasus" hidden="false" collective="false" import="true" targetId="aeaf-526d-defd-895d" type="selectionEntry">

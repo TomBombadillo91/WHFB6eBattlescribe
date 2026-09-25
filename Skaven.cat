@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="dfb1-1789-5d68-be54" name="Skaven" revision="25" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="dfb1-1789-5d68-be54" name="Skaven" revision="28" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="4f5c-498c-bd84-7e28" name="Clan Eshin" hidden="false"/>
     <categoryEntry id="befb-92ec-0667-152b" name="Clan Pestilens" hidden="false"/>
@@ -3486,6 +3486,96 @@ Warp-blades are Warpstone Weapons.</description>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="65.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="8c78-6bdd-66af-8c05" name="Queek Head-taker" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="aa05-bc9a-3166-0b83" name="Queek Head-taker" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">7</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">8</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e848-7fa9-5e48-e8bb" name="Special Character" hidden="false">
+          <description>Queek Head-taker counts as a Lord choice and in addition takes up one of your Hero choices as well. If Queek is taken, the army must include at least one unit of Stormvermin.</description>
+        </rule>
+        <rule id="3fe3-df7a-404d-e72d" name="Two Weapons" hidden="false">
+          <description>Warlord Queek is extremely adept at fighting with his two magic weapons, in a blinding-fast flurry of blades. He uses both the Gouger and Dwarf Slayer at the same time, obtaining a total of 5 Attacks in close combat. All these attacks allow no Armour save, as well as wounding Dwarfs on a 2+</description>
+        </rule>
+        <rule id="9210-d1e9-944c-c79f" name="Challenge-challenge!" hidden="false">
+          <description>Queek is supremely confident in his own capabilities. Whenever Warlord Queek is in hand-to-hand combat he will always issue a challenge to single combat against any enemy characters, whether you want him to or not and accept it if the enemy declares the challenge first. When Queek is fighting in a challenge he fights with the fury of the deeply conceited, so can re-roll any failed rolls to hit and to wound.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="207e-f605-d50b-4d36" name="He Who Runs Away Lives To Fight Another Day!" hidden="false" targetId="5fb0-daaa-4342-a16f" type="rule"/>
+        <infoLink id="aecb-437a-af6b-2524" name="Life is Cheap" hidden="false" targetId="582b-d343-7def-2abf" type="rule"/>
+        <infoLink id="d9d0-95c3-6118-333c" name="Lead from the Back" hidden="false" targetId="7f59-cae6-4425-1e0f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6c76-f9e0-a6c7-584f" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="82f5-41d5-2f41-865f" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="da5e-802f-059e-3cce" name="The Gouger" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="4bf8-57dc-0c53-31ba" name="The Gouger" hidden="false">
+              <description>The potent blade of this foul weapon is engraved with twisted markings and is capable of slicing through the finest armour with ease.
+
+No armour saves are allowed against wounds caused by the Gouger.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="50.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4442-0f33-59a0-989a" name="Dwarf-slayer" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="3755-6d79-2e0b-9a5b" name="Dwarf-slayer" hidden="false">
+              <description>This wicked and ancient weapon was fashioned as the Skaven battled to wrest the Worlds Edge Mountains from the Dwarfs.
+
+Against Dwarfs, the wielder always wounds on a 2+. Armour saves suffer a -3 modifier, regardless of the welder&apos;s Strength.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="75b5-330a-31de-46f0" name="Warpstone Armour" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="7911-e568-30de-879f" name="Warpstone Armour" hidden="false">
+              <description>Warpstone Amour contains powdered warpstone that is mixed in with the metal during the forging process, and radiates a poisonous aura.
+
+Gives a 4+ armour save that can be combined with other armour as normal. For each successful armour save in close combat, the armour inflicts a Strength 4 hit against the enemy that struck the blow.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="05d6-1fea-7a36-6cee" name="The Foul Pendant" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="da3a-e0e8-6366-ab0b" name="The Foul Pendant" hidden="false">
+              <description>Sickly green smoke radiates from this rat-skull token. This solidifies before incoming attacks, returning to smoke once more when the blow is deflected.
+
+The pendant confers a 5+ Ward save to the bearer.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="30.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="300.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <rules>
     <rule id="5fb0-daaa-4342-a16f" name="He Who Runs Away Lives To Fight Another Day!" hidden="false">
@@ -4610,96 +4700,6 @@ Double 5 or Double 6	BLAM! The weapon builds up excessive pressure and the relea
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="60.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8c78-6bdd-66af-8c05" name="Queek Head-taker" hidden="false" collective="false" import="true" type="model">
-      <profiles>
-        <profile id="aa05-bc9a-3166-0b83" name="Queek Head-taker" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
-          <characteristics>
-            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
-            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">7</characteristic>
-            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
-            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
-            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
-            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
-            <characteristic name="I" typeId="b418-0e30-644f-1435">8</characteristic>
-            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
-            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">7</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="e848-7fa9-5e48-e8bb" name="Special Character" hidden="false">
-          <description>Queek Head-taker counts as a Lord choice and in addition takes up one of your Hero choices as well. If Queek is taken, the army must include at least one unit of Stormvermin.</description>
-        </rule>
-        <rule id="3fe3-df7a-404d-e72d" name="Two Weapons" hidden="false">
-          <description>Warlord Queek is extremely adept at fighting with his two magic weapons, in a blinding-fast flurry of blades. He uses both the Gouger and Dwarf Slayer at the same time, obtaining a total of 5 Attacks in close combat. All these attacks allow no Armour save, as well as wounding Dwarfs on a 2+</description>
-        </rule>
-        <rule id="9210-d1e9-944c-c79f" name="Challenge-challenge!" hidden="false">
-          <description>Queek is supremely confident in his own capabilities. Whenever Warlord Queek is in hand-to-hand combat he will always issue a challenge to single combat against any enemy characters, whether you want him to or not and accept it if the enemy declares the challenge first. When Queek is fighting in a challenge he fights with the fury of the deeply conceited, so can re-roll any failed rolls to hit and to wound.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="207e-f605-d50b-4d36" name="He Who Runs Away Lives To Fight Another Day!" hidden="false" targetId="5fb0-daaa-4342-a16f" type="rule"/>
-        <infoLink id="aecb-437a-af6b-2524" name="Life is Cheap" hidden="false" targetId="582b-d343-7def-2abf" type="rule"/>
-        <infoLink id="d9d0-95c3-6118-333c" name="Lead from the Back" hidden="false" targetId="7f59-cae6-4425-1e0f" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="6c76-f9e0-a6c7-584f" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
-        <categoryLink id="82f5-41d5-2f41-865f" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="da5e-802f-059e-3cce" name="The Gouger" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="4bf8-57dc-0c53-31ba" name="The Gouger" hidden="false">
-              <description>The potent blade of this foul weapon is engraved with twisted markings and is capable of slicing through the finest armour with ease.
-
-No armour saves are allowed against wounds caused by the Gouger.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="50.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="4442-0f33-59a0-989a" name="Dwarf-slayer" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="3755-6d79-2e0b-9a5b" name="Dwarf-slayer" hidden="false">
-              <description>This wicked and ancient weapon was fashioned as the Skaven battled to wrest the Worlds Edge Mountains from the Dwarfs.
-
-Against Dwarfs, the wielder always wounds on a 2+. Armour saves suffer a -3 modifier, regardless of the welder&apos;s Strength.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="75b5-330a-31de-46f0" name="Warpstone Armour" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="7911-e568-30de-879f" name="Warpstone Armour" hidden="false">
-              <description>Warpstone Amour contains powdered warpstone that is mixed in with the metal during the forging process, and radiates a poisonous aura.
-
-Gives a 4+ armour save that can be combined with other armour as normal. For each successful armour save in close combat, the armour inflicts a Strength 4 hit against the enemy that struck the blow.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="05d6-1fea-7a36-6cee" name="The Foul Pendant" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="da3a-e0e8-6366-ab0b" name="The Foul Pendant" hidden="false">
-              <description>Sickly green smoke radiates from this rat-skull token. This solidifies before incoming attacks, returning to smoke once more when the blow is deflected.
-
-The pendant confers a 5+ Ward save to the bearer.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="30.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="300.0"/>
-      </costs>
-    </selectionEntry>
   </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
