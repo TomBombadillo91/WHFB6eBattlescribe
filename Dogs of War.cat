@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3604-800a-4012-5da6" name="Dogs of War" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3604-800a-4012-5da6" name="Dogs of War" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5e7e-36e5-c0bf-c57c" name="Dogs of War" hidden="false"/>
     <categoryEntry id="c51c-ed7d-9669-006f" name="Regiment of Renown" hidden="false"/>
@@ -4951,8 +4951,8 @@ This spell can be cast on any enemy unit on the table. The unit must immediately
         </profile>
       </profiles>
       <rules>
-        <rule id="35c4-77ba-4669-0d45" name="Scaffold - points needed" hidden="false">
-          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        <rule id="35c4-77ba-4669-0d45" name="Special Character" hidden="false">
+          <description>Borgio the Besieger can be taken as a Lord choice, but he will use up one of your Hero choices as well. He must be fielded exactly as presented here and no extra equipment or magic items can be bought for him. He must be the army&apos;s General if taken.</description>
         </rule>
         <rule id="fd02-b990-3639-0c1c" name="Difficult to Slay" hidden="false">
           <description>Borgio the Besieger has an almost unnatural ability to withstand pain and injury. If he is reduced to zero wounds, then do not remove the model, but lay it on its side and leave it in place. At the end of the phase, roll a D6. On a 1-3, he is removed as a casualty as normal. On a roll of 4 or more, he stands back up again with a single Wound remaining.</description>
@@ -5003,7 +5003,7 @@ If Borgio rolls a 6 to hit with this weapon, that hit will be at Strength 10.</d
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="250.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d0af-541d-e285-9021" name="Ghazak Khan" hidden="false" collective="false" import="true" type="model">
@@ -5036,8 +5036,8 @@ If Borgio rolls a 6 to hit with this weapon, that hit will be at Strength 10.</d
         </profile>
       </profiles>
       <rules>
-        <rule id="b244-f468-938d-97a2" name="Scaffold - points needed" hidden="false">
-          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        <rule id="b244-f468-938d-97a2" name="Special Character" hidden="false">
+          <description>Ghazak Khan can be taken as a Lord choice, but he will use up one of your Hero choices as well. He must be fielded exactly as presented here and no extra equipment or magic items can be bought for him. He must be the army&apos;s General if taken.</description>
         </rule>
         <rule id="1dea-2256-0c70-1d65" name="Warghan" hidden="false">
           <description>Warghan is a monstrous wolf that Ghazak Khan uses as a mount. Warghan causes fear, has thick fur giving it a 4+ armour save, and counts as a monstrous mount.</description>
@@ -5074,9 +5074,22 @@ If Borgio rolls a 6 to hit with this weapon, that hit will be at Strength 10.</d
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="ff0d-929e-e28d-2618" name="Warghan" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec26-c755-e155-df91" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="015e-c645-0ff8-2b65" name="Warghan" hidden="false">
+              <description>Ghazak Khan rides Warghan, his monstrous steed.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="45.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="305.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="88f0-9c48-7724-4636" name="Lorenzo Lupo" hidden="false" collective="false" import="true" type="model">
@@ -5096,8 +5109,8 @@ If Borgio rolls a 6 to hit with this weapon, that hit will be at Strength 10.</d
         </profile>
       </profiles>
       <rules>
-        <rule id="707e-cf9b-52de-8ef9" name="Scaffold - points needed" hidden="false">
-          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        <rule id="707e-cf9b-52de-8ef9" name="Special Character" hidden="false">
+          <description>Lorenzo Lupo can be taken as a Lord choice, but he will use up one of your Hero choices as well. He must be fielded exactly as presented here and no extra equipment or magic items can be bought for him. He must be the army&apos;s General if taken.</description>
         </rule>
         <rule id="10ed-44f0-1bc1-2d0c" name="Fights on Foot" hidden="false">
           <description>Lorenzo is a very eccentric man, in that he prefers to fight on foot in the style of his ancestors. He always takes his place at the front ranks of his pikemen or leads his soldiers on his men-of-war. This is very inspiring to his men, and they are eager to fight for and defend their Merchant Prince. To represent this, when Lorenzo is in the front rank of any infantry regiment (including Regiments of Renown) he adds +1 to the combat resolution for that unit. If, for any reason he leaves the front rank, they lose that bonus.</description>
@@ -5154,7 +5167,7 @@ Mighty Athlete Chart
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="300.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2614-a43c-8f12-f1d3" name="Lucrezzia Belladonna" hidden="false" collective="false" import="true" type="model">
@@ -5174,8 +5187,8 @@ Mighty Athlete Chart
         </profile>
       </profiles>
       <rules>
-        <rule id="4429-5f49-9996-7250" name="Scaffold - points needed" hidden="false">
-          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        <rule id="4429-5f49-9996-7250" name="Special Character" hidden="false">
+          <description>Lucrezzia Belladonna can be taken as a Lord choice, but she will use up one of your Hero choices as well. She must be fielded exactly as presented here and no extra equipment or magic items can be bought for her. She must be the army&apos;s General if taken.</description>
         </rule>
         <rule id="f10d-008a-273d-f819" name="Stunning Beauty" hidden="false">
           <description>Lucrezzia Belladonna&apos;s beauty has an amazing effect on the human mercenaries in the army. To represent this, any human unit within 8&quot; of her automatically rally - they stop fleeing and rally as soon as they are within 8&quot; This affects fleeing troops during the opponent&apos;s turn as well. This does not affect any troops that are immune to psychology.</description>
@@ -5205,7 +5218,7 @@ Lucrezzia hires an &apos;agent&apos; prior to every battle. This agent will snea
         <categoryLink id="124b-7be5-8174-a123" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="380.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="83b6-7731-887d-f9c9" name="Mydas the Mean" hidden="false" collective="false" import="true" type="model">
@@ -5264,8 +5277,8 @@ Lucrezzia hires an &apos;agent&apos; prior to every battle. This agent will snea
         </profile>
       </profiles>
       <rules>
-        <rule id="2bc3-c424-f8d3-11f1" name="Scaffold - points needed" hidden="false">
-          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        <rule id="2bc3-c424-f8d3-11f1" name="Special Character" hidden="false">
+          <description>Mydas the Mean counts as both a Hero and a Special choice. If you field him, he is the army&apos;s Paymaster. He must be fielded exactly as presented here and no extra equipment or magic items can be bought for him.</description>
         </rule>
         <rule id="5b3b-720f-1bcf-e46a" name="The Pay Chest" hidden="false">
           <description>The pay chest is taken into battle so that Paymaster Mydas can keep an eye on its whereabouts. Sheikh Yadosh, a wealthy Arabian moneylender who has accompanied Mydas since his days in Sartosa, is given the task of keeping the pay chest secure during battle. Placed on a light carriage ridden by Sheikh Yadosh, the pay chest inspires acts of heroism and bravery amongst mercenaries, hoping that by such acts they will be paid a bonus.
@@ -5332,7 +5345,7 @@ Treasure Map Chart
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="320.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

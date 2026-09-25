@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="16" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="17" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="3f17-868d-fac0-4c8d" name="First Among Equals" hidden="false">
       <constraints>
@@ -3738,7 +3738,7 @@ Tyrion parries the first enemy hit against him per Close Combat phase and it has
 Tyrion may re-roll any failed rolls to hit on the first turn of each close combat.</description>
         </rule>
         <rule id="790f-c0b4-b326-7352" name="Curse of Aenarion" hidden="false">
-          <description>TEXT NOT AVAILABLE. The wiki page for this rule does not load and is not in the scrape; Tyrion&apos;s version differs from the Teclis one, so it has been left to be filled from the army book rather than guessed.</description>
+          <description>As soon as Tyrion is reduced to 1 Wound he gets a 2+ Ward save for the rest of the battle (including after the Heart has restored him, should this happen). This will replace the 4+ Ward save from the Dragon Armour of Aenarion, as you can&apos;t have more than one Ward save.</description>
         </rule>
         <rule id="8946-90bd-7062-42a9" name="Malhandir" hidden="false">
           <description>Tyrion rides a huge steed, in fact the largest and noblest Elven steed born since the father of horses himself.

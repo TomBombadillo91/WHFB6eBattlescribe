@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="05b9-5022-67cd-4fd3" name="Bretonnians" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="05b9-5022-67cd-4fd3" name="Bretonnians" revision="16" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="ff93-67ff-9b17-d51d" name="Grail Vow" hidden="false">
       <rules>
@@ -5298,8 +5298,10 @@ The enemy cannot choose the stand &amp; shoot reaction against the unit carrying
         </profile>
       </profiles>
       <rules>
-        <rule id="f9f8-08ab-a52d-410e" name="Scaffold - points needed" hidden="false">
-          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        <rule id="f9f8-08ab-a52d-410e" name="Special Character" hidden="false">
+          <description>Louen Leoncoeur counts as a Lord choice and uses up one of your Hero choices as well. He must be the army&apos;s General. He must be fielded exactly as described and may not be given additional equipment.
+
+If Louen is taken, Grail Knights are no longer limited to one unit, but Men-at-arms and Peasant Bowmen become Special choices rather than Core.</description>
         </rule>
         <rule id="810a-1113-3d3b-1ef6" name="Beloved Son of Bretonnia" hidden="false">
           <description>lf Louen is removed as a casualty, all Bretonnian units must take a Panic test. Such is the determination to reclaim their fallen ruler that all Bretonnian troops count as Stubborn for the rest of the battle, even if normally Immune to Psychology.</description>
@@ -5368,9 +5370,22 @@ Friendly troops may use Louen Leoncoeur&apos;s Leadership characteristic when he
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="4097-2013-91ad-93c9" name="Beaquis" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="774d-8714-52ad-22b2" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="d6b4-fff1-df7e-93b8" name="Beaquis" hidden="false">
+              <description>Louen Leoncoeur may ride Beaquis, the royal hippogryph.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="200.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="528.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

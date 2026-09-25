@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="21" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="22" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <costTypes>
     <costType id="fada-3781-5bbe-4625" name=" Hull Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -5559,7 +5559,15 @@ The Engineers can fight normally against enemies in base contact with the Tank&a
             <condition field="limit::eaa7-6800-e651-8bea" scope="roster" value="2000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="lessThan"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="5577-9d91-a402-6ea6" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4b05-81f6-c401-7af5" type="atLeast"/>
+          </conditions>
+        </modifier>
       </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5577-9d91-a402-6ea6" type="max"/>
+      </constraints>
       <profiles>
         <profile id="9cd2-c591-ee79-7003" name="Valten, Exalted of Sigmar" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -5572,6 +5580,19 @@ The Engineers can fight normally against enemies in base contact with the Tank&a
             <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
             <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
             <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2526-1ec9-cfaa-1bc9" name="Althandin" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">9</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">7</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5634,13 +5655,13 @@ Note: During the events known as the Storm of Chaos, Ghal Maraz is wielded by th
             <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5875-9d97-4496-1c66" name="Athandin" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5875-9d97-4496-1c66" name="Althandin" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4863-df4f-55fe-9e49" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6113-c827-de3d-7de9" type="min"/>
           </constraints>
           <profiles>
-            <profile id="5530-78fa-9e27-350d" name="Athandin" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+            <profile id="5530-78fa-9e27-350d" name="Althandin" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
               <characteristics>
                 <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">9</characteristic>
                 <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
@@ -5655,7 +5676,7 @@ Note: During the events known as the Storm of Chaos, Ghal Maraz is wielded by th
             </profile>
           </profiles>
           <rules>
-            <rule id="b2e2-9afd-24d7-2bfd" name="Athandin" hidden="false">
+            <rule id="b2e2-9afd-24d7-2bfd" name="Althandin" hidden="false">
               <description>In battle, Althandin counts as a monster and his profile is given above. Althandin wears ithilmar barding, giving him an Armour saving throw of 5+ with no reduction in Movement.</description>
             </rule>
           </rules>

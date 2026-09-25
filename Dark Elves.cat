@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b151-7d1c-4a96-e0d0" name="Dark Elves" revision="22" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b151-7d1c-4a96-e0d0" name="Dark Elves" revision="23" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7b32-9394-e778-467c" name="Poison" hidden="false"/>
     <categoryEntry id="16df-2ebd-e4f7-9984" name="Artifacts and Skills" hidden="false"/>
@@ -6230,10 +6230,23 @@ Bound Spell. Power Level 4. The banner contains a bound magic missile with range
             <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
           </characteristics>
         </profile>
+        <profile id="54b3-cf4f-3c91-fe62" name="Bracchus" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">6</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">6</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">6</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <rules>
-        <rule id="3506-1931-38a3-7a33" name="Scaffold - points needed" hidden="false">
-          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        <rule id="3506-1931-38a3-7a33" name="Special Character" hidden="false">
+          <description>Rakarth can be fielded in a Dark Elf army. He counts as a Lord choice and in addition takes up one of your Hero choices as well. He must be fielded exactly as described here and may not be given any additional equipment.</description>
         </rule>
         <rule id="17a5-3d1b-abff-99e0" name="Beastlord" hidden="false">
           <description>Any friendly monster taking a Monster Reaction test within 12&quot; of Rakarth will always pass the required Leadership test. If the Beastlord is slain whilst riding his Black Dragon Bracchus, the Dragon does not need to take a Monster Reaction test and will fight on as normal.
@@ -6268,7 +6281,7 @@ In addition, a monster that is beaten in hand to hand combat by Rakarth is assum
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="470.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3b05-89ba-27d1-bd9d" name="Shadowblade" hidden="false" collective="false" import="true" type="model">
@@ -6288,8 +6301,8 @@ In addition, a monster that is beaten in hand to hand combat by Rakarth is assum
         </profile>
       </profiles>
       <rules>
-        <rule id="c96c-39d0-2715-c658" name="Scaffold - points needed" hidden="false">
-          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        <rule id="c96c-39d0-2715-c658" name="Special Character" hidden="false">
+          <description>Shadowblade can be fielded in a Dark Elf army and counts as a Lord choice. He must be fielded exactly as described here and may not be given any additional equipment. Like all Assassins, he may not be the army&apos;s General.</description>
         </rule>
         <rule id="6fb4-8d22-bfc6-99d8" name="Hidden (Dark Elves)" hidden="false">
           <description>If you wish, any Assassin in your army may start the game hidden in one of the following units: Witch Elves, Warriors, Corsairs, Executioners or Black Guard. Alternatively, he may deploy as a Scout.
@@ -6400,7 +6413,7 @@ The model is considered to have Poisoned Attacks.</description>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="360.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
