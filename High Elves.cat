@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="24" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="26" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="3f17-868d-fac0-4c8d" name="First Among Equals" hidden="false">
       <constraints>
@@ -2196,7 +2196,7 @@ In addition, roll a D6 for each magic item belonging to a model from a Chaos, Sk
 Alarielle always strikes first in close combat. If an enemy also has this ability, the models strike in Initiative order (roll off in the case of equal Initiative values). If Alarielle hits her target, then no to wound roll is made. Instead the enemy model may make no attacks that turn, and any other models attacking it hit automatically that phase. In the case of a mounted model (on a chariot or monster, for example), Alarielle must roll to hit against the highest Weapon Skill, but if she hits then the entire model is affected, including any special attacks, impact hits, etc.</description>
         </rule>
         <rule id="905b-2907-aa52-b303" name="The Everqueen" hidden="false">
-          <description>Alarielle counts as a Lord choice and takes up one of your Hero choices as well. She can never be the army&apos;s General. If her Handmaidens are included in the army she must lead the unit, and cannot voluntarily leave it.</description>
+          <description>If her Handmaidens are included in the army Alarielle must lead the unit, and cannot voluntarily leave it.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2250,14 +2250,22 @@ Once in each High Elf Magic phase, you may choose to unleash one of Alarielle&ap
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="515.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8f20-4cd8-f33f-b1f8" name="Eltharion" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="8f20-4cd8-f33f-b1f8" name="Eltharion the Swordmaster" hidden="false" collective="false" import="true" type="model">
       <modifiers>
+        <modifier type="set" field="94a5-a518-2c9c-a379" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c370-0ae1-fd54-1b9a" type="atLeast"/>
+          </conditions>
+        </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5093-bfed-c3ba-435a" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="94a5-a518-2c9c-a379" type="max"/>
+      </constraints>
       <profiles>
         <profile id="9898-4214-144c-24dc" name="Eltharion" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -2274,9 +2282,6 @@ Once in each High Elf Magic phase, you may choose to unleash one of Alarielle&ap
         </profile>
       </profiles>
       <rules>
-        <rule id="d05b-561f-7ad2-0c09" name="Scaffold - points needed" hidden="false">
-          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
-        </rule>
         <rule id="f41d-1ae0-8667-6340" name="Great Leap" hidden="false">
           <description>Eltharion is immensely acrobatic, and is able to jump high through the air to reach his foes.
 
@@ -2326,9 +2331,10 @@ Unleashing his speed and strength in a flurry of blistering attacks, Eltharion r
       <categoryLinks>
         <categoryLink id="618c-057e-e239-607f" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="a9c3-1969-be7f-9a28" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="d2ca-0223-d550-93a2" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="255.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="771b-cb22-5c8a-5552" name="Imrik" hidden="false" collective="false" import="true" type="model">
@@ -2688,6 +2694,112 @@ Once per battle, at the beginning of any High Elf Shooting phase or of any Close
       </selectionEntry>
     </selectionEntries>
   </selectionEntry>
+    <selectionEntry id="c370-0ae1-fd54-1b9a" name="Eltharion the Grim" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="db2e-4f05-dd86-bb52" name="Eltharion" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">8</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">6</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">9</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e8bf-e9cc-8081-39d9" name="Stormwing" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">5</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">4</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="55dc-4153-81da-8b1a" name="Warden of Tor Yvresse" hidden="false">
+          <description>Eltharion is always the army&apos;s General, overriding the Intrigue at Court rule - unless Tyrion is included in the same army, in which case Eltharion defers to Tyrion&apos;s superior tactical knowledge.</description>
+        </rule>
+        <rule id="4829-0e91-75fa-a4ba" name="Hates Goblins" hidden="false">
+          <description>Eltharion lost nearly all of his family and saw his ancestral lands ravaged and burned in the cataclysmic Goblin invasion of Yvresse led by Grom the Paunch. To this day he holds a bitter hatred in his heart for all Goblins, so he is subject to the psychology rules for hatred when fighting Goblins. If he is in combat with Grom, the fury of Eltharion&apos;s blows is such that he gains +1 on his rolls to hit and +1 to his Strength. Note that this applies to Eltharion only, not Stormwing&apos;s attacks.</description>
+        </rule>
+        <rule id="6eef-9572-79a8-ce7e" name="Furious Charge" hidden="false">
+          <description>In the turn he charges an enemy, Eltharion always uses his lance. At any other time he uses the Fangsword.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="1bf1-310d-1f55-d6a5" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="34a5-a0ed-0691-318e" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="dbba-395d-ae3b-9ba0" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="ac02-82e9-a6e4-4743" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="86a1-b8b6-6bfd-7dbf" name="The Fangsword of Athel Tamarha" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="52ba-0844-7e5f-bb92" name="The Fangsword of Athel Tamarha" hidden="false">
+              <description>The Fangsword is a Magic Weapon. When Eltharion is wielding it, any model attacking him in hand to hand combat suffers a -1 penalty to hit. A roll of 6 will always hit regardless of modifiers. This applies only to attacks made against Eltharion, not Stormwing. All Armour Saving throws against a wound from the Fangsword are taken with an additional -3 penalty.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6bbd-6bd9-2441-2e71" name="The Helm of Yvresse" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="445b-c65c-f552-b22d" name="The Helm of Yvresse" hidden="false">
+              <description>The Helm is magic armour. It confers a +1 bonus to Eltharion&apos;s Armour Save, for a total of a 4+ Armour Save. In addition it confers a 5+ Ward Save.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5ffc-583b-80f6-b817" name="Stormwing" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d44-ea78-8cef-0799" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5808-88ba-de7b-291b" type="min"/>
+          </constraints>
+          <rules>
+            <rule id="894b-fc78-a052-cf2b" name="Stormwing" hidden="false">
+              <description>Eltharion rides his Griffon, Stormwing, in battle. Stormwing is priced separately only so the points can be tracked during a game; he is not optional.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="210.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="ce3b-7b99-6c9c-605f" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="3af6-6771-e766-3c23" value="0.0">
+            <conditions>
+              <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9774-01ac-4f53-784d" type="atLeast"/>
+            </conditions>
+            </modifier>
+            <modifier type="set" field="6668-3a63-2ade-6988" value="0.0">
+            <conditions>
+              <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9774-01ac-4f53-784d" type="atLeast"/>
+            </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3af6-6771-e766-3c23" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6668-3a63-2ade-6988" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="280.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <rules>
     <rule id="278c-a80d-b3aa-e8aa" name="Stoic" hidden="false">
