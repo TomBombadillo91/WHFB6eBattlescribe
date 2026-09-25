@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="27" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="28" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <costTypes>
     <costType id="fada-3781-5bbe-4625" name=" Hull Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -5636,6 +5636,7 @@ Note that the effects of combat resolution, panic and so on are worked out after
         <categoryLink id="22c6-54cb-86e1-e9b3" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="2073-7780-c923-8e23" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
         <categoryLink id="85c7-ecf9-6f3d-eaf2" name="Additional Lord Choice" hidden="false" targetId="0daf-8d53-eadf-d10f" primary="false"/>
+        <categoryLink id="1e9c-6716-9741-e2e8" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="acf4-c665-c423-ba9b" name="Armour of the Heldenhammer" hidden="false" collective="false" import="true" type="upgrade">
@@ -5870,7 +5871,15 @@ Note: During the events known as the Storm of Chaos, Ghal Maraz is wielded by th
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e070-e63d-0932-3669" type="equalTo"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="b5a9-626a-1d8a-1267" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="99ae-40ac-02ca-ec85" type="atLeast"/>
+          </conditions>
+        </modifier>
       </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b5a9-626a-1d8a-1267" type="max"/>
+      </constraints>
       <profiles>
         <profile id="f1a7-21b0-9741-143a" name="Valten, Champion of Sigmar" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -5887,9 +5896,6 @@ Note: During the events known as the Storm of Chaos, Ghal Maraz is wielded by th
         </profile>
       </profiles>
       <rules>
-        <rule id="228e-5093-3561-48cb" name="Scaffold - points needed" hidden="false">
-          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
-        </rule>
       </rules>
       <infoLinks>
         <infoLink id="1a8a-30fb-4cbd-ad95" name="Against the Odds" hidden="false" targetId="4048-2040-a6fa-992b" type="rule"/>
@@ -5899,9 +5905,11 @@ Note: During the events known as the Storm of Chaos, Ghal Maraz is wielded by th
       <categoryLinks>
         <categoryLink id="4905-8d42-5767-9c24" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="59fc-fda3-431e-f5e6" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="14da-9e5b-1cb7-d83e" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
+        <categoryLink id="e0b2-c9cf-6b8a-c1b2" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="215.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="33f7-6e3a-ef7b-0067" name="Volkmar the Grim" hidden="false" collective="false" import="true" type="model">
@@ -6026,9 +6034,6 @@ The Grand Theogonist may add +2 to his Strength. If the War Altar is destroyed t
         </profile>
       </profiles>
       <rules>
-        <rule id="109d-dbeb-028c-8f2f" name="Scaffold - points needed" hidden="false">
-          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
-        </rule>
         <rule id="e6b6-4c4a-b6a1-c560" name="Blessing of Ulric" hidden="false">
           <description>The presence of the Priest adds one dice to the Dispel pool of the army. Ar-Ulric&apos;s Blessing adds two Dispel dice rather than one.</description>
         </rule>
@@ -6061,6 +6066,7 @@ Remains in play until dispelled or the Priest attempts to use another Prayer. Th
       <categoryLinks>
         <categoryLink id="522a-9f4f-2984-feeb" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="a0b7-aedc-2cfb-a155" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="5620-d6b5-8659-6089" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4a2f-3a93-d7fc-2276" name="Hammer-axe of Skoll" hidden="false" collective="false" import="true" type="upgrade">
@@ -6119,7 +6125,7 @@ One use only. Before using a Prayer, a Priest of Ulric may declare he is using h
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="325.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3b85-b206-e2d5-ed73" name="Boris Todbringer" hidden="false" collective="false" import="true" type="model">
@@ -6144,11 +6150,21 @@ One use only. Before using a Prayer, a Priest of Ulric may declare he is using h
             <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
           </characteristics>
         </profile>
+        <profile id="c149-444e-bfe5-aabe" name="Warhorse" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">8</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">3</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">5</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <rules>
-        <rule id="f150-74da-5ada-8e1f" name="Scaffold - points needed" hidden="false">
-          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
-        </rule>
         <rule id="6bfe-27eb-8623-8e55" name="Elector Count of Middenland" hidden="false">
           <description>Boris Todbringer is the Elector Count of Middenland. As such, one unit of Halberdiers, Spearmen or Swordsmen in the army may carry a magic banner worth up to 50 points.</description>
         </rule>
@@ -6156,6 +6172,7 @@ One use only. Before using a Prayer, a Priest of Ulric may declare he is using h
       <categoryLinks>
         <categoryLink id="72dc-b190-14de-30f1" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="7aa8-423a-dbf4-b6e4" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="3b6c-4b6b-306b-9dda" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ee00-7ea1-598d-304d" name="Talisman of Ulric" hidden="false" collective="false" import="true" type="upgrade">
@@ -6169,8 +6186,28 @@ One use only. Before using a Prayer, a Priest of Ulric may declare he is using h
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="40c5-5912-d40b-d291" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="a95f-3cc8-8140-6eaa" value="0.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0b46-be2c-f32a-b8d0" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="031b-4e00-94a2-aa33" value="0.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0b46-be2c-f32a-b8d0" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a95f-3cc8-8140-6eaa" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="031b-4e00-94a2-aa33" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="278.0"/>
       </costs>
     </selectionEntry>
   <selectionEntry id="f80e-190c-a19f-c9f3" name="Filters" hidden="false" collective="false" import="true" type="upgrade">

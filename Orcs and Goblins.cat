@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9534-aec7-1922-76f2" name="Orcs and Goblins" revision="33" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9534-aec7-1922-76f2" name="Orcs and Goblins" revision="34" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5b0c-07f2-6b72-7aa8" name="Orc" hidden="false"/>
     <categoryEntry id="2c47-226a-5465-6c16" name="Common Orc" hidden="false"/>
@@ -6286,7 +6286,7 @@ This massive axe adds +1 to Borgut&apos;s Strength and, in addition, Borgut (and
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="175.0"/>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="145.0"/>
       </costs>
     </selectionEntry>
   <selectionEntry id="e422-22d5-2d76-de65" name="Filters" hidden="false" collective="false" import="true" type="upgrade">
