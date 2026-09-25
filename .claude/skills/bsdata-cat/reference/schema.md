@@ -44,6 +44,16 @@ wrong. `validate.py` checks this.
 | `modifierGroup` | `comment`, `repeats`, `conditions`, `conditionGroups`, `modifiers`, `modifierGroups` |
 | `conditionGroup` | `conditions`, `conditionGroups` |
 
+Two traps when splicing a new child in by hand:
+
+* **Find the closing tag by matching depth, not by indentation.** Every nested
+  `</selectionEntries>` is also preceded by two spaces, so a search for
+  `"  </selectionEntries>"` — and `rindex` especially — lands on the innermost one
+  and buries your entry inside some magic item group. It will still validate.
+* **Anchor at the start of the line.** A match on `"  </selectionEntries>"` begins
+  two characters *into* that tag's indentation, so splicing there cuts the line in
+  half and leaves the first line of your block wrongly indented.
+
 ## IDs
 
 Four lowercase hex quads: `1a2b-3c4d-5e6f-7a8b`. Every `id` must be unique across
@@ -100,11 +110,42 @@ target — that is how a shared magic item gets a per-army price or category.
 
 The `name` on a link is cosmetic; keep it equal to the target's name so searches work.
 
+**A link only resolves to a *shared* target.** For `infoLink type="rule"` that means
+a `<rule>` sitting directly in `<sharedRules>`, in this catalogue or in the `.gst`.
+A rule nested inside a `selectionEntry`, or in the catalogue's own root `<rules>`,
+has a perfectly good id and will pass `validate.py` — but BattleScribe renders the
+link with nothing behind it. If you want to link a rule that lives inside an entry,
+move it to `<sharedRules>` first and point the original entry at it too.
+
+Three uses of a rule, and which to reach for:
+
+| Where the rule lives | Use it for | How entries get it |
+| --- | --- | --- |
+| catalogue root `<rules>` | applies to every unit in the army — Dwarfs' `Relentless`, Lizardmen's `Cold Blooded` | nothing; it shows once for the whole roster, so a copy on an entry is noise |
+| `<sharedRules>` | several entries share it — a Warrior Priest's prayers, also carried by Volkmar | `infoLink` from each |
+| inline `<rules>` on the entry | only that entry has it | nothing |
+
 ### `categoryLink`
 
 Puts the entry in a force-organisation or item category. Exactly one should be
 `primary="true"` — that is the slot it consumes (Core/Special/Rare/Lords/Heroes).
 Category ids are in [gamesystem-ids.md](gamesystem-ids.md).
+
+**A model that eats more than its own slot** — "counts as a Lord choice and in
+addition takes up one of your Hero choices" — does not get a second ordinary
+category. Linking `Heroes` puts the model *in* the Heroes category; it does not
+consume an extra slot. The allowances are driven from the `.gst` force entry, whose
+`Lords` and `Heroes` category links carry modifiers reading:
+
+| Link this category | Effect |
+| --- | --- |
+| `Additional Lord Choice` | Lords limit −1 |
+| `Additional Hero Choice` | Heroes limit −1 |
+| `Two Additional Hero Choices` | Heroes limit −2 |
+
+So a Lord who also eats a Hero is `Lords` + `Additional Hero Choice`; one who eats
+two is `Lords` + `Two Additional Hero Choices`; two Lord choices is `Lords` +
+`Additional Lord Choice`. Archaon, Settra and the three Valtens are worked examples.
 
 ### `profile` and `characteristic`
 

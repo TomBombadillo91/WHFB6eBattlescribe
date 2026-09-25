@@ -64,7 +64,6 @@ and they locate the repo root themselves.
 | `wiki_xref.py` | Compare rules text against the scraped 6e wiki and write `reports/`. Never edits. `--only FILE`, `--text <wiki path>` for an XML-ready description, `--numbers` for cost/statline differences, `--stubs` for the undescribed-rule audit. Needs the scrape: `--wiki`, `$WHFB_WIKI_DATA`, or `../6eWikiScraper/data`. |
 | `wiki_apply.py` | Apply `wiki_xref.py`'s bucket A/B matches as text surgery. Dry run by default; `--write` to commit the change. Rewrites only the targeted spans, preserving CRLF and BattleScribe escaping. Mints ids for new `<rules>` blocks and bumps the revision. |
 | `wiki_profiles.py` | Give profile-less `type="model"` entries their statline from the wiki. Only entries the wiki states a complete statline for; a partial one means the model is split across profile rows, as chariots are. `--write` to apply. |
-| `wiki_decisions.py` | Rebuild `docs/judgement-calls.xlsx` from the current data. Reads `docs/wiki-decisions.json`, so a settled row drops out of the sheet and one marked "Needs more thought" is carried forward with its note - the decisions made so far are never asked for twice. Needs `openpyxl`. |
 | `wiki_core.py` | Put core rulebook rules (mundane weapons, musicians, champions, wizard levels) in the `.gst`'s `<sharedRules>` once and `infoLink` every catalogue to them, rather than copying the text per catalogue. Skips anything over 1500 characters, which is a rulebook chapter rather than a rule. |
 
 A clean checkout is **0 errors, 159 warnings**. Every warning is the known id
