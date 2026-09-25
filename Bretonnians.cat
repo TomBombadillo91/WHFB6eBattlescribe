@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="05b9-5022-67cd-4fd3" name="Bretonnians" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="05b9-5022-67cd-4fd3" name="Bretonnians" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="ff93-67ff-9b17-d51d" name="Grail Vow" hidden="false">
       <rules>
@@ -4478,6 +4478,11 @@ This armour replaces the Knight&apos;s heavy armour and includes a shield, givin
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c18c-ae11-cae6-c94d" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7597-5c3b-ff48-81d1" type="max"/>
               </constraints>
+              <rules>
+                <rule id="a338-da1a-f4ee-26d0" name="The Grail Shield" hidden="false">
+                  <description>Character with The Grail Vow only. The shield provides a 6+ Armour save which may he combined with other armour as normal. The bearer&apos;s Ward save gained from the Blessing of the Lady is increased to 4+ against attacks of any Strength. If the model loses the Blessing, they lose this Ward save as normal.</description>
+                </rule>
+              </rules>
               <categoryLinks>
                 <categoryLink id="e617-3956-b54f-c04b" name="Magic Shield" hidden="false" targetId="4c58-0153-f37e-9905" primary="false"/>
               </categoryLinks>
@@ -4490,6 +4495,11 @@ This armour replaces the Knight&apos;s heavy armour and includes a shield, givin
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ebe1-7330-70ea-c68e" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0066-a883-1ba2-9d47" type="max"/>
               </constraints>
+              <rules>
+                <rule id="c9d9-925c-16fd-dc06" name="Orcbane Shield" hidden="false">
+                  <description>Gives a 6+ Armour save and may be combined with other armour as normal. Any unengaged Ore or Goblin unit within 12&quot; that must take an Animosity test fails it on a 1-2 Instead of a 1.</description>
+                </rule>
+              </rules>
               <categoryLinks>
                 <categoryLink id="5cd4-c93c-7147-2603" name="Magic Shield" hidden="false" targetId="4c58-0153-f37e-9905" primary="false"/>
               </categoryLinks>

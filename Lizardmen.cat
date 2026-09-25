@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d9da-11c6-1a8c-4472" name="Lizardmen" revision="19" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d9da-11c6-1a8c-4472" name="Lizardmen" revision="20" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>WIP Lizardmen. TODO: Add unit profiles</readme>
   <categoryEntries>
     <categoryEntry id="361c-7d6f-fc45-5312" name="Skink" hidden="false"/>
     <categoryEntry id="b1f9-5e8b-41ec-2c52" name="Mount" hidden="false"/>
     <categoryEntry id="8c1b-780f-6b5f-9d0e" name="Sacred Spawning" hidden="false"/>
-    <categoryEntry id="7dc8-d1b2-a359-4a3e" name="Slaan Mage-Priest" hidden="false"/>
+    <categoryEntry id="7dc8-d1b2-a359-4a3e" name="Slann Mage-Priest" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
-    <selectionEntry id="9151-bd9e-d9ce-0514" name="Slaan Mage-Priest" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="9151-bd9e-d9ce-0514" name="Slann Mage-Priest" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="e604-8268-fda0-6acb" name="Slaan Mage-Priest" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+        <profile id="e604-8268-fda0-6acb" name="Slann Mage-Priest" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <modifiers>
             <modifier type="increment" field="f9d0-a5b0-7e0b-a404" value="1">
               <conditions>
@@ -63,10 +63,10 @@
         <categoryLink id="5b4c-71ba-85fd-505a" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="3fef-19ad-bb58-5ddf" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="b655-fa07-f834-491e" name="Wizard" hidden="false" targetId="eb46-88d4-eb41-2549" primary="false"/>
-        <categoryLink id="c3f5-4c29-84e5-d357" name="Slaan Mage-Priest" hidden="false" targetId="7dc8-d1b2-a359-4a3e" primary="false"/>
+        <categoryLink id="c3f5-4c29-84e5-d357" name="Slann Mage-Priest" hidden="false" targetId="7dc8-d1b2-a359-4a3e" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5d53-20ca-9478-7e64" name="Slaan Generation" hidden="false" collective="false" import="true" defaultSelectionEntryId="7a8b-390d-aaa9-c14e">
+        <selectionEntryGroup id="5d53-20ca-9478-7e64" name="Slann Generation" hidden="false" collective="false" import="true" defaultSelectionEntryId="7a8b-390d-aaa9-c14e">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dde7-1243-5e9d-cb66" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0b7-ea67-3a43-e6c1" type="min"/>
@@ -1832,7 +1832,7 @@ On the roll of a Misfire, D3 of the Skink Handlers are removed as casualties, an
         <categoryLink id="691d-24f8-6419-e630" name="New CategoryLink" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
         <categoryLink id="c551-d4a8-2ea8-d09d" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="3b5d-0aeb-63c6-94e6" name="Rare" hidden="false" targetId="a3af-995e-0cf1-7091" primary="false"/>
-        <categoryLink id="28e2-a871-d0c8-e0a4" name="Slaan Mage-Priest" hidden="false" targetId="7dc8-d1b2-a359-4a3e" primary="false"/>
+        <categoryLink id="28e2-a871-d0c8-e0a4" name="Slann Mage-Priest" hidden="false" targetId="7dc8-d1b2-a359-4a3e" primary="false"/>
         <categoryLink id="2d60-9a20-9de1-ab96" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
         <categoryLink id="426a-027d-e0ca-8922" name="Wizard" hidden="false" targetId="eb46-88d4-eb41-2549" primary="false"/>
       </categoryLinks>

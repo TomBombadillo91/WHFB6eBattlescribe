@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4b41-6842-9db5-f563" name="Tomb Kings" revision="16" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4b41-6842-9db5-f563" name="Tomb Kings" revision="17" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7d0c-5562-269f-0795" name="Tomb King General" hidden="false"/>
     <categoryEntry id="80b7-5608-88c2-552c" name="Settra&apos;s Army" hidden="false">
@@ -1755,6 +1755,11 @@ Enemy models must re-roll successful rolls to wound against the character. Count
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38cd-786e-8e96-feda" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3732-830c-ef4f-b0fa" type="max"/>
               </constraints>
+              <rules>
+                <rule id="bf2f-d8db-8ad5-1dd0" name="Shield of Ptra" hidden="false">
+                  <description>Counts as a shield. If the bearer makes an Armour save any enemy unit in base contact reduces its WS to 1 for the remainder of the combat round.</description>
+                </rule>
+              </rules>
               <categoryLinks>
                 <categoryLink id="f898-a9bf-6295-7c18" name="Magic Shield" hidden="false" targetId="4c58-0153-f37e-9905" primary="false"/>
               </categoryLinks>
