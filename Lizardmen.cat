@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d9da-11c6-1a8c-4472" name="Lizardmen" revision="20" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <readme>WIP Lizardmen. TODO: Add unit profiles</readme>
+<catalogue id="d9da-11c6-1a8c-4472" name="Lizardmen" revision="21" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Unit profiles and magic item text are complete. Not yet included: the special characters other than Lord Kroak (Kroq-Gar, Tehenhauin), and Engine of the Gods, Arcanodon and Horned One.</readme>
   <categoryEntries>
     <categoryEntry id="361c-7d6f-fc45-5312" name="Skink" hidden="false"/>
     <categoryEntry id="b1f9-5e8b-41ec-2c52" name="Mount" hidden="false"/>
