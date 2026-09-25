@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d9da-11c6-1a8c-4472" name="Lizardmen" revision="29" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d9da-11c6-1a8c-4472" name="Lizardmen" revision="30" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Unit profiles and magic item text are complete. Not yet included: the special characters other than Lord Kroak (Kroq-Gar, Tehenhauin), and Engine of the Gods, Arcanodon and Horned One.</readme>
   <categoryEntries>
     <categoryEntry id="361c-7d6f-fc45-5312" name="Skink" hidden="false"/>
@@ -1963,7 +1963,7 @@ Scaly Skin save increased by +1.</description>
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="30.0"/>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="39ae-0963-ea75-ad22" name="Blessed Spawning of Itzl" hidden="false" collective="false" import="true" type="upgrade">
@@ -1975,7 +1975,7 @@ May not be taken by a unit. Characters must take the Blessed Spawning of Itzl if
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5b7c-0d8c-42f6-9661" name="Grymloq" hidden="false" collective="false" import="true" type="upgrade">
@@ -2115,7 +2115,7 @@ When the unit/character charges, they get +1 Attack for that round of combat.</d
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="30.0"/>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

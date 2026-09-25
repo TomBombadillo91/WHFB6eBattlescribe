@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2c0-45b3-040e-fe0f" name="Vampire Counts" revision="21" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2c0-45b3-040e-fe0f" name="Vampire Counts" revision="24" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7d18-159a-be52-079b" name="Vampire" hidden="false"/>
     <categoryEntry id="72bd-3327-881f-a995" name="Von Carstein" hidden="false"/>
@@ -1664,9 +1664,6 @@ Models with this special rule resolve their attacks at Strength 4 during the tur
         </profile>
       </profiles>
       <rules>
-        <rule id="1633-e7a7-b46b-7e36" name="Scaffold - points needed" hidden="false">
-          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
-        </rule>
         <rule id="29ae-404c-f751-66c1" name="Undead (Vampire Counts)" hidden="false">
           <description>All models mentioned in the Vampire Counts Armies book are Undead, with the exception of Ghouls and Bat Swarms which are alive and follow the normal Warhammer rules (eg, they can use the General&apos;s Leadership, re-roll Break tests if the Battle Standard is within 12&quot;, etc)
 
@@ -1717,6 +1714,9 @@ Undead cause fear.</description>
       <categoryLinks>
         <categoryLink id="02f9-144f-8331-f392" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="5804-c4eb-7ab4-9540" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="7436-1691-d3e4-7532" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="e3a0-4c8a-257e-a268" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+        <categoryLink id="a4de-7636-bdfb-8764" name="Two Additional Hero Choices" hidden="false" targetId="9dc5-bbce-5738-84e8" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="904b-1d73-6c96-a360" name="Wailing Blade" hidden="false" collective="false" import="true" type="upgrade">
@@ -1731,18 +1731,6 @@ The model wielding this screaming weapon causes terror. In addition, no armour s
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1a36-566a-2632-100c" name="The Carstein Ring" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="36e0-2237-8482-5165" name="The Carstein Ring" hidden="false">
-              <description>An ancient heirloom of the twisted reigning house of Sylvania, this ring is known to make a Vampire carrying it almost impossible to kill.
-
-Von Carstein Vampires only. The model has a 4+ Ward save and the Regeneration special rule.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="100.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="c398-0182-7b76-ccfc" name="Summon Bats" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="3de8-1ae2-4d7a-1071" name="Summon Bats" hidden="false">
@@ -1752,7 +1740,7 @@ Once per game the Vampire can use this power at the start of one of his turns. H
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="65.0"/>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7613-c62c-8326-348e" name="Call Winds" hidden="false" collective="false" import="true" type="upgrade">
@@ -1764,7 +1752,7 @@ At the beginning of each of his turns the Vampire can decide not to move in that
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="55.0"/>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="08b0-9038-ff5d-5241" name="Spectral Attendants" hidden="false" collective="false" import="true" type="upgrade">
@@ -1776,7 +1764,7 @@ Army of Sylvania only. One per army. While this Vampire is alive and on the tabl
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="95d9-7bf2-f6c8-de53" name="Walking Death" hidden="false" collective="false" import="true" type="upgrade">
@@ -1788,7 +1776,7 @@ The presence of one or more von Carsten Vampires with this power in a combat add
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="499b-2d5c-0ae7-3f2c" name="Aura of Dark Majesty" hidden="false" collective="false" import="true" type="upgrade">
@@ -1800,7 +1788,7 @@ If the Vampire is the army&apos;s General, the normal range of 12&quot; for his 
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="963d-54a2-85ac-373f" name="Summon Wolves" hidden="false" collective="false" import="true" type="upgrade">
@@ -1812,7 +1800,7 @@ Once per game, the Vampire can use this power at the start of one of his turns t
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e951-ecae-81b2-d3c5" name="Wolf Form" hidden="false" collective="false" import="true" type="upgrade">
@@ -1824,7 +1812,7 @@ The Movement of the Vampire is increased to 9 as long as he is moving on foot.</
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="193e-1956-e08e-5ca4" name="Earthbind" hidden="false" collective="false" import="true" type="upgrade">
@@ -1836,7 +1824,7 @@ Army of Sylvania only. This Vampire has Magic Resistance (1).</description>
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c125-4586-dbad-8792" name="Wolf Lord" hidden="false" collective="false" import="true" type="upgrade">
@@ -1848,43 +1836,42 @@ Army of Sylvania only. This Vampire may use the spell Invocation of Nehek to add
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="c24a-eaf2-ad08-f037" name="Isabella von Carstein" hidden="false" collective="false" import="true" type="model">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="499b-f361-d63b-da3d" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <profiles>
-        <profile id="1b42-cfef-303f-fd20" name="Isabella von Carstein" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
-          <characteristics>
-            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
-            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
-            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
-            <characteristic name="S" typeId="0c58-1252-962d-8fcc">5</characteristic>
-            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
-            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
-            <characteristic name="I" typeId="b418-0e30-644f-1435">6</characteristic>
-            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
-            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="0e2c-2ec8-c818-999b" name="Scaffold - points needed" hidden="false">
-          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
-        </rule>
-        <rule id="b44d-7e63-65d5-dd52" name="Undead (Vampire Counts)" hidden="false">
-          <description>All models mentioned in the Vampire Counts Armies book are Undead, with the exception of Ghouls and Bat Swarms which are alive and follow the normal Warhammer rules (eg, they can use the General&apos;s Leadership, re-roll Break tests if the Battle Standard is within 12&quot;, etc)
+        <selectionEntry id="c24a-eaf2-ad08-f037" name="Isabella von Carstein" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="499b-f361-d63b-da3d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6877-48ae-cb89-0f6a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="860f-e0b7-2db0-7672" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="1b42-cfef-303f-fd20" name="Isabella von Carstein" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
+                <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
+                <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
+                <characteristic name="S" typeId="0c58-1252-962d-8fcc">5</characteristic>
+                <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+                <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
+                <characteristic name="I" typeId="b418-0e30-644f-1435">6</characteristic>
+                <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
+                <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="0e2c-2ec8-c818-999b" name="Scaffold - points needed" hidden="false">
+              <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+            </rule>
+            <rule id="b44d-7e63-65d5-dd52" name="Undead (Vampire Counts)" hidden="false">
+              <description>All models mentioned in the Vampire Counts Armies book are Undead, with the exception of Ghouls and Bat Swarms which are alive and follow the normal Warhammer rules (eg, they can use the General&apos;s Leadership, re-roll Break tests if the Battle Standard is within 12&quot;, etc)
 
 Note that the Undead special rules for Vampire Counts armies are slightly different from those for the Tomb Kings armies due to the differences in the magic animating them.
 
@@ -1919,55 +1906,67 @@ Undead cannot make a march move unless they are characters or are within 12&quot
 ## Cause Fear
 
 Undead cause fear.</description>
-        </rule>
-        <rule id="328c-d21e-f7e0-2654" name="Undying Love" hidden="false">
-          <description>If Isabella is killed, Vlad will be overcome by grief and go into a berserk fury. For the rest of the battle he will be subject to both hatred and frenzy. If Vlad is killed then exactly the same special rules apply to Isabella: ie, she becomes subject to frenzy and hatred.</description>
-        </rule>
-      </rules>
-      <categoryLinks>
-        <categoryLink id="a83a-378c-918d-bd41" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
-        <categoryLink id="c837-3690-adff-6cc5" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="56e9-ee8c-a217-30b1" name="Unholy Chalice" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="3666-18b3-c1fc-9c13" name="Unholy Chalice" hidden="false">
-              <description>Blood is constantly flowing from this infamous symbol of evil. Isabella can drink from it to heal her wounds.
+            </rule>
+            <rule id="328c-d21e-f7e0-2654" name="Undying Love" hidden="false">
+              <description>If Isabella is killed, Vlad will be overcome by grief and go into a berserk fury. For the rest of the battle he will be subject to both hatred and frenzy. If Vlad is killed then exactly the same special rules apply to Isabella: ie, she becomes subject to frenzy and hatred.</description>
+            </rule>
+          </rules>
+          <categoryLinks>
+            <categoryLink id="a83a-378c-918d-bd41" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+            <categoryLink id="c837-3690-adff-6cc5" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="56e9-ee8c-a217-30b1" name="Unholy Chalice" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="3666-18b3-c1fc-9c13" name="Unholy Chalice" hidden="false">
+                  <description>Blood is constantly flowing from this infamous symbol of evil. Isabella can drink from it to heal her wounds.
 
 The Unholy chalice confers a 4+ Ward save against ranged attacks only (missiles and spells), it has no effect against close combat attacks.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="05d0-7df0-e167-78d5" name="Call Winds" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="946a-d583-70c2-fe73" name="Call Winds" hidden="false">
-              <description>The anger of a von Carstein is so powerful that even the sky reflects it.
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="05d0-7df0-e167-78d5" name="Call Winds" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="946a-d583-70c2-fe73" name="Call Winds" hidden="false">
+                  <description>The anger of a von Carstein is so powerful that even the sky reflects it.
 
 At the beginning of each of his turns the Vampire can decide not to move in that Movement phase and attempt to call winds. Roll a dice: on a result of 1 nothing happens, on a 2 to 6 the Vampire summons a wild storm that will last until the beginning of his next turn. If he is engaged in close combat, wounded or killed, the storm ends immediately. The storm affects the entire battlefield. All shooting is at -1 to hit. All flying movement is impossible and flying creatures have to use their ground Movement value.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="55.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="72cd-22aa-3c08-590c" name="Transfix" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="d097-6085-becc-d85e" name="Transfix" hidden="false">
-              <description>The Vampire is so beautiful that a mere mortal&apos;s will to fight immediately disappears before her.
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="72cd-22aa-3c08-590c" name="Transfix" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="d097-6085-becc-d85e" name="Transfix" hidden="false">
+                  <description>The Vampire is so beautiful that a mere mortal&apos;s will to fight immediately disappears before her.
 
 At the beginning of the Close Combat phase select one model in base contact with the Vampire The selected model must take a Leadership test. If the test is failed, the victim cannot attack in that Close Combat phase.</description>
-            </rule>
-          </rules>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="175.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="3b37-5f07-3355-fe9b" name="The Carstein Ring" hidden="false" collective="false" import="true" targetId="e207-0a3c-6748-c081" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5ec-8228-fa65-ff75" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="800.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9314-bae9-2d73-7edb" name="Mannfred von Carstein" hidden="false" collective="false" import="true" type="model">
@@ -1994,9 +1993,6 @@ At the beginning of the Close Combat phase select one model in base contact with
         </profile>
       </profiles>
       <rules>
-        <rule id="3615-c5d4-14b0-e988" name="Scaffold - points needed" hidden="false">
-          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
-        </rule>
         <rule id="e0b9-0779-27ce-afc0" name="Undead (Vampire Counts)" hidden="false">
           <description>All models mentioned in the Vampire Counts Armies book are Undead, with the exception of Ghouls and Bat Swarms which are alive and follow the normal Warhammer rules (eg, they can use the General&apos;s Leadership, re-roll Break tests if the Battle Standard is within 12&quot;, etc)
 
@@ -2041,20 +2037,10 @@ Undead cause fear.</description>
       <categoryLinks>
         <categoryLink id="bb71-b0c1-990e-db28" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="1a0f-e8e2-e8f6-2358" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="a12e-17e5-b0d0-90bf" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="a56d-4d1a-73d6-caea" name="Two Additional Hero Choices" hidden="false" targetId="9dc5-bbce-5738-84e8" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="0931-8922-312f-3cac" name="Sword of Unholy Power" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="1578-5ef9-6211-7fa8" name="Sword of Unholy Power" hidden="false">
-              <description>The Sword of Unholy Power brims with magical power which may be drawn upon by a disciple of the black arts.
-
-For each unsaved wound caused by the blade the player may immediately get a magic dice. This dice is added to his pile of Power or Dispel dice in the following Magic phase, (depending on whether it is his own turn or his enemy&apos;s).</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="40.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="42fa-4441-67d3-1e85" name="Cloak of Darkness" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="49f9-1624-db82-64ab" name="Cloak of Darkness" hidden="false">
@@ -2088,7 +2074,7 @@ At the beginning of each of his turns the Vampire can decide not to move in that
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="55.0"/>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ebf5-9a9d-b709-7a7d" name="Aura of Dark Majesty" hidden="false" collective="false" import="true" type="upgrade">
@@ -2100,7 +2086,7 @@ If the Vampire is the army&apos;s General, the normal range of 12&quot; for his 
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4cc5-5c74-3a3d-1190" name="Summon Wolves" hidden="false" collective="false" import="true" type="upgrade">
@@ -2112,12 +2098,19 @@ Once per game, the Vampire can use this power at the start of one of his turns t
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="a357-d3c4-7a44-89a3" name="Sword of Unholy Power" hidden="false" collective="false" import="true" targetId="33e4-178d-818b-4e61" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e43-4664-eb8b-18ba" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="650.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b679-1d1f-4e3d-91cc" name="Zacharias the Everliving" hidden="false" collective="false" import="true" type="model">
@@ -2144,9 +2137,6 @@ Once per game, the Vampire can use this power at the start of one of his turns t
         </profile>
       </profiles>
       <rules>
-        <rule id="6e60-dbb6-5ba7-0931" name="Scaffold - points needed" hidden="false">
-          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
-        </rule>
         <rule id="ca04-46ae-f13d-1bf6" name="Undead (Vampire Counts)" hidden="false">
           <description>All models mentioned in the Vampire Counts Armies book are Undead, with the exception of Ghouls and Bat Swarms which are alive and follow the normal Warhammer rules (eg, they can use the General&apos;s Leadership, re-roll Break tests if the Battle Standard is within 12&quot;, etc)
 
@@ -2191,6 +2181,9 @@ Undead cause fear.</description>
       <categoryLinks>
         <categoryLink id="968f-e10e-c72b-d02b" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
         <categoryLink id="e3bf-bad8-b613-7299" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="fe36-b5da-2bf0-37f0" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="90d4-879a-b917-df10" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+        <categoryLink id="85f8-3c3a-cd34-cc9d" name="Two Additional Hero Choices" hidden="false" targetId="9dc5-bbce-5738-84e8" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4b52-65b3-3b64-67cd" name="Circlet of Rathek" hidden="false" collective="false" import="true" type="upgrade">
@@ -2250,7 +2243,7 @@ The Vampire has one extra Magic Level. A Thrall with this power is a Level 1 Wiz
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="45.0"/>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2d16-07f2-723f-4531" name="The Awakening" hidden="false" collective="false" import="true" type="upgrade">
@@ -2262,7 +2255,7 @@ Whenever the Vampire casts the Necromantic spell Invocation of Nehek he can add 
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4e40-ba58-3b38-44fe" name="Dark Acolyte" hidden="false" collective="false" import="true" type="upgrade">
@@ -2274,7 +2267,7 @@ The presence of the Vampire on the battlefield adds one dice to the player&apos;
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d0bc-8b99-5946-ab40" name="Master of the Black Arts" hidden="false" collective="false" import="true" type="upgrade">
@@ -2286,7 +2279,7 @@ The range of all spells cast by the Vampire is increased by 6&quot;. This power 
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d466-53c6-1e90-d831" name="Unholy Cynosure" hidden="false" collective="false" import="true" type="upgrade">
@@ -2298,7 +2291,7 @@ Once per game, the Vampire can re-roll one of the dice rolled to cast a spell. T
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2f6a-f1ae-791a-19d9" name="Forbidden Lore" hidden="false" collective="false" import="true" type="upgrade">
@@ -2310,12 +2303,26 @@ The Vampire knows one more spell than he is normally allowed. This does not incr
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="15.0"/>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b70f-4e1e-aaf2-41ae" name="Zombie Dragon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04b4-659e-683a-e6d4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a80e-4a38-a246-f027" type="min"/>
+          </constraints>
+          <rules>
+            <rule id="da35-d182-2f90-dc61" name="Zombie Dragon" hidden="false">
+              <description>Zacharias rides a Zombie Dragon. It is priced separately only so the points can be tracked during a game; it is not optional.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="300.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="715.0"/>
       </costs>
     </selectionEntry>
   <selectionEntry id="05b2-1361-2d33-6c4e" name="Filters" hidden="false" collective="false" import="true" type="upgrade">

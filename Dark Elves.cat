@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b151-7d1c-4a96-e0d0" name="Dark Elves" revision="29" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b151-7d1c-4a96-e0d0" name="Dark Elves" revision="30" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7b32-9394-e778-467c" name="Poison" hidden="false"/>
     <categoryEntry id="16df-2ebd-e4f7-9984" name="Artifacts and Skills" hidden="false"/>
@@ -3924,7 +3924,7 @@ The model has a 5+ Ward save.</description>
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="30.0"/>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="39dd-641b-32df-0e7a" name="Touch of Death" hidden="false" collective="false" import="true" type="upgrade">
@@ -3936,7 +3936,7 @@ The model has the Killing Blow special ability.</description>
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="30.0"/>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="629b-31ef-f060-a15c" name="Hand of Khaine (Artefact and Skill)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3948,7 +3948,7 @@ Any one model ( chosen by a Dark Elf player) in base contact will lose one Attac
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="91c5-aade-1949-beab" name="Cry of War" hidden="false" collective="false" import="true" type="upgrade">
@@ -3960,7 +3960,7 @@ A unit charged by a warrior with a Cry of War must pass a Leadership test or red
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="49db-838a-0886-838e" name="Dark Venom" hidden="false" collective="false" import="true" type="upgrade">
@@ -3972,7 +3972,7 @@ The model is considered to have Poisoned Attacks.</description>
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

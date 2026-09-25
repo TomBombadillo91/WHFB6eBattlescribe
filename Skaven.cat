@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="dfb1-1789-5d68-be54" name="Skaven" revision="31" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="dfb1-1789-5d68-be54" name="Skaven" revision="33" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="4f5c-498c-bd84-7e28" name="Clan Eshin" hidden="false"/>
     <categoryEntry id="befb-92ec-0667-152b" name="Clan Pestilens" hidden="false"/>
@@ -3547,18 +3547,6 @@ Warp-blades are Warpstone Weapons.</description>
         <categoryLink id="a6f0-817e-ed21-e9d3" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="da5e-802f-059e-3cce" name="The Gouger" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="4bf8-57dc-0c53-31ba" name="The Gouger" hidden="false">
-              <description>The potent blade of this foul weapon is engraved with twisted markings and is capable of slicing through the finest armour with ease.
-
-No armour saves are allowed against wounds caused by the Gouger.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="50.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="4442-0f33-59a0-989a" name="Dwarf-slayer" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="3755-6d79-2e0b-9a5b" name="Dwarf-slayer" hidden="false">
@@ -3568,34 +3556,27 @@ Against Dwarfs, the wielder always wounds on a 2+. Armour saves suffer a -3 modi
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="75b5-330a-31de-46f0" name="Warpstone Armour" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="7911-e568-30de-879f" name="Warpstone Armour" hidden="false">
-              <description>Warpstone Amour contains powdered warpstone that is mixed in with the metal during the forging process, and radiates a poisonous aura.
-
-Gives a 4+ armour save that can be combined with other armour as normal. For each successful armour save in close combat, the armour inflicts a Strength 4 hit against the enemy that struck the blow.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="05d6-1fea-7a36-6cee" name="The Foul Pendant" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="da3a-e0e8-6366-ab0b" name="The Foul Pendant" hidden="false">
-              <description>Sickly green smoke radiates from this rat-skull token. This solidifies before incoming attacks, returning to smoke once more when the blow is deflected.
-
-The pendant confers a 5+ Ward save to the bearer.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="30.0"/>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="d265-b79c-729e-564e" name="The Gouger" hidden="false" collective="false" import="true" targetId="0732-2a59-2ad4-6f0b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="106a-14f1-8046-b6b2" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ad8a-019b-10e9-fa02" name="Warpstone Armour" hidden="false" collective="false" import="true" targetId="a20c-9d96-8772-057d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0821-0918-1859-496a" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="fb4b-f830-2aea-7ad4" name="The Foul Pendant" hidden="false" collective="false" import="true" targetId="7aca-6f99-5a7c-b6fc" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c89-3f19-07df-54ec" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="300.0"/>
       </costs>
