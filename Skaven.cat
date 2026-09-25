@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="dfb1-1789-5d68-be54" name="Skaven" revision="24" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="dfb1-1789-5d68-be54" name="Skaven" revision="25" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="4f5c-498c-bd84-7e28" name="Clan Eshin" hidden="false"/>
     <categoryEntry id="befb-92ec-0667-152b" name="Clan Pestilens" hidden="false"/>
@@ -4627,8 +4627,8 @@ Double 5 or Double 6	BLAM! The weapon builds up excessive pressure and the relea
         </profile>
       </profiles>
       <rules>
-        <rule id="e848-7fa9-5e48-e8bb" name="Scaffold - points needed" hidden="false">
-          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        <rule id="e848-7fa9-5e48-e8bb" name="Special Character" hidden="false">
+          <description>Queek Head-taker counts as a Lord choice and in addition takes up one of your Hero choices as well. If Queek is taken, the army must include at least one unit of Stormvermin.</description>
         </rule>
         <rule id="3fe3-df7a-404d-e72d" name="Two Weapons" hidden="false">
           <description>Warlord Queek is extremely adept at fighting with his two magic weapons, in a blinding-fast flurry of blades. He uses both the Gouger and Dwarf Slayer at the same time, obtaining a total of 5 Attacks in close combat. All these attacks allow no Armour save, as well as wounding Dwarfs on a 2+</description>
@@ -4697,79 +4697,7 @@ The pendant confers a 5+ Ward save to the bearer.</description>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="0d2a-6e90-970a-f508" name="Nurglitch &amp; Retinue" hidden="false" collective="false" import="true" type="model">
-      <profiles>
-        <profile id="c723-60dc-696b-b453" name="Nurglitch &amp; Retinue" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
-          <characteristics>
-            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
-            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
-            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
-            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
-            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
-            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">5</characteristic>
-            <characteristic name="I" typeId="b418-0e30-644f-1435">4</characteristic>
-            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">6</characteristic>
-            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">7</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="9d7c-e314-a2d5-5cf5" name="Scaffold - points needed" hidden="false">
-          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
-        </rule>
-        <rule id="6351-8365-3d1c-1aed" name="Nurglitch (Magic)" hidden="false">
-          <description>Nurglitch is a Level 3 Wizard and always knows the spells, Pestilent Breath, Death Frenzy and Plague.</description>
-        </rule>
-        <rule id="f7e8-b791-f893-e25a" name="The Passion of the Putrid" hidden="false">
-          <description>Nurglitch is always affected by Frenzy and Hatred. Such is the inspirational effect Nurglitch has on his army that they will never lose their Frenzy whilst Nurglitch is still alive.</description>
-        </rule>
-        <rule id="2d8c-450a-38ae-d826" name="Scion of Corruption" hidden="false">
-          <description>The Plague Lord is so favoured by his vile god that he has a 5+ Ward Save. In addition, neither Nurglitch nor any unit he joins will ever suffer wounds from spells cast from the Skaven Spell List (except Warp Lightning) or Lore of Nurgle. Furthermore, they automatically pass the test for the effects of plague censers.</description>
-        </rule>
-        <rule id="262f-a9a9-28b2-f31e" name="The Grim Ague" hidden="false">
-          <description>Nurglitch carries the Grim Ague, a horrible disease that permeates even the air that he breathes. Any non-Clan Pestilens or non-Bubonic Court unit with a model within 6&quot; of Nurglitch is at -1 WS. Furthermore, any such model in base contact with Nurglitch at the end of any turn automatically takes a Strength 4 hit with no Armour Saves allowed. The Grim Ague does not affect Red Crested Skinks.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="0ad4-5360-211a-986b" name="He Who Runs Away Lives To Fight Another Day!" hidden="false" targetId="5fb0-daaa-4342-a16f" type="rule"/>
-        <infoLink id="b4d4-3711-2163-1f8e" name="Life is Cheap" hidden="false" targetId="582b-d343-7def-2abf" type="rule"/>
-        <infoLink id="b2e9-b9f1-8875-28dc" name="Lead from the Back" hidden="false" targetId="7f59-cae6-4425-1e0f" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="24d9-4bd9-12c4-03ff" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
-        <categoryLink id="bb04-780e-41b6-4008" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="cb56-d2c7-e78a-89ca" name="Blade of Nurglitch" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="d218-a87e-767f-5ccd" name="Blade of Nurglitch" hidden="false">
-              <description>The merest scratch from this rusted weapon, covered in filth and slime, is instantly infected and turns gangrenous.
-
-Enemy models lose 1 point of Toughness from their profile for each unsaved wound they suffer, to a minimum of Toughness 1.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="e549-24e9-c337-227c" name="Bubonic Sceptre" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="f85d-7b94-750c-6a54" name="Bubonic Sceptre" hidden="false">
-              <description>This unremarkable-looking sceptre throbs with the essence of every disease indigenous to Lustria.
-
-Bound Spell, Level 5. The Bubonic Sceptre can be used to inflict vile contagions on Nurglitch&apos;s enemies. Choose an enemy unit within 18&quot; and within Nurglitch&apos;s line of sight. Roll a D6 for every model in the unit. For every roll of a 6, that unit suffers a wound with no Armour Saves allowed.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="300.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

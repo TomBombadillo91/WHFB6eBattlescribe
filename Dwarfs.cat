@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="e0a8-8253-1a27-7620" name="Engineering Rune" hidden="false">
       <rules>
@@ -934,8 +934,24 @@ When firing his own missile weapon, an Engineer can always choose a different ta
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="0199-86d3-692b-9feb" name="Thunderers" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="2bec-7bbc-9ab3-089f" value="0.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f3f2-7435-0cec-866f" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="2bec-7bbc-9ab3-089f" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="735a-0b27-c359-30f7" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f3f2-7435-0cec-866f" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bad-40c6-5da4-eef4" type="min"/>
+            <constraint field="selections" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2bec-7bbc-9ab3-089f" type="max"/>
           </constraints>
           <profiles>
             <profile id="5d1b-6b90-0fb4-f3b9" name="Thunderer" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
@@ -1920,6 +1936,13 @@ In the Movement phase of the turn when they arrive, Miners can enter the battlef
       </costs>
     </selectionEntry>
     <selectionEntry id="f85c-3b93-2698-7605" name="Flame Cannon" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="eaa7-6800-e651-8bea" value="140.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f3f2-7435-0cec-866f" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="725e-89d8-3029-a272" name="Flame Cannon" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -2006,6 +2029,13 @@ The Flame Cannon requires a full crew of three Dwarfs to work it properly: to pu
       </costs>
     </selectionEntry>
     <selectionEntry id="0304-31be-bdff-5845" name="Gyrocopter" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="eaa7-6800-e651-8bea" value="140.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f3f2-7435-0cec-866f" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="d0e3-cfbe-49b5-b6ea" name="Gyrocopter" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -2064,6 +2094,13 @@ Steam Gun	Flame Template	3	-1</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="2a2b-4cf4-eda4-9cd8" name="Organ Gun" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="eaa7-6800-e651-8bea" value="125.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f3f2-7435-0cec-866f" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="ea02-ea3f-87d7-ca51" name="Organ Gun" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -3600,94 +3637,6 @@ Runesmiths/Runelords only - one use only. This rune works exactly like a Rune of
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6e41-7c9e-bc5a-d6c7" name="Thorgrim Grudgebearer" hidden="false" collective="false" import="true" type="model">
-      <profiles>
-        <profile id="d1b2-a2ca-a78d-76d7" name="Thorgrim Grudgebearer" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
-          <characteristics>
-            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">3</characteristic>
-            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">8</characteristic>
-            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
-            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
-            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
-            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">4</characteristic>
-            <characteristic name="I" typeId="b418-0e30-644f-1435">4</characteristic>
-            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
-            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="fe83-0cdc-4e37-2b1a" name="Scaffold - points needed" hidden="false">
-          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="f0e8-3c00-b76f-2c95" name="Ancestral Grudge" hidden="false" targetId="0440-4012-380d-eda9" type="rule"/>
-        <infoLink id="fa73-3046-19ac-0015" name="Relentless" hidden="false" targetId="4f63-f575-8d2e-72ee" type="rule"/>
-        <infoLink id="55ab-086d-826e-0d40" name="Resolute" hidden="false" targetId="6159-f693-9239-0f8d" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="f5fd-0472-4db0-04e6" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
-        <categoryLink id="dfc0-d708-d307-ceef" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="a26a-6b2d-737c-7298" name="Axe of Grimnir" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="c267-e381-f89a-0a08" name="Axe of Grimnir" hidden="false">
-              <description>This axe bears the Master Rune of Skalf Blackhammer (automatically wounds), a Rune of Fury (+1 Attack), and a Grudge Rune (nominate a character or monster, re-roll to hit against this model).
-
-In addition, armour cannot save against hits from the Axe of Grimnir. Ward saves are taken as normal.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="2d80-a92e-3646-2aaa" name="Armour of Skaldour" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="9a1c-a6bd-fe3d-7606" name="Armour of Skaldour" hidden="false">
-              <description>This bears the Master Rune of Gromril (1+ armour save) and the Master Rune of Spite (4+ Ward save). It also has the Rune of the Furnace (immune to fire attacks).</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="caef-df17-e944-ae65" name="Dragon Crown of Karaz" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="2fbb-a04b-53fe-c0fb" name="Dragon Crown of Karaz" hidden="false">
-              <description>Thorgrim and any unit he is with is immune to all psychology except hatred and becoming stubborn.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="edc6-de65-76d5-71c5" name="Dammaz Kron" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="b3ad-763e-fa7e-edf6" name="Dammaz Kron" hidden="false">
-              <description>The Great Book of Grudges means that Thorgrim and any unit within 12&quot; of him hate all foes.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="86fd-7681-30b2-7d23" name="Throne of Power" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="ceba-c912-dcc5-b671" name="Throne of Power" hidden="false">
-              <description>The Throne of Power is carried by four sturdy veterans, which give Thorgrim an additional four normal WS5, S4 attacks. Any attacks against the Throne must be resolved against Thorgrim himself. When joining a unit, the Throne takes up the same space as ordinary rank-and-file models for the purposes of formation, rank bonus and so on. The Throne has Magic Resistance (2).</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="4106-9cfc-a1b9-8bcf" name="Ungrim Ironfist" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="96ea-fd81-83cc-8a5d" name="Ungrim Ironfist" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
