@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9534-aec7-1922-76f2" name="Orcs and Goblins" revision="23" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9534-aec7-1922-76f2" name="Orcs and Goblins" revision="37" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5b0c-07f2-6b72-7aa8" name="Orc" hidden="false"/>
     <categoryEntry id="2c47-226a-5465-6c16" name="Common Orc" hidden="false"/>
@@ -26,6 +26,8 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7c21-c11a-2acb-1894" type="max"/>
       </constraints>
     </categoryEntry>
+  <categoryEntry id="edad-8b93-7d5b-566a" name="Filter" hidden="false"/>
+  <categoryEntry id="b2d2-16cb-2fba-cda3" name="Hide Special Characters" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="e3d7-f6b7-8218-ac29" name="Black Orc Warboss" hidden="false" collective="false" import="true" type="model">
@@ -4246,8 +4248,6 @@ If a Doom Diver launch should misfire then roll a D6 and consult the misfire cha
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-      </rules>
       <infoLinks>
         <infoLink id="a174-c1c4-791f-6fbd" name="Ignore Greenskin Panic" hidden="false" targetId="e016-5778-ae98-4d68" type="rule"/>
         <infoLink id="ca34-3527-e71b-58aa" name="Terror" hidden="false" targetId="3767-0d81-4db9-cda7" type="rule"/>
@@ -4944,6 +4944,11 @@ score a hit regardless of how slimy he is.</description>
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b2d2-16cb-2fba-cda3" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <profiles>
         <profile id="3397-a4c5-2ab6-9910" name="Grimgor" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
@@ -4964,13 +4969,11 @@ score a hit regardless of how slimy he is.</description>
         <rule id="f0c6-efc9-e904-7a82" name="Awesome Fighter" hidden="false">
           <description>Grimgor fights with a bloodthirsty and merciless efficiency that is all but unstoppable. Consequently, if Grimgor is still alive at the end of a close combat round in which he fought, add +2 to the combat resolution of his unit in addition to all normal bonuses. However, if this bonus applies then such is his foes&apos; rush to put as much distance as possible between themselves and the rampaging monster, that enemy units which do break and flee will move 3D6&quot; regardless of their normal Movement rate. If they fail to rally, subsequent flee moves will be at their normal rate.</description>
         </rule>
-        <rule id="5bf2-e38b-88bb-7958" name="He&apos;s da Boss" hidden="false">
-          <description>This model must be your General, regardless of the Leadership value of any other characters in your army.</description>
-        </rule>
       </rules>
       <infoLinks>
         <infoLink id="8c55-b428-6444-43e6" name="Ignore Greenskin Panic" hidden="false" targetId="e016-5778-ae98-4d68" type="rule"/>
         <infoLink id="13d2-f398-6783-b575" name="Quell Animosity" hidden="false" targetId="54d8-2a0c-e609-a983" type="rule"/>
+        <infoLink id="04b8-bdfe-0746-0e9b" name="He&apos;s da Boss" hidden="false" targetId="91df-eb32-b4e1-6b86" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="393d-492d-2355-6a17" name="Black Orc" hidden="false" targetId="91f1-50bd-0c9c-e22c" primary="false"/>
@@ -5172,6 +5175,11 @@ When setting up a game, Grimgor and his Bodyguard deploy at the same time as oth
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b2d2-16cb-2fba-cda3" type="equalTo"/>
+          </conditions>
         </modifier>
       </modifiers>
       <profiles>
@@ -6103,6 +6111,199 @@ Treat the Prodder&apos;s blasts as bound spells with a power level of 3. Each bl
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="0873-4e06-66b8-8016" name="Azhag the Slaughterer" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b2d2-16cb-2fba-cda3" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="f65c-a784-38c1-53f1" name="Azhag the Slaughterer" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">7</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="756b-f307-e66e-dbfe" name="Ignore Goblin Panic" hidden="false" targetId="c3bd-5b38-8c9a-72ff" type="rule"/>
+        <infoLink id="8c01-1886-ffbd-1b85" name="Quell Animosity" hidden="false" targetId="54d8-2a0c-e609-a983" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="eb7e-0f82-6a36-c825" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="e481-980b-f5c3-66fe" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="58a4-83c9-1e9a-e597" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="fb2c-c399-93f4-72ba" name="Two Additional Hero Choices" hidden="false" targetId="9dc5-bbce-5738-84e8" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1d00-f328-412a-66c8" name="Slagga&apos;s Sword of Slashin&apos;" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="5975-0c61-1c14-033e" name="Slagga&apos;s Sword of Slashin&apos;" hidden="false">
+              <description>The Sword confers +1 Strength to all close combat Attacks made by Azhag the Slaughterer. In addition, no armour saves are allowed against wounds caused by the Sword of Slashin&apos;</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="2732-798f-5d5b-c5ea" name="He&apos;s da Boss" hidden="false" targetId="91df-eb32-b4e1-6b86" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c566-ee68-63a7-e854" name="Azhag&apos;s &apos;Ard Armour" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="628a-5bfa-9c09-21ed" name="Azhag&apos;s &apos;Ard Armour" hidden="false">
+              <description>Counts as heavy armour (armour save 5+). In addition, the armour gives Azhag a 5+ Ward save.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e83c-0a60-fed6-82a4" name="Daemon Staff" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="aeca-b6b8-b1fe-93ef" name="Daemon Staff" hidden="false">
+              <description>This deceptively childish looking puppet was originally part of a Tzeentchian wizard&apos;s totem, wrenched from his dead fingers by Azhag after the Battle of Grim Spire.
+
+It gives Azhag Magic Resistance (1).</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="52e4-5b78-e54c-474e" name="The Crown of Sorcery" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="1a82-b3f0-037d-b7ad" name="The Crown of Sorcery" hidden="false">
+              <description>The whispering voices of the Crown provide all the knowledge required to cast spells.
+
+Treat Azhag as a Level 2 Orc Shaman for purposes of casting and dispelling spells, though he may wear armour. Unfortunately, having two voices in your head can get pretty confusing at times. Because of this, treat Azhag as suffering from stupidity.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="1066-9c5c-be9e-323a" name="Wyvern" hidden="false" collective="false" import="true" targetId="af8d-cd3d-e3b9-ecce" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="500.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="da8a-1eff-c2a1-e98c" name="Borgut Facebeater" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="e46a-6d22-12b3-c189" name="Borgut Facebeater" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">5</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">3</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f78c-2f25-39b3-bf4c" name="The Facebeater" hidden="false">
+          <description>If Borgut fights in a challenge, then at the beginning of the first Close Combat phase of the challenge, he can smash his thick Orc skull into the face of his opponent or any monstrous mount they may be riding (note this does not include steeds). This is in addition to his normal attacks, and is resolved before any other attacks in the challenge. If the attack hits, it is worked out at Strength 7 and if the recipient of Borgut&apos;s &apos;eadbutt suffers a wound then he/she/it counts as WS1 for the rest of the Close Combat phase and will attack last, regardless of charging, magic items or any other bonuses. If this mighty &apos;eadbutt kills his opponent, Borgut should still make his remaining attacks to calculate overkill for the purposes of combat resolution.</description>
+        </rule>
+        <rule id="678c-594b-9721-fa3d" name="Keep Your Enemies Closer" hidden="false">
+          <description>Though Borgut is Grimgor&apos;s most trusted lieutenant, that&apos;s not saying much for a Black Orc. Grimgor likes to know exactly where the next strongest Orc in his army is and if your army includes Grimgor, then you may never deploy Borgut further than 12&quot; from him when setting up your army.</description>
+        </rule>
+        <rule id="f795-5e73-80a5-01cc" name="Do as I say and wot I do" hidden="false">
+          <description>Borgut has fought alongside Grimgor through all his long wars and battles, one of the few survivors of the battle against the forces of Crom the Conqueror. As a result, he and his lads have picked up a few tricks of their own along the way. If Borgut is deployed as part of a unit of Orcs at the start of the battle, that unit counts as having been upgraded to a unit of Big &apos;Uns. Note that this does not cost any points, but Borgut must remain with the unit for the entirety of the battle.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1359-29b9-1183-c8ab" name="Ignore Greenskin Panic" hidden="false" targetId="e016-5778-ae98-4d68" type="rule"/>
+        <infoLink id="f1a3-2cb6-c301-b923" name="Quell Animosity" hidden="false" targetId="54d8-2a0c-e609-a983" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b0e2-9fe9-11ea-ef8d" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="74b8-354b-5878-f4fc" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="342c-9e3e-3818-bc37" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
+        <categoryLink id="3937-bcd3-1e10-78a1" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a5eb-e7cb-9504-25a5" name="&apos;&apos;&apos;Ardlad&apos;&apos;s Axe o&apos;&apos; Doom&apos;" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="7db0-ec0d-3628-e679" name="&apos;&apos;&apos;Ardlad&apos;&apos;s Axe o&apos;&apos; Doom&apos;" hidden="false">
+              <description>Taken from the body of Grimgor&apos;s former lieutenant, this powerful weapon of brazen iron hisses with Orc magicks.
+
+This massive axe adds +1 to Borgut&apos;s Strength and, in addition, Borgut (and only Borgut, not any unit he might be with!) counts as being affected by the Gork&apos;ll Fix It spell for the duration of the battle.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="dde0-3103-9a2d-3d2e" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="5773-acd4-7cea-27b9" value="0.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="038a-0b40-2b1b-16a4" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="3df2-bd2f-1b87-b506" value="0.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="038a-0b40-2b1b-16a4" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b2d2-16cb-2fba-cda3" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5773-acd4-7cea-27b9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3df2-bd2f-1b87-b506" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="bc2d-5d39-d459-0e07" name="Drog&apos;s Dead &apos;Ard Armour" hidden="false" collective="false" import="true" targetId="3194-7edd-fca8-a9b4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3052-e244-aaa5-ab3a" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="145.0"/>
+      </costs>
+    </selectionEntry>
+  <selectionEntry id="e422-22d5-2d76-de65" name="Filters" hidden="false" collective="false" import="true" type="upgrade">
+    <categoryLinks>
+      <categoryLink id="d7c6-20ff-aef2-dbd8" name="Filter" hidden="false" targetId="edad-8b93-7d5b-566a" primary="false"/>
+    </categoryLinks>
+    <selectionEntries>
+      <selectionEntry id="4563-837b-2750-d275" name="Hide Special Characters" hidden="false" collective="false" import="true" type="upgrade">
+        <constraints>
+          <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6ba-6344-d572-d457" type="max"/>
+        </constraints>
+        <categoryLinks>
+          <categoryLink id="c639-1a08-6ae1-a6cd" name="Filter" hidden="false" targetId="edad-8b93-7d5b-566a" primary="false"/>
+          <categoryLink id="eb0c-5c70-106b-2fa0" name="Hide Special Characters" hidden="false" targetId="b2d2-16cb-2fba-cda3" primary="false"/>
+        </categoryLinks>
+        <costs>
+          <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        </costs>
+      </selectionEntry>
+    </selectionEntries>
+  </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="bcaa-1d84-338a-0fff" name="Orc Boar Chariot" hidden="false" collective="false" import="true" targetId="33d3-6502-4bd1-408f" type="selectionEntry"/>
@@ -7751,7 +7952,7 @@ The bearer may attempt to cast each of his spells up to twice per friendly Magic
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
               </costs>
             </selectionEntry>
-          </selectionEntries>
+  </selectionEntries>
           <entryLinks>
             <entryLink id="076f-4053-cc92-7efe" name="Staff of Sorcery" hidden="false" collective="false" import="true" targetId="0871-b449-88b1-0a33" type="selectionEntry">
               <constraints>
@@ -7820,6 +8021,9 @@ At the end of the Start of the Turn phase in each of your turns you must test fo
     </rule>
     <rule id="4ede-d695-8f38-4b1e" name="Thick Skinned" hidden="false">
       <description>Models with this special have thick scaly skin or hide, which acts like armour and makes them difficult to injure. A model riding a creature with this special rules counts +2 to his Armour save instead of the normal +1 for being mounted.</description>
+    </rule>
+    <rule id="91df-eb32-b4e1-6b86" name="He&apos;s da Boss" hidden="false">
+      <description>This model must be your General, regardless of the Leadership value of any other characters in your army.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

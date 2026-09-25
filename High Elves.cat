@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="29" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="3f17-868d-fac0-4c8d" name="First Among Equals" hidden="false">
       <constraints>
@@ -11,6 +11,8 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2457-f494-f478-69cd" type="min"/>
       </constraints>
     </categoryEntry>
+  <categoryEntry id="55a5-6a42-c2b1-34b6" name="Filter" hidden="false"/>
+  <categoryEntry id="5093-bfed-c3ba-435a" name="Hide Special Characters" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="e830-2e34-8314-6d44" name="Prince" hidden="false" collective="false" import="true" type="model">
@@ -2002,12 +2004,771 @@ If using the multiple shots option then the Repeater Bolt Thrower shoots six bol
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="9774-01ac-4f53-784d" name="Tyrion" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5093-bfed-c3ba-435a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="9c85-c7cf-44ed-f5e0" name="Tyrion" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">9</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">7</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">4</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">10</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2db3-50ee-e564-d33b" name="Malhandir" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">10</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="1867-5e10-2217-f41a" name="Riposte" hidden="false">
+          <description>Tyrion is an expert at turning aside his foes&apos; attacks, avoiding their blows and counter-attacking before they can react.
+
+Tyrion parries the first enemy hit against him per Close Combat phase and it has no effect. In addition, assuming Tyrion is still alive after all other attacks have been made, he may make a single extra attack of his own back against the model that he parried. This attack is in addition to those normally allowed to Tyrion and follows all of the rules for Tyrion&apos;s attacks. This has no effect on special attacks which do not use the model&apos;s Attacks characteristic (such as a Night Goblin Fanatic or a Giant).</description>
+        </rule>
+        <rule id="d2c6-775a-6691-e72a" name="Feint" hidden="false">
+          <description>Tyrion is nimble and lithe, twisting easily past his opponent&apos;s guard and turning suddenly to attack from unpredictable angles.
+
+Tyrion may re-roll any failed rolls to hit on the first turn of each close combat.</description>
+        </rule>
+        <rule id="790f-c0b4-b326-7352" name="Curse of Aenarion" hidden="false">
+          <description>As soon as Tyrion is reduced to 1 Wound he gets a 2+ Ward save for the rest of the battle (including after the Heart has restored him, should this happen). This will replace the 4+ Ward save from the Dragon Armour of Aenarion, as you can&apos;t have more than one Ward save.</description>
+        </rule>
+        <rule id="8946-90bd-7062-42a9" name="Malhandir" hidden="false">
+          <description>Tyrion rides a huge steed, in fact the largest and noblest Elven steed born since the father of horses himself.
+
+In battle Malhandir counts as a monster. Malhandir wears barding which gives him a 5+ armour save.</description>
+        </rule>
+        <rule id="a8e4-6125-799a-5044" name="Champion of Ulthuan" hidden="false">
+          <description>Tyrion is always the army&apos;s General. This overrides Intrigue at Court: the General is not determined randomly in an army that includes him.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="83c3-8493-9007-990e" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="5748-4948-90ab-0498" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="2d28-0597-b290-1441" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="fb68-99d8-2ca1-e361" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="94e4-3f62-6c8e-24ef" name="Sunfang" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="fe3f-5994-9fb7-360f" name="Sunfang" hidden="false">
+              <description>The Runesword of Tyrion is a fearsome weapon, easily able to cleave through flesh and armour alike. It is also known as Sunfang for the gleaming runes that shimmer up and down its length, blazing with the captured fires of the sun.
+
+Once per battle in his own Magic phase, Tyrion may use Sunfang to cast the Bound Spell, Power Level 6, Fury of Khaine. The spell requires no Power dice to cast, all the power required is provided by Sunfang itself.
+
+Sunfang also gives Tyrion + 3 Strength at all times.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e59b-6849-e974-fdbf" name="Dragon Armour of Aenarion" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="4f27-c09a-00b3-e323" name="Dragon Armour of Aenarion" hidden="false">
+              <description>This mighty armour was forged on Vaul&apos;s Anvil long ago to protect Aenarion, the first Phoenix King, in the great wars against Chaos
+
+Gives Tyrion a 1+ armour save. In addition, Tyrion gets a 4+ Ward save.
+
+With the exceptions of this improved save, the Dragon Armour of Aenarion follows the normal rules for Dragon Armour.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="42d1-9700-0630-eb54" name="Heart of Avelorn" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="c1f4-c7a8-8725-0250" name="Heart of Avelorn" hidden="false">
+              <description>This highly polished ruby glows slightly with an inner light and is warm to the touch. It was gifted to Tyrion by the Everqueen for his great bravery.
+
+If Tyrion is slain, the Heart bursts into a thousand pieces in a flash of dazzling white light. This rush of magical energy returns Tyrion to life with 1 Wound. Obviously it will only work once.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0f77-d780-d5d5-fc35" name="Malhandir" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="894b-f417-b9a9-28a7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c69f-0687-98fc-ce13" type="min"/>
+          </constraints>
+          <rules>
+            <rule id="6441-bfd3-5164-1e53" name="Malhandir" hidden="false">
+              <description>Tyrion always rides Malhandir. Malhandir is priced separately only so the points can be tracked during a game; he is not optional.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="206a-c989-025c-62ed" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9629-7bf9-e0f1-0972" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="550.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8ec2-782a-6f68-ad27" name="Alarielle" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5093-bfed-c3ba-435a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="1a02-2a6d-990d-1c05" name="Alarielle" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">5</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">8</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8436-3d57-7f26-b4ba" name="High Mage" hidden="false">
+          <description>Alarielle follows all the rules for a High Mage. In addition, she knows all of the High Magic spells, and also all of the spells from the Lore of Life and may use either or both in the Magic phase.</description>
+        </rule>
+        <rule id="0a24-4085-0dee-6942" name="Boon of Isha" hidden="false">
+          <description>At the start of the High Elf Shooting phase and at the start of the High Elf Close Combat phase, Alarielle may grant the Boon of Isha to a friendly unit within 12&quot;. The unit adds +1 to all of its rolls to hit for that phase. In addition, any shooting or close combat attacks made by the unit count as magical for that phase.</description>
+        </rule>
+        <rule id="5a6e-31b5-fb85-2d40" name="Chaos Bane" hidden="false">
+          <description>Any Daemonic unit (including Daemonic monsters and characters) that starts the Magic phase with a model within 6&quot; of Alarielle is affected by the aura of law and harmony that surrounds her. Each unit in range suffers D6 Strength 5 hits that count as magical attacks.
+
+In addition, roll a D6 for each magic item belonging to a model from a Chaos, Skaven or Undead army within 6&quot; of Alarielle at the start of the Magic phase. The magic item is destroyed on a D6 roll of a 6 (roll for each item separately).</description>
+        </rule>
+        <rule id="7cef-3ffc-3035-ba59" name="The Touch of the Everqueen" hidden="false">
+          <description>Alarielle does not fight as such, for she is the embodiment of peace rather than war. However, her lightest touch can stun a foe for a moment, disorientating them with a blinding flash of light.
+
+Alarielle always strikes first in close combat. If an enemy also has this ability, the models strike in Initiative order (roll off in the case of equal Initiative values). If Alarielle hits her target, then no to wound roll is made. Instead the enemy model may make no attacks that turn, and any other models attacking it hit automatically that phase. In the case of a mounted model (on a chariot or monster, for example), Alarielle must roll to hit against the highest Weapon Skill, but if she hits then the entire model is affected, including any special attacks, impact hits, etc.</description>
+        </rule>
+        <rule id="905b-2907-aa52-b303" name="The Everqueen" hidden="false">
+          <description>If her Handmaidens are included in the army Alarielle must lead the unit, and cannot voluntarily leave it.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="2635-11f5-2c30-3b52" name="High Elf Mages" hidden="false" targetId="a50a-7b68-d0f2-8f95" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c310-8469-6df9-670b" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="fe1b-9686-278f-5832" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="2a84-b529-ad65-1873" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="e6fb-4d45-548a-f5e0" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="057c-c062-0672-841b" name="Shieldstone of Isha" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="c786-99af-24f0-80a1" name="Shieldstone of Isha" hidden="false">
+              <description>Upon her breast Alarielle wears a gemstone of unmatched beauty and craftsmanship. As old as Ulthuan itself, the Shieldstone pulses with light and can deflect blows from the enemy.
+
+Alarielle has a 4+ Ward save.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="49d4-f5d6-2e30-c3f0" name="Star of Avelorn" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="f7e0-1347-5cf7-cbfb" name="Star of Avelorn" hidden="false">
+              <description>About her noble brow, Alarielle wears a diadem of pure ithilmar into which is set a radiant gem. This was given to the first Everqueen, Astarielle, by Aenarion, and it is said that the gem contains a star from the heavens, placed there by the goddess Isha.
+
+At the start of the High Elf turn, Alarielle may use the Star to heal a wounded High Elf character within 12&quot;. If there are no wounded characters in range, she may use the Star to heal herself. Roll a D6 for each wound lost on the target character; on a roll of a 4+ the wound is restored.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b05f-2e4e-35fa-19a4" name="Stave of Avelorn" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="1d21-96ed-5390-c061" name="Stave of Avelorn" hidden="false">
+              <description>This is the symbol of the Everqueen, and the icon of her rulership over the land. It is an ancient heirloom, dating back to the time of Aenarion, but now much of its power has gone, drained away by the magical vortex created during the time of the Sundering.
+
+Once in each High Elf Magic phase, you may choose to unleash one of Alarielle&apos;s spells through the Stave of Avelorn. This may be a spell she has already cast that turn. This spell is treated exactly like a Bound Spell, and has a Power Level of 5.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="515.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8f20-4cd8-f33f-b1f8" name="Eltharion the Swordmaster" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="94a5-a518-2c9c-a379" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c370-0ae1-fd54-1b9a" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5093-bfed-c3ba-435a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="94a5-a518-2c9c-a379" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9898-4214-144c-24dc" name="Eltharion" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">8</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">6</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">8</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f41d-1ae0-8667-6340" name="Great Leap" hidden="false">
+          <description>Eltharion is immensely acrobatic, and is able to jump high through the air to reach his foes.
+
+At the start of any round of combat, before attacks are allocated or challenges issued, Eltharion may be moved to anywhere in the same combat (even leaving one unit and joining another, or becoming an independent character). He may not use this to position himself out of combat, or if he is already involved in a challenge.</description>
+        </rule>
+        <rule id="81f0-df02-0d5e-9efe" name="Impenetrable Defence" hidden="false">
+          <description>Eltharion&apos;s senses and foresight are so keen, he can now react even faster than when he could see, enabling him to predict the enemy&apos;s attacks and even deflect incoming arrows.
+
+Eltharion has a 5+ Ward save to represent this, and in addition, Killing Blow has no effect on Eltharion (simply treat To Wound rolls of 6 as a successful wound).</description>
+        </rule>
+        <rule id="cfc5-918a-d2de-cda0" name="Intrigue at Court (Eltharion)" hidden="false">
+          <description>There is no need to roll for Intrigue at Court if you take Eltharion he is automatically the army General. The only exception to this is if Tyrion is also present, in which case Eltharion will defer to Tyrion&apos;s superior battlefield knowledge and skills.</description>
+        </rule>
+        <rule id="fdec-0bb7-563d-94a0" name="Lord of Hoeth" hidden="false">
+          <description>In the White Tower, Eltharion is now second only to Belannear himself. and often commands the army of Hoth. If Eltharion is your General, Swordmasters are no longer a 0-1 choice.</description>
+        </rule>
+        <rule id="e611-ae15-54f9-f1d2" name="Psychology (Eltharion)" hidden="false">
+          <description>Eltharion hates Orcs and Goblins and Dark Elves, but is otherwise Immune to Psychology. Any unit of Swordmasters joined by Eltharion becomes stubborn.</description>
+        </rule>
+        <rule id="6d9f-d6e2-725f-7323" name="The Dark Within" hidden="false">
+          <description>Eltharion is a very troubled soul, and his thirst for revenge can drive him to rash acts.
+
+Eltharion and any unit he leads must declare a charge if there is an enemy within range, and can never test to restrain pursuit.</description>
+        </rule>
+        <rule id="5b06-d119-212b-35fc" name="The White Sword" hidden="false">
+          <description>Eltharion has been taught by the Master of the White Tower of Hoth, and wields one of the long, two-handed blades of the Swordmasters. Clad in the pure white robes of the Order and cutting through the foe with ease, Eltharion is now called the White Sword by many Dark Elves who have seen him. So great is Eltharion&apos;s skill, he can use a number of fighting styles, each of which has a different effect on his rules.
+
+At the start of each round of combat, Eltharion must declare which fighting style he is using for that whole round. Note that the White Sword is not a magic weapon, nor is it a normal great weapon. Only the rules listed below apply to Eltharion&apos;s attacks.
+
+### Way of the Willow Branch
+
+Eltharion&apos;s body twists and contorts like a reed in the wind, and his sword deflects incoming blows with astounding speed, making him virtually impossible to hit. Any close combat attacks against Eltharion require 6s to hit, before any other modifications, and regardless of relative Weapons Skills or any other special rules.
+
+### Way of the Winter Breeze
+
+Weaving his sword in a bewildering, swirling arc, Eltharion is able to guide his blade through even the most steadfast defence. Eltharion attacks at +1 to hit in close combat.
+
+### Way of the Swooping Eagle
+
+Eltharion summons all of his speed and might into a few deadly blows. Eltharion&apos;s attacks are resolved at +2 Strength.
+
+### Way of the Breaking Storm
+
+Unleashing his speed and strength in a flurry of blistering attacks, Eltharion rains down blow after blow on the enemy. Eltharion gains +2 Attacks.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="618c-057e-e239-607f" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="a9c3-1969-be7f-9a28" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="d2ca-0223-d550-93a2" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="255.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="771b-cb22-5c8a-5552" name="Imrik" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5093-bfed-c3ba-435a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="084a-567e-d2a7-5c70" name="Imrik" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">8</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">6</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">9</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3f59-0489-adb7-cf60" name="Minaithnir" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">7</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">6</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">6</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">7</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">3</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">5</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="c81b-08e7-92c5-da84" name="Dragonkin" hidden="false">
+          <description>For millennia lmrik has learnt the lore and languages of dragons. He has walked the deep caves where the great beats sleep and dream, and even the most proud and mighty firedrakes obey his every word.
+
+No Dragons will fight lmrik. If they are in base contact with other models (and not in a challenge) then they fight them instead, otherwise they may do nothing. They may, of course, fight Minaithnir if he is still alive.</description>
+        </rule>
+        <rule id="c161-7073-dd37-5fc1" name="Breathe Fire (High Elves)" hidden="false">
+          <description>The fiery breath of Dragons is legendary in its properties. It is terribly destructive, yet is also fabled to have heated the forges of the smiths of Vaul as they crafted the finest magical blades ever known.
+
+In battle it is used as any other Breath Weapon. Those hit by it suffer a Strength 4 hit. In addition, a unit that suffers casualties from Dragon&apos;s breath must take an immediate Panic test.</description>
+        </rule>
+        <rule id="07a4-11c1-49f1-76d1" name="Minaithnir" hidden="false">
+          <description>Imrik rides the majestic dragon Minaithnir. They have a mutual bond between them - the last of the true Dragon Princes, and one of the last of the dragons.
+
+Minaithnir is fanatically loyal to his  master. If lmrik is slain, Minaithnir will become subject to the rules for frenzy, but will otherwise remain under the control of the High Elf player. Note also that Minaithnir&apos;s profile is better than normal Dragons.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="8bd7-c345-40f0-6aff" name="Large Target" hidden="false" targetId="01c3-c8c6-431f-1c2b" type="rule"/>
+        <infoLink id="cd8b-de50-c38c-83ed" name="Scaly Skin" hidden="false" targetId="7eca-56b9-d1c7-c7c8" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1bc1-d5c5-a250-608d" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="ee62-dcd7-d0ae-3702" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="1de3-1d35-1051-1ef1" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="8f9a-2d89-8069-0999" name="Two Additional Hero Choices" hidden="false" targetId="9dc5-bbce-5738-84e8" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1310-4a69-9bf0-de55" name="Star Lance" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="2413-585b-c5c8-3e86" name="Star Lance" hidden="false">
+              <description>The tip of this deadly weapon is forged from the heart of a fallen star. With a blade of such keenness no armour can protect Imrik&apos;s foes.
+
+On the turn he charges, lmrik gets + 3 Strength, with no armour saves allowed.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7e52-7a91-5f76-8ee3" name="Armour of Caledor" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="6c43-2ac4-840a-e4ae" name="Armour of Caledor" hidden="false">
+              <description>For well over four thousand years the masters of the house of Caledor have worn this armour in battle.
+
+Gives lmrik a 2+ armour save.
+
+With the exceptions of this improved save, the Armour of Caledor follows the normal rules for Dragon armour.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="45d0-bd97-a99b-3166" name="&apos;Dragonhorn &apos;" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="2553-b8b3-bc75-ff59" name="&apos;Dragonhorn &apos;" hidden="false">
+              <description>This war horn was made from the horn of an ancient dragon, gifted to lmrik&apos;s distant ancestors in elder days. The dying fire drake summoned all his remaining power to enchant his remaining, unbroken horn as he lay bleeding in the aftermath of the Battle of the Glade of Tears.
+
+Once per battle, at the start of any of his own turns, lmrik may sound the Dragonhorn. This fills his army with pride, and until the start of his next turn, all friendly High Elf units may re-roll any Leadership-based tests they may be required to take. This includes all Psychology, Break and Rally test.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5d92-54cf-bea3-c086" name="Minaithnir" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ec0-31c1-3b1f-df17" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92b2-0746-189b-988a" type="min"/>
+          </constraints>
+          <rules>
+            <rule id="26cc-c112-d5ea-ec5e" name="Minaithnir" hidden="false">
+              <description>Imrik always rides Minaithnir. Minaithnir is priced separately only so the points can be tracked during a game; he is not optional.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="340.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="355.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3877-bfa7-f469-5eb9" name="Teclis" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5093-bfed-c3ba-435a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="8542-623d-a276-1dde" name="Teclis (Sariour)" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">2</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2a37-4323-f1b8-ffd9" name="Teclis (Charoi)" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">6</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="c14a-812e-655b-1e05" name="High Loremaster" hidden="false">
+          <description>Teclis is the most powerful mage in this age of the world. He is master of the foremost mages of the High Elves and has studied in their secret libraries for more than an entire human lifetime.
+
+Obviously Teclis is far more potent than a normal mage and the following rules apply to him:
+
+Teclis begins the battle as a Level 4 Wizard and as long as the last potion he drank was Sariour, this will remain the case. However, while he is under the influence of Charoi he will only count as a Level 1 Wizard. If he imbibes his draught of Sariour he will return to being a Level 4 Wizard. Teclis may use either High Magic or any of the lores from the Warhammer rulebook. Whatever lore he chooses, Teclis will know all six spells, regardless of his current level.
+
+Teclis may re-roll all dice for spell effects. For example, if he casts Fury of Khaine he may re-roll the dice to see how many hits are caused and then re-roll any which fail to wound.
+
+Instead of the normal definition of the circumstances that end a remains in play spell, when Teclis casts such a spell it will remain in play until it is dispelled, or until he chooses to end it (which he can do at any time), attempts to cast the same spell again or is slain. This means that Teclis can maintain more than one &apos;remains in play&apos; spell at a time.</description>
+        </rule>
+        <rule id="7868-39f8-0b25-a382" name="Potions of Inner Strength" hidden="false">
+          <description>Since his sickly childhood, Teclis has carried supplies of these revitalising tonics wherever he goes. Both sparkle in the light as if the Loremaster had captured stars to brew his potion, but whilst Sariour is a golden, sunlike yellow, Charoi is the deepest blue of night.
+
+You will note that Teclis has two profiles instead of the normal one. Which profile you use depends on which of the potions Teclis drank last. He only takes one draught of each potion with him to battle, so you can only use each type once.
+
+At the start of the battle, Teclis will be under the effects of the potion of Sariour. At any time he may choose to drink the potion of Charoi.
+
+Note, however, that the number of Wounds on the profiles refers to starting Wounds. For example, if Teclis suffers a wound before he drinks Charoi then he will not go back to 3 Wounds when he does so.</description>
+        </rule>
+        <rule id="744c-15bd-a628-f737" name="Curse of Aenarion (Teclis)" hidden="false">
+          <description>Teclis is descended from the first of the Phoenix Kings: the doomed Aenarion. As such he is tainted by the cursed blood of his ancestor. This curse leaves Teclis physically frail, indeed he would never have survived to maturity if it had not been for the curative powers of the magical brews he drinks daily. However, all of Aenarion&apos;s line are destined for greatness, and as such Teclis is also marked by the hand of Fate. Quite what is ultimately destined for Techs and his brother Tyrion is a secret hidden to even the most potent seer, but their glorious deeds in defence of their homeland are already the stuff of legend.
+
+As soon as Teclis is reduced to 1 Wound he gets a 2+ Ward save for the rest of the battle. Note that if an attack will inflict multiple wounds, for example a cannon ball, then Teclis will only get this special Ward save if he has already been reduced to 1 Wound before he is hit.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="f1c9-3863-266b-5009" name="High Elf Mages" hidden="false" targetId="a50a-7b68-d0f2-8f95" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="32e0-38a9-841f-f69e" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="6819-9171-58dd-aa9b" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="c8a4-002b-05a9-8090" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="1a09-1ecd-8813-1d65" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="87bf-8bd6-57db-15ba" name="Sword of Teclis" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="f5ad-f57e-6715-ff04" name="Sword of Teclis" hidden="false">
+              <description>This sword was forged by Teclis himself, a weapon to protect himself as he began the quest for his brother Tyrion and the Everqueen.
+
+All hits from the Sword of Teclis wound on a roll of 2+ and armour saves may not be taken.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="86d1-d8dd-84dd-aa63" name="War Crown of Saphery" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="b020-a9c4-8fc9-1640" name="War Crown of Saphery" hidden="false">
+              <description>The War Crown is an ancient symbol of the magical realm of Saphery, seldom seen outside the walls of the White Tower unless in times of peril. It was gifted to Teclis by the former High Loremaster on the eve of the young mage&apos;s departure on the quest for his brother, Tyrion.
+
+Any spell which is normally limited to a specific range in inches is now of unlimited range. Spells that only affect the caster, all units within a certain range of the caster or may already be cast anywhere are not altered. Note that this does not mean that he can cast spells at targets that are out of sight if the spell normally requires line of sight.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9133-bf41-76bc-4eb2" name="Moon Staff of Lileath" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="39a1-2c36-510d-3676" name="Moon Staff of Lileath" hidden="false">
+              <description>A sturdy wooden staff is the traditional symbol of the mage, often being ensorcelled with cunning wizardries to aid the spellcaster in his work. This elaborate staff channels the power of the moon goddess, strengthening Teclis and filling him with magical energy.
+
+The staff gives Teclis 1 extra dice in each Magic phase (including enemy Magic phases).
+
+In addition, once per battle, at the start of his own Magic phase, Teclis may draw on the full power of the staff. On the turn he does this, the number of dice granted by the Staff increases from one to D6. Unfortunately, this temporarily drains the power of the staff so it will cease to provide any additional dice for the rest of the battle.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0c0a-c9be-89bf-c8e2" name="Scroll of Hoeth" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="f095-7448-c866-a9fa" name="Scroll of Hoeth" hidden="false">
+              <description>Though clearly ancient and seemingly fragile, this well worn heirloom has seen a thousand battles and will see many more.
+
+When the enemy casts a spell, Teclis may read the Scroll of Hoeth aloud as he might read a Dispel scroll and with the same effect. In addition, both Teclis and the caster roll a D6; if Teclis scores higher, the spell is removed from the mind of the caster and cannot be used for the rest of the game. One use per battle.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="630.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="275f-2406-47f7-8f7e" name="Handmaidens of the Everqueen" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="7e5c-686c-1eae-eb64" name="Handmaiden of the Everqueen" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">5</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">6</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="789c-6117-55f0-11e7" name="Handmaidens of the Everqueen" hidden="false">
+          <description>The Handmaidens of the Everqueen can be fielded as a Rare troop choice in a High Elf army. They must be fielded exactly as presented here and no extra equipment or magic items can be bought for them.
+
+Ten Handmaidens, including the unit&apos;s Champion, Musician and Standard Bearer, cost 300 points. This is the minimum size of the unit; extra Handmaidens can be added at +20 points per model.
+
+If Alarielle is with her Handmaidens then the whole unit becomes Unbreakable.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3457-c1c4-673c-0f9f" name="Immune to Psychology" hidden="false" targetId="512a-5ae5-c6cb-b82a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6493-7743-9aef-621a" name="Rare" hidden="false" targetId="a3af-995e-0cf1-7091" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ea76-0e7e-de81-d154" name="The Banner of Avelorn" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="25d0-f923-fd49-8c38" name="The Banner of Avelorn" hidden="false">
+              <description>Woven from living leaves and the hair of the Handmaidens of the Everqueen, this Banner is a stunningly beautiful creation of the Elves of Avelorn.
+
+So beautiful is the Banner of Avelorn that any enemy wishing to charge the Handmaidens must first pass a Leadership test. If the test is failed, the chargers stand in their place, transfixed by the magic. The Handmaidens must declare their charge reaction before the test is made. Note that the banner has no effect on troops that are Immune to Psychology.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3b5c-4649-a585-f70f" name="The Horn of Isha" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="1f5d-38d3-fda9-0e0c" name="The Horn of Isha" hidden="false">
+              <description>The Horn of Isha is made out of single pearl-white conch shell, and its sound summons the favour of Isha.
+
+Once per battle, at the beginning of any High Elf Shooting phase or of any Close Combat phase (own or enemy&apos;s), the High Elf player may declare that the Musician will blow the Horn of Isha. This will allow the Handmaidens to either fight with 2. Attacks (in the Close Combat phase) or shoot twice (in the Shooting phase).</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="12bc-8d52-e2a7-4b62" name="Additional Handmaiden" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="dd02-f850-b6a4-ed3d" name="Additional Handmaiden" hidden="false">
+              <description>Handmaidens beyond the first ten, at +20 points each.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="300.0"/>
+      </costs>
+    </selectionEntry>
+  <selectionEntry id="a43f-1325-2511-439f" name="Filters" hidden="false" collective="false" import="true" type="upgrade">
+    <categoryLinks>
+      <categoryLink id="4045-0c73-cd31-627e" name="Filter" hidden="false" targetId="55a5-6a42-c2b1-34b6" primary="false"/>
+    </categoryLinks>
+    <selectionEntries>
+      <selectionEntry id="6692-6250-3bd8-98ec" name="Hide Special Characters" hidden="false" collective="false" import="true" type="upgrade">
+        <constraints>
+          <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79db-6473-1f1f-0731" type="max"/>
+        </constraints>
+        <categoryLinks>
+          <categoryLink id="c2fc-8316-bb62-f76f" name="Filter" hidden="false" targetId="55a5-6a42-c2b1-34b6" primary="false"/>
+          <categoryLink id="6e55-916f-299d-9804" name="Hide Special Characters" hidden="false" targetId="5093-bfed-c3ba-435a" primary="false"/>
+        </categoryLinks>
+        <costs>
+          <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        </costs>
+      </selectionEntry>
+    </selectionEntries>
+  </selectionEntry>
+    <selectionEntry id="c370-0ae1-fd54-1b9a" name="Eltharion the Grim" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="db2e-4f05-dd86-bb52" name="Eltharion" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">8</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">6</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">9</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e8bf-e9cc-8081-39d9" name="Stormwing" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">5</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">4</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="55dc-4153-81da-8b1a" name="Warden of Tor Yvresse" hidden="false">
+          <description>Eltharion is always the army&apos;s General, overriding the Intrigue at Court rule - unless Tyrion is included in the same army, in which case Eltharion defers to Tyrion&apos;s superior tactical knowledge.</description>
+        </rule>
+        <rule id="4829-0e91-75fa-a4ba" name="Hates Goblins" hidden="false">
+          <description>Eltharion lost nearly all of his family and saw his ancestral lands ravaged and burned in the cataclysmic Goblin invasion of Yvresse led by Grom the Paunch. To this day he holds a bitter hatred in his heart for all Goblins, so he is subject to the psychology rules for hatred when fighting Goblins. If he is in combat with Grom, the fury of Eltharion&apos;s blows is such that he gains +1 on his rolls to hit and +1 to his Strength. Note that this applies to Eltharion only, not Stormwing&apos;s attacks.</description>
+        </rule>
+        <rule id="6eef-9572-79a8-ce7e" name="Furious Charge" hidden="false">
+          <description>In the turn he charges an enemy, Eltharion always uses his lance. At any other time he uses the Fangsword.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="1bf1-310d-1f55-d6a5" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="34a5-a0ed-0691-318e" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="dbba-395d-ae3b-9ba0" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="ac02-82e9-a6e4-4743" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="86a1-b8b6-6bfd-7dbf" name="The Fangsword of Athel Tamarha" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="52ba-0844-7e5f-bb92" name="The Fangsword of Athel Tamarha" hidden="false">
+              <description>The Fangsword is a Magic Weapon. When Eltharion is wielding it, any model attacking him in hand to hand combat suffers a -1 penalty to hit. A roll of 6 will always hit regardless of modifiers. This applies only to attacks made against Eltharion, not Stormwing. All Armour Saving throws against a wound from the Fangsword are taken with an additional -3 penalty.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6bbd-6bd9-2441-2e71" name="The Helm of Yvresse" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="445b-c65c-f552-b22d" name="The Helm of Yvresse" hidden="false">
+              <description>The Helm is magic armour. It confers a +1 bonus to Eltharion&apos;s Armour Save, for a total of a 4+ Armour Save. In addition it confers a 5+ Ward Save.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5ffc-583b-80f6-b817" name="Stormwing" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d44-ea78-8cef-0799" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5808-88ba-de7b-291b" type="min"/>
+          </constraints>
+          <rules>
+            <rule id="894b-fc78-a052-cf2b" name="Stormwing" hidden="false">
+              <description>Eltharion rides his Griffon, Stormwing, in battle. Stormwing is priced separately only so the points can be tracked during a game; he is not optional.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="210.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="ce3b-7b99-6c9c-605f" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="3af6-6771-e766-3c23" value="0.0">
+            <conditions>
+              <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9774-01ac-4f53-784d" type="atLeast"/>
+            </conditions>
+            </modifier>
+            <modifier type="set" field="6668-3a63-2ade-6988" value="0.0">
+            <conditions>
+              <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9774-01ac-4f53-784d" type="atLeast"/>
+            </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3af6-6771-e766-3c23" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6668-3a63-2ade-6988" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="280.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <rules>
     <rule id="278c-a80d-b3aa-e8aa" name="Stoic" hidden="false">
       <description>When fighting against a Dark Elf army, all High Elves are immune to Panic.</description>
     </rule>
-    <rule id="0122-3877-a6b3-7fe3" name="Intruige at Court" hidden="false">
+    <rule id="0122-3877-a6b3-7fe3" name="Intrigue at Court" hidden="false">
       <description>The army&apos;s General is determined randomly. Before deployment, line up the character models and roll a dice. Count this number along the line - this is your General. If you roll over the number of characters in the army then the General is selected as normal instead. If you have six or more characters, choose five of them to line up, and then roll as above.</description>
     </rule>
   </rules>
@@ -3343,20 +4104,40 @@ During the enemy&apos;s Magic phase, the Crystal allows the High Elf player to r
               </costs>
             </selectionEntry>
             <selectionEntry id="bad1-10b0-b865-eb15" name="Power Stone" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="a53c-7232-1a9d-5c74" name="Power Stone" hidden="false" targetId="130f-0831-64a4-4e02" type="rule"/>
-              </infoLinks>
               <selectionEntries>
                 <selectionEntry id="c104-a378-49d9-57d3" name="Power Stone" publicationId="d9e7-add3-773e-ffab" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9f1-3140-6055-3962" type="min"/>
                   </constraints>
-              <infoLinks>
-                <infoLink id="bbc0-9181-d73e-9c10" name="Power Stone" hidden="false" targetId="130f-0831-64a4-4e02" type="rule"/>
-              </infoLinks>
-                  <infoLinks>
-                    <infoLink id="ef0f-fdfd-fd37-8701" name="Power Stone" hidden="false" targetId="130f-0831-64a4-4e02" type="rule"/>
-                  </infoLinks>
+                  <rules>
+                    <rule id="44ee-0f5b-7f89-a128" name="Power Stone" hidden="false">
+                      <description>The Power Stone is imbued with a powerful magical invocation. When it is held out by a Wizard before he casts a spell, the effect is to enhance the efficacy of the magic. A further two dice are added to the Casting roll. Note that using a Power Stone will allow a Wizard to use more Power dice than he is normally permitted. For example, a First Level Wizard may read a Power Stone and thus use four Power dice to cast a spell (2 basic + 2 from a Power Stone). A Power Stone can only be used once - after one use its power is exhausted.
+
+Using a Power Stone will bring any spell in play cast earlier by that Wizard to an end in the same way as casting a new spell by ordinary means.
+
+As with scrolls, Power Stones are not unique items - they are prepared by a Wizard prior to battle and it is quite possible for several Wizards to carry Power Stones, and for a Wizard to carry more than one. However, only one Power Stone can be used to enhance a spell.
+
+Note that a spell cast with a Power Stone can never be cast with Irresistible Force, though it can be Miscast.</description>
+                    </rule>
+                    <rule id="03d8-d15f-d4d0-eb78" name="Power Stone" hidden="false">
+                      <description>The Power Stone is imbued with a powerful magical invocation. When it is held out by a Wizard before he casts a spell, the effect is to enhance the efficacy of the magic. A further two dice are added to the Casting roll. Note that using a Power Stone will allow a Wizard to use more Power dice than he is normally permitted. For example, a First Level Wizard may read a Power Stone and thus use four Power dice to cast a spell (2 basic + 2 from a Power Stone). A Power Stone can only be used once - after one use its power is exhausted.
+
+Using a Power Stone will bring any spell in play cast earlier by that Wizard to an end in the same way as casting a new spell by ordinary means.
+
+As with scrolls, Power Stones are not unique items - they are prepared by a Wizard prior to battle and it is quite possible for several Wizards to carry Power Stones, and for a Wizard to carry more than one. However, only one Power Stone can be used to enhance a spell.
+
+Note that a spell cast with a Power Stone can never be cast with Irresistible Force, though it can be Miscast.</description>
+                    </rule>
+                    <rule id="2fa5-990e-12f7-c2cc" name="Power Stone" hidden="false">
+                      <description>The Power Stone is imbued with a powerful magical invocation. When it is held out by a Wizard before he casts a spell, the effect is to enhance the efficacy of the magic. A further two dice are added to the Casting roll. Note that using a Power Stone will allow a Wizard to use more Power dice than he is normally permitted. For example, a First Level Wizard may read a Power Stone and thus use four Power dice to cast a spell (2 basic + 2 from a Power Stone). A Power Stone can only be used once - after one use its power is exhausted.
+
+Using a Power Stone will bring any spell in play cast earlier by that Wizard to an end in the same way as casting a new spell by ordinary means.
+
+As with scrolls, Power Stones are not unique items - they are prepared by a Wizard prior to battle and it is quite possible for several Wizards to carry Power Stones, and for a Wizard to carry more than one. However, only one Power Stone can be used to enhance a spell.
+
+Note that a spell cast with a Power Stone can never be cast with Irresistible Force, though it can be Miscast.</description>
+                    </rule>
+                  </rules>
                   <categoryLinks>
                     <categoryLink id="1a97-2081-1301-7937" name="New CategoryLink" hidden="false" targetId="7cfd-b676-48e1-6eec" primary="true"/>
                     <categoryLink id="484a-51b4-661d-9104" name="Scroll" hidden="false" targetId="06f3-5988-1d55-db7c" primary="false"/>
@@ -3689,7 +4470,7 @@ Mage only. May choose his spells instead of rolling for them.</description>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
+  </selectionEntries>
       <entryLinks>
         <entryLink id="7030-517c-dea9-cae0" name="Lore of Beasts" hidden="false" collective="false" import="true" targetId="afbd-2b69-4e54-2863" type="selectionEntry"/>
         <entryLink id="8543-3fea-5ddc-20ac" name="Lore of Death" hidden="false" collective="false" import="true" targetId="adb8-37e0-7609-365b" type="selectionEntry"/>
@@ -3730,6 +4511,12 @@ The model is immune to all breath attacks, and any fire-based attack (including 
     </rule>
     <rule id="eee4-1f3b-1339-bd99" name="Swordmaster" hidden="false">
       <description>The character is equipped with a great weapon and may not take a magic weapon. Instead of striking last in any turn he does not charge, the character will strike in Initiative order. The character also has the Killing Blow special rule.</description>
+    </rule>
+    <rule id="a50a-7b68-d0f2-8f95" name="High Elf Mages" hidden="false">
+      <description>High Elves are far better attuned to the ebb and flow of the winds of magic than other races and can sense dangerous changes almost before they happen.
+
+High Elf Mages get +1 to each attempt to dispel. 
+Note that this bonus is not cumulative for having more than one High Elf Mage, so an army with two High Elf Mages will still only get +1 to dispel from this source. However, this bonus may still be combined with magic items as normal.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

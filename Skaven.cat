@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="dfb1-1789-5d68-be54" name="Skaven" revision="23" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="dfb1-1789-5d68-be54" name="Skaven" revision="36" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="4f5c-498c-bd84-7e28" name="Clan Eshin" hidden="false"/>
     <categoryEntry id="befb-92ec-0667-152b" name="Clan Pestilens" hidden="false"/>
@@ -20,6 +20,8 @@
     <categoryEntry id="b952-4dd2-bd93-a3b8" name="Clan Skyre Army" hidden="false"/>
     <categoryEntry id="3490-18aa-b4bf-e44b" name="Clan Moulder Army" hidden="false"/>
     <categoryEntry id="0dad-5154-d71e-e498" name="Clan Pestilens Army" hidden="false"/>
+  <categoryEntry id="e43c-690c-aec4-3ce0" name="Filter" hidden="false"/>
+  <categoryEntry id="8191-b7a7-ce29-41a4" name="Hide Special Characters" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="d22e-1a74-aeb8-776f" name="Warlord" hidden="false" collective="false" import="true" type="model">
@@ -903,9 +905,15 @@ Hidden Assassins may be revealed at the beginning of any of your turns or at the
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bf09-3558-8963-50e3" type="equalTo"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="1900-e09a-694f-c477" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8c78-6bdd-66af-8c05" type="atLeast"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f0d5-17ed-2eb7-9a01" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1900-e09a-694f-c477" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="31be-b5c4-3a74-6280" name="New CategoryLink" hidden="false" targetId="62d3-efc6-6c2c-634e" primary="true"/>
@@ -2644,6 +2652,11 @@ Crew and chariots may also shoot any of their missile weapons in the Shooting ph
         <infoLink id="d50d-3eff-dfd5-478a" name="Fear" hidden="false" targetId="03be-3e56-1332-bf56" type="rule">
           <modifiers>
             <modifier type="append" field="name" value=" (Boneripper)"/>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8191-b7a7-ce29-41a4" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </infoLink>
         <infoLink id="d1aa-a78f-1339-a586" name="Lead from the Back" hidden="false" targetId="7f59-cae6-4425-1e0f" type="rule"/>
@@ -2749,6 +2762,11 @@ previously lost during the game.</description>
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8191-b7a7-ce29-41a4" type="equalTo"/>
+          </conditions>
         </modifier>
       </modifiers>
       <profiles>
@@ -3486,6 +3504,100 @@ Warp-blades are Warpstone Weapons.</description>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="65.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="8c78-6bdd-66af-8c05" name="Queek Head-taker" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8191-b7a7-ce29-41a4" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="aa05-bc9a-3166-0b83" name="Queek Head-taker" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">7</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">8</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="3fe3-df7a-404d-e72d" name="Two Weapons" hidden="false">
+          <description>Warlord Queek is extremely adept at fighting with his two magic weapons, in a blinding-fast flurry of blades. He uses both the Gouger and Dwarf Slayer at the same time, obtaining a total of 5 Attacks in close combat. All these attacks allow no Armour save, as well as wounding Dwarfs on a 2+</description>
+        </rule>
+        <rule id="9210-d1e9-944c-c79f" name="Challenge-challenge!" hidden="false">
+          <description>Queek is supremely confident in his own capabilities. Whenever Warlord Queek is in hand-to-hand combat he will always issue a challenge to single combat against any enemy characters, whether you want him to or not and accept it if the enemy declares the challenge first. When Queek is fighting in a challenge he fights with the fury of the deeply conceited, so can re-roll any failed rolls to hit and to wound.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="d9d0-95c3-6118-333c" name="Lead from the Back" hidden="false" targetId="7f59-cae6-4425-1e0f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6c76-f9e0-a6c7-584f" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="82f5-41d5-2f41-865f" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="297a-0121-8297-f3b3" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="a6f0-817e-ed21-e9d3" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4442-0f33-59a0-989a" name="Dwarf-slayer" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="3755-6d79-2e0b-9a5b" name="Dwarf-slayer" hidden="false">
+              <description>This wicked and ancient weapon was fashioned as the Skaven battled to wrest the Worlds Edge Mountains from the Dwarfs.
+
+Against Dwarfs, the wielder always wounds on a 2+. Armour saves suffer a -3 modifier, regardless of the welder&apos;s Strength.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="d265-b79c-729e-564e" name="The Gouger" hidden="false" collective="false" import="true" targetId="0732-2a59-2ad4-6f0b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="106a-14f1-8046-b6b2" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ad8a-019b-10e9-fa02" name="Warpstone Armour" hidden="false" collective="false" import="true" targetId="a20c-9d96-8772-057d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0821-0918-1859-496a" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="fb4b-f830-2aea-7ad4" name="The Foul Pendant" hidden="false" collective="false" import="true" targetId="7aca-6f99-5a7c-b6fc" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c89-3f19-07df-54ec" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="185.0"/>
+      </costs>
+    </selectionEntry>
+  <selectionEntry id="7980-ac57-6c33-299f" name="Filters" hidden="false" collective="false" import="true" type="upgrade">
+    <categoryLinks>
+      <categoryLink id="0ca6-52c9-5b68-874d" name="Filter" hidden="false" targetId="e43c-690c-aec4-3ce0" primary="false"/>
+    </categoryLinks>
+    <selectionEntries>
+      <selectionEntry id="d2e4-5762-f79d-b0bb" name="Hide Special Characters" hidden="false" collective="false" import="true" type="upgrade">
+        <constraints>
+          <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b86e-4a77-f1cf-472a" type="max"/>
+        </constraints>
+        <categoryLinks>
+          <categoryLink id="607c-f978-5bd3-c1b4" name="Filter" hidden="false" targetId="e43c-690c-aec4-3ce0" primary="false"/>
+          <categoryLink id="4ae0-2a68-78de-fb34" name="Hide Special Characters" hidden="false" targetId="8191-b7a7-ce29-41a4" primary="false"/>
+        </categoryLinks>
+        <costs>
+          <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        </costs>
+      </selectionEntry>
+    </selectionEntries>
+  </selectionEntry>
   </selectionEntries>
   <rules>
     <rule id="5fb0-daaa-4342-a16f" name="He Who Runs Away Lives To Fight Another Day!" hidden="false">
@@ -4610,7 +4722,7 @@ Double 5 or Double 6	BLAM! The weapon builds up excessive pressure and the relea
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="60.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
+  </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>

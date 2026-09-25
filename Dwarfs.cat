@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="23" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="e0a8-8253-1a27-7620" name="Engineering Rune" hidden="false">
       <rules>
@@ -15,6 +15,8 @@
         <infoLink id="715a-ef6e-e00d-5c51" name="Unbreakable" hidden="false" targetId="f6c9-ac44-1d7c-ed6e" type="rule"/>
       </infoLinks>
     </categoryEntry>
+  <categoryEntry id="ce67-db12-c5df-c5a9" name="Filter" hidden="false"/>
+  <categoryEntry id="8eb6-f950-0728-92c5" name="Hide Special Characters" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="4e58-c8aa-d72a-3a98" name="Lord" hidden="false" collective="false" import="true" type="model">
@@ -934,8 +936,24 @@ When firing his own missile weapon, an Engineer can always choose a different ta
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="0199-86d3-692b-9feb" name="Thunderers" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="2bec-7bbc-9ab3-089f" value="0.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f3f2-7435-0cec-866f" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="2bec-7bbc-9ab3-089f" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="735a-0b27-c359-30f7" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f3f2-7435-0cec-866f" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bad-40c6-5da4-eef4" type="min"/>
+            <constraint field="selections" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2bec-7bbc-9ab3-089f" type="max"/>
           </constraints>
           <profiles>
             <profile id="5d1b-6b90-0fb4-f3b9" name="Thunderer" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
@@ -1920,6 +1938,13 @@ In the Movement phase of the turn when they arrive, Miners can enter the battlef
       </costs>
     </selectionEntry>
     <selectionEntry id="f85c-3b93-2698-7605" name="Flame Cannon" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="eaa7-6800-e651-8bea" value="140.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f3f2-7435-0cec-866f" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="725e-89d8-3029-a272" name="Flame Cannon" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -2006,6 +2031,13 @@ The Flame Cannon requires a full crew of three Dwarfs to work it properly: to pu
       </costs>
     </selectionEntry>
     <selectionEntry id="0304-31be-bdff-5845" name="Gyrocopter" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="eaa7-6800-e651-8bea" value="140.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f3f2-7435-0cec-866f" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="d0e3-cfbe-49b5-b6ea" name="Gyrocopter" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -2064,6 +2096,13 @@ Steam Gun	Flame Template	3	-1</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="2a2b-4cf4-eda4-9cd8" name="Organ Gun" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="eaa7-6800-e651-8bea" value="125.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f3f2-7435-0cec-866f" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="ea02-ea3f-87d7-ca51" name="Organ Gun" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -2139,6 +2178,303 @@ The Organ Gun requires a full crew of three Dwarfs to work it properly. If one c
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="125.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="f3f2-7435-0cec-866f" name="Alrik Ranulfsson" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8eb6-f950-0728-92c5" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="1963-1b0b-052e-eb9a" name="Alrik Ranulfsson" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">3</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">7</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">5</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">4</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">6</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="df6b-0c08-58e6-5c74" name="Lord of the Hold" hidden="false">
+          <description>If Alrik is included in your army he must be your army General.</description>
+        </rule>
+        <rule id="6e35-98fa-9548-50c2" name="Shield Bearers" hidden="false">
+          <description>Alrik is carried into battle on the Great Shield of his ancestors. This make him very easy to see and so friendly Dwarfs within 18&quot; of him may use his Leadership value, rather than those within 12&quot; as normal. The fighting abilities of the Royal Shield Bearers are included in the characteristics for Alrik himself as all three fight as a single model.</description>
+        </rule>
+        <rule id="657c-9d52-c2fb-1a2d" name="Traditional Army" hidden="false">
+          <description>Alrik doesn&apos;t trust the unusual machineries of the Engineers&apos; Guild and only rarely includes them in his army. lf Alrik is in the army then Gyrocopters, Flame Cannons and Organ Guns cost twice the points they do normally. ln addition, your army cannot have more models armed with a handgun than a crossbow.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="1e8b-7caf-3d40-9c72" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="781c-c42e-e28e-d1d0" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="f8f7-89ae-bdb6-e701" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="0a9c-2c9c-8a69-cd5e" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b379-4d84-2444-8970" name="Axe of Retribution" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="7047-a99e-2587-77b7" name="Axe of Retribution" hidden="false">
+              <description>As the Karak-Hirn Dwarfs fight their enemies, the bright flash of silver is easily seen as the Axe of Retribution rises and falls in deadly arcs. Alrik had this axe made especially for his crusade to avenge the wrongs done to his Hold, and he has s
+worn nor to let it rest until they have all been struck from the Book of Grudges.
+
+The Axe of Retribution has been inscribed with the Grudge Rune and the Breaking Rune.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f808-512d-d5ef-ca93" name="Hrappi-klad" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="6bf3-4834-6f68-5af8" name="Hrappi-klad" hidden="false">
+              <description>Suits of heavy golden armour are the traditional battle garb of the King of Karak Hirn and his Shield Bearers. They are plain and unadorned in the functional manner of the Dwarfs, but the protection they offer is far greater than any suit of finely filigreed Elven armour.
+
+This heavy armour give Alrik and his Bearer a 4+ Armour save. lt has also been marked with the Rune of Shielding.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d5f2-2ba5-7966-9f8f" name="Kurgaz&apos;s Shield" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="2512-c96e-9015-d5fe" name="Kurgaz&apos;s Shield" hidden="false">
+              <description>This ancient shield bears a protective magical rune, but is of tremendous size and is far too heavy use normally. However, since it is a valued heirloom of their founder, the Kings of Karak-Hirn still take it to battle – nowadays a a fighting platform borne by two of their strongest followers.
+
+The shield gives Alrik and his Royal Shield Bearers a 5+ Ward save.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bfd9-5a53-7baa-2e27" name="Helm of Eagles" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="9ab0-e7c8-771d-da58" name="Helm of Eagles" hidden="false">
+              <description>he cunningly wrought runes on this ancient battle-helm give the wearer the sharp eyesight of the hunting eagle as he soars above his prey. No lurking assassins can hide from him, nor secrets be held from him while he wears this helm.
+
+Alrik can see the details of enemy troop wherever they are on the battlefield. At the start of each Dwarf turn (before declaring charges, ere), Alrik may gaze at one enemy unit. Your opponent must reveal any hidden troops within the unit (such as Assassins or Night Goblin Fanatic) as well as all magic items carried by models within the unit.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ad42-463a-c0be-b82c" name="Karak-Hirn&apos;s Book of Grudges" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="0aaa-d9e2-ef29-5ecf" name="Karak-Hirn&apos;s Book of Grudges" hidden="false">
+              <description>The Great Book of Grudges, Dammaz Kron i held by the High King Thorgrim Grudgebearer, but this is not the only such book. In fact, each Hold has their own book, as indeed do many individual Dwarfs. Actually this i only one volume of the many that comprise Karak­Hirn&apos;s collection of grudges. However, this is a unique volume because all the grudges described in its pages have been avenged!
+
+In battle, this has the effect of allowing friendly units within 12&quot; of King Alrik to re-roll failed break rests, just like an army standard. However, it is not actually an army standard and therefore gives no combat resolution bonus and cannot be captured by the enemy for extra victory points.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="a0e9-fc8d-122b-8961" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f173-318d-3308-7d32" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="425.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4106-9cfc-a1b9-8bcf" name="Ungrim Ironfist" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8eb6-f950-0728-92c5" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="96ea-fd81-83cc-8a5d" name="Ungrim Ironfist" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">3</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">7</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3(4)</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8243-e583-562e-3039" name="Slayer King" hidden="false">
+          <description>As Slayer King, Ungrim is bound by the Slayer Oath. He benefits from the Slayer special rule  Hates Greenskins and is Unbreakable. The other Slayer rules do not apply.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="5c79-5529-a2ae-0ebc" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="232e-9928-d616-3876" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="6703-92fc-c113-ac4e" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="e3d4-fc0b-56c2-c1eb" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3839-85f7-fa2b-41f6" name="Axe of Dargo" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="3cef-002a-f6f2-a844" name="Axe of Dargo" hidden="false">
+              <description>This is inscribed with the Master Rune of Smiting. Any enemy wounded by the Axe of Dargo (after saves, etc), loses not one wound but D6 wounds. In addition, it bears a Rune of Parrying which means that one model in base contact (chosen by the Dwarf player) loses 1 Attack in close combat. This has no effect against special attacks, such as a Night Goblin Fanatic, or a Treeman&apos;s Tree Whack.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d045-11cf-ee1f-fa69" name="The Slayer Crown" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="cc93-a327-571f-f256" name="The Slayer Crown" hidden="false">
+              <description>This bears a Rune of Fortitude (+1 Wound) and a Rune of Stone (increasing his Armour save to 3+).</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="421b-4f5d-327d-8c17" name="Dragon Cloak" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="46d5-a21d-16e2-b457" name="Dragon Cloak" hidden="false">
+              <description>The Dragon Cloak bears the Master Rune of Spite (4+ Ward save), a Rune of the Furnace (immune to fire attacks) and a Rune of Luck (one re-roll per battle).</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="4105-3992-54c0-1694" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a3e-f7ae-58c2-88af" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="465.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7894-2f69-159c-b8e1" name="Thorek Ironbrow" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8eb6-f950-0728-92c5" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="6f41-42a0-5c25-520b" name="Thorek Ironbrow" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">3</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">3</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2 (3)</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c8f8-3ef9-fda5-0d57" name="Kraggi" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">3</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">2</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2a4a-4ae1-5ee5-61be" name="Assistant at the Forge" hidden="false">
+          <description>Kraggi. the best of Thorek&apos; assistants, accompanies him to battle and helps him by preparing some of the runes. Most of the time this is a big help and speeds things up, but occasionally his lack of experience (he&apos;s hardly been smithing a century) lets him down and he makes a mistake.
+
+Kraggi is treated as a unit Champion and fights with his forge tongs (counts as a hand weapon) and wears an apron to protect him from the intense heat (light armour).
+
+While Kraggi is alive Thorek gains one extra dice per turn to cast runes with. However, it&apos;s important to keep track of which one this is (by using a different coloured dice, for example) because if this extra dice rolls a 1 Kraggi has done something wrong and the rune is miscast.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="aa41-6791-936a-ffa5" name="Rune Lore" hidden="false" targetId="8158-0867-cf89-976d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="63d4-f19d-be20-ce1e" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="7e65-52f0-c3b9-1355" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="46e6-a8c0-a5ac-415e" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="7b25-1c17-b8eb-b680" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3ccd-e9ad-d65e-8627" name="Klad Brakak" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="1940-6882-48c0-8a67" name="Klad Brakak" hidden="false">
+              <description>Thorek&apos;s anvil-headed hammer is a formidable weapon of war as well as a useful tool. In his position as Master of the Weapon Smiths of Karak Azul he ha access to a vast amount of ancient rune lore. From his researches and experiments, he has designed a new rune which he has struck onto his hammer. This rune is unique to Thorek&apos;s hammer, Klad Brakak, as he only made it a couple of centuries ago and wants to give it a fair trial before using it again.
+
+In battle it is easy to find Thorek as his hammer shatters armour when it strikes, making a sound like thunder. No Armour saves are allowed against Klad Brakak and if the target fails its Ward save (or does not have one) then any armour they were wearing and shield they were carrying are destroyed. This includes magical armour and shields.
+
+In addition, Klad Brakak bear the Rune of Fury which gives Thorek + 1 Attack</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0e82-0cb1-11a5-f40a" name="Thorek&apos;s rune-armour" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="39df-4b13-34a6-1b32" name="Thorek&apos;s rune-armour" hidden="false">
+              <description>This is inscribed with the Master Rune of Gromril.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="12cd-bca8-bbf9-5665" name="Anvil of Doom" hidden="false" collective="false" import="true" targetId="8c8a-1d84-0946-a989" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="505.0"/>
+      </costs>
+    </selectionEntry>
+  <selectionEntry id="37ed-2c8a-11c4-4689" name="Filters" hidden="false" collective="false" import="true" type="upgrade">
+    <categoryLinks>
+      <categoryLink id="6bd6-30aa-fd07-5807" name="Filter" hidden="false" targetId="ce67-db12-c5df-c5a9" primary="false"/>
+    </categoryLinks>
+    <selectionEntries>
+      <selectionEntry id="a757-3032-76df-7a60" name="Hide Special Characters" hidden="false" collective="false" import="true" type="upgrade">
+        <constraints>
+          <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d8f-1ad3-9bfd-0ac2" type="max"/>
+        </constraints>
+        <categoryLinks>
+          <categoryLink id="7101-c565-e321-f6ec" name="Filter" hidden="false" targetId="ce67-db12-c5df-c5a9" primary="false"/>
+          <categoryLink id="1718-640d-8816-4428" name="Hide Special Characters" hidden="false" targetId="8eb6-f950-0728-92c5" primary="false"/>
+        </categoryLinks>
+        <costs>
+          <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        </costs>
+      </selectionEntry>
+    </selectionEntries>
+  </selectionEntry>
   </selectionEntries>
   <rules>
     <rule id="2451-a3a4-96b1-57b2" name="Rule of Pride" hidden="false">
@@ -3600,7 +3936,7 @@ Runesmiths/Runelords only - one use only. This rune works exactly like a Rune of
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
+  </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="9c8a-6982-79b5-43e7" name="Runic Items" hidden="false" collective="false" import="true">
       <modifiers>

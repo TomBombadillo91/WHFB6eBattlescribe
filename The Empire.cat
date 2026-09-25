@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="20" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="35" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <costTypes>
     <costType id="fada-3781-5bbe-4625" name=" Hull Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -42,6 +42,8 @@
       </constraints>
     </categoryEntry>
     <categoryEntry id="b1e7-c274-e193-e55b" name="Parent Unit Model" hidden="true"/>
+  <categoryEntry id="e570-ee85-1ec9-43ae" name="Filter" hidden="false"/>
+  <categoryEntry id="e070-e63d-0932-3669" name="Hide Special Characters" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="b426-6114-c692-9f29" name="Elector Count" hidden="false" collective="false" import="true" type="unit">
@@ -686,35 +688,6 @@ In addition, as long as a Templar Grand Master is with a unit of Knights of his 
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="79bc-f253-6aec-406d" name="Blessings of Sigmar" hidden="false">
-          <description>Warrior Priests are blessed by Sigmar and can invoke the god&apos;s protection against the sorcerous powers of the enemy. As long as a Warrior Priest is on the battlefield, he adds one dice to the Empire player&apos;s Dispel dice pool during the enemy&apos;s Magic phase.</description>
-        </rule>
-        <rule id="d6dc-b8e3-9633-93ce" name="Prayers of Sigmar" hidden="false">
-          <description>Once per Empire Magic phase, a Warrior Priest is allowed to use ONE prayer chosen from the Prayers of Sigmar list (see below). Prayers are cast exactly like Bound spells from magic items, with a Power Level of 3. They can be cast on the Priest himself or on any one character or unit champion within 12&quot; of the Priest. Prayers never affect a model&apos;s steed, and cannot be cast on Knights of the White Wolf or their Grand Master. Note that a Warrior Priest is never considered to be a Wizard.
-
-Hammer of Sigmar
-
-The model can re-roll failed rolls to wound: This Prayer lasts until it is dispelled or until the Warrior Priest attempts to cast another prayer. This Prayer has no effect on hits from magic weapons.
-
-Armour of Righteousness
-
-The model gets a 5+ ward save. This Prayer lasts until it is dispelled or until the Warrior Priest attempts to cast another Prayer. This Prayer has no effect if the model already has a Ward save.
-
-Healing Hand
-
-The model is immediately healed of all the wounds it has suffered during the battle up to that moment.
-
-Soulfire
-
-Centre the large 5&quot; template on the Warrior Priest. All Undead and Daemons hit by the template (work out which models are hit exactly the same way as you would do for a Mortar&apos;s hit) suffer a Strength 4 hit, with no armour save allowed. Soulfire can only be cast on the warrior Priest, not on other models.</description>
-        </rule>
-        <rule id="9eda-fc19-836c-c650" name="Righteous Fury" hidden="false">
-          <description>Warrior Priests and the unit they are with hate all models in any of the following armies: all Chaos (Chaos Warriors, Beastmen, Daemons and Chaos Dwarfs), all Undead (Khemri and Vampire Counts), all Skaven.
-
-Note that this power does not affect other characters (they are more difficult to influence than the average soldier) and units Immune to Psychology are not affected by this power as well. Also note that Warrior Priests will never join units of warriors who are not devout to Sigmar, so they cannot join units of Knights of the White Wolf.</description>
-        </rule>
-      </rules>
       <categoryLinks>
         <categoryLink id="d485-a153-15ff-4c51" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="3106-fa79-25e1-03d7" name="New CategoryLink" hidden="false" targetId="5694-61f3-6913-6154" primary="true"/>
@@ -758,6 +731,9 @@ Note that this power does not affect other characters (they are more difficult t
             <selectionEntry id="a64e-cc24-d514-bb21" name="Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="033e-74f6-3f48-5326" name="Hand Weapon" hidden="false" targetId="3eb5-f0b5-1e94-0eef" type="rule"/>
+                <infoLink id="7f84-71c0-1adc-d764" name="Blessings of Sigmar" hidden="false" targetId="606b-2946-e8e7-0bc3" type="rule"/>
+                <infoLink id="9496-3460-acb2-0bba" name="Prayers of Sigmar" hidden="false" targetId="50e3-6972-88fa-5fcb" type="rule"/>
+                <infoLink id="8db1-65ca-5aa6-4a5e" name="Righteous Fury" hidden="false" targetId="c093-874e-7414-4a8a" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
@@ -4929,6 +4905,11 @@ Flagellants may never be joined by any characters.</description>
             <condition field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cf7b-798c-9b94-df74" type="equalTo"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e070-e63d-0932-3669" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup>
@@ -4980,11 +4961,6 @@ Soulfire
 
 Centre the large 5&quot; template on the Warrior Priest. All Undead and Daemons hit by the template (work out which models are hit exactly the same way as you would do for a Mortar&apos;s hit) suffer a Strength 4 hit, with no armour save allowed. Soulfire can only be cast on the warrior Priest, not on other models.</description>
         </rule>
-        <rule id="7821-8f7e-09ef-352e" name="Righteous Fury" hidden="false">
-          <description>Warrior Priests and the unit they are with hate all models in any of the following armies: all Chaos (Chaos Warriors, Beastmen, Daemons and Chaos Dwarfs), all Undead (Khemri and Vampire Counts), all Skaven.
-
-Note that this power does not affect other characters (they are more difficult to influence than the average soldier) and units Immune to Psychology are not affected by this power as well. Also note that Warrior Priests will never join units of warriors who are not devout to Sigmar, so they cannot join units of Knights of the White Wolf.</description>
-        </rule>
         <rule id="4708-4b7d-32e3-3023" name="The Chosen of Sigmar" hidden="false">
           <description>Luthor has a 4+ Ward save and causes fear in the enemy.</description>
         </rule>
@@ -5012,6 +4988,7 @@ Note that this power does not affect other characters (they are more difficult t
           </constraints>
           <infoLinks>
             <infoLink id="8177-8b48-44f3-be1a" name="Great Weapon" hidden="false" targetId="e020-fa73-42e2-ad20" type="rule"/>
+            <infoLink id="53b2-12c0-f237-728c" name="Righteous Fury" hidden="false" targetId="c093-874e-7414-4a8a" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
@@ -5053,6 +5030,11 @@ Note that this power does not affect other characters (they are more difficult t
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e551-c238-2583-53ac" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e070-e63d-0932-3669" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -5559,7 +5541,25 @@ The Engineers can fight normally against enemies in base contact with the Tank&a
             <condition field="limit::eaa7-6800-e651-8bea" scope="roster" value="2000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="lessThan"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="5577-9d91-a402-6ea6" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4b05-81f6-c401-7af5" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e070-e63d-0932-3669" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="5577-9d91-a402-6ea6" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6330-3167-6079-da68" type="atLeast"/>
+          </conditions>
+        </modifier>
       </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5577-9d91-a402-6ea6" type="max"/>
+      </constraints>
       <profiles>
         <profile id="9cd2-c591-ee79-7003" name="Valten, Exalted of Sigmar" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -5574,30 +5574,30 @@ The Engineers can fight normally against enemies in base contact with the Tank&a
             <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
           </characteristics>
         </profile>
+        <profile id="2526-1ec9-cfaa-1bc9" name="Althandin" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">9</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">7</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
-      <rules>
-        <rule id="4048-2040-a6fa-992b" name="Against the Odds" hidden="false">
-          <description>Enemy units can never gain the combat resolution bonus points for flank or rear attacks, or for outnumbering, in a combat involving Valten. In addition, Valten and any unit he leads is Immune to Psychology. The only exception is that they always count as being stubborn.</description>
-        </rule>
-        <rule id="0693-9fc5-a17d-058b" name="Awesome Presence" hidden="false">
-          <description>Wounds inflicted by Valten in close combat are counted towards the Empire combat resolution score of any combat within 12&quot; of him, not just the one he is taking part in.
-
-When wielding Ghal Maraz, the number of wounds passed on to other combats within 12&quot; is the number inflicted before multiplying the effects of the hammer. The total number of wounds caused still count for the combat Valten is fighting in. For example, Valten is fighting a unit of Minotaurs. He inflicts 3 wounds, which cause 2, 3 and 3 wounds respectively. For his combat, he adds 8 to the Combat Resolution total. For other combats within 12&quot; he only adds 3 to the Combat Resolution total.
-
-Valten may not be your army General unless he has the highest Leadership value in the army; if there are characters in the army with the same Leadership as Valten, one of those characters will always be the General instead. Even if Valten is the General, units within 12&quot; of him may not use his Leadership as they would normally be able to - the Awesome Presence rule replaces this.</description>
-        </rule>
-        <rule id="d823-69a4-8baf-7fda" name="Iron Resolve" hidden="false">
-          <description>Valten has a 5+ Ward save.
-
-In addition, if Valten is killed, take a Leadership test for him at the end of that phase. If he passes, his astounding strength of will allows him to ignore the wound and continue fighting. He remains alive on 1 Wound, and the wounds that killed him are discounted.
-
-Note that the effects of combat resolution, panic and so on are worked out after determining whether Valten recovers. This rule does not apply if he is fleeing and is run down by chargers or pursuers, or hit with a Killing Blow.</description>
-        </rule>
-      </rules>
+      <infoLinks>
+        <infoLink id="be42-c490-c86e-ff56" name="Against the Odds" hidden="false" targetId="6e04-5c66-0414-a4b0" type="rule"/>
+        <infoLink id="0b9d-f89c-3f09-b117" name="Awesome Presence" hidden="false" targetId="62a5-0dee-5986-cd3f" type="rule"/>
+        <infoLink id="fe50-dc77-6319-201e" name="Iron Resolve" hidden="false" targetId="a611-96f8-d83e-1380" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="22c6-54cb-86e1-e9b3" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="2073-7780-c923-8e23" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
         <categoryLink id="85c7-ecf9-6f3d-eaf2" name="Additional Lord Choice" hidden="false" targetId="0daf-8d53-eadf-d10f" primary="false"/>
+        <categoryLink id="1e9c-6716-9741-e2e8" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="acf4-c665-c423-ba9b" name="Armour of the Heldenhammer" hidden="false" collective="false" import="true" type="upgrade">
@@ -5634,13 +5634,13 @@ Note: During the events known as the Storm of Chaos, Ghal Maraz is wielded by th
             <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5875-9d97-4496-1c66" name="Athandin" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5875-9d97-4496-1c66" name="Althandin" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4863-df4f-55fe-9e49" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6113-c827-de3d-7de9" type="min"/>
           </constraints>
           <profiles>
-            <profile id="5530-78fa-9e27-350d" name="Athandin" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+            <profile id="5530-78fa-9e27-350d" name="Althandin" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
               <characteristics>
                 <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">9</characteristic>
                 <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
@@ -5655,7 +5655,7 @@ Note: During the events known as the Storm of Chaos, Ghal Maraz is wielded by th
             </profile>
           </profiles>
           <rules>
-            <rule id="b2e2-9afd-24d7-2bfd" name="Athandin" hidden="false">
+            <rule id="b2e2-9afd-24d7-2bfd" name="Althandin" hidden="false">
               <description>In battle, Althandin counts as a monster and his profile is given above. Althandin wears ithilmar barding, giving him an Armour saving throw of 5+ with no reduction in Movement.</description>
             </rule>
           </rules>
@@ -5772,12 +5772,30 @@ Gives a 4+ Ward save and Magic Resistance (3) to the Emperor and his mount. In a
           <selectionEntries>
             <selectionEntry id="6cdb-7c36-dbf2-0b97" name="Ghal Maraz" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
+                <modifier type="set" field="1be3-d094-28ef-c1eb" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="99ae-40ac-02ca-ec85" type="atLeast"/>
+                  </conditions>
+                </modifier>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="99ae-40ac-02ca-ec85" type="atLeast"/>
                   </conditions>
                 </modifier>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e070-e63d-0932-3669" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="1be3-d094-28ef-c1eb" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6330-3167-6079-da68" type="atLeast"/>
+                  </conditions>
+                </modifier>
               </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1be3-d094-28ef-c1eb" type="max"/>
+              </constraints>
               <rules>
                 <rule id="4f30-4a9b-10a2-dc9f" name="Ghal Maraz" hidden="false">
                   <description>The Hammer of Sigmar grants its wielder +2 Attacks. Any hits wound automatically and no Armour saves are allowed. Each unsaved wound becomes D3 wounds.
@@ -5818,6 +5836,452 @@ Note: During the events known as the Storm of Chaos, Ghal Maraz is wielded by th
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="440.0"/>
         <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4b05-81f6-c401-7af5" name="Valten, Champion of Sigmar" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e070-e63d-0932-3669" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="b5a9-626a-1d8a-1267" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="99ae-40ac-02ca-ec85" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="b5a9-626a-1d8a-1267" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6330-3167-6079-da68" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b5a9-626a-1d8a-1267" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f1a7-21b0-9741-143a" name="Valten, Champion of Sigmar" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">5</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5e85-aea5-1fec-7335" name="Against the Odds" hidden="false" targetId="6e04-5c66-0414-a4b0" type="rule"/>
+        <infoLink id="2b03-3a78-28c0-4ab0" name="Awesome Presence" hidden="false" targetId="62a5-0dee-5986-cd3f" type="rule"/>
+        <infoLink id="a87a-f63c-6688-1785" name="Iron Resolve" hidden="false" targetId="a611-96f8-d83e-1380" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4905-8d42-5767-9c24" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="59fc-fda3-431e-f5e6" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="14da-9e5b-1cb7-d83e" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
+        <categoryLink id="e0b2-c9cf-6b8a-c1b2" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="215.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="33f7-6e3a-ef7b-0067" name="Volkmar the Grim" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e070-e63d-0932-3669" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="06d7-614f-dc75-5be4" name="Volkmar the Grim" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">4</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3e9e-e57f-f943-6d56" name="War Altar" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">-</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">-</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">-</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">5</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">6</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">5</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">-</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">-</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="fdf0-df13-d1c7-b798" name="Scaffold - points needed" hidden="false">
+          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        </rule>
+        <rule id="14ba-93af-db49-31ed" name="Warrior Priest (Volkmar the Grim)" hidden="false">
+          <description>All the rules that normally apply to an Empire Warrior Priest also apply to the Theogonist (see page 16 of the Empire Book), with the exception that his Prayers of Sigmar have a Power Level of 4.</description>
+        </rule>
+        <rule id="f34a-bb3e-da19-927b" name="The War Altar" hidden="false">
+          <description>The War Altar exudes raw power which banishes all thought of fear or panic. So long as the War Altar is on the table and not fleeing, the Grand Theogonist and any Empire unit within 12&quot; are Immune to Psychology, except that they will hate all Chaos, Undead and Skaven (as per the Righteous Fury special rule).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="5e64-ffb9-3493-2afb" name="Blessings of Sigmar" hidden="false" targetId="606b-2946-e8e7-0bc3" type="rule"/>
+        <infoLink id="42e1-ce0a-405c-8396" name="Prayers of Sigmar" hidden="false" targetId="50e3-6972-88fa-5fcb" type="rule"/>
+        <infoLink id="5378-b2e4-f7e1-7f50" name="Righteous Fury" hidden="false" targetId="c093-874e-7414-4a8a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="79e1-964d-86b8-3da9" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="c2c1-80ad-7325-9a5b" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c5c2-99e6-5a8a-0095" name="The Jade Griffon" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="ec40-c20f-4b81-43a4" name="The Jade Griffon" hidden="false">
+              <description>This is a huge piece of carved jade that hangs upon the Grand Theogonist&apos;s chest. It draws magical power from the War Altar and glows with a green inner light.
+
+If the Grand Theogonist suffers harm the Jade Griffon uses the power of the War Altar to instantly heal him. Unless the Grand Theogonist is killed outright, the Jade Griffon will enable him to sustain wounds which would kill an ordinary man. The effect of the Jade Griffon is worked out at the end of each Movement, Shooting and Close Combat phase. If the Grand Theogonist has suffered any wounds but has not been killed then all his wounds are instantly healed. If the Theogonist is killed outright during magic, shooting, hand-to-hand fighting, or at any other time, the Jade Griffon is powerless to save him. This means that in order to slay the Theogonist, the enemy must inflict the full 3 wounds on him before the end of the next Magic, Shooting or Close Combat phase.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="84ba-3578-a470-b765" name="The Horn of Sigismund" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="5338-9366-7460-3994" name="The Horn of Sigismund" hidden="false">
+              <description>The Emperor Sigismund was given this huge enchanted horn by the Dwarfs after the Battle of Grimgrill Dale. After the death of Sigismund during the Siege of Altdorf, the horn passed into the keeping of the Temple of Sigmar. It has remained in the temple ever since, and is blown three times on the anniversary of the death of Sigismund as a solemn reminder of the dark days when the Empire was ravaged by Orcs and Altdorf was almost destroyed. When the War Altar goes to battle the Horn of Sigismund is taken as well. The Horn is sounded by the Theogonist as the War Altar charges into combat.
+
+When the War Altar charges into combat (and only when it charges) the sounding of the Horn strikes terror into the charged enemy unit. Terror is caused on the charged unit exactly as described in the Warhammer rulebook. Note that this only affects the unit being charged, and not any other enemy units within 6&quot;.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7b2e-ea5b-3aba-8352" name="The Staff of Command" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="a619-611b-2450-f61a" name="The Staff of Command" hidden="false">
+              <description>The Staff of Command is the Grand Theogonist&apos;s badge of office, drawing power from the War Altar and passing it into the Grand Theogonist to give him incredible strength.
+
+The Grand Theogonist may add +2 to his Strength. If the War Altar is destroyed then the Staff of Command is useless and all bonuses are lost.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3673-8480-5303-980c" name="Ar-Ulric Emil Valgeir" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e070-e63d-0932-3669" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="5311-c330-42f0-e75a" name="Ar-Ulric Emil Valgeir" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e6b6-4c4a-b6a1-c560" name="Blessing of Ulric" hidden="false">
+          <description>The presence of the Priest adds one dice to the Dispel pool of the army. Ar-Ulric&apos;s Blessing adds two Dispel dice rather than one.</description>
+        </rule>
+        <rule id="f0ba-5716-1106-02cd" name="Crush the Weak" hidden="false">
+          <description>Ulric detests weakness and cowardice. This character and any unit he leads hate models with a basic Leadership characteristic of 6 or lower, even if normally Immune to Psychology. This has no effect on other characters in the unit or on the model&apos;s mount.</description>
+        </rule>
+        <rule id="bc37-c3d1-2191-fe09" name="Prayers of Ulric" hidden="false">
+          <description>In each Magic phase, the Priest can use one of the following Prayers, counting it as a Bound Spell with a Power Level of 3. Ar-Ulric&apos;s fervour and will-power is such that he may use two Prayers in every Magic phase, although he may only use each Prayer once successfully:
+
+## Battle Howl
+
+Remains in play until dispelled or the Priest attempts to use another Prayer. As long as the Battle Howl is in effect, the Priest and any unit he leads add D3&quot; to their charge moves. If the charge is failed, the extra movement is wasted; make a normal move towards the target as normal.
+
+## Destruction
+
+Every enemy model in base contact with the Priest suffers a single Strength 4 hit.
+
+## Winter&apos;s Chill
+
+Any units engaged in close combat with the Priest or the unit he is with must take a Leadership test. If failed, they suffer a -1 penalty to hit in the next Close Combat phase. Note that this is not a psychology test.
+
+## Fury of Ulric
+
+Remains in play until dispelled or the Priest attempts to use another Prayer. The Priest and any unit he leads become immune to fear, terror and panic.</description>
+        </rule>
+        <rule id="60a1-c348-106a-b2b1" name="Favour of the Winter Wolf" hidden="false">
+          <description>Ar-Ulric&apos;s divinely granted powers are greater than any other priest of Ulric. He adds two Dispel dice to his army&apos;s dice pool rather than one. He may use two Prayers in each Magic phase, although he may only use each Prayer once successfully. Finally, his Remains in Play prayers are not ended when he attempts to use another prayer. Such prayers will remain in play until they are dispelled, he attempts the same prayer again, is slain, or ends it himself (which he may do at any time). This means that Ar-Ulric may maintain more than one Remains in Play prayer at a time.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="522a-9f4f-2984-feeb" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="a0b7-aedc-2cfb-a155" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="5620-d6b5-8659-6089" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4a2f-3a93-d7fc-2276" name="Hammer-axe of Skoll" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="19b1-4f2c-abe5-167f" name="Hammer-axe of Skoll" hidden="false">
+              <description>Before the battle begins, you must roll a D6 and consult the table below to see what power the Wolf God has imparted to the Hammer-axe of Skoll. Regardless of the result, the Hammer-axe of Skoll is always considered a magical weapon.
+
+Hammer-axe of Skoll Chart
+
+| D6 | Result |
+| --- | --- |
+| 1-3 | The Hammer-axe adds +2 to Ar-Ulric&apos;s Strength. |
+| 4-5 | The Hammer-axe grants Ar-Ulric the Killing Blow special ability. |
+| 6 | The Hammer-axe adds +2 to Ar-Ulric&apos;s Strength and, in addition, adds D3 to his Attacks on any turn he charges. |</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c6b7-b6e7-0f82-89e1" name="Wolfplate Armour" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="9c0d-5ae2-3426-61df" name="Wolfplate Armour" hidden="false">
+              <description>The Wolfplate armour confers a 4+ Armour save, a 5+ Ward save and Magic Resistance (1).
+
+In addition, Ar-Ulric and any unit he accompanies are immune to all fire based attacks, whether magical or not.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ec59-0428-61da-26a1" name="Ice Dagger" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="cf5a-2143-d869-d147" name="Ice Dagger" hidden="false">
+              <description>The Ice Dagger is not a weapon, but an icon of Ulric as the savagery of the piercing winter chill. It is usually worn on a chain around the neck.
+
+The Ice Dagger is a powerful icon of Ulric&apos;s wrath, and the Priest draws strength from the faith and courage of those around him. The Priest bearing the Ice Dagger may add the current rank bonus of the unit he accompanies to the Power Level of his Prayers. The rank bonus may only be added once; there is no further bonus for additional Ice Daggers.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="dad0-0c80-aa8e-b164" name="Fang of the Winter Wolf" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="bb89-eaa3-b629-c8b8" name="Fang of the Winter Wolf" hidden="false">
+              <description>A Fang of the Winter Wolf is a tooth taken from one of the largest wolves of the Drakwald Forest and blessed by Ar-Ulric himself. They are said to be potent talismans, and possession of one instils a priest with supreme confidence.
+
+One use only. Before using a Prayer, a Priest of Ulric may declare he is using his Fang of the Winter Wolf. The Prayer counts as being cast with Irresistible Force, in the same way as a magic spell cast with two dice rolls of 6.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="325.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3b85-b206-e2d5-ed73" name="Boris Todbringer" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e070-e63d-0932-3669" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="8aed-f256-2745-1209" name="Boris Todbringer" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">1</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c149-444e-bfe5-aabe" name="Warhorse" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">8</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">3</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6bfe-27eb-8623-8e55" name="Elector Count of Middenland" hidden="false">
+          <description>Boris Todbringer is the Elector Count of Middenland. As such, one unit of Halberdiers, Spearmen or Swordsmen in the army may carry a magic banner worth up to 50 points.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="72dc-b190-14de-30f1" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="7aa8-423a-dbf4-b6e4" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="3b6c-4b6b-306b-9dda" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ee00-7ea1-598d-304d" name="Talisman of Ulric" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="1be7-50e5-b693-e2df" name="Talisman of Ulric" hidden="false">
+              <description>At the start of every player turn, unless he has been removed as a casualty, Boris Todbringer instantly recovers any lost wounds, up to his starting total of 3. In addition, the Talisman is infused with the power and courage of Ulric, granting Boris Todbringer Magic Resistance (1) and this Talisman also makes him Immune to Psychology.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="40c5-5912-d40b-d291" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="a95f-3cc8-8140-6eaa" value="0.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0b46-be2c-f32a-b8d0" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="031b-4e00-94a2-aa33" value="0.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0b46-be2c-f32a-b8d0" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a95f-3cc8-8140-6eaa" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="031b-4e00-94a2-aa33" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="278.0"/>
+      </costs>
+    </selectionEntry>
+  <selectionEntry id="f80e-190c-a19f-c9f3" name="Filters" hidden="false" collective="false" import="true" type="upgrade">
+    <categoryLinks>
+      <categoryLink id="105f-a51b-3566-f032" name="Filter" hidden="false" targetId="e570-ee85-1ec9-43ae" primary="false"/>
+    </categoryLinks>
+    <selectionEntries>
+      <selectionEntry id="49c8-8c7d-b97d-4f2d" name="Hide Special Characters" hidden="false" collective="false" import="true" type="upgrade">
+        <constraints>
+          <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac31-76e0-2529-791e" type="max"/>
+        </constraints>
+        <categoryLinks>
+          <categoryLink id="d6e7-0468-ec90-f837" name="Filter" hidden="false" targetId="e570-ee85-1ec9-43ae" primary="false"/>
+          <categoryLink id="3dd8-20b3-00f2-eb4e" name="Hide Special Characters" hidden="false" targetId="e070-e63d-0932-3669" primary="false"/>
+        </categoryLinks>
+        <costs>
+          <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        </costs>
+      </selectionEntry>
+    </selectionEntries>
+  </selectionEntry>
+    <selectionEntry id="6330-3167-6079-da68" name="Valten, Chosen of Sigmar" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="f481-93fd-9e36-8c19" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4b05-81f6-c401-7af5" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="f481-93fd-9e36-8c19" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="99ae-40ac-02ca-ec85" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f481-93fd-9e36-8c19" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="610e-c160-a376-7a91" name="Valten, Chosen of Sigmar" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">5</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c2d8-05ae-4f16-cdb7" name="Barded Warhorse" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">8 (7)</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">3</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ed25-5628-9a98-bede" name="Against the Odds" hidden="false" targetId="6e04-5c66-0414-a4b0" type="rule"/>
+        <infoLink id="6888-3ee7-3bee-1ab9" name="Awesome Presence" hidden="false" targetId="62a5-0dee-5986-cd3f" type="rule"/>
+        <infoLink id="bebd-3c5b-143a-fa7b" name="Iron Resolve" hidden="false" targetId="a611-96f8-d83e-1380" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9c53-2456-f6f3-95ce" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="9e4d-10e5-22b2-c68e" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="9d90-d90d-392d-841b" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="188b-b1f0-43df-1e4a" name="Two Additional Hero Choices" hidden="false" targetId="9dc5-bbce-5738-84e8" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a439-134a-23a0-9b64" name="Ghal Maraz" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="69d0-a014-0f20-d471" name="Ghal Maraz" hidden="false">
+              <description>The Hammer of Sigmar grants its wielder +2 Attacks. Any hits wound automatically and no Armour saves are allowed. Each unsaved wound becomes D3 wounds.
+
+Note: During the events known as the Storm of Chaos, Ghal Maraz is wielded by the Exalted of Sigmar; Valten. If Valten is in the same army as Karl Franz, the Emperor must be armed with his Runefang.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9890-8a18-5864-4ade" name="Full Plate Armour" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="490.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -7001,12 +7465,58 @@ The unit carrying the Griffon Standard will never pursue a fleeing enemy but wil
             <cost name=" Hull Points" typeId="fada-3781-5bbe-4625" value="0.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
+  </selectionEntries>
       <entryLinks>
         <entryLink id="a0be-3b64-d0bf-c142" name="War Banner" hidden="false" collective="false" import="true" targetId="862d-4fba-1966-3f2f" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-  </sharedSelectionEntryGroups>
+  </sharedSelectionEntryGroups>  <sharedRules>
+    <rule id="6e04-5c66-0414-a4b0" name="Against the Odds" hidden="false">
+      <description>Enemy units can never gain the combat resolution bonus points for flank or rear attacks, or for outnumbering, in a combat involving Valten. In addition, Valten and any unit he leads is Immune to Psychology. The only exception is that they always count as being stubborn.</description>
+    </rule>
+    <rule id="62a5-0dee-5986-cd3f" name="Awesome Presence" hidden="false">
+      <description>Wounds inflicted by Valten in close combat are counted towards the Empire combat resolution score of any combat within 12&quot; of him, not just the one he is taking part in.
+
+When wielding Ghal Maraz, the number of wounds passed on to other combats within 12&quot; is the number inflicted before multiplying the effects of the hammer. The total number of wounds caused still count for the combat Valten is fighting in. For example, Valten is fighting a unit of Minotaurs. He inflicts 3 wounds, which cause 2, 3 and 3 wounds respectively. For his combat, he adds 8 to the Combat Resolution total. For other combats within 12&quot; he only adds 3 to the Combat Resolution total.
+
+Valten may not be your army General unless he has the highest Leadership value in the army; if there are characters in the army with the same Leadership as Valten, one of those characters will always be the General instead. Even if Valten is the General, units within 12&quot; of him may not use his Leadership as they would normally be able to - the Awesome Presence rule replaces this.</description>
+    </rule>
+    <rule id="a611-96f8-d83e-1380" name="Iron Resolve" hidden="false">
+      <description>Valten has a 5+ Ward save.
+
+In addition, if Valten is killed, take a Leadership test for him at the end of that phase. If he passes, his astounding strength of will allows him to ignore the wound and continue fighting. He remains alive on 1 Wound, and the wounds that killed him are discounted.
+
+Note that the effects of combat resolution, panic and so on are worked out after determining whether Valten recovers. This rule does not apply if he is fleeing and is run down by chargers or pursuers, or hit with a Killing Blow.</description>
+    </rule>
+    <rule id="606b-2946-e8e7-0bc3" name="Blessings of Sigmar" hidden="false">
+      <description>Warrior Priests are blessed by Sigmar and can invoke the god&apos;s protection against the sorcerous powers of the enemy. As long as a Warrior Priest is on the battlefield, he adds one dice to the Empire player&apos;s Dispel dice pool during the enemy&apos;s Magic phase.</description>
+    </rule>
+    <rule id="50e3-6972-88fa-5fcb" name="Prayers of Sigmar" hidden="false">
+      <description>Once per Empire Magic phase, a Warrior Priest is allowed to use ONE prayer chosen from the Prayers of Sigmar list (see below). Prayers are cast exactly like Bound spells from magic items, with a Power Level of 3. They can be cast on the Priest himself or on any one character or unit champion within 12&quot; of the Priest. Prayers never affect a model&apos;s steed, and cannot be cast on Knights of the White Wolf or their Grand Master. Note that a Warrior Priest is never considered to be a Wizard.
+
+Hammer of Sigmar
+
+The model can re-roll failed rolls to wound: This Prayer lasts until it is dispelled or until the Warrior Priest attempts to cast another prayer. This Prayer has no effect on hits from magic weapons.
+
+Armour of Righteousness
+
+The model gets a 5+ ward save. This Prayer lasts until it is dispelled or until the Warrior Priest attempts to cast another Prayer. This Prayer has no effect if the model already has a Ward save.
+
+Healing Hand
+
+The model is immediately healed of all the wounds it has suffered during the battle up to that moment.
+
+Soulfire
+
+Centre the large 5&quot; template on the Warrior Priest. All Undead and Daemons hit by the template (work out which models are hit exactly the same way as you would do for a Mortar&apos;s hit) suffer a Strength 4 hit, with no armour save allowed. Soulfire can only be cast on the warrior Priest, not on other models.</description>
+    </rule>
+    <rule id="c093-874e-7414-4a8a" name="Righteous Fury" hidden="false">
+      <description>Warrior Priests and the unit they are with hate all models in any of the following armies: all Chaos (Chaos Warriors, Beastmen, Daemons and Chaos Dwarfs), all Undead (Khemri and Vampire Counts), all Skaven.
+
+Note that this power does not affect other characters (they are more difficult to influence than the average soldier) and units Immune to Psychology are not affected by this power as well. Also note that Warrior Priests will never join units of warriors who are not devout to Sigmar, so they cannot join units of Knights of the White Wolf.</description>
+    </rule>
+  </sharedRules>
+
   <sharedProfiles>
     <profile id="c329-5a8b-ae72-6058" name="Warhorse" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
       <characteristics>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="28" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="37" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="e8a8-d83e-c60c-3ad0" name="Hordes of Chaos"/>
     <publication id="dc3a-2511-d23a-deb3" name="Beasts of Chaos"/>
@@ -114,6 +114,7 @@
     <categoryEntry id="a1ef-6866-5c70-daa1" name="Hide Mortals" hidden="false"/>
     <categoryEntry id="13a7-254f-3909-eab2" name="Shield" hidden="true"/>
     <categoryEntry id="b131-2b22-26f6-bcfb" name="Chosen" hidden="false"/>
+  <categoryEntry id="51cb-66bf-92f8-f97c" name="Hide Special Characters" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="b5b7-0447-4117-ed00" name="Beastlord" hidden="false" collective="false" import="true" type="model">
@@ -5419,6 +5420,18 @@ They use cavalry rules for spears.</description>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="db08-e913-133e-3f35" name="Hide Special Characters" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da1f-5f06-d0f2-3e5a" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="e30e-3030-0cb5-f975" name="Filter" hidden="false" targetId="ef67-38cf-70b1-8a05" primary="false"/>
+            <categoryLink id="882c-eaba-01fc-02c2" name="Hide Special Characters" hidden="false" targetId="51cb-66bf-92f8-f97c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
@@ -5631,6 +5644,11 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e669-5178-c77c-941a" type="equalTo"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="51cb-66bf-92f8-f97c" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1d37-dfc3-e172-ecc3" type="max"/>
@@ -5738,6 +5756,11 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6478-2ab2-762c-cd50" type="equalTo"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="51cb-66bf-92f8-f97c" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a339-cfc2-c6a7-7335" type="max"/>
@@ -5803,6 +5826,11 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e669-5178-c77c-941a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="51cb-66bf-92f8-f97c" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -5935,6 +5963,11 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e669-5178-c77c-941a" type="equalTo"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="51cb-66bf-92f8-f97c" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <categoryLinks>
         <categoryLink id="4d56-8ffb-04b0-9b22" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
@@ -5974,6 +6007,69 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
       </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="696.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="330e-21f6-acc9-b3ba" name="Vardek Crom" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="51cb-66bf-92f8-f97c" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="23a7-3459-59bb-3b60" name="Vardek Crom" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">9</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">5</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">8</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">5</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="01e7-7448-c94f-7f24" name="Master of Chaos Undivided" hidden="false">
+          <description>Undivided, and the vast majority of his troops celebrate Chaos in its purest, undiluted form. An army led by Crom the Conqueror has the following special rules:
+
+- Units of Chaos Warriors or Knights bearing any Mark other than Chaos Undivided count as Special units. Any unit of Chaos Warriors or Knights bearing any Mark other than Chaos Undivided which has been upgraded to Chosen counts as a rare choice.
+- Daemons of all types also count as Rare units.
+- All Marauder and Marauder Horsemen units may have the Mark of Chaos Undivided for free. They may not be given any other Marks</description>
+        </rule>
+        <rule id="193d-773f-8d03-48dd" name="Immense Pride" hidden="false">
+          <description>Crom is a true warrior, a master of single combat. He has defeated many chieftains in single combat to gain leadership of their tribes, each victory increasing an already considerable pride.
+
+Crom must always accept a challenge if one is issued.</description>
+        </rule>
+        <rule id="d717-bc8d-12d9-6c4d" name="The Way of the Warrior" hidden="false">
+          <description>The Conqueror is supremely skilled in many styles of fighting, be it with sword and axe, or sword and shield.
+
+With his sword and axe, Crom is a whirlwind of destruction, his attacks striking with such power that his opponents are torn apart by the storm of blows. If Crom fights with a sword and axe then he gains +1 Attack for an additional hand weapon as normal. In addition, if he fights with a sword and axe in a challenge, Crom may make an additional attack for each wounding hit he makes (before saving throws).
+
+Crom uses his shield expertly, forcing his opponent back and blocking any attempt to launch an attack. If Crom fights with sword and shield he gets the normal + 1 to his Armour save for using a hand weapon and shield. In addition, if he fights with sword and shield in a challenge, any special rules applying to Crom&apos;s opponent&apos;s weapon are completely nullified; in other words his opponents always count as using a single hand weapon regardless of their actual equipment. This applies to both magical and mundane equipment.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="ccbd-ed71-b793-28d7" name="Chaos Armour" hidden="false" targetId="8119-2e59-eef1-a2c0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="543f-c92a-8f4a-7068" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="b365-c9db-6c61-8332" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="1136-4ae8-7d3d-323e" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2a31-45f9-0e65-c718" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13f1-c1a0-9bdd-e8c5" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="230.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -9193,13 +9289,9 @@ The Armour of Tortured Souls is a suit of Chaos armour. The wearer counts as hav
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b5d-5631-f6ea-4d49" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12f3-3415-5546-db89" type="max"/>
               </constraints>
-              <rules>
-                <rule id="df14-b7c0-c17b-dfad" name="Chaos Armour" publicationId="dc3a-2511-d23a-deb3" page="63" hidden="false">
-                  <description>All-enclosing suits of Chaos Armour are the living gifts of the Dark Gods upon their Champions. They become part of the wearers body and can never be removed once put on.
-
-Chaos armour gives a 4+ armour save. It can be combined with other equipment as normal. Sorcerers can wear this armour and cast spells.</description>
-                </rule>
-              </rules>
+              <infoLinks>
+                <infoLink id="906f-1d76-c1f5-9379" name="Chaos Armour" hidden="false" targetId="8119-2e59-eef1-a2c0" type="rule"/>
+              </infoLinks>
               <categoryLinks>
                 <categoryLink id="dabe-522b-5bc0-10c7" name="Magic Armour" hidden="false" targetId="2963-aff1-28ca-7634" primary="false"/>
               </categoryLinks>
@@ -10792,7 +10884,7 @@ The Familiar&apos;s owner knows one more spell than is normal for his level. Thi
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="15.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
+  </selectionEntries>
       <entryLinks>
         <entryLink id="6e86-e77a-a7e9-7eff" name="Staff of Sorcery" hidden="false" collective="false" import="true" targetId="0871-b449-88b1-0a33" type="selectionEntry"/>
         <entryLink id="b8ff-004a-cd52-64c0" name="Power Stone" hidden="false" collective="false" import="true" targetId="2be9-2fdd-98db-e42c" type="selectionEntry"/>
@@ -10876,6 +10968,11 @@ Any unit In close combat with one or more models with a Cloud of Flies suffers a
     </rule>
     <rule id="d103-df69-44a8-2293" name="Aura of Slaanesh" hidden="false">
       <description>Any enemy unit in base contact with one or more models with the Aura of Slaanesh reduces its Leadership by -1, to a minimum Leadership value of 2.</description>
+    </rule>
+    <rule id="8119-2e59-eef1-a2c0" name="Chaos Armour" hidden="false">
+      <description>All-enclosing suits of Chaos Armour are the living gifts of the Dark Gods upon their Champions. They become part of the wearers body and can never be removed once put on.
+
+Chaos armour gives a 4+ armour save. It can be combined with other equipment as normal. Sorcerers can wear this armour and cast spells.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
