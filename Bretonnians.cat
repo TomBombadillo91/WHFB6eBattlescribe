@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="05b9-5022-67cd-4fd3" name="Bretonnians" revision="16" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="05b9-5022-67cd-4fd3" name="Bretonnians" revision="17" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="ff93-67ff-9b17-d51d" name="Grail Vow" hidden="false">
       <rules>
@@ -5373,10 +5373,11 @@ Friendly troops may use Louen Leoncoeur&apos;s Leadership characteristic when he
         <selectionEntry id="4097-2013-91ad-93c9" name="Beaquis" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="774d-8714-52ad-22b2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d001-a902-dcfb-9649" type="min"/>
           </constraints>
           <rules>
             <rule id="d6b4-fff1-df7e-93b8" name="Beaquis" hidden="false">
-              <description>Louen Leoncoeur may ride Beaquis, the royal hippogryph.</description>
+              <description>Louen Leoncoeur always rides Beaquis, the royal hippogryph. Beaquis is priced separately only so the points can be tracked during a game; he is not optional.</description>
             </rule>
           </rules>
           <costs>

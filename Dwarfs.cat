@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="e0a8-8253-1a27-7620" name="Engineering Rune" hidden="false">
       <rules>
@@ -3705,8 +3705,8 @@ In addition, armour cannot save against hits from the Axe of Grimnir. Ward saves
         </profile>
       </profiles>
       <rules>
-        <rule id="cb84-b6bf-ec1b-44b6" name="Scaffold - points needed" hidden="false">
-          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        <rule id="cb84-b6bf-ec1b-44b6" name="Special Character" hidden="false">
+          <description>Ungrim Ironfist is the Slayer King and can be fielded in a Dwarf army. He counts as a Lord choice and in addition takes up one of your Hero choices as well. He must be fielded exactly as described here and may not be given any additional equipment. He must be the army&apos;s General if taken.</description>
         </rule>
         <rule id="8243-e583-562e-3039" name="Slayer King" hidden="false">
           <description>As Slayer King, Ungrim is bound by the Slayer Oath. He benefits from the Slayer special rule  Hates Greenskins and is Unbreakable. The other Slayer rules do not apply.</description>
@@ -3754,7 +3754,7 @@ In addition, armour cannot save against hits from the Axe of Grimnir. Ward saves
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="465.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f3f2-7435-0cec-866f" name="Alrik Ranulfsson" hidden="false" collective="false" import="true" type="model">
@@ -3774,8 +3774,10 @@ In addition, armour cannot save against hits from the Axe of Grimnir. Ward saves
         </profile>
       </profiles>
       <rules>
-        <rule id="b316-1483-73e6-06db" name="Scaffold - points needed" hidden="false">
-          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        <rule id="b316-1483-73e6-06db" name="Special Character" hidden="false">
+          <description>Alrik Ranulfsson counts as a Lord choice and in addition takes up one of your Hero choices as well. He must be the army&apos;s General.
+
+If Alrik is taken, Gyrocopters, Flame Cannons and Organ Guns cost double points, and the army may not include more Thunderer models than Crossbowmen models.</description>
         </rule>
         <rule id="df6b-0c08-58e6-5c74" name="Lord of the Hold" hidden="false">
           <description>If Alrik is included in your army he must be your army General.</description>
@@ -3860,129 +3862,7 @@ In battle, this has the effect of allowing friendly units within 12&quot; of Kin
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="0596-d36d-fa49-7326" name="Garagrim Ironfist" hidden="false" collective="false" import="true" type="model">
-      <profiles>
-        <profile id="000d-6f7d-84e6-5014" name="Garagrim Ironfist" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
-          <characteristics>
-            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">3</characteristic>
-            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
-            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
-            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
-            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
-            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
-            <characteristic name="I" typeId="b418-0e30-644f-1435">3</characteristic>
-            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4(5)</characteristic>
-            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="1976-aa4c-b5c0-dd81" name="Scaffold - points needed" hidden="false">
-          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
-        </rule>
-        <rule id="c941-edbd-377a-4c16" name="Axes of Kadrin" hidden="false">
-          <description>Chained to Garagrim&apos;s wrists so he will never lose them, these twin axes were given to him by his father on his coming-of-age. Each is inscribed with a Grudge Rune and the Master Rune of Skalf Blackhammer.
-
-If you wish, when Garagrim makes a charge he may attack like a Doomseeker rather than normally (including the effects of the axes&apos; runes and his Slayer skills).
-
-In subsequent rounds he can only attack normally, though he gains one extra attack for carrying the paired axes, as noted in his profile. He makes his normal attacks for the purposes of Deathblow.</description>
-        </rule>
-        <rule id="3908-87ac-4317-f418" name="The War-mourner" hidden="false">
-          <description>As War-mourner, it is Garagrim&apos;s duty to tend the Shrine of Grimnir, allowing him to open up the temple&apos;s store of ancient rune axes left as tribute by Slayers making a pilgrimage to Karak Kadrin.
-
-Giant Slayers in an army led by Garagrim may be given a single weapon rune worth no more than 25 points. The Rule of Pride still applies to these weapons.
-
-Remember that a model with a rune axe loses the normal benefits of a great weapon or additional hand weapon.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="c9c8-9f43-baa4-682b" name="Ancestral Grudge" hidden="false" targetId="0440-4012-380d-eda9" type="rule"/>
-        <infoLink id="770a-a2fb-f88f-6b92" name="Relentless" hidden="false" targetId="4f63-f575-8d2e-72ee" type="rule"/>
-        <infoLink id="00d2-075a-2b48-ead2" name="Resolute" hidden="false" targetId="6159-f693-9239-0f8d" type="rule"/>
-        <infoLink id="c9b3-a520-4d83-9818" name="Slayer" hidden="false" targetId="a550-e8c9-b0ba-0242" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="86f7-5a73-3dda-7c11" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
-        <categoryLink id="cf64-e8ab-b7d0-2c65" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="6778-5830-bf13-3f2e" name="Vampireslayer" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="b982-5c2a-b6ba-6cb0" name="Vampireslayer" hidden="false">
-              <description>Against enemies with Toughness 5 or higher, any unsaved wound inflicted by the Slayer becomes D6 wounds.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="45.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="c27b-68cd-1183-a241" name="Beastslayer" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="7b58-7034-12f5-3d55" name="Beastslayer" hidden="false">
-              <description>Each wound inflicted by the Slayer counts double towards that round&apos;s Combat Resolution (excluding Wounds from Overkill in a challenge).</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="f800-367a-0d7b-9508" name="Deathblow" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="1bb1-b940-0380-3f8b" name="Deathblow" hidden="false">
-              <description>If the slayer is killed in close combat, he immediately makes all his attacks before being removed as a casualty (even if he has already attacked that round).</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="2744-5db3-b467-2ea2" name="Kraggi" hidden="false" collective="false" import="true" type="model">
-      <profiles>
-        <profile id="9246-6841-655a-6f63" name="Kraggi" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
-          <characteristics>
-            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">3</characteristic>
-            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
-            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
-            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
-            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
-            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
-            <characteristic name="I" typeId="b418-0e30-644f-1435">3</characteristic>
-            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2</characteristic>
-            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="51de-b290-f597-62db" name="Scaffold - points needed" hidden="false">
-          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
-        </rule>
-        <rule id="aeee-70ab-3ced-2483" name="Assistant at the Forge" hidden="false">
-          <description>Kraggi. the best of Thorek&apos; assistants, accompanies him to battle and helps him by preparing some of the runes. Most of the time this is a big help and speeds things up, but occasionally his lack of experience (he&apos;s hardly been smithing a century) lets him down and he makes a mistake.
-
-Kraggi is treated as a unit Champion and fights with his forge tongs (counts as a hand weapon) and wears an apron to protect him from the intense heat (light armour).
-
-While Kraggi is alive Thorek gains one extra dice per turn to cast runes with. However, it&apos;s important to keep track of which one this is (by using a different coloured dice, for example) because if this extra dice rolls a 1 Kraggi has done something wrong and the rune is miscast.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="ed96-3872-d144-9750" name="Ancestral Grudge" hidden="false" targetId="0440-4012-380d-eda9" type="rule"/>
-        <infoLink id="4bb2-dca1-7dc6-4c73" name="Relentless" hidden="false" targetId="4f63-f575-8d2e-72ee" type="rule"/>
-        <infoLink id="75cb-2adc-0cc0-50b7" name="Resolute" hidden="false" targetId="6159-f693-9239-0f8d" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="8ca0-3c1b-c371-f14c" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
-        <categoryLink id="57d9-f3f4-9f7e-5ee1" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="425.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7894-2f69-159c-b8e1" name="Thorek Ironbrow" hidden="false" collective="false" import="true" type="model">
@@ -4000,10 +3880,25 @@ While Kraggi is alive Thorek gains one extra dice per turn to cast runes with. H
             <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
           </characteristics>
         </profile>
+        <profile id="c8f8-3ef9-fda5-0d57" name="Kraggi" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">3</characteristic>
+            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">6</characteristic>
+            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
+            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
+            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
+            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
+            <characteristic name="I" typeId="b418-0e30-644f-1435">3</characteristic>
+            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2</characteristic>
+            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <rules>
-        <rule id="816e-ddd8-f883-1e8d" name="Scaffold - points needed" hidden="false">
-          <description>POINTS COST NOT SET. The wiki carries no points value for any unit, so this entry costs 0 until the army book value is added. Army construction limits - force organisation slot, 0-1 per army, minimum army size - are also still to be set.</description>
+        <rule id="816e-ddd8-f883-1e8d" name="Special Character" hidden="false">
+          <description>Thorek Ironbrow counts as a Lord choice and in addition takes up one of your Hero choices as well.
+
+Thorek is accompanied by his apprentice Kraggi and by the Anvil of Doom; Kraggi is not a separate character and is included in Thorek&apos;s cost.</description>
         </rule>
         <rule id="2a4a-4ae1-5ee5-61be" name="Assistant at the Forge" hidden="false">
           <description>Kraggi. the best of Thorek&apos; assistants, accompanies him to battle and helps him by preparing some of the runes. Most of the time this is a big help and speeds things up, but occasionally his lack of experience (he&apos;s hardly been smithing a century) lets him down and he makes a mistake.
@@ -4049,8 +3944,11 @@ In addition, Klad Brakak bear the Rune of Fury which gives Thorek + 1 Attack</de
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="12cd-bca8-bbf9-5665" name="Anvil of Doom" hidden="false" collective="false" import="true" targetId="8c8a-1d84-0946-a989" type="selectionEntry"/>
+      </entryLinks>
       <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="505.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
