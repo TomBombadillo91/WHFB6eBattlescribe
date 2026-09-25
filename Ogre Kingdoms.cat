@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9817-5d62-aa33-69f5" name="Ogre Kingdoms" revision="23" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9817-5d62-aa33-69f5" name="Ogre Kingdoms" revision="24" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5fa5-4b26-a63e-0bef" name="Big Name" hidden="false"/>
     <categoryEntry id="a123-ef4a-523b-4159" name="Has Thiefstones" hidden="false"/>
@@ -12,6 +12,8 @@
         </modifier>
       </modifiers>
     </categoryEntry>
+  <categoryEntry id="15c3-8319-5d71-284a" name="Filter" hidden="false"/>
+  <categoryEntry id="8e79-a984-adc7-807a" name="Hide Special Characters" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="fed4-7c2f-34b4-722d" name="Show Dogs of War Ogres" hidden="false" collective="false" import="true" type="upgrade">
@@ -2077,6 +2079,11 @@ Enemies firing at units of Rhinoxen comprising of Rhinox and Bull Rhinox must no
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4bd5-a9fc-13c3-5bc6" type="equalTo"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8e79-a984-adc7-807a" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="59c0-aa3f-691b-283a" type="max"/>
@@ -2243,6 +2250,11 @@ Gorgers must always end their move closer to the enemy, and if there is an eligi
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4bd5-a9fc-13c3-5bc6" type="equalTo"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8e79-a984-adc7-807a" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9515-68b9-cd39-7def" type="max"/>
@@ -2340,6 +2352,25 @@ Gorgers must always end their move closer to the enemy, and if there is an eligi
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="565.0"/>
       </costs>
     </selectionEntry>
+  <selectionEntry id="2443-df44-cdf0-b96e" name="Filters" hidden="false" collective="false" import="true" type="upgrade">
+    <categoryLinks>
+      <categoryLink id="a3ec-7f32-10e4-45b8" name="Filter" hidden="false" targetId="15c3-8319-5d71-284a" primary="false"/>
+    </categoryLinks>
+    <selectionEntries>
+      <selectionEntry id="707c-3b73-2d98-37ff" name="Hide Special Characters" hidden="false" collective="false" import="true" type="upgrade">
+        <constraints>
+          <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dbf-ab95-eef1-fcf8" type="max"/>
+        </constraints>
+        <categoryLinks>
+          <categoryLink id="5a1d-29a1-10db-98a8" name="Filter" hidden="false" targetId="15c3-8319-5d71-284a" primary="false"/>
+          <categoryLink id="6031-678a-0317-692d" name="Hide Special Characters" hidden="false" targetId="8e79-a984-adc7-807a" primary="false"/>
+        </categoryLinks>
+        <costs>
+          <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        </costs>
+      </selectionEntry>
+    </selectionEntries>
+  </selectionEntry>
   </selectionEntries>
   <rules>
     <rule id="1bff-9870-e21b-c49e" name="The Brutish Horde" hidden="false">

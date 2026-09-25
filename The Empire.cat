@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="25" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="26" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <costTypes>
     <costType id="fada-3781-5bbe-4625" name=" Hull Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -42,6 +42,8 @@
       </constraints>
     </categoryEntry>
     <categoryEntry id="b1e7-c274-e193-e55b" name="Parent Unit Model" hidden="true"/>
+  <categoryEntry id="e570-ee85-1ec9-43ae" name="Filter" hidden="false"/>
+  <categoryEntry id="e070-e63d-0932-3669" name="Hide Special Characters" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="b426-6114-c692-9f29" name="Elector Count" hidden="false" collective="false" import="true" type="unit">
@@ -4929,6 +4931,11 @@ Flagellants may never be joined by any characters.</description>
             <condition field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cf7b-798c-9b94-df74" type="equalTo"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e070-e63d-0932-3669" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup>
@@ -5053,6 +5060,11 @@ Note that this power does not affect other characters (they are more difficult t
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e551-c238-2583-53ac" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e070-e63d-0932-3669" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -5564,6 +5576,11 @@ The Engineers can fight normally against enemies in base contact with the Tank&a
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4b05-81f6-c401-7af5" type="atLeast"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e070-e63d-0932-3669" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5577-9d91-a402-6ea6" type="max"/>
@@ -5798,6 +5815,11 @@ Gives a 4+ Ward save and Magic Resistance (3) to the Emperor and his mount. In a
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="99ae-40ac-02ca-ec85" type="atLeast"/>
                   </conditions>
                 </modifier>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e070-e63d-0932-3669" type="equalTo"/>
+                  </conditions>
+                </modifier>
               </modifiers>
               <rules>
                 <rule id="4f30-4a9b-10a2-dc9f" name="Ghal Maraz" hidden="false">
@@ -5842,6 +5864,13 @@ Note: During the events known as the Storm of Chaos, Ghal Maraz is wielded by th
       </costs>
     </selectionEntry>
     <selectionEntry id="4b05-81f6-c401-7af5" name="Valten, Champion of Sigmar" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e070-e63d-0932-3669" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="f1a7-21b0-9741-143a" name="Valten, Champion of Sigmar" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -5876,6 +5905,13 @@ Note: During the events known as the Storm of Chaos, Ghal Maraz is wielded by th
       </costs>
     </selectionEntry>
     <selectionEntry id="33f7-6e3a-ef7b-0067" name="Volkmar the Grim" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e070-e63d-0932-3669" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="06d7-614f-dc75-5be4" name="Volkmar the Grim" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -5967,6 +6003,13 @@ The Grand Theogonist may add +2 to his Strength. If the War Altar is destroyed t
       </costs>
     </selectionEntry>
     <selectionEntry id="3673-8480-5303-980c" name="Ar-Ulric Emil Valgeir" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e070-e63d-0932-3669" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="5311-c330-42f0-e75a" name="Ar-Ulric Emil Valgeir" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -6080,6 +6123,13 @@ One use only. Before using a Prayer, a Priest of Ulric may declare he is using h
       </costs>
     </selectionEntry>
     <selectionEntry id="3b85-b206-e2d5-ed73" name="Boris Todbringer" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e070-e63d-0932-3669" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="8aed-f256-2745-1209" name="Boris Todbringer" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -6123,6 +6173,25 @@ One use only. Before using a Prayer, a Priest of Ulric may declare he is using h
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
     </selectionEntry>
+  <selectionEntry id="f80e-190c-a19f-c9f3" name="Filters" hidden="false" collective="false" import="true" type="upgrade">
+    <categoryLinks>
+      <categoryLink id="105f-a51b-3566-f032" name="Filter" hidden="false" targetId="e570-ee85-1ec9-43ae" primary="false"/>
+    </categoryLinks>
+    <selectionEntries>
+      <selectionEntry id="49c8-8c7d-b97d-4f2d" name="Hide Special Characters" hidden="false" collective="false" import="true" type="upgrade">
+        <constraints>
+          <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac31-76e0-2529-791e" type="max"/>
+        </constraints>
+        <categoryLinks>
+          <categoryLink id="d6e7-0468-ec90-f837" name="Filter" hidden="false" targetId="e570-ee85-1ec9-43ae" primary="false"/>
+          <categoryLink id="3dd8-20b3-00f2-eb4e" name="Hide Special Characters" hidden="false" targetId="e070-e63d-0932-3669" primary="false"/>
+        </categoryLinks>
+        <costs>
+          <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        </costs>
+      </selectionEntry>
+    </selectionEntries>
+  </selectionEntry>
   </selectionEntries>
   <rules>
     <rule id="bb8c-0886-553f-e858" name="Parent and Detachment Units" hidden="false">

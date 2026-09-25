@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9534-aec7-1922-76f2" name="Orcs and Goblins" revision="31" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9534-aec7-1922-76f2" name="Orcs and Goblins" revision="32" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5b0c-07f2-6b72-7aa8" name="Orc" hidden="false"/>
     <categoryEntry id="2c47-226a-5465-6c16" name="Common Orc" hidden="false"/>
@@ -26,6 +26,8 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7c21-c11a-2acb-1894" type="max"/>
       </constraints>
     </categoryEntry>
+  <categoryEntry id="edad-8b93-7d5b-566a" name="Filter" hidden="false"/>
+  <categoryEntry id="b2d2-16cb-2fba-cda3" name="Hide Special Characters" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="e3d7-f6b7-8218-ac29" name="Black Orc Warboss" hidden="false" collective="false" import="true" type="model">
@@ -4944,6 +4946,11 @@ score a hit regardless of how slimy he is.</description>
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b2d2-16cb-2fba-cda3" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <profiles>
         <profile id="3397-a4c5-2ab6-9910" name="Grimgor" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
@@ -5172,6 +5179,11 @@ When setting up a game, Grimgor and his Bodyguard deploy at the same time as oth
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b2d2-16cb-2fba-cda3" type="equalTo"/>
+          </conditions>
         </modifier>
       </modifiers>
       <profiles>
@@ -6104,6 +6116,13 @@ Treat the Prodder&apos;s blasts as bound spells with a power level of 3. Each bl
       </costs>
     </selectionEntry>
     <selectionEntry id="0873-4e06-66b8-8016" name="Azhag the Slaughterer" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b2d2-16cb-2fba-cda3" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="f65c-a784-38c1-53f1" name="Azhag the Slaughterer" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -6261,6 +6280,11 @@ Orcs only. Gives the wearer a 1+ armour save that cannot be improved.</descripti
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="038a-0b40-2b1b-16a4" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b2d2-16cb-2fba-cda3" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5773-acd4-7cea-27b9" type="min"/>
@@ -6272,6 +6296,25 @@ Orcs only. Gives the wearer a 1+ armour save that cannot be improved.</descripti
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="175.0"/>
       </costs>
     </selectionEntry>
+  <selectionEntry id="e422-22d5-2d76-de65" name="Filters" hidden="false" collective="false" import="true" type="upgrade">
+    <categoryLinks>
+      <categoryLink id="d7c6-20ff-aef2-dbd8" name="Filter" hidden="false" targetId="edad-8b93-7d5b-566a" primary="false"/>
+    </categoryLinks>
+    <selectionEntries>
+      <selectionEntry id="4563-837b-2750-d275" name="Hide Special Characters" hidden="false" collective="false" import="true" type="upgrade">
+        <constraints>
+          <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6ba-6344-d572-d457" type="max"/>
+        </constraints>
+        <categoryLinks>
+          <categoryLink id="c639-1a08-6ae1-a6cd" name="Filter" hidden="false" targetId="edad-8b93-7d5b-566a" primary="false"/>
+          <categoryLink id="eb0c-5c70-106b-2fa0" name="Hide Special Characters" hidden="false" targetId="b2d2-16cb-2fba-cda3" primary="false"/>
+        </categoryLinks>
+        <costs>
+          <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        </costs>
+      </selectionEntry>
+    </selectionEntries>
+  </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="bcaa-1d84-338a-0fff" name="Orc Boar Chariot" hidden="false" collective="false" import="true" targetId="33d3-6502-4bd1-408f" type="selectionEntry"/>

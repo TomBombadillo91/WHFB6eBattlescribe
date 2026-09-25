@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3604-800a-4012-5da6" name="Dogs of War" revision="20" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3604-800a-4012-5da6" name="Dogs of War" revision="21" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="5e7e-36e5-c0bf-c57c" name="Dogs of War" hidden="false"/>
     <categoryEntry id="c51c-ed7d-9669-006f" name="Regiment of Renown" hidden="false"/>
     <categoryEntry id="be64-d04b-0e05-ef89" name="Cavalry" hidden="true"/>
+  <categoryEntry id="a272-3c8f-695e-cbd9" name="Filter" hidden="false"/>
+  <categoryEntry id="f057-f6a2-68b9-698d" name="Hide Special Characters" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="2a86-bf37-deab-bcb1" name="Cannon" hidden="false" collective="false" import="true" type="unit">
@@ -2070,6 +2072,11 @@
             <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3604-800a-4012-5da6" type="notInstanceOf"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f057-f6a2-68b9-698d" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <categoryLinks>
         <categoryLink id="ca55-d93d-c45d-0b56" name="Regiment of Renown" hidden="false" targetId="c51c-ed7d-9669-006f" primary="false"/>
@@ -2199,6 +2206,11 @@
             <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3604-800a-4012-5da6" type="notInstanceOf"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f057-f6a2-68b9-698d" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <categoryLinks>
         <categoryLink id="0e96-933f-e6cc-5a77" name="Regiment of Renown" hidden="false" targetId="c51c-ed7d-9669-006f" primary="false"/>
@@ -2303,6 +2315,11 @@
         <modifier type="remove" field="category" value="62d3-efc6-6c2c-634e">
           <conditions>
             <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3604-800a-4012-5da6" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f057-f6a2-68b9-698d" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2414,6 +2431,11 @@
             <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3604-800a-4012-5da6" type="notInstanceOf"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f057-f6a2-68b9-698d" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <categoryLinks>
         <categoryLink id="d270-322d-9393-3bf5" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
@@ -2519,6 +2541,11 @@
         <modifier type="remove" field="category" value="62d3-efc6-6c2c-634e">
           <conditions>
             <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3604-800a-4012-5da6" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f057-f6a2-68b9-698d" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2678,6 +2705,11 @@
             <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3604-800a-4012-5da6" type="notInstanceOf"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f057-f6a2-68b9-698d" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <rules>
         <rule id="d330-b990-ac4b-0db3" name="Brazanga&apos;s Besiegers" hidden="false">
@@ -2770,6 +2802,11 @@ Luca Brazanga is armed with a Hand Weapon, Pistol, Crossbow and Heavy Armour</de
         <modifier type="remove" field="category" value="62d3-efc6-6c2c-634e">
           <conditions>
             <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3604-800a-4012-5da6" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f057-f6a2-68b9-698d" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2882,6 +2919,11 @@ Luca Brazanga is armed with a Hand Weapon, Pistol, Crossbow and Heavy Armour</de
             <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3604-800a-4012-5da6" type="notInstanceOf"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f057-f6a2-68b9-698d" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <infoLinks>
         <infoLink id="5023-1c25-3e8a-4197" name="Fast Cavalry" hidden="false" targetId="ab75-c6ec-0411-c924" type="rule"/>
@@ -2990,6 +3032,11 @@ Luca Brazanga is armed with a Hand Weapon, Pistol, Crossbow and Heavy Armour</de
         <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb">
           <conditions>
             <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3604-800a-4012-5da6" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f057-f6a2-68b9-698d" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -3111,6 +3158,11 @@ Luca Brazanga is armed with a Hand Weapon, Pistol, Crossbow and Heavy Armour</de
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f057-f6a2-68b9-698d" type="equalTo"/>
+          </conditions>
         </modifier>
       </modifiers>
       <infoLinks>
@@ -3240,6 +3292,11 @@ Luca Brazanga is armed with a Hand Weapon, Pistol, Crossbow and Heavy Armour</de
             <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3604-800a-4012-5da6" type="notInstanceOf"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f057-f6a2-68b9-698d" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <infoLinks>
         <infoLink id="e9d2-f297-6c87-4afd" name="Unbreakable" hidden="false" targetId="f6c9-ac44-1d7c-ed6e" type="rule"/>
@@ -3354,6 +3411,11 @@ Luca Brazanga is armed with a Hand Weapon, Pistol, Crossbow and Heavy Armour</de
         <modifier type="add" field="category" value="9dc5-bbce-5738-84e8">
           <conditions>
             <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3604-800a-4012-5da6" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f057-f6a2-68b9-698d" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -3472,6 +3534,11 @@ In addition, if rolling on the Monster Reaction chart for Deathfang add +1 to th
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f057-f6a2-68b9-698d" type="equalTo"/>
+          </conditions>
         </modifier>
       </modifiers>
       <profiles>
@@ -3687,6 +3754,11 @@ Contents
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f057-f6a2-68b9-698d" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <rules>
         <rule id="673e-aac6-3091-efe4" name="Birdmen of Catrazza" hidden="false">
@@ -3769,6 +3841,11 @@ Contents
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3604-800a-4012-5da6" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f057-f6a2-68b9-698d" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -3907,6 +3984,11 @@ Against smaller opponents:
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f057-f6a2-68b9-698d" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup>
@@ -4036,6 +4118,11 @@ Against smaller opponents:
             <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9534-aec7-1922-76f2" type="instanceOf"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f057-f6a2-68b9-698d" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <categoryLinks>
         <categoryLink id="888d-96c6-ce71-dc40" name="New CategoryLink" hidden="false" targetId="a3af-995e-0cf1-7091" primary="true"/>
@@ -4154,6 +4241,11 @@ Against smaller opponents:
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f057-f6a2-68b9-698d" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <categoryLinks>
         <categoryLink id="461d-bb77-fe42-139e" name="Regiment of Renown" hidden="false" targetId="c51c-ed7d-9669-006f" primary="false"/>
@@ -4254,6 +4346,11 @@ Against smaller opponents:
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f057-f6a2-68b9-698d" type="equalTo"/>
+          </conditions>
         </modifier>
       </modifiers>
       <rules>
@@ -4384,6 +4481,11 @@ Beorg is a Were-Bear - he wears no armour and fights with his claws an teeth!</d
             <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3604-800a-4012-5da6" type="notInstanceOf"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f057-f6a2-68b9-698d" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <categoryLinks>
         <categoryLink id="9959-12a6-ac3e-5854" name="Regiment of Renown" hidden="false" targetId="c51c-ed7d-9669-006f" primary="false"/>
@@ -4467,6 +4569,11 @@ Beorg is a Were-Bear - he wears no armour and fights with his claws an teeth!</d
         <modifier type="remove" field="category" value="62d3-efc6-6c2c-634e">
           <conditions>
             <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3604-800a-4012-5da6" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f057-f6a2-68b9-698d" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -4880,6 +4987,13 @@ This spell can be cast on any enemy unit on the table. The unit must immediately
       </costs>
     </selectionEntry>
     <selectionEntry id="f969-c1d6-b8a7-83c2" name="Borgio the Besieger" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f057-f6a2-68b9-698d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="18e8-ac31-fc18-a0d6" name="Borgio the Besieger" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -4958,6 +5072,13 @@ If Borgio rolls a 6 to hit with this weapon, that hit will be at Strength 10.</d
       </costs>
     </selectionEntry>
     <selectionEntry id="d0af-541d-e285-9021" name="Ghazak Khan" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f057-f6a2-68b9-698d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="9b50-65a8-a43d-4d6c" name="Ghazak Khan" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -5050,6 +5171,13 @@ If Borgio rolls a 6 to hit with this weapon, that hit will be at Strength 10.</d
       </costs>
     </selectionEntry>
     <selectionEntry id="88f0-9c48-7724-4636" name="Lorenzo Lupo" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f057-f6a2-68b9-698d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="279a-e326-ced2-2f3f" name="Lorenzo Lupo" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -5134,6 +5262,13 @@ Mighty Athlete Chart
       </costs>
     </selectionEntry>
     <selectionEntry id="2614-a43c-8f12-f1d3" name="Lucrezzia Belladonna" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f057-f6a2-68b9-698d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="9555-024c-0246-d125" name="Lucrezzia Belladonna" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -5191,6 +5326,13 @@ Lucrezzia hires an &apos;agent&apos; prior to every battle. This agent will snea
       </costs>
     </selectionEntry>
     <selectionEntry id="83b6-7731-887d-f9c9" name="Mydas the Mean" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f057-f6a2-68b9-698d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="8a8d-6343-0e52-f427" name="Mydas the Mean" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -5316,6 +5458,25 @@ Treasure Map Chart
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="320.0"/>
       </costs>
     </selectionEntry>
+  <selectionEntry id="8d7d-6881-66b8-aa35" name="Filters" hidden="false" collective="false" import="true" type="upgrade">
+    <categoryLinks>
+      <categoryLink id="ab77-be5f-b4eb-ce94" name="Filter" hidden="false" targetId="a272-3c8f-695e-cbd9" primary="false"/>
+    </categoryLinks>
+    <selectionEntries>
+      <selectionEntry id="ced1-e52b-505e-d7dc" name="Hide Special Characters" hidden="false" collective="false" import="true" type="upgrade">
+        <constraints>
+          <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="678f-8f5d-ca6c-43c3" type="max"/>
+        </constraints>
+        <categoryLinks>
+          <categoryLink id="c194-78df-3cfc-f3e4" name="Filter" hidden="false" targetId="a272-3c8f-695e-cbd9" primary="false"/>
+          <categoryLink id="2092-8790-86ae-e064" name="Hide Special Characters" hidden="false" targetId="f057-f6a2-68b9-698d" primary="false"/>
+        </categoryLinks>
+        <costs>
+          <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        </costs>
+      </selectionEntry>
+    </selectionEntries>
+  </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="9a9f-01c7-9394-383d" name="Command" hidden="false" collective="false" import="true">

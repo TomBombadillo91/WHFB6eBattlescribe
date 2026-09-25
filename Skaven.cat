@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="dfb1-1789-5d68-be54" name="Skaven" revision="30" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="dfb1-1789-5d68-be54" name="Skaven" revision="31" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="4f5c-498c-bd84-7e28" name="Clan Eshin" hidden="false"/>
     <categoryEntry id="befb-92ec-0667-152b" name="Clan Pestilens" hidden="false"/>
@@ -20,6 +20,8 @@
     <categoryEntry id="b952-4dd2-bd93-a3b8" name="Clan Skyre Army" hidden="false"/>
     <categoryEntry id="3490-18aa-b4bf-e44b" name="Clan Moulder Army" hidden="false"/>
     <categoryEntry id="0dad-5154-d71e-e498" name="Clan Pestilens Army" hidden="false"/>
+  <categoryEntry id="e43c-690c-aec4-3ce0" name="Filter" hidden="false"/>
+  <categoryEntry id="8191-b7a7-ce29-41a4" name="Hide Special Characters" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="d22e-1a74-aeb8-776f" name="Warlord" hidden="false" collective="false" import="true" type="model">
@@ -2650,6 +2652,11 @@ Crew and chariots may also shoot any of their missile weapons in the Shooting ph
         <infoLink id="d50d-3eff-dfd5-478a" name="Fear" hidden="false" targetId="03be-3e56-1332-bf56" type="rule">
           <modifiers>
             <modifier type="append" field="name" value=" (Boneripper)"/>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8191-b7a7-ce29-41a4" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </infoLink>
         <infoLink id="d1aa-a78f-1339-a586" name="Lead from the Back" hidden="false" targetId="7f59-cae6-4425-1e0f" type="rule"/>
@@ -2755,6 +2762,11 @@ previously lost during the game.</description>
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8191-b7a7-ce29-41a4" type="equalTo"/>
+          </conditions>
         </modifier>
       </modifiers>
       <profiles>
@@ -3493,6 +3505,13 @@ Warp-blades are Warpstone Weapons.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="8c78-6bdd-66af-8c05" name="Queek Head-taker" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8191-b7a7-ce29-41a4" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="aa05-bc9a-3166-0b83" name="Queek Head-taker" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -3581,6 +3600,25 @@ The pendant confers a 5+ Ward save to the bearer.</description>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="300.0"/>
       </costs>
     </selectionEntry>
+  <selectionEntry id="7980-ac57-6c33-299f" name="Filters" hidden="false" collective="false" import="true" type="upgrade">
+    <categoryLinks>
+      <categoryLink id="0ca6-52c9-5b68-874d" name="Filter" hidden="false" targetId="e43c-690c-aec4-3ce0" primary="false"/>
+    </categoryLinks>
+    <selectionEntries>
+      <selectionEntry id="d2e4-5762-f79d-b0bb" name="Hide Special Characters" hidden="false" collective="false" import="true" type="upgrade">
+        <constraints>
+          <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b86e-4a77-f1cf-472a" type="max"/>
+        </constraints>
+        <categoryLinks>
+          <categoryLink id="607c-f978-5bd3-c1b4" name="Filter" hidden="false" targetId="e43c-690c-aec4-3ce0" primary="false"/>
+          <categoryLink id="4ae0-2a68-78de-fb34" name="Hide Special Characters" hidden="false" targetId="8191-b7a7-ce29-41a4" primary="false"/>
+        </categoryLinks>
+        <costs>
+          <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        </costs>
+      </selectionEntry>
+    </selectionEntries>
+  </selectionEntry>
   </selectionEntries>
   <rules>
     <rule id="5fb0-daaa-4342-a16f" name="He Who Runs Away Lives To Fight Another Day!" hidden="false">

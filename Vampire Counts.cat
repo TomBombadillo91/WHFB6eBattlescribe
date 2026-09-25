@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2c0-45b3-040e-fe0f" name="Vampire Counts" revision="20" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2c0-45b3-040e-fe0f" name="Vampire Counts" revision="21" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7d18-159a-be52-079b" name="Vampire" hidden="false"/>
     <categoryEntry id="72bd-3327-881f-a995" name="Von Carstein" hidden="false"/>
@@ -7,6 +7,8 @@
     <categoryEntry id="9b43-f995-3db9-e093" name="Strigoi" hidden="false"/>
     <categoryEntry id="9721-1538-e8d5-012b" name="Necrarch" hidden="false"/>
     <categoryEntry id="7dda-4704-1c61-e1ab" name="Blood Dragon" hidden="false"/>
+  <categoryEntry id="03ef-741e-6103-5ce0" name="Filter" hidden="false"/>
+  <categoryEntry id="499b-f361-d63b-da3d" name="Hide Special Characters" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="4f73-1234-d4c3-eaea" name="Vampire Lord" hidden="false" collective="false" import="true" type="model">
@@ -1639,6 +1641,13 @@ Models with this special rule resolve their attacks at Strength 4 during the tur
       </costs>
     </selectionEntry>
     <selectionEntry id="28a6-b503-f76d-f861" name="Vlad von Carstein" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="499b-f361-d63b-da3d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="5c3c-9202-31c1-a33a" name="Vlad von Carstein" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -1848,6 +1857,13 @@ Army of Sylvania only. This Vampire may use the spell Invocation of Nehek to add
       </costs>
     </selectionEntry>
     <selectionEntry id="c24a-eaf2-ad08-f037" name="Isabella von Carstein" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="499b-f361-d63b-da3d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="1b42-cfef-303f-fd20" name="Isabella von Carstein" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -1955,6 +1971,13 @@ At the beginning of the Close Combat phase select one model in base contact with
       </costs>
     </selectionEntry>
     <selectionEntry id="9314-bae9-2d73-7edb" name="Mannfred von Carstein" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="499b-f361-d63b-da3d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="fdf9-e787-87d7-903d" name="Mannfred von Carstein" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -2098,6 +2121,13 @@ Once per game, the Vampire can use this power at the start of one of his turns t
       </costs>
     </selectionEntry>
     <selectionEntry id="b679-1d1f-4e3d-91cc" name="Zacharias the Everliving" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="499b-f361-d63b-da3d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="9dce-5a12-ac4f-6c14" name="Zacharias the Everliving" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -2288,6 +2318,25 @@ The Vampire knows one more spell than he is normally allowed. This does not incr
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
     </selectionEntry>
+  <selectionEntry id="05b2-1361-2d33-6c4e" name="Filters" hidden="false" collective="false" import="true" type="upgrade">
+    <categoryLinks>
+      <categoryLink id="6147-01ea-6302-83ca" name="Filter" hidden="false" targetId="03ef-741e-6103-5ce0" primary="false"/>
+    </categoryLinks>
+    <selectionEntries>
+      <selectionEntry id="23b8-72e4-b34a-c66a" name="Hide Special Characters" hidden="false" collective="false" import="true" type="upgrade">
+        <constraints>
+          <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79cf-b73a-6e9f-ad24" type="max"/>
+        </constraints>
+        <categoryLinks>
+          <categoryLink id="f661-a2b6-0cf3-5f3c" name="Filter" hidden="false" targetId="03ef-741e-6103-5ce0" primary="false"/>
+          <categoryLink id="9203-da0e-03cf-0d17" name="Hide Special Characters" hidden="false" targetId="499b-f361-d63b-da3d" primary="false"/>
+        </categoryLinks>
+        <costs>
+          <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        </costs>
+      </selectionEntry>
+    </selectionEntries>
+  </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="00f4-d396-77ce-250a" name="Bloodline" hidden="false" collective="false" import="true" defaultSelectionEntryId="bd1f-0760-31b7-4cae">

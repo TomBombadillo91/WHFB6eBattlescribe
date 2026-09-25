@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4b41-6842-9db5-f563" name="Tomb Kings" revision="17" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4b41-6842-9db5-f563" name="Tomb Kings" revision="18" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7d0c-5562-269f-0795" name="Tomb King General" hidden="false"/>
     <categoryEntry id="80b7-5608-88c2-552c" name="Settra&apos;s Army" hidden="false">
@@ -14,6 +14,8 @@
         <constraint field="limit::eaa7-6800-e651-8bea" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="5547-8588-b85a-301f" type="min"/>
       </constraints>
     </categoryEntry>
+  <categoryEntry id="c9ae-baae-a6e9-8d7a" name="Filter" hidden="false"/>
+  <categoryEntry id="7b44-ad89-5c2b-0b02" name="Hide Special Characters" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="f50a-fa2b-8398-afac" name="Tomb King" hidden="false" collective="false" import="true" type="model">
@@ -1314,6 +1316,13 @@ One Skink Chief may carry the Battle Standard for +25 pts. A Skink Chief with th
       </costs>
     </selectionEntry>
     <selectionEntry id="84d6-5fca-750f-ccc4" name="Settra the Imperishable" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7b44-ad89-5c2b-0b02" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="9319-db8e-c6e5-ca08" name="Settra the Imperishable" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -1460,6 +1469,11 @@ Settra has a 2+ Armour saving throw. This saving throw is never modified to wors
             <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cf7b-798c-9b94-df74" type="equalTo"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7b44-ad89-5c2b-0b02" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <rules>
         <rule id="c188-ce8c-eb2e-aa27" name="The Queen&apos;s Command" hidden="false">
@@ -1516,6 +1530,25 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="420.0"/>
       </costs>
     </selectionEntry>
+  <selectionEntry id="15fa-3486-69cb-2255" name="Filters" hidden="false" collective="false" import="true" type="upgrade">
+    <categoryLinks>
+      <categoryLink id="233c-c967-cb30-1d98" name="Filter" hidden="false" targetId="c9ae-baae-a6e9-8d7a" primary="false"/>
+    </categoryLinks>
+    <selectionEntries>
+      <selectionEntry id="cc1d-3c35-a33c-d146" name="Hide Special Characters" hidden="false" collective="false" import="true" type="upgrade">
+        <constraints>
+          <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f6d-1732-2a7f-7cd7" type="max"/>
+        </constraints>
+        <categoryLinks>
+          <categoryLink id="459f-3522-514f-2652" name="Filter" hidden="false" targetId="c9ae-baae-a6e9-8d7a" primary="false"/>
+          <categoryLink id="d41d-1571-545e-a898" name="Hide Special Characters" hidden="false" targetId="7b44-ad89-5c2b-0b02" primary="false"/>
+        </categoryLinks>
+        <costs>
+          <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        </costs>
+      </selectionEntry>
+    </selectionEntries>
+  </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="fead-7c29-bea4-3b9a" name="Heirophant" hidden="false" collective="false" import="true" type="upgrade">

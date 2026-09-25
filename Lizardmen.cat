@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d9da-11c6-1a8c-4472" name="Lizardmen" revision="28" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d9da-11c6-1a8c-4472" name="Lizardmen" revision="29" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Unit profiles and magic item text are complete. Not yet included: the special characters other than Lord Kroak (Kroq-Gar, Tehenhauin), and Engine of the Gods, Arcanodon and Horned One.</readme>
   <categoryEntries>
     <categoryEntry id="361c-7d6f-fc45-5312" name="Skink" hidden="false"/>
     <categoryEntry id="b1f9-5e8b-41ec-2c52" name="Mount" hidden="false"/>
     <categoryEntry id="8c1b-780f-6b5f-9d0e" name="Sacred Spawning" hidden="false"/>
     <categoryEntry id="7dc8-d1b2-a359-4a3e" name="Slann Mage-Priest" hidden="false"/>
+  <categoryEntry id="72c3-2d56-dda2-c35f" name="Filter" hidden="false"/>
+  <categoryEntry id="158e-3835-51ce-76f7" name="Hide Special Characters" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="9151-bd9e-d9ce-0514" name="Slann Mage-Priest" hidden="false" collective="false" import="true" type="unit">
@@ -1826,6 +1828,13 @@ On the roll of a Misfire, D3 of the Skink Handlers are removed as casualties, an
       </costs>
     </selectionEntry>
     <selectionEntry id="203f-79ea-2634-9e7b" name="The Venerable Lord Kroak" hidden="true" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="158e-3835-51ce-76f7" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="8597-d6b2-298c-f70a" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
         <categoryLink id="fb6c-dec8-f497-b3bd" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
@@ -1844,6 +1853,13 @@ On the roll of a Misfire, D3 of the Skink Handlers are removed as casualties, an
       </costs>
     </selectionEntry>
     <selectionEntry id="4ae9-eb23-7967-bb2e" name="Kroq-Gar" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="158e-3835-51ce-76f7" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="b0d9-f483-4c4b-e61c" name="Kroq-Gar" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -1989,6 +2005,13 @@ May not be taken by a unit. Characters must take the Blessed Spawning of Itzl if
       </costs>
     </selectionEntry>
     <selectionEntry id="4bfe-9f7d-90ee-9ca7" name="Tehenhauin" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="158e-3835-51ce-76f7" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="6b90-0681-1878-02b6" name="Tehenhauin" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -2100,6 +2123,25 @@ When the unit/character charges, they get +1 Attack for that round of combat.</d
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
     </selectionEntry>
+  <selectionEntry id="0df6-0a84-f997-585a" name="Filters" hidden="false" collective="false" import="true" type="upgrade">
+    <categoryLinks>
+      <categoryLink id="27e9-bb51-f17c-9841" name="Filter" hidden="false" targetId="72c3-2d56-dda2-c35f" primary="false"/>
+    </categoryLinks>
+    <selectionEntries>
+      <selectionEntry id="fa77-0ee1-1d05-6ac5" name="Hide Special Characters" hidden="false" collective="false" import="true" type="upgrade">
+        <constraints>
+          <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1344-6da4-d44b-309b" type="max"/>
+        </constraints>
+        <categoryLinks>
+          <categoryLink id="0c96-33cf-9617-50f1" name="Filter" hidden="false" targetId="72c3-2d56-dda2-c35f" primary="false"/>
+          <categoryLink id="0815-6ea8-9841-7ffa" name="Hide Special Characters" hidden="false" targetId="158e-3835-51ce-76f7" primary="false"/>
+        </categoryLinks>
+        <costs>
+          <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        </costs>
+      </selectionEntry>
+    </selectionEntries>
+  </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="05d9-2225-3c8b-2d89" name="Stegadon" hidden="false" collective="false" import="true" targetId="1b30-03c5-aa1c-23d9" type="selectionEntry">

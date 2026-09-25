@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b151-7d1c-4a96-e0d0" name="Dark Elves" revision="28" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b151-7d1c-4a96-e0d0" name="Dark Elves" revision="29" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="7b32-9394-e778-467c" name="Poison" hidden="false"/>
     <categoryEntry id="16df-2ebd-e4f7-9984" name="Artifacts and Skills" hidden="false"/>
@@ -17,6 +17,8 @@
       </constraints>
     </categoryEntry>
     <categoryEntry id="da6c-67ff-1ce2-070c" name="Shield" hidden="true"/>
+  <categoryEntry id="a5e0-a588-5187-8bd8" name="Filter" hidden="false"/>
+  <categoryEntry id="e017-c03a-ff6e-20da" name="Hide Special Characters" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="4a98-663c-685c-ef2c" name="High Sorceress" hidden="false" collective="false" import="true" type="model">
@@ -2237,6 +2239,11 @@ You may choose the type of Veteran Hydra that joins your forces for this battle.
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5281-4012-b516-7873" type="equalTo"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e017-c03a-ff6e-20da" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <profiles>
         <profile id="64da-72af-c987-2405" name="Malekith" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
@@ -2435,6 +2442,11 @@ The Armour of Midnight is a suit of heavy armour. In addition Malekith has a 2+ 
         <infoLink id="51ea-e3cd-200d-013e" name="Magic Resistance" hidden="false" targetId="6e0c-4c98-a2c2-af0d" type="rule">
           <modifiers>
             <modifier type="append" field="name" value=" (1)"/>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e017-c03a-ff6e-20da" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -2508,6 +2520,11 @@ The Armour of Midnight is a suit of heavy armour. In addition Malekith has a 2+ 
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5281-4012-b516-7873" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e017-c03a-ff6e-20da" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -3752,6 +3769,13 @@ Chaos armour gives a 4+ armour save. It can be combined with other equipment as 
       </costs>
     </selectionEntry>
     <selectionEntry id="f6e1-08ba-df05-11ef" name="Rakarth" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e017-c03a-ff6e-20da" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="fb07-6cab-7c36-5ef0" name="Rakarth" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -3820,6 +3844,13 @@ In addition, a monster that is beaten in hand to hand combat by Rakarth is assum
       </costs>
     </selectionEntry>
     <selectionEntry id="3b05-89ba-27d1-bd9d" name="Shadowblade" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e017-c03a-ff6e-20da" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="f9f8-858e-88ec-9f02" name="Shadowblade" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -3949,6 +3980,25 @@ The model is considered to have Poisoned Attacks.</description>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="360.0"/>
       </costs>
     </selectionEntry>
+  <selectionEntry id="8dc5-fa4f-b53f-ced3" name="Filters" hidden="false" collective="false" import="true" type="upgrade">
+    <categoryLinks>
+      <categoryLink id="4f9f-7aa3-5c98-8734" name="Filter" hidden="false" targetId="a5e0-a588-5187-8bd8" primary="false"/>
+    </categoryLinks>
+    <selectionEntries>
+      <selectionEntry id="e515-255f-60f0-0dbd" name="Hide Special Characters" hidden="false" collective="false" import="true" type="upgrade">
+        <constraints>
+          <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd33-15fc-efb2-c4db" type="max"/>
+        </constraints>
+        <categoryLinks>
+          <categoryLink id="3f48-25b6-71af-e8a6" name="Filter" hidden="false" targetId="a5e0-a588-5187-8bd8" primary="false"/>
+          <categoryLink id="9869-102a-3c12-f937" name="Hide Special Characters" hidden="false" targetId="e017-c03a-ff6e-20da" primary="false"/>
+        </categoryLinks>
+        <costs>
+          <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        </costs>
+      </selectionEntry>
+    </selectionEntries>
+  </selectionEntry>
   </selectionEntries>
   <rules>
     <rule id="5b29-3b6a-b765-157b" name="Hate High Elves" hidden="false">

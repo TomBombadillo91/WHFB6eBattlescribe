@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="20" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c189-c206-4913-5be6" name="Dwarfs" revision="21" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="e0a8-8253-1a27-7620" name="Engineering Rune" hidden="false">
       <rules>
@@ -15,6 +15,8 @@
         <infoLink id="715a-ef6e-e00d-5c51" name="Unbreakable" hidden="false" targetId="f6c9-ac44-1d7c-ed6e" type="rule"/>
       </infoLinks>
     </categoryEntry>
+  <categoryEntry id="ce67-db12-c5df-c5a9" name="Filter" hidden="false"/>
+  <categoryEntry id="8eb6-f950-0728-92c5" name="Hide Special Characters" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="4e58-c8aa-d72a-3a98" name="Lord" hidden="false" collective="false" import="true" type="model">
@@ -2177,6 +2179,13 @@ The Organ Gun requires a full crew of three Dwarfs to work it properly. If one c
       </costs>
     </selectionEntry>
     <selectionEntry id="f3f2-7435-0cec-866f" name="Alrik Ranulfsson" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8eb6-f950-0728-92c5" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="1963-1b0b-052e-eb9a" name="Alrik Ranulfsson" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -2289,6 +2298,13 @@ In battle, this has the effect of allowing friendly units within 12&quot; of Kin
       </costs>
     </selectionEntry>
     <selectionEntry id="4106-9cfc-a1b9-8bcf" name="Ungrim Ironfist" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8eb6-f950-0728-92c5" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="96ea-fd81-83cc-8a5d" name="Ungrim Ironfist" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -2364,6 +2380,13 @@ In battle, this has the effect of allowing friendly units within 12&quot; of Kin
       </costs>
     </selectionEntry>
     <selectionEntry id="7894-2f69-159c-b8e1" name="Thorek Ironbrow" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8eb6-f950-0728-92c5" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="6f41-42a0-5c25-520b" name="Thorek Ironbrow" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -2446,6 +2469,25 @@ In addition, Klad Brakak bear the Rune of Fury which gives Thorek + 1 Attack</de
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="505.0"/>
       </costs>
     </selectionEntry>
+  <selectionEntry id="37ed-2c8a-11c4-4689" name="Filters" hidden="false" collective="false" import="true" type="upgrade">
+    <categoryLinks>
+      <categoryLink id="6bd6-30aa-fd07-5807" name="Filter" hidden="false" targetId="ce67-db12-c5df-c5a9" primary="false"/>
+    </categoryLinks>
+    <selectionEntries>
+      <selectionEntry id="a757-3032-76df-7a60" name="Hide Special Characters" hidden="false" collective="false" import="true" type="upgrade">
+        <constraints>
+          <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d8f-1ad3-9bfd-0ac2" type="max"/>
+        </constraints>
+        <categoryLinks>
+          <categoryLink id="7101-c565-e321-f6ec" name="Filter" hidden="false" targetId="ce67-db12-c5df-c5a9" primary="false"/>
+          <categoryLink id="1718-640d-8816-4428" name="Hide Special Characters" hidden="false" targetId="8eb6-f950-0728-92c5" primary="false"/>
+        </categoryLinks>
+        <costs>
+          <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        </costs>
+      </selectionEntry>
+    </selectionEntries>
+  </selectionEntry>
   </selectionEntries>
   <rules>
     <rule id="2451-a3a4-96b1-57b2" name="Rule of Pride" hidden="false">

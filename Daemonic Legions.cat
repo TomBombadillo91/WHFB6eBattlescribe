@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7010-abfa-dde5-6873" name="Daemonic Legions" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7010-abfa-dde5-6873" name="Daemonic Legions" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="37ff-905c-0f6b-9742" name="Mark of Chaos Undivided" hidden="false"/>
     <categoryEntry id="452e-f479-2264-b39d" name="Mark of Tzeentch" hidden="false"/>
@@ -15,9 +15,18 @@
     <categoryEntry id="6229-7c4f-5504-a48f" name="True Core Khorne" hidden="true"/>
     <categoryEntry id="7c34-727b-715f-0164" name="True Core Nurgle" hidden="true"/>
     <categoryEntry id="f11d-307d-9a47-6a18" name="True Core Tzeentch" hidden="true"/>
+  <categoryEntry id="8747-8684-9778-ef51" name="Filter" hidden="false"/>
+  <categoryEntry id="335b-e903-1c13-10c5" name="Hide Special Characters" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="39ef-70fa-7ef7-2ec6" name="Be&apos;lakor, The Dark Master" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="335b-e903-1c13-10c5" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="8562-0b49-8e48-9c95" name="Be&apos;lakor" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -1891,6 +1900,25 @@ Each enemy slain by this spell is turned into a Horror and added to the Horrors&
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
+  <selectionEntry id="afdb-530f-b044-77b6" name="Filters" hidden="false" collective="false" import="true" type="upgrade">
+    <categoryLinks>
+      <categoryLink id="7e91-ac47-3c2c-9956" name="Filter" hidden="false" targetId="8747-8684-9778-ef51" primary="false"/>
+    </categoryLinks>
+    <selectionEntries>
+      <selectionEntry id="716f-1351-fb94-959d" name="Hide Special Characters" hidden="false" collective="false" import="true" type="upgrade">
+        <constraints>
+          <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41b8-7782-eaa4-4bf8" type="max"/>
+        </constraints>
+        <categoryLinks>
+          <categoryLink id="4a29-2649-994f-8afb" name="Filter" hidden="false" targetId="8747-8684-9778-ef51" primary="false"/>
+          <categoryLink id="fac7-e2a5-cda0-11c3" name="Hide Special Characters" hidden="false" targetId="335b-e903-1c13-10c5" primary="false"/>
+        </categoryLinks>
+        <costs>
+          <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        </costs>
+      </selectionEntry>
+    </selectionEntries>
+  </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="472e-d7ad-1c07-2b9d" name="Chariot of Khorne" hidden="false" collective="false" import="true" targetId="22d9-59ab-c0a4-c9ac" type="selectionEntry">
