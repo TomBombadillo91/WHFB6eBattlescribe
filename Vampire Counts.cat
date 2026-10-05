@@ -60,7 +60,8 @@
         <categoryLink id="eaa8-c2f4-6498-cbe1" name="Vampire" hidden="false" targetId="7d18-159a-be52-079b" primary="false"/>
         <categoryLink id="a2ca-1373-5612-a90f" name="Wizard" hidden="false" targetId="eb46-88d4-eb41-2549" primary="false"/>
         <categoryLink id="2794-c14f-e07d-2031" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
-        <categoryLink id="10c3-db37-6da3-12fe" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+        <categoryLink id="591e-90bd-a481-629e" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
+        <categoryLink id="10c3-db37-6da3-12fe" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5a71-5323-8ec2-831c" name="Shield" hidden="true" collective="false" import="true" type="upgrade">
@@ -248,6 +249,7 @@
         <categoryLink id="dcdc-7ab8-7303-a026" name="Vampire" hidden="false" targetId="7d18-159a-be52-079b" primary="false"/>
         <categoryLink id="f1e7-2223-f989-567f" name="Wizard" hidden="false" targetId="eb46-88d4-eb41-2549" primary="false"/>
         <categoryLink id="3edd-4414-7d90-c901" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
+        <categoryLink id="b758-0f78-9da3-9756" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e229-3f16-e38e-ba6d" name="Shield" hidden="true" collective="false" import="true" type="upgrade">
@@ -397,6 +399,7 @@
       <categoryLinks>
         <categoryLink id="d267-f7db-6709-6e00" name="Wizard" hidden="false" targetId="eb46-88d4-eb41-2549" primary="false"/>
         <categoryLink id="d08a-cb53-c650-dc71" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
+        <categoryLink id="57fb-9af4-2c99-4e5c" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="c7bb-43ef-dfc3-c844" name="Lore of Magic" hidden="false" collective="false" import="true" targetId="7d9b-938b-057f-c0b8" type="selectionEntryGroup"/>
@@ -463,6 +466,7 @@
       <categoryLinks>
         <categoryLink id="7c14-4cbe-a4bc-ea12" name="Vampire" hidden="false" targetId="7d18-159a-be52-079b" primary="false"/>
         <categoryLink id="3a39-8f3f-0a91-4328" name="New CategoryLink" hidden="false" targetId="5694-61f3-6913-6154" primary="true"/>
+        <categoryLink id="e1e1-0c37-96b6-35f1" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e8af-1ab4-998e-058f" name="Shield" hidden="true" collective="false" import="true" type="upgrade">
@@ -657,6 +661,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0755-51ce-d196-f148" name="New CategoryLink" hidden="false" targetId="5694-61f3-6913-6154" primary="true"/>
+        <categoryLink id="339a-2e13-6e87-f6a0" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4784-18c5-db85-1c9f" name="Shield" hidden="false" collective="false" import="true" type="upgrade">
@@ -781,6 +786,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="707c-7486-3b7d-57b0" name="New CategoryLink" hidden="false" targetId="5694-61f3-6913-6154" primary="true"/>
+        <categoryLink id="86e4-614c-b742-8a6c" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6eb3-d9af-8fc3-7c0c" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
@@ -826,6 +832,7 @@
       <categoryLinks>
         <categoryLink id="b563-5704-68a5-7960" name="New CategoryLink" hidden="false" targetId="5694-61f3-6913-6154" primary="true"/>
         <categoryLink id="8f16-81ff-ce3a-5885" name="Wizard" hidden="false" targetId="eb46-88d4-eb41-2549" primary="false"/>
+        <categoryLink id="73b5-09a8-585a-e130" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="f6dd-4a9c-749e-22f6" name="Magic Items" hidden="false" collective="false" import="true" targetId="9142-e355-ea83-9a49" type="selectionEntryGroup"/>
@@ -1672,10 +1679,10 @@ Models with this special rule resolve their attacks at Strength 4 during the tur
         <infoLink id="5eec-66ed-b4fd-a26f" name="Undying Love" hidden="false" targetId="f2c1-cbde-3a2e-92cd" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="02f9-144f-8331-f392" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="02f9-144f-8331-f392" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="5804-c4eb-7ab4-9540" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="7436-1691-d3e4-7532" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
-        <categoryLink id="e3a0-4c8a-257e-a268" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+        <categoryLink id="7436-1691-d3e4-7532" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
+        <categoryLink id="e3a0-4c8a-257e-a268" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
         <categoryLink id="a4de-7636-bdfb-8764" name="Two Additional Hero Choices" hidden="false" targetId="9dc5-bbce-5738-84e8" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -1921,10 +1928,11 @@ At the beginning of the Close Combat phase select one model in base contact with
         <infoLink id="9113-ad9d-19ed-3d0b" name="Undead (Vampire Counts)" hidden="false" targetId="0606-f560-7f2e-30e9" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="bb71-b0c1-990e-db28" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="bb71-b0c1-990e-db28" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="1a0f-e8e2-e8f6-2358" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="a12e-17e5-b0d0-90bf" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
-        <categoryLink id="a56d-4d1a-73d6-caea" name="Two Additional Hero Choices" hidden="false" targetId="9dc5-bbce-5738-84e8" primary="false"/>
+        <categoryLink id="a12e-17e5-b0d0-90bf" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
+        <categoryLink id="a56d-4d1a-73d6-caea" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
+        <categoryLink id="da41-a039-f0bf-b3fe" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="42fa-4441-67d3-1e85" name="Cloak of Darkness" hidden="false" collective="false" import="true" type="upgrade">
@@ -2027,10 +2035,10 @@ Once per game, the Vampire can use this power at the start of one of his turns t
         <infoLink id="9571-3bf3-5acd-e0ad" name="Undead (Vampire Counts)" hidden="false" targetId="0606-f560-7f2e-30e9" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="968f-e10e-c72b-d02b" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="968f-e10e-c72b-d02b" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="e3bf-bad8-b613-7299" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="fe36-b5da-2bf0-37f0" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
-        <categoryLink id="90d4-879a-b917-df10" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+        <categoryLink id="fe36-b5da-2bf0-37f0" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
+        <categoryLink id="90d4-879a-b917-df10" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
         <categoryLink id="85f8-3c3a-cd34-cc9d" name="Two Additional Hero Choices" hidden="false" targetId="9dc5-bbce-5738-84e8" primary="false"/>
       </categoryLinks>
       <selectionEntries>

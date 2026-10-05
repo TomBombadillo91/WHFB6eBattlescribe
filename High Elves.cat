@@ -2062,10 +2062,10 @@ In battle Malhandir counts as a monster. Malhandir wears barding which gives him
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink id="83c3-8493-9007-990e" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="83c3-8493-9007-990e" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="5748-4948-90ab-0498" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="2d28-0597-b290-1441" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
-        <categoryLink id="fb68-99d8-2ca1-e361" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+        <categoryLink id="2d28-0597-b290-1441" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
+        <categoryLink id="fb68-99d8-2ca1-e361" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="94e4-3f62-6c8e-24ef" name="Sunfang" hidden="false" collective="false" import="true" type="upgrade">
@@ -2182,10 +2182,10 @@ Alarielle always strikes first in close combat. If an enemy also has this abilit
         <infoLink id="2635-11f5-2c30-3b52" name="High Elf Mages" hidden="false" targetId="a50a-7b68-d0f2-8f95" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c310-8469-6df9-670b" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="c310-8469-6df9-670b" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="fe1b-9686-278f-5832" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="2a84-b529-ad65-1873" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
-        <categoryLink id="e6fb-4d45-548a-f5e0" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+        <categoryLink id="2a84-b529-ad65-1873" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
+        <categoryLink id="e6fb-4d45-548a-f5e0" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="057c-c062-0672-841b" name="Shieldstone of Isha" hidden="false" collective="false" import="true" type="upgrade">
@@ -2308,9 +2308,9 @@ Unleashing his speed and strength in a flurry of blistering attacks, Eltharion r
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink id="618c-057e-e239-607f" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="618c-057e-e239-607f" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="a9c3-1969-be7f-9a28" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="d2ca-0223-d550-93a2" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="d2ca-0223-d550-93a2" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="255.0"/>
@@ -2374,10 +2374,11 @@ Minaithnir is fanatically loyal to his  master. If lmrik is slain, Minaithnir wi
         <infoLink id="cd8b-de50-c38c-83ed" name="Scaly Skin" hidden="false" targetId="7eca-56b9-d1c7-c7c8" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="1bc1-d5c5-a250-608d" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="1bc1-d5c5-a250-608d" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="ee62-dcd7-d0ae-3702" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="1de3-1d35-1051-1ef1" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
-        <categoryLink id="8f9a-2d89-8069-0999" name="Two Additional Hero Choices" hidden="false" targetId="9dc5-bbce-5738-84e8" primary="false"/>
+        <categoryLink id="1de3-1d35-1051-1ef1" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
+        <categoryLink id="8f9a-2d89-8069-0999" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
+        <categoryLink id="1236-fc42-cd2f-2ea3" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1310-4a69-9bf0-de55" name="Star Lance" hidden="false" collective="false" import="true" type="upgrade">
@@ -2504,10 +2505,10 @@ As soon as Teclis is reduced to 1 Wound he gets a 2+ Ward save for the rest of t
         <infoLink id="f1c9-3863-266b-5009" name="High Elf Mages" hidden="false" targetId="a50a-7b68-d0f2-8f95" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="32e0-38a9-841f-f69e" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="32e0-38a9-841f-f69e" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="6819-9171-58dd-aa9b" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="c8a4-002b-05a9-8090" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
-        <categoryLink id="1a09-1ecd-8813-1d65" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+        <categoryLink id="c8a4-002b-05a9-8090" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
+        <categoryLink id="1a09-1ecd-8813-1d65" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="87bf-8bd6-57db-15ba" name="Sword of Teclis" hidden="false" collective="false" import="true" type="upgrade">
@@ -2684,10 +2685,10 @@ Once per battle, at the beginning of any High Elf Shooting phase or of any Close
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink id="1bf1-310d-1f55-d6a5" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="1bf1-310d-1f55-d6a5" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="34a5-a0ed-0691-318e" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="dbba-395d-ae3b-9ba0" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
-        <categoryLink id="ac02-82e9-a6e4-4743" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+        <categoryLink id="dbba-395d-ae3b-9ba0" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
+        <categoryLink id="ac02-82e9-a6e4-4743" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="86a1-b8b6-6bfd-7dbf" name="The Fangsword of Athel Tamarha" hidden="false" collective="false" import="true" type="upgrade">

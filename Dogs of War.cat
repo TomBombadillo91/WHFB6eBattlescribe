@@ -5092,10 +5092,10 @@ This spell can be cast on any enemy unit on the table. The unit must immediately
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink id="ca1c-123a-6a69-eeaf" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="ca1c-123a-6a69-eeaf" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="ebb7-2dbd-1686-9367" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="e0a8-5099-3ee9-e3c0" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
-        <categoryLink id="257f-f3bb-35c9-c285" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+        <categoryLink id="e0a8-5099-3ee9-e3c0" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
+        <categoryLink id="257f-f3bb-35c9-c285" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e2f1-b07c-98f0-7605" name="Mace of Might" hidden="false" collective="false" import="true" type="upgrade">
@@ -5197,10 +5197,10 @@ If Borgio rolls a 6 to hit with this weapon, that hit will be at Strength 10.</d
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink id="7cf8-2282-7efe-895b" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="7cf8-2282-7efe-895b" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="6d59-d321-be7c-59ab" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="1b5d-d913-3269-d205" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
-        <categoryLink id="e2eb-5627-c761-fa8e" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+        <categoryLink id="1b5d-d913-3269-d205" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
+        <categoryLink id="e2eb-5627-c761-fa8e" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="42d9-12b1-0fb8-2553" name="The Red Scimitar" hidden="false" collective="false" import="true" type="upgrade">
@@ -5298,10 +5298,10 @@ Mighty Athlete Chart
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink id="4e1e-f94f-3756-a8aa" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="4e1e-f94f-3756-a8aa" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="aaf4-53be-77c0-beb3" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="0e31-18ec-b3df-0615" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
-        <categoryLink id="e462-e53f-b6a4-fc21" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+        <categoryLink id="0e31-18ec-b3df-0615" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
+        <categoryLink id="e462-e53f-b6a4-fc21" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d174-328e-46e7-3b6b" name="The Sword of Lucan" hidden="false" collective="false" import="true" type="upgrade">
@@ -5401,10 +5401,10 @@ Lucrezzia hires an &apos;agent&apos; prior to every battle. This agent will snea
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink id="2994-1740-ff4a-250e" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="2994-1740-ff4a-250e" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="124b-7be5-8174-a123" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="24fb-0622-3f70-f4a2" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
-        <categoryLink id="d379-605d-263b-8883" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+        <categoryLink id="24fb-0622-3f70-f4a2" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
+        <categoryLink id="d379-605d-263b-8883" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="31a2-4143-ac9b-b5dc" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
@@ -5516,9 +5516,9 @@ When setting up, deploy Mydas and his Bodyguards at the same time as other chara
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink id="18e3-c534-626a-8b31" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="18e3-c534-626a-8b31" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="87d1-deee-3e17-9ec1" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="1aff-bc89-040c-9d87" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
+        <categoryLink id="1aff-bc89-040c-9d87" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="true"/>
         <categoryLink id="a015-6ee6-8841-9e3a" name="Special" hidden="false" targetId="4a3f-84d1-0495-6ecb" primary="false"/>
       </categoryLinks>
       <selectionEntries>

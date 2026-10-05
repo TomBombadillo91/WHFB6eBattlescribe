@@ -75,13 +75,13 @@ See Storm of Chaos page 26. for spell details.</description>
         <infoLink id="3463-c675-7b18-0d77" name="Large Target" hidden="false" targetId="01c3-c8c6-431f-1c2b" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="9a52-4c85-f9a7-38d4" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
         <categoryLink id="a79a-baf3-79c7-90f1" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="7350-00ce-bc44-c37f" name="Wizard" hidden="false" targetId="eb46-88d4-eb41-2549" primary="false"/>
         <categoryLink id="09bf-55e5-2714-0f8e" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
         <categoryLink id="855e-74be-0a24-5d62" name="Mark of Chaos Undivided" hidden="false" targetId="37ff-905c-0f6b-9742" primary="false"/>
         <categoryLink id="82e1-74c6-c2c4-389a" name="Undivided General" hidden="false" targetId="6b81-04bb-b606-ee37" primary="false"/>
         <categoryLink id="723d-9350-3913-cb71" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
+        <categoryLink id="9a52-4c85-f9a7-38d4" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="5138-5663-57ce-95bb" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
@@ -173,9 +173,9 @@ See Storm of Chaos page 26. for spell details.</description>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="83fa-285d-16b0-d6d1" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
         <categoryLink id="69d3-d62f-5809-c960" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="e36c-c4e3-709c-6cd6" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
+        <categoryLink id="83fa-285d-16b0-d6d1" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="9d2d-d5c2-8425-b639" name="Wizard Level" hidden="false" collective="false" import="true">
@@ -272,11 +272,11 @@ See Storm of Chaos page 26. for spell details.</description>
         <infoLink id="d33c-a195-7039-43b4" name="Stream of Corruption" hidden="false" targetId="420b-1188-8e15-554d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e024-f57c-5b0a-5235" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
         <categoryLink id="8b22-8d3d-fb5d-ebec" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="1d41-4188-04ab-b246" name="Mark of Nurgle" hidden="false" targetId="58a6-a2a7-c285-97aa" primary="false"/>
         <categoryLink id="ba46-118c-5995-4894" name="Wizard" hidden="false" targetId="eb46-88d4-eb41-2549" primary="false"/>
         <categoryLink id="9c5e-53d5-a424-9baa" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
+        <categoryLink id="e024-f57c-5b0a-5235" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="12c3-aa40-3042-9b94" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry"/>
@@ -320,10 +320,10 @@ See Storm of Chaos page 26. for spell details.</description>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="19c4-3ab2-9bad-2c52" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
         <categoryLink id="a725-1ff4-0dc0-781c" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="a8ad-8c3e-0efb-691c" name="Mark of Khorne" hidden="false" targetId="a118-92a9-7582-c1ef" primary="false"/>
         <categoryLink id="ed66-63ab-f775-bf94" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
+        <categoryLink id="19c4-3ab2-9bad-2c52" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="9219-4f92-1ca3-6ff7" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry"/>
@@ -367,12 +367,12 @@ See Storm of Chaos page 26. for spell details.</description>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="e639-3a4b-3da6-811a" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
         <categoryLink id="03ed-2a54-a520-555b" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="38a5-dc00-16f3-f987" name="Mark of Tzeentch" hidden="false" targetId="452e-f479-2264-b39d" primary="false"/>
         <categoryLink id="64ce-5ac8-57c9-761d" name="Tzeentch General" hidden="false" targetId="81dd-d757-ee31-a317" primary="false"/>
         <categoryLink id="b751-27df-87ed-7d48" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="8b80-fbe0-7082-d4bf" name="Wizard" hidden="false" targetId="eb46-88d4-eb41-2549" primary="false"/>
+        <categoryLink id="e639-3a4b-3da6-811a" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="683a-bb20-5e0c-06ae" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry"/>
@@ -419,11 +419,11 @@ See Storm of Chaos page 26. for spell details.</description>
         <infoLink id="083a-a2ab-a838-8244" name="Aura of Slaanesh" hidden="false" targetId="fbc6-1ab1-9f62-32af" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="472e-ca72-6497-8a49" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
         <categoryLink id="40b3-00fb-bc85-961a" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="7016-5d18-3a2a-e605" name="Mark of Slaanesh" hidden="false" targetId="8d11-f141-8867-8848" primary="false"/>
         <categoryLink id="e30e-664c-4bbc-c660" name="Wizard" hidden="false" targetId="eb46-88d4-eb41-2549" primary="false"/>
         <categoryLink id="0cf2-447c-50e7-4095" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
+        <categoryLink id="472e-ca72-6497-8a49" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="82e6-192b-0a17-502a" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry"/>

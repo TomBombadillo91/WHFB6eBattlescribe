@@ -1399,7 +1399,7 @@
         <categoryLink id="347f-acb5-e076-6500" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="dcaa-b323-4901-0cda" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="01d8-708f-041d-ffdd" name="Daemon" hidden="false" targetId="c2a4-c683-aba9-9f52" primary="false"/>
-        <categoryLink id="132d-9eb4-84eb-84d2" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+        <categoryLink id="132d-9eb4-84eb-84d2" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8aa7-06eb-d896-23c5" name="Wizard Level" hidden="false" collective="false" import="true" type="upgrade">
@@ -1509,9 +1509,9 @@
         <categoryLink id="1763-83d6-c8c6-40f2" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="0e63-87af-c9f1-a4a3" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="2114-9e5b-a66e-9ce9" name="Daemon" hidden="false" targetId="c2a4-c683-aba9-9f52" primary="false"/>
-        <categoryLink id="d657-b143-4c16-12d8" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
-        <categoryLink id="22e8-c8ca-9e24-8d76" name="Rare" hidden="false" targetId="a3af-995e-0cf1-7091" primary="false"/>
         <categoryLink id="ddfb-8ff7-6036-00aa" name="Mark of Khorne (Character)" hidden="false" targetId="b901-28a6-ed61-a2be" primary="false"/>
+        <categoryLink id="d657-b143-4c16-12d8" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
+        <categoryLink id="22e8-c8ca-9e24-8d76" name="Rare" hidden="false" targetId="a3af-995e-0cf1-7091" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b140-9c06-ae10-b3dd" name="Mark of Khorne" hidden="false" collective="false" import="true" type="upgrade">
@@ -1618,10 +1618,10 @@
         <categoryLink id="fd06-6c0b-5050-17ad" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="8ac2-484a-4d98-af80" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="c4cd-b6ac-3353-cc7a" name="Daemon" hidden="false" targetId="c2a4-c683-aba9-9f52" primary="false"/>
-        <categoryLink id="2646-8709-6896-8907" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
-        <categoryLink id="667d-486b-f2ab-2be6" name="Rare" hidden="false" targetId="a3af-995e-0cf1-7091" primary="false"/>
         <categoryLink id="96b3-18fe-c5b8-fd17" name="Wizard" hidden="false" targetId="eb46-88d4-eb41-2549" primary="false"/>
         <categoryLink id="76ce-a9e9-302e-c10e" name="Mark of Nurgle (Character)" hidden="false" targetId="8c83-a348-a664-eebe" primary="false"/>
+        <categoryLink id="2646-8709-6896-8907" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
+        <categoryLink id="667d-486b-f2ab-2be6" name="Rare" hidden="false" targetId="a3af-995e-0cf1-7091" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="dc56-28a9-f54d-688f" name="Mark of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
@@ -1719,9 +1719,9 @@
         <categoryLink id="0861-872f-89cb-94c9" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="dd97-f7bf-2a78-f042" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="6c20-5d42-4442-7cb5" name="Daemon" hidden="false" targetId="c2a4-c683-aba9-9f52" primary="false"/>
-        <categoryLink id="8b59-e0c8-fd06-9fff" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
-        <categoryLink id="a6b6-47f1-c125-0493" name="Rare" hidden="false" targetId="a3af-995e-0cf1-7091" primary="false"/>
         <categoryLink id="65f2-861c-8f6f-412d" name="Mark of Tzeentch (Character)" hidden="false" targetId="19d9-f7ab-4148-310e" primary="false"/>
+        <categoryLink id="8b59-e0c8-fd06-9fff" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
+        <categoryLink id="a6b6-47f1-c125-0493" name="Rare" hidden="false" targetId="a3af-995e-0cf1-7091" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c3b8-266d-7161-fb66" name="Mark of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
@@ -1827,10 +1827,10 @@
         <categoryLink id="a802-5d42-4ba2-f8cc" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="f55d-f0f2-52a9-9e6a" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="5a41-758d-3573-0c2b" name="Daemon" hidden="false" targetId="c2a4-c683-aba9-9f52" primary="false"/>
-        <categoryLink id="5d3c-1438-444b-df34" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
-        <categoryLink id="ff53-04f4-fb33-6216" name="Rare" hidden="false" targetId="a3af-995e-0cf1-7091" primary="false"/>
         <categoryLink id="06bc-d3c7-ea12-9565" name="Wizard" hidden="false" targetId="eb46-88d4-eb41-2549" primary="false"/>
         <categoryLink id="a3e0-1cad-819f-57c8" name="Mark of Slaanesh (Character)" hidden="false" targetId="58f1-832c-9935-797b" primary="false"/>
+        <categoryLink id="5d3c-1438-444b-df34" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
+        <categoryLink id="ff53-04f4-fb33-6216" name="Rare" hidden="false" targetId="a3af-995e-0cf1-7091" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6c38-ecbd-0965-6773" name="Mark of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
@@ -5680,6 +5680,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
         <categoryLink id="2f7c-6533-9fc6-3c58" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
         <categoryLink id="3194-bb65-05f8-2f55" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
         <categoryLink id="5b32-a2b7-3247-4abe" name="Grants Extra Rare Choice" hidden="false" targetId="9236-407c-ba73-9b10" primary="false"/>
+        <categoryLink id="f822-0b9b-6082-fa59" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="03ef-3678-73b5-e248" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
@@ -5747,6 +5748,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
         <categoryLink id="e4b7-6360-80d7-dbaa" name="Beast" hidden="false" targetId="e96f-4863-8bc0-0266" primary="false"/>
         <categoryLink id="85d5-1676-b30e-8c35" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
         <categoryLink id="5968-9787-ed21-89b6" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="9a47-3e89-05b7-e057" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="051b-5a71-2d64-5881" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
@@ -5819,7 +5821,8 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
         <categoryLink id="c6ca-8b23-1172-384f" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
         <categoryLink id="340c-0531-6ac8-a617" name="Mortal General" hidden="false" targetId="aac0-5a64-060e-85bb" primary="false"/>
         <categoryLink id="bf7a-5f89-877b-b464" name="Nurgle General" hidden="false" targetId="95e9-cc71-bb44-5b45" primary="false"/>
-        <categoryLink id="43c0-0c9d-fe7c-b175" name="Two Additional Hero Choices" hidden="false" targetId="9dc5-bbce-5738-84e8" primary="false"/>
+        <categoryLink id="43c0-0c9d-fe7c-b175" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
+        <categoryLink id="e4f6-5c74-668c-ee58" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4ebd-d30e-ece6-c358" name="The Crown of Domination" hidden="false" collective="false" import="true" type="upgrade">
@@ -5918,11 +5921,12 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="4d56-8ffb-04b0-9b22" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
-        <categoryLink id="d519-e62a-20e1-3711" name="Additional Rare Choice" hidden="false" targetId="1c0b-2b0f-459f-d6f9" primary="false"/>
         <categoryLink id="57c2-7db0-4a8d-04b2" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="5e9f-4646-1865-3c39" name="Wizard" hidden="false" targetId="eb46-88d4-eb41-2549" primary="false"/>
         <categoryLink id="8f33-a695-bf2a-fd50" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="840b-79d7-fd19-288b" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
+        <categoryLink id="4d56-8ffb-04b0-9b22" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
+        <categoryLink id="d519-e62a-20e1-3711" name="Rare" hidden="false" targetId="a3af-995e-0cf1-7091" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="dbf1-6a70-8001-1a1c" name="Tzeentch&apos;s Will" hidden="false" collective="false" import="true" targetId="a5d3-fe46-0650-d7f8" type="selectionEntry">
@@ -6005,9 +6009,9 @@ Crom uses his shield expertly, forcing his opponent back and blocking any attemp
         <infoLink id="ccbd-ed71-b793-28d7" name="Chaos Armour" hidden="false" targetId="8119-2e59-eef1-a2c0" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="543f-c92a-8f4a-7068" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="543f-c92a-8f4a-7068" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="b365-c9db-6c61-8332" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="1136-4ae8-7d3d-323e" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="1136-4ae8-7d3d-323e" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2a31-45f9-0e65-c718" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">

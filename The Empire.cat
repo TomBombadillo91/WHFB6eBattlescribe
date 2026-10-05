@@ -4967,6 +4967,7 @@ Centre the large 5&quot; template on the Warrior Priest. All Undead and Daemons 
         <categoryLink id="43aa-e523-bf6f-0616" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
         <categoryLink id="458c-bd1c-9a08-4f53" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="8e55-480b-ea83-567f" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="e052-207e-5fad-0e49" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6cd4-67a7-83c7-5769" name="Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
@@ -5067,6 +5068,7 @@ Centre the large 5&quot; template on the Warrior Priest. All Undead and Daemons 
         <categoryLink id="a0fd-22ea-dfbf-18ce" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="fae8-fb7d-1cd3-c4a9" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
         <categoryLink id="df10-e557-8f39-0def" name="Wizard" hidden="false" targetId="eb46-88d4-eb41-2549" primary="false"/>
+        <categoryLink id="1fea-daea-03e0-6fc9" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="cefe-09bf-bd1a-f5b1" name="The Gleaming Robe" hidden="false" collective="false" import="true" type="upgrade">
@@ -5594,8 +5596,8 @@ The Engineers can fight normally against enemies in base contact with the Tank&a
       <categoryLinks>
         <categoryLink id="22c6-54cb-86e1-e9b3" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="2073-7780-c923-8e23" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="3e79-f0ce-99f8-4ebe" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="85c7-ecf9-6f3d-eaf2" name="Additional Lord Choice" hidden="false" targetId="0daf-8d53-eadf-d10f" primary="false"/>
-        <categoryLink id="1e9c-6716-9741-e2e8" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="acf4-c665-c423-ba9b" name="Armour of the Heldenhammer" hidden="false" collective="false" import="true" type="upgrade">
@@ -5708,6 +5710,7 @@ All friendly units within 18&quot; of the Emperor can always use his Leadership 
         <categoryLink id="bf82-8ea2-d89e-0872" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
         <categoryLink id="1788-ca7b-62aa-531a" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="e67b-5aa6-fdb9-e91f" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="b6d3-2c8f-93a7-5552" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="fb16-13ab-6822-51cb" name="Full Plate Armour" hidden="false" collective="false" import="true" type="upgrade">
@@ -5885,9 +5888,9 @@ Note: During the events known as the Storm of Chaos, Ghal Maraz is wielded by th
         <infoLink id="a87a-f63c-6688-1785" name="Iron Resolve" hidden="false" targetId="a611-96f8-d83e-1380" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="4905-8d42-5767-9c24" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="4905-8d42-5767-9c24" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="59fc-fda3-431e-f5e6" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="14da-9e5b-1cb7-d83e" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
+        <categoryLink id="14da-9e5b-1cb7-d83e" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="true"/>
         <categoryLink id="e0b2-c9cf-6b8a-c1b2" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
       </categoryLinks>
       <costs>
@@ -5947,8 +5950,10 @@ Note: During the events known as the Storm of Chaos, Ghal Maraz is wielded by th
         <infoLink id="5378-b2e4-f7e1-7f50" name="Righteous Fury" hidden="false" targetId="c093-874e-7414-4a8a" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="79e1-964d-86b8-3da9" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="79e1-964d-86b8-3da9" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="c2c1-80ad-7325-9a5b" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="3ddb-9124-595e-e677" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
+        <categoryLink id="cd00-5716-c9d4-f590" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c5c2-99e6-5a8a-0095" name="The Jade Griffon" hidden="false" collective="false" import="true" type="upgrade">
@@ -6046,9 +6051,9 @@ Remains in play until dispelled or the Priest attempts to use another Prayer. Th
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink id="522a-9f4f-2984-feeb" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="522a-9f4f-2984-feeb" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="a0b7-aedc-2cfb-a155" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="5620-d6b5-8659-6089" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="5620-d6b5-8659-6089" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4a2f-3a93-d7fc-2276" name="Hammer-axe of Skoll" hidden="false" collective="false" import="true" type="upgrade">
@@ -6152,9 +6157,9 @@ One use only. Before using a Prayer, a Priest of Ulric may declare he is using h
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink id="72dc-b190-14de-30f1" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="72dc-b190-14de-30f1" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="7aa8-423a-dbf4-b6e4" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="3b6c-4b6b-306b-9dda" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="3b6c-4b6b-306b-9dda" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ee00-7ea1-598d-304d" name="Talisman of Ulric" hidden="false" collective="false" import="true" type="upgrade">
@@ -6247,10 +6252,11 @@ One use only. Before using a Prayer, a Priest of Ulric may declare he is using h
         <infoLink id="bebd-3c5b-143a-fa7b" name="Iron Resolve" hidden="false" targetId="a611-96f8-d83e-1380" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="9c53-2456-f6f3-95ce" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="9c53-2456-f6f3-95ce" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="9e4d-10e5-22b2-c68e" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="9d90-d90d-392d-841b" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
-        <categoryLink id="188b-b1f0-43df-1e4a" name="Two Additional Hero Choices" hidden="false" targetId="9dc5-bbce-5738-84e8" primary="false"/>
+        <categoryLink id="9d90-d90d-392d-841b" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
+        <categoryLink id="188b-b1f0-43df-1e4a" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
+        <categoryLink id="527f-1157-2e2d-37ba" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="a439-134a-23a0-9b64" name="Ghal Maraz" hidden="false" collective="false" import="true" type="upgrade">

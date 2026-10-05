@@ -1832,14 +1832,13 @@ On the roll of a Misfire, D3 of the Skink Handlers are removed as casualties, an
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="8597-d6b2-298c-f70a" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
         <categoryLink id="fb6c-dec8-f497-b3bd" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
-        <categoryLink id="691d-24f8-6419-e630" name="New CategoryLink" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
         <categoryLink id="c551-d4a8-2ea8-d09d" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
-        <categoryLink id="3b5d-0aeb-63c6-94e6" name="Rare" hidden="false" targetId="a3af-995e-0cf1-7091" primary="false"/>
         <categoryLink id="28e2-a871-d0c8-e0a4" name="Slann Mage-Priest" hidden="false" targetId="7dc8-d1b2-a359-4a3e" primary="false"/>
         <categoryLink id="2d60-9a20-9de1-ab96" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
         <categoryLink id="426a-027d-e0ca-8922" name="Wizard" hidden="false" targetId="eb46-88d4-eb41-2549" primary="false"/>
+        <categoryLink id="8597-d6b2-298c-f70a" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
+        <categoryLink id="691d-24f8-6419-e630" name="Rare" hidden="false" targetId="a3af-995e-0cf1-7091" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="40a7-3ce2-0ee7-9e2b" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry"/>
@@ -1909,10 +1908,10 @@ If Kroq-Gar is wounded in close combat and does not pass his Ward save, then who
         <infoLink id="8901-9e2e-39f7-e54b" name="Ultimate Predator" hidden="false" targetId="494a-bd3c-8dd4-9edb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="b577-70a8-4cfc-ec19" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="b577-70a8-4cfc-ec19" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="efb6-eca3-a58c-738a" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="a3bd-8417-d4d5-b0ab" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
-        <categoryLink id="314f-34e2-3cbb-96b2" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+        <categoryLink id="a3bd-8417-d4d5-b0ab" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
+        <categoryLink id="314f-34e2-3cbb-96b2" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5d00-6735-d197-4dcd" name="&apos;Revered Spear of Tlanxla &apos;" hidden="false" collective="false" import="true" type="upgrade">

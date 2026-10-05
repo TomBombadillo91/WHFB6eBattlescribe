@@ -66,9 +66,9 @@
       <categoryLinks>
         <categoryLink id="5762-95d0-6646-5f6b" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="798b-bca4-1fc1-e142" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
-        <categoryLink id="9bb0-5071-cbff-2cc9" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
         <categoryLink id="82d2-340d-b57b-ece5" name="Black Orc" hidden="false" targetId="91f1-50bd-0c9c-e22c" primary="false"/>
         <categoryLink id="6fb6-62e7-0f13-56a5" name="Orc" hidden="false" targetId="5b0c-07f2-6b72-7aa8" primary="false"/>
+        <categoryLink id="9bb0-5071-cbff-2cc9" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="0340-287a-8758-e41c" name="Equipment" hidden="false" collective="false" import="true">
@@ -4979,6 +4979,7 @@ score a hit regardless of how slimy he is.</description>
         <categoryLink id="a3cc-9585-4023-623f" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="0bf0-0915-89bf-5e9c" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
         <categoryLink id="182d-0351-f496-8c97" name="Special" hidden="false" targetId="4a3f-84d1-0495-6ecb" primary="false"/>
+        <categoryLink id="21a5-a352-8433-af66" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="76e3-8a7d-7d36-7fac" name="Gitsnik" hidden="false" collective="false" import="true" type="upgrade">
@@ -5235,6 +5236,7 @@ An enemy mount or monster may only make half its normal number of Attacks (round
         <categoryLink id="efb5-f19c-e5af-50e0" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
         <categoryLink id="ef43-5e32-b7a9-70c8" name="Wizard" hidden="false" targetId="eb46-88d4-eb41-2549" primary="false"/>
         <categoryLink id="135f-8c63-a117-7f0a" name="Savage Orc" hidden="false" targetId="c22d-3a76-3d92-7c87" primary="false"/>
+        <categoryLink id="2eb5-f4a3-827c-1e65" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="0ecc-77ac-6630-8c1e" name="Bonewood Staff" hidden="false" collective="false" import="true" type="upgrade">
@@ -6137,10 +6139,11 @@ Treat the Prodder&apos;s blasts as bound spells with a power level of 3. Each bl
         <infoLink id="8c01-1886-ffbd-1b85" name="Quell Animosity" hidden="false" targetId="54d8-2a0c-e609-a983" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="eb7e-0f82-6a36-c825" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="eb7e-0f82-6a36-c825" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="e481-980b-f5c3-66fe" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="58a4-83c9-1e9a-e597" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
-        <categoryLink id="fb2c-c399-93f4-72ba" name="Two Additional Hero Choices" hidden="false" targetId="9dc5-bbce-5738-84e8" primary="false"/>
+        <categoryLink id="58a4-83c9-1e9a-e597" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
+        <categoryLink id="fb2c-c399-93f4-72ba" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
+        <categoryLink id="6b86-1e35-234f-3d2b" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1d00-f328-412a-66c8" name="Slagga&apos;s Sword of Slashin&apos;" hidden="false" collective="false" import="true" type="upgrade">
@@ -6237,9 +6240,9 @@ Treat Azhag as a Level 2 Orc Shaman for purposes of casting and dispelling spell
         <infoLink id="f1a3-2cb6-c301-b923" name="Quell Animosity" hidden="false" targetId="54d8-2a0c-e609-a983" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="b0e2-9fe9-11ea-ef8d" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="b0e2-9fe9-11ea-ef8d" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="74b8-354b-5878-f4fc" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="342c-9e3e-3818-bc37" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
+        <categoryLink id="342c-9e3e-3818-bc37" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="true"/>
         <categoryLink id="3937-bcd3-1e10-78a1" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
       </categoryLinks>
       <selectionEntries>
