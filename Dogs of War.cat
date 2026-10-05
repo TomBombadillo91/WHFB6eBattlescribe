@@ -3557,6 +3557,9 @@ In addition, if rolling on the Monster Reaction chart for Deathfang add +1 to th
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="b6d2-0cc3-b552-4b38" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="460.0"/>
       </costs>
@@ -5133,9 +5136,6 @@ If Borgio rolls a 6 to hit with this weapon, that hit will be at Strength 10.</d
       </selectionEntries>
       <entryLinks>
         <entryLink id="abde-0a04-fc07-4a9c" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dddd-4dcd-e588-e8c9" type="min"/>
-          </constraints>
         </entryLink>
       </entryLinks>
       <costs>
@@ -5239,9 +5239,6 @@ If Borgio rolls a 6 to hit with this weapon, that hit will be at Strength 10.</d
       </selectionEntries>
       <entryLinks>
         <entryLink id="5d44-ba65-310a-078c" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="631e-1dac-29c5-61d3" type="min"/>
-          </constraints>
         </entryLink>
       </entryLinks>
       <costs>
@@ -5337,9 +5334,6 @@ Mighty Athlete Chart
       </selectionEntries>
       <entryLinks>
         <entryLink id="dc5b-08c3-1ac8-cfbc" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="651b-7a46-6757-5b0a" type="min"/>
-          </constraints>
         </entryLink>
       </entryLinks>
       <costs>
@@ -5408,9 +5402,6 @@ Lucrezzia hires an &apos;agent&apos; prior to every battle. This agent will snea
       </categoryLinks>
       <entryLinks>
         <entryLink id="31a2-4143-ac9b-b5dc" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8321-a9b6-2fcf-faac" type="min"/>
-          </constraints>
         </entryLink>
       </entryLinks>
       <costs>

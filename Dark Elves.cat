@@ -3845,6 +3845,9 @@ In addition, a monster that is beaten in hand to hand combat by Rakarth is assum
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="4fc4-6a13-85ff-b40f" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="470.0"/>
       </costs>

@@ -2449,6 +2449,7 @@ In addition, Klad Brakak bear the Rune of Fury which gives Thorek + 1 Attack</de
       </selectionEntries>
       <entryLinks>
         <entryLink id="12cd-bca8-bbf9-5665" name="Anvil of Doom" hidden="false" collective="false" import="true" targetId="8c8a-1d84-0946-a989" type="selectionEntry"/>
+        <entryLink id="8f52-cd5f-23bf-0a03" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="505.0"/>

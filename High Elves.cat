@@ -2225,6 +2225,9 @@ Once in each High Elf Magic phase, you may choose to unleash one of Alarielle&ap
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="e60d-321f-c3f0-189d" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="515.0"/>
       </costs>
@@ -2434,6 +2437,9 @@ Once per battle, at the start of any of his own turns, lmrik may sound the Drago
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="0741-df24-c681-6f77" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="355.0"/>
       </costs>
@@ -2562,6 +2568,9 @@ When the enemy casts a spell, Teclis may read the Scroll of Hoeth aloud as he mi
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="cdf5-ecca-c1d2-d4d5" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="630.0"/>
       </costs>

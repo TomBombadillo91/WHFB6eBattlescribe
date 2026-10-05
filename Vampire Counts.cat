@@ -1895,6 +1895,7 @@ At the beginning of the Close Combat phase select one model in base contact with
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5ec-8228-fa65-ff75" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="c654-8bc9-88e7-01fd" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="700.0"/>
@@ -2002,6 +2003,7 @@ Once per game, the Vampire can use this power at the start of one of his turns t
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e43-4664-eb8b-18ba" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="d3d4-f308-5a16-7a67" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="650.0"/>
@@ -2177,6 +2179,9 @@ The Vampire knows one more spell than he is normally allowed. This does not incr
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="b2a8-58e3-10c1-109f" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="715.0"/>
       </costs>

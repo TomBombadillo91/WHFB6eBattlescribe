@@ -2732,22 +2732,6 @@ previously lost during the game.</description>
       </selectionEntries>
       <entryLinks>
         <entryLink id="cfc8-f9a2-753a-5990" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="c636-da3c-d971-660e" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0abd-6fed-cbeb-7c38" type="equalTo"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1a61-9b9e-0b56-e6ce" type="equalTo"/>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9b61-a7a1-8761-c9e9" type="greaterThan"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c636-da3c-d971-660e" type="min"/>
-          </constraints>
         </entryLink>
         <entryLink id="c4c7-cf52-8419-f04d" name="Screaming Bell" hidden="false" collective="false" import="true" targetId="e1ef-2121-15d2-a3d5" type="selectionEntry"/>
       </entryLinks>

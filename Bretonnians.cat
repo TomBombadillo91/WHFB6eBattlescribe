@@ -2103,6 +2103,7 @@ The Toad Familiar adds one dice to both the Power dice and the Dispel dice pool 
       </selectionEntries>
       <entryLinks>
         <entryLink id="bb36-95ee-0f4a-e6c7" name="Lore of Magic" hidden="false" collective="false" import="true" targetId="3c79-613e-77df-160c" type="selectionEntryGroup"/>
+        <entryLink id="6df2-f937-4e70-d09c" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="480.0"/>

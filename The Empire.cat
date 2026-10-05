@@ -5893,6 +5893,9 @@ Note: During the events known as the Storm of Chaos, Ghal Maraz is wielded by th
         <categoryLink id="14da-9e5b-1cb7-d83e" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="true"/>
         <categoryLink id="e0b2-c9cf-6b8a-c1b2" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="a3e2-9b06-307a-a77d" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="215.0"/>
       </costs>
@@ -5993,6 +5996,9 @@ The Grand Theogonist may add +2 to his Strength. If the War Altar is destroyed t
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="7fc6-42d9-aac5-8278" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
@@ -6111,6 +6117,9 @@ One use only. Before using a Prayer, a Priest of Ulric may declare he is using h
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="8996-837f-6948-8f7b" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="325.0"/>
       </costs>
@@ -6176,11 +6185,6 @@ One use only. Before using a Prayer, a Priest of Ulric may declare he is using h
       <entryLinks>
         <entryLink id="40c5-5912-d40b-d291" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="a95f-3cc8-8140-6eaa" value="0.0">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0b46-be2c-f32a-b8d0" type="atLeast"/>
-              </conditions>
-            </modifier>
             <modifier type="set" field="031b-4e00-94a2-aa33" value="0.0">
               <conditions>
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0b46-be2c-f32a-b8d0" type="atLeast"/>
@@ -6188,7 +6192,6 @@ One use only. Before using a Prayer, a Priest of Ulric may declare he is using h
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a95f-3cc8-8140-6eaa" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="031b-4e00-94a2-aa33" type="max"/>
           </constraints>
         </entryLink>
@@ -6277,6 +6280,9 @@ Note: During the events known as the Storm of Chaos, Ghal Maraz is wielded by th
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="d4fe-7f6f-187d-bcd0" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="490.0"/>
       </costs>
