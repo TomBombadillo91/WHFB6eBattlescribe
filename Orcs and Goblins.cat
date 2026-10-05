@@ -6196,6 +6196,12 @@ Treat Azhag as a Level 2 Orc Shaman for purposes of casting and dispelling spell
       </selectionEntries>
       <entryLinks>
         <entryLink id="1066-9c5c-be9e-323a" name="Wyvern" hidden="false" collective="false" import="true" targetId="af8d-cd3d-e3b9-ecce" type="selectionEntry"/>
+        <entryLink id="62e2-cae7-bf32-acee" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a4ff-c0e9-dc58-7ef3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="17c6-556f-3692-b624" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="500.0"/>

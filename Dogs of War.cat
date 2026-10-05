@@ -3,6 +3,11 @@
   <categoryEntries>
     <categoryEntry id="5e7e-36e5-c0bf-c57c" name="Dogs of War" hidden="false"/>
     <categoryEntry id="c51c-ed7d-9669-006f" name="Regiment of Renown" hidden="false"/>
+    <categoryEntry id="0294-e256-ef78-c669" name="Merchant Prince&apos;s Banner" hidden="true">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d25b-b060-e26b-687b" type="max"/>
+      </constraints>
+    </categoryEntry>
     <categoryEntry id="be64-d04b-0e05-ef89" name="Cavalry" hidden="true"/>
   </categoryEntries>
   <selectionEntries>
@@ -152,6 +157,50 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="99a1-516e-8b0d-0dcd" name="Command" hidden="false" collective="false" import="true" targetId="9a9f-01c7-9394-383d" type="selectionEntryGroup"/>
+        <entryLink id="33d5-016e-14bd-a813" name="War Banner" hidden="false" collective="false" import="true" targetId="862d-4fba-1966-3f2f" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9600-ee94-57c5-3a1f" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f969-c1d6-b8a7-83c2" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88f0-9c48-7724-4636" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="c33d-d51e-ebdf-4433" value="0.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9600-ee94-57c5-3a1f" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f969-c1d6-b8a7-83c2" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88f0-9c48-7724-4636" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c33d-d51e-ebdf-4433" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="0f23-ffcd-2f15-4e3d" name="Merchant Prince&apos;s Banner" hidden="false" targetId="0294-e256-ef78-c669" primary="false"/>
+          </categoryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
@@ -435,6 +484,50 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="c714-aa8b-106e-96a9" name="Command" hidden="false" collective="false" import="true" targetId="9a9f-01c7-9394-383d" type="selectionEntryGroup"/>
+        <entryLink id="d74a-6f13-41a7-5ce6" name="War Banner" hidden="false" collective="false" import="true" targetId="862d-4fba-1966-3f2f" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9600-ee94-57c5-3a1f" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f969-c1d6-b8a7-83c2" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88f0-9c48-7724-4636" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="81ff-2d9c-c942-3715" value="0.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9600-ee94-57c5-3a1f" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f969-c1d6-b8a7-83c2" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88f0-9c48-7724-4636" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="81ff-2d9c-c942-3715" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="0d63-a72f-f80f-1a83" name="Merchant Prince&apos;s Banner" hidden="false" targetId="0294-e256-ef78-c669" primary="false"/>
+          </categoryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
@@ -1829,6 +1922,16 @@
     </selectionEntry>
     <selectionEntry id="9dd8-6a7e-ec61-e1c5" name="Paymaster" hidden="false" collective="false" import="false" type="model">
       <modifiers>
+        <modifier type="set" field="0d84-a2cf-7d96-c08a" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="83b6-7731-887d-f9c9" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="a9a0-1c19-1ce5-22e7" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="83b6-7731-887d-f9c9" type="atLeast"/>
+          </conditions>
+        </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3604-800a-4012-5da6" type="notInstanceOf"/>

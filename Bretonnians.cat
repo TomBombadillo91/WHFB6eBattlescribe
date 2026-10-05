@@ -1506,6 +1506,13 @@ In addition, the presence of the Grail Reliquae means that the entire unit will 
       </costs>
     </selectionEntry>
     <selectionEntry id="cbdc-ec3e-2e58-12e7" name="Grail Knights" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="8552-f87c-57a6-4c9c" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="02a0-4fc7-0c75-7ddd" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8552-f87c-57a6-4c9c" type="max"/>
       </constraints>

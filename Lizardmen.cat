@@ -833,6 +833,7 @@ Alternatively, Scouts can be placed on the controlling player&apos;s deployment 
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4ae9-eb23-7967-bb2e" type="equalTo"/>
                 <condition field="selections" scope="self" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="8c1b-780f-6b5f-9d0e" type="greaterThan"/>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9f55-4be0-3658-ffe5" type="equalTo"/>
               </conditions>
@@ -854,12 +855,14 @@ Alternatively, Scouts can be placed on the controlling player&apos;s deployment 
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4ae9-eb23-7967-bb2e" type="equalTo"/>
                     <condition field="selections" scope="self" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="8c1b-780f-6b5f-9d0e" type="greaterThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9f55-4be0-3658-ffe5" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
                 <conditionGroup type="and">
                   <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4ae9-eb23-7967-bb2e" type="equalTo"/>
                     <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9f55-4be0-3658-ffe5" type="equalTo"/>
                     <condition field="selections" scope="self" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="8c1b-780f-6b5f-9d0e" type="equalTo"/>
                   </conditions>
@@ -874,6 +877,36 @@ Alternatively, Scouts can be placed on the controlling player&apos;s deployment 
             <modifier type="unset-primary" field="category" value="62d3-efc6-6c2c-634e"/>
             <modifier type="unset-primary" field="category" value="a3af-995e-0cf1-7091"/>
             <modifier type="set-primary" field="category" value="4a3f-84d1-0495-6ecb"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <comment>Special in an army led by Kroq-Gar</comment>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4ae9-eb23-7967-bb2e" type="atLeast"/>
+            <condition field="selections" scope="self" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="8c1b-780f-6b5f-9d0e" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="remove" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="remove" field="category" value="a3af-995e-0cf1-7091"/>
+            <modifier type="add" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="unset-primary" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="unset-primary" field="category" value="a3af-995e-0cf1-7091"/>
+            <modifier type="set-primary" field="category" value="4a3f-84d1-0495-6ecb"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <comment>Rare in an army led by Kroq-Gar, with a Sacred Spawning</comment>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4ae9-eb23-7967-bb2e" type="atLeast"/>
+            <condition field="selections" scope="self" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="8c1b-780f-6b5f-9d0e" type="atLeast"/>
+          </conditions>
+          <modifiers>
+            <modifier type="remove" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="add" field="category" value="a3af-995e-0cf1-7091"/>
+            <modifier type="unset-primary" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="unset-primary" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="set-primary" field="category" value="a3af-995e-0cf1-7091"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -1276,12 +1309,34 @@ Alternatively, Scouts can be placed on the controlling player&apos;s deployment 
     </selectionEntry>
     <selectionEntry id="2225-48e5-1cdf-79f2" name="Saurus Cavalry" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
+        <modifier type="increment" field="9cba-06bd-db7f-9db5" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4ae9-eb23-7967-bb2e" type="atLeast"/>
+          </conditions>
+        </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="05fe-7fb4-f1bf-0991" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <comment>Core in an army led by Kroq-Gar</comment>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4ae9-eb23-7967-bb2e" type="atLeast"/>
+          </conditions>
+          <modifiers>
+            <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="add" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="unset-primary" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="set-primary" field="category" value="62d3-efc6-6c2c-634e"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9cba-06bd-db7f-9db5" type="min"/>
+      </constraints>
       <profiles>
         <profile id="ac09-15a5-f205-4fc1" name="Cold One" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>

@@ -2505,6 +2505,31 @@
             <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
           </modifiers>
         </modifierGroup>
+        <modifierGroup>
+          <comment>Chosen with a Mark other than Undivided are Rare in an army led by Vardek Crom</comment>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="330e-21f6-acc9-b3ba" type="atLeast"/>
+            <condition field="selections" scope="self" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="1cae-37af-aeda-9506" type="atLeast"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="self" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="ef01-7661-85a5-228f" type="atLeast"/>
+                <condition field="selections" scope="self" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="b341-570d-db10-cb5c" type="atLeast"/>
+                <condition field="selections" scope="self" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="07ce-c882-484c-7a4f" type="atLeast"/>
+                <condition field="selections" scope="self" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="df8e-1ba9-5569-bd6c" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+          <modifiers>
+            <modifier type="remove" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="add" field="category" value="a3af-995e-0cf1-7091"/>
+            <modifier type="unset-primary" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="unset-primary" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="set-primary" field="category" value="a3af-995e-0cf1-7091"/>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <profiles>
         <profile id="c498-a44e-b92a-6217" name="Warrior" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
@@ -3076,6 +3101,31 @@
             <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
           </modifiers>
         </modifierGroup>
+        <modifierGroup>
+          <comment>Chosen with a Mark other than Undivided are Rare in an army led by Vardek Crom</comment>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="330e-21f6-acc9-b3ba" type="atLeast"/>
+            <condition field="selections" scope="self" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="b0dc-8b8a-7ee3-496d" type="atLeast"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="self" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="ef01-7661-85a5-228f" type="atLeast"/>
+                <condition field="selections" scope="self" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="b341-570d-db10-cb5c" type="atLeast"/>
+                <condition field="selections" scope="self" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="07ce-c882-484c-7a4f" type="atLeast"/>
+                <condition field="selections" scope="self" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="df8e-1ba9-5569-bd6c" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+          <modifiers>
+            <modifier type="remove" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="add" field="category" value="a3af-995e-0cf1-7091"/>
+            <modifier type="unset-primary" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="unset-primary" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="set-primary" field="category" value="a3af-995e-0cf1-7091"/>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <constraints>
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b6e3-cf56-072a-ea41" type="min"/>
@@ -3313,6 +3363,20 @@
             <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
           </modifiers>
         </modifierGroup>
+        <modifierGroup>
+          <comment>Daemons are Rare in an army led by Vardek Crom</comment>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="330e-21f6-acc9-b3ba" type="atLeast"/>
+          </conditions>
+          <modifiers>
+            <modifier type="remove" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="add" field="category" value="a3af-995e-0cf1-7091"/>
+            <modifier type="unset-primary" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="unset-primary" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="set-primary" field="category" value="a3af-995e-0cf1-7091"/>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <infoLinks>
         <infoLink id="f181-7cf3-84ed-cf28" name="Daemonic" hidden="false" targetId="1d2a-5ef7-5722-e7d5" type="infoGroup"/>
@@ -3432,6 +3496,20 @@
             <modifier type="add" field="category" value="8a03-13c0-ea45-1732"/>
           </modifiers>
         </modifierGroup>
+        <modifierGroup>
+          <comment>Daemons are Rare in an army led by Vardek Crom</comment>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="330e-21f6-acc9-b3ba" type="atLeast"/>
+          </conditions>
+          <modifiers>
+            <modifier type="remove" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="add" field="category" value="a3af-995e-0cf1-7091"/>
+            <modifier type="unset-primary" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="unset-primary" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="set-primary" field="category" value="a3af-995e-0cf1-7091"/>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <infoLinks>
         <infoLink id="4ce9-2fa4-1016-e91e" name="Daemonic" hidden="false" targetId="1d2a-5ef7-5722-e7d5" type="infoGroup"/>
@@ -3506,6 +3584,20 @@
             <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
           </modifiers>
         </modifierGroup>
+        <modifierGroup>
+          <comment>Daemons are Rare in an army led by Vardek Crom</comment>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="330e-21f6-acc9-b3ba" type="atLeast"/>
+          </conditions>
+          <modifiers>
+            <modifier type="remove" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="add" field="category" value="a3af-995e-0cf1-7091"/>
+            <modifier type="unset-primary" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="unset-primary" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="set-primary" field="category" value="a3af-995e-0cf1-7091"/>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <infoLinks>
         <infoLink id="0040-593f-e5fc-1582" name="Daemonic" hidden="false" targetId="1d2a-5ef7-5722-e7d5" type="infoGroup"/>
@@ -3573,6 +3665,20 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="62d3-efc6-6c2c-634e"/>
             <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <comment>Daemons are Rare in an army led by Vardek Crom</comment>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="330e-21f6-acc9-b3ba" type="atLeast"/>
+          </conditions>
+          <modifiers>
+            <modifier type="remove" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="add" field="category" value="a3af-995e-0cf1-7091"/>
+            <modifier type="unset-primary" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="unset-primary" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="set-primary" field="category" value="a3af-995e-0cf1-7091"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -3648,6 +3754,20 @@
             <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
           </modifiers>
         </modifierGroup>
+        <modifierGroup>
+          <comment>Daemons are Rare in an army led by Vardek Crom</comment>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="330e-21f6-acc9-b3ba" type="atLeast"/>
+          </conditions>
+          <modifiers>
+            <modifier type="remove" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="add" field="category" value="a3af-995e-0cf1-7091"/>
+            <modifier type="unset-primary" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="unset-primary" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="set-primary" field="category" value="a3af-995e-0cf1-7091"/>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <infoLinks>
         <infoLink id="332b-8e96-65b2-9310" name="Daemonic" hidden="false" targetId="1d2a-5ef7-5722-e7d5" type="infoGroup"/>
@@ -3714,6 +3834,20 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="62d3-efc6-6c2c-634e"/>
             <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <comment>Daemons are Rare in an army led by Vardek Crom</comment>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="330e-21f6-acc9-b3ba" type="atLeast"/>
+          </conditions>
+          <modifiers>
+            <modifier type="remove" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="add" field="category" value="a3af-995e-0cf1-7091"/>
+            <modifier type="unset-primary" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="unset-primary" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="set-primary" field="category" value="a3af-995e-0cf1-7091"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -3848,6 +3982,20 @@ Each enemy slain by this spell is turned into a Horror and added to the Horrors&
             <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
           </modifiers>
         </modifierGroup>
+        <modifierGroup>
+          <comment>Daemons are Rare in an army led by Vardek Crom</comment>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="330e-21f6-acc9-b3ba" type="atLeast"/>
+          </conditions>
+          <modifiers>
+            <modifier type="remove" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="add" field="category" value="a3af-995e-0cf1-7091"/>
+            <modifier type="unset-primary" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="unset-primary" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="set-primary" field="category" value="a3af-995e-0cf1-7091"/>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3259-b8a4-87dd-c14e" type="max"/>
@@ -3912,6 +4060,20 @@ Each enemy slain by this spell is turned into a Horror and added to the Horrors&
           <modifiers>
             <modifier type="set-primary" field="category" value="62d3-efc6-6c2c-634e"/>
             <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <comment>Daemons are Rare in an army led by Vardek Crom</comment>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="330e-21f6-acc9-b3ba" type="atLeast"/>
+          </conditions>
+          <modifiers>
+            <modifier type="remove" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="add" field="category" value="a3af-995e-0cf1-7091"/>
+            <modifier type="unset-primary" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="unset-primary" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="set-primary" field="category" value="a3af-995e-0cf1-7091"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -5524,6 +5686,20 @@ D6	Result
           <modifiers>
             <modifier type="set-primary" field="category" value="62d3-efc6-6c2c-634e"/>
             <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <comment>Daemons are Rare in an army led by Vardek Crom</comment>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="330e-21f6-acc9-b3ba" type="atLeast"/>
+          </conditions>
+          <modifiers>
+            <modifier type="remove" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="add" field="category" value="a3af-995e-0cf1-7091"/>
+            <modifier type="unset-primary" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="unset-primary" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="set-primary" field="category" value="a3af-995e-0cf1-7091"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>

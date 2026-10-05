@@ -1323,6 +1323,14 @@ The model is immune to all breath attacks, and any fire-based attack (including 
       </costs>
     </selectionEntry>
     <selectionEntry id="001f-4110-8737-24ae" name="Swordmasters of Hoeth" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="8019-e0be-d589-fb29" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8f20-4cd8-f33f-b1f8" type="atLeast"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9774-01ac-4f53-784d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8019-e0be-d589-fb29" type="max"/>
       </constraints>
@@ -2315,6 +2323,26 @@ Unleashing his speed and strength in a flurry of blistering attacks, Eltharion r
         <categoryLink id="a9c3-1969-be7f-9a28" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
         <categoryLink id="d2ca-0223-d550-93a2" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="8a6a-57e7-305f-7e2d" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="9546-137b-908a-dc4c" value="0.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9774-01ac-4f53-784d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="0d10-fcee-3fb6-e3dd" value="0.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9774-01ac-4f53-784d" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9546-137b-908a-dc4c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0d10-fcee-3fb6-e3dd" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="255.0"/>
       </costs>

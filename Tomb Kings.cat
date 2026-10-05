@@ -4,14 +4,14 @@
     <categoryEntry id="7d0c-5562-269f-0795" name="Tomb King General" hidden="false"/>
     <categoryEntry id="80b7-5608-88c2-552c" name="Settra&apos;s Army" hidden="false">
       <modifiers>
-        <modifier type="set" field="5547-8588-b85a-301f" value="-1.0">
+        <modifier type="set" field="5547-8588-b85a-301f" value="50.0">
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="84d6-5fca-750f-ccc4" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="84d6-5fca-750f-ccc4" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="limit::eaa7-6800-e651-8bea" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="5547-8588-b85a-301f" type="min"/>
+        <constraint field="eaa7-6800-e651-8bea" scope="roster" value="0.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="5547-8588-b85a-301f" type="min"/>
       </constraints>
     </categoryEntry>
   </categoryEntries>

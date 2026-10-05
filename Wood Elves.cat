@@ -12,6 +12,11 @@
   <selectionEntries>
     <selectionEntry id="6f97-17a2-0f2d-9db6" name="Wood Elf Highborn" hidden="false" collective="false" import="true" type="model">
       <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="79fe-9f48-0ec9-f9e2" type="equalTo"/>
+          </conditions>
+        </modifier>
         <modifier type="add" field="category" value="6a3b-4039-2a09-aa1c">
           <conditions>
             <condition field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cf7b-798c-9b94-df74" type="equalTo"/>
@@ -227,6 +232,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="87bc-4d14-d03b-7787" name="Spellweaver" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="79fe-9f48-0ec9-f9e2" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <modifierGroups>
         <modifierGroup>
           <conditions>
@@ -330,6 +342,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="1151-5bcb-043f-b326" name="Wood Elf Noble" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="79fe-9f48-0ec9-f9e2" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <modifierGroups>
         <modifierGroup>
           <conditions>
@@ -579,6 +598,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ae7d-7448-b177-b891" name="Spellsinger" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="79fe-9f48-0ec9-f9e2" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <modifierGroups>
         <modifierGroup>
           <conditions>
@@ -2090,7 +2116,11 @@ The Cloak of Isha adds two Dispel dice to the Wood Elf Dispel dice pool.</descri
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="d594-5501-ef80-68fd" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry"/>
+        <entryLink id="d594-5501-ef80-68fd" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="29cf-63cb-2930-fd16" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="575.0"/>
@@ -2098,6 +2128,11 @@ The Cloak of Isha adds two Dispel dice to the Wood Elf Dispel dice pool.</descri
     </selectionEntry>
     <selectionEntry id="c372-b15c-d5e4-8cf6" name="Arahan and Naestra" hidden="false" collective="false" import="true" type="model">
       <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="79fe-9f48-0ec9-f9e2" type="equalTo"/>
+          </conditions>
+        </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
