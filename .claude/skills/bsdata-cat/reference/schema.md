@@ -131,11 +131,20 @@ Puts the entry in a force-organisation or item category. Exactly one should be
 `primary="true"` — that is the slot it consumes (Core/Special/Rare/Lords/Heroes).
 Category ids are in [gamesystem-ids.md](gamesystem-ids.md).
 
-**A model that eats more than its own slot** — "counts as a Lord choice and in
-addition takes up one of your Hero choices" — does not get a second ordinary
-category. Linking `Heroes` puts the model *in* the Heroes category; it does not
-consume an extra slot. The allowances are driven from the `.gst` force entry, whose
-`Lords` and `Heroes` category links carry modifiers reading:
+**Force-organisation categories count whether or not they are primary.** A
+secondary `Heroes` (or `Rare`, `Special`) link puts the model in that category, and
+the force entry's limit on it counts the model — so a secondary slot link *does*
+use up a choice. That is also how `Characters` (always secondary) drives the
+total-characters limit.
+
+The house convention for characters (as set by the repo owner):
+
+* `Characters` is **never** primary. Every model whose primary slot is `Lords` or
+  `Heroes` also carries `Characters` as a secondary category.
+* If a model has both `Lords` and `Heroes`, `Lords` is primary (Lord > Hero).
+* Each slot type a character uses gets its ordinary category; the `Additional …`
+  categories only count the *second and later* slots of the same type. The `.gst`
+  force entry reads them as:
 
 | Link this category | Effect |
 | --- | --- |
@@ -143,9 +152,17 @@ consume an extra slot. The allowances are driven from the `.gst` force entry, wh
 | `Additional Hero Choice` | Heroes limit −1 |
 | `Two Additional Hero Choices` | Heroes limit −2 |
 
-So a Lord who also eats a Hero is `Lords` + `Additional Hero Choice`; one who eats
-two is `Lords` + `Two Additional Hero Choices`; two Lord choices is `Lords` +
-`Additional Lord Choice`. Archaon, Settra and the three Valtens are worked examples.
+| Rules say | Categories |
+| --- | --- |
+| a Lord choice | `Lords`* + `Characters` |
+| a Lord and a Hero | `Lords`* + `Heroes` + `Characters` |
+| a Lord and two Heroes | `Lords`* + `Heroes` + `Additional Hero Choice` + `Characters` |
+| a Lord and three Heroes | `Lords`* + `Heroes` + `Two Additional Hero Choices` + `Characters` |
+| two Hero choices | `Heroes`* + `Additional Hero Choice` + `Characters` |
+| a Lord, a Hero and a Rare | `Lords`* + `Heroes` + `Rare` + `Characters` |
+| two Lord choices | `Lords`* + `Additional Lord Choice` + `Characters` |
+
+(* = primary.) Malekith is the worked example of `Two Additional Hero Choices`.
 
 ### `profile` and `characteristic`
 
