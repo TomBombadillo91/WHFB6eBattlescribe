@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="37" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="38" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="e8a8-d83e-c60c-3ad0" name="Hordes of Chaos"/>
     <publication id="dc3a-2511-d23a-deb3" name="Beasts of Chaos"/>
@@ -8,7 +8,6 @@
     <categoryEntry id="e96f-4863-8bc0-0266" name="Beast" hidden="false"/>
     <categoryEntry id="c2a4-c683-aba9-9f52" name="Daemon" hidden="false"/>
     <categoryEntry id="a72e-11bf-6b23-95a6" name="Mortal" hidden="false"/>
-    <categoryEntry id="ef67-38cf-70b1-8a05" name="Filter" hidden="false"/>
     <categoryEntry id="8c83-a348-a664-eebe" name="Mark of Nurgle (Character)" hidden="false">
       <modifiers>
         <modifier type="set" field="4b71-8116-1469-87ce" value="-1.0">
@@ -114,7 +113,6 @@
     <categoryEntry id="a1ef-6866-5c70-daa1" name="Hide Mortals" hidden="false"/>
     <categoryEntry id="13a7-254f-3909-eab2" name="Shield" hidden="true"/>
     <categoryEntry id="b131-2b22-26f6-bcfb" name="Chosen" hidden="false"/>
-  <categoryEntry id="51cb-66bf-92f8-f97c" name="Hide Special Characters" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="b5b7-0447-4117-ed00" name="Beastlord" hidden="false" collective="false" import="true" type="model">
@@ -1401,7 +1399,7 @@
         <categoryLink id="347f-acb5-e076-6500" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="dcaa-b323-4901-0cda" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="01d8-708f-041d-ffdd" name="Daemon" hidden="false" targetId="c2a4-c683-aba9-9f52" primary="false"/>
-        <categoryLink id="132d-9eb4-84eb-84d2" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+        <categoryLink id="132d-9eb4-84eb-84d2" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8aa7-06eb-d896-23c5" name="Wizard Level" hidden="false" collective="false" import="true" type="upgrade">
@@ -1511,9 +1509,9 @@
         <categoryLink id="1763-83d6-c8c6-40f2" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="0e63-87af-c9f1-a4a3" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="2114-9e5b-a66e-9ce9" name="Daemon" hidden="false" targetId="c2a4-c683-aba9-9f52" primary="false"/>
-        <categoryLink id="d657-b143-4c16-12d8" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
-        <categoryLink id="22e8-c8ca-9e24-8d76" name="Rare" hidden="false" targetId="a3af-995e-0cf1-7091" primary="false"/>
         <categoryLink id="ddfb-8ff7-6036-00aa" name="Mark of Khorne (Character)" hidden="false" targetId="b901-28a6-ed61-a2be" primary="false"/>
+        <categoryLink id="d657-b143-4c16-12d8" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
+        <categoryLink id="22e8-c8ca-9e24-8d76" name="Rare" hidden="false" targetId="a3af-995e-0cf1-7091" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b140-9c06-ae10-b3dd" name="Mark of Khorne" hidden="false" collective="false" import="true" type="upgrade">
@@ -1620,10 +1618,10 @@
         <categoryLink id="fd06-6c0b-5050-17ad" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="8ac2-484a-4d98-af80" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="c4cd-b6ac-3353-cc7a" name="Daemon" hidden="false" targetId="c2a4-c683-aba9-9f52" primary="false"/>
-        <categoryLink id="2646-8709-6896-8907" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
-        <categoryLink id="667d-486b-f2ab-2be6" name="Rare" hidden="false" targetId="a3af-995e-0cf1-7091" primary="false"/>
         <categoryLink id="96b3-18fe-c5b8-fd17" name="Wizard" hidden="false" targetId="eb46-88d4-eb41-2549" primary="false"/>
         <categoryLink id="76ce-a9e9-302e-c10e" name="Mark of Nurgle (Character)" hidden="false" targetId="8c83-a348-a664-eebe" primary="false"/>
+        <categoryLink id="2646-8709-6896-8907" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
+        <categoryLink id="667d-486b-f2ab-2be6" name="Rare" hidden="false" targetId="a3af-995e-0cf1-7091" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="dc56-28a9-f54d-688f" name="Mark of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
@@ -1721,9 +1719,9 @@
         <categoryLink id="0861-872f-89cb-94c9" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="dd97-f7bf-2a78-f042" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="6c20-5d42-4442-7cb5" name="Daemon" hidden="false" targetId="c2a4-c683-aba9-9f52" primary="false"/>
-        <categoryLink id="8b59-e0c8-fd06-9fff" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
-        <categoryLink id="a6b6-47f1-c125-0493" name="Rare" hidden="false" targetId="a3af-995e-0cf1-7091" primary="false"/>
         <categoryLink id="65f2-861c-8f6f-412d" name="Mark of Tzeentch (Character)" hidden="false" targetId="19d9-f7ab-4148-310e" primary="false"/>
+        <categoryLink id="8b59-e0c8-fd06-9fff" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
+        <categoryLink id="a6b6-47f1-c125-0493" name="Rare" hidden="false" targetId="a3af-995e-0cf1-7091" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c3b8-266d-7161-fb66" name="Mark of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
@@ -1829,10 +1827,10 @@
         <categoryLink id="a802-5d42-4ba2-f8cc" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="f55d-f0f2-52a9-9e6a" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="5a41-758d-3573-0c2b" name="Daemon" hidden="false" targetId="c2a4-c683-aba9-9f52" primary="false"/>
-        <categoryLink id="5d3c-1438-444b-df34" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
-        <categoryLink id="ff53-04f4-fb33-6216" name="Rare" hidden="false" targetId="a3af-995e-0cf1-7091" primary="false"/>
         <categoryLink id="06bc-d3c7-ea12-9565" name="Wizard" hidden="false" targetId="eb46-88d4-eb41-2549" primary="false"/>
         <categoryLink id="a3e0-1cad-819f-57c8" name="Mark of Slaanesh (Character)" hidden="false" targetId="58f1-832c-9935-797b" primary="false"/>
+        <categoryLink id="5d3c-1438-444b-df34" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
+        <categoryLink id="ff53-04f4-fb33-6216" name="Rare" hidden="false" targetId="a3af-995e-0cf1-7091" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6c38-ecbd-0965-6773" name="Mark of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
@@ -2507,6 +2505,31 @@
             <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
           </modifiers>
         </modifierGroup>
+        <modifierGroup>
+          <comment>Chosen with a Mark other than Undivided are Rare in an army led by Vardek Crom</comment>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="330e-21f6-acc9-b3ba" type="atLeast"/>
+            <condition field="selections" scope="self" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="1cae-37af-aeda-9506" type="atLeast"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="self" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="ef01-7661-85a5-228f" type="atLeast"/>
+                <condition field="selections" scope="self" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="b341-570d-db10-cb5c" type="atLeast"/>
+                <condition field="selections" scope="self" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="07ce-c882-484c-7a4f" type="atLeast"/>
+                <condition field="selections" scope="self" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="df8e-1ba9-5569-bd6c" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+          <modifiers>
+            <modifier type="remove" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="add" field="category" value="a3af-995e-0cf1-7091"/>
+            <modifier type="unset-primary" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="unset-primary" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="set-primary" field="category" value="a3af-995e-0cf1-7091"/>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <profiles>
         <profile id="c498-a44e-b92a-6217" name="Warrior" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
@@ -3078,6 +3101,31 @@
             <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
           </modifiers>
         </modifierGroup>
+        <modifierGroup>
+          <comment>Chosen with a Mark other than Undivided are Rare in an army led by Vardek Crom</comment>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="330e-21f6-acc9-b3ba" type="atLeast"/>
+            <condition field="selections" scope="self" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="b0dc-8b8a-7ee3-496d" type="atLeast"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="self" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="ef01-7661-85a5-228f" type="atLeast"/>
+                <condition field="selections" scope="self" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="b341-570d-db10-cb5c" type="atLeast"/>
+                <condition field="selections" scope="self" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="07ce-c882-484c-7a4f" type="atLeast"/>
+                <condition field="selections" scope="self" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="df8e-1ba9-5569-bd6c" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+          <modifiers>
+            <modifier type="remove" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="add" field="category" value="a3af-995e-0cf1-7091"/>
+            <modifier type="unset-primary" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="unset-primary" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="set-primary" field="category" value="a3af-995e-0cf1-7091"/>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <constraints>
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b6e3-cf56-072a-ea41" type="min"/>
@@ -3315,6 +3363,20 @@
             <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
           </modifiers>
         </modifierGroup>
+        <modifierGroup>
+          <comment>Daemons are Rare in an army led by Vardek Crom</comment>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="330e-21f6-acc9-b3ba" type="atLeast"/>
+          </conditions>
+          <modifiers>
+            <modifier type="remove" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="add" field="category" value="a3af-995e-0cf1-7091"/>
+            <modifier type="unset-primary" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="unset-primary" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="set-primary" field="category" value="a3af-995e-0cf1-7091"/>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <infoLinks>
         <infoLink id="f181-7cf3-84ed-cf28" name="Daemonic" hidden="false" targetId="1d2a-5ef7-5722-e7d5" type="infoGroup"/>
@@ -3434,6 +3496,20 @@
             <modifier type="add" field="category" value="8a03-13c0-ea45-1732"/>
           </modifiers>
         </modifierGroup>
+        <modifierGroup>
+          <comment>Daemons are Rare in an army led by Vardek Crom</comment>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="330e-21f6-acc9-b3ba" type="atLeast"/>
+          </conditions>
+          <modifiers>
+            <modifier type="remove" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="add" field="category" value="a3af-995e-0cf1-7091"/>
+            <modifier type="unset-primary" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="unset-primary" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="set-primary" field="category" value="a3af-995e-0cf1-7091"/>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <infoLinks>
         <infoLink id="4ce9-2fa4-1016-e91e" name="Daemonic" hidden="false" targetId="1d2a-5ef7-5722-e7d5" type="infoGroup"/>
@@ -3508,6 +3584,20 @@
             <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
           </modifiers>
         </modifierGroup>
+        <modifierGroup>
+          <comment>Daemons are Rare in an army led by Vardek Crom</comment>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="330e-21f6-acc9-b3ba" type="atLeast"/>
+          </conditions>
+          <modifiers>
+            <modifier type="remove" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="add" field="category" value="a3af-995e-0cf1-7091"/>
+            <modifier type="unset-primary" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="unset-primary" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="set-primary" field="category" value="a3af-995e-0cf1-7091"/>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <infoLinks>
         <infoLink id="0040-593f-e5fc-1582" name="Daemonic" hidden="false" targetId="1d2a-5ef7-5722-e7d5" type="infoGroup"/>
@@ -3575,6 +3665,20 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="62d3-efc6-6c2c-634e"/>
             <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <comment>Daemons are Rare in an army led by Vardek Crom</comment>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="330e-21f6-acc9-b3ba" type="atLeast"/>
+          </conditions>
+          <modifiers>
+            <modifier type="remove" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="add" field="category" value="a3af-995e-0cf1-7091"/>
+            <modifier type="unset-primary" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="unset-primary" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="set-primary" field="category" value="a3af-995e-0cf1-7091"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -3650,6 +3754,20 @@
             <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
           </modifiers>
         </modifierGroup>
+        <modifierGroup>
+          <comment>Daemons are Rare in an army led by Vardek Crom</comment>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="330e-21f6-acc9-b3ba" type="atLeast"/>
+          </conditions>
+          <modifiers>
+            <modifier type="remove" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="add" field="category" value="a3af-995e-0cf1-7091"/>
+            <modifier type="unset-primary" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="unset-primary" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="set-primary" field="category" value="a3af-995e-0cf1-7091"/>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <infoLinks>
         <infoLink id="332b-8e96-65b2-9310" name="Daemonic" hidden="false" targetId="1d2a-5ef7-5722-e7d5" type="infoGroup"/>
@@ -3716,6 +3834,20 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="62d3-efc6-6c2c-634e"/>
             <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <comment>Daemons are Rare in an army led by Vardek Crom</comment>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="330e-21f6-acc9-b3ba" type="atLeast"/>
+          </conditions>
+          <modifiers>
+            <modifier type="remove" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="add" field="category" value="a3af-995e-0cf1-7091"/>
+            <modifier type="unset-primary" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="unset-primary" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="set-primary" field="category" value="a3af-995e-0cf1-7091"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -3850,6 +3982,20 @@ Each enemy slain by this spell is turned into a Horror and added to the Horrors&
             <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
           </modifiers>
         </modifierGroup>
+        <modifierGroup>
+          <comment>Daemons are Rare in an army led by Vardek Crom</comment>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="330e-21f6-acc9-b3ba" type="atLeast"/>
+          </conditions>
+          <modifiers>
+            <modifier type="remove" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="add" field="category" value="a3af-995e-0cf1-7091"/>
+            <modifier type="unset-primary" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="unset-primary" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="set-primary" field="category" value="a3af-995e-0cf1-7091"/>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3259-b8a4-87dd-c14e" type="max"/>
@@ -3914,6 +4060,20 @@ Each enemy slain by this spell is turned into a Horror and added to the Horrors&
           <modifiers>
             <modifier type="set-primary" field="category" value="62d3-efc6-6c2c-634e"/>
             <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <comment>Daemons are Rare in an army led by Vardek Crom</comment>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="330e-21f6-acc9-b3ba" type="atLeast"/>
+          </conditions>
+          <modifiers>
+            <modifier type="remove" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="add" field="category" value="a3af-995e-0cf1-7091"/>
+            <modifier type="unset-primary" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="unset-primary" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="set-primary" field="category" value="a3af-995e-0cf1-7091"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -5371,68 +5531,38 @@ They use cavalry rules for spears.</description>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="600c-95ea-fcdc-cda6" name="Filters" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5942-fe30-44e3-02aa" name="Hide Beasts of Chaos" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80f0-45a6-6d4b-b8b0" type="max"/>
+      </constraints>
       <categoryLinks>
-        <categoryLink id="ac5f-ee64-6867-477b" name="Filter" hidden="false" targetId="ef67-38cf-70b1-8a05" primary="false"/>
+        <categoryLink id="25c6-6761-2745-f4fb" name="Filter" hidden="false" targetId="74d2-e404-7ef6-8d56" primary="true"/>
+        <categoryLink id="1371-d039-41fb-e2f9" name="Hide Beasts" hidden="false" targetId="0892-e336-b753-9d89" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="5942-fe30-44e3-02aa" name="Hide Beasts of Chaos" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80f0-45a6-6d4b-b8b0" type="max"/>
-          </constraints>
-          <categoryLinks>
-            <categoryLink id="25c6-6761-2745-f4fb" name="Filter" hidden="false" targetId="ef67-38cf-70b1-8a05" primary="false"/>
-            <categoryLink id="1371-d039-41fb-e2f9" name="Hide Beasts" hidden="false" targetId="0892-e336-b753-9d89" primary="false"/>
-          </categoryLinks>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="0b99-f6ec-55a8-7956" name="Hide Daemons of Chaos" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b080-cc5d-a80c-4dc6" type="max"/>
-          </constraints>
-          <categoryLinks>
-            <categoryLink id="5b60-0aa7-3c18-e557" name="Hide Daemons" hidden="false" targetId="90af-588e-073c-cec9" primary="false"/>
-            <categoryLink id="c3c7-d23f-746c-0876" name="Filter" hidden="false" targetId="ef67-38cf-70b1-8a05" primary="false"/>
-          </categoryLinks>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="c977-e979-4db8-eda3" name="Hide Mortal Worshippers of Chaos" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="320c-4d26-0658-612e" type="max"/>
-          </constraints>
-          <categoryLinks>
-            <categoryLink id="e8cb-3bba-29c3-1d28" name="Hide Mortals" hidden="false" targetId="a1ef-6866-5c70-daa1" primary="false"/>
-            <categoryLink id="2757-7d6e-4c37-c41f" name="Filter" hidden="false" targetId="ef67-38cf-70b1-8a05" primary="false"/>
-          </categoryLinks>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="e669-5178-c77c-941a" name="Hide Special Characters" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aba1-8ff4-0804-1463" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="db08-e913-133e-3f35" name="Hide Special Characters" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da1f-5f06-d0f2-3e5a" type="max"/>
-          </constraints>
-          <categoryLinks>
-            <categoryLink id="e30e-3030-0cb5-f975" name="Filter" hidden="false" targetId="ef67-38cf-70b1-8a05" primary="false"/>
-            <categoryLink id="882c-eaba-01fc-02c2" name="Hide Special Characters" hidden="false" targetId="51cb-66bf-92f8-f97c" primary="false"/>
-          </categoryLinks>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0b99-f6ec-55a8-7956" name="Hide Daemons of Chaos" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b080-cc5d-a80c-4dc6" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5b60-0aa7-3c18-e557" name="Hide Daemons" hidden="false" targetId="90af-588e-073c-cec9" primary="false"/>
+        <categoryLink id="c3c7-d23f-746c-0876" name="Filter" hidden="false" targetId="74d2-e404-7ef6-8d56" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c977-e979-4db8-eda3" name="Hide Mortal Worshippers of Chaos" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="320c-4d26-0658-612e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e8cb-3bba-29c3-1d28" name="Hide Mortals" hidden="false" targetId="a1ef-6866-5c70-daa1" primary="false"/>
+        <categoryLink id="2757-7d6e-4c37-c41f" name="Filter" hidden="false" targetId="74d2-e404-7ef6-8d56" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
@@ -5558,6 +5688,20 @@ D6	Result
             <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
           </modifiers>
         </modifierGroup>
+        <modifierGroup>
+          <comment>Daemons are Rare in an army led by Vardek Crom</comment>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="330e-21f6-acc9-b3ba" type="atLeast"/>
+          </conditions>
+          <modifiers>
+            <modifier type="remove" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="remove" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="add" field="category" value="a3af-995e-0cf1-7091"/>
+            <modifier type="unset-primary" field="category" value="62d3-efc6-6c2c-634e"/>
+            <modifier type="unset-primary" field="category" value="4a3f-84d1-0495-6ecb"/>
+            <modifier type="set-primary" field="category" value="a3af-995e-0cf1-7091"/>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <rules>
         <rule id="6f72-b60c-92e6-90d6" name="Swift Steed" hidden="false">
@@ -5641,12 +5785,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e669-5178-c77c-941a" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="51cb-66bf-92f8-f97c" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -5717,6 +5856,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
         <categoryLink id="2f7c-6533-9fc6-3c58" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
         <categoryLink id="3194-bb65-05f8-2f55" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
         <categoryLink id="5b32-a2b7-3247-4abe" name="Grants Extra Rare Choice" hidden="false" targetId="9236-407c-ba73-9b10" primary="false"/>
+        <categoryLink id="f822-0b9b-6082-fa59" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="03ef-3678-73b5-e248" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
@@ -5748,17 +5888,12 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e669-5178-c77c-941a" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="a339-cfc2-c6a7-7335" value="0.0">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6478-2ab2-762c-cd50" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="51cb-66bf-92f8-f97c" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -5789,6 +5924,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
         <categoryLink id="e4b7-6360-80d7-dbaa" name="Beast" hidden="false" targetId="e96f-4863-8bc0-0266" primary="false"/>
         <categoryLink id="85d5-1676-b30e-8c35" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
         <categoryLink id="5968-9787-ed21-89b6" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="9a47-3e89-05b7-e057" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="051b-5a71-2d64-5881" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
@@ -5825,12 +5961,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e669-5178-c77c-941a" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="51cb-66bf-92f8-f97c" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -5866,7 +5997,8 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
         <categoryLink id="c6ca-8b23-1172-384f" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
         <categoryLink id="340c-0531-6ac8-a617" name="Mortal General" hidden="false" targetId="aac0-5a64-060e-85bb" primary="false"/>
         <categoryLink id="bf7a-5f89-877b-b464" name="Nurgle General" hidden="false" targetId="95e9-cc71-bb44-5b45" primary="false"/>
-        <categoryLink id="43c0-0c9d-fe7c-b175" name="Two Additional Hero Choices" hidden="false" targetId="9dc5-bbce-5738-84e8" primary="false"/>
+        <categoryLink id="43c0-0c9d-fe7c-b175" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
+        <categoryLink id="e4f6-5c74-668c-ee58" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4ebd-d30e-ece6-c358" name="The Crown of Domination" hidden="false" collective="false" import="true" type="upgrade">
@@ -5960,21 +6092,17 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e669-5178-c77c-941a" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="51cb-66bf-92f8-f97c" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="4d56-8ffb-04b0-9b22" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
-        <categoryLink id="d519-e62a-20e1-3711" name="Additional Rare Choice" hidden="false" targetId="1c0b-2b0f-459f-d6f9" primary="false"/>
         <categoryLink id="57c2-7db0-4a8d-04b2" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="5e9f-4646-1865-3c39" name="Wizard" hidden="false" targetId="eb46-88d4-eb41-2549" primary="false"/>
         <categoryLink id="8f33-a695-bf2a-fd50" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="840b-79d7-fd19-288b" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
+        <categoryLink id="4d56-8ffb-04b0-9b22" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
+        <categoryLink id="d519-e62a-20e1-3711" name="Rare" hidden="false" targetId="a3af-995e-0cf1-7091" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="dbf1-6a70-8001-1a1c" name="Tzeentch&apos;s Will" hidden="false" collective="false" import="true" targetId="a5d3-fe46-0650-d7f8" type="selectionEntry">
@@ -6004,6 +6132,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="081a-e30a-1a8e-3f6a" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="edbd-bd7c-24c4-1a23" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="696.0"/>
@@ -6013,7 +6142,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="51cb-66bf-92f8-f97c" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -6057,9 +6186,9 @@ Crom uses his shield expertly, forcing his opponent back and blocking any attemp
         <infoLink id="ccbd-ed71-b793-28d7" name="Chaos Armour" hidden="false" targetId="8119-2e59-eef1-a2c0" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="543f-c92a-8f4a-7068" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="543f-c92a-8f4a-7068" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="b365-c9db-6c61-8332" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="1136-4ae8-7d3d-323e" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="1136-4ae8-7d3d-323e" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2a31-45f9-0e65-c718" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
@@ -7500,11 +7629,6 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
             <modifier type="set" field="6bd9-c470-7d3d-5967" value="0.0">
               <conditions>
                 <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1a97-e87a-c1df-2331" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="623e-5f3d-d939-9b51" type="notInstanceOf"/>
               </conditions>
             </modifier>
             <modifier type="set" field="hidden" value="true">
