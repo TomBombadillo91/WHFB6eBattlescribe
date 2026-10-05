@@ -2447,11 +2447,6 @@ The Armour of Midnight is a suit of heavy armour. In addition Malekith has a 2+ 
         <infoLink id="51ea-e3cd-200d-013e" name="Magic Resistance" hidden="false" targetId="6e0c-4c98-a2c2-af0d" type="rule">
           <modifiers>
             <modifier type="append" field="name" value=" (1)"/>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
-              </conditions>
-            </modifier>
           </modifiers>
         </infoLink>
       </infoLinks>

@@ -2293,11 +2293,6 @@ The Cloak of Isha adds two Dispel dice to the Wood Elf Dispel dice pool.</descri
                 <infoLink id="2507-363e-a6fe-4779" name="Scaly Skin" hidden="false" targetId="7eca-56b9-d1c7-c7c8" type="rule">
                   <modifiers>
                     <modifier type="append" field="name" value=" (3+)"/>
-                    <modifier type="set" field="hidden" value="true">
-                      <conditions>
-                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
-                      </conditions>
-                    </modifier>
                   </modifiers>
                 </infoLink>
                 <infoLink id="9a3d-6d7f-c049-8306" name="Terror" hidden="false" targetId="3767-0d81-4db9-cda7" type="rule"/>

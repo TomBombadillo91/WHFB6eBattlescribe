@@ -6267,11 +6267,6 @@ This massive axe adds +1 to Borgut&apos;s Strength and, in addition, Borgut (and
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="038a-0b40-2b1b-16a4" type="atLeast"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
-              </conditions>
-            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3df2-bd2f-1b87-b506" type="max"/>

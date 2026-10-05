@@ -5790,11 +5790,6 @@ Gives a 4+ Ward save and Magic Resistance (3) to the Emperor and his mount. In a
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="99ae-40ac-02ca-ec85" type="atLeast"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
-                  </conditions>
-                </modifier>
                 <modifier type="set" field="1be3-d094-28ef-c1eb" value="0.0">
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6330-3167-6079-da68" type="atLeast"/>

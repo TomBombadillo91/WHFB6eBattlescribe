@@ -2657,11 +2657,6 @@ Crew and chariots may also shoot any of their missile weapons in the Shooting ph
         <infoLink id="d50d-3eff-dfd5-478a" name="Fear" hidden="false" targetId="03be-3e56-1332-bf56" type="rule">
           <modifiers>
             <modifier type="append" field="name" value=" (Boneripper)"/>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
-              </conditions>
-            </modifier>
           </modifiers>
         </infoLink>
         <infoLink id="d1aa-a78f-1339-a586" name="Lead from the Back" hidden="false" targetId="7f59-cae6-4425-1e0f" type="rule"/>

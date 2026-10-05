@@ -1807,13 +1807,6 @@ Army of Sylvania only. This Vampire may use the spell Invocation of Nehek to add
           </costs>
         </selectionEntry>
         <selectionEntry id="c24a-eaf2-ad08-f037" name="Isabella von Carstein" hidden="false" collective="false" import="true" type="model">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6877-48ae-cb89-0f6a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="860f-e0b7-2db0-7672" type="min"/>

@@ -1883,11 +1883,6 @@ During the game, the Green Knight may disappear at will and reappear in another 
         <infoLink id="5a5d-97a5-66db-1673" name="Magic Resistance" hidden="false" targetId="6e0c-4c98-a2c2-af0d" type="rule">
           <modifiers>
             <modifier type="append" field="name" value=" (3)"/>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
-              </conditions>
-            </modifier>
           </modifiers>
         </infoLink>
       </infoLinks>
