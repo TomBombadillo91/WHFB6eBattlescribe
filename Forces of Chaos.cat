@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="37" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fd0d-5697-0f21-8aac" name="Forces of Chaos" revision="38" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="e8a8-d83e-c60c-3ad0" name="Hordes of Chaos"/>
     <publication id="dc3a-2511-d23a-deb3" name="Beasts of Chaos"/>
@@ -8,7 +8,6 @@
     <categoryEntry id="e96f-4863-8bc0-0266" name="Beast" hidden="false"/>
     <categoryEntry id="c2a4-c683-aba9-9f52" name="Daemon" hidden="false"/>
     <categoryEntry id="a72e-11bf-6b23-95a6" name="Mortal" hidden="false"/>
-    <categoryEntry id="ef67-38cf-70b1-8a05" name="Filter" hidden="false"/>
     <categoryEntry id="8c83-a348-a664-eebe" name="Mark of Nurgle (Character)" hidden="false">
       <modifiers>
         <modifier type="set" field="4b71-8116-1469-87ce" value="-1.0">
@@ -114,7 +113,6 @@
     <categoryEntry id="a1ef-6866-5c70-daa1" name="Hide Mortals" hidden="false"/>
     <categoryEntry id="13a7-254f-3909-eab2" name="Shield" hidden="true"/>
     <categoryEntry id="b131-2b22-26f6-bcfb" name="Chosen" hidden="false"/>
-  <categoryEntry id="51cb-66bf-92f8-f97c" name="Hide Special Characters" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="b5b7-0447-4117-ed00" name="Beastlord" hidden="false" collective="false" import="true" type="model">
@@ -5371,68 +5369,38 @@ They use cavalry rules for spears.</description>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="600c-95ea-fcdc-cda6" name="Filters" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5942-fe30-44e3-02aa" name="Hide Beasts of Chaos" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80f0-45a6-6d4b-b8b0" type="max"/>
+      </constraints>
       <categoryLinks>
-        <categoryLink id="ac5f-ee64-6867-477b" name="Filter" hidden="false" targetId="ef67-38cf-70b1-8a05" primary="false"/>
+        <categoryLink id="25c6-6761-2745-f4fb" name="Filter" hidden="false" targetId="74d2-e404-7ef6-8d56" primary="true"/>
+        <categoryLink id="1371-d039-41fb-e2f9" name="Hide Beasts" hidden="false" targetId="0892-e336-b753-9d89" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="5942-fe30-44e3-02aa" name="Hide Beasts of Chaos" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80f0-45a6-6d4b-b8b0" type="max"/>
-          </constraints>
-          <categoryLinks>
-            <categoryLink id="25c6-6761-2745-f4fb" name="Filter" hidden="false" targetId="ef67-38cf-70b1-8a05" primary="false"/>
-            <categoryLink id="1371-d039-41fb-e2f9" name="Hide Beasts" hidden="false" targetId="0892-e336-b753-9d89" primary="false"/>
-          </categoryLinks>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="0b99-f6ec-55a8-7956" name="Hide Daemons of Chaos" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b080-cc5d-a80c-4dc6" type="max"/>
-          </constraints>
-          <categoryLinks>
-            <categoryLink id="5b60-0aa7-3c18-e557" name="Hide Daemons" hidden="false" targetId="90af-588e-073c-cec9" primary="false"/>
-            <categoryLink id="c3c7-d23f-746c-0876" name="Filter" hidden="false" targetId="ef67-38cf-70b1-8a05" primary="false"/>
-          </categoryLinks>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="c977-e979-4db8-eda3" name="Hide Mortal Worshippers of Chaos" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="320c-4d26-0658-612e" type="max"/>
-          </constraints>
-          <categoryLinks>
-            <categoryLink id="e8cb-3bba-29c3-1d28" name="Hide Mortals" hidden="false" targetId="a1ef-6866-5c70-daa1" primary="false"/>
-            <categoryLink id="2757-7d6e-4c37-c41f" name="Filter" hidden="false" targetId="ef67-38cf-70b1-8a05" primary="false"/>
-          </categoryLinks>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="e669-5178-c77c-941a" name="Hide Special Characters" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aba1-8ff4-0804-1463" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="db08-e913-133e-3f35" name="Hide Special Characters" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da1f-5f06-d0f2-3e5a" type="max"/>
-          </constraints>
-          <categoryLinks>
-            <categoryLink id="e30e-3030-0cb5-f975" name="Filter" hidden="false" targetId="ef67-38cf-70b1-8a05" primary="false"/>
-            <categoryLink id="882c-eaba-01fc-02c2" name="Hide Special Characters" hidden="false" targetId="51cb-66bf-92f8-f97c" primary="false"/>
-          </categoryLinks>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0b99-f6ec-55a8-7956" name="Hide Daemons of Chaos" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b080-cc5d-a80c-4dc6" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5b60-0aa7-3c18-e557" name="Hide Daemons" hidden="false" targetId="90af-588e-073c-cec9" primary="false"/>
+        <categoryLink id="c3c7-d23f-746c-0876" name="Filter" hidden="false" targetId="74d2-e404-7ef6-8d56" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c977-e979-4db8-eda3" name="Hide Mortal Worshippers of Chaos" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="320c-4d26-0658-612e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e8cb-3bba-29c3-1d28" name="Hide Mortals" hidden="false" targetId="a1ef-6866-5c70-daa1" primary="false"/>
+        <categoryLink id="2757-7d6e-4c37-c41f" name="Filter" hidden="false" targetId="74d2-e404-7ef6-8d56" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
@@ -5641,12 +5609,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e669-5178-c77c-941a" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="51cb-66bf-92f8-f97c" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -5748,17 +5711,12 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e669-5178-c77c-941a" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="a339-cfc2-c6a7-7335" value="0.0">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6478-2ab2-762c-cd50" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="51cb-66bf-92f8-f97c" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -5825,12 +5783,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e669-5178-c77c-941a" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="51cb-66bf-92f8-f97c" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -5960,12 +5913,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e669-5178-c77c-941a" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="51cb-66bf-92f8-f97c" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -6013,7 +5961,7 @@ Note this ability applies only to the mount, not to the Daemonette rider.</descr
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="51cb-66bf-92f8-f97c" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -7500,11 +7448,6 @@ Once per battle, the Daemon may automatically dispel one enemy spell, except one
             <modifier type="set" field="6bd9-c470-7d3d-5967" value="0.0">
               <conditions>
                 <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1a97-e87a-c1df-2331" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="623e-5f3d-d939-9b51" type="notInstanceOf"/>
               </conditions>
             </modifier>
             <modifier type="set" field="hidden" value="true">

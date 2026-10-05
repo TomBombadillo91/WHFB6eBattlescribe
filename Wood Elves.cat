@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7bb5-70b8-0122-944c" name="Wood Elves" revision="19" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7bb5-70b8-0122-944c" name="Wood Elves" revision="20" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="4f0e-c683-4011-68a9" name="Magic Bow" hidden="true"/>
     <categoryEntry id="3fee-c6b4-de1c-b33e" name="Magic Arrows" hidden="false"/>
@@ -8,8 +8,6 @@
     <categoryEntry id="6a3b-4039-2a09-aa1c" name="Highborn General" hidden="true"/>
     <categoryEntry id="79fe-9f48-0ec9-f9e2" name="Drycha General" hidden="true"/>
     <categoryEntry id="b24f-a0f1-581b-e574" name="Magic Suit of Armour" hidden="true"/>
-  <categoryEntry id="b635-d3fe-b69e-c4ef" name="Filter" hidden="false"/>
-  <categoryEntry id="8113-9a4b-e19f-0acd" name="Hide Special Characters" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="6f97-17a2-0f2d-9db6" name="Wood Elf Highborn" hidden="false" collective="false" import="true" type="model">
@@ -1922,7 +1920,7 @@ Regardless of whether the Warhawk Riders choose to fall back or not, the enemy m
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8113-9a4b-e19f-0acd" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2085,7 +2083,7 @@ The Cloak of Isha adds two Dispel dice to the Wood Elf Dispel dice pool.</descri
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8113-9a4b-e19f-0acd" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2157,6 +2155,13 @@ The Cloak of Isha adds two Dispel dice to the Wood Elf Dispel dice pool.</descri
       </costs>
     </selectionEntry>
     <selectionEntry id="c372-b15c-d5e4-8cf6" name="Arahan and Naestra" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="4d2a-5e07-6870-e7ab" name="Arahan" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -2290,7 +2295,7 @@ The Cloak of Isha adds two Dispel dice to the Wood Elf Dispel dice pool.</descri
                     <modifier type="append" field="name" value=" (3+)"/>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
-                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8113-9a4b-e19f-0acd" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -2316,25 +2321,6 @@ The Cloak of Isha adds two Dispel dice to the Wood Elf Dispel dice pool.</descri
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="275.0"/>
       </costs>
     </selectionEntry>
-  <selectionEntry id="2e0c-a2d8-e66c-cf8b" name="Filters" hidden="false" collective="false" import="true" type="upgrade">
-    <categoryLinks>
-      <categoryLink id="8861-bf95-f8fa-f97c" name="Filter" hidden="false" targetId="b635-d3fe-b69e-c4ef" primary="false"/>
-    </categoryLinks>
-    <selectionEntries>
-      <selectionEntry id="5984-5de6-792d-75a3" name="Hide Special Characters" hidden="false" collective="false" import="true" type="upgrade">
-        <constraints>
-          <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0893-3cc0-5e4a-c1fa" type="max"/>
-        </constraints>
-        <categoryLinks>
-          <categoryLink id="c76f-dca6-23cc-eea5" name="Filter" hidden="false" targetId="b635-d3fe-b69e-c4ef" primary="false"/>
-          <categoryLink id="8d5e-75f4-8a30-26f1" name="Hide Special Characters" hidden="false" targetId="8113-9a4b-e19f-0acd" primary="false"/>
-        </categoryLinks>
-        <costs>
-          <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-        </costs>
-      </selectionEntry>
-    </selectionEntries>
-  </selectionEntry>
   </selectionEntries>
   <rules>
     <rule id="af7d-f482-98f2-f418" name="Forest Walkers" hidden="false">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="29" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="30" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="3f17-868d-fac0-4c8d" name="First Among Equals" hidden="false">
       <constraints>
@@ -11,8 +11,6 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2457-f494-f478-69cd" type="min"/>
       </constraints>
     </categoryEntry>
-  <categoryEntry id="55a5-6a42-c2b1-34b6" name="Filter" hidden="false"/>
-  <categoryEntry id="5093-bfed-c3ba-435a" name="Hide Special Characters" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="e830-2e34-8314-6d44" name="Prince" hidden="false" collective="false" import="true" type="model">
@@ -2008,7 +2006,7 @@ If using the multiple shots option then the Repeater Bolt Thrower shoots six bol
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5093-bfed-c3ba-435a" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2140,7 +2138,7 @@ If Tyrion is slain, the Heart bursts into a thousand pieces in a flash of dazzli
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5093-bfed-c3ba-435a" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2240,7 +2238,7 @@ Once in each High Elf Magic phase, you may choose to unleash one of Alarielle&ap
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5093-bfed-c3ba-435a" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2322,7 +2320,7 @@ Unleashing his speed and strength in a flurry of blistering attacks, Eltharion r
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5093-bfed-c3ba-435a" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2443,7 +2441,7 @@ Once per battle, at the start of any of his own turns, lmrik may sound the Drago
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5093-bfed-c3ba-435a" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2638,26 +2636,14 @@ Once per battle, at the beginning of any High Elf Shooting phase or of any Close
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="300.0"/>
       </costs>
     </selectionEntry>
-  <selectionEntry id="a43f-1325-2511-439f" name="Filters" hidden="false" collective="false" import="true" type="upgrade">
-    <categoryLinks>
-      <categoryLink id="4045-0c73-cd31-627e" name="Filter" hidden="false" targetId="55a5-6a42-c2b1-34b6" primary="false"/>
-    </categoryLinks>
-    <selectionEntries>
-      <selectionEntry id="6692-6250-3bd8-98ec" name="Hide Special Characters" hidden="false" collective="false" import="true" type="upgrade">
-        <constraints>
-          <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79db-6473-1f1f-0731" type="max"/>
-        </constraints>
-        <categoryLinks>
-          <categoryLink id="c2fc-8316-bb62-f76f" name="Filter" hidden="false" targetId="55a5-6a42-c2b1-34b6" primary="false"/>
-          <categoryLink id="6e55-916f-299d-9804" name="Hide Special Characters" hidden="false" targetId="5093-bfed-c3ba-435a" primary="false"/>
-        </categoryLinks>
-        <costs>
-          <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-        </costs>
-      </selectionEntry>
-    </selectionEntries>
-  </selectionEntry>
     <selectionEntry id="c370-0ae1-fd54-1b9a" name="Eltharion the Grim" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="db2e-4f05-dd86-bb52" name="Eltharion" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
