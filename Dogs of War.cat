@@ -3461,21 +3461,6 @@ Luca Brazanga is armed with a Hand Weapon, Pistol, Crossbow and Heavy Armour</de
           </conditions>
         </modifier>
       </modifiers>
-      <profiles>
-        <profile id="8930-41ae-b13c-872f" name="Asarnil the Dragonlord" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
-          <characteristics>
-            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
-            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">7</characteristic>
-            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
-            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
-            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
-            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
-            <characteristic name="I" typeId="b418-0e30-644f-1435">7</characteristic>
-            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">4</characteristic>
-            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="1226-0685-a18b-9860" name="New CategoryLink" hidden="false" targetId="a3af-995e-0cf1-7091" primary="true"/>
         <categoryLink id="8923-573c-7a3e-0cf7" name="Regiment of Renown" hidden="false" targetId="c51c-ed7d-9669-006f" primary="false"/>

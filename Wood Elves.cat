@@ -707,21 +707,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <profiles>
-        <profile id="48c4-be4f-e691-8319" name="Glade Guard" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
-          <characteristics>
-            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
-            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
-            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
-            <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
-            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
-            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
-            <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
-            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
-            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <rules>
         <rule id="c392-cf16-798c-2a88" name="Glade Guard Longbows" hidden="false">
           <description>Glade Guard longbows are Strength 4 at short range.</description>
@@ -1094,21 +1079,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <profiles>
-        <profile id="99e0-0c15-5aab-a68c" name="Eternal Guard" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
-          <characteristics>
-            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
-            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
-            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">4</characteristic>
-            <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
-            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
-            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
-            <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
-            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
-            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <rules>
         <rule id="9152-3fc7-c7a2-57b1" name="Bodyguard" hidden="false">
           <description>As long as the army&apos;s General is with this unit, the unit is Stubborn.</description>
@@ -1392,21 +1362,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0d73-238e-14ec-1ebd" name="Tree Kin" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="24aa-42fd-b641-838b" name="Tree Kin" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
-          <characteristics>
-            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
-            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
-            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
-            <characteristic name="S" typeId="0c58-1252-962d-8fcc">5</characteristic>
-            <characteristic name="T" typeId="16d7-9f22-06d8-8427">5</characteristic>
-            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
-            <characteristic name="I" typeId="b418-0e30-644f-1435">3</characteristic>
-            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
-            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <infoLinks>
         <infoLink id="8845-68e6-192c-ef1b" name="Forest Spirit" hidden="false" targetId="fbc1-98db-5307-258b" type="infoGroup"/>
         <infoLink id="f4d1-c106-23f6-f879" name="Fear" hidden="false" targetId="03be-3e56-1332-bf56" type="rule"/>
@@ -1936,19 +1891,6 @@ Regardless of whether the Warhawk Riders choose to fall back or not, the enemy m
             <characteristic name="I" typeId="b418-0e30-644f-1435">9</characteristic>
             <characteristic name="A" typeId="fa03-f9a3-8117-98dd">6</characteristic>
             <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="dcee-4ae7-622b-8a2f" name="Hound" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
-          <characteristics>
-            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">9</characteristic>
-            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
-            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
-            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
-            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
-            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
-            <characteristic name="I" typeId="b418-0e30-644f-1435">4</characteristic>
-            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
-            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">6</characteristic>
           </characteristics>
         </profile>
       </profiles>

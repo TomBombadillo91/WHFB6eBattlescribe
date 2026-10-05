@@ -5574,19 +5574,6 @@ The Engineers can fight normally against enemies in base contact with the Tank&a
             <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
           </characteristics>
         </profile>
-        <profile id="2526-1ec9-cfaa-1bc9" name="Althandin" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
-          <characteristics>
-            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">9</characteristic>
-            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
-            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
-            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
-            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
-            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
-            <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
-            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2</characteristic>
-            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">7</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="be42-c490-c86e-ff56" name="Against the Odds" hidden="false" targetId="6e04-5c66-0414-a4b0" type="rule"/>

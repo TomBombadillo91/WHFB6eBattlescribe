@@ -877,21 +877,6 @@ Alternatively, Scouts can be placed on the controlling player&apos;s deployment 
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <profiles>
-        <profile id="9f7b-86f3-7147-7258" name="Saurus Warriors" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
-          <characteristics>
-            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
-            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
-            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
-            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
-            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
-            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
-            <characteristic name="I" typeId="b418-0e30-644f-1435">1</characteristic>
-            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2</characteristic>
-            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <rules>
         <rule id="f2ee-2bed-631d-8f5e" name="Predatory Fighters" hidden="false">
           <description>Saurus Warriors are vicious fighters whose bodies and armament have been created to maximise their fighting potential in close combat. As well as their well-designed weapons, they make use of their bony crests, powerful jaws and claws. Even their shields are designed to strike and slash with, making them formidable opponents.
@@ -997,21 +982,6 @@ However, this instinctive and predatory fighting style works best at close range
       </costs>
     </selectionEntry>
     <selectionEntry id="c51d-dd73-bce0-8e06" name="Skink Skirmishers" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="ad31-bff0-73f4-25c9" name="Skink Skirmishers" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
-          <characteristics>
-            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
-            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">2</characteristic>
-            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
-            <characteristic name="S" typeId="0c58-1252-962d-8fcc">3</characteristic>
-            <characteristic name="T" typeId="16d7-9f22-06d8-8427">2</characteristic>
-            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
-            <characteristic name="I" typeId="b418-0e30-644f-1435">4</characteristic>
-            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">1</characteristic>
-            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">5</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <rules>
         <rule id="7f1e-054b-b69f-425f" name="Aquatic" hidden="false">
           <description>Models with this special rule can move over marsh, rivers, lakes, or any other water features without penalty, and will benefit from soft cover while in such terrain.</description>
@@ -1135,21 +1105,6 @@ Alternatively, Scouts can be placed on the controlling player&apos;s deployment 
       </costs>
     </selectionEntry>
     <selectionEntry id="8b8b-4671-7167-f700" name="Jungle Swarm" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="de7e-e984-4eac-8076" name="Jungle Swarm" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
-          <characteristics>
-            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
-            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
-            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
-            <characteristic name="S" typeId="0c58-1252-962d-8fcc">2</characteristic>
-            <characteristic name="T" typeId="16d7-9f22-06d8-8427">2</characteristic>
-            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">5</characteristic>
-            <characteristic name="I" typeId="b418-0e30-644f-1435">1</characteristic>
-            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">5</characteristic>
-            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">10</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <rules>
         <rule id="58f0-5f2c-700a-769f" name="Swarm" hidden="false">
           <description>Jungle Swarms represent countless numbers of creatures on a single 40mm x 40mm base. This base is treated as a single model with several Wounds and Attacks. A Jungle Swarm base fights at full effect until it has taken 5 Wounds at which point it is removed. Jungle Swarms are Unbreakable and cannot be joined by characters.</description>
@@ -1206,21 +1161,6 @@ Alternatively, Scouts can be placed on the controlling player&apos;s deployment 
       <constraints>
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ff5-15ad-3bb5-0ea9" type="max"/>
       </constraints>
-      <profiles>
-        <profile id="8279-3259-b121-ebac" name="Temple Guard" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
-          <characteristics>
-            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
-            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
-            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
-            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
-            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
-            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
-            <characteristic name="I" typeId="b418-0e30-644f-1435">2</characteristic>
-            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2</characteristic>
-            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <rules>
         <rule id="e782-fc31-5687-a88d" name="Scaly Skin (5+)" hidden="false">
           <description>This unit has a Scaly Skin save of 5+.</description>
@@ -1343,19 +1283,6 @@ Alternatively, Scouts can be placed on the controlling player&apos;s deployment 
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="59d3-8376-6176-4ca3" name="Cold One Rider" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
-          <characteristics>
-            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">4</characteristic>
-            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
-            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
-            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
-            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
-            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
-            <characteristic name="I" typeId="b418-0e30-644f-1435">1</characteristic>
-            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2</characteristic>
-            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">8</characteristic>
-          </characteristics>
-        </profile>
         <profile id="ac09-15a5-f205-4fc1" name="Cold One" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
             <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">7</characteristic>
@@ -1465,21 +1392,6 @@ Alternatively, Scouts can be placed on the controlling player&apos;s deployment 
       </costs>
     </selectionEntry>
     <selectionEntry id="036c-ccdf-c273-2264" name="Kroxigor" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="da33-fe3c-7248-2cd8" name="Kroxigor" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
-          <characteristics>
-            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">6</characteristic>
-            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
-            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
-            <characteristic name="S" typeId="0c58-1252-962d-8fcc">5</characteristic>
-            <characteristic name="T" typeId="16d7-9f22-06d8-8427">4</characteristic>
-            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
-            <characteristic name="I" typeId="b418-0e30-644f-1435">1</characteristic>
-            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
-            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">7</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <rules>
         <rule id="047d-69c4-08ce-80be" name="Skirmish Screen" hidden="false">
           <description>Skinks and Kroxigors often fight in closely linked formations, the smaller Skinks scouting out the enemy for the Kroxigors to charge. When the Skinks find the enemy they chirrup back to the Kroxigors who then charge through the screen of Skink skirmishers.
@@ -1607,21 +1519,6 @@ In addition, they are able to sneak up extremely close to their foes. Chameleon 
       </costs>
     </selectionEntry>
     <selectionEntry id="3e46-f329-de47-6cee" name="Terradons" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="bd28-978f-395f-229d" name="Terradon &amp; Rider" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
-          <characteristics>
-            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">2</characteristic>
-            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
-            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">3</characteristic>
-            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
-            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
-            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
-            <characteristic name="I" typeId="b418-0e30-644f-1435">4</characteristic>
-            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">3</characteristic>
-            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">5</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <rules>
         <rule id="e561-e9b1-1f54-76c0" name="Hit-and-Run Attack" hidden="false">
           <description>Terradons attack their prey by diving upon them, grasping them in their talons and pulling them high up into the air, before dropping them.
