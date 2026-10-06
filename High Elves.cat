@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="29" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2ed9-b2d4-eb7d-a2c4" name="High Elves" revision="30" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="3f17-868d-fac0-4c8d" name="First Among Equals" hidden="false">
       <constraints>
@@ -11,8 +11,6 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2457-f494-f478-69cd" type="min"/>
       </constraints>
     </categoryEntry>
-  <categoryEntry id="55a5-6a42-c2b1-34b6" name="Filter" hidden="false"/>
-  <categoryEntry id="5093-bfed-c3ba-435a" name="Hide Special Characters" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="e830-2e34-8314-6d44" name="Prince" hidden="false" collective="false" import="true" type="model">
@@ -1325,6 +1323,14 @@ The model is immune to all breath attacks, and any fire-based attack (including 
       </costs>
     </selectionEntry>
     <selectionEntry id="001f-4110-8737-24ae" name="Swordmasters of Hoeth" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="8019-e0be-d589-fb29" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8f20-4cd8-f33f-b1f8" type="atLeast"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9774-01ac-4f53-784d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8019-e0be-d589-fb29" type="max"/>
       </constraints>
@@ -2008,7 +2014,7 @@ If using the multiple shots option then the Repeater Bolt Thrower shoots six bol
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5093-bfed-c3ba-435a" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2064,10 +2070,10 @@ In battle Malhandir counts as a monster. Malhandir wears barding which gives him
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink id="83c3-8493-9007-990e" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="83c3-8493-9007-990e" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="5748-4948-90ab-0498" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="2d28-0597-b290-1441" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
-        <categoryLink id="fb68-99d8-2ca1-e361" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+        <categoryLink id="2d28-0597-b290-1441" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
+        <categoryLink id="fb68-99d8-2ca1-e361" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="94e4-3f62-6c8e-24ef" name="Sunfang" hidden="false" collective="false" import="true" type="upgrade">
@@ -2140,7 +2146,7 @@ If Tyrion is slain, the Heart bursts into a thousand pieces in a flash of dazzli
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5093-bfed-c3ba-435a" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2184,10 +2190,10 @@ Alarielle always strikes first in close combat. If an enemy also has this abilit
         <infoLink id="2635-11f5-2c30-3b52" name="High Elf Mages" hidden="false" targetId="a50a-7b68-d0f2-8f95" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c310-8469-6df9-670b" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="c310-8469-6df9-670b" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="fe1b-9686-278f-5832" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="2a84-b529-ad65-1873" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
-        <categoryLink id="e6fb-4d45-548a-f5e0" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+        <categoryLink id="2a84-b529-ad65-1873" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
+        <categoryLink id="e6fb-4d45-548a-f5e0" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="057c-c062-0672-841b" name="Shieldstone of Isha" hidden="false" collective="false" import="true" type="upgrade">
@@ -2227,6 +2233,9 @@ Once in each High Elf Magic phase, you may choose to unleash one of Alarielle&ap
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="e60d-321f-c3f0-189d" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="515.0"/>
       </costs>
@@ -2240,7 +2249,7 @@ Once in each High Elf Magic phase, you may choose to unleash one of Alarielle&ap
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5093-bfed-c3ba-435a" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2310,10 +2319,30 @@ Unleashing his speed and strength in a flurry of blistering attacks, Eltharion r
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink id="618c-057e-e239-607f" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="618c-057e-e239-607f" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="a9c3-1969-be7f-9a28" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="d2ca-0223-d550-93a2" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="d2ca-0223-d550-93a2" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="8a6a-57e7-305f-7e2d" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="9546-137b-908a-dc4c" value="0.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9774-01ac-4f53-784d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="0d10-fcee-3fb6-e3dd" value="0.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9774-01ac-4f53-784d" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9546-137b-908a-dc4c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0d10-fcee-3fb6-e3dd" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="255.0"/>
       </costs>
@@ -2322,7 +2351,7 @@ Unleashing his speed and strength in a flurry of blistering attacks, Eltharion r
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5093-bfed-c3ba-435a" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2376,10 +2405,11 @@ Minaithnir is fanatically loyal to his  master. If lmrik is slain, Minaithnir wi
         <infoLink id="cd8b-de50-c38c-83ed" name="Scaly Skin" hidden="false" targetId="7eca-56b9-d1c7-c7c8" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="1bc1-d5c5-a250-608d" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="1bc1-d5c5-a250-608d" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="ee62-dcd7-d0ae-3702" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="1de3-1d35-1051-1ef1" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
-        <categoryLink id="8f9a-2d89-8069-0999" name="Two Additional Hero Choices" hidden="false" targetId="9dc5-bbce-5738-84e8" primary="false"/>
+        <categoryLink id="1de3-1d35-1051-1ef1" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
+        <categoryLink id="8f9a-2d89-8069-0999" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
+        <categoryLink id="1236-fc42-cd2f-2ea3" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1310-4a69-9bf0-de55" name="Star Lance" hidden="false" collective="false" import="true" type="upgrade">
@@ -2435,6 +2465,9 @@ Once per battle, at the start of any of his own turns, lmrik may sound the Drago
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="0741-df24-c681-6f77" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="355.0"/>
       </costs>
@@ -2443,7 +2476,7 @@ Once per battle, at the start of any of his own turns, lmrik may sound the Drago
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5093-bfed-c3ba-435a" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2506,10 +2539,10 @@ As soon as Teclis is reduced to 1 Wound he gets a 2+ Ward save for the rest of t
         <infoLink id="f1c9-3863-266b-5009" name="High Elf Mages" hidden="false" targetId="a50a-7b68-d0f2-8f95" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="32e0-38a9-841f-f69e" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="32e0-38a9-841f-f69e" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="6819-9171-58dd-aa9b" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="c8a4-002b-05a9-8090" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
-        <categoryLink id="1a09-1ecd-8813-1d65" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+        <categoryLink id="c8a4-002b-05a9-8090" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
+        <categoryLink id="1a09-1ecd-8813-1d65" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="87bf-8bd6-57db-15ba" name="Sword of Teclis" hidden="false" collective="false" import="true" type="upgrade">
@@ -2563,6 +2596,9 @@ When the enemy casts a spell, Teclis may read the Scroll of Hoeth aloud as he mi
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="cdf5-ecca-c1d2-d4d5" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="630.0"/>
       </costs>
@@ -2638,26 +2674,14 @@ Once per battle, at the beginning of any High Elf Shooting phase or of any Close
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="300.0"/>
       </costs>
     </selectionEntry>
-  <selectionEntry id="a43f-1325-2511-439f" name="Filters" hidden="false" collective="false" import="true" type="upgrade">
-    <categoryLinks>
-      <categoryLink id="4045-0c73-cd31-627e" name="Filter" hidden="false" targetId="55a5-6a42-c2b1-34b6" primary="false"/>
-    </categoryLinks>
-    <selectionEntries>
-      <selectionEntry id="6692-6250-3bd8-98ec" name="Hide Special Characters" hidden="false" collective="false" import="true" type="upgrade">
-        <constraints>
-          <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79db-6473-1f1f-0731" type="max"/>
-        </constraints>
-        <categoryLinks>
-          <categoryLink id="c2fc-8316-bb62-f76f" name="Filter" hidden="false" targetId="55a5-6a42-c2b1-34b6" primary="false"/>
-          <categoryLink id="6e55-916f-299d-9804" name="Hide Special Characters" hidden="false" targetId="5093-bfed-c3ba-435a" primary="false"/>
-        </categoryLinks>
-        <costs>
-          <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-        </costs>
-      </selectionEntry>
-    </selectionEntries>
-  </selectionEntry>
     <selectionEntry id="c370-0ae1-fd54-1b9a" name="Eltharion the Grim" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="db2e-4f05-dd86-bb52" name="Eltharion" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -2698,10 +2722,10 @@ Once per battle, at the beginning of any High Elf Shooting phase or of any Close
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink id="1bf1-310d-1f55-d6a5" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="1bf1-310d-1f55-d6a5" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="34a5-a0ed-0691-318e" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="dbba-395d-ae3b-9ba0" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
-        <categoryLink id="ac02-82e9-a6e4-4743" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+        <categoryLink id="dbba-395d-ae3b-9ba0" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
+        <categoryLink id="ac02-82e9-a6e4-4743" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="86a1-b8b6-6bfd-7dbf" name="The Fangsword of Athel Tamarha" hidden="false" collective="false" import="true" type="upgrade">

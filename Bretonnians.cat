@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="05b9-5022-67cd-4fd3" name="Bretonnians" revision="23" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="05b9-5022-67cd-4fd3" name="Bretonnians" revision="24" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="ff93-67ff-9b17-d51d" name="Grail Vow" hidden="false">
       <rules>
@@ -42,8 +42,6 @@ Characters with the Questing Vow cannot use a mundane or magical lance.</descrip
     <categoryEntry id="6425-ed2c-c2a2-1de5" name="Virtue of Confidence" hidden="false"/>
     <categoryEntry id="0dae-bfd2-f3f8-2e3a" name="Virtue of Purity" hidden="true"/>
     <categoryEntry id="3028-8738-97e3-72b3" name="Pegasus General" hidden="true"/>
-  <categoryEntry id="0b67-73b5-5a7a-3552" name="Filter" hidden="false"/>
-  <categoryEntry id="9791-f6e1-9ff1-2338" name="Hide Special Characters" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="b275-67a6-e0a9-ed19" name="Bretonnian Lord" hidden="false" collective="false" import="true" type="model">
@@ -1508,6 +1506,13 @@ In addition, the presence of the Grail Reliquae means that the entire unit will 
       </costs>
     </selectionEntry>
     <selectionEntry id="cbdc-ec3e-2e58-12e7" name="Grail Knights" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="8552-f87c-57a6-4c9c" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="02a0-4fc7-0c75-7ddd" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8552-f87c-57a6-4c9c" type="max"/>
       </constraints>
@@ -1728,7 +1733,7 @@ In addition, the presence of the Grail Reliquae means that the entire unit will 
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9791-f6e1-9ff1-2338" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -1844,6 +1849,13 @@ During the game, the Green Knight may disappear at will and reappear in another 
       </costs>
     </selectionEntry>
     <selectionEntry id="dd76-599d-7fdb-d160" name="The Fay Enchantress" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="d316-c9c6-7b52-8e6a" name="The Fay Enchantress" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -1878,11 +1890,6 @@ During the game, the Green Knight may disappear at will and reappear in another 
         <infoLink id="5a5d-97a5-66db-1673" name="Magic Resistance" hidden="false" targetId="6e0c-4c98-a2c2-af0d" type="rule">
           <modifiers>
             <modifier type="append" field="name" value=" (3)"/>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9791-f6e1-9ff1-2338" type="equalTo"/>
-              </conditions>
-            </modifier>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -2098,6 +2105,7 @@ The Toad Familiar adds one dice to both the Power dice and the Dispel dice pool 
       </selectionEntries>
       <entryLinks>
         <entryLink id="bb36-95ee-0f4a-e6c7" name="Lore of Magic" hidden="false" collective="false" import="true" targetId="3c79-613e-77df-160c" type="selectionEntryGroup"/>
+        <entryLink id="6df2-f937-4e70-d09c" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="480.0"/>
@@ -2107,7 +2115,7 @@ The Toad Familiar adds one dice to both the Power dice and the Dispel dice pool 
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9791-f6e1-9ff1-2338" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2167,10 +2175,10 @@ Any model with the Grail Vow always starts the game with The Blessing of the Lad
         <infoLink id="d43a-22b9-944d-149b" name="Large Target" hidden="false" targetId="01c3-c8c6-431f-1c2b" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="beb2-c52d-5f33-1039" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="beb2-c52d-5f33-1039" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="7b5b-5037-03d0-f393" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="21da-4a2f-fa25-9115" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
-        <categoryLink id="d636-f34f-361c-6869" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
+        <categoryLink id="21da-4a2f-fa25-9115" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
+        <categoryLink id="d636-f34f-361c-6869" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3f92-71ac-bd10-1b60" name="The Sword of Couronne" hidden="false" collective="false" import="true" type="upgrade">
@@ -2235,25 +2243,6 @@ Friendly troops may use Louen Leoncoeur&apos;s Leadership characteristic when he
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="528.0"/>
       </costs>
     </selectionEntry>
-  <selectionEntry id="2fd2-d774-12ef-d641" name="Filters" hidden="false" collective="false" import="true" type="upgrade">
-    <categoryLinks>
-      <categoryLink id="c9ab-26ed-c587-2fff" name="Filter" hidden="false" targetId="0b67-73b5-5a7a-3552" primary="false"/>
-    </categoryLinks>
-    <selectionEntries>
-      <selectionEntry id="7a17-9b59-5f2e-9093" name="Hide Special Characters" hidden="false" collective="false" import="true" type="upgrade">
-        <constraints>
-          <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfd1-38c1-1e59-5153" type="max"/>
-        </constraints>
-        <categoryLinks>
-          <categoryLink id="b417-a682-5ddf-fa49" name="Filter" hidden="false" targetId="0b67-73b5-5a7a-3552" primary="false"/>
-          <categoryLink id="9d0c-7983-11d1-4d0c" name="Hide Special Characters" hidden="false" targetId="9791-f6e1-9ff1-2338" primary="false"/>
-        </categoryLinks>
-        <costs>
-          <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-        </costs>
-      </selectionEntry>
-    </selectionEntries>
-  </selectionEntry>
   </selectionEntries>
   <rules>
     <rule id="8509-0cf0-5d2f-07de" name="The Blessing of the Lady" hidden="false">

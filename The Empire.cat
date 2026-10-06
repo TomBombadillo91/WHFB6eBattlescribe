@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="35" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f49f-f614-5cfb-004a" name="The Empire" revision="36" battleScribeVersion="2.03" library="false" gameSystemId="4ca8-2035-2f87-1bd7" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <costTypes>
     <costType id="fada-3781-5bbe-4625" name=" Hull Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -42,8 +42,6 @@
       </constraints>
     </categoryEntry>
     <categoryEntry id="b1e7-c274-e193-e55b" name="Parent Unit Model" hidden="true"/>
-  <categoryEntry id="e570-ee85-1ec9-43ae" name="Filter" hidden="false"/>
-  <categoryEntry id="e070-e63d-0932-3669" name="Hide Special Characters" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="b426-6114-c692-9f29" name="Elector Count" hidden="false" collective="false" import="true" type="unit">
@@ -2399,6 +2397,7 @@ When firing his own missile weapon, an Engineer can always choose a different ta
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3b85-b206-e2d5-ed73" type="atLeast"/>
                         <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="04a4-f65b-23e0-5227" type="equalTo"/>
                         <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="3d0c-d252-c3b7-f945" type="atLeast"/>
                       </conditions>
@@ -2909,6 +2908,7 @@ When firing his own missile weapon, an Engineer can always choose a different ta
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3b85-b206-e2d5-ed73" type="atLeast"/>
                         <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="04a4-f65b-23e0-5227" type="equalTo"/>
                         <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="3d0c-d252-c3b7-f945" type="atLeast"/>
                       </conditions>
@@ -3416,6 +3416,7 @@ When firing his own missile weapon, an Engineer can always choose a different ta
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3b85-b206-e2d5-ed73" type="atLeast"/>
                         <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="04a4-f65b-23e0-5227" type="equalTo"/>
                         <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="3d0c-d252-c3b7-f945" type="atLeast"/>
                       </conditions>
@@ -4907,7 +4908,7 @@ Flagellants may never be joined by any characters.</description>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e070-e63d-0932-3669" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -4969,6 +4970,7 @@ Centre the large 5&quot; template on the Warrior Priest. All Undead and Daemons 
         <categoryLink id="43aa-e523-bf6f-0616" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
         <categoryLink id="458c-bd1c-9a08-4f53" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="8e55-480b-ea83-567f" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="e052-207e-5fad-0e49" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6cd4-67a7-83c7-5769" name="Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
@@ -5034,7 +5036,7 @@ Centre the large 5&quot; template on the Warrior Priest. All Undead and Daemons 
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e070-e63d-0932-3669" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -5069,6 +5071,7 @@ Centre the large 5&quot; template on the Warrior Priest. All Undead and Daemons 
         <categoryLink id="a0fd-22ea-dfbf-18ce" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="fae8-fb7d-1cd3-c4a9" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
         <categoryLink id="df10-e557-8f39-0def" name="Wizard" hidden="false" targetId="eb46-88d4-eb41-2549" primary="false"/>
+        <categoryLink id="1fea-daea-03e0-6fc9" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="cefe-09bf-bd1a-f5b1" name="The Gleaming Robe" hidden="false" collective="false" import="true" type="upgrade">
@@ -5548,7 +5551,7 @@ The Engineers can fight normally against enemies in base contact with the Tank&a
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e070-e63d-0932-3669" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="5577-9d91-a402-6ea6" value="0.0">
@@ -5574,19 +5577,6 @@ The Engineers can fight normally against enemies in base contact with the Tank&a
             <characteristic name="Ld" typeId="bbad-d421-400b-87c1">9</characteristic>
           </characteristics>
         </profile>
-        <profile id="2526-1ec9-cfaa-1bc9" name="Althandin" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
-          <characteristics>
-            <characteristic name="M" typeId="da3c-fb2b-4c5f-a22b">9</characteristic>
-            <characteristic name="WS" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
-            <characteristic name="BS" typeId="22c7-799b-e07c-f32c">0</characteristic>
-            <characteristic name="S" typeId="0c58-1252-962d-8fcc">4</characteristic>
-            <characteristic name="T" typeId="16d7-9f22-06d8-8427">3</characteristic>
-            <characteristic name="W" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
-            <characteristic name="I" typeId="b418-0e30-644f-1435">5</characteristic>
-            <characteristic name="A" typeId="fa03-f9a3-8117-98dd">2</characteristic>
-            <characteristic name="Ld" typeId="bbad-d421-400b-87c1">7</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="be42-c490-c86e-ff56" name="Against the Odds" hidden="false" targetId="6e04-5c66-0414-a4b0" type="rule"/>
@@ -5596,8 +5586,8 @@ The Engineers can fight normally against enemies in base contact with the Tank&a
       <categoryLinks>
         <categoryLink id="22c6-54cb-86e1-e9b3" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="2073-7780-c923-8e23" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="3e79-f0ce-99f8-4ebe" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="85c7-ecf9-6f3d-eaf2" name="Additional Lord Choice" hidden="false" targetId="0daf-8d53-eadf-d10f" primary="false"/>
-        <categoryLink id="1e9c-6716-9741-e2e8" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="acf4-c665-c423-ba9b" name="Armour of the Heldenhammer" hidden="false" collective="false" import="true" type="upgrade">
@@ -5674,6 +5664,13 @@ Note: During the events known as the Storm of Chaos, Ghal Maraz is wielded by th
       </costs>
     </selectionEntry>
     <selectionEntry id="0b46-be2c-f32a-b8d0" name="Emperor Karl Franz" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="ae6a-17d2-c5a9-23a9" name="Karl Franz" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Model">
           <characteristics>
@@ -5703,6 +5700,7 @@ All friendly units within 18&quot; of the Emperor can always use his Leadership 
         <categoryLink id="bf82-8ea2-d89e-0872" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
         <categoryLink id="1788-ca7b-62aa-531a" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="e67b-5aa6-fdb9-e91f" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="b6d3-2c8f-93a7-5552" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="fb16-13ab-6822-51cb" name="Full Plate Armour" hidden="false" collective="false" import="true" type="upgrade">
@@ -5782,11 +5780,6 @@ Gives a 4+ Ward save and Magic Resistance (3) to the Emperor and his mount. In a
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="99ae-40ac-02ca-ec85" type="atLeast"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e070-e63d-0932-3669" type="equalTo"/>
-                  </conditions>
-                </modifier>
                 <modifier type="set" field="1be3-d094-28ef-c1eb" value="0.0">
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6330-3167-6079-da68" type="atLeast"/>
@@ -5842,7 +5835,7 @@ Note: During the events known as the Storm of Chaos, Ghal Maraz is wielded by th
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e070-e63d-0932-3669" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="b5a9-626a-1d8a-1267" value="0.0">
@@ -5880,11 +5873,14 @@ Note: During the events known as the Storm of Chaos, Ghal Maraz is wielded by th
         <infoLink id="a87a-f63c-6688-1785" name="Iron Resolve" hidden="false" targetId="a611-96f8-d83e-1380" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="4905-8d42-5767-9c24" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="4905-8d42-5767-9c24" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="59fc-fda3-431e-f5e6" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="14da-9e5b-1cb7-d83e" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
+        <categoryLink id="14da-9e5b-1cb7-d83e" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="true"/>
         <categoryLink id="e0b2-c9cf-6b8a-c1b2" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="a3e2-9b06-307a-a77d" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="215.0"/>
       </costs>
@@ -5893,7 +5889,7 @@ Note: During the events known as the Storm of Chaos, Ghal Maraz is wielded by th
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e070-e63d-0932-3669" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -5942,8 +5938,10 @@ Note: During the events known as the Storm of Chaos, Ghal Maraz is wielded by th
         <infoLink id="5378-b2e4-f7e1-7f50" name="Righteous Fury" hidden="false" targetId="c093-874e-7414-4a8a" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="79e1-964d-86b8-3da9" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="79e1-964d-86b8-3da9" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="c2c1-80ad-7325-9a5b" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
+        <categoryLink id="3ddb-9124-595e-e677" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
+        <categoryLink id="cd00-5716-c9d4-f590" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c5c2-99e6-5a8a-0095" name="The Jade Griffon" hidden="false" collective="false" import="true" type="upgrade">
@@ -5983,6 +5981,9 @@ The Grand Theogonist may add +2 to his Strength. If the War Altar is destroyed t
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="7fc6-42d9-aac5-8278" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
@@ -5991,7 +5992,7 @@ The Grand Theogonist may add +2 to his Strength. If the War Altar is destroyed t
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e070-e63d-0932-3669" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -6041,9 +6042,9 @@ Remains in play until dispelled or the Priest attempts to use another Prayer. Th
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink id="522a-9f4f-2984-feeb" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="522a-9f4f-2984-feeb" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="a0b7-aedc-2cfb-a155" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="5620-d6b5-8659-6089" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="5620-d6b5-8659-6089" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4a2f-3a93-d7fc-2276" name="Hammer-axe of Skoll" hidden="false" collective="false" import="true" type="upgrade">
@@ -6101,6 +6102,9 @@ One use only. Before using a Prayer, a Priest of Ulric may declare he is using h
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="8996-837f-6948-8f7b" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="325.0"/>
       </costs>
@@ -6109,7 +6113,7 @@ One use only. Before using a Prayer, a Priest of Ulric may declare he is using h
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e070-e63d-0932-3669" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -6147,9 +6151,9 @@ One use only. Before using a Prayer, a Priest of Ulric may declare he is using h
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink id="72dc-b190-14de-30f1" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="72dc-b190-14de-30f1" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="7aa8-423a-dbf4-b6e4" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="3b6c-4b6b-306b-9dda" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
+        <categoryLink id="3b6c-4b6b-306b-9dda" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ee00-7ea1-598d-304d" name="Talisman of Ulric" hidden="false" collective="false" import="true" type="upgrade">
@@ -6166,11 +6170,6 @@ One use only. Before using a Prayer, a Priest of Ulric may declare he is using h
       <entryLinks>
         <entryLink id="40c5-5912-d40b-d291" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="a95f-3cc8-8140-6eaa" value="0.0">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0b46-be2c-f32a-b8d0" type="atLeast"/>
-              </conditions>
-            </modifier>
             <modifier type="set" field="031b-4e00-94a2-aa33" value="0.0">
               <conditions>
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0b46-be2c-f32a-b8d0" type="atLeast"/>
@@ -6178,7 +6177,6 @@ One use only. Before using a Prayer, a Priest of Ulric may declare he is using h
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a95f-3cc8-8140-6eaa" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="031b-4e00-94a2-aa33" type="max"/>
           </constraints>
         </entryLink>
@@ -6187,27 +6185,13 @@ One use only. Before using a Prayer, a Priest of Ulric may declare he is using h
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="278.0"/>
       </costs>
     </selectionEntry>
-  <selectionEntry id="f80e-190c-a19f-c9f3" name="Filters" hidden="false" collective="false" import="true" type="upgrade">
-    <categoryLinks>
-      <categoryLink id="105f-a51b-3566-f032" name="Filter" hidden="false" targetId="e570-ee85-1ec9-43ae" primary="false"/>
-    </categoryLinks>
-    <selectionEntries>
-      <selectionEntry id="49c8-8c7d-b97d-4f2d" name="Hide Special Characters" hidden="false" collective="false" import="true" type="upgrade">
-        <constraints>
-          <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac31-76e0-2529-791e" type="max"/>
-        </constraints>
-        <categoryLinks>
-          <categoryLink id="d6e7-0468-ec90-f837" name="Filter" hidden="false" targetId="e570-ee85-1ec9-43ae" primary="false"/>
-          <categoryLink id="3dd8-20b3-00f2-eb4e" name="Hide Special Characters" hidden="false" targetId="e070-e63d-0932-3669" primary="false"/>
-        </categoryLinks>
-        <costs>
-          <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-        </costs>
-      </selectionEntry>
-    </selectionEntries>
-  </selectionEntry>
     <selectionEntry id="6330-3167-6079-da68" name="Valten, Chosen of Sigmar" hidden="false" collective="false" import="true" type="model">
       <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f199-fd22-343c-2043" type="equalTo"/>
+          </conditions>
+        </modifier>
         <modifier type="set" field="f481-93fd-9e36-8c19" value="0.0">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4b05-81f6-c401-7af5" type="atLeast"/>
@@ -6256,10 +6240,11 @@ One use only. Before using a Prayer, a Priest of Ulric may declare he is using h
         <infoLink id="bebd-3c5b-143a-fa7b" name="Iron Resolve" hidden="false" targetId="a611-96f8-d83e-1380" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="9c53-2456-f6f3-95ce" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
+        <categoryLink id="9c53-2456-f6f3-95ce" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
         <categoryLink id="9e4d-10e5-22b2-c68e" name="Special Character" hidden="false" targetId="b91d-d3b1-8b46-6d52" primary="false"/>
-        <categoryLink id="9d90-d90d-392d-841b" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="false"/>
-        <categoryLink id="188b-b1f0-43df-1e4a" name="Two Additional Hero Choices" hidden="false" targetId="9dc5-bbce-5738-84e8" primary="false"/>
+        <categoryLink id="9d90-d90d-392d-841b" name="Lords" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
+        <categoryLink id="188b-b1f0-43df-1e4a" name="Heroes" hidden="false" targetId="5694-61f3-6913-6154" primary="false"/>
+        <categoryLink id="527f-1157-2e2d-37ba" name="Additional Hero Choice" hidden="false" targetId="4e99-ada4-8f3b-ed30" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="a439-134a-23a0-9b64" name="Ghal Maraz" hidden="false" collective="false" import="true" type="upgrade">
@@ -6280,6 +6265,9 @@ Note: During the events known as the Storm of Chaos, Ghal Maraz is wielded by th
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="d4fe-7f6f-187d-bcd0" name="General" hidden="false" collective="false" import="true" targetId="cf7b-798c-9b94-df74" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="490.0"/>
       </costs>
